@@ -1,40 +1,84 @@
 // JavaScript for AI Career Coach Website - Dynamic Git CDN Fetching & App Promotion
 
 let globalSkills = [];
-const CDN_SKILLS_URL = 'https://cdn.jsdelivr.net/gh/SiddhuSandySam/ai-career-coach@main/website/skills.json';
+const RAW_TUTORIAL_MASTER_URL = 'https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/website/tutorials/master.json';
 const RAW_SKILLS_URL = 'https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/website/skills.json';
-const CDN_GYM_BASE = 'https://cdn.jsdelivr.net/gh/SiddhuSandySam/ai-career-coach@main/website/gym/';
+const CDN_GYM_BASE = 'https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/website/gym/';
 const APP_PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach';
 
-// Fetch Dynamic Skills JSON from Git CDN (0 Firebase Reads!)
+// Fetch All 21+ Dynamic Tutorial Skills JSON from Git CDN (0 Firebase Reads!)
 async function loadDynamicSkills() {
     try {
-        let response = await fetch(CDN_SKILLS_URL);
-        if (!response.ok) {
-            response = await fetch(RAW_SKILLS_URL);
-        }
-        const data = await response.json();
-        if (data && data.skills && data.skills.length > 0) {
-            globalSkills = data.skills;
-            renderSkillChips(globalSkills);
-            filterSkill(globalSkills[0].id);
-            return;
+        // Step 1: Fetch Master Tutorials Index (Contains all 21 tutorial modules)
+        const response = await fetch(RAW_TUTORIAL_MASTER_URL);
+        if (response.ok) {
+            const data = await response.json();
+            if (data && data.modules && data.modules.length > 0) {
+                globalSkills = data.modules.map(mod => {
+                    return {
+                        id: mod.moduleId,
+                        name: mod.moduleName,
+                        questions: (mod.topics || []).map(t => ({
+                            q: `Explain ${t.topicName}`,
+                            level: "Easy",
+                            concept: mod.moduleName
+                        }))
+                    };
+                });
+
+                // Step 2: Also try fetching extra Gym Skills from skills.json (like jpa, plsql, general)
+                try {
+                    const skillsResp = await fetch(RAW_SKILLS_URL);
+                    if (skillsResp.ok) {
+                        const skillsData = await skillsResp.json();
+                        if (skillsData && skillsData.skills) {
+                            skillsData.skills.forEach(skill => {
+                                if (!globalSkills.some(s => s.id === skill.id)) {
+                                    globalSkills.push(skill);
+                                }
+                            });
+                        }
+                    }
+                } catch (ignored) {}
+
+                renderSkillChips(globalSkills);
+                if (globalSkills.length > 0) {
+                    filterSkill(globalSkills[0].id);
+                }
+                return;
+            }
         }
     } catch (e) {
-        console.warn("Git CDN skills fetch failed, using fallback:", e);
+        console.warn("Git master tutorials fetch failed, trying skills.json:", e);
     }
 
-    // Fallback Data if CDN fetch is offline
+    // Step 3: Fallback to skills.json if master.json fetch fails
+    try {
+        const skillsResp = await fetch(RAW_SKILLS_URL);
+        if (skillsResp.ok) {
+            const skillsData = await skillsResp.json();
+            if (skillsData && skillsData.skills && skillsData.skills.length > 0) {
+                globalSkills = skillsData.skills;
+                renderSkillChips(globalSkills);
+                filterSkill(globalSkills[0].id);
+                return;
+            }
+        }
+    } catch (e) {
+        console.warn("Fallback skills.json fetch failed:", e);
+    }
+
+    // Local Fallback Data
     globalSkills = [
-        { id: "java", name: "☕ Core Java", questions: [{ q: "How does HashMap handle bucket collisions in Java 8?", a: "In Java 8, HashMap handles collisions by using LinkedList initially, but automatically converts the bucket into a Balanced Red-Black Tree when the number of elements exceeds TREEIFY_THRESHOLD (8).", level: "Medium", p: ["Uses LinkedList initially", "Converts to Red-Black Tree if size > 8", "O(log n) worst-case lookup speed"] }] },
+        { id: "core_java", name: "☕ Core Java & OOPs", questions: [{ q: "How does HashMap handle bucket collisions in Java 8?", a: "In Java 8, HashMap handles collisions by using LinkedList initially, but automatically converts the bucket into a Balanced Red-Black Tree when the number of elements exceeds TREEIFY_THRESHOLD (8).", level: "Medium", p: ["Uses LinkedList initially", "Converts to Red-Black Tree if size > 8", "O(log n) worst-case lookup speed"] }] },
         { id: "android", name: "📱 Android & Kotlin", questions: [{ q: "Explain Activity Lifecycle order during screen rotation.", a: "When screen rotates, current Activity is destroyed and recreated: onPause() -> onStop() -> onDestroy() -> onCreate() -> onStart() -> onResume().", level: "Easy", p: ["Destroys and recreates Activity", "ViewModel retains state", "onSaveInstanceState preserves bundle"] }] },
-        { id: "python", name: "🐍 Python", questions: [{ q: "Explain GIL (Global Interpreter Lock) in Python concurrency.", level: "Hard" }] },
+        { id: "python", name: "🐍 Python & FastAPI", questions: [{ q: "Explain GIL (Global Interpreter Lock) in Python concurrency.", level: "Hard" }] },
         { id: "sql", name: "🛢️ SQL & Indexing", questions: [{ q: "What is the difference between INNER JOIN and LEFT OUTER JOIN?", level: "Easy" }] },
-        { id: "springboot", name: "🌿 Spring Boot", questions: [{ q: "How does Dependency Injection (IoC Container) work in Spring?", level: "Easy" }] }
+        { id: "spring_boot", name: "🌿 Spring Boot & Microservices", questions: [{ q: "How does Dependency Injection (IoC Container) work in Spring?", level: "Easy" }] }
     ];
 
     renderSkillChips(globalSkills);
-    filterSkill('java');
+    filterSkill('core_java');
 }
 
 // Dynamically Render W3Schools-Style Top Navbar & Section Filter Chips
@@ -50,7 +94,7 @@ function renderSkillChips(skills) {
 
         // Top W3Schools Pill Button
         topNavHtml += `
-            <button onclick="filterSkillAndScroll('${skill.id}')" id="topnav-chip-${skill.id}" class="top-skill-pill ${isFirst ? 'active bg-cyan-500 text-slate-950 font-black' : 'bg-slate-800/80 text-slate-300 hover:bg-slate-700 hover:text-white'} px-3.5 py-1 rounded-lg text-xs font-bold transition-all border border-slate-700/60 shrink-0">
+            <button onclick="filterSkillAndScroll('${skill.id}')" id="topnav-chip-${skill.id}" class="top-skill-pill ${isFirst ? 'active bg-cyan-500 text-slate-950 font-black shadow-md shadow-cyan-500/20' : 'bg-slate-800/80 text-slate-300 hover:bg-slate-700 hover:text-white'} px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all border border-slate-700/60 shrink-0">
                 ${skill.name}
             </button>
         `;
@@ -80,13 +124,13 @@ async function filterSkill(skillId) {
     // Style active top nav pills
     const topPills = document.querySelectorAll('.top-skill-pill');
     topPills.forEach(pill => {
-        pill.classList.remove('active', 'bg-cyan-500', 'text-slate-950', 'font-black');
+        pill.classList.remove('active', 'bg-cyan-500', 'text-slate-950', 'font-black', 'shadow-md', 'shadow-cyan-500/20');
         pill.classList.add('bg-slate-800/80', 'text-slate-300', 'hover:bg-slate-700');
     });
 
     const activeTopPill = document.getElementById(`topnav-chip-${skillId}`);
     if (activeTopPill) {
-        activeTopPill.classList.add('active', 'bg-cyan-500', 'text-slate-950', 'font-black');
+        activeTopPill.classList.add('active', 'bg-cyan-500', 'text-slate-950', 'font-black', 'shadow-md', 'shadow-cyan-500/20');
         activeTopPill.classList.remove('bg-slate-800/80', 'text-slate-300', 'hover:bg-slate-700');
         activeTopPill.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
