@@ -1,12 +1,18 @@
-// JavaScript for AI Career Coach Website - Dynamic GitHub JSON Fetching
+// JavaScript for AI Career Coach Website - Dynamic Git CDN Fetching & App Promotion
 
 let globalSkills = [];
+const CDN_SKILLS_URL = 'https://cdn.jsdelivr.net/gh/SiddhuSandySam/ai-career-coach@main/website/skills.json';
+const RAW_SKILLS_URL = 'https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/website/skills.json';
+const CDN_GYM_BASE = 'https://cdn.jsdelivr.net/gh/SiddhuSandySam/ai-career-coach@main/website/gym/';
+const APP_PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach';
 
-// Fetch Dynamic Skills JSON from GitHub Raw CDN (0 Firebase Reads!)
+// Fetch Dynamic Skills JSON from Git CDN (0 Firebase Reads!)
 async function loadDynamicSkills() {
-    const githubJsonUrl = 'https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/website/skills.json';
     try {
-        const response = await fetch(githubJsonUrl);
+        let response = await fetch(CDN_SKILLS_URL);
+        if (!response.ok) {
+            response = await fetch(RAW_SKILLS_URL);
+        }
         const data = await response.json();
         if (data && data.skills) {
             globalSkills = data.skills;
@@ -17,10 +23,10 @@ async function loadDynamicSkills() {
             return;
         }
     } catch (e) {
-        console.warn("GitHub JSON fetch failed, using local fallback:", e);
+        console.warn("Git CDN skills fetch failed, using fallback:", e);
     }
 
-    // Fallback Data if GitHub fetch is offline
+    // Fallback Data if CDN fetch is offline
     globalSkills = [
         {
             id: "java",
@@ -81,7 +87,7 @@ function renderSkillChips(skills) {
     let html = '';
     skills.forEach((skill, index) => {
         const activeClass = index === 0
-            ? 'active bg-cyan-500/20 border-cyan-500/40 text-white'
+            ? 'active bg-cyan-500/20 border-cyan-500/40 text-white shadow-lg shadow-cyan-500/10'
             : 'bg-slate-800/60 border-slate-700/60 text-slate-400';
 
         html += `
@@ -94,45 +100,74 @@ function renderSkillChips(skills) {
     chipContainer.innerHTML = html;
 }
 
-// Filter Skill Questions & Render Lock Cards
-function filterSkill(skillId) {
+// Filter Skill Questions & Render Promotional App Redirection Cards
+async function filterSkill(skillId) {
     // Style active chip
     const chips = document.querySelectorAll('.skill-chip');
     chips.forEach(chip => {
-        chip.classList.remove('active', 'bg-cyan-500/20', 'border-cyan-500/40', 'text-white');
+        chip.classList.remove('active', 'bg-cyan-500/20', 'border-cyan-500/40', 'text-white', 'shadow-lg', 'shadow-cyan-500/10');
         chip.classList.add('bg-slate-800/60', 'border-slate-700/60', 'text-slate-400');
     });
 
     const activeChip = document.getElementById(`chip-${skillId}`);
     if (activeChip) {
-        activeChip.classList.add('active', 'bg-cyan-500/20', 'border-cyan-500/40', 'text-white');
+        activeChip.classList.add('active', 'bg-cyan-500/20', 'border-cyan-500/40', 'text-white', 'shadow-lg', 'shadow-cyan-500/10');
         activeChip.classList.remove('bg-slate-800/60', 'border-slate-700/60', 'text-slate-400');
     }
 
     const container = document.getElementById('skill-questions-container');
     if (!container) return;
 
-    const matchedSkill = globalSkills.find(s => s.id === skillId) || globalSkills[0];
-    const questions = matchedSkill ? matchedSkill.questions : [];
+    let questions = [];
+
+    // Try fetching deep gym questions from Git CDN for this skill
+    try {
+        const gymResponse = await fetch(`${CDN_GYM_BASE}${skillId}.json`);
+        if (gymResponse.ok) {
+            const gymData = await gymResponse.json();
+            if (gymData && gymData.concepts) {
+                gymData.concepts.forEach(concept => {
+                    if (concept.questions) {
+                        concept.questions.forEach(qObj => {
+                            questions.push({
+                                q: qObj.q,
+                                level: qObj.level || "Medium",
+                                concept: concept.conceptName
+                            });
+                        });
+                    }
+                });
+            }
+        }
+    } catch (e) {
+        console.log(`Deep gym fetch fallback for ${skillId}:`, e);
+    }
+
+    // Fallback to master skills list if deep gym not available
+    if (questions.length === 0) {
+        const matchedSkill = globalSkills.find(s => s.id === skillId) || globalSkills[0];
+        questions = matchedSkill ? matchedSkill.questions : [];
+    }
 
     let html = '';
-    questions.forEach(item => {
+    questions.slice(0, 9).forEach(item => {
         html += `
             <div class="bg-[#151C2C] border border-slate-800 rounded-2xl p-6 relative overflow-hidden flex flex-col justify-between group hover:border-cyan-500/40 transition-all shadow-xl">
                 <div>
                     <div class="flex items-center justify-between mb-3">
                         <span class="px-2.5 py-1 rounded-md text-[11px] font-extrabold uppercase ${getLevelBadgeClass(item.level)}">${item.level}</span>
-                        <span class="text-xs text-slate-500 font-semibold">Verified Question</span>
+                        <span class="text-xs text-slate-500 font-semibold">Verified Q&A Teaser</span>
                     </div>
                     <h4 class="text-slate-100 font-bold text-base leading-snug mb-4">"${item.q}"</h4>
+                    ${item.concept ? `<p class="text-xs text-slate-400 mb-4 font-medium">📌 ${item.concept}</p>` : ''}
                 </div>
 
-                <!-- Locked Answer CTA -->
+                <!-- Promotional Redirect CTA to App -->
                 <div class="pt-4 border-t border-slate-800/80 mt-2">
-                    <a href="https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach" target="_blank"
-                       class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 hover:bg-cyan-500/20 transition-all">
+                    <a href="${APP_PLAY_STORE_URL}" target="_blank"
+                       class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 hover:bg-cyan-500/20 hover:scale-[1.02] active:scale-[0.98] transition-all">
                         <i data-lucide="lock" class="w-3.5 h-3.5"></i>
-                        <span>Unlock Full Answer in App</span>
+                        <span>Unlock Answer & Key Points in App</span>
                     </a>
                 </div>
             </div>
