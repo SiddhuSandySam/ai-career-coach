@@ -1,66 +1,113 @@
 {
+  "lastSyncedAt": "2026-09-15T00:00:00.000Z",
+  "totalSkills": 10,
   "skills": [
     {
       "id": "java",
       "name": "☕ Core Java & OOPs",
+      "category": "Backend",
       "questions": [
         { "q": "How does HashMap handle bucket collisions in Java 8?", "level": "Medium" },
         { "q": "Explain the difference between String, StringBuilder, and StringBuffer.", "level": "Easy" },
-        { "q": "How does Garbage Collection (G1/ZGC) work under the hood in JVM?", "level": "Hard" }
+        { "q": "How does Garbage Collection (G1/ZGC) work under the hood in JVM?", "level": "Hard" },
+        { "q": "What is the difference between Checked and Unchecked Exceptions?", "level": "Easy" },
+        { "q": "Explain the volatile keyword and memory visibility in Java multithreading.", "level": "Hard" }
       ]
     },
     {
       "id": "android",
       "name": "📱 Android & Kotlin",
+      "category": "Mobile",
       "questions": [
         { "q": "Explain Activity Lifecycle order during screen rotation.", "level": "Easy" },
         { "q": "How do Coroutines and StateFlow replace LiveData in modern MVVM?", "level": "Medium" },
-        { "q": "How do you prevent memory leaks when passing Context to singletons?", "level": "Hard" }
+        { "q": "How do you prevent memory leaks when passing Context to singletons?", "level": "Hard" },
+        { "q": "Explain Jetpack Compose recomposition and State hoisting.", "level": "Medium" },
+        { "q": "How does Room Database handle migrations safely?", "level": "Hard" }
       ]
     },
     {
       "id": "python",
       "name": "🐍 Python & FastAPI",
+      "category": "Backend",
       "questions": [
         { "q": "Explain GIL (Global Interpreter Lock) in Python concurrency.", "level": "Hard" },
         { "q": "What is the difference between list.append() and list.extend()?", "level": "Easy" },
-        { "q": "How do Decorators and Generators work in Python?", "level": "Medium" }
+        { "q": "How do Decorators and Generators work in Python?", "level": "Medium" },
+        { "q": "Explain Asyncio and event loop in FastAPI.", "level": "Medium" }
       ]
     },
     {
       "id": "sql",
       "name": "🛢️ SQL & Database Indexing",
+      "category": "Database",
       "questions": [
         { "q": "What is the difference between INNER JOIN and LEFT OUTER JOIN?", "level": "Easy" },
         { "q": "Explain B-Tree Indexing and why over-indexing slows down INSERTS.", "level": "Hard" },
-        { "q": "Explain ACID properties in database transactions.", "level": "Medium" }
+        { "q": "Explain ACID properties in database transactions.", "level": "Medium" },
+        { "q": "How do database locks (Shared vs Exclusive) work in MySQL/PostgreSQL?", "level": "Hard" }
       ]
     },
     {
       "id": "docker",
-      "name": "🐋 Docker & Cloud",
+      "name": "🐋 Docker & Kubernetes",
+      "category": "DevOps",
       "questions": [
         { "q": "What is the difference between Docker Image and Docker Container?", "level": "Easy" },
         { "q": "How does Docker Compose orchestrate multi-container microservices?", "level": "Medium" },
-        { "q": "How do multi-stage Docker builds optimize image size?", "level": "Hard" }
+        { "q": "How do multi-stage Docker builds optimize image size?", "level": "Hard" },
+        { "q": "Explain Kubernetes Pods, Deployments, and Services.", "level": "Medium" }
       ]
     },
     {
       "id": "system_design",
-      "name": "🌐 System Design & CAP",
+      "name": "🌐 System Design & Microservices",
+      "category": "Architecture",
       "questions": [
         { "q": "Explain CAP Theorem and trade-offs between CP and AP systems.", "level": "Hard" },
         { "q": "How does Cache-Aside pattern work with Redis?", "level": "Medium" },
-        { "q": "What are the key load balancing algorithms?", "level": "Easy" }
+        { "q": "What are the key load balancing algorithms (Round Robin, Least Conn)?", "level": "Easy" },
+        { "q": "How do Rate Limiters work using Token Bucket / Leaky Bucket algorithm?", "level": "Hard" }
       ]
     },
     {
       "id": "react",
-      "name": "⚛️ React & Redux",
+      "name": "⚛️ React & Frontend",
+      "category": "Frontend",
       "questions": [
         { "q": "What is Virtual DOM and how does reconciliation work in React?", "level": "Medium" },
         { "q": "Explain useEffect hook lifecycle and dependency array rules.", "level": "Easy" },
-        { "q": "How do Server Components and Suspense optimize web apps?", "level": "Hard" }
+        { "q": "How do Server Components and Suspense optimize web performance?", "level": "Hard" }
+      ]
+    },
+    {
+      "id": "springboot",
+      "name": "🌿 Spring Boot & Microservices",
+      "category": "Backend",
+      "questions": [
+        { "q": "How does Dependency Injection (IoC Container) work in Spring?", "level": "Easy" },
+        { "q": "Explain @Transactional annotation rollback mechanism.", "level": "Medium" },
+        { "q": "How do Spring Cloud API Gateway and Eureka Service Discovery interact?", "level": "Hard" }
+      ]
+    },
+    {
+      "id": "dsa",
+      "name": "⚙️ Data Structures & Algorithms",
+      "category": "CS Fundamentals",
+      "questions": [
+        { "q": "How to detect a cycle in a Linked List using Floyd's Cycle Detection?", "level": "Easy" },
+        { "q": "Explain Binary Search Tree (BST) vs AVL Tree balancing.", "level": "Medium" },
+        { "q": "How does Dynamic Programming (Memoization vs Tabulation) solve 0/1 Knapsack?", "level": "Hard" }
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "🛠️ Git, Linux & CI/CD",
+      "category": "DevOps",
+      "questions": [
+        { "q": "What is the difference between git merge and git rebase?", "level": "Medium" },
+        { "q": "Explain Linux file permissions (chmod 755 vs 644).", "level": "Easy" },
+        { "q": "How do GitHub Actions CI/CD workflows automate deployment?", "level": "Medium" }
       ]
     }
   ]
