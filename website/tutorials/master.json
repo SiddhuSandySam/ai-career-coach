@@ -2,7 +2,7 @@
   "modules": [
     {
       "moduleId": "core_java",
-      "moduleName": "☕ Core Java & OOPs",
+      "moduleName": "Core Java",
       "order": 1,
       "description": "Master Core Java from basics to advanced.",
       "topics": [
@@ -350,7 +350,7 @@
     },
     {
       "moduleId": "spring_boot",
-      "moduleName": "🌿 Spring Boot & Microservices",
+      "moduleName": "Spring Boot",
       "order": 2,
       "description": "Master Spring Boot from basics to advanced.",
       "topics": [
@@ -558,7 +558,7 @@
     },
     {
       "moduleId": "sql",
-      "moduleName": "🛢️ SQL & Database Indexing",
+      "moduleName": "SQL",
       "order": 3,
       "description": "Master SQL from basics to advanced.",
       "topics": [
@@ -961,7 +961,7 @@
     },
     {
       "moduleId": "html5",
-      "moduleName": "🌐 HTML5 & CSS3",
+      "moduleName": "HTML5",
       "order": 4,
       "description": "Master HTML5 from basics to advanced.",
       "topics": [
@@ -1164,7 +1164,7 @@
     },
     {
       "moduleId": "reactjs",
-      "moduleName": "⚛️ React.js & Frontend",
+      "moduleName": "React.js",
       "order": 5,
       "description": "Master React.js from basics to advanced.",
       "topics": [
@@ -1502,7 +1502,7 @@
     },
     {
       "moduleId": "angular",
-      "moduleName": "🅰️ Angular Framework",
+      "moduleName": "Angular",
       "order": 6,
       "description": "Master Angular from basics to advanced.",
       "topics": [
@@ -1905,7 +1905,7 @@
     },
     {
       "moduleId": "javascript",
-      "moduleName": "💛 JavaScript (ES6+)",
+      "moduleName": "JavaScript",
       "order": 7,
       "description": "Master JavaScript from basics to advanced.",
       "topics": [
@@ -2183,7 +2183,7 @@
     },
     {
       "moduleId": "python",
-      "moduleName": "🐍 Python & FastAPI",
+      "moduleName": "Python",
       "order": 8,
       "description": "Master Python from basics to advanced.",
       "topics": [
@@ -2561,7 +2561,7 @@
     },
     {
       "moduleId": "oracle_db",
-      "moduleName": "🛢️ Oracle Database SQL",
+      "moduleName": "Oracle DB",
       "order": 9,
       "description": "Master Oracle DB from basics to advanced.",
       "topics": [
@@ -2909,7 +2909,7 @@
     },
     {
       "moduleId": "mongodb",
-      "moduleName": "🍃 MongoDB NoSQL",
+      "moduleName": "MongoDB",
       "order": 10,
       "description": "Master MongoDB from basics to advanced.",
       "topics": [
@@ -3262,7 +3262,7 @@
     },
     {
       "moduleId": "php",
-      "moduleName": "🐘 PHP & Web Backend",
+      "moduleName": "PHP",
       "order": 11,
       "description": "Master PHP from basics to advanced.",
       "topics": [
@@ -3680,7 +3680,7 @@
     },
     {
       "moduleId": "google_cloud_gcp",
-      "moduleName": "☁️ Google Cloud GCP",
+      "moduleName": "Google Cloud (GCP)",
       "order": 12,
       "description": "Master Google Cloud (GCP) from basics to advanced.",
       "topics": [
@@ -3973,7 +3973,7 @@
     },
     {
       "moduleId": "jquery",
-      "moduleName": "⚡ jQuery Library",
+      "moduleName": "jQuery",
       "order": 13,
       "description": "Master jQuery from basics to advanced.",
       "topics": [
@@ -4136,7 +4136,7 @@
     },
     {
       "moduleId": "c",
-      "moduleName": "💻 C Programming",
+      "moduleName": "C#",
       "order": 14,
       "description": "Master C# from basics to advanced.",
       "topics": [
@@ -4439,7 +4439,7 @@
     },
     {
       "moduleId": "aws_amazon_web_services",
-      "moduleName": "☁️ AWS Amazon Web Services",
+      "moduleName": "AWS (Amazon Web Services)",
       "order": 15,
       "description": "Master AWS (Amazon Web Services) from basics to advanced.",
       "topics": [
@@ -4802,7 +4802,7 @@
     },
     {
       "moduleId": "data_structures__algorithms",
-      "moduleName": "⚙️ Data Structures & Algorithms",
+      "moduleName": "Data Structures & Algorithms",
       "order": 16,
       "description": "Master Data Structures & Algorithms from basics to advanced.",
       "topics": [
@@ -5140,7 +5140,7 @@
     },
     {
       "moduleId": "git",
-      "moduleName": "🔀 Git & GitHub",
+      "moduleName": "Git",
       "order": 17,
       "description": "Master Git from basics to advanced.",
       "topics": [
@@ -5398,7 +5398,7 @@
     },
     {
       "moduleId": "nodejs",
-      "moduleName": "🟢 Node.js & Express",
+      "moduleName": "Node.js",
       "order": 18,
       "description": "Master Node.js from basics to advanced.",
       "topics": [
@@ -5716,7 +5716,7 @@
     },
     {
       "moduleId": "linux_system_administration",
-      "moduleName": "🐧 Linux System Administration",
+      "moduleName": "Linux System Administration",
       "order": 19,
       "description": "Master Linux System Administration from basics to advanced.",
       "topics": [
@@ -5994,7 +5994,7 @@
     },
     {
       "moduleId": "docker",
-      "moduleName": "🐋 Docker & Kubernetes",
+      "moduleName": "Docker",
       "order": 20,
       "description": "Master Docker from basics to advanced.",
       "topics": [
@@ -6127,7 +6127,7 @@
     },
     {
       "moduleId": "java",
-      "moduleName": "☕ Java Programming",
+      "moduleName": "Java",
       "order": 21,
       "description": "Master Java from basics to advanced.",
       "topics": [
