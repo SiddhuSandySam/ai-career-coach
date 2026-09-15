@@ -1,0 +1,67 @@
+{
+  "skills": [
+    {
+      "id": "java",
+      "name": "☕ Core Java & OOPs",
+      "questions": [
+        { "q": "How does HashMap handle bucket collisions in Java 8?", "level": "Medium" },
+        { "q": "Explain the difference between String, StringBuilder, and StringBuffer.", "level": "Easy" },
+        { "q": "How does Garbage Collection (G1/ZGC) work under the hood in JVM?", "level": "Hard" }
+      ]
+    },
+    {
+      "id": "android",
+      "name": "📱 Android & Kotlin",
+      "questions": [
+        { "q": "Explain Activity Lifecycle order during screen rotation.", "level": "Easy" },
+        { "q": "How do Coroutines and StateFlow replace LiveData in modern MVVM?", "level": "Medium" },
+        { "q": "How do you prevent memory leaks when passing Context to singletons?", "level": "Hard" }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "🐍 Python & FastAPI",
+      "questions": [
+        { "q": "Explain GIL (Global Interpreter Lock) in Python concurrency.", "level": "Hard" },
+        { "q": "What is the difference between list.append() and list.extend()?", "level": "Easy" },
+        { "q": "How do Decorators and Generators work in Python?", "level": "Medium" }
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "🛢️ SQL & Database Indexing",
+      "questions": [
+        { "q": "What is the difference between INNER JOIN and LEFT OUTER JOIN?", "level": "Easy" },
+        { "q": "Explain B-Tree Indexing and why over-indexing slows down INSERTS.", "level": "Hard" },
+        { "q": "Explain ACID properties in database transactions.", "level": "Medium" }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "🐋 Docker & Cloud",
+      "questions": [
+        { "q": "What is the difference between Docker Image and Docker Container?", "level": "Easy" },
+        { "q": "How does Docker Compose orchestrate multi-container microservices?", "level": "Medium" },
+        { "q": "How do multi-stage Docker builds optimize image size?", "level": "Hard" }
+      ]
+    },
+    {
+      "id": "system_design",
+      "name": "🌐 System Design & CAP",
+      "questions": [
+        { "q": "Explain CAP Theorem and trade-offs between CP and AP systems.", "level": "Hard" },
+        { "q": "How does Cache-Aside pattern work with Redis?", "level": "Medium" },
+        { "q": "What are the key load balancing algorithms?", "level": "Easy" }
+      ]
+    },
+    {
+      "id": "react",
+      "name": "⚛️ React & Redux",
+      "questions": [
+        { "q": "What is Virtual DOM and how does reconciliation work in React?", "level": "Medium" },
+        { "q": "Explain useEffect hook lifecycle and dependency array rules.", "level": "Easy" },
+        { "q": "How do Server Components and Suspense optimize web apps?", "level": "Hard" }
+      ]
+    }
+  ]
+}

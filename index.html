@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Coach - Land Your Dream Tech Job | AI Mock Interviews & ATS Resume Builder</title>
+    <meta name="description" content="Master technical interviews, build ATS-friendly resumes, and practice with AI Voice Mock Interviews. Founded by Sandesh Koli. Download the App Free!">
+    <meta name="keywords" content="AI Career Coach, Tech Interview Prep, AI Mock Interview, ATS Resume Builder, Java Interview Questions, Android Developer, System Design, Sandesh Koli">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="AI Career Coach - Land Your Dream Tech Job">
+    <meta property="og:description" content="1-on-1 AI Voice Mock Interviews, ATS Resume Builder & 2-Min Cheat Sheets. Download Free!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/sandesh.png">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Google Fonts (Plus Jakarta Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#EEF2FF',
+                            100: '#E0E7FF',
+                            500: '#6366F1',
+                            600: '#4F46E5',
+                            700: '#4338CA',
+                            900: '#1E1B4B',
+                            dark: '#0B0F19',
+                            card: '#151C2C',
+                            border: '#232D42'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-glow': 'pulseGlow 3s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-12px)' },
+                        },
+                        pulseGlow: {
+                            '0%, 100%': { opacity: '0.4' },
+                            '50%': { opacity: '0.8' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#0B0F19] text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white overflow-x-hidden">
+
+    <!-- Background Ambient Glow -->
+    <div class="fixed top-0 left-1/4 w-96 h-96 bg-cyan-500/15 rounded-full blur-[128px] pointer-events-none z-0"></div>
+    <div class="fixed bottom-0 right-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-[128px] pointer-events-none z-0"></div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#0B0F19]/90 border-b border-slate-800/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+
+                <!-- Brand Logo (Bright & High Visibility) -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-cyan-400 via-indigo-500 to-purple-600 p-0.5 shadow-lg shadow-cyan-500/30 group-hover:scale-105 transition-transform">
+                        <div class="w-full h-full bg-[#0B0F19] rounded-[10px] flex items-center justify-center">
+                            <i data-lucide="bot" class="w-6 h-6 text-cyan-400"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-xl font-black tracking-tight"><span class="text-cyan-400 font-black drop-shadow-[0_0_12px_rgba(34,211,238,0.6)]">AI</span> <span class="text-white font-extrabold">CAREER COACH</span></span>
+                        <span class="block text-[10px] font-bold tracking-widest text-indigo-400 uppercase">Land Your Dream Job</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                    <a href="#skills" class="hover:text-cyan-400 transition-colors">Question Banks</a>
+                    <a href="#features" class="hover:text-cyan-400 transition-colors">Features</a>
+                    <a href="#demo" class="hover:text-cyan-400 transition-colors">Live Preview</a>
+                    <a href="#founder" class="hover:text-cyan-400 transition-colors">About Founder</a>
+                    <a href="#faq" class="hover:text-cyan-400 transition-colors">FAQ</a>
+                </nav>
+
+                <!-- CTA Button Header -->
+                <div class="hidden sm:flex items-center gap-4">
+                    <a href="https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach" target="_blank" rel="noopener noreferrer"
+                       class="relative inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-extrabold text-white bg-gradient-to-r from-cyan-500 via-indigo-600 to-purple-600 bg-[size:200%] hover:bg-[position:right_center] transition-all duration-500 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-0.5">
+                        <i data-lucide="play" class="w-4 h-4 fill-current text-white"></i>
+                        <span>Get App Free</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/60 focus:outline-none">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#0B0F19]/95 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
+            <a href="#skills" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800">Question Banks</a>
+            <a href="#features" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800">Features</a>
+            <a href="#demo" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800">Live Preview</a>
+            <a href="#founder" class="block px-3 py-2 rounded-lg text-base font-semibold text-slate-300 hover:text-white hover:bg-slate-800">About Founder</a>
+            <a href="https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach" target="_blank"
+               class="flex items-center justify-center gap-2 w-full mt-4 px-6 py-3 rounded-xl text-sm font-bold text-white bg-indigo-600">
+                <i data-lucide="play" class="w-4 h-4 fill-current"></i>
+                <span>Download App on Google Play</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-8 pb-20 lg:pt-16 lg:pb-28 overflow-hidden z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+
+                <!-- Left Column: Headline & CTAs -->
+                <div class="lg:col-span-6 space-y-8 text-center lg:text-left">
+
+                    <!-- Founder Badge -->
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 backdrop-blur-md">
+                        <span class="flex h-2.5 w-2.5 rounded-full bg-cyan-400 animate-ping"></span>
+                        <span class="text-xs font-bold text-cyan-300 tracking-wide">🚀 Founded by Sandesh Koli • Senior Tech Mentor</span>
+                    </div>
+
+                    <!-- Main Headline (Bright AI Name) -->
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15]">
+                        Crack Tech Interviews with <span class="text-cyan-400 font-black drop-shadow-[0_0_20px_rgba(34,211,238,0.5)]">AI CAREER COACH</span>
+                    </h1>
+
+                    <!-- Subtitle -->
+                    <p class="text-lg sm:text-xl text-slate-300 font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        1-on-1 <strong class="text-white font-semibold">AI Voice Mock Interviews</strong>, 1-Click ATS Resume Builder, 2-Minute Revision Cheat Sheets, and 100+ Skill Question Banks.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach" target="_blank" rel="noopener noreferrer"
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl text-base font-extrabold text-white bg-gradient-to-r from-cyan-500 via-indigo-600 to-purple-600 bg-[size:200%] hover:bg-[position:right_center] transition-all duration-500 shadow-xl shadow-cyan-500/30 hover:shadow-cyan-500/50 hover:-translate-y-1">
+                            <i data-lucide="play" class="w-5 h-5 fill-current"></i>
+                            <span>Download App Free</span>
+                        </a>
+
+                        <a href="https://wa.me/918779666670?text=Hi%20Sandesh%20Bhai,%20I%20want%20to%20know%20more%20about%20AI%20Career%20Coach%20App!" target="_blank" rel="noopener noreferrer"
+                           class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl text-base font-bold text-slate-200 bg-slate-800/90 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 transition-all hover:-translate-y-1">
+                            <i data-lucide="message-square" class="w-5 h-5 text-emerald-400"></i>
+                            <span>Chat with Founder</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust Stats -->
+                    <div class="pt-6 border-t border-slate-800/80 grid grid-cols-3 gap-4 text-center lg:text-left">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-cyan-400">100%</div>
+                            <div class="text-xs text-slate-400 font-semibold">Free Quota Included</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-indigo-400">10k+</div>
+                            <div class="text-xs text-slate-400 font-semibold">Mock Interviews</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-extrabold text-purple-400">⭐ 4.9</div>
+                            <div class="text-xs text-slate-400 font-semibold">Play Store Rating</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column: 3D Poster Image -->
+                <div class="lg:col-span-6 relative flex justify-center">
+                    <div class="relative w-full max-w-lg lg:max-w-none group">
+
+                        <!-- Glowing Backlight Effect -->
+                        <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-indigo-600 to-purple-600 rounded-3xl blur-2xl opacity-50 group-hover:opacity-80 transition duration-1000 group-hover:duration-200 animate-pulse-glow"></div>
+
+                        <!-- Image Container with Glassmorphic Border -->
+                        <div class="relative bg-[#151C2C] border border-slate-700/80 rounded-3xl p-3 shadow-2xl shadow-cyan-950/80 overflow-hidden transform hover:scale-[1.02] transition-transform duration-500">
+                            <img src="sandesh.png" onerror="this.src='https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/sandesh.png'" alt="Sandesh Koli - Founder AI Career Coach" class="w-full h-auto rounded-2xl object-cover shadow-inner" loading="eager">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DYNAMIC QUESTION BANKS PREVIEW SECTION (0 FIREBASE READS, FULL APP PROMOTION) -->
+    <section id="skills" class="py-20 bg-[#0B0F19] relative z-10 border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="px-4 py-1.5 rounded-full text-xs font-bold text-cyan-400 bg-cyan-500/10 border border-cyan-500/30 uppercase tracking-wider">Practice Question Banks</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-white">Explore 100+ Skill Question Banks</h2>
+                <p class="text-slate-400 text-base sm:text-lg">Preview questions on the website. Unlock complete professional answers, bullet points, and voice coaching inside the App!</p>
+            </div>
+
+            <!-- Dynamic Skill Filter Chips Container -->
+            <div id="skill-chips-container" class="flex flex-wrap items-center justify-center gap-3 mb-10">
+                <!-- Injected dynamically from skills.json -->
+            </div>
+
+            <!-- Dynamic Teaser Cards Container -->
+            <div id="skill-questions-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Content will be injected dynamically by script.js -->
+            </div>
+
+            <!-- App Unlock Banner -->
+            <div class="mt-12 text-center bg-gradient-to-r from-indigo-950/80 via-[#151C2C] to-purple-950/80 border border-indigo-500/30 rounded-3xl p-8 max-w-4xl mx-auto shadow-2xl">
+                <div class="inline-flex p-3 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 mb-4">
+                    <i data-lucide="lock" class="w-8 h-8"></i>
+                </div>
+                <h3 class="text-2xl font-black text-white mb-2">Want Full Answers &amp; Voice Coaching?</h3>
+                <p class="text-slate-300 text-sm max-w-xl mx-auto mb-6">Open the <strong>AI Career Coach</strong> Android App to read complete 100-word professional answers, 4-point memory bullets, ATS Resume Wizard, and AI Voice Interviewer.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach" target="_blank" class="inline-flex items-center gap-3 px-8 py-4 rounded-2xl text-base font-extrabold text-white bg-gradient-to-r from-cyan-500 via-indigo-600 to-purple-600 shadow-xl shadow-indigo-600/40 hover:scale-105 transition-transform">
+                    <i data-lucide="play" class="w-5 h-5 fill-current"></i>
+                    <span>Open in AI Career Coach App</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BENTO GRID FEATURES SECTION -->
+    <section id="features" class="py-20 bg-[#0B0F19] relative z-10 border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="px-4 py-1.5 rounded-full text-xs font-bold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 uppercase tracking-wider">All-In-One Tech Toolkit</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Everything You Need To Land Your Dream Job</h2>
+                <p class="text-slate-400 text-base sm:text-lg">Powered by advanced Gemini AI models, engineered specifically for computer science students and software developers.</p>
+            </div>
+
+            <!-- Bento Grid Layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Feature 1: AI Voice Mock Interview -->
+                <div class="lg:col-span-2 bg-[#151C2C] border border-slate-800 rounded-3xl p-8 hover:border-indigo-500/50 transition-all group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none"></div>
+                    <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="mic" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-3">🎙️ AI Voice Mock Interview</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Experience 1-on-1 real-time voice coaching simulating technical interview rounds for TCS, Infosys, Amazon, Google, and more. Get detailed scorecards, answer pace analysis, and technical feedback.</p>
+                    <div class="flex flex-wrap gap-2 text-xs font-semibold">
+                        <span class="px-3 py-1 rounded-lg bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">Real-time Voice TTS</span>
+                        <span class="px-3 py-1 rounded-lg bg-purple-500/10 text-purple-300 border border-purple-500/20">Company Personas</span>
+                        <span class="px-3 py-1 rounded-lg bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">Audio Waveforms</span>
+                    </div>
+                </div>
+
+                <!-- Feature 2: ATS Resume Builder -->
+                <div class="bg-[#151C2C] border border-slate-800 rounded-3xl p-8 hover:border-indigo-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="file-text" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">📄 1-Click ATS Resume Builder</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Build ATS-friendly resumes with our built-in 1-Click Bullet Points Bank for Android, Java, React, Python, and Cloud roles. Get instant AI score and improvements.</p>
+                    <span class="text-xs font-bold text-emerald-400 flex items-center gap-1">Insert Ready-made Bullets &rarr;</span>
+                </div>
+
+                <!-- Feature 3: Interview Gym -->
+                <div class="bg-[#151C2C] border border-slate-800 rounded-3xl p-8 hover:border-indigo-500/50 transition-all group">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="dumbbell" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">🏋️ Interview Gym Question Banks</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">Practice Easy, Medium, and Hard technical question banks across Java, Python, Android, SQL, and System Design with key points and sample answers.</p>
+                    <span class="text-xs font-bold text-amber-400 flex items-center gap-1">Easy, Medium, Hard Levels &rarr;</span>
+                </div>
+
+                <!-- Feature 4: 2-Minute Revision Cheat Sheets -->
+                <div class="lg:col-span-2 bg-[#151C2C] border border-slate-800 rounded-3xl p-8 hover:border-indigo-500/50 transition-all group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-purple-600/10 rounded-full blur-3xl pointer-events-none"></div>
+                    <div class="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-6 group-hover:scale-110 transition-transform">
+                        <i data-lucide="zap" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-3">⚡ Dynamic 2-Minute Cheat Sheets (Randomized 🎲)</h3>
+                    <p class="text-slate-400 leading-relaxed mb-6">Before stepping into an interview, revise key concepts in 2 minutes! Our dynamic cheat sheets randomly shuffle concepts and high-frequency revision points every time you open them for maximum retention.</p>
+                    <div class="flex flex-wrap gap-2 text-xs font-semibold">
+                        <span class="px-3 py-1 rounded-lg bg-purple-500/10 text-purple-300 border border-purple-500/20">Java &amp; OOPs</span>
+                        <span class="px-3 py-1 rounded-lg bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">Android Architecture</span>
+                        <span class="px-3 py-1 rounded-lg bg-amber-500/10 text-amber-300 border border-amber-500/20">SQL &amp; Indexing</span>
+                        <span class="px-3 py-1 rounded-lg bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">System Design CAP</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- LIVE DEMO SECTION -->
+    <section id="demo" class="py-20 bg-[#0B0F19] relative z-10 border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-4">
+                <span class="px-4 py-1.5 rounded-full text-xs font-bold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 uppercase tracking-wider">Live Preview</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Interactive Features Preview</h2>
+                <p class="text-slate-400 text-sm sm:text-base">Experience sample AI interview feedback and 1-click ATS resume bullet bank right on the webpage.</p>
+            </div>
+
+            <!-- Interactive Tabbed Widget -->
+            <div class="bg-[#151C2C] border border-slate-800 rounded-3xl p-6 sm:p-8 max-w-4xl mx-auto shadow-2xl">
+                <!-- Tab Buttons -->
+                <div class="flex flex-wrap gap-3 border-b border-slate-800 pb-4 mb-6">
+                    <button onclick="switchTab('interview')" id="tab-interview" class="tab-btn active px-5 py-2.5 rounded-xl text-sm font-bold text-white bg-indigo-600 transition-all">
+                        🎙️ Sample AI Voice Interview
+                    </button>
+                    <button onclick="switchTab('bullets')" id="tab-bullets" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-bold text-slate-400 bg-slate-800/60 hover:text-white transition-all">
+                        💡 1-Click Resume Bullet
+                    </button>
+                    <button onclick="switchTab('cheatsheet')" id="tab-cheatsheet" class="tab-btn px-5 py-2.5 rounded-xl text-sm font-bold text-slate-400 bg-slate-800/60 hover:text-white transition-all">
+                        ⚡ 2-Min Cheat Sheet
+                    </button>
+                </div>
+
+                <!-- Tab 1 Content: AI Mock Interview -->
+                <div id="content-interview" class="tab-content space-y-4">
+                    <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/40">
+                        <div class="text-xs font-bold text-indigo-400 uppercase tracking-wide">INTERVIEWER (TCS Senior Tech Lead)</div>
+                        <p class="text-slate-200 font-medium text-sm sm:text-base mt-1">"Explain the difference between Method Overloading and Method Overriding in Java."</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
+                        <div class="text-xs font-bold text-emerald-400 uppercase tracking-wide">AI COACH EVALUATION &amp; SCORE (Score: 9/10)</div>
+                        <p class="text-slate-300 text-sm mt-2 leading-relaxed">"Great answer! Overloading is compile-time polymorphism (same method name, different parameters), while Overriding is runtime polymorphism (child class redefines parent method)."</p>
+                    </div>
+                </div>
+
+                <!-- Tab 2 Content: Resume Bullet -->
+                <div id="content-bullets" class="tab-content hidden space-y-4">
+                    <div class="p-4 rounded-2xl bg-emerald-950/40 border border-emerald-800/40">
+                        <div class="text-xs font-bold text-emerald-400 uppercase tracking-wide">ANDROID DEVELOPER ATS BULLET POINT</div>
+                        <p class="text-slate-200 font-medium text-sm sm:text-base mt-1">• "Optimized RecyclerView rendering performance by 40% using DiffUtil and AsyncListDiffer."</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/40">
+                        <div class="text-xs font-bold text-indigo-400 uppercase tracking-wide">JAVA BACKEND ATS BULLET POINT</div>
+                        <p class="text-slate-200 font-medium text-sm sm:text-base mt-1">• "Architected high-throughput RESTful APIs using Spring Boot and Redis caching, cutting latency by 35%."</p>
+                    </div>
+                </div>
+
+                <!-- Tab 3 Content: Cheat Sheet -->
+                <div id="content-cheatsheet" class="tab-content hidden space-y-4">
+                    <div class="p-4 rounded-2xl bg-purple-950/40 border border-purple-800/40">
+                        <div class="text-xs font-bold text-purple-400 uppercase tracking-wide">SQL JOINS 2-MINUTE REVISION NOTE</div>
+                        <ul class="text-slate-300 text-sm mt-2 space-y-2 leading-relaxed">
+                            <li>• <strong>INNER JOIN:</strong> Returns matching rows in both tables.</li>
+                            <li>• <strong>LEFT JOIN:</strong> Returns all rows from left table + matching from right.</li>
+                            <li>• <strong>ACID Rules:</strong> Atomicity, Consistency, Isolation, Durability.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT FOUNDER SECTION -->
+    <section id="founder" class="py-20 bg-[#0B0F19] relative z-10 border-t border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-indigo-950/60 via-[#151C2C] to-purple-950/60 border border-slate-800 rounded-3xl p-8 sm:p-12">
+                <div class="grid lg:grid-cols-12 gap-8 items-center">
+
+                    <div class="lg:col-span-4 flex justify-center">
+                        <div class="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-2xl shadow-cyan-500/30">
+                            <img src="sandesh.png" onerror="this.src='https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/sandesh.png'" alt="Sandesh Koli Founder" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-8 space-y-4 text-center lg:text-left">
+                        <span class="px-3 py-1 rounded-full text-xs font-bold text-cyan-400 bg-cyan-500/10 border border-cyan-500/30 uppercase tracking-wider">Meet The Founder</span>
+                        <h2 class="text-3xl font-extrabold text-white">Hi, I'm Sandesh Koli 👋</h2>
+                        <p class="text-slate-300 text-base leading-relaxed">
+                            I built <strong class="text-cyan-400">AI CAREER COACH</strong> with one clear mission: to make high-quality tech interview preparation and ATS resume building accessible to every single computer science student and software developer in India, completely free of charge.
+                        </p>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Whether you are preparing for TCS, Infosys, Amazon, or Google, our AI-powered voice interviews, 1-click ATS resume bullet bank, and auto-updated question banks will give you the confidence to land your dream tech job.
+                        </p>
+                        <div class="pt-4 flex flex-wrap gap-4 justify-center lg:justify-start">
+                            <a href="https://wa.me/918779666670" target="_blank" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 text-sm font-bold hover:bg-emerald-600/30 transition-all">
+                                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                                <span>Connect on WhatsApp (8779666670)</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-20 bg-[#0B0F19] relative z-10 border-t border-slate-800/80">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 space-y-3">
+                <span class="px-4 py-1.5 rounded-full text-xs font-bold text-cyan-400 bg-cyan-500/10 border border-cyan-500/30 uppercase tracking-wider">FAQ</span>
+                <h2 class="text-3xl font-extrabold text-white">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-[#151C2C] border border-slate-800 rounded-2xl p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">Is the AI Career Coach app free to use?</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Yes! The app includes a generous free quota for mock interviews, ATS resume builder, 2-minute cheat sheets, and skill question banks. You can also earn extra free credits by watching short rewarded ads.</p>
+                </div>
+
+                <div class="bg-[#151C2C] border border-slate-800 rounded-2xl p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">Why are full answers locked on the website?</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">The website provides a preview of our question banks and skills list. Full deep-dive answers, 4-point memory bullets, ATS Resume Wizard, and AI Voice Interviews are unlocked inside the free Android App!</p>
+                </div>
+
+                <div class="bg-[#151C2C] border border-slate-800 rounded-2xl p-6">
+                    <h3 class="text-lg font-bold text-white mb-2">What tech stacks and companies are covered in Mock Interviews?</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We cover Java, Python, Android, React, SQL, Data Structures &amp; Algorithms, System Design, and specific company interview rounds for TCS, Infosys, Wipro, Accenture, Amazon, and Google.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 bg-[#080B12] border-t border-slate-800/80 relative z-10 text-slate-400 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+            <div class="flex justify-center items-center gap-3">
+                <i data-lucide="bot" class="w-6 h-6 text-cyan-400"></i>
+                <span class="text-lg font-black text-white"><span class="text-cyan-400">AI</span> CAREER COACH</span>
+            </div>
+            <p class="text-slate-500 max-w-md mx-auto text-xs">Empowering computer science students and developers to crack technical interviews and build ATS resumes.</p>
+            <div class="flex justify-center gap-6 text-xs font-semibold text-slate-400">
+                <a href="#skills" class="hover:text-white">Question Banks</a>
+                <a href="#demo" class="hover:text-white">Live Preview</a>
+                <a href="https://play.google.com/store/apps/details?id=com.sandeshkoli.aicareercoach" target="_blank" class="hover:text-white">Google Play Store</a>
+            </div>
+            <p class="text-xs text-slate-600">&copy; 2026 AI Career Coach. Founded by Sandesh Koli. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
