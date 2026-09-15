@@ -5,7 +5,7 @@
  * 1. Syncs Full Interview Gym docs to website/gym/{skillId}.json
  * 2. Syncs Full Tutorials to website/tutorials/{moduleId}/{topicId}.json
  * 3. Exports Master Tutorials Index to website/tutorials/master.json
- * 4. Combines ALL skills into website/skills.json for Web & App
+ * 4. Places Tutorial Skills FIRST in website/skills.json for W3Schools-style top nav
  */
 
 const fs = require('fs');
@@ -29,27 +29,27 @@ const masterTutorialsFilePath = path.join(tutorialsDir, 'master.json');
 function formatSkillName(raw) {
     if (!raw) return "Tech Skill";
     const nameMap = {
-        "angular": "🅰️ Angular Framework",
-        "aws_amazon_web_services": "☁️ AWS Amazon Web Services",
-        "c": "💻 C Programming",
-        "core_java": "☕ Core Java & OOPs",
-        "data_structures__algorithms": "⚙️ Data Structures & Algorithms",
-        "docker": "🐋 Docker & Kubernetes",
-        "git": "🔀 Git & GitHub",
-        "google_cloud_gcp": "☁️ Google Cloud GCP",
-        "html5": "🌐 HTML5 & CSS3",
         "java": "☕ Java Programming",
-        "javascript": "💛 JavaScript (ES6+)",
-        "jquery": "⚡ jQuery Library",
-        "linux_system_administration": "🐧 Linux System Administration",
-        "mongodb": "🍃 MongoDB NoSQL",
-        "nodejs": "🟢 Node.js & Express",
-        "oracle_db": "🛢️ Oracle Database SQL",
-        "php": "🐘 PHP & Web Backend",
+        "core_java": "☕ Core Java & OOPs",
         "python": "🐍 Python & FastAPI",
+        "javascript": "💛 JavaScript (ES6+)",
         "reactjs": "⚛️ React.js & Frontend",
+        "angular": "🅰️ Angular Framework",
         "spring_boot": "🌿 Spring Boot & Microservices",
         "sql": "🛢️ SQL & Database Indexing",
+        "data_structures__algorithms": "⚙️ Data Structures & Algorithms",
+        "html5": "🌐 HTML5 & CSS3",
+        "nodejs": "🟢 Node.js & Express",
+        "docker": "🐋 Docker & Kubernetes",
+        "git": "🔀 Git & GitHub",
+        "aws_amazon_web_services": "☁️ AWS Amazon Web Services",
+        "google_cloud_gcp": "☁️ Google Cloud GCP",
+        "mongodb": "🍃 MongoDB NoSQL",
+        "c": "💻 C Programming",
+        "php": "🐘 PHP & Web Backend",
+        "oracle_db": "🛢️ Oracle Database SQL",
+        "linux_system_administration": "🐧 Linux System Administration",
+        "jquery": "⚡ jQuery Library",
         "jpa": "🍃 JPA & Hibernate ORM",
         "general": "💡 General CS Fundamentals",
         "plsql": "🛢️ PL/SQL Database"
@@ -80,7 +80,7 @@ async function fullSync() {
     }
 
     const db = admin.firestore();
-    const allSkillsMap = new Map();
+    const gymSkillsMap = new Map();
 
     // ==========================================
     // 1. SYNC INTERVIEW GYM TO website/gym/{skillId}.json
@@ -121,7 +121,7 @@ async function fullSync() {
             }
         });
 
-        allSkillsMap.set(skillId, {
+        gymSkillsMap.set(skillId, {
             id: skillId,
             name: formattedName,
             category: "Tech",
@@ -135,6 +135,7 @@ async function fullSync() {
     console.log("\n📚 [Tutorials Sync] Syncing 'tutorials' collection...");
     const tutorialsSnap = await db.collection("tutorials").get();
     const masterModules = [];
+    const tutorialSkillsList = [];
 
     for (const moduleDoc of tutorialsSnap.docs) {
         const moduleId = moduleDoc.id.toLowerCase().replace(/ /g, '_').replace(/[^a-z0-9_]/g, '');
@@ -178,36 +179,48 @@ async function fullSync() {
             topics: topicsList
         });
 
-        // Ensure this tutorial module is also represented in master skills
-        if (!allSkillsMap.has(moduleId)) {
-            allSkillsMap.set(moduleId, {
-                id: moduleId,
-                name: moduleName,
-                category: "Tutorial",
-                questions: topicsList.slice(0, 5).map(t => ({
-                    q: `Explain ${t.topicName}`,
-                    level: "Easy"
-                }))
-            });
+        // Use questions from interview_gym if available, else construct from topics
+        let skillQuestions = [];
+        if (gymSkillsMap.has(moduleId)) {
+            skillQuestions = gymSkillsMap.get(moduleId).questions;
+            gymSkillsMap.delete(moduleId); // Removed from gym map so it's not duplicated
+        } else {
+            skillQuestions = topicsList.slice(0, 5).map(t => ({
+                q: `Explain ${t.topicName}`,
+                level: "Easy"
+            }));
         }
+
+        tutorialSkillsList.push({
+            id: moduleId,
+            name: moduleName,
+            order: moduleData.order || 0,
+            category: "Tutorial",
+            questions: skillQuestions
+        });
     }
 
+    // Sort tutorial skills by order
+    tutorialSkillsList.sort((a, b) => a.order - b.order);
     masterModules.sort((a, b) => a.order - b.order);
+
     fs.writeFileSync(masterTutorialsFilePath, JSON.stringify({ modules: masterModules }, null, 2));
     console.log(`  ✅ Saved Master Tutorials Index -> website/tutorials/master.json (${masterModules.length} Modules)`);
 
-    // Write Master skills.json with ALL skills included
-    const allSkillsList = Array.from(allSkillsMap.values());
+    // Combine tutorial skills FIRST, followed by any remaining gym skills
+    const extraGymSkills = Array.from(gymSkillsMap.values());
+    const finalSkillsList = [...tutorialSkillsList, ...extraGymSkills];
+
     const finalSkillsData = {
         lastSyncedAt: new Date().toISOString(),
-        totalSkills: allSkillsList.length,
-        skills: allSkillsList
+        totalSkills: finalSkillsList.length,
+        skills: finalSkillsList
     };
 
     fs.writeFileSync(rootSkillsFilePath, JSON.stringify(finalSkillsData, null, 2));
     fs.writeFileSync(websiteSkillsFilePath, JSON.stringify(finalSkillsData, null, 2));
 
-    console.log(`\n🎉 [Sync Complete] All ${allSkillsList.length} Skills, Gym Q&A and ${masterModules.length} Tutorials successfully synced to Git CDN repository!`);
+    console.log(`\n🎉 [Sync Complete] All ${finalSkillsList.length} Skills (Tutorials first) successfully synced to Git CDN repository!`);
 }
 
 fullSync().catch(console.error);

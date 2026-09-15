@@ -1,7 +1,762 @@
 {
-  "lastSyncedAt": "2026-09-15T07:29:40.879Z",
+  "lastSyncedAt": "2026-09-15T07:44:03.830Z",
   "totalSkills": 25,
   "skills": [
+    {
+      "id": "core_java",
+      "name": "☕ Core Java & OOPs",
+      "order": 1,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Java Fundamentals Overview: History, Features, JVM, JRE, JDK",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types, Variables, Operators, and Control Flow",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Object-Oriented Programming (OOP): Encapsulation, Inheritance, Polymorphism, Abstraction",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Classes and Objects: Constructors, Methods, Instance vs. Static Variables/Methods",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Access Modifiers: public, private, protected, default (package-private)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "spring_boot",
+      "name": "🌿 Spring Boot & Microservices",
+      "order": 2,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Overview of Spring Framework and Spring Boot: Benefits, Architecture, and Key Components",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Spring Boot Starters: Understanding and Using Starter Dependencies",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Auto-Configuration: How Spring Boot Simplifies Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Spring Boot CLI: Rapid Application Development",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Spring Boot Actuator: Monitoring and Management of Applications",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "🛢️ SQL & Database Indexing",
+      "order": 3,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "What is SQL?",
+          "a": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).",
+          "p": [
+            "Standard language for database interaction.",
+            "Used to manage relational databases.",
+            "Enables data retrieval, insertion, updating, and deletion."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the main types of SQL commands?",
+          "a": "The main types of SQL commands are Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), and Data Query Language (DQL). DDL defines the database schema, DML manipulates data, DCL controls access, and DQL retrieves data.",
+          "p": [
+            "DDL: Defines database schema (e.g., CREATE, ALTER).",
+            "DML: Manipulates data (e.g., INSERT, UPDATE).",
+            "DCL: Controls data access (e.g., GRANT, REVOKE)."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the difference between `DELETE` and `TRUNCATE` commands.",
+          "a": "`DELETE` removes specific rows from a table based on a condition, and it can be rolled back. `TRUNCATE` removes all rows from a table, resets the identity (auto-increment) column, and cannot be rolled back. `TRUNCATE` is faster.",
+          "p": [
+            "DELETE: Removes specific rows, can be rolled back.",
+            "TRUNCATE: Removes all rows, resets identity, faster.",
+            "TRUNCATE: Cannot be rolled back."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is a primary key?",
+          "a": "A primary key is a column or a set of columns in a table that uniquely identifies each row in that table. It must contain unique values and cannot contain NULL values. A table can have only one primary key.",
+          "p": [
+            "Uniquely identifies each row in a table.",
+            "Must contain unique values.",
+            "Cannot contain NULL values."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is a foreign key?",
+          "a": "A foreign key is a column or a set of columns in one table that refers to the primary key of another table. It establishes a link between the two tables, enforcing referential integrity.",
+          "p": [
+            "Links two tables together.",
+            "Refers to the primary key of another table.",
+            "Enforces referential integrity."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the purpose of the `WHERE` clause?",
+          "a": "The `WHERE` clause is used to filter records in a SQL query. It specifies a condition that records must meet to be included in the result set. Only rows that satisfy the condition are returned.",
+          "p": [
+            "Filters records in a query.",
+            "Specifies a condition.",
+            "Only rows meeting the condition are returned."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main categories of SQL statements?",
+          "a": "The four main categories are: Data Definition Language (DDL), used to define the database schema; Data Manipulation Language (DML), used to manipulate data within the database; Data Control Language (DCL), used to control access to the database; and Data Query Language (DQL), used to query the database.",
+          "p": [
+            "DDL: Define schema",
+            "DML: Manipulate data",
+            "DCL: Control access",
+            "DQL: Query data"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is DDL and can you give some examples of DDL statements?",
+          "a": "DDL stands for Data Definition Language. It's used to define and manage the structure of a database. Examples include CREATE TABLE (to create a new table), ALTER TABLE (to modify an existing table), and DROP TABLE (to delete a table).",
+          "p": [
+            "DDL: Data Definition Language",
+            "CREATE TABLE: Creates a table",
+            "ALTER TABLE: Modifies a table",
+            "DROP TABLE: Deletes a table"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is DML and can you give some examples of DML statements?",
+          "a": "DML stands for Data Manipulation Language. It's used to manipulate the data stored in a database. Examples include INSERT (to add new data), UPDATE (to modify existing data), and DELETE (to remove data).",
+          "p": [
+            "DML: Data Manipulation Language",
+            "INSERT: Adds data",
+            "UPDATE: Modifies data",
+            "DELETE: Removes data"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is DQL and what is the primary DQL statement?",
+          "a": "DQL stands for Data Query Language. It's used to retrieve data from a database. The primary DQL statement is SELECT, which allows you to specify the columns and conditions for retrieving data.",
+          "p": [
+            "DQL: Data Query Language",
+            "SELECT: Retrieves data",
+            "Specifies columns and conditions"
+          ],
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "html5",
+      "name": "🌐 HTML5 & CSS3",
+      "order": 4,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain HTML5 Fundamentals: Document Structure, Elements, and Attributes",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Semantic HTML: Understanding and Using Semantic Elements (e.g., `<article>`, `<aside>`, `<nav>`, `<header>`, `<footer>`, `<section>`)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain HTML5 Forms: Input Types, Attributes, and Validation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Accessibility (A11y): ARIA Attributes, Semantic HTML for Accessibility",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Audio and Video: Embedding and Controlling Media with `<audio>` and `<video>` elements",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "reactjs",
+      "name": "⚛️ React.js & Frontend",
+      "order": 5,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "What is JSX?",
+          "a": "JSX (JavaScript XML) is a syntax extension to JavaScript that lets you write HTML-like code within your JavaScript files. It's not HTML itself, but it resembles it. Before being rendered in the browser, JSX code is transformed into standard JavaScript calls to the React library, which then creates the actual DOM elements.",
+          "p": [
+            "Syntax extension to JavaScript.",
+            "Resembles HTML.",
+            "Transformed into JavaScript.",
+            "Used to describe UI."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How does JSX differ from HTML?",
+          "a": "JSX differs from HTML in several ways. JSX is not directly rendered by browsers; it needs to be transpiled into JavaScript. JSX uses camelCase for attribute names (e.g., `className` instead of `class`), and you can embed JavaScript expressions directly within JSX using curly braces `{}`. HTML is a markup language interpreted directly by the browser.",
+          "p": [
+            "JSX needs transpilation.",
+            "JSX uses camelCase attributes.",
+            "JSX embeds JavaScript expressions.",
+            "HTML is directly interpreted."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Can you embed JavaScript expressions within JSX?",
+          "a": "Yes, you can embed JavaScript expressions within JSX using curly braces `{}`. This allows you to dynamically render content, perform calculations, or conditionally display elements based on JavaScript logic. For example, you can display a variable's value or call a function within your JSX code.",
+          "p": [
+            "Use curly braces `{}`.",
+            "Dynamically render content.",
+            "Perform calculations.",
+            "Conditionally display elements."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Why do we use `className` instead of `class` in JSX?",
+          "a": "In JSX, we use `className` instead of `class` because `class` is a reserved keyword in JavaScript. Using `class` as an attribute name in JSX would lead to syntax errors and unexpected behavior. `className` serves the same purpose as `class` in HTML, allowing you to apply CSS classes to elements.",
+          "p": [
+            "`class` is a reserved keyword.",
+            "`className` avoids syntax errors.",
+            "`className` applies CSS classes.",
+            "Maintains JavaScript compatibility."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What happens to JSX code before it runs in the browser?",
+          "a": "Before JSX code runs in the browser, it is transpiled (or compiled) into standard JavaScript code. This process is typically done using tools like Babel. The transpilation converts the JSX syntax into React.createElement() calls, which are then understood and executed by the JavaScript engine in the browser to create the user interface.",
+          "p": [
+            "JSX is transpiled.",
+            "Tools like Babel are used.",
+            "Converted to React.createElement().",
+            "Browser executes JavaScript."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is a component in React?",
+          "a": "A component is a reusable and independent part of a user interface. It can be a simple button or a complex form. Components allow you to break down your UI into manageable pieces, making your code more organized and easier to maintain. They accept inputs (props) and return React elements describing what should appear on the screen.",
+          "p": [
+            "Reusable UI building blocks",
+            "Accept props (inputs)",
+            "Return React elements"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the two main types of components in React?",
+          "a": "The two main types of components in React are functional components and class components. Functional components are JavaScript functions, while class components are ES6 classes that extend React.Component.",
+          "p": [
+            "Functional components (functions)",
+            "Class components (ES6 classes)"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the primary difference between functional and class components regarding state management?",
+          "a": "Functional components, prior to React Hooks, were primarily stateless. Class components can manage their own internal state using `this.state` and `this.setState()`. With the introduction of React Hooks, functional components can now also manage state using the `useState` hook.",
+          "p": [
+            "Class components: stateful (this.state)",
+            "Functional components (before Hooks): stateless",
+            "Functional components (with Hooks): stateful"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you pass data from a parent component to a child component in React?",
+          "a": "Data is passed from a parent component to a child component using 'props'. Props are like HTML attributes, but you can pass any JavaScript value through them. The child component then receives these props as an argument.",
+          "p": [
+            "Pass data using 'props'",
+            "Props are like HTML attributes",
+            "Child component receives props as argument"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are lifecycle methods, and which type of component uses them?",
+          "a": "Lifecycle methods are special methods that are automatically called during different phases of a component's life, such as mounting, updating, and unmounting. Class components use lifecycle methods. Examples include `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.",
+          "p": [
+            "Methods called during component's life",
+            "Used in class components",
+            "Examples: componentDidMount, etc."
+          ],
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "angular",
+      "name": "🅰️ Angular Framework",
+      "order": 6,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Angular Architecture and Core Concepts (Components, Modules, Services, Templates, Metadata, Data Binding, Directives, Dependency Injection)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Setting up an Angular Development Environment (Node.js, npm/yarn, Angular CLI)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Creating and Running an Angular Project (ng new, ng serve)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Understanding Angular CLI Commands (build, generate, test, e2e)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Component Creation and Structure (template, class, metadata)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "💛 JavaScript (ES6+)",
+      "order": 7,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Data Types (Primitive and Reference)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variables (var, let, const)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Operators (Arithmetic, Comparison, Logical, Assignment)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Flow (if/else, switch, loops)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Functions (Declaration, Expression, Arrow Functions)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "🐍 Python & FastAPI",
+      "order": 8,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Basic Data Types (Integers, Floats, Strings, Booleans)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variables and Operators",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Flow (if, elif, else)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Loops (for, while)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Structures (Lists, Tuples, Dictionaries, Sets)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "oracle_db",
+      "name": "🛢️ Oracle Database SQL",
+      "order": 9,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Relational Database Concepts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Oracle Database Architecture (Physical and Logical)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SQL Fundamentals (SELECT, INSERT, UPDATE, DELETE)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types in Oracle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic Oracle Tools (SQL*Plus, SQL Developer)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "name": "🍃 MongoDB NoSQL",
+      "order": 10,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to NoSQL and MongoDB",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain MongoDB Data Model (Documents and Collections)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain MongoDB Installation and Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic MongoDB Shell Operations (CRUD)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types in MongoDB",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "name": "🐘 PHP & Web Backend",
+      "order": 11,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Basic Syntax and Data Types (Variables, Operators, Control Structures)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types (Integers, Floats, Strings, Booleans, Arrays, Objects, Resources, NULL)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Operators (Arithmetic, Assignment, Comparison, Logical, Increment/Decrement)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Structures (if, else, elseif, switch, while, do-while, for, foreach)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Functions (Defining, Calling, Arguments, Return Values, Scope)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "google_cloud_gcp",
+      "name": "☁️ Google Cloud GCP",
+      "order": 12,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Cloud Computing Concepts: IaaS, PaaS, SaaS, Serverless",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain GCP Global Infrastructure: Regions, Zones, Points of Presence",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain GCP Resource Hierarchy: Organization, Folders, Projects",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain GCP Console, Cloud Shell, Cloud SDK (gcloud CLI)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Identity and Access Management (IAM): Roles, Permissions, Service Accounts",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "jquery",
+      "name": "⚡ jQuery Library",
+      "order": 13,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to jQuery: What is jQuery, its purpose, and benefits?",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain jQuery Setup: How to include jQuery in a project (CDN, local file), and basic syntax.",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Selectors: Understanding and using basic jQuery selectors (element, class, ID).",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain DOM Manipulation: Methods for manipulating HTML elements (adding, removing, modifying content and attributes).",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Events: Handling common events (click, mouseover, submit) and event delegation.",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "name": "💻 C Programming",
+      "order": 14,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Data Types (Primitive and Reference)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variables and Constants",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Operators (Arithmetic, Logical, Bitwise)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Flow (if/else, switch, loops)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays and Collections (List, Dictionary, etc.)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "aws_amazon_web_services",
+      "name": "☁️ AWS Amazon Web Services",
+      "order": 15,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to Cloud Computing and AWS",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS Global Infrastructure (Regions, Availability Zones, Edge Locations)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS Account Setup and Management (IAM Users, Groups, Roles, Policies)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS CLI and SDKs (Configuration, Usage)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS Management Console Overview",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "data_structures__algorithms",
+      "name": "⚙️ Data Structures & Algorithms",
+      "order": 16,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Big O Notation & Time Complexity Analysis",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Space Complexity Analysis",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Common Data Structures Overview (Arrays, Linked Lists, Stacks, Queues, Hash Tables, Trees, Graphs)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays: Basic Operations (Insertion, Deletion, Search)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays: Dynamic Arrays & Resizing",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "name": "🔀 Git & GitHub",
+      "order": 17,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to Version Control Systems (VCS)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain What is Git? History and Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Installing and Configuring Git",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic Git Commands: init, clone, add, commit, status, diff",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Understanding the Git Staging Area",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "🟢 Node.js & Express",
+      "order": 18,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to Node.js: History, Use Cases, and Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Node.js Event Loop: Understanding Single-Threaded Asynchronous Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain NPM and Package Management: Installing, Managing, and Publishing Packages",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Modules in Node.js: CommonJS vs. ES Modules (ESM)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Global Objects: Understanding process, console, Buffer, etc.",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "linux_system_administration",
+      "name": "🐧 Linux System Administration",
+      "order": 19,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Linux Architecture and Kernel Concepts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Linux Distributions and Package Management (Debian/Ubuntu, RHEL/CentOS/Fedora)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Command Line Interface (CLI) Navigation and Basic Commands",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain File System Hierarchy Standard (FHS)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain User and Group Management",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "🐋 Docker & Kubernetes",
+      "order": 20,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Containers vs Virtual Machines",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Docker Architecture and Daemon",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Namespaces and Cgroups",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Dockerfile Best Practices and Instructions",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Layer Caching and BuildKit",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "name": "☕ Java Programming",
+      "order": 21,
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain JVM Architecture, ClassLoaders, and Bytecode Verification",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Memory Management, Heap Structure, and Garbage Collection Algorithms",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Object Lifecycle, Immutable Objects, and defensive copying",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Exception Hierarchy, Checked vs Unchecked, and Best Practices",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SOLID Principles in Java Design",
+          "level": "Easy"
+        }
+      ]
+    },
     {
       "id": "general",
       "name": "💡 General CS Fundamentals",
@@ -339,117 +1094,6 @@
       ]
     },
     {
-      "id": "reactjs",
-      "name": "⚛️ React.js & Frontend",
-      "category": "Tech",
-      "questions": [
-        {
-          "q": "What is JSX?",
-          "a": "JSX (JavaScript XML) is a syntax extension to JavaScript that lets you write HTML-like code within your JavaScript files. It's not HTML itself, but it resembles it. Before being rendered in the browser, JSX code is transformed into standard JavaScript calls to the React library, which then creates the actual DOM elements.",
-          "p": [
-            "Syntax extension to JavaScript.",
-            "Resembles HTML.",
-            "Transformed into JavaScript.",
-            "Used to describe UI."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "How does JSX differ from HTML?",
-          "a": "JSX differs from HTML in several ways. JSX is not directly rendered by browsers; it needs to be transpiled into JavaScript. JSX uses camelCase for attribute names (e.g., `className` instead of `class`), and you can embed JavaScript expressions directly within JSX using curly braces `{}`. HTML is a markup language interpreted directly by the browser.",
-          "p": [
-            "JSX needs transpilation.",
-            "JSX uses camelCase attributes.",
-            "JSX embeds JavaScript expressions.",
-            "HTML is directly interpreted."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "Can you embed JavaScript expressions within JSX?",
-          "a": "Yes, you can embed JavaScript expressions within JSX using curly braces `{}`. This allows you to dynamically render content, perform calculations, or conditionally display elements based on JavaScript logic. For example, you can display a variable's value or call a function within your JSX code.",
-          "p": [
-            "Use curly braces `{}`.",
-            "Dynamically render content.",
-            "Perform calculations.",
-            "Conditionally display elements."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "Why do we use `className` instead of `class` in JSX?",
-          "a": "In JSX, we use `className` instead of `class` because `class` is a reserved keyword in JavaScript. Using `class` as an attribute name in JSX would lead to syntax errors and unexpected behavior. `className` serves the same purpose as `class` in HTML, allowing you to apply CSS classes to elements.",
-          "p": [
-            "`class` is a reserved keyword.",
-            "`className` avoids syntax errors.",
-            "`className` applies CSS classes.",
-            "Maintains JavaScript compatibility."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What happens to JSX code before it runs in the browser?",
-          "a": "Before JSX code runs in the browser, it is transpiled (or compiled) into standard JavaScript code. This process is typically done using tools like Babel. The transpilation converts the JSX syntax into React.createElement() calls, which are then understood and executed by the JavaScript engine in the browser to create the user interface.",
-          "p": [
-            "JSX is transpiled.",
-            "Tools like Babel are used.",
-            "Converted to React.createElement().",
-            "Browser executes JavaScript."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is a component in React?",
-          "a": "A component is a reusable and independent part of a user interface. It can be a simple button or a complex form. Components allow you to break down your UI into manageable pieces, making your code more organized and easier to maintain. They accept inputs (props) and return React elements describing what should appear on the screen.",
-          "p": [
-            "Reusable UI building blocks",
-            "Accept props (inputs)",
-            "Return React elements"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What are the two main types of components in React?",
-          "a": "The two main types of components in React are functional components and class components. Functional components are JavaScript functions, while class components are ES6 classes that extend React.Component.",
-          "p": [
-            "Functional components (functions)",
-            "Class components (ES6 classes)"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is the primary difference between functional and class components regarding state management?",
-          "a": "Functional components, prior to React Hooks, were primarily stateless. Class components can manage their own internal state using `this.state` and `this.setState()`. With the introduction of React Hooks, functional components can now also manage state using the `useState` hook.",
-          "p": [
-            "Class components: stateful (this.state)",
-            "Functional components (before Hooks): stateless",
-            "Functional components (with Hooks): stateful"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "How do you pass data from a parent component to a child component in React?",
-          "a": "Data is passed from a parent component to a child component using 'props'. Props are like HTML attributes, but you can pass any JavaScript value through them. The child component then receives these props as an argument.",
-          "p": [
-            "Pass data using 'props'",
-            "Props are like HTML attributes",
-            "Child component receives props as argument"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What are lifecycle methods, and which type of component uses them?",
-          "a": "Lifecycle methods are special methods that are automatically called during different phases of a component's life, such as mounting, updating, and unmounting. Class components use lifecycle methods. Examples include `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.",
-          "p": [
-            "Methods called during component's life",
-            "Used in class components",
-            "Examples: componentDidMount, etc."
-          ],
-          "level": "Easy"
-        }
-      ]
-    },
-    {
       "id": "springboot",
       "name": "🌿 Spring Boot & Microservices",
       "category": "Tech",
@@ -562,629 +1206,6 @@
             "Constructor: Mandatory dependencies.",
             "Setter: Optional dependencies."
           ],
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "sql",
-      "name": "🛢️ SQL & Database Indexing",
-      "category": "Tech",
-      "questions": [
-        {
-          "q": "What is SQL?",
-          "a": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).",
-          "p": [
-            "Standard language for database interaction.",
-            "Used to manage relational databases.",
-            "Enables data retrieval, insertion, updating, and deletion."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What are the main types of SQL commands?",
-          "a": "The main types of SQL commands are Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), and Data Query Language (DQL). DDL defines the database schema, DML manipulates data, DCL controls access, and DQL retrieves data.",
-          "p": [
-            "DDL: Defines database schema (e.g., CREATE, ALTER).",
-            "DML: Manipulates data (e.g., INSERT, UPDATE).",
-            "DCL: Controls data access (e.g., GRANT, REVOKE)."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "Explain the difference between `DELETE` and `TRUNCATE` commands.",
-          "a": "`DELETE` removes specific rows from a table based on a condition, and it can be rolled back. `TRUNCATE` removes all rows from a table, resets the identity (auto-increment) column, and cannot be rolled back. `TRUNCATE` is faster.",
-          "p": [
-            "DELETE: Removes specific rows, can be rolled back.",
-            "TRUNCATE: Removes all rows, resets identity, faster.",
-            "TRUNCATE: Cannot be rolled back."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is a primary key?",
-          "a": "A primary key is a column or a set of columns in a table that uniquely identifies each row in that table. It must contain unique values and cannot contain NULL values. A table can have only one primary key.",
-          "p": [
-            "Uniquely identifies each row in a table.",
-            "Must contain unique values.",
-            "Cannot contain NULL values."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is a foreign key?",
-          "a": "A foreign key is a column or a set of columns in one table that refers to the primary key of another table. It establishes a link between the two tables, enforcing referential integrity.",
-          "p": [
-            "Links two tables together.",
-            "Refers to the primary key of another table.",
-            "Enforces referential integrity."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is the purpose of the `WHERE` clause?",
-          "a": "The `WHERE` clause is used to filter records in a SQL query. It specifies a condition that records must meet to be included in the result set. Only rows that satisfy the condition are returned.",
-          "p": [
-            "Filters records in a query.",
-            "Specifies a condition.",
-            "Only rows meeting the condition are returned."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What are the four main categories of SQL statements?",
-          "a": "The four main categories are: Data Definition Language (DDL), used to define the database schema; Data Manipulation Language (DML), used to manipulate data within the database; Data Control Language (DCL), used to control access to the database; and Data Query Language (DQL), used to query the database.",
-          "p": [
-            "DDL: Define schema",
-            "DML: Manipulate data",
-            "DCL: Control access",
-            "DQL: Query data"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is DDL and can you give some examples of DDL statements?",
-          "a": "DDL stands for Data Definition Language. It's used to define and manage the structure of a database. Examples include CREATE TABLE (to create a new table), ALTER TABLE (to modify an existing table), and DROP TABLE (to delete a table).",
-          "p": [
-            "DDL: Data Definition Language",
-            "CREATE TABLE: Creates a table",
-            "ALTER TABLE: Modifies a table",
-            "DROP TABLE: Deletes a table"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is DML and can you give some examples of DML statements?",
-          "a": "DML stands for Data Manipulation Language. It's used to manipulate the data stored in a database. Examples include INSERT (to add new data), UPDATE (to modify existing data), and DELETE (to remove data).",
-          "p": [
-            "DML: Data Manipulation Language",
-            "INSERT: Adds data",
-            "UPDATE: Modifies data",
-            "DELETE: Removes data"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is DQL and what is the primary DQL statement?",
-          "a": "DQL stands for Data Query Language. It's used to retrieve data from a database. The primary DQL statement is SELECT, which allows you to specify the columns and conditions for retrieving data.",
-          "p": [
-            "DQL: Data Query Language",
-            "SELECT: Retrieves data",
-            "Specifies columns and conditions"
-          ],
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "angular",
-      "name": "🅰️ Angular Framework",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Angular Architecture and Core Concepts (Components, Modules, Services, Templates, Metadata, Data Binding, Directives, Dependency Injection)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Setting up an Angular Development Environment (Node.js, npm/yarn, Angular CLI)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Creating and Running an Angular Project (ng new, ng serve)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Understanding Angular CLI Commands (build, generate, test, e2e)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Component Creation and Structure (template, class, metadata)",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "aws_amazon_web_services",
-      "name": "☁️ AWS Amazon Web Services",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Introduction to Cloud Computing and AWS",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain AWS Global Infrastructure (Regions, Availability Zones, Edge Locations)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain AWS Account Setup and Management (IAM Users, Groups, Roles, Policies)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain AWS CLI and SDKs (Configuration, Usage)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain AWS Management Console Overview",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "c",
-      "name": "💻 C Programming",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Data Types (Primitive and Reference)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Variables and Constants",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Operators (Arithmetic, Logical, Bitwise)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Control Flow (if/else, switch, loops)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Arrays and Collections (List, Dictionary, etc.)",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "core_java",
-      "name": "☕ Core Java & OOPs",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Java Fundamentals Overview: History, Features, JVM, JRE, JDK",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Data Types, Variables, Operators, and Control Flow",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Object-Oriented Programming (OOP): Encapsulation, Inheritance, Polymorphism, Abstraction",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Classes and Objects: Constructors, Methods, Instance vs. Static Variables/Methods",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Access Modifiers: public, private, protected, default (package-private)",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "data_structures__algorithms",
-      "name": "⚙️ Data Structures & Algorithms",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Big O Notation & Time Complexity Analysis",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Space Complexity Analysis",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Common Data Structures Overview (Arrays, Linked Lists, Stacks, Queues, Hash Tables, Trees, Graphs)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Arrays: Basic Operations (Insertion, Deletion, Search)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Arrays: Dynamic Arrays & Resizing",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "docker",
-      "name": "🐋 Docker & Kubernetes",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Containers vs Virtual Machines",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Docker Architecture and Daemon",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Namespaces and Cgroups",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Dockerfile Best Practices and Instructions",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Layer Caching and BuildKit",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "git",
-      "name": "🔀 Git & GitHub",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Introduction to Version Control Systems (VCS)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain What is Git? History and Architecture",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Installing and Configuring Git",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Basic Git Commands: init, clone, add, commit, status, diff",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Understanding the Git Staging Area",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "google_cloud_gcp",
-      "name": "☁️ Google Cloud GCP",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Cloud Computing Concepts: IaaS, PaaS, SaaS, Serverless",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain GCP Global Infrastructure: Regions, Zones, Points of Presence",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain GCP Resource Hierarchy: Organization, Folders, Projects",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain GCP Console, Cloud Shell, Cloud SDK (gcloud CLI)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Identity and Access Management (IAM): Roles, Permissions, Service Accounts",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "html5",
-      "name": "🌐 HTML5 & CSS3",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain HTML5 Fundamentals: Document Structure, Elements, and Attributes",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Semantic HTML: Understanding and Using Semantic Elements (e.g., `<article>`, `<aside>`, `<nav>`, `<header>`, `<footer>`, `<section>`)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain HTML5 Forms: Input Types, Attributes, and Validation",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Accessibility (A11y): ARIA Attributes, Semantic HTML for Accessibility",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Audio and Video: Embedding and Controlling Media with `<audio>` and `<video>` elements",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "java",
-      "name": "☕ Java Programming",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain JVM Architecture, ClassLoaders, and Bytecode Verification",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Memory Management, Heap Structure, and Garbage Collection Algorithms",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Object Lifecycle, Immutable Objects, and defensive copying",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Exception Hierarchy, Checked vs Unchecked, and Best Practices",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain SOLID Principles in Java Design",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "javascript",
-      "name": "💛 JavaScript (ES6+)",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Data Types (Primitive and Reference)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Variables (var, let, const)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Operators (Arithmetic, Comparison, Logical, Assignment)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Control Flow (if/else, switch, loops)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Functions (Declaration, Expression, Arrow Functions)",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "jquery",
-      "name": "⚡ jQuery Library",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Introduction to jQuery: What is jQuery, its purpose, and benefits?",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain jQuery Setup: How to include jQuery in a project (CDN, local file), and basic syntax.",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Selectors: Understanding and using basic jQuery selectors (element, class, ID).",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain DOM Manipulation: Methods for manipulating HTML elements (adding, removing, modifying content and attributes).",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Events: Handling common events (click, mouseover, submit) and event delegation.",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "linux_system_administration",
-      "name": "🐧 Linux System Administration",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Linux Architecture and Kernel Concepts",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Linux Distributions and Package Management (Debian/Ubuntu, RHEL/CentOS/Fedora)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Command Line Interface (CLI) Navigation and Basic Commands",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain File System Hierarchy Standard (FHS)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain User and Group Management",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "mongodb",
-      "name": "🍃 MongoDB NoSQL",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Introduction to NoSQL and MongoDB",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain MongoDB Data Model (Documents and Collections)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain MongoDB Installation and Configuration",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Basic MongoDB Shell Operations (CRUD)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Data Types in MongoDB",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "nodejs",
-      "name": "🟢 Node.js & Express",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Introduction to Node.js: History, Use Cases, and Architecture",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Node.js Event Loop: Understanding Single-Threaded Asynchronous Architecture",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain NPM and Package Management: Installing, Managing, and Publishing Packages",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Modules in Node.js: CommonJS vs. ES Modules (ESM)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Global Objects: Understanding process, console, Buffer, etc.",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "oracle_db",
-      "name": "🛢️ Oracle Database SQL",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Relational Database Concepts",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Oracle Database Architecture (Physical and Logical)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain SQL Fundamentals (SELECT, INSERT, UPDATE, DELETE)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Data Types in Oracle",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Basic Oracle Tools (SQL*Plus, SQL Developer)",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "php",
-      "name": "🐘 PHP & Web Backend",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Basic Syntax and Data Types (Variables, Operators, Control Structures)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Data Types (Integers, Floats, Strings, Booleans, Arrays, Objects, Resources, NULL)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Operators (Arithmetic, Assignment, Comparison, Logical, Increment/Decrement)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Control Structures (if, else, elseif, switch, while, do-while, for, foreach)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Functions (Defining, Calling, Arguments, Return Values, Scope)",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "python",
-      "name": "🐍 Python & FastAPI",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Basic Data Types (Integers, Floats, Strings, Booleans)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Variables and Operators",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Control Flow (if, elif, else)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Loops (for, while)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Data Structures (Lists, Tuples, Dictionaries, Sets)",
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "spring_boot",
-      "name": "🌿 Spring Boot & Microservices",
-      "category": "Tutorial",
-      "questions": [
-        {
-          "q": "Explain Overview of Spring Framework and Spring Boot: Benefits, Architecture, and Key Components",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Spring Boot Starters: Understanding and Using Starter Dependencies",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Auto-Configuration: How Spring Boot Simplifies Configuration",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Spring Boot CLI: Rapid Application Development",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Spring Boot Actuator: Monitoring and Management of Applications",
           "level": "Easy"
         }
       ]
