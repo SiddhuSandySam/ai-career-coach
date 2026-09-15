@@ -1,0 +1,6292 @@
+{
+  "modules": [
+    {
+      "moduleId": "core_java",
+      "moduleName": "☕ Core Java & OOPs",
+      "order": 1,
+      "description": "Master Core Java from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "java-fundamentals-overview",
+          "topicName": "Java Fundamentals Overview: History, Features, JVM, JRE, JDK",
+          "order": 1
+        },
+        {
+          "topicId": "data-types-variables",
+          "topicName": "Data Types, Variables, Operators, and Control Flow",
+          "order": 2
+        },
+        {
+          "topicId": "object-oriented-programming",
+          "topicName": "Object-Oriented Programming (OOP): Encapsulation, Inheritance, Polymorphism, Abstraction",
+          "order": 3
+        },
+        {
+          "topicId": "classes-objects",
+          "topicName": "Classes and Objects: Constructors, Methods, Instance vs. Static Variables/Methods",
+          "order": 4
+        },
+        {
+          "topicId": "access-modifiers",
+          "topicName": "Access Modifiers: public, private, protected, default (package-private)",
+          "order": 5
+        },
+        {
+          "topicId": "keywords",
+          "topicName": "Keywords: this, super, final, static, abstract, volatile, transient, synchronized",
+          "order": 6
+        },
+        {
+          "topicId": "enums",
+          "topicName": "Enums: Definition, Usage, and Best Practices",
+          "order": 7
+        },
+        {
+          "topicId": "annotations",
+          "topicName": "Annotations: Built-in Annotations, Custom Annotations, and Reflection",
+          "order": 8
+        },
+        {
+          "topicId": "solid-principles",
+          "topicName": "SOLID Principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion",
+          "order": 9
+        },
+        {
+          "topicId": "uml-diagrams",
+          "topicName": "UML Diagrams: Class Diagrams, Sequence Diagrams, Use Case Diagrams",
+          "order": 11
+        },
+        {
+          "topicId": "collections-overview",
+          "topicName": "Collections Framework Overview: Interfaces (Collection, List, Set, Queue, Map)",
+          "order": 12
+        },
+        {
+          "topicId": "lists",
+          "topicName": "Lists: ArrayList, LinkedList, Vector, Stack",
+          "order": 13
+        },
+        {
+          "topicId": "sets",
+          "topicName": "Sets: HashSet, LinkedHashSet, TreeSet",
+          "order": 14
+        },
+        {
+          "topicId": "queues",
+          "topicName": "Queues: PriorityQueue, ArrayDeque",
+          "order": 16
+        },
+        {
+          "topicId": "comparable-comparator",
+          "topicName": "Comparable and Comparator Interfaces",
+          "order": 18
+        },
+        {
+          "topicId": "collections-utility-class",
+          "topicName": "Collections Utility Class: Sorting, Searching, Synchronization",
+          "order": 19
+        },
+        {
+          "topicId": "exception-handling-overview",
+          "topicName": "Exception Handling Overview: try-catch-finally blocks",
+          "order": 20
+        },
+        {
+          "topicId": "checked-unchecked-exceptions",
+          "topicName": "Checked vs. Unchecked Exceptions",
+          "order": 21
+        },
+        {
+          "topicId": "custom-exceptions",
+          "topicName": "Custom Exceptions: Creating and Throwing Exceptions",
+          "order": 22
+        },
+        {
+          "topicId": "throws-clause",
+          "topicName": "The 'throws' Clause",
+          "order": 23
+        },
+        {
+          "topicId": "try-with-resources",
+          "topicName": "Try-with-Resources Statement (Automatic Resource Management)",
+          "order": 24
+        },
+        {
+          "topicId": "io-streams",
+          "topicName": "I/O Streams: Input Streams, Output Streams, Reader, Writer",
+          "order": 25
+        },
+        {
+          "topicId": "file-io",
+          "topicName": "File I/O: Reading and Writing Files",
+          "order": 26
+        },
+        {
+          "topicId": "serialization",
+          "topicName": "Serialization and Deserialization",
+          "order": 27
+        },
+        {
+          "topicId": "nio",
+          "topicName": "NIO (New I/O): Channels, Buffers, Selectors",
+          "order": 28
+        },
+        {
+          "topicId": "threads",
+          "topicName": "Threads: Creating and Managing Threads",
+          "order": 29
+        },
+        {
+          "topicId": "synchronization",
+          "topicName": "Synchronization: Locks, Mutexes, Semaphores",
+          "order": 30
+        },
+        {
+          "topicId": "thread-communication",
+          "topicName": "Thread Communication: wait(), notify(), notifyAll()",
+          "order": 31
+        },
+        {
+          "topicId": "deadlocks-livelocks",
+          "topicName": "Deadlocks and Livelocks: Prevention and Detection",
+          "order": 32
+        },
+        {
+          "topicId": "thread-pools",
+          "topicName": "Thread Pools: ExecutorService, Future",
+          "order": 33
+        },
+        {
+          "topicId": "concurrent-collections",
+          "topicName": "Concurrent Collections: ConcurrentHashMap, ConcurrentLinkedQueue, etc.",
+          "order": 34
+        },
+        {
+          "topicId": "atomic-variables",
+          "topicName": "Atomic Variables: AtomicInteger, AtomicLong, etc.",
+          "order": 35
+        },
+        {
+          "topicId": "locks-api",
+          "topicName": "Locks API: ReentrantLock, ReadWriteLock",
+          "order": 36
+        },
+        {
+          "topicId": "generic-methods-classes",
+          "topicName": "Generic Methods and Classes",
+          "order": 38
+        },
+        {
+          "topicId": "wildcards",
+          "topicName": "Wildcards: Upper Bounded, Lower Bounded, Unbounded",
+          "order": 39
+        },
+        {
+          "topicId": "type-erasure",
+          "topicName": "Type Erasure",
+          "order": 40
+        },
+        {
+          "topicId": "lambda-expressions",
+          "topicName": "Lambda Expressions: Syntax, Functional Interfaces",
+          "order": 41
+        },
+        {
+          "topicId": "streams-api",
+          "topicName": "Streams API: Intermediate and Terminal Operations",
+          "order": 42
+        },
+        {
+          "topicId": "optional-class",
+          "topicName": "Optional Class: Avoiding NullPointerExceptions",
+          "order": 43
+        },
+        {
+          "topicId": "method-references",
+          "topicName": "Method References",
+          "order": 45
+        },
+        {
+          "topicId": "default-static-interface-methods",
+          "topicName": "Default and Static Methods in Interfaces",
+          "order": 46
+        },
+        {
+          "topicId": "reflection-overview",
+          "topicName": "Reflection Overview: Class, Method, Field",
+          "order": 47
+        },
+        {
+          "topicId": "dynamic-class-loading",
+          "topicName": "Dynamic Class Loading and Instantiation",
+          "order": 48
+        },
+        {
+          "topicId": "accessing-private-members",
+          "topicName": "Accessing Private Members",
+          "order": 49
+        },
+        {
+          "topicId": "reflection-use-cases",
+          "topicName": "Use Cases and Limitations of Reflection",
+          "order": 50
+        },
+        {
+          "topicId": "garbage-collection-overview",
+          "topicName": "Garbage Collection Overview: Mark and Sweep, Generational GC",
+          "order": 51
+        },
+        {
+          "topicId": "gc-algorithms",
+          "topicName": "GC Algorithms: Serial, Parallel, CMS, G1",
+          "order": 52
+        },
+        {
+          "topicId": "gc-tuning",
+          "topicName": "GC Tuning: Monitoring and Optimizing GC Performance",
+          "order": 53
+        },
+        {
+          "topicId": "memory-leaks",
+          "topicName": "Memory Leaks: Causes and Prevention",
+          "order": 54
+        },
+        {
+          "topicId": "jvm-architecture",
+          "topicName": "JVM Architecture: Classloader, Memory Areas (Heap, Stack, Method Area, Native Method Stack)",
+          "order": 55
+        },
+        {
+          "topicId": "class-loading",
+          "topicName": "Class Loading: Loading, Linking, Initialization",
+          "order": 56
+        },
+        {
+          "topicId": "bytecode",
+          "topicName": "Bytecode: Understanding Java Bytecode",
+          "order": 57
+        },
+        {
+          "topicId": "jit-compiler",
+          "topicName": "JIT (Just-In-Time) Compiler",
+          "order": 58
+        },
+        {
+          "topicId": "junit",
+          "topicName": "JUnit: Writing Unit Tests, Assertions, Test Fixtures",
+          "order": 59
+        },
+        {
+          "topicId": "mockito",
+          "topicName": "Mockito: Mocking Objects, Stubbing Methods, Verifying Interactions",
+          "order": 60
+        },
+        {
+          "topicId": "test-driven-development",
+          "topicName": "Test-Driven Development (TDD)",
+          "order": 61
+        },
+        {
+          "topicId": "sockets",
+          "topicName": "Sockets: TCP and UDP Sockets",
+          "order": 62
+        },
+        {
+          "topicId": "security-principles",
+          "topicName": "Security Principles: Authentication, Authorization, Encryption",
+          "order": 65
+        },
+        {
+          "topicId": "common-vulnerabilities",
+          "topicName": "Common Vulnerabilities: SQL Injection, Cross-Site Scripting (XSS)",
+          "order": 66
+        },
+        {
+          "topicId": "string-class",
+          "topicName": "String Class: Immutability, String Pool",
+          "order": 68
+        },
+        {
+          "topicId": "stringbuilder-stringbuffer",
+          "topicName": "StringBuilder and StringBuffer: Mutability, Thread Safety",
+          "order": 69
+        },
+        {
+          "topicId": "string-methods",
+          "topicName": "String Methods: Substring, Replace, Split, etc.",
+          "order": 70
+        },
+        {
+          "topicId": "maven",
+          "topicName": "Maven: Project Object Model (POM), Dependencies, Plugins",
+          "order": 71
+        },
+        {
+          "topicId": "gradle",
+          "topicName": "Gradle: Build Scripts, Dependencies, Plugins",
+          "order": 72
+        },
+        {
+          "topicId": "logging-frameworks",
+          "topicName": "Logging Frameworks: Log4j, SLF4J, Logback",
+          "order": 73
+        },
+        {
+          "topicId": "logging-levels",
+          "topicName": "Logging Levels: TRACE, DEBUG, INFO, WARN, ERROR, FATAL",
+          "order": 74
+        },
+        {
+          "topicId": "debugging-techniques",
+          "topicName": "Debugging Techniques: Breakpoints, Stepping, Watches",
+          "order": 75
+        },
+        {
+          "topicId": "profiling",
+          "topicName": "Profiling: Identifying Performance Bottlenecks",
+          "order": 76
+        }
+      ]
+    },
+    {
+      "moduleId": "spring_boot",
+      "moduleName": "🌿 Spring Boot & Microservices",
+      "order": 2,
+      "description": "Master Spring Boot from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "spring-boot-intro",
+          "topicName": "Overview of Spring Framework and Spring Boot: Benefits, Architecture, and Key Components",
+          "order": 1
+        },
+        {
+          "topicId": "spring-boot-basics",
+          "topicName": "Spring Boot Starters: Understanding and Using Starter Dependencies",
+          "order": 2
+        },
+        {
+          "topicId": "spring-boot-autoconfiguration",
+          "topicName": "Auto-Configuration: How Spring Boot Simplifies Configuration",
+          "order": 3
+        },
+        {
+          "topicId": "spring-boot-cli",
+          "topicName": "Spring Boot CLI: Rapid Application Development",
+          "order": 4
+        },
+        {
+          "topicId": "spring-boot-actuator",
+          "topicName": "Spring Boot Actuator: Monitoring and Management of Applications",
+          "order": 5
+        },
+        {
+          "topicId": "spring-boot-properties",
+          "topicName": "Externalized Configuration: Properties Files, YAML, Environment Variables",
+          "order": 6
+        },
+        {
+          "topicId": "spring-boot-profiles",
+          "topicName": "Spring Profiles: Managing Different Environments (Dev, Test, Prod)",
+          "order": 7
+        },
+        {
+          "topicId": "spring-boot-configuration-classes",
+          "topicName": "Configuration Classes: Defining Beans and Dependencies",
+          "order": 8
+        },
+        {
+          "topicId": "spring-boot-mvc",
+          "topicName": "Spring MVC with Spring Boot: Building RESTful APIs and Web Applications",
+          "order": 10
+        },
+        {
+          "topicId": "spring-boot-rest-controllers",
+          "topicName": "REST Controllers: Handling HTTP Requests and Responses",
+          "order": 11
+        },
+        {
+          "topicId": "spring-boot-request-mapping",
+          "topicName": "Request Mapping: Mapping URLs to Controller Methods",
+          "order": 12
+        },
+        {
+          "topicId": "spring-boot-validation",
+          "topicName": "Data Validation: Using Annotations for Input Validation",
+          "order": 13
+        },
+        {
+          "topicId": "spring-boot-exception-handling",
+          "topicName": "Exception Handling: Global and Controller-Specific Exception Handling",
+          "order": 14
+        },
+        {
+          "topicId": "spring-boot-data-jpa",
+          "topicName": "Spring Data JPA: Simplifying Database Interactions with Repositories",
+          "order": 15
+        },
+        {
+          "topicId": "spring-boot-data-jdbc",
+          "topicName": "Spring Data JDBC: Alternative to JPA for Relational Database Access",
+          "order": 16
+        },
+        {
+          "topicId": "spring-boot-transactions",
+          "topicName": "Transaction Management: Ensuring Data Consistency",
+          "order": 17
+        },
+        {
+          "topicId": "spring-boot-data-mongodb",
+          "topicName": "Spring Data MongoDB: Working with NoSQL Databases",
+          "order": 18
+        },
+        {
+          "topicId": "spring-boot-data-redis",
+          "topicName": "Spring Data Redis: Using Redis for Caching and Data Storage",
+          "order": 19
+        },
+        {
+          "topicId": "spring-boot-security",
+          "topicName": "Spring Security: Authentication and Authorization",
+          "order": 20
+        },
+        {
+          "topicId": "spring-boot-security-web",
+          "topicName": "Web Security: Securing REST APIs and Web Applications",
+          "order": 21
+        },
+        {
+          "topicId": "spring-boot-security-oauth2",
+          "topicName": "OAuth 2.0 and OpenID Connect: Implementing Secure Authentication and Authorization Flows",
+          "order": 22
+        },
+        {
+          "topicId": "spring-boot-security-jwt",
+          "topicName": "JWT (JSON Web Tokens): Using JWT for Stateless Authentication",
+          "order": 23
+        },
+        {
+          "topicId": "spring-boot-unit-testing",
+          "topicName": "Unit Testing: Writing Unit Tests with JUnit and Mockito",
+          "order": 24
+        },
+        {
+          "topicId": "spring-boot-integration-testing",
+          "topicName": "Integration Testing: Testing Interactions Between Components",
+          "order": 25
+        },
+        {
+          "topicId": "spring-boot-mocking",
+          "topicName": "Mocking and Stubbing: Isolating Components for Testing",
+          "order": 27
+        },
+        {
+          "topicId": "spring-boot-aop",
+          "topicName": "Aspect-Oriented Programming (AOP): Implementing Cross-Cutting Concerns",
+          "order": 28
+        },
+        {
+          "topicId": "spring-boot-events",
+          "topicName": "Spring Events: Implementing Asynchronous Communication",
+          "order": 29
+        },
+        {
+          "topicId": "spring-boot-caching",
+          "topicName": "Caching: Improving Performance with Spring's Caching Abstraction",
+          "order": 31
+        },
+        {
+          "topicId": "spring-boot-messaging",
+          "topicName": "Spring Messaging: Integrating with Message Queues (e.g., RabbitMQ, Kafka)",
+          "order": 32
+        },
+        {
+          "topicId": "spring-boot-cloud",
+          "topicName": "Spring Cloud: Overview of Spring Cloud components (Config Server, Service Discovery, API Gateway)",
+          "order": 33
+        },
+        {
+          "topicId": "spring-boot-packaging",
+          "topicName": "Packaging: Creating Executable JARs and WARs",
+          "order": 34
+        },
+        {
+          "topicId": "spring-boot-docker",
+          "topicName": "Docker: Containerizing Spring Boot Applications",
+          "order": 35
+        },
+        {
+          "topicId": "spring-boot-cloud-deployment",
+          "topicName": "Cloud Deployment: Deploying to Cloud Platforms (AWS, Azure, GCP)",
+          "order": 36
+        },
+        {
+          "topicId": "spring-boot-profiling",
+          "topicName": "Profiling: Identifying Performance Bottlenecks",
+          "order": 37
+        },
+        {
+          "topicId": "spring-boot-jvm-tuning",
+          "topicName": "JVM Tuning: Optimizing JVM Settings for Performance",
+          "order": 38
+        },
+        {
+          "topicId": "spring-boot-database-optimization",
+          "topicName": "Database Optimization: Improving Database Query Performance",
+          "order": 39
+        },
+        {
+          "topicId": "spring-boot-code-quality",
+          "topicName": "Code Quality: Writing Clean and Maintainable Code",
+          "order": 40
+        },
+        {
+          "topicId": "spring-boot-security-best-practices",
+          "topicName": "Security Best Practices: Avoiding Common Security Vulnerabilities",
+          "order": 41
+        },
+        {
+          "topicId": "spring-boot-logging",
+          "topicName": "Logging: Effective Logging Strategies",
+          "order": 42
+        },
+        {
+          "topicId": "spring-boot-monitoring",
+          "topicName": "Monitoring: Setting up Application Monitoring and Alerting",
+          "order": 43
+        }
+      ]
+    },
+    {
+      "moduleId": "sql",
+      "moduleName": "🛢️ SQL & Database Indexing",
+      "order": 3,
+      "description": "Master SQL from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "sql-fundamentals-introduction",
+          "topicName": "Introduction to SQL and Relational Databases",
+          "order": 1
+        },
+        {
+          "topicId": "sql-fundamentals-data-types",
+          "topicName": "SQL Data Types: Numeric, String, Date/Time",
+          "order": 3
+        },
+        {
+          "topicId": "sql-fundamentals-operators",
+          "topicName": "SQL Operators: Comparison, Logical, Arithmetic",
+          "order": 4
+        },
+        {
+          "topicId": "sql-fundamentals-null-values",
+          "topicName": "Handling NULL Values",
+          "order": 5
+        },
+        {
+          "topicId": "sql-fundamentals-aliases",
+          "topicName": "Aliases for Tables and Columns",
+          "order": 6
+        },
+        {
+          "topicId": "data-manipulation-insert",
+          "topicName": "INSERT Statements: Adding Data",
+          "order": 7
+        },
+        {
+          "topicId": "data-manipulation-update",
+          "topicName": "UPDATE Statements: Modifying Data",
+          "order": 8
+        },
+        {
+          "topicId": "data-manipulation-delete",
+          "topicName": "DELETE Statements: Removing Data",
+          "order": 9
+        },
+        {
+          "topicId": "data-manipulation-truncate",
+          "topicName": "TRUNCATE TABLE Statement",
+          "order": 10
+        },
+        {
+          "topicId": "data-retrieval-select-advanced",
+          "topicName": "Advanced SELECT Statements: DISTINCT, LIMIT, OFFSET",
+          "order": 11
+        },
+        {
+          "topicId": "data-retrieval-sorting",
+          "topicName": "Sorting Data: ORDER BY",
+          "order": 12
+        },
+        {
+          "topicId": "data-retrieval-filtering",
+          "topicName": "Filtering Data: WHERE Clause with Complex Conditions",
+          "order": 13
+        },
+        {
+          "topicId": "data-retrieval-grouping",
+          "topicName": "Grouping Data: GROUP BY and Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)",
+          "order": 15
+        },
+        {
+          "topicId": "data-retrieval-having",
+          "topicName": "Filtering Grouped Data: HAVING Clause",
+          "order": 16
+        },
+        {
+          "topicId": "joins-inner-join",
+          "topicName": "INNER JOIN",
+          "order": 17
+        },
+        {
+          "topicId": "joins-left-join",
+          "topicName": "LEFT (OUTER) JOIN",
+          "order": 18
+        },
+        {
+          "topicId": "joins-right-join",
+          "topicName": "RIGHT (OUTER) JOIN",
+          "order": 19
+        },
+        {
+          "topicId": "joins-full-join",
+          "topicName": "FULL (OUTER) JOIN",
+          "order": 20
+        },
+        {
+          "topicId": "joins-cross-join",
+          "topicName": "CROSS JOIN",
+          "order": 21
+        },
+        {
+          "topicId": "joins-self-join",
+          "topicName": "SELF JOIN",
+          "order": 22
+        },
+        {
+          "topicId": "subqueries-introduction",
+          "topicName": "Introduction to Subqueries",
+          "order": 23
+        },
+        {
+          "topicId": "subqueries-in-clause",
+          "topicName": "Subqueries with IN, NOT IN",
+          "order": 24
+        },
+        {
+          "topicId": "subqueries-exists-not-exists",
+          "topicName": "Subqueries with EXISTS, NOT EXISTS",
+          "order": 25
+        },
+        {
+          "topicId": "subqueries-correlated",
+          "topicName": "Correlated Subqueries",
+          "order": 26
+        },
+        {
+          "topicId": "set-operations-intersect",
+          "topicName": "INTERSECT",
+          "order": 28
+        },
+        {
+          "topicId": "set-operations-minus-except",
+          "topicName": "MINUS / EXCEPT",
+          "order": 29
+        },
+        {
+          "topicId": "window-functions-introduction",
+          "topicName": "Introduction to Window Functions",
+          "order": 30
+        },
+        {
+          "topicId": "window-functions-partition-by",
+          "topicName": "PARTITION BY Clause",
+          "order": 31
+        },
+        {
+          "topicId": "window-functions-order-by",
+          "topicName": "ORDER BY Clause within Window Functions",
+          "order": 32
+        },
+        {
+          "topicId": "window-functions-row-number",
+          "topicName": "ROW_NUMBER(), RANK(), DENSE_RANK()",
+          "order": 33
+        },
+        {
+          "topicId": "window-functions-lag-lead",
+          "topicName": "LAG(), LEAD()",
+          "order": 34
+        },
+        {
+          "topicId": "window-functions-aggregate",
+          "topicName": "Aggregate Functions as Window Functions",
+          "order": 35
+        },
+        {
+          "topicId": "transactions-acid-properties",
+          "topicName": "ACID Properties (Atomicity, Consistency, Isolation, Durability)",
+          "order": 36
+        },
+        {
+          "topicId": "transactions-commit-rollback",
+          "topicName": "COMMIT and ROLLBACK",
+          "order": 37
+        },
+        {
+          "topicId": "transactions-isolation-levels",
+          "topicName": "Transaction Isolation Levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable)",
+          "order": 38
+        },
+        {
+          "topicId": "indexes-introduction",
+          "topicName": "Introduction to Indexes",
+          "order": 39
+        },
+        {
+          "topicId": "indexes-types",
+          "topicName": "Types of Indexes (B-Tree, Hash, etc.)",
+          "order": 40
+        },
+        {
+          "topicId": "indexes-clustered-nonclustered",
+          "topicName": "Clustered vs. Non-Clustered Indexes",
+          "order": 41
+        },
+        {
+          "topicId": "indexes-composite",
+          "topicName": "Composite Indexes",
+          "order": 42
+        },
+        {
+          "topicId": "indexes-index-optimization",
+          "topicName": "Index Optimization and Performance Tuning",
+          "order": 43
+        },
+        {
+          "topicId": "database-design-normalization",
+          "topicName": "Database Normalization (1NF, 2NF, 3NF, BCNF)",
+          "order": 44
+        },
+        {
+          "topicId": "database-design-denormalization",
+          "topicName": "Denormalization",
+          "order": 45
+        },
+        {
+          "topicId": "database-design-er-diagrams",
+          "topicName": "ER Diagrams and Data Modeling",
+          "order": 46
+        },
+        {
+          "topicId": "constraints-primary-key",
+          "topicName": "Primary Key Constraint",
+          "order": 47
+        },
+        {
+          "topicId": "constraints-foreign-key",
+          "topicName": "Foreign Key Constraint",
+          "order": 48
+        },
+        {
+          "topicId": "constraints-unique",
+          "topicName": "UNIQUE Constraint",
+          "order": 49
+        },
+        {
+          "topicId": "constraints-not-null",
+          "topicName": "NOT NULL Constraint",
+          "order": 50
+        },
+        {
+          "topicId": "constraints-check",
+          "topicName": "CHECK Constraint",
+          "order": 51
+        },
+        {
+          "topicId": "stored-procedures-introduction",
+          "topicName": "Introduction to Stored Procedures",
+          "order": 52
+        },
+        {
+          "topicId": "stored-procedures-parameters",
+          "topicName": "Parameters in Stored Procedures",
+          "order": 53
+        },
+        {
+          "topicId": "stored-procedures-return-values",
+          "topicName": "Return Values from Stored Procedures",
+          "order": 54
+        },
+        {
+          "topicId": "functions-user-defined",
+          "topicName": "User-Defined Functions",
+          "order": 55
+        },
+        {
+          "topicId": "recursive-queries-cte",
+          "topicName": "Recursive Queries and Common Table Expressions (CTEs)",
+          "order": 56
+        },
+        {
+          "topicId": "dynamic-sql",
+          "topicName": "Dynamic SQL",
+          "order": 57
+        },
+        {
+          "topicId": "query-optimization",
+          "topicName": "Query Optimization Techniques",
+          "order": 58
+        },
+        {
+          "topicId": "execution-plans",
+          "topicName": "Understanding Execution Plans",
+          "order": 59
+        },
+        {
+          "topicId": "database-security-authentication",
+          "topicName": "Authentication and Authorization",
+          "order": 60
+        },
+        {
+          "topicId": "database-security-sql-injection",
+          "topicName": "SQL Injection Prevention",
+          "order": 61
+        },
+        {
+          "topicId": "database-security-encryption",
+          "topicName": "Data Encryption",
+          "order": 62
+        },
+        {
+          "topicId": "nosql-integration-overview",
+          "topicName": "Overview of NoSQL Databases (MongoDB, Cassandra, etc.)",
+          "order": 63
+        },
+        {
+          "topicId": "nosql-integration-use-cases",
+          "topicName": "Use Cases for NoSQL alongside SQL",
+          "order": 64
+        },
+        {
+          "topicId": "nosql-integration-data-migration",
+          "topicName": "Data Migration Strategies between SQL and NoSQL",
+          "order": 65
+        },
+        {
+          "topicId": "cloud-databases-aws-rds",
+          "topicName": "Cloud Databases: AWS RDS, Aurora",
+          "order": 66
+        },
+        {
+          "topicId": "cloud-databases-google-cloud-sql",
+          "topicName": "Cloud Databases: Google Cloud SQL, Spanner",
+          "order": 67
+        },
+        {
+          "topicId": "cloud-databases-azure-sql-database",
+          "topicName": "Cloud Databases: Azure SQL Database",
+          "order": 68
+        },
+        {
+          "topicId": "data-warehousing-concepts",
+          "topicName": "Data Warehousing Concepts (Star Schema, Snowflake Schema)",
+          "order": 69
+        },
+        {
+          "topicId": "data-warehousing-etl",
+          "topicName": "ETL Processes (Extract, Transform, Load)",
+          "order": 70
+        },
+        {
+          "topicId": "data-warehousing-olap",
+          "topicName": "OLAP and Data Cubes",
+          "order": 71
+        },
+        {
+          "topicId": "big-data-sql-hive",
+          "topicName": "Big Data SQL: Hive",
+          "order": 72
+        },
+        {
+          "topicId": "big-data-sql-spark-sql",
+          "topicName": "Big Data SQL: Spark SQL",
+          "order": 73
+        },
+        {
+          "topicId": "big-data-sql-presto",
+          "topicName": "Big Data SQL: Presto",
+          "order": 74
+        },
+        {
+          "topicId": "graph-databases-neo4j",
+          "topicName": "Introduction to Graph Databases (Neo4j)",
+          "order": 75
+        },
+        {
+          "topicId": "graph-databases-cypher",
+          "topicName": "Cypher Query Language",
+          "order": 76
+        },
+        {
+          "topicId": "temporal-data-sql2011",
+          "topicName": "Temporal Data Support in SQL: SQL:2011 Standard",
+          "order": 77
+        },
+        {
+          "topicId": "temporal-data-versioning",
+          "topicName": "Data Versioning and Auditing",
+          "order": 78
+        },
+        {
+          "topicId": "spatial-data-geospatial",
+          "topicName": "Spatial Data and Geospatial Queries",
+          "order": 79
+        },
+        {
+          "topicId": "database-administration-backup-recovery",
+          "topicName": "Backup and Recovery Strategies",
+          "order": 80
+        },
+        {
+          "topicId": "database-administration-performance-monitoring",
+          "topicName": "Performance Monitoring and Tuning",
+          "order": 81
+        },
+        {
+          "topicId": "database-administration-security-management",
+          "topicName": "Security Management and User Permissions",
+          "order": 82
+        }
+      ]
+    },
+    {
+      "moduleId": "html5",
+      "moduleName": "🌐 HTML5 & CSS3",
+      "order": 4,
+      "description": "Master HTML5 from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "html5-fundamentals",
+          "topicName": "HTML5 Fundamentals: Document Structure, Elements, and Attributes",
+          "order": 1
+        },
+        {
+          "topicId": "semantic-html",
+          "topicName": "Semantic HTML: Understanding and Using Semantic Elements (e.g., `<article>`, `<aside>`, `<nav>`, `<header>`, `<footer>`, `<section>`)",
+          "order": 2
+        },
+        {
+          "topicId": "html5-forms",
+          "topicName": "HTML5 Forms: Input Types, Attributes, and Validation",
+          "order": 3
+        },
+        {
+          "topicId": "accessibility",
+          "topicName": "Accessibility (A11y): ARIA Attributes, Semantic HTML for Accessibility",
+          "order": 4
+        },
+        {
+          "topicId": "audio-video",
+          "topicName": "Audio and Video: Embedding and Controlling Media with `<audio>` and `<video>` elements",
+          "order": 5
+        },
+        {
+          "topicId": "media-apis",
+          "topicName": "Media APIs: Working with the Media API for advanced media control and manipulation",
+          "order": 6
+        },
+        {
+          "topicId": "html5-canvas",
+          "topicName": "HTML5 Canvas: Drawing Graphics, Animations, and Interactive Elements",
+          "order": 7
+        },
+        {
+          "topicId": "canvas-api",
+          "topicName": "Canvas API: Understanding and Using Canvas API methods for drawing shapes, text, and images",
+          "order": 8
+        },
+        {
+          "topicId": "canvas-performance",
+          "topicName": "Canvas Performance: Optimizing Canvas rendering for smooth animations and interactions",
+          "order": 9
+        },
+        {
+          "topicId": "svg-graphics",
+          "topicName": "SVG (Scalable Vector Graphics): Embedding and Manipulating Vector Graphics",
+          "order": 10
+        },
+        {
+          "topicId": "svg-animation",
+          "topicName": "SVG Animation: Animating SVG elements using CSS, JavaScript, and SMIL",
+          "order": 11
+        },
+        {
+          "topicId": "geolocation-api",
+          "topicName": "Geolocation API: Accessing User Location and Handling Permissions",
+          "order": 12
+        },
+        {
+          "topicId": "geolocation-best-practices",
+          "topicName": "Geolocation Best Practices: Privacy, Accuracy, and Error Handling",
+          "order": 13
+        },
+        {
+          "topicId": "local-storage",
+          "topicName": "Local Storage: Storing Data Locally in the Browser",
+          "order": 14
+        },
+        {
+          "topicId": "session-storage",
+          "topicName": "Session Storage: Storing Data for a Single Session",
+          "order": 15
+        },
+        {
+          "topicId": "cookies",
+          "topicName": "Cookies: Managing Cookies for User Authentication and Tracking",
+          "order": 16
+        },
+        {
+          "topicId": "web-workers",
+          "topicName": "Web Workers: Running JavaScript in the Background for Improved Performance",
+          "order": 17
+        },
+        {
+          "topicId": "worker-communication",
+          "topicName": "Worker Communication: Communicating between the main thread and Web Workers using `postMessage`",
+          "order": 18
+        },
+        {
+          "topicId": "web-sockets",
+          "topicName": "Web Sockets: Establishing Real-time, Bidirectional Communication between Client and Server",
+          "order": 19
+        },
+        {
+          "topicId": "socket-implementation",
+          "topicName": "Socket Implementation: Implementing Web Sockets on both the client and server side",
+          "order": 20
+        },
+        {
+          "topicId": "server-sent-events",
+          "topicName": "Server-Sent Events (SSE): Receiving Real-time Updates from the Server",
+          "order": 21
+        },
+        {
+          "topicId": "drag-and-drop-api",
+          "topicName": "Drag and Drop API: Implementing Drag and Drop Functionality",
+          "order": 22
+        },
+        {
+          "topicId": "app-cache",
+          "topicName": "Application Cache: Caching Resources for Offline Access (Deprecated, but important to know why)",
+          "order": 23
+        },
+        {
+          "topicId": "service-workers",
+          "topicName": "Service Workers: Modern Approach to Offline Caching and Background Sync",
+          "order": 24
+        },
+        {
+          "topicId": "web-components",
+          "topicName": "Web Components: Creating Reusable Custom HTML Elements",
+          "order": 26
+        },
+        {
+          "topicId": "custom-elements",
+          "topicName": "Custom Elements: Defining Custom HTML Elements with JavaScript",
+          "order": 27
+        },
+        {
+          "topicId": "shadow-dom",
+          "topicName": "Shadow DOM: Encapsulating Styles and Markup within Web Components",
+          "order": 28
+        },
+        {
+          "topicId": "html-templates",
+          "topicName": "HTML Templates: Using `<template>` and `<slot>` elements for Web Component structure",
+          "order": 29
+        },
+        {
+          "topicId": "file-api",
+          "topicName": "File API: Accessing and Manipulating Files in the Browser",
+          "order": 30
+        },
+        {
+          "topicId": "history-api",
+          "topicName": "History API: Manipulating Browser History for Single-Page Applications",
+          "order": 31
+        },
+        {
+          "topicId": "fullscreen-api",
+          "topicName": "Fullscreen API: Requesting and Handling Fullscreen Mode",
+          "order": 32
+        },
+        {
+          "topicId": "page-visibility-api",
+          "topicName": "Page Visibility API: Detecting When a Page is Visible or Hidden",
+          "order": 33
+        },
+        {
+          "topicId": "rendering-optimization",
+          "topicName": "Rendering Optimization: Techniques for improving HTML rendering performance (e.g., lazy loading, code splitting)",
+          "order": 34
+        },
+        {
+          "topicId": "xss-prevention",
+          "topicName": "XSS Prevention: Understanding and Preventing Cross-Site Scripting attacks in HTML",
+          "order": 35
+        },
+        {
+          "topicId": "csrf-protection",
+          "topicName": "CSRF Protection: Understanding and Preventing Cross-Site Request Forgery attacks",
+          "order": 36
+        },
+        {
+          "topicId": "unit-testing-html",
+          "topicName": "Unit Testing HTML: Strategies for unit testing HTML components and interactions",
+          "order": 37
+        },
+        {
+          "topicId": "es-modules-html",
+          "topicName": "ES Modules in HTML: Using ES modules directly in HTML with `<script type=\"module\">`",
+          "order": 38
+        },
+        {
+          "topicId": "import-maps",
+          "topicName": "Import Maps: Controlling module resolution in the browser",
+          "order": 39
+        },
+        {
+          "topicId": "declarative-shadow-dom",
+          "topicName": "Declarative Shadow DOM: Rendering Shadow DOM in the initial HTML markup",
+          "order": 40
+        }
+      ]
+    },
+    {
+      "moduleId": "reactjs",
+      "moduleName": "⚛️ React.js & Frontend",
+      "order": 5,
+      "description": "Master React.js from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "react-fundamentals-introduction",
+          "topicName": "Introduction to React: Core Concepts and Principles",
+          "order": 1
+        },
+        {
+          "topicId": "react-fundamentals-jsx",
+          "topicName": "JSX: Syntax, Expressions, and Compilation",
+          "order": 2
+        },
+        {
+          "topicId": "react-fundamentals-components",
+          "topicName": "Components: Functional vs. Class Components",
+          "order": 3
+        },
+        {
+          "topicId": "react-fundamentals-props",
+          "topicName": "Props: Passing Data and Immutability",
+          "order": 4
+        },
+        {
+          "topicId": "react-fundamentals-state",
+          "topicName": "State: Managing Component Data and Updates",
+          "order": 5
+        },
+        {
+          "topicId": "react-fundamentals-lifecycle",
+          "topicName": "Component Lifecycle Methods (Class Components)",
+          "order": 6
+        },
+        {
+          "topicId": "react-fundamentals-hooks",
+          "topicName": "Hooks: useState, useEffect, useContext",
+          "order": 7
+        },
+        {
+          "topicId": "react-fundamentals-conditional-rendering",
+          "topicName": "Conditional Rendering: Techniques and Best Practices",
+          "order": 8
+        },
+        {
+          "topicId": "react-fundamentals-lists-keys",
+          "topicName": "Lists and Keys: Rendering Dynamic Content",
+          "order": 9
+        },
+        {
+          "topicId": "react-fundamentals-event-handling",
+          "topicName": "Event Handling: Synthetic Events and Event Delegation",
+          "order": 10
+        },
+        {
+          "topicId": "state-management-context-api",
+          "topicName": "Context API: Global State Management",
+          "order": 11
+        },
+        {
+          "topicId": "state-management-redux",
+          "topicName": "Redux: Architecture, Actions, Reducers, Store",
+          "order": 12
+        },
+        {
+          "topicId": "state-management-redux-middleware",
+          "topicName": "Redux Middleware: Thunk, Saga",
+          "order": 13
+        },
+        {
+          "topicId": "state-management-redux-toolkit",
+          "topicName": "Redux Toolkit: Simplifying Redux Development",
+          "order": 14
+        },
+        {
+          "topicId": "state-management-zustand",
+          "topicName": "Zustand: Simple and Scalable State Management",
+          "order": 15
+        },
+        {
+          "topicId": "state-management-jotai",
+          "topicName": "Jotai: Primitive and Flexible State Management",
+          "order": 16
+        },
+        {
+          "topicId": "state-management-recoil",
+          "topicName": "Recoil: Fine-Grained State Management",
+          "order": 17
+        },
+        {
+          "topicId": "forms-input-handling-controlled-components",
+          "topicName": "Controlled Components: Managing Form State",
+          "order": 18
+        },
+        {
+          "topicId": "forms-input-handling-uncontrolled-components",
+          "topicName": "Uncontrolled Components: Refs and DOM Manipulation",
+          "order": 19
+        },
+        {
+          "topicId": "forms-input-handling-form-validation",
+          "topicName": "Form Validation: Client-Side and Server-Side",
+          "order": 20
+        },
+        {
+          "topicId": "forms-input-handling-formik",
+          "topicName": "Formik: Simplifying Form Handling",
+          "order": 21
+        },
+        {
+          "topicId": "forms-input-handling-react-hook-form",
+          "topicName": "React Hook Form: Performant Form Handling",
+          "order": 22
+        },
+        {
+          "topicId": "async-operations-fetching-data",
+          "topicName": "Fetching Data: Using Fetch API and Axios",
+          "order": 23
+        },
+        {
+          "topicId": "async-operations-promises",
+          "topicName": "Promises: Handling Asynchronous Operations",
+          "order": 24
+        },
+        {
+          "topicId": "async-operations-async-await",
+          "topicName": "Async/Await: Syntactic Sugar for Promises",
+          "order": 25
+        },
+        {
+          "topicId": "async-operations-error-handling",
+          "topicName": "Error Handling: Try/Catch and Error Boundaries",
+          "order": 26
+        },
+        {
+          "topicId": "async-operations-cancellation",
+          "topicName": "Cancellation: AbortController and Cleanup",
+          "order": 27
+        },
+        {
+          "topicId": "routing-react-router",
+          "topicName": "React Router: Setting Up Navigation",
+          "order": 28
+        },
+        {
+          "topicId": "routing-react-router-params",
+          "topicName": "Route Parameters: Dynamic Routing",
+          "order": 29
+        },
+        {
+          "topicId": "routing-react-router-nested-routes",
+          "topicName": "Nested Routes: Organizing Complex Applications",
+          "order": 30
+        },
+        {
+          "topicId": "routing-react-router-navigation",
+          "topicName": "Programmatic Navigation: Using History",
+          "order": 31
+        },
+        {
+          "topicId": "styling-css-modules",
+          "topicName": "CSS Modules: Scoped Styles",
+          "order": 32
+        },
+        {
+          "topicId": "styling-styled-components",
+          "topicName": "Styled Components: CSS-in-JS",
+          "order": 33
+        },
+        {
+          "topicId": "styling-material-ui",
+          "topicName": "Material-UI: Component Library",
+          "order": 34
+        },
+        {
+          "topicId": "styling-tailwindcss",
+          "topicName": "Tailwind CSS: Utility-First CSS Framework",
+          "order": 35
+        },
+        {
+          "topicId": "testing-jest",
+          "topicName": "Jest: Unit Testing Framework",
+          "order": 36
+        },
+        {
+          "topicId": "testing-react-testing-library",
+          "topicName": "React Testing Library: Component Testing",
+          "order": 37
+        },
+        {
+          "topicId": "testing-enzyme",
+          "topicName": "Enzyme: React Testing Utility (Legacy)",
+          "order": 38
+        },
+        {
+          "topicId": "testing-mocking",
+          "topicName": "Mocking: Dependencies and API Calls",
+          "order": 39
+        },
+        {
+          "topicId": "testing-integration-tests",
+          "topicName": "Integration Tests: Testing Component Interactions",
+          "order": 40
+        },
+        {
+          "topicId": "performance-optimization-memoization",
+          "topicName": "Memoization: useMemo, useCallback, React.memo",
+          "order": 41
+        },
+        {
+          "topicId": "performance-optimization-code-splitting",
+          "topicName": "Code Splitting: Lazy Loading Components",
+          "order": 42
+        },
+        {
+          "topicId": "performance-optimization-virtualization",
+          "topicName": "Virtualization: Rendering Large Lists",
+          "order": 43
+        },
+        {
+          "topicId": "performance-optimization-profiling",
+          "topicName": "Profiling: Identifying Performance Bottlenecks",
+          "order": 44
+        },
+        {
+          "topicId": "advanced-react-concepts-render-props",
+          "topicName": "Render Props: Sharing Logic Between Components",
+          "order": 45
+        },
+        {
+          "topicId": "advanced-react-concepts-higher-order-components",
+          "topicName": "Higher-Order Components (HOCs): Code Reuse",
+          "order": 46
+        },
+        {
+          "topicId": "advanced-react-concepts-custom-hooks",
+          "topicName": "Custom Hooks: Extracting Component Logic",
+          "order": 47
+        },
+        {
+          "topicId": "advanced-react-concepts-portals",
+          "topicName": "Portals: Rendering Outside the Root Element",
+          "order": 48
+        },
+        {
+          "topicId": "advanced-react-concepts-refs-dom",
+          "topicName": "Refs and the DOM: Accessing DOM Elements",
+          "order": 49
+        },
+        {
+          "topicId": "advanced-react-concepts-forwarding-refs",
+          "topicName": "Forwarding Refs: Passing Refs to Child Components",
+          "order": 50
+        },
+        {
+          "topicId": "advanced-react-concepts-error-boundaries",
+          "topicName": "Error Boundaries: Handling Component Errors",
+          "order": 51
+        },
+        {
+          "topicId": "ssr-nextjs",
+          "topicName": "Next.js: Server-Side Rendering Framework",
+          "order": 52
+        },
+        {
+          "topicId": "ssr-nextjs-data-fetching",
+          "topicName": "Next.js: Data Fetching (getServerSideProps, getStaticProps)",
+          "order": 53
+        },
+        {
+          "topicId": "ssr-nextjs-api-routes",
+          "topicName": "Next.js: API Routes",
+          "order": 54
+        },
+        {
+          "topicId": "ssg-gatsby",
+          "topicName": "Gatsby: Static Site Generator",
+          "order": 55
+        },
+        {
+          "topicId": "ssg-gatsby-graphql",
+          "topicName": "Gatsby: GraphQL Data Layer",
+          "order": 56
+        },
+        {
+          "topicId": "typescript-react-basic-types",
+          "topicName": "Basic Types and Interfaces in React Components",
+          "order": 57
+        },
+        {
+          "topicId": "typescript-react-props-typing",
+          "topicName": "Typing Props with TypeScript",
+          "order": 58
+        },
+        {
+          "topicId": "typescript-react-state-typing",
+          "topicName": "Typing State with TypeScript",
+          "order": 59
+        },
+        {
+          "topicId": "typescript-react-hooks-typing",
+          "topicName": "Typing Hooks with TypeScript",
+          "order": 60
+        },
+        {
+          "topicId": "typescript-react-events-typing",
+          "topicName": "Typing Events with TypeScript",
+          "order": 61
+        },
+        {
+          "topicId": "react-native-components",
+          "topicName": "React Native: Core Components and UI Elements",
+          "order": 62
+        },
+        {
+          "topicId": "react-native-styling",
+          "topicName": "React Native: Styling with StyleSheet",
+          "order": 63
+        },
+        {
+          "topicId": "react-native-navigation",
+          "topicName": "React Native: Navigation with React Navigation",
+          "order": 64
+        },
+        {
+          "topicId": "react-native-api",
+          "topicName": "React Native: Accessing Native APIs",
+          "order": 65
+        },
+        {
+          "topicId": "react-native-platform",
+          "topicName": "React Native: Platform-Specific Code",
+          "order": 66
+        }
+      ]
+    },
+    {
+      "moduleId": "angular",
+      "moduleName": "🅰️ Angular Framework",
+      "order": 6,
+      "description": "Master Angular from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "F001",
+          "topicName": "Angular Architecture and Core Concepts (Components, Modules, Services, Templates, Metadata, Data Binding, Directives, Dependency Injection)",
+          "order": 1
+        },
+        {
+          "topicId": "F002",
+          "topicName": "Setting up an Angular Development Environment (Node.js, npm/yarn, Angular CLI)",
+          "order": 2
+        },
+        {
+          "topicId": "F003",
+          "topicName": "Creating and Running an Angular Project (ng new, ng serve)",
+          "order": 3
+        },
+        {
+          "topicId": "F004",
+          "topicName": "Understanding Angular CLI Commands (build, generate, test, e2e)",
+          "order": 4
+        },
+        {
+          "topicId": "C001",
+          "topicName": "Component Creation and Structure (template, class, metadata)",
+          "order": 5
+        },
+        {
+          "topicId": "C002",
+          "topicName": "Input and Output Properties (@Input, @Output, EventEmitter)",
+          "order": 6
+        },
+        {
+          "topicId": "C003",
+          "topicName": "Component Lifecycle Hooks (OnInit, OnChanges, OnDestroy, etc.)",
+          "order": 7
+        },
+        {
+          "topicId": "C004",
+          "topicName": "Component Communication (Parent to Child, Child to Parent, Sibling to Sibling)",
+          "order": 8
+        },
+        {
+          "topicId": "D001",
+          "topicName": "Built-in Directives (ngIf, ngFor, ngSwitch)",
+          "order": 13
+        },
+        {
+          "topicId": "D002",
+          "topicName": "Custom Directives (Attribute Directives, Structural Directives)",
+          "order": 14
+        },
+        {
+          "topicId": "D003",
+          "topicName": "Directive Metadata (selector, inputs, outputs, hostListeners, hostBindings)",
+          "order": 15
+        },
+        {
+          "topicId": "S001",
+          "topicName": "Creating and Injecting Services",
+          "order": 16
+        },
+        {
+          "topicId": "S002",
+          "topicName": "Dependency Injection (DI) Principles and Patterns",
+          "order": 17
+        },
+        {
+          "topicId": "S003",
+          "topicName": "Hierarchical Injectors",
+          "order": 18
+        },
+        {
+          "topicId": "S004",
+          "topicName": "Providers (useClass, useValue, useFactory, useExisting)",
+          "order": 19
+        },
+        {
+          "topicId": "S005",
+          "topicName": "@Injectable decorator and its metadata",
+          "order": 20
+        },
+        {
+          "topicId": "M001",
+          "topicName": "Angular Modules (NgModule)",
+          "order": 21
+        },
+        {
+          "topicId": "M002",
+          "topicName": "Module Organization (Feature Modules, Shared Modules, Core Module)",
+          "order": 22
+        },
+        {
+          "topicId": "M003",
+          "topicName": "Lazy Loading Modules",
+          "order": 23
+        },
+        {
+          "topicId": "M004",
+          "topicName": "Importing and Exporting Modules",
+          "order": 24
+        },
+        {
+          "topicId": "R001",
+          "topicName": "Setting up Routing (RouterModule)",
+          "order": 25
+        },
+        {
+          "topicId": "R002",
+          "topicName": "Defining Routes (path, component, redirectTo, pathMatch)",
+          "order": 26
+        },
+        {
+          "topicId": "R003",
+          "topicName": "Navigation (routerLink, Router service)",
+          "order": 27
+        },
+        {
+          "topicId": "R004",
+          "topicName": "Route Parameters and Query Parameters",
+          "order": 28
+        },
+        {
+          "topicId": "R005",
+          "topicName": "Route Guards (CanActivate, CanDeactivate, Resolve)",
+          "order": 29
+        },
+        {
+          "topicId": "R006",
+          "topicName": "Lazy Loading Routes",
+          "order": 30
+        },
+        {
+          "topicId": "FM001",
+          "topicName": "Template-Driven Forms",
+          "order": 31
+        },
+        {
+          "topicId": "FM002",
+          "topicName": "Reactive Forms (FormGroup, FormControl, FormBuilder, Validators)",
+          "order": 32
+        },
+        {
+          "topicId": "FM003",
+          "topicName": "Custom Validators",
+          "order": 33
+        },
+        {
+          "topicId": "FM004",
+          "topicName": "Form Validation and Error Handling",
+          "order": 34
+        },
+        {
+          "topicId": "FM005",
+          "topicName": "Asynchronous Validators",
+          "order": 35
+        },
+        {
+          "topicId": "H001",
+          "topicName": "Making HTTP Requests (HttpClient)",
+          "order": 36
+        },
+        {
+          "topicId": "H002",
+          "topicName": "Handling Responses (Observables, Promises)",
+          "order": 37
+        },
+        {
+          "topicId": "H003",
+          "topicName": "Error Handling (interceptors)",
+          "order": 38
+        },
+        {
+          "topicId": "H004",
+          "topicName": "Interceptors (Request and Response Interceptors)",
+          "order": 39
+        },
+        {
+          "topicId": "H005",
+          "topicName": "Working with different HTTP methods (GET, POST, PUT, DELETE)",
+          "order": 40
+        },
+        {
+          "topicId": "O001",
+          "topicName": "Introduction to Observables",
+          "order": 41
+        },
+        {
+          "topicId": "O002",
+          "topicName": "Creating Observables (fromEvent, interval, of, from)",
+          "order": 42
+        },
+        {
+          "topicId": "O003",
+          "topicName": "Subscribing to Observables",
+          "order": 43
+        },
+        {
+          "topicId": "O004",
+          "topicName": "RxJS Operators (map, filter, reduce, tap, catchError, retry, debounceTime, switchMap, mergeMap, concatMap, exhaustMap)",
+          "order": 44
+        },
+        {
+          "topicId": "O005",
+          "topicName": "Subjects and BehaviorSubjects",
+          "order": 45
+        },
+        {
+          "topicId": "SM001",
+          "topicName": "Understanding State Management Concepts",
+          "order": 46
+        },
+        {
+          "topicId": "SM002",
+          "topicName": "NgRx (Actions, Reducers, Selectors, Effects)",
+          "order": 47
+        },
+        {
+          "topicId": "SM003",
+          "topicName": "Akita",
+          "order": 48
+        },
+        {
+          "topicId": "SM004",
+          "topicName": "Other State Management Libraries (e.g., RxJS)",
+          "order": 49
+        },
+        {
+          "topicId": "T001",
+          "topicName": "Unit Testing (Jasmine, Karma)",
+          "order": 50
+        },
+        {
+          "topicId": "T002",
+          "topicName": "Component Testing",
+          "order": 51
+        },
+        {
+          "topicId": "T003",
+          "topicName": "Service Testing",
+          "order": 52
+        },
+        {
+          "topicId": "T004",
+          "topicName": "End-to-End Testing (Protractor, Cypress)",
+          "order": 53
+        },
+        {
+          "topicId": "T005",
+          "topicName": "Test Driven Development (TDD)",
+          "order": 54
+        },
+        {
+          "topicId": "CD001",
+          "topicName": "Change Detection Strategy (Default, OnPush)",
+          "order": 55
+        },
+        {
+          "topicId": "CD002",
+          "topicName": "ChangeDetectorRef",
+          "order": 56
+        },
+        {
+          "topicId": "CD003",
+          "topicName": "Understanding Change Detection Cycles",
+          "order": 57
+        },
+        {
+          "topicId": "PO001",
+          "topicName": "Lazy Loading",
+          "order": 58
+        },
+        {
+          "topicId": "PO002",
+          "topicName": "Ahead-of-Time (AOT) Compilation",
+          "order": 59
+        },
+        {
+          "topicId": "PO003",
+          "topicName": "Tree Shaking",
+          "order": 60
+        },
+        {
+          "topicId": "PO004",
+          "topicName": "Change Detection Optimization",
+          "order": 61
+        },
+        {
+          "topicId": "PO005",
+          "topicName": "Code Splitting",
+          "order": 62
+        },
+        {
+          "topicId": "SEC001",
+          "topicName": "Cross-Site Scripting (XSS) Prevention",
+          "order": 63
+        },
+        {
+          "topicId": "SEC002",
+          "topicName": "Cross-Site Request Forgery (CSRF) Protection",
+          "order": 64
+        },
+        {
+          "topicId": "SEC003",
+          "topicName": "Authentication and Authorization",
+          "order": 65
+        },
+        {
+          "topicId": "SEC004",
+          "topicName": "Secure Coding Practices",
+          "order": 66
+        },
+        {
+          "topicId": "I18N001",
+          "topicName": "Using Angular's i18n Features",
+          "order": 67
+        },
+        {
+          "topicId": "I18N002",
+          "topicName": "Localizing Templates, Components, and Services",
+          "order": 68
+        },
+        {
+          "topicId": "I18N003",
+          "topicName": "Working with different Locales",
+          "order": 69
+        },
+        {
+          "topicId": "WC001",
+          "topicName": "Creating Angular Elements (Custom Elements)",
+          "order": 70
+        },
+        {
+          "topicId": "WC002",
+          "topicName": "Using Web Components in Angular Applications",
+          "order": 71
+        },
+        {
+          "topicId": "A001",
+          "topicName": "Dynamic Component Loading",
+          "order": 72
+        },
+        {
+          "topicId": "A002",
+          "topicName": "Angular Compiler",
+          "order": 73
+        },
+        {
+          "topicId": "A003",
+          "topicName": "Meta-programming",
+          "order": 74
+        },
+        {
+          "topicId": "A004",
+          "topicName": "Micro Frontends",
+          "order": 75
+        },
+        {
+          "topicId": "BD001",
+          "topicName": "Building Angular Applications for Production (ng build --prod)",
+          "order": 76
+        },
+        {
+          "topicId": "BD002",
+          "topicName": "Deployment Strategies (e.g., Firebase, AWS, Netlify)",
+          "order": 77
+        },
+        {
+          "topicId": "BD003",
+          "topicName": "Continuous Integration/Continuous Deployment (CI/CD)",
+          "order": 78
+        },
+        {
+          "topicId": "TS001",
+          "topicName": "TypeScript Fundamentals (Types, Interfaces, Classes, Decorators, Generics)",
+          "order": 79
+        },
+        {
+          "topicId": "TS002",
+          "topicName": "Advanced TypeScript Features (Mapped Types, Conditional Types, Utility Types)",
+          "order": 80
+        },
+        {
+          "topicId": "ACC001",
+          "topicName": "ARIA Attributes",
+          "order": 81
+        },
+        {
+          "topicId": "ACC002",
+          "topicName": "Semantic HTML",
+          "order": 82
+        },
+        {
+          "topicId": "ACC003",
+          "topicName": "Keyboard Navigation",
+          "order": 83
+        }
+      ]
+    },
+    {
+      "moduleId": "javascript",
+      "moduleName": "💛 JavaScript (ES6+)",
+      "order": 7,
+      "description": "Master JavaScript from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JSF001",
+          "topicName": "Data Types (Primitive and Reference)",
+          "order": 1
+        },
+        {
+          "topicId": "JSF002",
+          "topicName": "Variables (var, let, const)",
+          "order": 2
+        },
+        {
+          "topicId": "JSF003",
+          "topicName": "Operators (Arithmetic, Comparison, Logical, Assignment)",
+          "order": 3
+        },
+        {
+          "topicId": "JSF004",
+          "topicName": "Control Flow (if/else, switch, loops)",
+          "order": 4
+        },
+        {
+          "topicId": "JSF005",
+          "topicName": "Functions (Declaration, Expression, Arrow Functions)",
+          "order": 5
+        },
+        {
+          "topicId": "JSF006",
+          "topicName": "Scope (Global, Function, Block)",
+          "order": 6
+        },
+        {
+          "topicId": "JSF007",
+          "topicName": "Hoisting",
+          "order": 7
+        },
+        {
+          "topicId": "JSF008",
+          "topicName": "Closures",
+          "order": 8
+        },
+        {
+          "topicId": "JSF009",
+          "topicName": "Arrays (Methods, Iteration)",
+          "order": 9
+        },
+        {
+          "topicId": "JSF010",
+          "topicName": "Objects (Properties, Methods)",
+          "order": 10
+        },
+        {
+          "topicId": "JSD006",
+          "topicName": "Event Bubbling and Capturing",
+          "order": 16
+        },
+        {
+          "topicId": "JSD007",
+          "topicName": "Event Delegation",
+          "order": 17
+        },
+        {
+          "topicId": "JSO001",
+          "topicName": "Prototypes and Prototypal Inheritance",
+          "order": 24
+        },
+        {
+          "topicId": "JSO002",
+          "topicName": "Classes (ES6)",
+          "order": 25
+        },
+        {
+          "topicId": "JSO003",
+          "topicName": "Inheritance (extends keyword)",
+          "order": 26
+        },
+        {
+          "topicId": "JSO004",
+          "topicName": "Polymorphism",
+          "order": 27
+        },
+        {
+          "topicId": "JSO005",
+          "topicName": "Encapsulation",
+          "order": 28
+        },
+        {
+          "topicId": "JSO006",
+          "topicName": "Abstraction",
+          "order": 29
+        },
+        {
+          "topicId": "JSA001",
+          "topicName": "Higher-Order Functions",
+          "order": 30
+        },
+        {
+          "topicId": "JSA002",
+          "topicName": "Currying",
+          "order": 31
+        },
+        {
+          "topicId": "JSA003",
+          "topicName": "Memoization",
+          "order": 32
+        },
+        {
+          "topicId": "JSA004",
+          "topicName": "Design Patterns (Singleton, Factory, Observer)",
+          "order": 33
+        },
+        {
+          "topicId": "JSA005",
+          "topicName": "Proxy",
+          "order": 34
+        },
+        {
+          "topicId": "JSA006",
+          "topicName": "Generators",
+          "order": 35
+        },
+        {
+          "topicId": "JSM001",
+          "topicName": "Modules (ES Modules, CommonJS)",
+          "order": 36
+        },
+        {
+          "topicId": "JSM002",
+          "topicName": "Module Bundlers (Webpack, Parcel, Rollup)",
+          "order": 37
+        },
+        {
+          "topicId": "JSM003",
+          "topicName": "Package Managers (npm, yarn, pnpm)",
+          "order": 38
+        },
+        {
+          "topicId": "JSM004",
+          "topicName": "Linters (ESLint)",
+          "order": 39
+        },
+        {
+          "topicId": "JSM005",
+          "topicName": "Formatters (Prettier)",
+          "order": 40
+        },
+        {
+          "topicId": "JST001",
+          "topicName": "Unit Testing (Jest, Mocha, Chai)",
+          "order": 41
+        },
+        {
+          "topicId": "JST002",
+          "topicName": "Integration Testing",
+          "order": 42
+        },
+        {
+          "topicId": "JST003",
+          "topicName": "End-to-End Testing (Cypress, Puppeteer)",
+          "order": 43
+        },
+        {
+          "topicId": "JST004",
+          "topicName": "Test-Driven Development (TDD)",
+          "order": 44
+        },
+        {
+          "topicId": "JSS001",
+          "topicName": "Cross-Site Scripting (XSS)",
+          "order": 49
+        },
+        {
+          "topicId": "JSS002",
+          "topicName": "Cross-Site Request Forgery (CSRF)",
+          "order": 50
+        },
+        {
+          "topicId": "JSS003",
+          "topicName": "Input Validation and Sanitization",
+          "order": 51
+        },
+        {
+          "topicId": "JSS004",
+          "topicName": "Authentication and Authorization",
+          "order": 52
+        },
+        {
+          "topicId": "JSE001",
+          "topicName": "Arrow Functions",
+          "order": 53
+        },
+        {
+          "topicId": "JSE002",
+          "topicName": "Template Literals",
+          "order": 54
+        },
+        {
+          "topicId": "JSE003",
+          "topicName": "Destructuring",
+          "order": 55
+        },
+        {
+          "topicId": "JSE004",
+          "topicName": "Spread and Rest Operators",
+          "order": 56
+        },
+        {
+          "topicId": "JSE005",
+          "topicName": "Classes",
+          "order": 57
+        },
+        {
+          "topicId": "JSE006",
+          "topicName": "Modules",
+          "order": 58
+        },
+        {
+          "topicId": "JSE007",
+          "topicName": "Promises and Async/Await",
+          "order": 59
+        },
+        {
+          "topicId": "JSD001",
+          "topicName": "MVC (Model-View-Controller)",
+          "order": 60
+        },
+        {
+          "topicId": "JSD002",
+          "topicName": "MVVM (Model-View-ViewModel)",
+          "order": 61
+        },
+        {
+          "topicId": "JSD003",
+          "topicName": "Redux/Flux",
+          "order": 62
+        },
+        {
+          "topicId": "JSD004",
+          "topicName": "Microservices Architecture",
+          "order": 63
+        },
+        {
+          "topicId": "JSD005",
+          "topicName": "SOLID Principles",
+          "order": 64
+        },
+        {
+          "topicId": "JSP001",
+          "topicName": "Monitoring and Logging",
+          "order": 65
+        },
+        {
+          "topicId": "JSP002",
+          "topicName": "CI/CD Pipelines",
+          "order": 66
+        },
+        {
+          "topicId": "JSP003",
+          "topicName": "Containerization (Docker)",
+          "order": 67
+        },
+        {
+          "topicId": "JSP004",
+          "topicName": "Cloud Deployment (AWS, Azure, GCP)",
+          "order": 68
+        },
+        {
+          "topicId": "JSP005",
+          "topicName": "Scaling Strategies",
+          "order": 69
+        }
+      ]
+    },
+    {
+      "moduleId": "python",
+      "moduleName": "🐍 Python & FastAPI",
+      "order": 8,
+      "description": "Master Python from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "F001",
+          "topicName": "Basic Data Types (Integers, Floats, Strings, Booleans)",
+          "order": 1
+        },
+        {
+          "topicId": "F002",
+          "topicName": "Variables and Operators",
+          "order": 2
+        },
+        {
+          "topicId": "F003",
+          "topicName": "Control Flow (if, elif, else)",
+          "order": 3
+        },
+        {
+          "topicId": "F004",
+          "topicName": "Loops (for, while)",
+          "order": 4
+        },
+        {
+          "topicId": "F005",
+          "topicName": "Data Structures (Lists, Tuples, Dictionaries, Sets)",
+          "order": 5
+        },
+        {
+          "topicId": "F006",
+          "topicName": "List Comprehensions",
+          "order": 6
+        },
+        {
+          "topicId": "F007",
+          "topicName": "Functions (Defining, Calling, Arguments, Return Values)",
+          "order": 7
+        },
+        {
+          "topicId": "F008",
+          "topicName": "Scope (Local, Global, Nonlocal)",
+          "order": 8
+        },
+        {
+          "topicId": "OOP001",
+          "topicName": "Classes and Objects",
+          "order": 9
+        },
+        {
+          "topicId": "OOP002",
+          "topicName": "Inheritance",
+          "order": 10
+        },
+        {
+          "topicId": "OOP003",
+          "topicName": "Polymorphism",
+          "order": 11
+        },
+        {
+          "topicId": "OOP004",
+          "topicName": "Encapsulation",
+          "order": 12
+        },
+        {
+          "topicId": "OOP005",
+          "topicName": "Abstraction",
+          "order": 13
+        },
+        {
+          "topicId": "OOP006",
+          "topicName": "Magic Methods (e.g., __init__, __str__, __repr__)",
+          "order": 14
+        },
+        {
+          "topicId": "OOP007",
+          "topicName": "Decorators",
+          "order": 15
+        },
+        {
+          "topicId": "MP001",
+          "topicName": "Importing Modules",
+          "order": 16
+        },
+        {
+          "topicId": "MP002",
+          "topicName": "Creating and Using Packages",
+          "order": 17
+        },
+        {
+          "topicId": "MP003",
+          "topicName": "Standard Library Modules (e.g., os, sys, datetime, math, random)",
+          "order": 18
+        },
+        {
+          "topicId": "EH001",
+          "topicName": "Exceptions (try, except, finally)",
+          "order": 19
+        },
+        {
+          "topicId": "EH002",
+          "topicName": "Raising Exceptions",
+          "order": 20
+        },
+        {
+          "topicId": "EH003",
+          "topicName": "Custom Exceptions",
+          "order": 21
+        },
+        {
+          "topicId": "FIO001",
+          "topicName": "Reading and Writing Files",
+          "order": 22
+        },
+        {
+          "topicId": "FIO002",
+          "topicName": "File Modes (e.g., 'r', 'w', 'a', 'b')",
+          "order": 23
+        },
+        {
+          "topicId": "FIO003",
+          "topicName": "Context Managers (with statement)",
+          "order": 24
+        },
+        {
+          "topicId": "DS001",
+          "topicName": "JSON (Serialization and Deserialization)",
+          "order": 25
+        },
+        {
+          "topicId": "DS002",
+          "topicName": "Pickle (Serialization and Deserialization)",
+          "order": 26
+        },
+        {
+          "topicId": "DS003",
+          "topicName": "CSV (Reading and Writing)",
+          "order": 27
+        },
+        {
+          "topicId": "RE001",
+          "topicName": "Basic Syntax and Metacharacters",
+          "order": 28
+        },
+        {
+          "topicId": "RE002",
+          "topicName": "re Module (search, match, findall, sub)",
+          "order": 29
+        },
+        {
+          "topicId": "CP001",
+          "topicName": "Threads (threading module)",
+          "order": 30
+        },
+        {
+          "topicId": "CP002",
+          "topicName": "Processes (multiprocessing module)",
+          "order": 31
+        },
+        {
+          "topicId": "CP003",
+          "topicName": "Asyncio (async and await)",
+          "order": 32
+        },
+        {
+          "topicId": "CP004",
+          "topicName": "GIL (Global Interpreter Lock)",
+          "order": 33
+        },
+        {
+          "topicId": "DB001",
+          "topicName": "SQL Databases (e.g., SQLite, PostgreSQL, MySQL)",
+          "order": 34
+        },
+        {
+          "topicId": "DB002",
+          "topicName": "ORM (Object-Relational Mapper) - SQLAlchemy",
+          "order": 35
+        },
+        {
+          "topicId": "DB003",
+          "topicName": "NoSQL Databases (e.g., MongoDB)",
+          "order": 36
+        },
+        {
+          "topicId": "WF001",
+          "topicName": "Flask (Routing, Templates, Forms)",
+          "order": 37
+        },
+        {
+          "topicId": "WF002",
+          "topicName": "Django (Models, Views, Templates, Admin)",
+          "order": 38
+        },
+        {
+          "topicId": "WF003",
+          "topicName": "REST APIs",
+          "order": 39
+        },
+        {
+          "topicId": "T001",
+          "topicName": "Unit Testing (unittest module)",
+          "order": 40
+        },
+        {
+          "topicId": "T002",
+          "topicName": "pytest",
+          "order": 41
+        },
+        {
+          "topicId": "T003",
+          "topicName": "Mocking (unittest.mock)",
+          "order": 42
+        },
+        {
+          "topicId": "T004",
+          "topicName": "Test-Driven Development (TDD)",
+          "order": 43
+        },
+        {
+          "topicId": "DA001",
+          "topicName": "NumPy (Arrays, Linear Algebra)",
+          "order": 44
+        },
+        {
+          "topicId": "DA002",
+          "topicName": "Pandas (DataFrames, Data Manipulation)",
+          "order": 45
+        },
+        {
+          "topicId": "DA003",
+          "topicName": "Matplotlib (Data Visualization)",
+          "order": 46
+        },
+        {
+          "topicId": "DA004",
+          "topicName": "Scikit-learn (Machine Learning)",
+          "order": 47
+        },
+        {
+          "topicId": "DA005",
+          "topicName": "SciPy (Scientific Computing)",
+          "order": 48
+        },
+        {
+          "topicId": "VC001",
+          "topicName": "Git (Basic Commands, Branching, Merging)",
+          "order": 49
+        },
+        {
+          "topicId": "VC002",
+          "topicName": "GitHub/GitLab/Bitbucket",
+          "order": 50
+        },
+        {
+          "topicId": "DD001",
+          "topicName": "Docker (Containers, Images, Dockerfile)",
+          "order": 51
+        },
+        {
+          "topicId": "DD002",
+          "topicName": "Kubernetes (Orchestration)",
+          "order": 52
+        },
+        {
+          "topicId": "DD003",
+          "topicName": "Cloud Platforms (AWS, Azure, GCP)",
+          "order": 53
+        },
+        {
+          "topicId": "DD004",
+          "topicName": "CI/CD (Continuous Integration/Continuous Deployment)",
+          "order": 54
+        },
+        {
+          "topicId": "DP001",
+          "topicName": "Singleton",
+          "order": 55
+        },
+        {
+          "topicId": "DP002",
+          "topicName": "Factory",
+          "order": 56
+        },
+        {
+          "topicId": "DP003",
+          "topicName": "Observer",
+          "order": 57
+        },
+        {
+          "topicId": "DP004",
+          "topicName": "Strategy",
+          "order": 58
+        },
+        {
+          "topicId": "PO001",
+          "topicName": "Profiling (cProfile)",
+          "order": 59
+        },
+        {
+          "topicId": "PO002",
+          "topicName": "Memory Management",
+          "order": 60
+        },
+        {
+          "topicId": "PO003",
+          "topicName": "Garbage Collection",
+          "order": 61
+        },
+        {
+          "topicId": "PO004",
+          "topicName": "Caching (functools.lru_cache)",
+          "order": 62
+        },
+        {
+          "topicId": "S001",
+          "topicName": "Input Validation",
+          "order": 63
+        },
+        {
+          "topicId": "S002",
+          "topicName": "SQL Injection",
+          "order": 64
+        },
+        {
+          "topicId": "S003",
+          "topicName": "Cross-Site Scripting (XSS)",
+          "order": 65
+        },
+        {
+          "topicId": "S004",
+          "topicName": "Authentication and Authorization",
+          "order": 66
+        },
+        {
+          "topicId": "S005",
+          "topicName": "Secrets Management",
+          "order": 67
+        },
+        {
+          "topicId": "MC001",
+          "topicName": "Understanding Metaclasses",
+          "order": 68
+        },
+        {
+          "topicId": "MC002",
+          "topicName": "Custom Metaclasses",
+          "order": 69
+        },
+        {
+          "topicId": "TP001",
+          "topicName": "Type Hints (typing module)",
+          "order": 70
+        },
+        {
+          "topicId": "TP002",
+          "topicName": "Static Type Checking (mypy)",
+          "order": 71
+        },
+        {
+          "topicId": "CS001",
+          "topicName": "PEP 8 (Style Guide for Python Code)",
+          "order": 72
+        },
+        {
+          "topicId": "CS002",
+          "topicName": "Code Linters (e.g., pylint, flake8)",
+          "order": 73
+        },
+        {
+          "topicId": "CS003",
+          "topicName": "Code Formatters (e.g., black)",
+          "order": 74
+        }
+      ]
+    },
+    {
+      "moduleId": "oracle_db",
+      "moduleName": "🛢️ Oracle Database SQL",
+      "order": 9,
+      "description": "Master Oracle DB from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "F001",
+          "topicName": "Relational Database Concepts",
+          "order": 1
+        },
+        {
+          "topicId": "F002",
+          "topicName": "Oracle Database Architecture (Physical and Logical)",
+          "order": 2
+        },
+        {
+          "topicId": "F003",
+          "topicName": "SQL Fundamentals (SELECT, INSERT, UPDATE, DELETE)",
+          "order": 3
+        },
+        {
+          "topicId": "F004",
+          "topicName": "Data Types in Oracle",
+          "order": 4
+        },
+        {
+          "topicId": "F005",
+          "topicName": "Basic Oracle Tools (SQL*Plus, SQL Developer)",
+          "order": 5
+        },
+        {
+          "topicId": "SQL001",
+          "topicName": "Advanced SQL Queries (Joins, Subqueries, Analytical Functions)",
+          "order": 6
+        },
+        {
+          "topicId": "SQL002",
+          "topicName": "PL/SQL Basics (Blocks, Variables, Control Structures)",
+          "order": 7
+        },
+        {
+          "topicId": "SQL003",
+          "topicName": "PL/SQL Cursors (Implicit and Explicit)",
+          "order": 8
+        },
+        {
+          "topicId": "SQL004",
+          "topicName": "PL/SQL Procedures and Functions",
+          "order": 9
+        },
+        {
+          "topicId": "SQL005",
+          "topicName": "PL/SQL Packages",
+          "order": 10
+        },
+        {
+          "topicId": "SQL006",
+          "topicName": "Triggers (DML, DDL, System)",
+          "order": 11
+        },
+        {
+          "topicId": "SQL007",
+          "topicName": "Exception Handling in PL/SQL",
+          "order": 12
+        },
+        {
+          "topicId": "SQL008",
+          "topicName": "Dynamic SQL",
+          "order": 13
+        },
+        {
+          "topicId": "SQL009",
+          "topicName": "Collections (Arrays, Nested Tables, VARRAYs)",
+          "order": 14
+        },
+        {
+          "topicId": "DD001",
+          "topicName": "Normalization (1NF, 2NF, 3NF, BCNF)",
+          "order": 15
+        },
+        {
+          "topicId": "DD002",
+          "topicName": "Data Modeling (ER Diagrams)",
+          "order": 16
+        },
+        {
+          "topicId": "DD003",
+          "topicName": "Indexing Strategies",
+          "order": 17
+        },
+        {
+          "topicId": "DD004",
+          "topicName": "Partitioning (Range, List, Hash)",
+          "order": 18
+        },
+        {
+          "topicId": "DD005",
+          "topicName": "Materialized Views",
+          "order": 19
+        },
+        {
+          "topicId": "DD006",
+          "topicName": "Constraints (Primary Key, Foreign Key, Unique, Check)",
+          "order": 20
+        },
+        {
+          "topicId": "PT001",
+          "topicName": "Explain Plan Analysis",
+          "order": 21
+        },
+        {
+          "topicId": "PT002",
+          "topicName": "SQL Tuning Advisor",
+          "order": 22
+        },
+        {
+          "topicId": "PT003",
+          "topicName": "Database Statistics (Gathering and Monitoring)",
+          "order": 23
+        },
+        {
+          "topicId": "PT004",
+          "topicName": "Using AWR and ADDM Reports",
+          "order": 24
+        },
+        {
+          "topicId": "PT005",
+          "topicName": "Memory Management (SGA, PGA)",
+          "order": 25
+        },
+        {
+          "topicId": "PT006",
+          "topicName": "I/O Tuning",
+          "order": 26
+        },
+        {
+          "topicId": "PT007",
+          "topicName": "Identifying and Resolving Locking Issues",
+          "order": 27
+        },
+        {
+          "topicId": "BR001",
+          "topicName": "RMAN (Recovery Manager) Fundamentals",
+          "order": 28
+        },
+        {
+          "topicId": "BR002",
+          "topicName": "Backup Strategies (Full, Incremental, Differential)",
+          "order": 29
+        },
+        {
+          "topicId": "BR003",
+          "topicName": "Recovery Scenarios (Complete, Point-in-Time)",
+          "order": 30
+        },
+        {
+          "topicId": "BR004",
+          "topicName": "Data Guard (Physical and Logical Standby)",
+          "order": 31
+        },
+        {
+          "topicId": "BR005",
+          "topicName": "Flashback Technologies (Flashback Query, Flashback Table, Flashback Database)",
+          "order": 32
+        },
+        {
+          "topicId": "BR006",
+          "topicName": "Backup Encryption",
+          "order": 33
+        },
+        {
+          "topicId": "S001",
+          "topicName": "User and Role Management",
+          "order": 34
+        },
+        {
+          "topicId": "S002",
+          "topicName": "Privileges and Grants",
+          "order": 35
+        },
+        {
+          "topicId": "S003",
+          "topicName": "Auditing",
+          "order": 36
+        },
+        {
+          "topicId": "S004",
+          "topicName": "Virtual Private Database (VPD)",
+          "order": 37
+        },
+        {
+          "topicId": "S005",
+          "topicName": "Data Encryption (Transparent Data Encryption - TDE)",
+          "order": 38
+        },
+        {
+          "topicId": "S006",
+          "topicName": "Database Vault",
+          "order": 39
+        },
+        {
+          "topicId": "HA001",
+          "topicName": "RAC (Real Application Clusters) Architecture",
+          "order": 40
+        },
+        {
+          "topicId": "HA002",
+          "topicName": "RAC Administration (Adding/Removing Nodes)",
+          "order": 41
+        },
+        {
+          "topicId": "HA003",
+          "topicName": "Connection Load Balancing and Failover",
+          "order": 42
+        },
+        {
+          "topicId": "HA004",
+          "topicName": "Online Patching",
+          "order": 43
+        },
+        {
+          "topicId": "HA005",
+          "topicName": "Data Guard Broker",
+          "order": 44
+        },
+        {
+          "topicId": "UM001",
+          "topicName": "Upgrade Paths and Strategies",
+          "order": 45
+        },
+        {
+          "topicId": "UM002",
+          "topicName": "Pre-Upgrade Checks and Planning",
+          "order": 46
+        },
+        {
+          "topicId": "UM003",
+          "topicName": "Data Pump (Export/Import)",
+          "order": 47
+        },
+        {
+          "topicId": "UM004",
+          "topicName": "Database Migration Assistant (DMA)",
+          "order": 48
+        },
+        {
+          "topicId": "UM005",
+          "topicName": "Testing and Validation After Upgrade/Migration",
+          "order": 49
+        },
+        {
+          "topicId": "C001",
+          "topicName": "Oracle Cloud Infrastructure (OCI) Database Services",
+          "order": 50
+        },
+        {
+          "topicId": "C002",
+          "topicName": "Autonomous Database",
+          "order": 51
+        },
+        {
+          "topicId": "C003",
+          "topicName": "Migrating to Oracle Cloud",
+          "order": 52
+        },
+        {
+          "topicId": "C004",
+          "topicName": "Backup and Recovery in the Cloud",
+          "order": 53
+        },
+        {
+          "topicId": "C005",
+          "topicName": "Security Considerations in the Cloud",
+          "order": 54
+        },
+        {
+          "topicId": "T001",
+          "topicName": "Diagnosing Performance Issues",
+          "order": 55
+        },
+        {
+          "topicId": "T002",
+          "topicName": "Analyzing Alert Logs and Trace Files",
+          "order": 56
+        },
+        {
+          "topicId": "T003",
+          "topicName": "Resolving ORA- Errors",
+          "order": 57
+        },
+        {
+          "topicId": "T004",
+          "topicName": "Using Oracle Support Resources (MOS)",
+          "order": 58
+        },
+        {
+          "topicId": "T005",
+          "topicName": "Identifying and Resolving Blocking and Deadlocking",
+          "order": 59
+        },
+        {
+          "topicId": "NF001",
+          "topicName": "Understanding new features in recent Oracle versions (e.g., 19c, 21c, 23c)",
+          "order": 60
+        },
+        {
+          "topicId": "NF002",
+          "topicName": "JSON support and NoSQL features",
+          "order": 61
+        },
+        {
+          "topicId": "NF003",
+          "topicName": "Blockchain Tables",
+          "order": 62
+        },
+        {
+          "topicId": "NF004",
+          "topicName": "Auto Indexing",
+          "order": 63
+        },
+        {
+          "topicId": "PB001",
+          "topicName": "Connection Pooling and Management",
+          "order": 64
+        },
+        {
+          "topicId": "PB002",
+          "topicName": "Monitoring Database Health and Performance in Production",
+          "order": 65
+        },
+        {
+          "topicId": "PB003",
+          "topicName": "Change Management and Deployment Strategies",
+          "order": 66
+        },
+        {
+          "topicId": "PB004",
+          "topicName": "Disaster Recovery Planning and Testing",
+          "order": 67
+        },
+        {
+          "topicId": "PB005",
+          "topicName": "Capacity Planning and Scalability",
+          "order": 68
+        }
+      ]
+    },
+    {
+      "moduleId": "mongodb",
+      "moduleName": "🍃 MongoDB NoSQL",
+      "order": 10,
+      "description": "Master MongoDB from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "FND001",
+          "topicName": "Introduction to NoSQL and MongoDB",
+          "order": 1
+        },
+        {
+          "topicId": "FND002",
+          "topicName": "MongoDB Data Model (Documents and Collections)",
+          "order": 2
+        },
+        {
+          "topicId": "FND003",
+          "topicName": "MongoDB Installation and Configuration",
+          "order": 3
+        },
+        {
+          "topicId": "FND004",
+          "topicName": "Basic MongoDB Shell Operations (CRUD)",
+          "order": 4
+        },
+        {
+          "topicId": "FND005",
+          "topicName": "Data Types in MongoDB",
+          "order": 5
+        },
+        {
+          "topicId": "FND006",
+          "topicName": "Importing and Exporting Data (JSON, CSV)",
+          "order": 6
+        },
+        {
+          "topicId": "QRY001",
+          "topicName": "Basic Querying with find()",
+          "order": 7
+        },
+        {
+          "topicId": "QRY002",
+          "topicName": "Query Operators (Comparison, Logical, Element)",
+          "order": 8
+        },
+        {
+          "topicId": "QRY003",
+          "topicName": "Array Operators",
+          "order": 9
+        },
+        {
+          "topicId": "QRY004",
+          "topicName": "Projection",
+          "order": 10
+        },
+        {
+          "topicId": "QRY005",
+          "topicName": "Sorting and Limiting Results",
+          "order": 11
+        },
+        {
+          "topicId": "QRY006",
+          "topicName": "Text Search",
+          "order": 12
+        },
+        {
+          "topicId": "QRY007",
+          "topicName": "Indexing Fundamentals (Single, Compound, Multikey)",
+          "order": 13
+        },
+        {
+          "topicId": "QRY008",
+          "topicName": "Index Optimization and Performance",
+          "order": 14
+        },
+        {
+          "topicId": "QRY009",
+          "topicName": "Explain Plans",
+          "order": 15
+        },
+        {
+          "topicId": "AGG001",
+          "topicName": "Introduction to the Aggregation Pipeline",
+          "order": 16
+        },
+        {
+          "topicId": "AGG002",
+          "topicName": "$match, $project, $group, $unwind, $sort, $limit, $skip stages",
+          "order": 17
+        },
+        {
+          "topicId": "AGG003",
+          "topicName": "Aggregation Operators (Arithmetic, String, Array, Date)",
+          "order": 18
+        },
+        {
+          "topicId": "AGG004",
+          "topicName": "Advanced Aggregation Techniques (e.g., $lookup, $facet)",
+          "order": 19
+        },
+        {
+          "topicId": "MOD001",
+          "topicName": "Principles of Data Modeling in MongoDB",
+          "order": 20
+        },
+        {
+          "topicId": "MOD002",
+          "topicName": "Embedding vs. Referencing",
+          "order": 21
+        },
+        {
+          "topicId": "MOD003",
+          "topicName": "Schema Design Patterns (e.g., Polymorphic, Attribute)",
+          "order": 22
+        },
+        {
+          "topicId": "MOD004",
+          "topicName": "Normalization and Denormalization Strategies",
+          "order": 23
+        },
+        {
+          "topicId": "MOD005",
+          "topicName": "Data Modeling Anti-Patterns",
+          "order": 24
+        },
+        {
+          "topicId": "REP001",
+          "topicName": "Introduction to Replication",
+          "order": 25
+        },
+        {
+          "topicId": "REP002",
+          "topicName": "Replica Set Architecture (Primary, Secondary, Arbiter)",
+          "order": 26
+        },
+        {
+          "topicId": "REP003",
+          "topicName": "Replica Set Configuration and Management",
+          "order": 27
+        },
+        {
+          "topicId": "REP004",
+          "topicName": "Failover and Recovery",
+          "order": 28
+        },
+        {
+          "topicId": "REP005",
+          "topicName": "Read Preferences and Write Concerns",
+          "order": 29
+        },
+        {
+          "topicId": "SHD001",
+          "topicName": "Introduction to Sharding",
+          "order": 30
+        },
+        {
+          "topicId": "SHD002",
+          "topicName": "Sharded Cluster Architecture (Config Servers, Shard Servers, Mongos)",
+          "order": 31
+        },
+        {
+          "topicId": "SHD003",
+          "topicName": "Shard Key Selection and Considerations",
+          "order": 32
+        },
+        {
+          "topicId": "SHD004",
+          "topicName": "Sharding Configuration and Management",
+          "order": 33
+        },
+        {
+          "topicId": "SHD005",
+          "topicName": "Balancing and Chunk Management",
+          "order": 34
+        },
+        {
+          "topicId": "TRN001",
+          "topicName": "ACID Transactions in MongoDB",
+          "order": 35
+        },
+        {
+          "topicId": "TRN002",
+          "topicName": "Transaction Operations and Isolation Levels",
+          "order": 36
+        },
+        {
+          "topicId": "TRN003",
+          "topicName": "Transaction Retry Logic and Error Handling",
+          "order": 37
+        },
+        {
+          "topicId": "SEC001",
+          "topicName": "Authentication and Authorization",
+          "order": 38
+        },
+        {
+          "topicId": "SEC002",
+          "topicName": "Role-Based Access Control (RBAC)",
+          "order": 39
+        },
+        {
+          "topicId": "SEC003",
+          "topicName": "Auditing",
+          "order": 40
+        },
+        {
+          "topicId": "SEC004",
+          "topicName": "Encryption at Rest and in Transit (TLS/SSL)",
+          "order": 41
+        },
+        {
+          "topicId": "SEC005",
+          "topicName": "Network Security (Firewalls, VPNs)",
+          "order": 42
+        },
+        {
+          "topicId": "MON001",
+          "topicName": "MongoDB Monitoring Tools (mongostat, mongotop, MongoDB Atlas)",
+          "order": 43
+        },
+        {
+          "topicId": "MON002",
+          "topicName": "Performance Metrics and Key Indicators",
+          "order": 44
+        },
+        {
+          "topicId": "MON003",
+          "topicName": "Query Optimization Techniques",
+          "order": 45
+        },
+        {
+          "topicId": "MON004",
+          "topicName": "Hardware Considerations (CPU, Memory, Disk I/O)",
+          "order": 46
+        },
+        {
+          "topicId": "BCK001",
+          "topicName": "Backup Strategies (mongodump, mongorestore, oplog-based backups)",
+          "order": 47
+        },
+        {
+          "topicId": "BCK002",
+          "topicName": "Point-in-Time Recovery",
+          "order": 48
+        },
+        {
+          "topicId": "BCK003",
+          "topicName": "Disaster Recovery Planning",
+          "order": 49
+        },
+        {
+          "topicId": "OPS001",
+          "topicName": "Upgrading MongoDB",
+          "order": 50
+        },
+        {
+          "topicId": "OPS002",
+          "topicName": "Managing Indexes",
+          "order": 51
+        },
+        {
+          "topicId": "OPS003",
+          "topicName": "Log Management and Analysis",
+          "order": 52
+        },
+        {
+          "topicId": "OPS004",
+          "topicName": "Automation and Configuration Management (Ansible, Chef, Puppet)",
+          "order": 53
+        },
+        {
+          "topicId": "CLD001",
+          "topicName": "MongoDB Atlas Overview",
+          "order": 54
+        },
+        {
+          "topicId": "CLD002",
+          "topicName": "Deploying MongoDB on AWS (EC2, EBS, VPC)",
+          "order": 55
+        },
+        {
+          "topicId": "CLD003",
+          "topicName": "Deploying MongoDB on Azure (Virtual Machines, Managed Disks, Virtual Networks)",
+          "order": 56
+        },
+        {
+          "topicId": "CLD004",
+          "topicName": "Deploying MongoDB on GCP (Compute Engine, Persistent Disks, VPC)",
+          "order": 57
+        },
+        {
+          "topicId": "DRV001",
+          "topicName": "Using MongoDB Drivers (e.g., Python, Node.js, Java)",
+          "order": 58
+        },
+        {
+          "topicId": "DRV002",
+          "topicName": "Object-Document Mappers (ODMs) and ORMs (e.g., Mongoose)",
+          "order": 59
+        },
+        {
+          "topicId": "DRV003",
+          "topicName": "Connection Pooling and Management",
+          "order": 60
+        },
+        {
+          "topicId": "CHS001",
+          "topicName": "Introduction to Change Streams",
+          "order": 61
+        },
+        {
+          "topicId": "CHS002",
+          "topicName": "Change Stream Events and Operations",
+          "order": 62
+        },
+        {
+          "topicId": "CHS003",
+          "topicName": "Using Change Streams for Real-Time Applications",
+          "order": 63
+        },
+        {
+          "topicId": "GRP001",
+          "topicName": "$graphLookup Operator",
+          "order": 64
+        },
+        {
+          "topicId": "GRP002",
+          "topicName": "Modeling Graph Data in MongoDB",
+          "order": 65
+        },
+        {
+          "topicId": "GEO001",
+          "topicName": "Geospatial Indexing (2dsphere, 2d)",
+          "order": 66
+        },
+        {
+          "topicId": "GEO002",
+          "topicName": "Geospatial Operators ($near, $geoWithin, $geoIntersects)",
+          "order": 67
+        },
+        {
+          "topicId": "TSD001",
+          "topicName": "Time Series Collections",
+          "order": 68
+        },
+        {
+          "topicId": "TSD002",
+          "topicName": "Time Series Specific Operations",
+          "order": 69
+        }
+      ]
+    },
+    {
+      "moduleId": "php",
+      "moduleName": "🐘 PHP & Web Backend",
+      "order": 11,
+      "description": "Master PHP from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "PHP-F001",
+          "topicName": "Basic Syntax and Data Types (Variables, Operators, Control Structures)",
+          "order": 1
+        },
+        {
+          "topicId": "PHP-F002",
+          "topicName": "Data Types (Integers, Floats, Strings, Booleans, Arrays, Objects, Resources, NULL)",
+          "order": 2
+        },
+        {
+          "topicId": "PHP-F003",
+          "topicName": "Operators (Arithmetic, Assignment, Comparison, Logical, Increment/Decrement)",
+          "order": 3
+        },
+        {
+          "topicId": "PHP-F004",
+          "topicName": "Control Structures (if, else, elseif, switch, while, do-while, for, foreach)",
+          "order": 4
+        },
+        {
+          "topicId": "PHP-F005",
+          "topicName": "Functions (Defining, Calling, Arguments, Return Values, Scope)",
+          "order": 5
+        },
+        {
+          "topicId": "PHP-F006",
+          "topicName": "Arrays (Indexed, Associative, Multidimensional, Array Functions)",
+          "order": 6
+        },
+        {
+          "topicId": "PHP-F007",
+          "topicName": "Superglobals ($_GET, $_POST, $_SESSION, $_COOKIE, $_FILES, $_SERVER, $_ENV, $_REQUEST)",
+          "order": 7
+        },
+        {
+          "topicId": "PHP-OOP001",
+          "topicName": "Classes and Objects (Defining Classes, Instantiating Objects)",
+          "order": 8
+        },
+        {
+          "topicId": "PHP-OOP002",
+          "topicName": "Properties and Methods (Access Modifiers: public, private, protected)",
+          "order": 9
+        },
+        {
+          "topicId": "PHP-OOP003",
+          "topicName": "Constructors and Destructors",
+          "order": 10
+        },
+        {
+          "topicId": "PHP-OOP004",
+          "topicName": "Inheritance (Extending Classes, Overriding Methods)",
+          "order": 11
+        },
+        {
+          "topicId": "PHP-OOP005",
+          "topicName": "Polymorphism (Interfaces, Abstract Classes)",
+          "order": 12
+        },
+        {
+          "topicId": "PHP-OOP006",
+          "topicName": "Static Properties and Methods",
+          "order": 13
+        },
+        {
+          "topicId": "PHP-OOP007",
+          "topicName": "Traits",
+          "order": 14
+        },
+        {
+          "topicId": "PHP-OOP008",
+          "topicName": "Autoloading (spl_autoload_register)",
+          "order": 15
+        },
+        {
+          "topicId": "PHP-DB001",
+          "topicName": "Connecting to Databases (MySQLi, PDO)",
+          "order": 16
+        },
+        {
+          "topicId": "PHP-DB002",
+          "topicName": "Prepared Statements (Preventing SQL Injection)",
+          "order": 17
+        },
+        {
+          "topicId": "PHP-DB003",
+          "topicName": "CRUD Operations (Create, Read, Update, Delete)",
+          "order": 18
+        },
+        {
+          "topicId": "PHP-DB004",
+          "topicName": "Transactions",
+          "order": 19
+        },
+        {
+          "topicId": "PHP-DB005",
+          "topicName": "Database Design Principles (Normalization)",
+          "order": 20
+        },
+        {
+          "topicId": "PHP-DB006",
+          "topicName": "Working with different database systems (PostgreSQL, SQLite)",
+          "order": 21
+        },
+        {
+          "topicId": "PHP-WEB001",
+          "topicName": "HTTP Methods (GET, POST, PUT, DELETE)",
+          "order": 22
+        },
+        {
+          "topicId": "PHP-WEB002",
+          "topicName": "Sessions and Cookies",
+          "order": 23
+        },
+        {
+          "topicId": "PHP-WEB003",
+          "topicName": "Form Handling and Validation",
+          "order": 24
+        },
+        {
+          "topicId": "PHP-WEB004",
+          "topicName": "Working with Headers",
+          "order": 25
+        },
+        {
+          "topicId": "PHP-WEB005",
+          "topicName": "File Uploads",
+          "order": 26
+        },
+        {
+          "topicId": "PHP-WEB006",
+          "topicName": "Output Buffering",
+          "order": 27
+        },
+        {
+          "topicId": "PHP-SEC001",
+          "topicName": "SQL Injection Prevention",
+          "order": 28
+        },
+        {
+          "topicId": "PHP-SEC002",
+          "topicName": "Cross-Site Scripting (XSS) Prevention",
+          "order": 29
+        },
+        {
+          "topicId": "PHP-SEC003",
+          "topicName": "Cross-Site Request Forgery (CSRF) Prevention",
+          "order": 30
+        },
+        {
+          "topicId": "PHP-SEC004",
+          "topicName": "Session Security",
+          "order": 31
+        },
+        {
+          "topicId": "PHP-SEC005",
+          "topicName": "Password Hashing (password_hash, password_verify)",
+          "order": 32
+        },
+        {
+          "topicId": "PHP-SEC006",
+          "topicName": "Input Validation and Sanitization",
+          "order": 33
+        },
+        {
+          "topicId": "PHP-ERR001",
+          "topicName": "Error Reporting Levels",
+          "order": 34
+        },
+        {
+          "topicId": "PHP-ERR002",
+          "topicName": "Exception Handling (try, catch, finally)",
+          "order": 35
+        },
+        {
+          "topicId": "PHP-ERR003",
+          "topicName": "Logging Errors",
+          "order": 36
+        },
+        {
+          "topicId": "PHP-ERR004",
+          "topicName": "Debugging Techniques (var_dump, xdebug)",
+          "order": 37
+        },
+        {
+          "topicId": "PHP-ERR005",
+          "topicName": "Using a Debugger (Xdebug)",
+          "order": 38
+        },
+        {
+          "topicId": "PHP-ADV001",
+          "topicName": "Namespaces",
+          "order": 39
+        },
+        {
+          "topicId": "PHP-ADV002",
+          "topicName": "Closures and Anonymous Functions",
+          "order": 40
+        },
+        {
+          "topicId": "PHP-ADV003",
+          "topicName": "Generators",
+          "order": 41
+        },
+        {
+          "topicId": "PHP-ADV004",
+          "topicName": "Reflection",
+          "order": 42
+        },
+        {
+          "topicId": "PHP-ADV005",
+          "topicName": "Design Patterns (Singleton, Factory, Observer, etc.)",
+          "order": 43
+        },
+        {
+          "topicId": "PHP-ADV006",
+          "topicName": "Meta-programming",
+          "order": 44
+        },
+        {
+          "topicId": "PHP-FW001",
+          "topicName": "Understanding MVC Architecture",
+          "order": 45
+        },
+        {
+          "topicId": "PHP-FW002",
+          "topicName": "Dependency Injection",
+          "order": 46
+        },
+        {
+          "topicId": "PHP-FW003",
+          "topicName": "Routing",
+          "order": 47
+        },
+        {
+          "topicId": "PHP-FW004",
+          "topicName": "ORM (Object-Relational Mapping)",
+          "order": 48
+        },
+        {
+          "topicId": "PHP-FW005",
+          "topicName": "Templating Engines (Twig, Blade)",
+          "order": 49
+        },
+        {
+          "topicId": "PHP-FW006",
+          "topicName": "Composer (Dependency Management)",
+          "order": 50
+        },
+        {
+          "topicId": "PHP-FW007",
+          "topicName": "Popular Frameworks (Laravel, Symfony, CodeIgniter)",
+          "order": 51
+        },
+        {
+          "topicId": "PHP-TEST001",
+          "topicName": "Unit Testing (PHPUnit)",
+          "order": 52
+        },
+        {
+          "topicId": "PHP-TEST002",
+          "topicName": "Integration Testing",
+          "order": 53
+        },
+        {
+          "topicId": "PHP-TEST003",
+          "topicName": "Mocking and Stubbing",
+          "order": 54
+        },
+        {
+          "topicId": "PHP-TEST004",
+          "topicName": "Test-Driven Development (TDD)",
+          "order": 55
+        },
+        {
+          "topicId": "PHP-PERF001",
+          "topicName": "Caching (Opcode Caching, Data Caching)",
+          "order": 56
+        },
+        {
+          "topicId": "PHP-PERF002",
+          "topicName": "Profiling (Xdebug, Blackfire)",
+          "order": 57
+        },
+        {
+          "topicId": "PHP-PERF003",
+          "topicName": "Database Optimization (Indexing, Query Optimization)",
+          "order": 58
+        },
+        {
+          "topicId": "PHP-PERF004",
+          "topicName": "Code Optimization Techniques",
+          "order": 59
+        },
+        {
+          "topicId": "PHP-PERF005",
+          "topicName": "Using tools like New Relic for performance monitoring",
+          "order": 60
+        },
+        {
+          "topicId": "PHP-PROD001",
+          "topicName": "Server Configuration (Apache, Nginx)",
+          "order": 61
+        },
+        {
+          "topicId": "PHP-PROD002",
+          "topicName": "Deployment Strategies (Zero-Downtime Deployment)",
+          "order": 62
+        },
+        {
+          "topicId": "PHP-PROD003",
+          "topicName": "Monitoring and Logging",
+          "order": 63
+        },
+        {
+          "topicId": "PHP-PROD004",
+          "topicName": "Scaling PHP Applications",
+          "order": 64
+        },
+        {
+          "topicId": "PHP-PROD005",
+          "topicName": "Containerization (Docker)",
+          "order": 65
+        },
+        {
+          "topicId": "PHP-PROD006",
+          "topicName": "Continuous Integration/Continuous Deployment (CI/CD)",
+          "order": 66
+        },
+        {
+          "topicId": "PHP-API001",
+          "topicName": "RESTful APIs",
+          "order": 67
+        },
+        {
+          "topicId": "PHP-API002",
+          "topicName": "SOAP",
+          "order": 68
+        },
+        {
+          "topicId": "PHP-API003",
+          "topicName": "API Authentication (OAuth, JWT)",
+          "order": 69
+        },
+        {
+          "topicId": "PHP-API004",
+          "topicName": "Working with JSON and XML",
+          "order": 70
+        },
+        {
+          "topicId": "PHP-API005",
+          "topicName": "API Documentation (Swagger/OpenAPI)",
+          "order": 71
+        },
+        {
+          "topicId": "PHP-ASYNC001",
+          "topicName": "Message Queues (RabbitMQ, Redis)",
+          "order": 72
+        },
+        {
+          "topicId": "PHP-ASYNC002",
+          "topicName": "Asynchronous Tasks and Workers",
+          "order": 73
+        },
+        {
+          "topicId": "PHP-ASYNC003",
+          "topicName": "Event Loops",
+          "order": 74
+        },
+        {
+          "topicId": "PHP-ASYNC004",
+          "topicName": "ReactPHP",
+          "order": 75
+        },
+        {
+          "topicId": "PHP-NEW001",
+          "topicName": "PHP 7+ Features (Return Type Declarations, Scalar Type Hints, Null Coalescing Operator, Spaceship Operator)",
+          "order": 76
+        },
+        {
+          "topicId": "PHP-NEW002",
+          "topicName": "PHP 8+ Features (JIT Compiler, Attributes, Match Expression, Named Arguments, Union Types)",
+          "order": 77
+        },
+        {
+          "topicId": "PHP-CS001",
+          "topicName": "PSR Standards (PSR-1, PSR-2, PSR-4, PSR-7, PSR-12)",
+          "order": 78
+        },
+        {
+          "topicId": "PHP-CS002",
+          "topicName": "Code Style Guides",
+          "order": 79
+        },
+        {
+          "topicId": "PHP-CS003",
+          "topicName": "SOLID Principles",
+          "order": 80
+        },
+        {
+          "topicId": "PHP-CS004",
+          "topicName": "DRY (Don't Repeat Yourself) Principle",
+          "order": 81
+        },
+        {
+          "topicId": "PHP-CS005",
+          "topicName": "KISS (Keep It Simple, Stupid) Principle",
+          "order": 82
+        }
+      ]
+    },
+    {
+      "moduleId": "google_cloud_gcp",
+      "moduleName": "☁️ Google Cloud GCP",
+      "order": 12,
+      "description": "Master Google Cloud (GCP) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "GCP-F-001",
+          "topicName": "Cloud Computing Concepts: IaaS, PaaS, SaaS, Serverless",
+          "order": 1
+        },
+        {
+          "topicId": "GCP-F-002",
+          "topicName": "GCP Global Infrastructure: Regions, Zones, Points of Presence",
+          "order": 2
+        },
+        {
+          "topicId": "GCP-F-003",
+          "topicName": "GCP Resource Hierarchy: Organization, Folders, Projects",
+          "order": 3
+        },
+        {
+          "topicId": "GCP-F-004",
+          "topicName": "GCP Console, Cloud Shell, Cloud SDK (gcloud CLI)",
+          "order": 4
+        },
+        {
+          "topicId": "GCP-F-005",
+          "topicName": "Identity and Access Management (IAM): Roles, Permissions, Service Accounts",
+          "order": 5
+        },
+        {
+          "topicId": "GCP-F-006",
+          "topicName": "Billing and Cost Management: Budgets, Alerts, Cost Analysis",
+          "order": 6
+        },
+        {
+          "topicId": "GCP-C-001",
+          "topicName": "Compute Engine: Virtual Machines, Instance Templates, Instance Groups",
+          "order": 7
+        },
+        {
+          "topicId": "GCP-C-002",
+          "topicName": "Compute Engine: Custom Images, Startup Scripts, Metadata",
+          "order": 8
+        },
+        {
+          "topicId": "GCP-C-003",
+          "topicName": "Compute Engine: Networking (VPC, Subnets, Firewalls, Routes)",
+          "order": 9
+        },
+        {
+          "topicId": "GCP-C-004",
+          "topicName": "Compute Engine: Load Balancing (HTTP(S), TCP, Internal)",
+          "order": 10
+        },
+        {
+          "topicId": "GCP-C-005",
+          "topicName": "Kubernetes Engine (GKE): Clusters, Pods, Deployments, Services",
+          "order": 11
+        },
+        {
+          "topicId": "GCP-C-006",
+          "topicName": "Kubernetes Engine (GKE): Networking, Autoscaling, Security",
+          "order": 12
+        },
+        {
+          "topicId": "GCP-C-007",
+          "topicName": "App Engine: Standard and Flexible Environments",
+          "order": 13
+        },
+        {
+          "topicId": "GCP-C-008",
+          "topicName": "Cloud Functions: Event-driven Serverless Computing",
+          "order": 14
+        },
+        {
+          "topicId": "GCP-C-009",
+          "topicName": "Cloud Run: Container-based Serverless Computing",
+          "order": 15
+        },
+        {
+          "topicId": "GCP-S-001",
+          "topicName": "Cloud Storage: Buckets, Objects, Storage Classes (Standard, Nearline, Coldline, Archive)",
+          "order": 16
+        },
+        {
+          "topicId": "GCP-S-002",
+          "topicName": "Cloud Storage: Object Versioning, Lifecycle Management, Access Control",
+          "order": 17
+        },
+        {
+          "topicId": "GCP-S-003",
+          "topicName": "Cloud SQL: Managed Relational Databases (MySQL, PostgreSQL, SQL Server)",
+          "order": 18
+        },
+        {
+          "topicId": "GCP-S-004",
+          "topicName": "Cloud Spanner: Globally Distributed, Scalable, Consistent Database",
+          "order": 19
+        },
+        {
+          "topicId": "GCP-S-005",
+          "topicName": "Cloud Datastore: NoSQL Document Database",
+          "order": 20
+        },
+        {
+          "topicId": "GCP-S-006",
+          "topicName": "Cloud Bigtable: NoSQL Wide-Column Database",
+          "order": 21
+        },
+        {
+          "topicId": "GCP-S-007",
+          "topicName": "Filestore: Network File System (NFS)",
+          "order": 22
+        },
+        {
+          "topicId": "GCP-N-001",
+          "topicName": "Virtual Private Cloud (VPC): Networks, Subnets, Firewall Rules, Routes",
+          "order": 23
+        },
+        {
+          "topicId": "GCP-N-002",
+          "topicName": "Cloud DNS: Managed DNS Service",
+          "order": 24
+        },
+        {
+          "topicId": "GCP-N-003",
+          "topicName": "Cloud Load Balancing: HTTP(S), TCP, Internal Load Balancing",
+          "order": 25
+        },
+        {
+          "topicId": "GCP-N-004",
+          "topicName": "Cloud CDN: Content Delivery Network",
+          "order": 26
+        },
+        {
+          "topicId": "GCP-N-005",
+          "topicName": "Cloud Interconnect: Dedicated and Partner Interconnect",
+          "order": 27
+        },
+        {
+          "topicId": "GCP-N-006",
+          "topicName": "Cloud VPN: Virtual Private Network",
+          "order": 28
+        },
+        {
+          "topicId": "GCP-DA-001",
+          "topicName": "BigQuery: Data Warehousing and Analytics",
+          "order": 29
+        },
+        {
+          "topicId": "GCP-DA-002",
+          "topicName": "Cloud Dataflow: Stream and Batch Data Processing",
+          "order": 30
+        },
+        {
+          "topicId": "GCP-DA-003",
+          "topicName": "Cloud Dataproc: Managed Hadoop and Spark",
+          "order": 31
+        },
+        {
+          "topicId": "GCP-DA-004",
+          "topicName": "Cloud Composer: Managed Apache Airflow",
+          "order": 32
+        },
+        {
+          "topicId": "GCP-DA-005",
+          "topicName": "Cloud Pub/Sub: Messaging and Event Ingestion",
+          "order": 33
+        },
+        {
+          "topicId": "GCP-DA-006",
+          "topicName": "Cloud Data Fusion: Data Integration ETL",
+          "order": 34
+        },
+        {
+          "topicId": "GCP-SEC-001",
+          "topicName": "Cloud IAM: Identity and Access Management",
+          "order": 39
+        },
+        {
+          "topicId": "GCP-SEC-002",
+          "topicName": "Cloud KMS: Key Management Service",
+          "order": 40
+        },
+        {
+          "topicId": "GCP-SEC-003",
+          "topicName": "Cloud HSM: Hardware Security Module",
+          "order": 41
+        },
+        {
+          "topicId": "GCP-SEC-004",
+          "topicName": "VPC Service Controls: Data Exfiltration Prevention",
+          "order": 42
+        },
+        {
+          "topicId": "GCP-SEC-005",
+          "topicName": "Security Command Center: Security Management and Threat Detection",
+          "order": 43
+        },
+        {
+          "topicId": "GCP-SEC-006",
+          "topicName": "Cloud Armor: Web Application Firewall (WAF)",
+          "order": 44
+        },
+        {
+          "topicId": "GCP-ML-001",
+          "topicName": "Cloud Monitoring: Metrics, Dashboards, Alerts",
+          "order": 45
+        },
+        {
+          "topicId": "GCP-ML-002",
+          "topicName": "Cloud Logging: Log Management and Analysis",
+          "order": 46
+        },
+        {
+          "topicId": "GCP-ML-003",
+          "topicName": "Cloud Trace: Distributed Tracing",
+          "order": 47
+        },
+        {
+          "topicId": "GCP-ML-004",
+          "topicName": "Cloud Debugger: Application Debugging",
+          "order": 48
+        },
+        {
+          "topicId": "GCP-AD-001",
+          "topicName": "Cloud Deployment Manager: Infrastructure as Code",
+          "order": 49
+        },
+        {
+          "topicId": "GCP-AD-002",
+          "topicName": "Terraform on GCP",
+          "order": 50
+        },
+        {
+          "topicId": "GCP-AD-003",
+          "topicName": "Cloud Build: Continuous Integration and Continuous Delivery (CI/CD)",
+          "order": 51
+        },
+        {
+          "topicId": "GCP-AD-004",
+          "topicName": "Artifact Registry: Container Image and Package Management",
+          "order": 52
+        },
+        {
+          "topicId": "GCP-HM-001",
+          "topicName": "Anthos: Hybrid and Multi-Cloud Application Platform",
+          "order": 53
+        },
+        {
+          "topicId": "GCP-HM-002",
+          "topicName": "Connect: Connecting to external Kubernetes clusters",
+          "order": 54
+        },
+        {
+          "topicId": "GCP-PB-001",
+          "topicName": "Disaster Recovery Planning: RTO, RPO, Multi-Region Deployments",
+          "order": 55
+        },
+        {
+          "topicId": "GCP-PB-002",
+          "topicName": "High Availability Architectures: Fault Tolerance, Redundancy",
+          "order": 56
+        },
+        {
+          "topicId": "GCP-PB-003",
+          "topicName": "Performance Optimization: Caching, CDN, Database Tuning",
+          "order": 57
+        },
+        {
+          "topicId": "GCP-PB-004",
+          "topicName": "Cost Optimization: Resource Utilization, Rightsizing, Committed Use Discounts",
+          "order": 58
+        },
+        {
+          "topicId": "GCP-PB-005",
+          "topicName": "Security Best Practices: Least Privilege, Network Segmentation, Encryption",
+          "order": 59
+        },
+        {
+          "topicId": "GCP-PB-006",
+          "topicName": "Incident Response: Monitoring, Alerting, Root Cause Analysis",
+          "order": 60
+        },
+        {
+          "topicId": "GCP-PB-007",
+          "topicName": "Scaling Strategies: Horizontal vs. Vertical Scaling, Autoscaling",
+          "order": 61
+        }
+      ]
+    },
+    {
+      "moduleId": "jquery",
+      "moduleName": "⚡ jQuery Library",
+      "order": 13,
+      "description": "Master jQuery from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JQ101",
+          "topicName": "Introduction to jQuery: What is jQuery, its purpose, and benefits?",
+          "order": 1
+        },
+        {
+          "topicId": "JQ102",
+          "topicName": "jQuery Setup: How to include jQuery in a project (CDN, local file), and basic syntax.",
+          "order": 2
+        },
+        {
+          "topicId": "JQ103",
+          "topicName": "Selectors: Understanding and using basic jQuery selectors (element, class, ID).",
+          "order": 3
+        },
+        {
+          "topicId": "JQ104",
+          "topicName": "DOM Manipulation: Methods for manipulating HTML elements (adding, removing, modifying content and attributes).",
+          "order": 4
+        },
+        {
+          "topicId": "JQ105",
+          "topicName": "Events: Handling common events (click, mouseover, submit) and event delegation.",
+          "order": 5
+        },
+        {
+          "topicId": "JQ106",
+          "topicName": "Effects: Basic animations and effects (fade, slide, show, hide).",
+          "order": 6
+        },
+        {
+          "topicId": "JQ201",
+          "topicName": "Advanced Selectors: Using advanced selectors (attribute, pseudo-class, custom).",
+          "order": 7
+        },
+        {
+          "topicId": "JQ202",
+          "topicName": "DOM Traversal: Methods for traversing the DOM tree (parent, children, siblings, find).",
+          "order": 8
+        },
+        {
+          "topicId": "JQ203",
+          "topicName": "Filtering: Filtering elements based on specific criteria (first, last, eq, filter).",
+          "order": 9
+        },
+        {
+          "topicId": "JQ301",
+          "topicName": "Event Handling: Advanced event handling techniques (namespacing, custom events, event data).",
+          "order": 10
+        },
+        {
+          "topicId": "JQ302",
+          "topicName": "AJAX Basics: Making AJAX requests with jQuery ($.ajax, $.get, $.post).",
+          "order": 11
+        },
+        {
+          "topicId": "JQ303",
+          "topicName": "AJAX Data Handling: Handling different data formats (JSON, XML) and error handling.",
+          "order": 12
+        },
+        {
+          "topicId": "JQ304",
+          "topicName": "AJAX Promises: Using Deferred objects and Promises for asynchronous operations.",
+          "order": 13
+        },
+        {
+          "topicId": "JQ401",
+          "topicName": "jQuery Plugins: Using and creating jQuery plugins.",
+          "order": 14
+        },
+        {
+          "topicId": "JQ402",
+          "topicName": "jQuery UI: Introduction to jQuery UI components (widgets, interactions, effects).",
+          "order": 15
+        },
+        {
+          "topicId": "JQ403",
+          "topicName": "Utility Functions: Using jQuery's utility functions ($.each, $.map, $.trim, $.extend).",
+          "order": 16
+        },
+        {
+          "topicId": "JQ501",
+          "topicName": "Chaining: Understanding and using method chaining for concise code.",
+          "order": 17
+        },
+        {
+          "topicId": "JQ502",
+          "topicName": "Context and Scope: Understanding the 'this' keyword in jQuery event handlers and functions.",
+          "order": 18
+        },
+        {
+          "topicId": "JQ503",
+          "topicName": "Data Method: Storing and retrieving data associated with DOM elements using the $.data() method.",
+          "order": 19
+        },
+        {
+          "topicId": "JQ504",
+          "topicName": "Optimizing jQuery Code: Performance considerations and best practices for writing efficient jQuery code.",
+          "order": 20
+        },
+        {
+          "topicId": "JQ505",
+          "topicName": "jQuery and Modern JavaScript: How jQuery integrates with modern JavaScript frameworks and libraries (React, Angular, Vue).",
+          "order": 21
+        },
+        {
+          "topicId": "JQ601",
+          "topicName": "Code Organization: Structuring jQuery code for maintainability (modules, design patterns).",
+          "order": 22
+        },
+        {
+          "topicId": "JQ602",
+          "topicName": "Error Handling: Implementing robust error handling in jQuery applications.",
+          "order": 23
+        },
+        {
+          "topicId": "JQ603",
+          "topicName": "Cross-Browser Compatibility: Addressing cross-browser compatibility issues with jQuery.",
+          "order": 24
+        },
+        {
+          "topicId": "JQ604",
+          "topicName": "Security: Preventing common security vulnerabilities (XSS, CSRF) when using jQuery.",
+          "order": 25
+        },
+        {
+          "topicId": "JQ605",
+          "topicName": "Testing: Unit testing jQuery code using frameworks like QUnit or Jest.",
+          "order": 26
+        },
+        {
+          "topicId": "JQ606",
+          "topicName": "Performance Tuning: Profiling and optimizing jQuery code for performance in production environments.",
+          "order": 27
+        },
+        {
+          "topicId": "JQ607",
+          "topicName": "Accessibility: Implementing accessibility best practices when using jQuery to enhance user experience for users with disabilities.",
+          "order": 28
+        },
+        {
+          "topicId": "JQ701",
+          "topicName": "jQuery Versioning: Understanding jQuery versioning and migration strategies.",
+          "order": 29
+        },
+        {
+          "topicId": "JQ702",
+          "topicName": "Deprecated Features: Identifying and replacing deprecated jQuery features with modern alternatives.",
+          "order": 30
+        },
+        {
+          "topicId": "JQ703",
+          "topicName": "Future of jQuery: Discussing the role of jQuery in modern web development and its future prospects.",
+          "order": 31
+        }
+      ]
+    },
+    {
+      "moduleId": "c",
+      "moduleName": "💻 C Programming",
+      "order": 14,
+      "description": "Master C# from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CF001",
+          "topicName": "Data Types (Primitive and Reference)",
+          "order": 1
+        },
+        {
+          "topicId": "CF002",
+          "topicName": "Variables and Constants",
+          "order": 2
+        },
+        {
+          "topicId": "CF003",
+          "topicName": "Operators (Arithmetic, Logical, Bitwise)",
+          "order": 3
+        },
+        {
+          "topicId": "CF004",
+          "topicName": "Control Flow (if/else, switch, loops)",
+          "order": 4
+        },
+        {
+          "topicId": "CF005",
+          "topicName": "Arrays and Collections (List, Dictionary, etc.)",
+          "order": 5
+        },
+        {
+          "topicId": "CF006",
+          "topicName": "String Manipulation",
+          "order": 6
+        },
+        {
+          "topicId": "CF007",
+          "topicName": "Basic Input/Output (Console, File I/O)",
+          "order": 7
+        },
+        {
+          "topicId": "OOP101",
+          "topicName": "Classes and Objects",
+          "order": 8
+        },
+        {
+          "topicId": "OOP102",
+          "topicName": "Encapsulation, Abstraction, Inheritance, Polymorphism",
+          "order": 9
+        },
+        {
+          "topicId": "OOP103",
+          "topicName": "Interfaces and Abstract Classes",
+          "order": 10
+        },
+        {
+          "topicId": "OOP104",
+          "topicName": "Constructors and Destructors",
+          "order": 11
+        },
+        {
+          "topicId": "OOP105",
+          "topicName": "Properties, Indexers, and Events",
+          "order": 12
+        },
+        {
+          "topicId": "OOP106",
+          "topicName": "Static Members and Classes",
+          "order": 13
+        },
+        {
+          "topicId": "OOP107",
+          "topicName": "SOLID Principles",
+          "order": 14
+        },
+        {
+          "topicId": "IM201",
+          "topicName": "Delegates and Events",
+          "order": 15
+        },
+        {
+          "topicId": "IM202",
+          "topicName": "Lambda Expressions and LINQ",
+          "order": 16
+        },
+        {
+          "topicId": "IM203",
+          "topicName": "Generics",
+          "order": 17
+        },
+        {
+          "topicId": "IM204",
+          "topicName": "Exception Handling (try/catch/finally)",
+          "order": 18
+        },
+        {
+          "topicId": "IM205",
+          "topicName": "Reflection",
+          "order": 19
+        },
+        {
+          "topicId": "IM206",
+          "topicName": "Attributes",
+          "order": 20
+        },
+        {
+          "topicId": "IM207",
+          "topicName": "Asynchronous Programming (async/await)",
+          "order": 21
+        },
+        {
+          "topicId": "IM208",
+          "topicName": "Nullable Types",
+          "order": 22
+        },
+        {
+          "topicId": "AD301",
+          "topicName": "Multithreading and Parallel Programming (Task Parallel Library)",
+          "order": 23
+        },
+        {
+          "topicId": "AD302",
+          "topicName": "Memory Management (Garbage Collection, Weak References)",
+          "order": 24
+        },
+        {
+          "topicId": "AD303",
+          "topicName": "Code Optimization and Performance Tuning",
+          "order": 25
+        },
+        {
+          "topicId": "AD304",
+          "topicName": "Design Patterns (Singleton, Factory, Observer, etc.)",
+          "order": 26
+        },
+        {
+          "topicId": "AD305",
+          "topicName": "Interoperability (COM, P/Invoke)",
+          "order": 27
+        },
+        {
+          "topicId": "AD306",
+          "topicName": "Security (Authentication, Authorization, Encryption)",
+          "order": 28
+        },
+        {
+          "topicId": "AD307",
+          "topicName": "Networking (Sockets, HTTP)",
+          "order": 29
+        },
+        {
+          "topicId": "AD308",
+          "topicName": "Diagnostics and Debugging",
+          "order": 30
+        },
+        {
+          "topicId": "FL401",
+          "topicName": ".NET Framework vs .NET Core vs .NET",
+          "order": 31
+        },
+        {
+          "topicId": "FL402",
+          "topicName": "ASP.NET Core (MVC, Web API)",
+          "order": 32
+        },
+        {
+          "topicId": "FL403",
+          "topicName": "Entity Framework Core (ORM)",
+          "order": 33
+        },
+        {
+          "topicId": "FL404",
+          "topicName": "Dependency Injection (DI) and Inversion of Control (IoC)",
+          "order": 34
+        },
+        {
+          "topicId": "FL405",
+          "topicName": "Unit Testing (xUnit, NUnit, MSTest)",
+          "order": 35
+        },
+        {
+          "topicId": "FL406",
+          "topicName": "Logging (Serilog, NLog)",
+          "order": 36
+        },
+        {
+          "topicId": "FL407",
+          "topicName": "Configuration Management",
+          "order": 37
+        },
+        {
+          "topicId": "PB501",
+          "topicName": "Application Monitoring and Observability",
+          "order": 38
+        },
+        {
+          "topicId": "PB502",
+          "topicName": "Performance Profiling and Optimization in Production",
+          "order": 39
+        },
+        {
+          "topicId": "PB503",
+          "topicName": "Deployment Strategies (CI/CD)",
+          "order": 40
+        },
+        {
+          "topicId": "PB504",
+          "topicName": "Scalability and High Availability",
+          "order": 41
+        },
+        {
+          "topicId": "PB505",
+          "topicName": "Security Best Practices in Production",
+          "order": 42
+        },
+        {
+          "topicId": "PB506",
+          "topicName": "Disaster Recovery and Business Continuity",
+          "order": 43
+        },
+        {
+          "topicId": "PB507",
+          "topicName": "Troubleshooting and Debugging Production Issues",
+          "order": 44
+        },
+        {
+          "topicId": "TT601",
+          "topicName": "Visual Studio and VS Code",
+          "order": 45
+        },
+        {
+          "topicId": "TT602",
+          "topicName": "Git and Version Control",
+          "order": 46
+        },
+        {
+          "topicId": "TT603",
+          "topicName": "NuGet Package Manager",
+          "order": 47
+        },
+        {
+          "topicId": "TT604",
+          "topicName": "Docker and Containerization",
+          "order": 48
+        },
+        {
+          "topicId": "TT605",
+          "topicName": "Cloud Platforms (Azure, AWS, GCP)",
+          "order": 49
+        },
+        {
+          "topicId": "LI701",
+          "topicName": "LINQ to Objects",
+          "order": 50
+        },
+        {
+          "topicId": "LI702",
+          "topicName": "LINQ to SQL/Entities",
+          "order": 51
+        },
+        {
+          "topicId": "LI703",
+          "topicName": "Deferred Execution",
+          "order": 52
+        },
+        {
+          "topicId": "LI704",
+          "topicName": "Custom LINQ Operators",
+          "order": 53
+        },
+        {
+          "topicId": "CS12-01",
+          "topicName": "Primary Constructors",
+          "order": 54
+        },
+        {
+          "topicId": "CS12-02",
+          "topicName": "Collection Expressions",
+          "order": 55
+        },
+        {
+          "topicId": "CS12-03",
+          "topicName": "Inline Arrays",
+          "order": 56
+        },
+        {
+          "topicId": "CS12-04",
+          "topicName": "Optional parameters in lambda expressions",
+          "order": 57
+        },
+        {
+          "topicId": "CS12-05",
+          "topicName": "Alias any type",
+          "order": 58
+        },
+        {
+          "topicId": "CS12-06",
+          "topicName": "Experimental attribute",
+          "order": 59
+        }
+      ]
+    },
+    {
+      "moduleId": "aws_amazon_web_services",
+      "moduleName": "☁️ AWS Amazon Web Services",
+      "order": 15,
+      "description": "Master AWS (Amazon Web Services) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "FND001",
+          "topicName": "Introduction to Cloud Computing and AWS",
+          "order": 1
+        },
+        {
+          "topicId": "FND002",
+          "topicName": "AWS Global Infrastructure (Regions, Availability Zones, Edge Locations)",
+          "order": 2
+        },
+        {
+          "topicId": "FND003",
+          "topicName": "AWS Account Setup and Management (IAM Users, Groups, Roles, Policies)",
+          "order": 3
+        },
+        {
+          "topicId": "FND004",
+          "topicName": "AWS CLI and SDKs (Configuration, Usage)",
+          "order": 4
+        },
+        {
+          "topicId": "FND005",
+          "topicName": "AWS Management Console Overview",
+          "order": 5
+        },
+        {
+          "topicId": "CMP001",
+          "topicName": "EC2 (Elastic Compute Cloud) - Instance Types, AMIs, Security Groups, Key Pairs",
+          "order": 6
+        },
+        {
+          "topicId": "CMP002",
+          "topicName": "EC2 Instance Lifecycle (Launch, Stop, Terminate)",
+          "order": 7
+        },
+        {
+          "topicId": "CMP003",
+          "topicName": "EC2 Auto Scaling (Scaling Policies, Launch Configurations/Templates)",
+          "order": 8
+        },
+        {
+          "topicId": "CMP004",
+          "topicName": "Elastic Load Balancing (ELB) - ALB, NLB, CLB",
+          "order": 9
+        },
+        {
+          "topicId": "CMP005",
+          "topicName": "AWS Lambda (Serverless Computing, Event-Driven Architecture)",
+          "order": 10
+        },
+        {
+          "topicId": "CMP006",
+          "topicName": "AWS ECS (Elastic Container Service) and EKS (Elastic Kubernetes Service)",
+          "order": 11
+        },
+        {
+          "topicId": "CMP007",
+          "topicName": "AWS Fargate (Serverless Compute for Containers)",
+          "order": 12
+        },
+        {
+          "topicId": "STR001",
+          "topicName": "S3 (Simple Storage Service) - Buckets, Objects, Versioning, Lifecycle Policies",
+          "order": 13
+        },
+        {
+          "topicId": "STR002",
+          "topicName": "S3 Storage Classes (Standard, Intelligent-Tiering, Standard-IA, One Zone-IA, Glacier, Glacier Deep Archive)",
+          "order": 14
+        },
+        {
+          "topicId": "STR003",
+          "topicName": "EBS (Elastic Block Storage) - Volume Types, Snapshots",
+          "order": 15
+        },
+        {
+          "topicId": "STR004",
+          "topicName": "EFS (Elastic File System) - Shared File Storage",
+          "order": 16
+        },
+        {
+          "topicId": "STR005",
+          "topicName": "AWS Storage Gateway (Hybrid Cloud Storage)",
+          "order": 17
+        },
+        {
+          "topicId": "DB001",
+          "topicName": "RDS (Relational Database Service) - Engines (MySQL, PostgreSQL, SQL Server, Oracle, MariaDB, Aurora)",
+          "order": 18
+        },
+        {
+          "topicId": "DB002",
+          "topicName": "RDS Multi-AZ Deployments (High Availability)",
+          "order": 19
+        },
+        {
+          "topicId": "DB003",
+          "topicName": "DynamoDB (NoSQL Database) - Tables, Items, Attributes",
+          "order": 20
+        },
+        {
+          "topicId": "DB004",
+          "topicName": "DynamoDB Global Tables",
+          "order": 21
+        },
+        {
+          "topicId": "DB005",
+          "topicName": "Redshift (Data Warehousing)",
+          "order": 22
+        },
+        {
+          "topicId": "DB006",
+          "topicName": "ElastiCache (In-Memory Caching) - Memcached, Redis",
+          "order": 23
+        },
+        {
+          "topicId": "NET001",
+          "topicName": "VPC (Virtual Private Cloud) - Subnets, Route Tables, Internet Gateways, NAT Gateways",
+          "order": 24
+        },
+        {
+          "topicId": "NET002",
+          "topicName": "Security Groups and Network ACLs",
+          "order": 25
+        },
+        {
+          "topicId": "NET003",
+          "topicName": "Direct Connect and VPN (Hybrid Cloud Connectivity)",
+          "order": 26
+        },
+        {
+          "topicId": "NET004",
+          "topicName": "Route 53 (DNS Service)",
+          "order": 27
+        },
+        {
+          "topicId": "NET005",
+          "topicName": "CloudFront (CDN - Content Delivery Network)",
+          "order": 28
+        },
+        {
+          "topicId": "SEC001",
+          "topicName": "IAM (Identity and Access Management) - Users, Groups, Roles, Policies, MFA",
+          "order": 29
+        },
+        {
+          "topicId": "SEC002",
+          "topicName": "AWS KMS (Key Management Service)",
+          "order": 30
+        },
+        {
+          "topicId": "SEC003",
+          "topicName": "AWS Shield (DDoS Protection)",
+          "order": 31
+        },
+        {
+          "topicId": "SEC004",
+          "topicName": "AWS WAF (Web Application Firewall)",
+          "order": 32
+        },
+        {
+          "topicId": "SEC005",
+          "topicName": "AWS Inspector (Vulnerability Assessment)",
+          "order": 33
+        },
+        {
+          "topicId": "SEC006",
+          "topicName": "AWS GuardDuty (Threat Detection)",
+          "order": 34
+        },
+        {
+          "topicId": "SEC007",
+          "topicName": "AWS Certificate Manager (ACM)",
+          "order": 35
+        },
+        {
+          "topicId": "MON001",
+          "topicName": "CloudWatch (Monitoring and Observability)",
+          "order": 36
+        },
+        {
+          "topicId": "MON002",
+          "topicName": "CloudTrail (Auditing and Logging)",
+          "order": 37
+        },
+        {
+          "topicId": "MON003",
+          "topicName": "AWS Config (Configuration Management)",
+          "order": 38
+        },
+        {
+          "topicId": "MON004",
+          "topicName": "AWS X-Ray (Distributed Tracing)",
+          "order": 39
+        },
+        {
+          "topicId": "AUT001",
+          "topicName": "CloudFormation (Infrastructure as Code)",
+          "order": 40
+        },
+        {
+          "topicId": "AUT002",
+          "topicName": "AWS OpsWorks (Configuration Management)",
+          "order": 41
+        },
+        {
+          "topicId": "AUT003",
+          "topicName": "AWS Systems Manager (SSM)",
+          "order": 42
+        },
+        {
+          "topicId": "MSG001",
+          "topicName": "SQS (Simple Queue Service)",
+          "order": 43
+        },
+        {
+          "topicId": "MSG002",
+          "topicName": "SNS (Simple Notification Service)",
+          "order": 44
+        },
+        {
+          "topicId": "MSG003",
+          "topicName": "Kinesis (Real-time Data Streaming)",
+          "order": 45
+        },
+        {
+          "topicId": "MSG004",
+          "topicName": "Amazon MQ (Managed Message Broker Service)",
+          "order": 46
+        },
+        {
+          "topicId": "DPL001",
+          "topicName": "AWS CodeDeploy (Automated Application Deployment)",
+          "order": 47
+        },
+        {
+          "topicId": "DPL002",
+          "topicName": "AWS CodePipeline (Continuous Integration and Continuous Delivery)",
+          "order": 48
+        },
+        {
+          "topicId": "DPL003",
+          "topicName": "AWS CodeBuild (Continuous Integration)",
+          "order": 49
+        },
+        {
+          "topicId": "DPL004",
+          "topicName": "AWS Elastic Beanstalk (Platform as a Service)",
+          "order": 50
+        },
+        {
+          "topicId": "ADV001",
+          "topicName": "Disaster Recovery Strategies (Backup and Restore, Pilot Light, Warm Standby, Multi-Site)",
+          "order": 51
+        },
+        {
+          "topicId": "ADV002",
+          "topicName": "Cost Optimization Strategies (Reserved Instances, Spot Instances, Right Sizing)",
+          "order": 52
+        },
+        {
+          "topicId": "ADV003",
+          "topicName": "High Availability and Scalability Architectures",
+          "order": 53
+        },
+        {
+          "topicId": "ADV004",
+          "topicName": "Microservices Architecture on AWS",
+          "order": 54
+        },
+        {
+          "topicId": "ADV005",
+          "topicName": "DevOps Practices on AWS",
+          "order": 55
+        },
+        {
+          "topicId": "ADV006",
+          "topicName": "Serverless Architectures on AWS",
+          "order": 56
+        },
+        {
+          "topicId": "ADV007",
+          "topicName": "Big Data and Analytics on AWS (EMR, Athena, Glue, Lake Formation)",
+          "order": 57
+        },
+        {
+          "topicId": "ADV008",
+          "topicName": "Machine Learning on AWS (SageMaker)",
+          "order": 58
+        },
+        {
+          "topicId": "TRB001",
+          "topicName": "Common EC2 Instance Issues (Connectivity, Performance)",
+          "order": 59
+        },
+        {
+          "topicId": "TRB002",
+          "topicName": "S3 Access Issues (Permissions, Bucket Policies)",
+          "order": 60
+        },
+        {
+          "topicId": "TRB003",
+          "topicName": "RDS Performance Issues (Query Optimization, Scaling)",
+          "order": 61
+        },
+        {
+          "topicId": "TRB004",
+          "topicName": "VPC Connectivity Issues (Routing, Security Groups)",
+          "order": 62
+        },
+        {
+          "topicId": "TRB005",
+          "topicName": "Lambda Function Errors (Timeouts, Permissions)",
+          "order": 63
+        },
+        {
+          "topicId": "PRD001",
+          "topicName": "Designing for Fault Tolerance and Resilience",
+          "order": 64
+        },
+        {
+          "topicId": "PRD002",
+          "topicName": "Implementing Monitoring and Alerting Strategies",
+          "order": 65
+        },
+        {
+          "topicId": "PRD003",
+          "topicName": "Capacity Planning and Scaling Strategies",
+          "order": 66
+        },
+        {
+          "topicId": "PRD004",
+          "topicName": "Security Best Practices in Production Environments",
+          "order": 67
+        },
+        {
+          "topicId": "PRD005",
+          "topicName": "Cost Management and Optimization in Production",
+          "order": 68
+        },
+        {
+          "topicId": "PRD006",
+          "topicName": "Change Management and Deployment Strategies",
+          "order": 69
+        },
+        {
+          "topicId": "PRD007",
+          "topicName": "Incident Response and Disaster Recovery Planning",
+          "order": 70
+        },
+        {
+          "topicId": "PRD008",
+          "topicName": "Performance Tuning and Optimization",
+          "order": 71
+        }
+      ]
+    },
+    {
+      "moduleId": "data_structures__algorithms",
+      "moduleName": "⚙️ Data Structures & Algorithms",
+      "order": 16,
+      "description": "Master Data Structures & Algorithms from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "F101",
+          "topicName": "Big O Notation & Time Complexity Analysis",
+          "order": 1
+        },
+        {
+          "topicId": "F102",
+          "topicName": "Space Complexity Analysis",
+          "order": 2
+        },
+        {
+          "topicId": "F103",
+          "topicName": "Common Data Structures Overview (Arrays, Linked Lists, Stacks, Queues, Hash Tables, Trees, Graphs)",
+          "order": 3
+        },
+        {
+          "topicId": "AS201",
+          "topicName": "Arrays: Basic Operations (Insertion, Deletion, Search)",
+          "order": 4
+        },
+        {
+          "topicId": "AS202",
+          "topicName": "Arrays: Dynamic Arrays & Resizing",
+          "order": 5
+        },
+        {
+          "topicId": "AS203",
+          "topicName": "Arrays: Multi-dimensional Arrays",
+          "order": 6
+        },
+        {
+          "topicId": "AS204",
+          "topicName": "Strings: String Manipulation (Concatenation, Substrings, Reversal)",
+          "order": 7
+        },
+        {
+          "topicId": "AS205",
+          "topicName": "Strings: Pattern Matching (Naive, KMP, Boyer-Moore)",
+          "order": 8
+        },
+        {
+          "topicId": "AS206",
+          "topicName": "Strings: Regular Expressions",
+          "order": 9
+        },
+        {
+          "topicId": "LL301",
+          "topicName": "Singly Linked Lists: Insertion, Deletion, Traversal",
+          "order": 10
+        },
+        {
+          "topicId": "LL302",
+          "topicName": "Doubly Linked Lists: Insertion, Deletion, Traversal",
+          "order": 11
+        },
+        {
+          "topicId": "LL303",
+          "topicName": "Circular Linked Lists",
+          "order": 12
+        },
+        {
+          "topicId": "LL304",
+          "topicName": "Linked List Problems: Reversal, Cycle Detection, Merging",
+          "order": 13
+        },
+        {
+          "topicId": "SQ401",
+          "topicName": "Stacks: LIFO Principle, Implementation (Array, Linked List)",
+          "order": 14
+        },
+        {
+          "topicId": "SQ402",
+          "topicName": "Queues: FIFO Principle, Implementation (Array, Linked List)",
+          "order": 15
+        },
+        {
+          "topicId": "SQ403",
+          "topicName": "Deque (Double-Ended Queue)",
+          "order": 16
+        },
+        {
+          "topicId": "SQ404",
+          "topicName": "Stack & Queue Applications: Expression Evaluation, Backtracking",
+          "order": 17
+        },
+        {
+          "topicId": "HT501",
+          "topicName": "Hash Functions: Properties, Common Algorithms",
+          "order": 18
+        },
+        {
+          "topicId": "HT502",
+          "topicName": "Collision Resolution: Separate Chaining, Open Addressing",
+          "order": 19
+        },
+        {
+          "topicId": "HT503",
+          "topicName": "Hash Table Implementation & Performance",
+          "order": 20
+        },
+        {
+          "topicId": "HT504",
+          "topicName": "Hash Table Applications: Caching, Symbol Tables",
+          "order": 21
+        },
+        {
+          "topicId": "T601",
+          "topicName": "Binary Trees: Properties, Traversal (Inorder, Preorder, Postorder)",
+          "order": 22
+        },
+        {
+          "topicId": "T602",
+          "topicName": "Binary Search Trees (BST): Insertion, Deletion, Search",
+          "order": 23
+        },
+        {
+          "topicId": "T603",
+          "topicName": "Balanced Trees: AVL Trees, Red-Black Trees",
+          "order": 24
+        },
+        {
+          "topicId": "T604",
+          "topicName": "Heaps: Binary Heaps, Priority Queues",
+          "order": 25
+        },
+        {
+          "topicId": "T605",
+          "topicName": "Tries (Prefix Trees)",
+          "order": 26
+        },
+        {
+          "topicId": "G701",
+          "topicName": "Graph Representations: Adjacency Matrix, Adjacency List",
+          "order": 27
+        },
+        {
+          "topicId": "G702",
+          "topicName": "Graph Traversal: Breadth-First Search (BFS), Depth-First Search (DFS)",
+          "order": 28
+        },
+        {
+          "topicId": "G703",
+          "topicName": "Shortest Path Algorithms: Dijkstra's Algorithm, Bellman-Ford Algorithm",
+          "order": 29
+        },
+        {
+          "topicId": "G704",
+          "topicName": "Minimum Spanning Tree Algorithms: Prim's Algorithm, Kruskal's Algorithm",
+          "order": 30
+        },
+        {
+          "topicId": "G705",
+          "topicName": "Topological Sort",
+          "order": 31
+        },
+        {
+          "topicId": "SA801",
+          "topicName": "Comparison-Based Sorting: Bubble Sort, Insertion Sort, Selection Sort",
+          "order": 32
+        },
+        {
+          "topicId": "SA802",
+          "topicName": "Divide and Conquer Sorting: Merge Sort, Quick Sort",
+          "order": 33
+        },
+        {
+          "topicId": "SA803",
+          "topicName": "Linear Time Sorting: Counting Sort, Radix Sort, Bucket Sort",
+          "order": 34
+        },
+        {
+          "topicId": "SE901",
+          "topicName": "Linear Search",
+          "order": 35
+        },
+        {
+          "topicId": "SE902",
+          "topicName": "Binary Search",
+          "order": 36
+        },
+        {
+          "topicId": "SE903",
+          "topicName": "Interpolation Search",
+          "order": 37
+        },
+        {
+          "topicId": "DP1001",
+          "topicName": "Dynamic Programming Concepts: Overlapping Subproblems, Optimal Substructure",
+          "order": 38
+        },
+        {
+          "topicId": "DP1002",
+          "topicName": "Memoization (Top-Down)",
+          "order": 39
+        },
+        {
+          "topicId": "DP1003",
+          "topicName": "Tabulation (Bottom-Up)",
+          "order": 40
+        },
+        {
+          "topicId": "DP1004",
+          "topicName": "Common DP Problems: Fibonacci, Knapsack, Longest Common Subsequence",
+          "order": 41
+        },
+        {
+          "topicId": "GA1101",
+          "topicName": "Greedy Algorithm Concepts: Optimal Choice at Each Step",
+          "order": 42
+        },
+        {
+          "topicId": "GA1102",
+          "topicName": "Common Greedy Problems: Activity Selection, Fractional Knapsack, Huffman Coding",
+          "order": 43
+        },
+        {
+          "topicId": "BT1201",
+          "topicName": "Backtracking Concepts: Exploring All Possible Solutions",
+          "order": 44
+        },
+        {
+          "topicId": "BT1202",
+          "topicName": "Common Backtracking Problems: N-Queens, Sudoku Solver, Combination Sum",
+          "order": 45
+        },
+        {
+          "topicId": "BM1301",
+          "topicName": "Bitwise Operators: AND, OR, XOR, NOT, Shift Operators",
+          "order": 46
+        },
+        {
+          "topicId": "BM1302",
+          "topicName": "Bit Manipulation Techniques: Setting, Clearing, Toggling Bits",
+          "order": 47
+        },
+        {
+          "topicId": "BM1303",
+          "topicName": "Bit Manipulation Applications: Counting Set Bits, Checking Power of 2",
+          "order": 48
+        },
+        {
+          "topicId": "DP1401",
+          "topicName": "Creational Patterns (Singleton, Factory)",
+          "order": 49
+        },
+        {
+          "topicId": "DP1402",
+          "topicName": "Structural Patterns (Adapter, Decorator)",
+          "order": 50
+        },
+        {
+          "topicId": "DP1403",
+          "topicName": "Behavioral Patterns (Observer, Strategy)",
+          "order": 51
+        },
+        {
+          "topicId": "SD1501",
+          "topicName": "Scalability and Performance Considerations",
+          "order": 52
+        },
+        {
+          "topicId": "SD1502",
+          "topicName": "Caching Strategies (LRU, LFU)",
+          "order": 53
+        },
+        {
+          "topicId": "SD1503",
+          "topicName": "Load Balancing Techniques",
+          "order": 54
+        },
+        {
+          "topicId": "SD1504",
+          "topicName": "Database Design and Optimization",
+          "order": 55
+        },
+        {
+          "topicId": "CO1601",
+          "topicName": "Threads and Processes",
+          "order": 56
+        },
+        {
+          "topicId": "CO1602",
+          "topicName": "Synchronization Primitives (Mutexes, Semaphores, Condition Variables)",
+          "order": 57
+        },
+        {
+          "topicId": "CO1603",
+          "topicName": "Deadlock and Livelock",
+          "order": 58
+        },
+        {
+          "topicId": "CO1604",
+          "topicName": "Concurrent Data Structures",
+          "order": 59
+        },
+        {
+          "topicId": "TE1701",
+          "topicName": "Unit Testing",
+          "order": 60
+        },
+        {
+          "topicId": "TE1702",
+          "topicName": "Integration Testing",
+          "order": 61
+        },
+        {
+          "topicId": "TE1703",
+          "topicName": "Performance Testing",
+          "order": 62
+        },
+        {
+          "topicId": "PB1801",
+          "topicName": "Profiling and Performance Monitoring",
+          "order": 63
+        },
+        {
+          "topicId": "PB1802",
+          "topicName": "Debugging Techniques in Production",
+          "order": 64
+        },
+        {
+          "topicId": "PB1803",
+          "topicName": "Error Handling and Logging Strategies",
+          "order": 65
+        },
+        {
+          "topicId": "PB1804",
+          "topicName": "Code Optimization for Production Environments",
+          "order": 66
+        }
+      ]
+    },
+    {
+      "moduleId": "git",
+      "moduleName": "🔀 Git & GitHub",
+      "order": 17,
+      "description": "Master Git from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "GIT001",
+          "topicName": "Introduction to Version Control Systems (VCS)",
+          "order": 1
+        },
+        {
+          "topicId": "GIT002",
+          "topicName": "What is Git? History and Architecture",
+          "order": 2
+        },
+        {
+          "topicId": "GIT003",
+          "topicName": "Installing and Configuring Git",
+          "order": 3
+        },
+        {
+          "topicId": "GIT004",
+          "topicName": "Basic Git Commands: init, clone, add, commit, status, diff",
+          "order": 4
+        },
+        {
+          "topicId": "GIT005",
+          "topicName": "Understanding the Git Staging Area",
+          "order": 5
+        },
+        {
+          "topicId": "GIT006",
+          "topicName": "Ignoring Files with .gitignore",
+          "order": 6
+        },
+        {
+          "topicId": "GIT007",
+          "topicName": "Branching in Git: Creating, Switching, and Deleting Branches",
+          "order": 7
+        },
+        {
+          "topicId": "GIT008",
+          "topicName": "Merging Branches: Fast-Forward and Three-Way Merges",
+          "order": 8
+        },
+        {
+          "topicId": "GIT009",
+          "topicName": "Resolving Merge Conflicts",
+          "order": 9
+        },
+        {
+          "topicId": "GIT010",
+          "topicName": "Merge Strategies: Recursive, Resolve, Octopus, Ours, Subtree",
+          "order": 10
+        },
+        {
+          "topicId": "GIT011",
+          "topicName": "Gitflow Workflow",
+          "order": 11
+        },
+        {
+          "topicId": "GIT012",
+          "topicName": "Working with Remote Repositories: Adding, Fetching, Pulling, Pushing",
+          "order": 12
+        },
+        {
+          "topicId": "GIT013",
+          "topicName": "Understanding Remote Tracking Branches",
+          "order": 13
+        },
+        {
+          "topicId": "GIT014",
+          "topicName": "Collaborating with Others: Pull Requests and Code Reviews",
+          "order": 14
+        },
+        {
+          "topicId": "GIT015",
+          "topicName": "Forking and Contributing to Open Source Projects",
+          "order": 15
+        },
+        {
+          "topicId": "GIT016",
+          "topicName": "Authentication with Remote Repositories: SSH Keys and HTTPS",
+          "order": 16
+        },
+        {
+          "topicId": "GIT017",
+          "topicName": "Undoing Changes: git checkout, git reset, git revert",
+          "order": 17
+        },
+        {
+          "topicId": "GIT018",
+          "topicName": "Recovering Lost Commits: git reflog",
+          "order": 18
+        },
+        {
+          "topicId": "GIT019",
+          "topicName": "Cleaning Up Commits: git commit --amend",
+          "order": 19
+        },
+        {
+          "topicId": "GIT020",
+          "topicName": "Rebasing: Interactive Rebasing and its Use Cases",
+          "order": 20
+        },
+        {
+          "topicId": "GIT021",
+          "topicName": "Stashing Changes: git stash",
+          "order": 21
+        },
+        {
+          "topicId": "GIT022",
+          "topicName": "Submodules and Subtrees",
+          "order": 22
+        },
+        {
+          "topicId": "GIT023",
+          "topicName": "Git Hooks: Client-Side and Server-Side Hooks",
+          "order": 23
+        },
+        {
+          "topicId": "GIT024",
+          "topicName": "Bisecting: Finding Bugs with git bisect",
+          "order": 24
+        },
+        {
+          "topicId": "GIT025",
+          "topicName": "Git Attributes: .gitattributes",
+          "order": 25
+        },
+        {
+          "topicId": "GIT026",
+          "topicName": "Understanding Git Objects: Blobs, Trees, Commits",
+          "order": 26
+        },
+        {
+          "topicId": "GIT027",
+          "topicName": "The Git Index",
+          "order": 27
+        },
+        {
+          "topicId": "GIT028",
+          "topicName": "Git Packfiles",
+          "order": 28
+        },
+        {
+          "topicId": "GIT029",
+          "topicName": "Garbage Collection: git gc",
+          "order": 29
+        },
+        {
+          "topicId": "GIT030",
+          "topicName": "Git with GitHub: Features and Workflows",
+          "order": 30
+        },
+        {
+          "topicId": "GIT031",
+          "topicName": "Git with GitLab: Features and Workflows",
+          "order": 31
+        },
+        {
+          "topicId": "GIT032",
+          "topicName": "Git with Bitbucket: Features and Workflows",
+          "order": 32
+        },
+        {
+          "topicId": "GIT033",
+          "topicName": "Code Review Tools and Processes",
+          "order": 33
+        },
+        {
+          "topicId": "GIT034",
+          "topicName": "Git for Continuous Integration/Continuous Deployment (CI/CD)",
+          "order": 34
+        },
+        {
+          "topicId": "GIT035",
+          "topicName": "Branching Strategies for Production Environments",
+          "order": 35
+        },
+        {
+          "topicId": "GIT036",
+          "topicName": "Release Management with Git",
+          "order": 36
+        },
+        {
+          "topicId": "GIT037",
+          "topicName": "Handling Hotfixes and Emergency Patches",
+          "order": 37
+        },
+        {
+          "topicId": "GIT038",
+          "topicName": "Git at Scale: Performance Considerations",
+          "order": 38
+        },
+        {
+          "topicId": "GIT039",
+          "topicName": "Securing Git Repositories: Access Control and Permissions",
+          "order": 39
+        },
+        {
+          "topicId": "GIT040",
+          "topicName": "Credential Management: Storing and Protecting Credentials",
+          "order": 40
+        },
+        {
+          "topicId": "GIT041",
+          "topicName": "Signing Commits with GPG",
+          "order": 41
+        },
+        {
+          "topicId": "GIT042",
+          "topicName": "Auditing Git Repositories for Security Vulnerabilities",
+          "order": 42
+        },
+        {
+          "topicId": "GIT043",
+          "topicName": "Common Git Errors and How to Fix Them",
+          "order": 43
+        },
+        {
+          "topicId": "GIT044",
+          "topicName": "Debugging Git Issues",
+          "order": 44
+        },
+        {
+          "topicId": "GIT045",
+          "topicName": "Performance Tuning",
+          "order": 45
+        },
+        {
+          "topicId": "GIT046",
+          "topicName": "Deep Dive into git log: Options and Formatting",
+          "order": 46
+        },
+        {
+          "topicId": "GIT047",
+          "topicName": "Deep Dive into git reset: Modes and Use Cases",
+          "order": 47
+        },
+        {
+          "topicId": "GIT048",
+          "topicName": "Deep Dive into git cherry-pick",
+          "order": 48
+        },
+        {
+          "topicId": "GIT049",
+          "topicName": "Git LFS (Large File Storage): Concepts and Usage",
+          "order": 49
+        },
+        {
+          "topicId": "GIT050",
+          "topicName": "Alternatives to Git LFS",
+          "order": 50
+        }
+      ]
+    },
+    {
+      "moduleId": "nodejs",
+      "moduleName": "🟢 Node.js & Express",
+      "order": 18,
+      "description": "Master Node.js from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "NF001",
+          "topicName": "Introduction to Node.js: History, Use Cases, and Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "NF002",
+          "topicName": "Node.js Event Loop: Understanding Single-Threaded Asynchronous Architecture",
+          "order": 2
+        },
+        {
+          "topicId": "NF003",
+          "topicName": "NPM and Package Management: Installing, Managing, and Publishing Packages",
+          "order": 3
+        },
+        {
+          "topicId": "NF004",
+          "topicName": "Modules in Node.js: CommonJS vs. ES Modules (ESM)",
+          "order": 4
+        },
+        {
+          "topicId": "NF005",
+          "topicName": "Global Objects: Understanding process, console, Buffer, etc.",
+          "order": 5
+        },
+        {
+          "topicId": "AP001",
+          "topicName": "Callbacks: Understanding and Avoiding Callback Hell",
+          "order": 6
+        },
+        {
+          "topicId": "AP002",
+          "topicName": "Promises: Creating, Chaining, and Handling Errors",
+          "order": 7
+        },
+        {
+          "topicId": "AP003",
+          "topicName": "Async/Await: Simplifying Asynchronous Code",
+          "order": 8
+        },
+        {
+          "topicId": "AP004",
+          "topicName": "Error Handling in Asynchronous Operations: Try/Catch, Unhandled Rejections",
+          "order": 9
+        },
+        {
+          "topicId": "CM001",
+          "topicName": "File System (fs) Module: Reading, Writing, and Manipulating Files",
+          "order": 10
+        },
+        {
+          "topicId": "CM002",
+          "topicName": "HTTP Module: Creating HTTP Servers and Clients",
+          "order": 11
+        },
+        {
+          "topicId": "CM003",
+          "topicName": "Path Module: Working with File and Directory Paths",
+          "order": 12
+        },
+        {
+          "topicId": "CM004",
+          "topicName": "Stream Module: Handling Streaming Data (Readable, Writable, Transform, Duplex)",
+          "order": 13
+        },
+        {
+          "topicId": "CM005",
+          "topicName": "OS Module: Getting Operating System Information",
+          "order": 14
+        },
+        {
+          "topicId": "CM006",
+          "topicName": "Util Module: Utility Functions for Developers",
+          "order": 15
+        },
+        {
+          "topicId": "WF001",
+          "topicName": "Introduction to Express.js: Routing, Middleware, and Request Handling",
+          "order": 16
+        },
+        {
+          "topicId": "WF002",
+          "topicName": "Middleware: Creating and Using Custom Middleware",
+          "order": 17
+        },
+        {
+          "topicId": "WF003",
+          "topicName": "Routing: Defining Routes and Handling Different HTTP Methods",
+          "order": 18
+        },
+        {
+          "topicId": "WF004",
+          "topicName": "Template Engines: Using Template Engines like Pug, EJS, or Handlebars",
+          "order": 19
+        },
+        {
+          "topicId": "WF005",
+          "topicName": "Error Handling in Express.js: Centralized Error Handling",
+          "order": 20
+        },
+        {
+          "topicId": "WF006",
+          "topicName": "Static Files: Serving Static Files (CSS, JavaScript, Images)",
+          "order": 21
+        },
+        {
+          "topicId": "WF007",
+          "topicName": "Request Body Parsing: Using body-parser or Express's built-in parsers",
+          "order": 22
+        },
+        {
+          "topicId": "DB001",
+          "topicName": "Connecting to Databases: MongoDB, PostgreSQL, MySQL",
+          "order": 23
+        },
+        {
+          "topicId": "DB002",
+          "topicName": "ORM/ODM: Using Mongoose (MongoDB), Sequelize (PostgreSQL, MySQL)",
+          "order": 24
+        },
+        {
+          "topicId": "DB003",
+          "topicName": "Writing Queries: CRUD Operations (Create, Read, Update, Delete)",
+          "order": 25
+        },
+        {
+          "topicId": "DB004",
+          "topicName": "Database Migrations: Managing Database Schema Changes",
+          "order": 26
+        },
+        {
+          "topicId": "AA001",
+          "topicName": "Authentication Strategies: Local, OAuth (Passport.js)",
+          "order": 27
+        },
+        {
+          "topicId": "AA002",
+          "topicName": "JSON Web Tokens (JWT): Creating, Verifying, and Using JWTs",
+          "order": 28
+        },
+        {
+          "topicId": "AA003",
+          "topicName": "Authorization: Role-Based Access Control (RBAC)",
+          "order": 29
+        },
+        {
+          "topicId": "TE001",
+          "topicName": "Unit Testing: Using Jest, Mocha, or Chai",
+          "order": 30
+        },
+        {
+          "topicId": "TE002",
+          "topicName": "Integration Testing: Testing Interactions Between Modules",
+          "order": 31
+        },
+        {
+          "topicId": "TE003",
+          "topicName": "End-to-End Testing: Using Cypress or Puppeteer",
+          "order": 32
+        },
+        {
+          "topicId": "TE004",
+          "topicName": "Test-Driven Development (TDD): Writing Tests Before Code",
+          "order": 33
+        },
+        {
+          "topicId": "SE001",
+          "topicName": "Common Security Vulnerabilities: XSS, CSRF, SQL Injection",
+          "order": 34
+        },
+        {
+          "topicId": "SE002",
+          "topicName": "Input Validation and Sanitization: Preventing Malicious Input",
+          "order": 35
+        },
+        {
+          "topicId": "SE003",
+          "topicName": "Rate Limiting: Protecting Against Brute-Force Attacks",
+          "order": 36
+        },
+        {
+          "topicId": "SE004",
+          "topicName": "HTTPS and SSL/TLS: Securing Communication",
+          "order": 37
+        },
+        {
+          "topicId": "SE005",
+          "topicName": "Helmet.js: Securing HTTP Headers",
+          "order": 38
+        },
+        {
+          "topicId": "DE001",
+          "topicName": "Deployment Platforms: AWS, Google Cloud, Azure, Heroku, DigitalOcean",
+          "order": 39
+        },
+        {
+          "topicId": "DE002",
+          "topicName": "Process Managers: PM2, Nodemon",
+          "order": 40
+        },
+        {
+          "topicId": "DE003",
+          "topicName": "Reverse Proxies: Nginx, Apache",
+          "order": 41
+        },
+        {
+          "topicId": "DE004",
+          "topicName": "Continuous Integration/Continuous Deployment (CI/CD): Jenkins, Travis CI, CircleCI, GitHub Actions",
+          "order": 42
+        },
+        {
+          "topicId": "DE005",
+          "topicName": "Docker and Containerization: Deploying with Docker",
+          "order": 43
+        },
+        {
+          "topicId": "PE001",
+          "topicName": "Profiling: Identifying Performance Bottlenecks",
+          "order": 44
+        },
+        {
+          "topicId": "PE002",
+          "topicName": "Caching: Implementing Caching Strategies (Redis, Memcached)",
+          "order": 45
+        },
+        {
+          "topicId": "PE003",
+          "topicName": "Load Balancing: Distributing Traffic Across Multiple Servers",
+          "order": 46
+        },
+        {
+          "topicId": "PE004",
+          "topicName": "Code Optimization: Writing Efficient Code",
+          "order": 47
+        },
+        {
+          "topicId": "PE005",
+          "topicName": "Gzip Compression: Compressing Responses",
+          "order": 48
+        },
+        {
+          "topicId": "ML001",
+          "topicName": "Logging: Using Winston, Morgan, or Bunyan",
+          "order": 49
+        },
+        {
+          "topicId": "ML002",
+          "topicName": "Monitoring Tools: Prometheus, Grafana, New Relic, Datadog",
+          "order": 50
+        },
+        {
+          "topicId": "ML003",
+          "topicName": "Alerting: Setting Up Alerts for Critical Events",
+          "order": 51
+        },
+        {
+          "topicId": "AC001",
+          "topicName": "Microservices Architecture: Designing and Implementing Microservices",
+          "order": 52
+        },
+        {
+          "topicId": "AC002",
+          "topicName": "Message Queues: RabbitMQ, Kafka",
+          "order": 53
+        },
+        {
+          "topicId": "AC003",
+          "topicName": "GraphQL: Implementing GraphQL APIs",
+          "order": 54
+        },
+        {
+          "topicId": "AC004",
+          "topicName": "WebSockets: Real-time Communication",
+          "order": 55
+        },
+        {
+          "topicId": "AC005",
+          "topicName": "Serverless Functions: AWS Lambda, Google Cloud Functions, Azure Functions",
+          "order": 56
+        },
+        {
+          "topicId": "AC006",
+          "topicName": "Clustering: Scaling Node.js Applications with Cluster Module",
+          "order": 57
+        },
+        {
+          "topicId": "TS001",
+          "topicName": "Introduction to TypeScript: Benefits of Using TypeScript with Node.js",
+          "order": 58
+        },
+        {
+          "topicId": "TS002",
+          "topicName": "Type Definitions: Defining Types for Variables, Functions, and Objects",
+          "order": 59
+        },
+        {
+          "topicId": "TS003",
+          "topicName": "Interfaces and Classes: Using Interfaces and Classes in TypeScript",
+          "order": 60
+        },
+        {
+          "topicId": "TS004",
+          "topicName": "Decorators: Using Decorators to Add Metadata to Classes and Methods",
+          "order": 61
+        },
+        {
+          "topicId": "TS005",
+          "topicName": "Integrating TypeScript with Express.js",
+          "order": 62
+        }
+      ]
+    },
+    {
+      "moduleId": "linux_system_administration",
+      "moduleName": "🐧 Linux System Administration",
+      "order": 19,
+      "description": "Master Linux System Administration from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "LF101",
+          "topicName": "Linux Architecture and Kernel Concepts",
+          "order": 1
+        },
+        {
+          "topicId": "LF102",
+          "topicName": "Linux Distributions and Package Management (Debian/Ubuntu, RHEL/CentOS/Fedora)",
+          "order": 2
+        },
+        {
+          "topicId": "LF103",
+          "topicName": "Command Line Interface (CLI) Navigation and Basic Commands",
+          "order": 3
+        },
+        {
+          "topicId": "LF104",
+          "topicName": "File System Hierarchy Standard (FHS)",
+          "order": 4
+        },
+        {
+          "topicId": "LF105",
+          "topicName": "User and Group Management",
+          "order": 5
+        },
+        {
+          "topicId": "LF106",
+          "topicName": "File Permissions and Ownership (chmod, chown, chgrp)",
+          "order": 6
+        },
+        {
+          "topicId": "LF107",
+          "topicName": "Text Editors (vi/vim, nano)",
+          "order": 7
+        },
+        {
+          "topicId": "LF108",
+          "topicName": "Basic Networking Concepts (IP Addressing, Subnetting, DNS)",
+          "order": 8
+        },
+        {
+          "topicId": "SA201",
+          "topicName": "Boot Process (GRUB, Systemd)",
+          "order": 9
+        },
+        {
+          "topicId": "SA202",
+          "topicName": "System Logging (syslog, rsyslog, journald)",
+          "order": 10
+        },
+        {
+          "topicId": "SA203",
+          "topicName": "Process Management (ps, top, htop, kill, nice)",
+          "order": 11
+        },
+        {
+          "topicId": "SA204",
+          "topicName": "Resource Monitoring (CPU, Memory, Disk I/O)",
+          "order": 12
+        },
+        {
+          "topicId": "SA205",
+          "topicName": "Disk Management (fdisk, parted, LVM)",
+          "order": 13
+        },
+        {
+          "topicId": "SA206",
+          "topicName": "File System Management (ext4, XFS, mount, umount)",
+          "order": 14
+        },
+        {
+          "topicId": "SA207",
+          "topicName": "Scheduled Tasks (cron, anacron)",
+          "order": 15
+        },
+        {
+          "topicId": "SA208",
+          "topicName": "Backup and Recovery Strategies",
+          "order": 16
+        },
+        {
+          "topicId": "NW301",
+          "topicName": "Network Configuration (ifconfig/ip, route, netstat/ss)",
+          "order": 17
+        },
+        {
+          "topicId": "NW302",
+          "topicName": "Network Services (DHCP, DNS, NTP)",
+          "order": 18
+        },
+        {
+          "topicId": "NW303",
+          "topicName": "Firewall Management (iptables, firewalld)",
+          "order": 19
+        },
+        {
+          "topicId": "NW304",
+          "topicName": "VPN Configuration (OpenVPN, WireGuard)",
+          "order": 20
+        },
+        {
+          "topicId": "NW305",
+          "topicName": "Network Troubleshooting (ping, traceroute, tcpdump)",
+          "order": 21
+        },
+        {
+          "topicId": "SC401",
+          "topicName": "User Authentication (PAM, LDAP)",
+          "order": 22
+        },
+        {
+          "topicId": "SC402",
+          "topicName": "System Hardening Techniques",
+          "order": 23
+        },
+        {
+          "topicId": "SC403",
+          "topicName": "Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS)",
+          "order": 24
+        },
+        {
+          "topicId": "SC404",
+          "topicName": "Security Auditing and Compliance",
+          "order": 25
+        },
+        {
+          "topicId": "SC405",
+          "topicName": "Vulnerability Scanning and Management",
+          "order": 26
+        },
+        {
+          "topicId": "SA501",
+          "topicName": "Shell Scripting (Bash)",
+          "order": 27
+        },
+        {
+          "topicId": "SA502",
+          "topicName": "Configuration Management Tools (Ansible, Puppet, Chef)",
+          "order": 28
+        },
+        {
+          "topicId": "SA503",
+          "topicName": "Infrastructure as Code (IaC) Concepts",
+          "order": 29
+        },
+        {
+          "topicId": "SA504",
+          "topicName": "Cloud Automation (AWS, Azure, GCP)",
+          "order": 30
+        },
+        {
+          "topicId": "VC601",
+          "topicName": "Virtual Machine Technologies (KVM, Xen, VMware)",
+          "order": 31
+        },
+        {
+          "topicId": "VC602",
+          "topicName": "Containerization Technologies (Docker, Podman)",
+          "order": 32
+        },
+        {
+          "topicId": "VC603",
+          "topicName": "Container Orchestration (Kubernetes, Docker Swarm)",
+          "order": 33
+        },
+        {
+          "topicId": "VC604",
+          "topicName": "Understanding Namespaces and Cgroups",
+          "order": 34
+        },
+        {
+          "topicId": "CC701",
+          "topicName": "Cloud Service Models (IaaS, PaaS, SaaS)",
+          "order": 35
+        },
+        {
+          "topicId": "CC702",
+          "topicName": "Cloud Providers (AWS, Azure, GCP) - Specific Services",
+          "order": 36
+        },
+        {
+          "topicId": "CC703",
+          "topicName": "Cloud Security Best Practices",
+          "order": 37
+        },
+        {
+          "topicId": "CC704",
+          "topicName": "Cloud Cost Management",
+          "order": 38
+        },
+        {
+          "topicId": "MO801",
+          "topicName": "System Monitoring Tools (Nagios, Zabbix, Prometheus)",
+          "order": 39
+        },
+        {
+          "topicId": "MO802",
+          "topicName": "Log Aggregation and Analysis (ELK Stack, Splunk)",
+          "order": 40
+        },
+        {
+          "topicId": "MO803",
+          "topicName": "Alerting and Incident Response",
+          "order": 41
+        },
+        {
+          "topicId": "MO804",
+          "topicName": "Performance Tuning and Optimization",
+          "order": 42
+        },
+        {
+          "topicId": "HA901",
+          "topicName": "Load Balancing (HAProxy, Nginx)",
+          "order": 43
+        },
+        {
+          "topicId": "HA902",
+          "topicName": "Clustering Technologies (Pacemaker, Corosync)",
+          "order": 44
+        },
+        {
+          "topicId": "HA903",
+          "topicName": "Database Replication and Clustering",
+          "order": 45
+        },
+        {
+          "topicId": "HA904",
+          "topicName": "Disaster Recovery Planning",
+          "order": 46
+        },
+        {
+          "topicId": "TR1001",
+          "topicName": "Common System Errors and Solutions",
+          "order": 47
+        },
+        {
+          "topicId": "TR1002",
+          "topicName": "Network Connectivity Issues",
+          "order": 48
+        },
+        {
+          "topicId": "TR1003",
+          "topicName": "Performance Bottlenecks",
+          "order": 49
+        },
+        {
+          "topicId": "TR1004",
+          "topicName": "Security Incident Response",
+          "order": 50
+        },
+        {
+          "topicId": "AD1101",
+          "topicName": "Kernel Tuning and Optimization",
+          "order": 51
+        },
+        {
+          "topicId": "AD1102",
+          "topicName": "Advanced Networking (BGP, SDN)",
+          "order": 52
+        },
+        {
+          "topicId": "AD1103",
+          "topicName": "Security Information and Event Management (SIEM)",
+          "order": 53
+        },
+        {
+          "topicId": "AD1104",
+          "topicName": "Compliance and Governance (HIPAA, PCI DSS)",
+          "order": 54
+        }
+      ]
+    },
+    {
+      "moduleId": "docker",
+      "moduleName": "🐋 Docker & Kubernetes",
+      "order": 20,
+      "description": "Master Docker from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "DOC-101",
+          "topicName": "Containers vs Virtual Machines",
+          "order": 1
+        },
+        {
+          "topicId": "DOC-102",
+          "topicName": "Docker Architecture and Daemon",
+          "order": 2
+        },
+        {
+          "topicId": "DOC-103",
+          "topicName": "Namespaces and Cgroups",
+          "order": 3
+        },
+        {
+          "topicId": "DOC-201",
+          "topicName": "Dockerfile Best Practices and Instructions",
+          "order": 4
+        },
+        {
+          "topicId": "DOC-202",
+          "topicName": "Layer Caching and BuildKit",
+          "order": 5
+        },
+        {
+          "topicId": "DOC-203",
+          "topicName": "Multi-stage Builds",
+          "order": 6
+        },
+        {
+          "topicId": "DOC-204",
+          "topicName": "Image Vulnerability Scanning and Minimization",
+          "order": 7
+        },
+        {
+          "topicId": "DOC-301",
+          "topicName": "Copy-on-Write (CoW) Mechanism",
+          "order": 8
+        },
+        {
+          "topicId": "DOC-302",
+          "topicName": "Volumes vs Bind Mounts vs tmpfs",
+          "order": 9
+        },
+        {
+          "topicId": "DOC-303",
+          "topicName": "Volume Drivers and Backup Strategies",
+          "order": 10
+        },
+        {
+          "topicId": "DOC-401",
+          "topicName": "Docker Network Drivers (Bridge, Host, None)",
+          "order": 11
+        },
+        {
+          "topicId": "DOC-402",
+          "topicName": "Overlay Networks and Multi-Host Networking",
+          "order": 12
+        },
+        {
+          "topicId": "DOC-403",
+          "topicName": "Port Publishing, iptables, and Routing",
+          "order": 13
+        },
+        {
+          "topicId": "DOC-501",
+          "topicName": "Kernel Capabilities and Seccomp/AppArmor",
+          "order": 14
+        },
+        {
+          "topicId": "DOC-502",
+          "topicName": "Rootless Mode and User Namespace Isolation",
+          "order": 15
+        },
+        {
+          "topicId": "DOC-503",
+          "topicName": "Content Trust and Image Signing",
+          "order": 16
+        },
+        {
+          "topicId": "DOC-601",
+          "topicName": "Docker Compose Specification and Profiles",
+          "order": 17
+        },
+        {
+          "topicId": "DOC-602",
+          "topicName": "Docker Swarm Architecture and Raft Consensus",
+          "order": 18
+        },
+        {
+          "topicId": "DOC-603",
+          "topicName": "Service Discovery and Load Balancing",
+          "order": 19
+        },
+        {
+          "topicId": "DOC-701",
+          "topicName": "Resource Constraints (CPU, Memory, IO)",
+          "order": 20
+        },
+        {
+          "topicId": "DOC-702",
+          "topicName": "Logging Drivers and Centralized Logging",
+          "order": 21
+        },
+        {
+          "topicId": "DOC-703",
+          "topicName": "Health Checks and Restart Policies",
+          "order": 22
+        },
+        {
+          "topicId": "DOC-801",
+          "topicName": "Debugging Running Containers (nsenter, exec)",
+          "order": 23
+        },
+        {
+          "topicId": "DOC-802",
+          "topicName": "Analyzing OOM Kills and Kernel Panics",
+          "order": 24
+        },
+        {
+          "topicId": "DOC-803",
+          "topicName": "Daemon Crash Recovery and Disk Cleanup",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "java",
+      "moduleName": "☕ Java Programming",
+      "order": 21,
+      "description": "Master Java from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JF-01",
+          "topicName": "JVM Architecture, ClassLoaders, and Bytecode Verification",
+          "order": 1
+        },
+        {
+          "topicId": "JF-02",
+          "topicName": "Memory Management, Heap Structure, and Garbage Collection Algorithms",
+          "order": 2
+        },
+        {
+          "topicId": "JF-03",
+          "topicName": "Object Lifecycle, Immutable Objects, and defensive copying",
+          "order": 3
+        },
+        {
+          "topicId": "JF-04",
+          "topicName": "Exception Hierarchy, Checked vs Unchecked, and Best Practices",
+          "order": 4
+        },
+        {
+          "topicId": "OOP-01",
+          "topicName": "SOLID Principles in Java Design",
+          "order": 5
+        },
+        {
+          "topicId": "OOP-02",
+          "topicName": "Composition vs Inheritance and Liskov Substitution Pitfalls",
+          "order": 6
+        },
+        {
+          "topicId": "OOP-03",
+          "topicName": "Interfaces, Default Methods, and Multiple Inheritance Resolution",
+          "order": 7
+        },
+        {
+          "topicId": "COL-01",
+          "topicName": "Collections Hierarchy, List, Set, and Map Internals (HashMap, TreeMap)",
+          "order": 8
+        },
+        {
+          "topicId": "COL-02",
+          "topicName": "Equals and HashCode Contract, Collisions, and Performance Tuning",
+          "order": 9
+        },
+        {
+          "topicId": "COL-03",
+          "topicName": "Fail-Fast vs Fail-Safe Iterators and Concurrent Collections",
+          "order": 10
+        },
+        {
+          "topicId": "CON-01",
+          "topicName": "Thread Lifecycle, Synchronization, Volatile, and Monitors",
+          "order": 11
+        },
+        {
+          "topicId": "CON-02",
+          "topicName": "ExecutorService, ForkJoinPool, and ThreadPoolExecutor Internals",
+          "order": 12
+        },
+        {
+          "topicId": "CON-03",
+          "topicName": "Locks, ReadWriteLock, StampedLock, and Condition Variables",
+          "order": 13
+        },
+        {
+          "topicId": "CON-04",
+          "topicName": "Atomic Variables, CAS Operations, and Lock-free Data Structures",
+          "order": 14
+        },
+        {
+          "topicId": "CON-05",
+          "topicName": "CompletableFuture, Reactive Programming concepts, and Virtual Threads",
+          "order": 15
+        },
+        {
+          "topicId": "MOD-01",
+          "topicName": "Lambda Expressions, Functional Interfaces, and Method References",
+          "order": 16
+        },
+        {
+          "topicId": "MOD-02",
+          "topicName": "Streams API, Intermediate/Terminal Operations, and Collectors",
+          "order": 17
+        },
+        {
+          "topicId": "MOD-03",
+          "topicName": "Optional API Pitfalls and Best Practices",
+          "order": 18
+        },
+        {
+          "topicId": "MOD-04",
+          "topicName": "Records, Sealed Classes, Pattern Matching, and Text Blocks",
+          "order": 19
+        },
+        {
+          "topicId": "PERF-01",
+          "topicName": "Garbage Collectors (G1, ZGC, Shenandoah) Tuning and Selection",
+          "order": 20
+        },
+        {
+          "topicId": "PERF-02",
+          "topicName": "JVM Flags, JIT Compilation, Tiered Compilation, and Inlining",
+          "order": 21
+        },
+        {
+          "topicId": "PERF-03",
+          "topicName": "Memory Leaks, OutOfMemoryError Types, and Heap Dump Analysis",
+          "order": 22
+        },
+        {
+          "topicId": "PERF-04",
+          "topicName": "Profiling Tools (JFR, JMC, async-profiler) and Bottleneck Identification",
+          "order": 23
+        },
+        {
+          "topicId": "ADV-01",
+          "topicName": "Generics, Type Erasure, Wildcards (PECS principle)",
+          "order": 24
+        },
+        {
+          "topicId": "ADV-02",
+          "topicName": "Reflection, Dynamic Proxies, and Method Handles",
+          "order": 25
+        },
+        {
+          "topicId": "ADV-03",
+          "topicName": "Annotation Processing and Custom Annotations",
+          "order": 26
+        },
+        {
+          "topicId": "ADV-04",
+          "topicName": "Serialization, Externalization, and Security Vulnerabilities",
+          "order": 27
+        },
+        {
+          "topicId": "NET-01",
+          "topicName": "I/O Streams vs NIO Channels, Buffers, and Selectors",
+          "order": 28
+        },
+        {
+          "topicId": "NET-02",
+          "topicName": "Asynchronous File Channels and Modern HTTP Client",
+          "order": 29
+        },
+        {
+          "topicId": "PROD-01",
+          "topicName": "Distributed Tracing, Metrics, and Observability in Java Apps",
+          "order": 30
+        },
+        {
+          "topicId": "PROD-02",
+          "topicName": "Containerization (Docker/Kubernetes), JVM Resource Limits, and Ergonomics",
+          "order": 31
+        }
+      ]
+    }
+  ]
+}

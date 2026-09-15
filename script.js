@@ -14,12 +14,10 @@ async function loadDynamicSkills() {
             response = await fetch(RAW_SKILLS_URL);
         }
         const data = await response.json();
-        if (data && data.skills) {
+        if (data && data.skills && data.skills.length > 0) {
             globalSkills = data.skills;
             renderSkillChips(globalSkills);
-            if (globalSkills.length > 0) {
-                filterSkill(globalSkills[0].id);
-            }
+            filterSkill(globalSkills[0].id);
             return;
         }
     } catch (e) {
@@ -28,87 +26,82 @@ async function loadDynamicSkills() {
 
     // Fallback Data if CDN fetch is offline
     globalSkills = [
-        {
-            id: "java",
-            name: "☕ Core Java & OOPs",
-            questions: [
-                { q: "How does HashMap handle bucket collisions in Java 8?", a: "In Java 8, HashMap handles collisions by using LinkedList initially, but automatically converts the bucket into a Balanced Red-Black Tree when the number of elements exceeds TREEIFY_THRESHOLD (8). This improves worst-case lookup time from O(n) to O(log n).", level: "Medium", p: ["Uses LinkedList initially", "Converts to Red-Black Tree if size > 8", "O(log n) worst-case lookup speed"] },
-                { q: "Explain the difference between String, StringBuilder, and StringBuffer.", a: "String is immutable in Java. StringBuilder is mutable and non-thread-safe (fastest for single thread). StringBuffer is mutable and thread-safe with synchronized methods.", level: "Easy", p: ["String: Immutable", "StringBuilder: Mutable & Fast (Not thread-safe)", "StringBuffer: Mutable & Thread-safe"] },
-                { q: "How does Garbage Collection (G1/ZGC) work under the hood in JVM?", level: "Hard" }
-            ]
-        },
-        {
-            id: "android",
-            name: "📱 Android & Kotlin",
-            questions: [
-                { q: "Explain Activity Lifecycle order during screen rotation.", a: "When screen rotates, current Activity is destroyed and recreated: onPause() -> onStop() -> onDestroy() -> onCreate() -> onStart() -> onResume(). SavedInstanceState or ViewModel preserves state.", level: "Easy", p: ["Destroys and recreates Activity", "ViewModel retains state across rotation", "onSaveInstanceState preserves UI state bundle"] },
-                { q: "How do Coroutines and StateFlow replace LiveData in modern MVVM?", level: "Medium" }
-            ]
-        },
-        {
-            id: "python",
-            name: "🐍 Python & FastAPI",
-            questions: [
-                { q: "Explain GIL (Global Interpreter Lock) in Python concurrency.", level: "Hard" },
-                { q: "What is the difference between list.append() and list.extend()?", level: "Easy" }
-            ]
-        },
-        {
-            id: "sql",
-            name: "🛢️ SQL & Indexing",
-            questions: [
-                { q: "What is the difference between INNER JOIN and LEFT OUTER JOIN?", level: "Easy" },
-                { q: "Explain B-Tree Indexing and why over-indexing slows down INSERTS.", level: "Hard" }
-            ]
-        },
-        {
-            id: "springboot",
-            name: "🌿 Spring Boot & Microservices",
-            questions: [
-                { q: "How does Dependency Injection (IoC Container) work in Spring?", level: "Easy" },
-                { q: "Explain @Transactional annotation rollback mechanism.", level: "Medium" }
-            ]
-        }
+        { id: "java", name: "☕ Core Java", questions: [{ q: "How does HashMap handle bucket collisions in Java 8?", a: "In Java 8, HashMap handles collisions by using LinkedList initially, but automatically converts the bucket into a Balanced Red-Black Tree when the number of elements exceeds TREEIFY_THRESHOLD (8).", level: "Medium", p: ["Uses LinkedList initially", "Converts to Red-Black Tree if size > 8", "O(log n) worst-case lookup speed"] }] },
+        { id: "android", name: "📱 Android & Kotlin", questions: [{ q: "Explain Activity Lifecycle order during screen rotation.", a: "When screen rotates, current Activity is destroyed and recreated: onPause() -> onStop() -> onDestroy() -> onCreate() -> onStart() -> onResume().", level: "Easy", p: ["Destroys and recreates Activity", "ViewModel retains state", "onSaveInstanceState preserves bundle"] }] },
+        { id: "python", name: "🐍 Python", questions: [{ q: "Explain GIL (Global Interpreter Lock) in Python concurrency.", level: "Hard" }] },
+        { id: "sql", name: "🛢️ SQL & Indexing", questions: [{ q: "What is the difference between INNER JOIN and LEFT OUTER JOIN?", level: "Easy" }] },
+        { id: "springboot", name: "🌿 Spring Boot", questions: [{ q: "How does Dependency Injection (IoC Container) work in Spring?", level: "Easy" }] }
     ];
 
     renderSkillChips(globalSkills);
     filterSkill('java');
 }
 
-// Dynamically Render Skill Filter Chips
+// Dynamically Render W3Schools-Style Top Navbar & Section Filter Chips
 function renderSkillChips(skills) {
+    const topNavContainer = document.getElementById('top-skill-nav-container');
     const chipContainer = document.getElementById('skill-chips-container');
-    if (!chipContainer) return;
 
-    let html = '';
+    let topNavHtml = '';
+    let sectionChipsHtml = '';
+
     skills.forEach((skill, index) => {
-        const activeClass = index === 0
-            ? 'active bg-cyan-500/20 border-cyan-500/40 text-white shadow-lg shadow-cyan-500/10'
-            : 'bg-slate-800/60 border-slate-700/60 text-slate-400';
+        const isFirst = index === 0;
 
-        html += `
-            <button onclick="filterSkill('${skill.id}')" id="chip-${skill.id}" class="skill-chip ${activeClass} px-5 py-2.5 rounded-xl text-sm font-bold border hover:text-white transition-all">
+        // Top W3Schools Pill Button
+        topNavHtml += `
+            <button onclick="filterSkillAndScroll('${skill.id}')" id="topnav-chip-${skill.id}" class="top-skill-pill ${isFirst ? 'active bg-cyan-500 text-slate-950 font-black' : 'bg-slate-800/80 text-slate-300 hover:bg-slate-700 hover:text-white'} px-3.5 py-1 rounded-lg text-xs font-bold transition-all border border-slate-700/60 shrink-0">
+                ${skill.name}
+            </button>
+        `;
+
+        // Section Chip Button
+        sectionChipsHtml += `
+            <button onclick="filterSkill('${skill.id}')" id="chip-${skill.id}" class="section-skill-chip ${isFirst ? 'active bg-cyan-500/20 border-cyan-500/40 text-white shadow-lg shadow-cyan-500/10' : 'bg-slate-800/60 border-slate-700/60 text-slate-400'} px-5 py-2.5 rounded-xl text-sm font-bold border hover:text-white transition-all">
                 ${skill.name}
             </button>
         `;
     });
 
-    chipContainer.innerHTML = html;
+    if (topNavContainer) topNavContainer.innerHTML = topNavHtml;
+    if (chipContainer) chipContainer.innerHTML = sectionChipsHtml;
+}
+
+function filterSkillAndScroll(skillId) {
+    filterSkill(skillId);
+    const skillsSection = document.getElementById('skills');
+    if (skillsSection) {
+        skillsSection.scrollIntoView({ behavior: 'smooth' });
+    }
 }
 
 // Filter Skill Questions & Render Preview vs App Redirect Cards
 async function filterSkill(skillId) {
-    // Style active chip
-    const chips = document.querySelectorAll('.skill-chip');
-    chips.forEach(chip => {
+    // Style active top nav pills
+    const topPills = document.querySelectorAll('.top-skill-pill');
+    topPills.forEach(pill => {
+        pill.classList.remove('active', 'bg-cyan-500', 'text-slate-950', 'font-black');
+        pill.classList.add('bg-slate-800/80', 'text-slate-300', 'hover:bg-slate-700');
+    });
+
+    const activeTopPill = document.getElementById(`topnav-chip-${skillId}`);
+    if (activeTopPill) {
+        activeTopPill.classList.add('active', 'bg-cyan-500', 'text-slate-950', 'font-black');
+        activeTopPill.classList.remove('bg-slate-800/80', 'text-slate-300', 'hover:bg-slate-700');
+        activeTopPill.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+
+    // Style active section chips
+    const sectionChips = document.querySelectorAll('.section-skill-chip');
+    sectionChips.forEach(chip => {
         chip.classList.remove('active', 'bg-cyan-500/20', 'border-cyan-500/40', 'text-white', 'shadow-lg', 'shadow-cyan-500/10');
         chip.classList.add('bg-slate-800/60', 'border-slate-700/60', 'text-slate-400');
     });
 
-    const activeChip = document.getElementById(`chip-${skillId}`);
-    if (activeChip) {
-        activeChip.classList.add('active', 'bg-cyan-500/20', 'border-cyan-500/40', 'text-white', 'shadow-lg', 'shadow-cyan-500/10');
-        activeChip.classList.remove('bg-slate-800/60', 'border-slate-700/60', 'text-slate-400');
+    const activeSectionChip = document.getElementById(`chip-${skillId}`);
+    if (activeSectionChip) {
+        activeSectionChip.classList.add('active', 'bg-cyan-500/20', 'border-cyan-500/40', 'text-white', 'shadow-lg', 'shadow-cyan-500/10');
+        activeSectionChip.classList.remove('bg-slate-800/60', 'border-slate-700/60', 'text-slate-400');
     }
 
     const container = document.getElementById('skill-questions-container');

@@ -1,165 +1,1190 @@
 {
-  "lastSyncedAt": "2026-09-15T07:20:17.658Z",
-  "totalSkills": 6,
+  "lastSyncedAt": "2026-09-15T07:29:40.879Z",
+  "totalSkills": 25,
   "skills": [
     {
       "id": "general",
-      "name": "General",
+      "name": "💡 General CS Fundamentals",
       "category": "Tech",
       "questions": [
         {
           "q": "What are the four pillars of Object-Oriented Programming (OOP)?",
+          "a": "The four pillars of OOP are Abstraction, Encapsulation, Inheritance, and Polymorphism. Abstraction simplifies complex reality by modeling classes appropriate to the problem. Encapsulation bundles data and methods that operate on that data, restricting direct access. Inheritance allows new classes to inherit properties and behaviors from existing classes. Polymorphism enables objects of different classes to respond to the same method call in their own way.",
+          "p": [
+            "Abstraction: Hiding complexity.",
+            "Encapsulation: Bundling data and methods.",
+            "Inheritance: Reusing code.",
+            "Polymorphism: Many forms."
+          ],
           "level": "Easy"
         },
         {
           "q": "Explain Encapsulation.",
+          "a": "Encapsulation is the bundling of data (attributes) and methods that operate on that data within a single unit, or class. It restricts direct access to some of the object's components, preventing unintended external modification of the data. This is often achieved using access modifiers like 'private' and 'protected'.",
+          "p": [
+            "Bundling data and methods.",
+            "Hiding internal state.",
+            "Protecting data integrity."
+          ],
           "level": "Easy"
         },
         {
           "q": "What is Inheritance?",
+          "a": "Inheritance is a mechanism where a new class (subclass or derived class) inherits properties and behaviors from an existing class (superclass or base class). It promotes code reuse and establishes an IS-A relationship between classes. Subclasses can override or extend the functionality of the superclass.",
+          "p": [
+            "Code reuse.",
+            "IS-A relationship.",
+            "Extending functionality."
+          ],
           "level": "Easy"
         },
         {
           "q": "What is Polymorphism?",
+          "a": "Polymorphism means 'many forms'. In OOP, it allows objects of different classes to respond to the same method call in their own specific way. This can be achieved through method overloading (same method name, different parameters) or method overriding (subclass provides a specific implementation of a method already defined in its superclass).",
+          "p": [
+            "Many forms.",
+            "Method overloading.",
+            "Method overriding."
+          ],
           "level": "Easy"
         },
         {
           "q": "Explain Abstraction.",
+          "a": "Abstraction is the process of simplifying complex reality by modeling classes based on essential attributes and behaviors, while hiding unnecessary implementation details. It allows programmers to focus on what an object does rather than how it does it. Abstract classes and interfaces are used to achieve abstraction.",
+          "p": [
+            "Simplifying complexity.",
+            "Hiding details.",
+            "Focusing on essential features."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between method overloading and method overriding?",
+          "a": "Method overloading occurs within the same class when multiple methods have the same name but different parameters. Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. Overloading is resolved at compile time, while overriding is resolved at runtime.",
+          "p": [
+            "Overloading: Same class, different parameters.",
+            "Overriding: Subclass, same signature.",
+            "Overloading: Compile-time.",
+            "Overriding: Runtime."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between a class and an object?",
+          "a": "A class is a blueprint or a template that defines the characteristics and behaviors of objects. It's a logical construct. An object is a specific instance of a class, representing a real-world entity. Objects have state (data) and behavior (methods). Think of a class as a cookie cutter and objects as the cookies.",
+          "p": [
+            "Class: Blueprint/Template",
+            "Object: Instance of a class",
+            "Class: Logical construct",
+            "Object: Real-world entity"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four pillars of Object-Oriented Programming (OOP)?",
+          "a": "The four pillars of OOP are: 1. Encapsulation: Bundling data and methods that operate on that data within a class. 2. Abstraction: Hiding complex implementation details and exposing only essential information. 3. Inheritance: Creating new classes from existing classes, inheriting their properties and behaviors. 4. Polymorphism: The ability of an object to take on many forms.",
+          "p": [
+            "Encapsulation: Data bundling",
+            "Abstraction: Hiding complexity",
+            "Inheritance: Code reusability",
+            "Polymorphism: Many forms"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is polymorphism?",
+          "a": "Polymorphism means 'many forms'. In OOP, it refers to the ability of an object to take on many forms. This is often achieved through method overloading (same method name, different parameters) and method overriding (redefining a method in a subclass). It allows you to write more flexible and reusable code.",
+          "p": [
+            "Many forms",
+            "Method overloading",
+            "Method overriding",
+            "Flexibility and reusability"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is inheritance?",
+          "a": "Inheritance is a mechanism where a new class (subclass or derived class) inherits properties and behaviors from an existing class (superclass or base class). It promotes code reusability and establishes an IS-A relationship between classes. For example, a 'Dog' class can inherit from an 'Animal' class.",
+          "p": [
+            "Subclass inherits from superclass",
+            "Code reusability",
+            "IS-A relationship",
+            "Extends functionality"
+          ],
           "level": "Easy"
         }
       ]
     },
     {
       "id": "jpa",
-      "name": "JPA",
+      "name": "🍃 JPA & Hibernate ORM",
       "category": "Tech",
       "questions": [
         {
           "q": "What is JPA (Java Persistence API)?",
+          "a": "JPA is a Java specification for managing relational data in applications. It provides an ORM layer, mapping Java objects to database tables. JPA defines a standard for accessing, persisting, and managing data between Java objects and a relational database.",
+          "p": [
+            "Java specification",
+            "ORM (Object-Relational Mapping)",
+            "Data persistence"
+          ],
           "level": "Easy"
         },
         {
           "q": "What problem does JPA solve?",
+          "a": "JPA addresses the object-relational impedance mismatch. It simplifies database interactions by allowing developers to work with Java objects instead of writing SQL. This reduces boilerplate code, improves code readability, and enhances developer productivity by abstracting database complexities.",
+          "p": [
+            "Object-relational mismatch",
+            "Simplifies database interaction",
+            "Reduces boilerplate code"
+          ],
           "level": "Easy"
         },
         {
           "q": "Explain the difference between JPA and Hibernate.",
+          "a": "JPA is a specification, while Hibernate is an implementation of that specification. JPA defines the standard, and Hibernate is a concrete library that implements the JPA standard. Other JPA implementations include EclipseLink and Apache OpenJPA.",
+          "p": [
+            "JPA: Specification",
+            "Hibernate: Implementation",
+            "Other implementations exist"
+          ],
           "level": "Easy"
         },
         {
           "q": "What are the key components of JPA?",
+          "a": "Key components include the EntityManager (for managing persistence operations), EntityManagerFactory (for creating EntityManager instances), Persistence Unit (configuration for database connection), and JPA annotations (for mapping Java classes to database tables).",
+          "p": [
+            "EntityManager",
+            "EntityManagerFactory",
+            "Persistence Unit",
+            "JPA Annotations"
+          ],
           "level": "Easy"
         },
         {
           "q": "What is the purpose of the `@Entity` annotation in JPA?",
+          "a": "The `@Entity` annotation marks a Java class as a persistent entity, meaning it represents a table in the database. Each instance of the class corresponds to a row in that table. It's a fundamental annotation for mapping Java objects to database tables using JPA.",
+          "p": [
+            "Marks a class as persistent",
+            "Represents a database table",
+            "Maps objects to rows"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the role of the `EntityManager` in JPA?",
+          "a": "The `EntityManager` is the core interface for interacting with the persistence context. It's used to perform operations like persisting (saving), retrieving, updating, and deleting entities. It manages the lifecycle of entities and synchronizes changes with the database.",
+          "p": [
+            "Core interface",
+            "Manages persistence operations",
+            "Synchronizes with the database"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between an EntityManagerFactory and an EntityManager in JPA?",
+          "a": "The EntityManagerFactory is a factory for creating EntityManager instances. It's heavyweight and typically created once per application. The EntityManager is a lightweight, short-lived object that manages persistence operations (CRUD) on entities within a specific transaction. Multiple EntityManagers can be created from a single EntityManagerFactory.",
+          "p": [
+            "EntityManagerFactory: Creates EntityManagers.",
+            "EntityManager: Manages persistence operations.",
+            "Factory is heavyweight, Manager is lightweight.",
+            "One Factory, multiple Managers."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is an EntityManager in JPA?",
+          "a": "An EntityManager is an interface in JPA that manages the persistence operations (CRUD - Create, Read, Update, Delete) on entity instances. It provides methods for persisting, merging, removing, and finding entities in the database. It operates within a transaction scope.",
+          "p": [
+            "Manages persistence operations.",
+            "Provides CRUD operations.",
+            "Operates within a transaction.",
+            "Interface in JPA."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is an EntityManagerFactory in JPA?",
+          "a": "An EntityManagerFactory is a factory class in JPA used to create EntityManager instances. It is a heavyweight object that is typically created once per application or persistence unit. It encapsulates the configuration details needed to connect to the database.",
+          "p": [
+            "Factory for EntityManagers.",
+            "Heavyweight object.",
+            "Created once per application.",
+            "Encapsulates database configuration."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you create an EntityManager from an EntityManagerFactory?",
+          "a": "You create an EntityManager by calling the `createEntityManager()` method on an EntityManagerFactory instance. This method returns a new EntityManager instance that can be used to manage entities.",
+          "p": [
+            "Use `createEntityManager()` method.",
+            "Call on EntityManagerFactory instance.",
+            "Returns a new EntityManager.",
+            "EntityManager is ready to use."
+          ],
           "level": "Easy"
         }
       ]
     },
     {
       "id": "plsql",
-      "name": "plsql",
+      "name": "🛢️ PL/SQL Database",
       "category": "Tech",
       "questions": [
         {
           "q": "What is PL/SQL?",
+          "a": "PL/SQL (Procedural Language/SQL) is a procedural extension of SQL developed by Oracle. It allows you to combine SQL statements with procedural programming constructs like loops, conditional statements, and exception handling within the Oracle database environment.",
+          "p": [
+            "Procedural extension of SQL",
+            "Developed by Oracle",
+            "Combines SQL with procedural constructs"
+          ],
           "level": "Easy"
         },
         {
           "q": "What are the main advantages of using PL/SQL?",
+          "a": "PL/SQL offers several advantages, including improved performance by reducing network traffic, modularity through stored procedures and functions, enhanced security with data access control, and better error handling through exception handling mechanisms.",
+          "p": [
+            "Improved performance",
+            "Modularity",
+            "Enhanced security",
+            "Better error handling"
+          ],
           "level": "Easy"
         },
         {
           "q": "Explain the basic structure of a PL/SQL block.",
+          "a": "A PL/SQL block consists of three sections: DECLARE (optional), BEGIN (mandatory), and EXCEPTION (optional). The DECLARE section defines variables, constants, and cursors. The BEGIN section contains the executable statements. The EXCEPTION section handles errors that may occur during execution.",
+          "p": [
+            "DECLARE (optional): variable declarations",
+            "BEGIN (mandatory): executable statements",
+            "EXCEPTION (optional): error handling"
+          ],
           "level": "Easy"
         },
         {
           "q": "What are stored procedures in PL/SQL?",
+          "a": "Stored procedures are precompiled SQL statements and PL/SQL code stored within the database. They can be executed by name and can accept input parameters and return output values. Stored procedures enhance code reusability and improve performance.",
+          "p": [
+            "Precompiled SQL and PL/SQL code",
+            "Stored in the database",
+            "Executed by name",
+            "Enhance reusability and performance"
+          ],
           "level": "Easy"
         },
         {
           "q": "What are triggers in PL/SQL?",
+          "a": "Triggers are PL/SQL blocks that automatically execute in response to specific database events, such as INSERT, UPDATE, or DELETE operations on a table. They are used to enforce business rules, maintain data integrity, and audit data changes.",
+          "p": [
+            "Execute automatically",
+            "In response to database events",
+            "Enforce business rules",
+            "Maintain data integrity"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is exception handling in PL/SQL?",
+          "a": "Exception handling is a mechanism to handle runtime errors in PL/SQL. It allows you to gracefully handle unexpected situations, prevent program termination, and provide informative error messages.  You can define specific exception handlers for different types of errors.",
+          "p": [
+            "Handle runtime errors",
+            "Prevent program termination",
+            "Provide informative error messages",
+            "Specific handlers for different errors"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the primary purpose of SQL?",
+          "a": "SQL's primary purpose is to query, manipulate, and define data within a relational database. It focuses on data access and management through declarative statements.",
+          "p": [
+            "Data querying",
+            "Data manipulation (insert, update, delete)",
+            "Data definition (schema creation)"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the primary purpose of PL/SQL?",
+          "a": "PL/SQL extends SQL by adding procedural programming capabilities. It allows developers to write blocks of code that include variables, control structures (loops, conditionals), and exception handling, enabling more complex database operations.",
+          "p": [
+            "Procedural extension of SQL",
+            "Adding control structures (loops, conditionals)",
+            "Exception handling"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the key difference in execution between SQL and PL/SQL.",
+          "a": "SQL statements are typically executed one at a time, directly against the database. PL/SQL code is compiled and executed as a block on the database server, which can improve performance for complex operations.",
+          "p": [
+            "SQL: Statement-by-statement execution",
+            "PL/SQL: Block execution on server",
+            "PL/SQL: Compiled before execution"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Can SQL be used within PL/SQL?",
+          "a": "Yes, SQL statements can be embedded within PL/SQL blocks. This allows PL/SQL to interact with the database by querying, inserting, updating, or deleting data.",
+          "p": [
+            "SQL embedded in PL/SQL",
+            "Data manipulation within PL/SQL",
+            "Combining declarative and procedural approaches"
+          ],
           "level": "Easy"
         }
       ]
     },
     {
       "id": "reactjs",
-      "name": "React.js",
+      "name": "⚛️ React.js & Frontend",
       "category": "Tech",
       "questions": [
         {
           "q": "What is JSX?",
+          "a": "JSX (JavaScript XML) is a syntax extension to JavaScript that lets you write HTML-like code within your JavaScript files. It's not HTML itself, but it resembles it. Before being rendered in the browser, JSX code is transformed into standard JavaScript calls to the React library, which then creates the actual DOM elements.",
+          "p": [
+            "Syntax extension to JavaScript.",
+            "Resembles HTML.",
+            "Transformed into JavaScript.",
+            "Used to describe UI."
+          ],
           "level": "Easy"
         },
         {
           "q": "How does JSX differ from HTML?",
+          "a": "JSX differs from HTML in several ways. JSX is not directly rendered by browsers; it needs to be transpiled into JavaScript. JSX uses camelCase for attribute names (e.g., `className` instead of `class`), and you can embed JavaScript expressions directly within JSX using curly braces `{}`. HTML is a markup language interpreted directly by the browser.",
+          "p": [
+            "JSX needs transpilation.",
+            "JSX uses camelCase attributes.",
+            "JSX embeds JavaScript expressions.",
+            "HTML is directly interpreted."
+          ],
           "level": "Easy"
         },
         {
           "q": "Can you embed JavaScript expressions within JSX?",
+          "a": "Yes, you can embed JavaScript expressions within JSX using curly braces `{}`. This allows you to dynamically render content, perform calculations, or conditionally display elements based on JavaScript logic. For example, you can display a variable's value or call a function within your JSX code.",
+          "p": [
+            "Use curly braces `{}`.",
+            "Dynamically render content.",
+            "Perform calculations.",
+            "Conditionally display elements."
+          ],
           "level": "Easy"
         },
         {
           "q": "Why do we use `className` instead of `class` in JSX?",
+          "a": "In JSX, we use `className` instead of `class` because `class` is a reserved keyword in JavaScript. Using `class` as an attribute name in JSX would lead to syntax errors and unexpected behavior. `className` serves the same purpose as `class` in HTML, allowing you to apply CSS classes to elements.",
+          "p": [
+            "`class` is a reserved keyword.",
+            "`className` avoids syntax errors.",
+            "`className` applies CSS classes.",
+            "Maintains JavaScript compatibility."
+          ],
           "level": "Easy"
         },
         {
           "q": "What happens to JSX code before it runs in the browser?",
+          "a": "Before JSX code runs in the browser, it is transpiled (or compiled) into standard JavaScript code. This process is typically done using tools like Babel. The transpilation converts the JSX syntax into React.createElement() calls, which are then understood and executed by the JavaScript engine in the browser to create the user interface.",
+          "p": [
+            "JSX is transpiled.",
+            "Tools like Babel are used.",
+            "Converted to React.createElement().",
+            "Browser executes JavaScript."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is a component in React?",
+          "a": "A component is a reusable and independent part of a user interface. It can be a simple button or a complex form. Components allow you to break down your UI into manageable pieces, making your code more organized and easier to maintain. They accept inputs (props) and return React elements describing what should appear on the screen.",
+          "p": [
+            "Reusable UI building blocks",
+            "Accept props (inputs)",
+            "Return React elements"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the two main types of components in React?",
+          "a": "The two main types of components in React are functional components and class components. Functional components are JavaScript functions, while class components are ES6 classes that extend React.Component.",
+          "p": [
+            "Functional components (functions)",
+            "Class components (ES6 classes)"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the primary difference between functional and class components regarding state management?",
+          "a": "Functional components, prior to React Hooks, were primarily stateless. Class components can manage their own internal state using `this.state` and `this.setState()`. With the introduction of React Hooks, functional components can now also manage state using the `useState` hook.",
+          "p": [
+            "Class components: stateful (this.state)",
+            "Functional components (before Hooks): stateless",
+            "Functional components (with Hooks): stateful"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you pass data from a parent component to a child component in React?",
+          "a": "Data is passed from a parent component to a child component using 'props'. Props are like HTML attributes, but you can pass any JavaScript value through them. The child component then receives these props as an argument.",
+          "p": [
+            "Pass data using 'props'",
+            "Props are like HTML attributes",
+            "Child component receives props as argument"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are lifecycle methods, and which type of component uses them?",
+          "a": "Lifecycle methods are special methods that are automatically called during different phases of a component's life, such as mounting, updating, and unmounting. Class components use lifecycle methods. Examples include `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.",
+          "p": [
+            "Methods called during component's life",
+            "Used in class components",
+            "Examples: componentDidMount, etc."
+          ],
           "level": "Easy"
         }
       ]
     },
     {
       "id": "springboot",
-      "name": "spring boot",
+      "name": "🌿 Spring Boot & Microservices",
       "category": "Tech",
       "questions": [
         {
           "q": "What is Spring Boot?",
+          "a": "Spring Boot is a framework built on top of the Spring Framework that simplifies the creation of stand-alone, production-grade Spring based Applications. It favors convention over configuration, reducing the amount of boilerplate code required. It offers features like auto-configuration and embedded servers.",
+          "p": [
+            "Simplifies Spring application development.",
+            "Convention over configuration.",
+            "Auto-configuration.",
+            "Embedded servers."
+          ],
           "level": "Easy"
         },
         {
           "q": "What are the advantages of using Spring Boot?",
+          "a": "Spring Boot offers several advantages, including reduced development time, simplified configuration, embedded servers for easy deployment, and a wide range of starter dependencies that handle common application requirements. It promotes a more streamlined and efficient development process.",
+          "p": [
+            "Faster development.",
+            "Simplified configuration.",
+            "Embedded servers.",
+            "Starter dependencies."
+          ],
           "level": "Easy"
         },
         {
           "q": "What is auto-configuration in Spring Boot?",
+          "a": "Auto-configuration in Spring Boot automatically configures your application based on the dependencies you have added. It examines your classpath and configures beans accordingly, reducing the need for manual configuration. It intelligently sets up default configurations based on the project's dependencies.",
+          "p": [
+            "Automatic configuration based on dependencies.",
+            "Reduces manual configuration.",
+            "Configures beans based on classpath.",
+            "Provides default configurations."
+          ],
           "level": "Easy"
         },
         {
           "q": "What are Spring Boot Starters?",
+          "a": "Spring Boot Starters are a set of convenient dependency descriptors that you can include in your application. Each starter bundles all the dependencies needed for a specific functionality, such as web development, data access, or security. They simplify dependency management and reduce the risk of version conflicts.",
+          "p": [
+            "Dependency bundles for specific functionalities.",
+            "Simplifies dependency management.",
+            "Reduces version conflicts.",
+            "Examples: spring-boot-starter-web, spring-boot-starter-data-jpa"
+          ],
           "level": "Easy"
         },
         {
           "q": "How do you create a Spring Boot project?",
+          "a": "You can create a Spring Boot project using Spring Initializr (start.spring.io), which allows you to select the necessary dependencies and generate a basic project structure. Alternatively, you can use your IDE's built-in Spring Boot project creation tools or manually configure a Maven or Gradle project.",
+          "p": [
+            "Use Spring Initializr (start.spring.io).",
+            "Use IDE's Spring Boot tools.",
+            "Manually configure Maven or Gradle.",
+            "Select dependencies during project creation."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is an embedded server in Spring Boot?",
+          "a": "An embedded server is a web server that is packaged directly within your Spring Boot application. Spring Boot supports embedded Tomcat, Jetty, and Undertow servers. This eliminates the need to deploy your application to an external server, simplifying deployment and making it more portable.",
+          "p": [
+            "Web server packaged within the application.",
+            "Supports Tomcat, Jetty, and Undertow.",
+            "Simplifies deployment.",
+            "Increases portability."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is Dependency Injection (DI)?",
+          "a": "Dependency Injection (DI) is a design pattern where an object receives its dependencies from an external source rather than creating them itself. This promotes loose coupling and makes code more testable and maintainable. Spring Boot heavily utilizes DI.",
+          "p": [
+            "Objects receive dependencies.",
+            "External source provides dependencies.",
+            "Promotes loose coupling.",
+            "Improves testability."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the benefits of using Dependency Injection?",
+          "a": "DI offers several benefits, including reduced coupling between components, increased code reusability, improved testability (as dependencies can be easily mocked), and enhanced maintainability. It also promotes a more modular and organized codebase.",
+          "p": [
+            "Reduces coupling.",
+            "Increases reusability.",
+            "Improves testability.",
+            "Enhances maintainability."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How does Spring Boot implement Dependency Injection?",
+          "a": "Spring Boot implements DI through its Inversion of Control (IoC) container. The container manages the creation and wiring of dependencies. This is typically achieved using annotations like `@Autowired`, `@Component`, `@Service`, and `@Repository` to declare dependencies and components.",
+          "p": [
+            "Uses IoC container.",
+            "Manages creation and wiring.",
+            "Uses annotations like @Autowired.",
+            "Declares dependencies and components."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between Constructor Injection and Setter Injection?",
+          "a": "Constructor Injection provides dependencies through the class constructor, ensuring that the object is created with all required dependencies. Setter Injection provides dependencies through setter methods, allowing for optional dependencies. Constructor Injection is generally preferred for mandatory dependencies.",
+          "p": [
+            "Constructor: Dependencies via constructor.",
+            "Setter: Dependencies via setter methods.",
+            "Constructor: Mandatory dependencies.",
+            "Setter: Optional dependencies."
+          ],
           "level": "Easy"
         }
       ]
     },
     {
       "id": "sql",
-      "name": "sql",
+      "name": "🛢️ SQL & Database Indexing",
       "category": "Tech",
       "questions": [
         {
           "q": "What is SQL?",
+          "a": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).",
+          "p": [
+            "Standard language for database interaction.",
+            "Used to manage relational databases.",
+            "Enables data retrieval, insertion, updating, and deletion."
+          ],
           "level": "Easy"
         },
         {
           "q": "What are the main types of SQL commands?",
+          "a": "The main types of SQL commands are Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), and Data Query Language (DQL). DDL defines the database schema, DML manipulates data, DCL controls access, and DQL retrieves data.",
+          "p": [
+            "DDL: Defines database schema (e.g., CREATE, ALTER).",
+            "DML: Manipulates data (e.g., INSERT, UPDATE).",
+            "DCL: Controls data access (e.g., GRANT, REVOKE)."
+          ],
           "level": "Easy"
         },
         {
           "q": "Explain the difference between `DELETE` and `TRUNCATE` commands.",
+          "a": "`DELETE` removes specific rows from a table based on a condition, and it can be rolled back. `TRUNCATE` removes all rows from a table, resets the identity (auto-increment) column, and cannot be rolled back. `TRUNCATE` is faster.",
+          "p": [
+            "DELETE: Removes specific rows, can be rolled back.",
+            "TRUNCATE: Removes all rows, resets identity, faster.",
+            "TRUNCATE: Cannot be rolled back."
+          ],
           "level": "Easy"
         },
         {
           "q": "What is a primary key?",
+          "a": "A primary key is a column or a set of columns in a table that uniquely identifies each row in that table. It must contain unique values and cannot contain NULL values. A table can have only one primary key.",
+          "p": [
+            "Uniquely identifies each row in a table.",
+            "Must contain unique values.",
+            "Cannot contain NULL values."
+          ],
           "level": "Easy"
         },
         {
           "q": "What is a foreign key?",
+          "a": "A foreign key is a column or a set of columns in one table that refers to the primary key of another table. It establishes a link between the two tables, enforcing referential integrity.",
+          "p": [
+            "Links two tables together.",
+            "Refers to the primary key of another table.",
+            "Enforces referential integrity."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the purpose of the `WHERE` clause?",
+          "a": "The `WHERE` clause is used to filter records in a SQL query. It specifies a condition that records must meet to be included in the result set. Only rows that satisfy the condition are returned.",
+          "p": [
+            "Filters records in a query.",
+            "Specifies a condition.",
+            "Only rows meeting the condition are returned."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main categories of SQL statements?",
+          "a": "The four main categories are: Data Definition Language (DDL), used to define the database schema; Data Manipulation Language (DML), used to manipulate data within the database; Data Control Language (DCL), used to control access to the database; and Data Query Language (DQL), used to query the database.",
+          "p": [
+            "DDL: Define schema",
+            "DML: Manipulate data",
+            "DCL: Control access",
+            "DQL: Query data"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is DDL and can you give some examples of DDL statements?",
+          "a": "DDL stands for Data Definition Language. It's used to define and manage the structure of a database. Examples include CREATE TABLE (to create a new table), ALTER TABLE (to modify an existing table), and DROP TABLE (to delete a table).",
+          "p": [
+            "DDL: Data Definition Language",
+            "CREATE TABLE: Creates a table",
+            "ALTER TABLE: Modifies a table",
+            "DROP TABLE: Deletes a table"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is DML and can you give some examples of DML statements?",
+          "a": "DML stands for Data Manipulation Language. It's used to manipulate the data stored in a database. Examples include INSERT (to add new data), UPDATE (to modify existing data), and DELETE (to remove data).",
+          "p": [
+            "DML: Data Manipulation Language",
+            "INSERT: Adds data",
+            "UPDATE: Modifies data",
+            "DELETE: Removes data"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is DQL and what is the primary DQL statement?",
+          "a": "DQL stands for Data Query Language. It's used to retrieve data from a database. The primary DQL statement is SELECT, which allows you to specify the columns and conditions for retrieving data.",
+          "p": [
+            "DQL: Data Query Language",
+            "SELECT: Retrieves data",
+            "Specifies columns and conditions"
+          ],
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "angular",
+      "name": "🅰️ Angular Framework",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Angular Architecture and Core Concepts (Components, Modules, Services, Templates, Metadata, Data Binding, Directives, Dependency Injection)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Setting up an Angular Development Environment (Node.js, npm/yarn, Angular CLI)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Creating and Running an Angular Project (ng new, ng serve)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Understanding Angular CLI Commands (build, generate, test, e2e)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Component Creation and Structure (template, class, metadata)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "aws_amazon_web_services",
+      "name": "☁️ AWS Amazon Web Services",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to Cloud Computing and AWS",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS Global Infrastructure (Regions, Availability Zones, Edge Locations)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS Account Setup and Management (IAM Users, Groups, Roles, Policies)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS CLI and SDKs (Configuration, Usage)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AWS Management Console Overview",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "name": "💻 C Programming",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Data Types (Primitive and Reference)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variables and Constants",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Operators (Arithmetic, Logical, Bitwise)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Flow (if/else, switch, loops)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays and Collections (List, Dictionary, etc.)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "core_java",
+      "name": "☕ Core Java & OOPs",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Java Fundamentals Overview: History, Features, JVM, JRE, JDK",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types, Variables, Operators, and Control Flow",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Object-Oriented Programming (OOP): Encapsulation, Inheritance, Polymorphism, Abstraction",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Classes and Objects: Constructors, Methods, Instance vs. Static Variables/Methods",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Access Modifiers: public, private, protected, default (package-private)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "data_structures__algorithms",
+      "name": "⚙️ Data Structures & Algorithms",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Big O Notation & Time Complexity Analysis",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Space Complexity Analysis",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Common Data Structures Overview (Arrays, Linked Lists, Stacks, Queues, Hash Tables, Trees, Graphs)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays: Basic Operations (Insertion, Deletion, Search)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays: Dynamic Arrays & Resizing",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "🐋 Docker & Kubernetes",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Containers vs Virtual Machines",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Docker Architecture and Daemon",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Namespaces and Cgroups",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Dockerfile Best Practices and Instructions",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Layer Caching and BuildKit",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "name": "🔀 Git & GitHub",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to Version Control Systems (VCS)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain What is Git? History and Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Installing and Configuring Git",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic Git Commands: init, clone, add, commit, status, diff",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Understanding the Git Staging Area",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "google_cloud_gcp",
+      "name": "☁️ Google Cloud GCP",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Cloud Computing Concepts: IaaS, PaaS, SaaS, Serverless",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain GCP Global Infrastructure: Regions, Zones, Points of Presence",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain GCP Resource Hierarchy: Organization, Folders, Projects",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain GCP Console, Cloud Shell, Cloud SDK (gcloud CLI)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Identity and Access Management (IAM): Roles, Permissions, Service Accounts",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "html5",
+      "name": "🌐 HTML5 & CSS3",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain HTML5 Fundamentals: Document Structure, Elements, and Attributes",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Semantic HTML: Understanding and Using Semantic Elements (e.g., `<article>`, `<aside>`, `<nav>`, `<header>`, `<footer>`, `<section>`)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain HTML5 Forms: Input Types, Attributes, and Validation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Accessibility (A11y): ARIA Attributes, Semantic HTML for Accessibility",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Audio and Video: Embedding and Controlling Media with `<audio>` and `<video>` elements",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "name": "☕ Java Programming",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain JVM Architecture, ClassLoaders, and Bytecode Verification",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Memory Management, Heap Structure, and Garbage Collection Algorithms",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Object Lifecycle, Immutable Objects, and defensive copying",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Exception Hierarchy, Checked vs Unchecked, and Best Practices",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SOLID Principles in Java Design",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "💛 JavaScript (ES6+)",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Data Types (Primitive and Reference)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variables (var, let, const)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Operators (Arithmetic, Comparison, Logical, Assignment)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Flow (if/else, switch, loops)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Functions (Declaration, Expression, Arrow Functions)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "jquery",
+      "name": "⚡ jQuery Library",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to jQuery: What is jQuery, its purpose, and benefits?",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain jQuery Setup: How to include jQuery in a project (CDN, local file), and basic syntax.",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Selectors: Understanding and using basic jQuery selectors (element, class, ID).",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain DOM Manipulation: Methods for manipulating HTML elements (adding, removing, modifying content and attributes).",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Events: Handling common events (click, mouseover, submit) and event delegation.",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "linux_system_administration",
+      "name": "🐧 Linux System Administration",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Linux Architecture and Kernel Concepts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Linux Distributions and Package Management (Debian/Ubuntu, RHEL/CentOS/Fedora)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Command Line Interface (CLI) Navigation and Basic Commands",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain File System Hierarchy Standard (FHS)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain User and Group Management",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "mongodb",
+      "name": "🍃 MongoDB NoSQL",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to NoSQL and MongoDB",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain MongoDB Data Model (Documents and Collections)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain MongoDB Installation and Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic MongoDB Shell Operations (CRUD)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types in MongoDB",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "🟢 Node.js & Express",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to Node.js: History, Use Cases, and Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Node.js Event Loop: Understanding Single-Threaded Asynchronous Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain NPM and Package Management: Installing, Managing, and Publishing Packages",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Modules in Node.js: CommonJS vs. ES Modules (ESM)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Global Objects: Understanding process, console, Buffer, etc.",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "oracle_db",
+      "name": "🛢️ Oracle Database SQL",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Relational Database Concepts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Oracle Database Architecture (Physical and Logical)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SQL Fundamentals (SELECT, INSERT, UPDATE, DELETE)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types in Oracle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic Oracle Tools (SQL*Plus, SQL Developer)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "name": "🐘 PHP & Web Backend",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Basic Syntax and Data Types (Variables, Operators, Control Structures)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types (Integers, Floats, Strings, Booleans, Arrays, Objects, Resources, NULL)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Operators (Arithmetic, Assignment, Comparison, Logical, Increment/Decrement)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Structures (if, else, elseif, switch, while, do-while, for, foreach)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Functions (Defining, Calling, Arguments, Return Values, Scope)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "🐍 Python & FastAPI",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Basic Data Types (Integers, Floats, Strings, Booleans)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variables and Operators",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Flow (if, elif, else)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Loops (for, while)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Structures (Lists, Tuples, Dictionaries, Sets)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "spring_boot",
+      "name": "🌿 Spring Boot & Microservices",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Overview of Spring Framework and Spring Boot: Benefits, Architecture, and Key Components",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Spring Boot Starters: Understanding and Using Starter Dependencies",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Auto-Configuration: How Spring Boot Simplifies Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Spring Boot CLI: Rapid Application Development",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Spring Boot Actuator: Monitoring and Management of Applications",
           "level": "Easy"
         }
       ]
