@@ -1,0 +1,1262 @@
+{
+  "skillId": "reactjs",
+  "skillName": "React.js",
+  "questionCount": 103,
+  "concepts": [
+    {
+      "conceptName": "What is JSX and how does it differ from HTML?",
+      "meaning": "JSX is a syntax extension to JavaScript that allows you to write HTML-like structures within your JavaScript code. It's used in React to describe what the UI should look like. While it resembles HTML, it's transformed into regular JavaScript function calls that create React elements. The key difference lies in its integration with JavaScript logic and its ability to represent dynamic content.",
+      "questions": [
+        {
+          "q": "What is JSX?",
+          "a": "JSX (JavaScript XML) is a syntax extension to JavaScript that lets you write HTML-like code within your JavaScript files. It's not HTML itself, but it resembles it. Before being rendered in the browser, JSX code is transformed into standard JavaScript calls to the React library, which then creates the actual DOM elements.",
+          "p": [
+            "Syntax extension to JavaScript.",
+            "Resembles HTML.",
+            "Transformed into JavaScript.",
+            "Used to describe UI."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "How does JSX differ from HTML?",
+          "a": "JSX differs from HTML in several ways. JSX is not directly rendered by browsers; it needs to be transpiled into JavaScript. JSX uses camelCase for attribute names (e.g., `className` instead of `class`), and you can embed JavaScript expressions directly within JSX using curly braces `{}`. HTML is a markup language interpreted directly by the browser.",
+          "p": [
+            "JSX needs transpilation.",
+            "JSX uses camelCase attributes.",
+            "JSX embeds JavaScript expressions.",
+            "HTML is directly interpreted."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Can you embed JavaScript expressions within JSX?",
+          "a": "Yes, you can embed JavaScript expressions within JSX using curly braces `{}`. This allows you to dynamically render content, perform calculations, or conditionally display elements based on JavaScript logic. For example, you can display a variable's value or call a function within your JSX code.",
+          "p": [
+            "Use curly braces `{}`.",
+            "Dynamically render content.",
+            "Perform calculations.",
+            "Conditionally display elements."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "Why do we use `className` instead of `class` in JSX?",
+          "a": "In JSX, we use `className` instead of `class` because `class` is a reserved keyword in JavaScript. Using `class` as an attribute name in JSX would lead to syntax errors and unexpected behavior. `className` serves the same purpose as `class` in HTML, allowing you to apply CSS classes to elements.",
+          "p": [
+            "`class` is a reserved keyword.",
+            "`className` avoids syntax errors.",
+            "`className` applies CSS classes.",
+            "Maintains JavaScript compatibility."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "What happens to JSX code before it runs in the browser?",
+          "a": "Before JSX code runs in the browser, it is transpiled (or compiled) into standard JavaScript code. This process is typically done using tools like Babel. The transpilation converts the JSX syntax into React.createElement() calls, which are then understood and executed by the JavaScript engine in the browser to create the user interface.",
+          "p": [
+            "JSX is transpiled.",
+            "Tools like Babel are used.",
+            "Converted to React.createElement().",
+            "Browser executes JavaScript."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the concept of components in React. What are the differences between functional and class components?",
+      "meaning": "Components are reusable, independent building blocks that compose React user interfaces. Functional components are simpler, stateless functions, while class components are ES6 classes with state and lifecycle methods.",
+      "questions": [
+        {
+          "q": "What is a component in React?",
+          "a": "A component is a reusable and independent part of a user interface. It can be a simple button or a complex form. Components allow you to break down your UI into manageable pieces, making your code more organized and easier to maintain. They accept inputs (props) and return React elements describing what should appear on the screen.",
+          "p": [
+            "Reusable UI building blocks",
+            "Accept props (inputs)",
+            "Return React elements"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_0"
+        },
+        {
+          "q": "What are the two main types of components in React?",
+          "a": "The two main types of components in React are functional components and class components. Functional components are JavaScript functions, while class components are ES6 classes that extend React.Component.",
+          "p": [
+            "Functional components (functions)",
+            "Class components (ES6 classes)"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_1"
+        },
+        {
+          "q": "What is the primary difference between functional and class components regarding state management?",
+          "a": "Functional components, prior to React Hooks, were primarily stateless. Class components can manage their own internal state using `this.state` and `this.setState()`. With the introduction of React Hooks, functional components can now also manage state using the `useState` hook.",
+          "p": [
+            "Class components: stateful (this.state)",
+            "Functional components (before Hooks): stateless",
+            "Functional components (with Hooks): stateful"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_2"
+        },
+        {
+          "q": "How do you pass data from a parent component to a child component in React?",
+          "a": "Data is passed from a parent component to a child component using 'props'. Props are like HTML attributes, but you can pass any JavaScript value through them. The child component then receives these props as an argument.",
+          "p": [
+            "Pass data using 'props'",
+            "Props are like HTML attributes",
+            "Child component receives props as argument"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_3"
+        },
+        {
+          "q": "What are lifecycle methods, and which type of component uses them?",
+          "a": "Lifecycle methods are special methods that are automatically called during different phases of a component's life, such as mounting, updating, and unmounting. Class components use lifecycle methods. Examples include `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.",
+          "p": [
+            "Methods called during component's life",
+            "Used in class components",
+            "Examples: componentDidMount, etc."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_4"
+        },
+        {
+          "q": "Can functional components use lifecycle methods? If not, what is the alternative?",
+          "a": "Functional components, before React Hooks, could not directly use lifecycle methods. The alternative is to use the `useEffect` Hook, which allows functional components to perform side effects (similar to lifecycle methods) after rendering. `useEffect` can handle mounting, updating, and unmounting logic.",
+          "p": [
+            "Functional components (before Hooks): no lifecycle methods",
+            "Alternative: useEffect Hook",
+            "useEffect handles mounting, updating, unmounting"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are props in React? How are they used to pass data from parent to child components?",
+      "meaning": "Props (short for properties) are a mechanism for passing data from a parent component to its child components in React. They are read-only from the child's perspective, ensuring unidirectional data flow. Props allow you to customize and configure child components with data defined in the parent component.",
+      "questions": [
+        {
+          "q": "What are props in React?",
+          "a": "Props are read-only properties passed from a parent component to a child component. They are used to customize and configure child components with data. Props enable data flow from parent to child, making components reusable and dynamic.",
+          "p": [
+            "Read-only properties",
+            "Passed from parent to child",
+            "Used for customization",
+            "Enable data flow"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "How do you pass data from a parent component to a child component using props?",
+          "a": "Data is passed as attributes on the child component's JSX tag within the parent component's render method. The child component then accesses this data via the `props` object. For example: `<ChildComponent name={parentData} />`. In the child, you access it using `props.name`.",
+          "p": [
+            "Pass as attributes in JSX",
+            "Access via `props` object",
+            "Unidirectional data flow",
+            "Example: `<ChildComponent data={value} />`"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Are props mutable within a child component?",
+          "a": "No, props are immutable within a child component. A child component should not directly modify the props it receives. If a child component needs to modify data, it should communicate with its parent component, which can then update the props.",
+          "p": [
+            "Immutable in child",
+            "Read-only",
+            "Unidirectional data flow",
+            "Parent controls data"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "What is the purpose of using props in React?",
+          "a": "Props enable component reusability and dynamic rendering. By passing different props, you can render the same component with different data, customizing its appearance and behavior. This promotes modularity and maintainability in React applications.",
+          "p": [
+            "Component reusability",
+            "Dynamic rendering",
+            "Customization",
+            "Modularity"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "Can you pass functions as props?",
+          "a": "Yes, you can pass functions as props. This is a common pattern for allowing child components to communicate events or data back to their parent components. For example, a child component might call a function passed as a prop when a button is clicked.",
+          "p": [
+            "Functions can be props",
+            "Child communicates to parent",
+            "Event handling",
+            "Callback functions"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "What happens if you don't pass a prop that a child component expects?",
+          "a": "If a child component expects a prop but it is not passed, the prop's value will be `undefined`. It's good practice to use default props or prop types to handle cases where a prop might be missing, preventing unexpected errors or behavior.",
+          "p": [
+            "Value is `undefined`",
+            "Use default props",
+            "Use prop types",
+            "Prevent errors"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is state in React? How does it differ from props, and how is it managed?",
+      "meaning": "State in React is a JavaScript object that holds data that may change over time. It's similar to props, but it's private and fully controlled by the component. Props are passed to the component, whereas state is managed within the component. State changes trigger re-rendering of the component.",
+      "questions": [
+        {
+          "q": "What is 'state' in React?",
+          "a": "In React, 'state' is a plain JavaScript object used to represent information about a component's current situation. It's private to the component and can influence what's rendered on the screen. When the state changes, React re-renders the component to reflect the updated state.",
+          "p": [
+            "Data specific to a component.",
+            "Managed within the component.",
+            "Changes trigger re-renders."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "How does 'state' differ from 'props' in React?",
+          "a": "'State' is managed internally by a component and is mutable within that component. 'Props' (short for properties) are passed from a parent component to a child component and are immutable from the child's perspective. Props are used to pass data down the component tree, while state is for managing data within a component.",
+          "p": [
+            "State: Mutable, internal.",
+            "Props: Immutable, passed from parent.",
+            "Data flow: Props down, State local."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "How is 'state' managed in a React component?",
+          "a": "In class components, state is managed using `this.state` to access the state object and `this.setState()` to update it. In functional components, state is managed using the `useState` hook, which allows you to declare state variables and update them with a provided updater function.  `setState` triggers a re-render.",
+          "p": [
+            "Class components: `this.state`, `this.setState()`",
+            "Functional components: `useState` hook",
+            "Updates trigger re-renders."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "Can a functional component have state? If so, how?",
+          "a": "Yes, functional components can have state using the `useState` hook. The `useState` hook allows you to declare state variables and a function to update them. It returns an array with two elements: the current state value and a function to update that value.",
+          "p": [
+            "Yes, using `useState` hook.",
+            "Hook returns state variable and updater function.",
+            "Enables state management in functional components."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "Why should you not directly modify the state in React (e.g., `this.state.property = newValue`)?",
+          "a": "Directly modifying the state in React does not trigger a re-render of the component. React relies on the `setState()` method (or the updater function from `useState`) to know when the state has changed and needs to update the DOM. Directly modifying the state can lead to unexpected behavior and inconsistencies in the UI.",
+          "p": [
+            "Doesn't trigger re-renders.",
+            "Leads to unexpected behavior.",
+            "Use `setState` or updater function instead."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "What happens when a component's state is updated?",
+          "a": "When a component's state is updated using `setState` (or the updater function from `useState`), React re-renders the component. This means that the component's render method is called again, and the virtual DOM is updated. React then efficiently updates the actual DOM to reflect the changes.",
+          "p": [
+            "Component re-renders.",
+            "Virtual DOM is updated.",
+            "Actual DOM is efficiently updated."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the React component lifecycle. What are the key lifecycle methods (e.g., `componentDidMount`, `componentDidUpdate`, `componentWillUnmount`) and when are they invoked?",
+      "meaning": "The React component lifecycle is the series of events that occur from the moment a component is created and mounted on the DOM to when it is unmounted and destroyed. Understanding these phases and the associated lifecycle methods is crucial for managing component behavior and side effects.",
+      "questions": [
+        {
+          "q": "What is the purpose of `componentDidMount`?",
+          "a": "`componentDidMount` is invoked immediately after a component is mounted (inserted into the DOM tree). It's commonly used for performing side effects like fetching data from an API or setting up subscriptions, as the component is now available in the browser's environment.",
+          "p": [
+            "Invoked after mounting.",
+            "Ideal for API calls.",
+            "Good for subscriptions."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_0"
+        },
+        {
+          "q": "When is `componentDidUpdate` called?",
+          "a": "`componentDidUpdate` is invoked immediately after an update occurs. It receives `prevProps` and `prevState` as arguments, allowing you to compare the previous and current values and perform side effects based on the changes. Use caution to avoid infinite loops.",
+          "p": [
+            "Invoked after updates.",
+            "Receives `prevProps` and `prevState`.",
+            "Use for conditional side effects."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_1"
+        },
+        {
+          "q": "What is the role of `componentWillUnmount`?",
+          "a": "`componentWillUnmount` is invoked immediately before a component is unmounted and destroyed. It's used to perform cleanup tasks, such as canceling network requests, invalidating timers, or removing event listeners, to prevent memory leaks.",
+          "p": [
+            "Invoked before unmounting.",
+            "Used for cleanup.",
+            "Prevents memory leaks."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_2"
+        },
+        {
+          "q": "In what order are the main lifecycle methods called when a component is first rendered?",
+          "a": "When a component is first rendered, the main lifecycle methods are called in the following order: constructor, render, and then componentDidMount.",
+          "p": [
+            "constructor -> render -> componentDidMount"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_3"
+        },
+        {
+          "q": "What is the purpose of the `render` method?",
+          "a": "The `render` method is the only required method in a class component. It describes the UI that the component should display, based on its props and state. It should be a pure function, meaning it should not modify the component's state or interact directly with the browser.",
+          "p": [
+            "Describes the UI.",
+            "Based on props and state.",
+            "Should be a pure function."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are React Hooks? Explain the purpose of `useState`, `useEffect`, and `useContext`.",
+      "meaning": "React Hooks are functions that let you “hook into” React state and lifecycle features from function components. They were introduced in React 16.8 and provide a way to use state and other React features without writing class components. `useState` is for managing local component state, `useEffect` is for performing side effects, and `useContext` is for consuming context values.",
+      "questions": [
+        {
+          "q": "What are React Hooks?",
+          "a": "React Hooks are functions that let you use state and other React features in functional components. They allow you to manage state, perform side effects, and access context without writing class components. Hooks start with `use`, such as `useState` and `useEffect`.",
+          "p": [
+            "Functions for using React features in functional components.",
+            "Introduced in React 16.8.",
+            "Start with 'use'."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "Explain the purpose of the `useState` Hook.",
+          "a": "The `useState` Hook allows you to add state to functional components. It returns an array with two elements: the current state value and a function to update it. When the state update function is called, React re-renders the component with the new state.",
+          "p": [
+            "Adds state to functional components.",
+            "Returns state value and update function.",
+            "Triggers re-render on update."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Explain the purpose of the `useEffect` Hook.",
+          "a": "The `useEffect` Hook allows you to perform side effects in functional components. Side effects include data fetching, subscriptions, or manually changing the DOM. It runs after the component renders and can be conditionally executed based on dependencies.",
+          "p": [
+            "Performs side effects in functional components.",
+            "Runs after render.",
+            "Can be conditionally executed."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "Explain the purpose of the `useContext` Hook.",
+          "a": "The `useContext` Hook allows you to consume values from a React context. It accepts a context object (returned from `React.createContext`) and returns the current context value for that context. This allows components to access global data without prop drilling.",
+          "p": [
+            "Consumes values from a React context.",
+            "Avoids prop drilling.",
+            "Accesses global data."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "What is the significance of the dependency array in `useEffect`?",
+          "a": "The dependency array in `useEffect` determines when the effect will re-run. If the array is empty (`[]`), the effect runs only once after the initial render. If the array contains variables, the effect runs whenever any of those variables change. If the array is omitted, the effect runs after every render.",
+          "p": [
+            "Controls when the effect re-runs.",
+            "`[]`: runs once after initial render.",
+            "Variables: runs when variables change.",
+            "Omitted: runs after every render."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "Can you use Hooks inside class components?",
+          "a": "No, React Hooks are designed to be used only inside functional components. They cannot be used inside class components. If you need to use state or lifecycle methods in a class component, you should continue to use the class component syntax.",
+          "p": [
+            "Only usable in functional components.",
+            "Not compatible with class components.",
+            "Use class syntax for class components."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the Virtual DOM in React, and how does it improve performance?",
+      "meaning": "The Virtual DOM is a lightweight, in-memory representation of the actual DOM. React uses it to optimize updates to the real DOM, which is slow. By comparing the Virtual DOM with the previous version, React identifies only the necessary changes and applies them to the real DOM, minimizing expensive operations.",
+      "questions": [
+        {
+          "q": "What is the Virtual DOM?",
+          "a": "The Virtual DOM is a lightweight JavaScript object that represents the structure of the actual DOM. It's a copy of the real DOM, allowing React to track changes efficiently without directly manipulating the browser's DOM.",
+          "p": [
+            "In-memory representation of the DOM.",
+            "Lightweight JavaScript object.",
+            "Used for efficient change tracking."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "How does the Virtual DOM improve performance in React?",
+          "a": "The Virtual DOM improves performance by minimizing direct manipulations to the real DOM. React compares the Virtual DOM with its previous state, identifies the minimal set of changes needed, and then efficiently updates only those specific parts of the real DOM. This process is called 'reconciliation'.",
+          "p": [
+            "Minimizes direct DOM manipulations.",
+            "Uses reconciliation to find changes.",
+            "Updates only necessary parts of the real DOM."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Explain the concept of 'reconciliation' in React.",
+          "a": "Reconciliation is the process React uses to update the real DOM based on changes in the Virtual DOM. React compares the new Virtual DOM tree with the previous one, calculates the differences (the 'patch'), and then applies these changes to the real DOM in an optimized manner.",
+          "p": [
+            "Comparing new and old Virtual DOMs.",
+            "Calculating the differences (patch).",
+            "Applying changes to the real DOM."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "What are the benefits of using the Virtual DOM?",
+          "a": "Using the Virtual DOM leads to improved performance, as it reduces the number of direct DOM manipulations, which are costly. It also simplifies the development process by allowing developers to focus on the application's logic without worrying about manually optimizing DOM updates.",
+          "p": [
+            "Improved performance.",
+            "Reduced DOM manipulations.",
+            "Simplified development process."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "What is the role of the 'diffing' algorithm in the Virtual DOM?",
+          "a": "The 'diffing' algorithm is used during the reconciliation process to efficiently compare the current and previous Virtual DOM trees. It identifies the minimal set of operations needed to update the real DOM, ensuring that only the necessary changes are applied, thus optimizing performance.",
+          "p": [
+            "Compares current and previous Virtual DOMs.",
+            "Identifies minimal changes.",
+            "Optimizes DOM updates."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "Why is direct manipulation of the DOM considered slow?",
+          "a": "Direct manipulation of the DOM is slow because it involves re-rendering and re-painting parts of the browser window. These operations are resource-intensive and can lead to performance bottlenecks, especially in complex applications with frequent updates.",
+          "p": [
+            "Involves re-rendering and re-painting.",
+            "Resource-intensive operations.",
+            "Can cause performance bottlenecks."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the concept of reconciliation in React.",
+      "meaning": "Reconciliation is the process React uses to update the DOM efficiently. When a component's state changes, React creates a new virtual DOM tree. It then compares this new tree with the previous virtual DOM tree to identify the minimal set of changes needed to update the actual DOM. This process optimizes performance by avoiding unnecessary DOM manipulations.",
+      "questions": [
+        {
+          "q": "What is reconciliation in React?",
+          "a": "Reconciliation is React's algorithm for efficiently updating the DOM. It compares the new virtual DOM with the previous one and applies only the necessary changes to the real DOM, minimizing performance overhead.",
+          "p": [
+            "Algorithm to update DOM efficiently.",
+            "Compares new and old virtual DOM.",
+            "Applies minimal changes to real DOM."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_0"
+        },
+        {
+          "q": "Why is reconciliation important in React?",
+          "a": "Reconciliation is crucial for performance. Directly manipulating the DOM is slow. React's reconciliation process minimizes these direct manipulations by only updating what's changed, leading to faster and more responsive applications.",
+          "p": [
+            "Improves performance.",
+            "Minimizes DOM manipulations.",
+            "Leads to faster applications."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_1"
+        },
+        {
+          "q": "How does React use the virtual DOM in reconciliation?",
+          "a": "React uses the virtual DOM as a lightweight representation of the actual DOM. During reconciliation, React compares the new virtual DOM with the previous one to determine the differences. These differences are then applied to the real DOM.",
+          "p": [
+            "Virtual DOM is a lightweight representation.",
+            "React compares virtual DOMs.",
+            "Applies differences to real DOM."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_2"
+        },
+        {
+          "q": "What is the role of the 'diffing' algorithm in React's reconciliation?",
+          "a": "The 'diffing' algorithm is the core of React's reconciliation process. It efficiently compares two virtual DOM trees and identifies the minimal set of operations needed to transform one tree into the other. This minimizes the number of actual DOM updates.",
+          "p": [
+            "Compares two virtual DOM trees.",
+            "Identifies minimal operations.",
+            "Minimizes DOM updates."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_3"
+        },
+        {
+          "q": "What are some key assumptions that React makes during reconciliation?",
+          "a": "React makes two key assumptions: 1. Elements of different types will produce different trees. 2. Developers can hint at which child elements might be stable across different renders with a 'key' prop.",
+          "p": [
+            "Different types produce different trees.",
+            "Developers use 'key' prop for stable elements."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_4"
+        },
+        {
+          "q": "How do 'keys' help with reconciliation in React lists?",
+          "a": "Keys provide React with a stable identity for list items. When a list is re-rendered, React uses keys to identify which items have changed, been added, or been removed. This allows React to efficiently update the list without re-rendering the entire list.",
+          "p": [
+            "Provide stable identity for list items.",
+            "Identify changed, added, or removed items.",
+            "Efficiently update lists."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the purpose of keys in React lists? Why are they important?",
+      "meaning": "Keys help React identify which items in a list have changed, been added, or been removed.  This allows React to update the DOM efficiently.  Without keys, React would re-render the entire list on any change.",
+      "questions": [
+        {
+          "q": "What is the purpose of keys in React lists?",
+          "a": "Keys are special string attributes you need to include when creating lists of elements. They help React identify which items have changed, are added, or are removed. Keys enable React to optimize rendering performance by efficiently updating the DOM.",
+          "p": [
+            "Unique identifiers for list items.",
+            "Optimize re-rendering.",
+            "Improve performance."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "Why are keys important in React lists?",
+          "a": "Keys are crucial for React's efficient update mechanism. When data changes, React uses keys to understand which list items need to be re-rendered, added, or removed. Without keys, React might re-render the entire list, leading to performance issues, especially with large lists.",
+          "p": [
+            "Efficient DOM updates.",
+            "Avoid unnecessary re-renders.",
+            "Performance optimization."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "What happens if you don't provide keys in a React list?",
+          "a": "If you don't provide keys, React will default to using the index of the item in the array as the key. This can lead to problems if the order of items in the list changes, as React may incorrectly update or re-render elements, causing unexpected behavior and performance issues. React will also throw a warning.",
+          "p": [
+            "React uses index as default key.",
+            "Potential for incorrect updates.",
+            "Performance degradation."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "What makes a good key in a React list?",
+          "a": "A good key is a unique and stable identifier for each item in the list. It should not change over time or across renders. Ideally, the key should come from the data itself, such as an ID from a database. Avoid using indexes as keys if the list is subject to reordering.",
+          "p": [
+            "Unique and stable.",
+            "Derived from data (e.g., ID).",
+            "Avoid indexes if list order changes."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "Explain the performance implications of using incorrect keys in React lists.",
+          "a": "Using incorrect or unstable keys can lead to unnecessary re-renders and DOM manipulations. This can significantly degrade the performance of your application, especially when dealing with large lists or complex components. React may not be able to efficiently track changes, resulting in a slower and less responsive user experience.",
+          "p": [
+            "Unnecessary re-renders.",
+            "DOM manipulation overhead.",
+            "Reduced performance."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "Can keys be duplicated within a React list?",
+          "a": "No, keys must be unique within a single list. If you have duplicate keys, React will throw an error or warning, and the rendering behavior will be unpredictable. Each item in the list needs a distinct key so React can accurately track changes and updates.",
+          "p": [
+            "Keys must be unique.",
+            "Duplicate keys cause errors.",
+            "Unpredictable rendering."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Controlled vs. Uncontrolled Components in React",
+      "meaning": "Controlled components have their state managed by React, while uncontrolled components rely on the DOM to manage their state. Controlled components offer more control and predictability, while uncontrolled components can be simpler for basic use cases.",
+      "questions": [
+        {
+          "q": "What is a controlled component in React?",
+          "a": "A controlled component is a React component where the form data is handled by the component's state. React's state is the single source of truth. When the user enters data, the event handler updates the state, and the component re-renders with the new value. This gives React full control over the input element.",
+          "p": [
+            "State managed by React.",
+            "Single source of truth.",
+            "React controls the input value."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "What is an uncontrolled component in React?",
+          "a": "An uncontrolled component is a React component where the form data is handled by the DOM itself. You use a `ref` to access the input's value directly from the DOM.  The component doesn't re-render on every input change, making it potentially more performant for certain scenarios, but less predictable.",
+          "p": [
+            "State managed by the DOM.",
+            "Uses `ref` to access value.",
+            "Less React control."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Explain the key differences between controlled and uncontrolled components.",
+          "a": "Controlled components have their state managed by React, offering greater control and predictability. Uncontrolled components rely on the DOM for state management, potentially improving performance in some cases but reducing React's control. Controlled components require more code to handle state updates, while uncontrolled components are simpler for basic forms.",
+          "p": [
+            "State management (React vs. DOM).",
+            "Level of control (High vs. Low).",
+            "Complexity (Higher vs. Lower)."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "When might you choose to use an uncontrolled component?",
+          "a": "Uncontrolled components are suitable for simple forms where you don't need to track every change in the input field.  For example, a simple search bar where you only need the value when the user submits the form. They can also be useful when integrating with legacy code or third-party libraries that directly manipulate the DOM.",
+          "p": [
+            "Simple forms.",
+            "When real-time tracking isn't needed.",
+            "Integration with legacy code."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "How do you access the value of an input element in an uncontrolled component?",
+          "a": "In an uncontrolled component, you access the value of an input element using a `ref`. You create a `ref` using `React.createRef()` or `useRef()` hook, attach it to the input element, and then access the value through `ref.current.value` when needed, typically within a form submission handler.",
+          "p": [
+            "Use `ref` to access the element.",
+            "Access value with `ref.current.value`.",
+            "Typically used in submit handler."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is event handling in React? How do you bind event handlers?",
+      "meaning": "Event handling in React involves responding to user interactions like clicks, form submissions, and keyboard inputs. React uses synthetic events, a cross-browser wrapper around the browser's native event system, providing consistent behavior across different browsers. Binding event handlers ensures that the `this` keyword within the handler refers to the component instance.",
+      "questions": [
+        {
+          "q": "What is event handling in React?",
+          "a": "Event handling in React is the process of responding to user interactions, such as clicks, form submissions, and keyboard inputs. React uses synthetic events, which are cross-browser wrappers around the native browser event system, ensuring consistent behavior across different browsers.",
+          "p": [
+            "Responding to user interactions.",
+            "Using synthetic events.",
+            "Cross-browser compatibility."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "How do you bind event handlers in React?",
+          "a": "Event handlers can be bound in React using several methods: in the constructor using `this.myHandler = this.myHandler.bind(this)`, using arrow functions in the render method, or using class property arrow functions. Binding ensures that `this` refers to the component instance within the handler.",
+          "p": [
+            "Binding in the constructor.",
+            "Using arrow functions in render.",
+            "Class property arrow functions."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between binding in the constructor and using arrow functions for event handlers.",
+          "a": "Binding in the constructor ensures the method is only bound once, improving performance. Arrow functions create a new function instance on every render, which can be less performant, especially for frequently updated components. However, arrow functions offer a more concise syntax.",
+          "p": [
+            "Constructor binding: better performance.",
+            "Arrow functions: concise syntax.",
+            "Arrow functions: new instance on each render."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "What are synthetic events in React?",
+          "a": "Synthetic events are a cross-browser wrapper around the browser's native event system. They provide consistent event properties and behavior across different browsers, abstracting away browser-specific differences. They are pooled for performance reasons, so accessing event properties asynchronously requires persisting the event.",
+          "p": [
+            "Cross-browser compatibility.",
+            "Consistent event properties.",
+            "Pooled for performance."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "How do you pass arguments to an event handler in React?",
+          "a": "Arguments can be passed to event handlers using arrow functions or by using the `bind` method. With arrow functions, you can define an inline function that calls the handler with the desired arguments. With `bind`, you can pre-bind arguments to the handler function.",
+          "p": [
+            "Using arrow functions: `onClick={() => this.handleClick(arg)}`.",
+            "Using bind: `onClick={this.handleClick.bind(this, arg)}`.",
+            "Passing custom data to the handler."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the concept of lifting state up in React.",
+      "meaning": "Lifting state up is a React technique where you move the state from a child component to a common ancestor component. This allows multiple child components to access and modify the same state, ensuring data consistency and enabling communication between them.",
+      "questions": [
+        {
+          "q": "What is 'lifting state up' in React?",
+          "a": "Lifting state up is a React pattern where you move the state from a child component to a parent component. This is done when multiple child components need to share and modify the same state. By lifting the state to a common ancestor, you ensure that all relevant components have access to the most up-to-date information.",
+          "p": [
+            "Move state to a common parent.",
+            "Allows sharing state between components.",
+            "Ensures data consistency."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_0"
+        },
+        {
+          "q": "Why is lifting state up necessary?",
+          "a": "It's necessary when two or more child components need to share and modify the same data. Without lifting state up, each child would have its own independent copy of the data, leading to inconsistencies and difficulties in synchronizing changes between them. Lifting state ensures a single source of truth.",
+          "p": [
+            "Share data between siblings.",
+            "Avoid data inconsistencies.",
+            "Maintain a single source of truth."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_1"
+        },
+        {
+          "q": "How do you typically implement lifting state up?",
+          "a": "You move the state declaration and the function that updates the state to the parent component. Then, you pass the state and the update function as props to the child components that need them. The child components can then call the update function to modify the state in the parent, which will trigger a re-render in all components using that state.",
+          "p": [
+            "Move state to parent component.",
+            "Pass state and updater function as props.",
+            "Child components call updater function."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_2"
+        },
+        {
+          "q": "What are the benefits of lifting state up?",
+          "a": "The primary benefit is improved data consistency and simplified communication between components. It also promotes a more predictable data flow, making it easier to reason about the application's behavior and debug issues. It centralizes state management for related components.",
+          "p": [
+            "Improved data consistency.",
+            "Simplified communication.",
+            "Predictable data flow."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_3"
+        },
+        {
+          "q": "Can you describe a scenario where lifting state up would be useful?",
+          "a": "Consider a scenario with two input fields and a display component. If you want the display component to show the combined value of both input fields, you would lift the state (the input values) to a parent component. The parent would then pass the individual input values to each input field and the combined value to the display component.",
+          "p": [
+            "Two input fields sharing data.",
+            "Display component showing combined value.",
+            "Parent manages the combined state."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "React Router: Purpose and Navigation",
+      "meaning": "React Router is a standard library for routing in React. It enables navigation between different views or components in a single-page application (SPA) without requiring the browser to reload the page. It provides declarative routing, allowing developers to define routes and associate them with specific components.",
+      "questions": [
+        {
+          "q": "What is the primary purpose of React Router?",
+          "a": "React Router's main purpose is to enable client-side routing in React applications. It allows users to navigate between different views or components without full page reloads, creating a smoother and more responsive user experience in single-page applications.",
+          "p": [
+            "Client-side routing",
+            "SPA navigation",
+            "No page reloads"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "How do you install React Router in a React project?",
+          "a": "You can install React Router using npm or yarn. The most common package is `react-router-dom`, which provides components for web browsers. The command is: `npm install react-router-dom` or `yarn add react-router-dom`.",
+          "p": [
+            "npm install react-router-dom",
+            "yarn add react-router-dom",
+            "Install react-router-dom package"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "What are the main components provided by `react-router-dom` for navigation?",
+          "a": "The main components are `<BrowserRouter>`, `<Route>`, `<Link>`, and `<Switch>`. `<BrowserRouter>` enables routing functionality. `<Route>` renders a component based on the URL path. `<Link>` creates navigable links. `<Switch>` renders the first matching route.",
+          "p": [
+            "<BrowserRouter>: Enables routing",
+            "<Route>: Maps URL to component",
+            "<Link>: Creates navigation links"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "Explain how to define a route using the `<Route>` component.",
+          "a": "The `<Route>` component is used to define a mapping between a URL path and a React component. You specify the path using the `path` prop and the component to render using the `component` or `render` prop. For example: `<Route path=\"/about\" component={About} />`.",
+          "p": [
+            "path prop: URL path",
+            "component prop: Component to render",
+            "Example: <Route path=\"/path\" component={Component} />"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "How do you create a navigation link using React Router?",
+          "a": "You use the `<Link>` component to create navigation links. The `to` prop specifies the path to navigate to.  For example: `<Link to=\"/home\">Home</Link>`. This creates a link that, when clicked, navigates the user to the `/home` route.",
+          "p": [
+            "<Link> component",
+            "to prop: Specifies the path",
+            "Example: <Link to=\"/path\">Link Text</Link>"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "What is the purpose of the `<Switch>` component in React Router?",
+          "a": "The `<Switch>` component renders the first `<Route>` that matches the current URL. It's useful for ensuring that only one route is rendered at a time, preventing multiple routes from being displayed simultaneously. It improves route matching precision.",
+          "p": [
+            "Renders first matching Route",
+            "Ensures only one route renders",
+            "Prevents multiple route rendering"
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are Higher-Order Components (HOCs) in React? Explain their use cases.",
+      "meaning": "Higher-Order Components (HOCs) are a pattern in React where a function takes a component as an argument and returns a new, enhanced component. They are used for code reuse, logic abstraction, and prop manipulation.",
+      "questions": [
+        {
+          "q": "What is a Higher-Order Component (HOC) in React?",
+          "a": "A Higher-Order Component (HOC) is a function that takes a component as an argument and returns a new, enhanced component. It's a pattern for reusing component logic.",
+          "p": [
+            "Function that takes a component.",
+            "Returns a new, enhanced component.",
+            "Used for logic reuse."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "What are some common use cases for HOCs?",
+          "a": "Common use cases include: adding authentication, managing component state, applying styling, and handling logging or error reporting. They help avoid code duplication.",
+          "p": [
+            "Authentication.",
+            "State management.",
+            "Styling.",
+            "Logging/Error handling."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Can you provide a simple example of how an HOC might be used for authentication?",
+          "a": "An HOC could wrap a component and check if a user is authenticated. If authenticated, the component is rendered; otherwise, a login page is displayed. This centralizes authentication logic.",
+          "p": [
+            "Wrap component.",
+            "Check authentication status.",
+            "Render component or login page."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "What are the benefits of using HOCs?",
+          "a": "HOCs promote code reuse, improve component composition, and allow for cleaner, more maintainable code by separating concerns. They help in avoiding repetitive logic in multiple components.",
+          "p": [
+            "Code reuse.",
+            "Improved composition.",
+            "Separation of concerns."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "What are some potential drawbacks of using HOCs?",
+          "a": "HOCs can make debugging more complex due to the added layer of abstraction. They can also lead to prop name collisions if not carefully managed. Excessive nesting can also reduce readability.",
+          "p": [
+            "Debugging complexity.",
+            "Prop name collisions.",
+            "Nesting issues."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "How do HOCs differ from React Hooks in terms of code reuse?",
+          "a": "HOCs wrap components, while Hooks are functions that let you 'hook into' React state and lifecycle features from function components. Hooks are generally considered a more modern and flexible approach for code reuse.",
+          "p": [
+            "HOCs wrap components.",
+            "Hooks are functions.",
+            "Hooks are more modern."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Redux? Explain the core principles (store, actions, reducers) and how it is used for state management in React applications.",
+      "meaning": "Technical summary of What is Redux? Explain the core principles (store, actions, reducers) and how it is used for state management in React applications.",
+      "questions": [
+        {
+          "q": "What is Redux?",
+          "a": "Redux is a predictable state container for JavaScript apps. It helps manage the application's state in a single, immutable store, making it easier to understand, debug, and test. It's commonly used with React, but can be used with other frameworks as well.",
+          "p": [
+            "Predictable state container.",
+            "Single source of truth.",
+            "Manage application state."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "Explain the core principles of Redux: Store, Actions, and Reducers.",
+          "a": "The Store holds the application's state. Actions are plain JavaScript objects that describe an event that occurred. Reducers are pure functions that take the previous state and an action, and return the new state.",
+          "p": [
+            "Store: Holds application state.",
+            "Actions: Describe events.",
+            "Reducers: Update state based on actions."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "What is the purpose of actions in Redux?",
+          "a": "Actions are plain JavaScript objects that carry information from your application to your Redux store. They are the only way to trigger a state change. Actions must have a 'type' property that indicates the type of action being performed.",
+          "p": [
+            "Carry information to the store.",
+            "Trigger state changes.",
+            "Must have a 'type' property."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "What is the role of reducers in Redux?",
+          "a": "Reducers are pure functions that specify how the application's state changes in response to an action. They take the previous state and an action as arguments, and return the next state. It's important that reducers are pure functions, meaning they should not have side effects.",
+          "p": [
+            "Specify how state changes.",
+            "Pure functions.",
+            "Return the next state."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "How does Redux help with state management in React applications?",
+          "a": "Redux provides a centralized store for the application's state, making it easier to manage and share state between components. React components can subscribe to the store and update their views whenever the state changes. This helps avoid prop drilling and makes state management more predictable.",
+          "p": [
+            "Centralized state management.",
+            "Share state between components.",
+            "Avoid prop drilling."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "What is the purpose of the `dispatch` function in Redux?",
+          "a": "The `dispatch` function is used to send actions to the Redux store. It's the only way to trigger a state change. When you call `dispatch` with an action, Redux will pass the action to all the reducers, and they will update the state accordingly.",
+          "p": [
+            "Sends actions to the store.",
+            "Triggers state changes.",
+            "Passes action to reducers."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the Context API in React? When would you use it over Redux?",
+      "meaning": "The Context API in React allows you to share data between components without explicitly passing props through every level of the component tree. It's suitable for data that needs to be accessible by many components, like theme settings or user authentication status. Redux, on the other hand, is a more robust state management library for complex applications with frequent state updates and a need for centralized state management.",
+      "questions": [
+        {
+          "q": "What is the Context API in React?",
+          "a": "The Context API provides a way to pass data through the component tree without having to pass props manually at every level. It solves the problem of 'prop drilling' where you have to pass props through many intermediate components that don't need them.",
+          "p": [
+            "Avoids prop drilling.",
+            "Shares data globally.",
+            "Uses Provider and Consumer."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "When would you choose Context API over Redux?",
+          "a": "Context API is a good choice for smaller applications or when dealing with data that isn't updated very frequently, such as theme configurations or user authentication. Redux is better suited for larger, more complex applications with frequent state updates and a need for more advanced state management features.",
+          "p": [
+            "Smaller applications.",
+            "Infrequent updates.",
+            "Simpler state management."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between a Context Provider and a Context Consumer.",
+          "a": "A Context Provider makes the context data available to its descendant components. It accepts a 'value' prop that represents the data you want to share. A Context Consumer is a component that subscribes to context changes and uses the context data. It uses a render prop function to access the context value.",
+          "p": [
+            "Provider: Supplies the data.",
+            "Consumer: Accesses the data.",
+            "Provider wraps components."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "How do you update the context value?",
+          "a": "To update the context value, you need to use state within the Provider component. When the state changes, the context value updates, and all Consumers subscribing to that context will re-render with the new value. This is typically done using the `useState` hook.",
+          "p": [
+            "Use `useState` in Provider.",
+            "Update state to update context.",
+            "Consumers re-render on change."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "What are the limitations of using Context API?",
+          "a": "Context API can cause unnecessary re-renders if the context value changes frequently, even if the consuming component doesn't depend on the changed part of the value. It also lacks some of the advanced features of Redux, such as middleware and devtools support, making debugging more difficult in complex scenarios.",
+          "p": [
+            "Potential for unnecessary re-renders.",
+            "Lacks advanced features like middleware.",
+            "Debugging can be harder."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "Can you provide a basic example of using Context API to share a theme?",
+          "a": "You can create a ThemeContext, a ThemeProvider component that holds the theme state, and then wrap your application with the ThemeProvider. Components can then use the useContext hook to access the current theme value and apply styles accordingly. The ThemeProvider would use useState to manage the theme and provide a function to toggle between light and dark themes.",
+          "p": [
+            "Create a ThemeContext.",
+            "Use ThemeProvider to wrap app.",
+            "Access theme with useContext."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the purpose of `useEffect` hook and how to use it for fetching data.",
+      "meaning": "The `useEffect` hook in React allows you to perform side effects in functional components. Side effects include data fetching, subscriptions, manually changing the DOM, and more. It combines the functionality of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components.",
+      "questions": [
+        {
+          "q": "What is the purpose of the `useEffect` hook in React?",
+          "a": "The `useEffect` hook is used to perform side effects in functional components. These side effects can include data fetching, DOM manipulation, setting up subscriptions, and more. It essentially allows you to manage lifecycle events within functional components.",
+          "p": [
+            "Manages side effects.",
+            "Functional component lifecycle.",
+            "Data fetching, DOM updates."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_0"
+        },
+        {
+          "q": "How do you use `useEffect` to fetch data?",
+          "a": "To fetch data with `useEffect`, you provide an asynchronous function inside the hook. This function makes the API call using `fetch` or a library like `axios`.  The fetched data is then used to update the component's state, triggering a re-render.  An empty dependency array `[]` ensures the effect runs only once after the initial render.",
+          "p": [
+            "Async function inside `useEffect`.",
+            "Use `fetch` or `axios`.",
+            "Update state with fetched data.",
+            "Empty dependency array `[]` for initial render."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_1"
+        },
+        {
+          "q": "What is the dependency array in `useEffect` and why is it important?",
+          "a": "The dependency array is the second argument to `useEffect`. It's an array of values that the effect depends on. If any of these values change between renders, the effect will re-run. An empty array `[]` means the effect runs only once, after the initial render. Omitting the array causes the effect to run after every render, which can lead to performance issues or infinite loops.",
+          "p": [
+            "Second argument to `useEffect`.",
+            "Effect re-runs if dependencies change.",
+            "`[]` runs once after initial render.",
+            "Omission causes re-run on every render."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_2"
+        },
+        {
+          "q": "What happens if you don't provide a dependency array to `useEffect`?",
+          "a": "If you don't provide a dependency array, the `useEffect` hook will run after every render of the component. This can lead to performance issues, infinite loops (especially if the effect updates state), and unexpected behavior. It's generally best practice to always provide a dependency array, even if it's empty.",
+          "p": [
+            "Runs after every render.",
+            "Potential performance issues.",
+            "Risk of infinite loops.",
+            "Always provide a dependency array."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_3"
+        },
+        {
+          "q": "How can you prevent `useEffect` from running on every render?",
+          "a": "You can prevent `useEffect` from running on every render by providing a dependency array. If you want the effect to run only once after the initial render, provide an empty dependency array `[]`. If the effect depends on certain props or state values, include those values in the dependency array. The effect will then only re-run when those dependencies change.",
+          "p": [
+            "Use a dependency array.",
+            "`[]` for initial render only.",
+            "List dependencies if needed.",
+            "Effect re-runs on dependency change."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_4"
+        },
+        {
+          "q": "Can you explain how to clean up resources within a `useEffect` hook?",
+          "a": "To clean up resources, `useEffect` can return a function. This function will be executed when the component unmounts or before the effect re-runs due to dependency changes. This is useful for canceling subscriptions, clearing timers, or removing event listeners to prevent memory leaks.",
+          "p": [
+            "Return a function from `useEffect`.",
+            "Cleanup on unmount or before re-run.",
+            "Cancel subscriptions, clear timers.",
+            "Prevent memory leaks."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Exp_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are some common techniques for optimizing React application performance?",
+      "meaning": "React application performance optimization involves strategies to improve rendering speed, reduce unnecessary re-renders, and enhance the overall user experience. Common techniques include memoization, code splitting, lazy loading, and efficient state management.",
+      "questions": [
+        {
+          "q": "What is memoization in React, and how does it improve performance?",
+          "a": "Memoization is a technique to cache the results of expensive function calls and return the cached result when the same inputs occur again. In React, `React.memo` is a higher-order component that memoizes a functional component, preventing re-renders if the props haven't changed.",
+          "p": [
+            "Cache function results.",
+            "Avoid re-renders with unchanged props.",
+            "Use `React.memo`."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_0"
+        },
+        {
+          "q": "Explain the concept of code splitting and its benefits in React.",
+          "a": "Code splitting is dividing the application's code into smaller chunks, which are loaded on demand. This reduces the initial load time of the application, as the browser only downloads the code required for the current view. React provides tools like `React.lazy` and `Suspense` to implement code splitting.",
+          "p": [
+            "Divide code into smaller chunks.",
+            "Load code on demand.",
+            "Reduce initial load time."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_1"
+        },
+        {
+          "q": "What is lazy loading, and how can it be implemented in React?",
+          "a": "Lazy loading is a technique where resources (like images or components) are loaded only when they are needed or about to be visible. In React, `React.lazy` can be used to lazy load components, and `IntersectionObserver` can be used to lazy load images or other resources as they come into the viewport.",
+          "p": [
+            "Load resources when needed.",
+            "Use `React.lazy` for components.",
+            "Use `IntersectionObserver` for images."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_2"
+        },
+        {
+          "q": "How does using keys in React lists improve performance?",
+          "a": "Keys help React identify which items in a list have changed, been added, or been removed. Without keys, React may re-render the entire list when an item changes. Using unique and stable keys allows React to efficiently update only the necessary elements, improving performance.",
+          "p": [
+            "Identify list items efficiently.",
+            "Avoid unnecessary re-renders.",
+            "Use unique and stable keys."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_3"
+        },
+        {
+          "q": "What are some common causes of performance bottlenecks in React applications?",
+          "a": "Common causes include unnecessary re-renders of components, inefficient data structures, large component trees, and performing heavy computations in the render function. Identifying and addressing these bottlenecks can significantly improve performance.",
+          "p": [
+            "Unnecessary re-renders.",
+            "Inefficient data structures.",
+            "Large component trees."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_4"
+        },
+        {
+          "q": "Explain how to use the React Profiler to identify performance issues.",
+          "a": "The React Profiler is a tool that helps identify performance bottlenecks in React applications. It records how long it takes for components to render and update, allowing developers to pinpoint slow components and optimize them. It's available in React DevTools.",
+          "p": [
+            "Identify slow components.",
+            "Record rendering times.",
+            "Use React DevTools."
+          ],
+          "level": "Easy",
+          "id": "reactjs_easy_Wha_5"
+        }
+      ]
+    }
+  ]
+}

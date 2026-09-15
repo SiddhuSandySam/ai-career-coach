@@ -1,0 +1,168 @@
+{
+  "lastSyncedAt": "2026-09-15T07:20:17.658Z",
+  "totalSkills": 6,
+  "skills": [
+    {
+      "id": "general",
+      "name": "General",
+      "category": "Tech",
+      "questions": [
+        {
+          "q": "What are the four pillars of Object-Oriented Programming (OOP)?",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Encapsulation.",
+          "level": "Easy"
+        },
+        {
+          "q": "What is Inheritance?",
+          "level": "Easy"
+        },
+        {
+          "q": "What is Polymorphism?",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Abstraction.",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "jpa",
+      "name": "JPA",
+      "category": "Tech",
+      "questions": [
+        {
+          "q": "What is JPA (Java Persistence API)?",
+          "level": "Easy"
+        },
+        {
+          "q": "What problem does JPA solve?",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the difference between JPA and Hibernate.",
+          "level": "Easy"
+        },
+        {
+          "q": "What are the key components of JPA?",
+          "level": "Easy"
+        },
+        {
+          "q": "What is the purpose of the `@Entity` annotation in JPA?",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "plsql",
+      "name": "plsql",
+      "category": "Tech",
+      "questions": [
+        {
+          "q": "What is PL/SQL?",
+          "level": "Easy"
+        },
+        {
+          "q": "What are the main advantages of using PL/SQL?",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the basic structure of a PL/SQL block.",
+          "level": "Easy"
+        },
+        {
+          "q": "What are stored procedures in PL/SQL?",
+          "level": "Easy"
+        },
+        {
+          "q": "What are triggers in PL/SQL?",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "reactjs",
+      "name": "React.js",
+      "category": "Tech",
+      "questions": [
+        {
+          "q": "What is JSX?",
+          "level": "Easy"
+        },
+        {
+          "q": "How does JSX differ from HTML?",
+          "level": "Easy"
+        },
+        {
+          "q": "Can you embed JavaScript expressions within JSX?",
+          "level": "Easy"
+        },
+        {
+          "q": "Why do we use `className` instead of `class` in JSX?",
+          "level": "Easy"
+        },
+        {
+          "q": "What happens to JSX code before it runs in the browser?",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "springboot",
+      "name": "spring boot",
+      "category": "Tech",
+      "questions": [
+        {
+          "q": "What is Spring Boot?",
+          "level": "Easy"
+        },
+        {
+          "q": "What are the advantages of using Spring Boot?",
+          "level": "Easy"
+        },
+        {
+          "q": "What is auto-configuration in Spring Boot?",
+          "level": "Easy"
+        },
+        {
+          "q": "What are Spring Boot Starters?",
+          "level": "Easy"
+        },
+        {
+          "q": "How do you create a Spring Boot project?",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "sql",
+      "category": "Tech",
+      "questions": [
+        {
+          "q": "What is SQL?",
+          "level": "Easy"
+        },
+        {
+          "q": "What are the main types of SQL commands?",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the difference between `DELETE` and `TRUNCATE` commands.",
+          "level": "Easy"
+        },
+        {
+          "q": "What is a primary key?",
+          "level": "Easy"
+        },
+        {
+          "q": "What is a foreign key?",
+          "level": "Easy"
+        }
+      ]
+    }
+  ]
+}

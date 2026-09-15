@@ -1,0 +1,2627 @@
+{
+  "skillId": "sql",
+  "skillName": "sql",
+  "questionCount": 211,
+  "concepts": [
+    {
+      "meaning": "SQL (Structured Query Language) is a standard programming language used for managing and manipulating relational databases. It allows users to interact with databases to retrieve, insert, update, and delete data. SQL is essential for data management and analysis.",
+      "conceptName": "What is SQL?",
+      "questions": [
+        {
+          "level": "Easy",
+          "id": "sql_easy_Wha_0",
+          "p": [
+            "Standard language for database interaction.",
+            "Used to manage relational databases.",
+            "Enables data retrieval, insertion, updating, and deletion."
+          ],
+          "q": "What is SQL?",
+          "a": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS)."
+        },
+        {
+          "p": [
+            "DDL: Defines database schema (e.g., CREATE, ALTER).",
+            "DML: Manipulates data (e.g., INSERT, UPDATE).",
+            "DCL: Controls data access (e.g., GRANT, REVOKE)."
+          ],
+          "a": "The main types of SQL commands are Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), and Data Query Language (DQL). DDL defines the database schema, DML manipulates data, DCL controls access, and DQL retrieves data.",
+          "id": "sql_easy_Wha_1",
+          "level": "Easy",
+          "q": "What are the main types of SQL commands?"
+        },
+        {
+          "level": "Easy",
+          "q": "Explain the difference between `DELETE` and `TRUNCATE` commands.",
+          "id": "sql_easy_Wha_2",
+          "a": "`DELETE` removes specific rows from a table based on a condition, and it can be rolled back. `TRUNCATE` removes all rows from a table, resets the identity (auto-increment) column, and cannot be rolled back. `TRUNCATE` is faster.",
+          "p": [
+            "DELETE: Removes specific rows, can be rolled back.",
+            "TRUNCATE: Removes all rows, resets identity, faster.",
+            "TRUNCATE: Cannot be rolled back."
+          ]
+        },
+        {
+          "q": "What is a primary key?",
+          "a": "A primary key is a column or a set of columns in a table that uniquely identifies each row in that table. It must contain unique values and cannot contain NULL values. A table can have only one primary key.",
+          "level": "Easy",
+          "p": [
+            "Uniquely identifies each row in a table.",
+            "Must contain unique values.",
+            "Cannot contain NULL values."
+          ],
+          "id": "sql_easy_Wha_3"
+        },
+        {
+          "p": [
+            "Links two tables together.",
+            "Refers to the primary key of another table.",
+            "Enforces referential integrity."
+          ],
+          "level": "Easy",
+          "a": "A foreign key is a column or a set of columns in one table that refers to the primary key of another table. It establishes a link between the two tables, enforcing referential integrity.",
+          "q": "What is a foreign key?",
+          "id": "sql_easy_Wha_4"
+        },
+        {
+          "p": [
+            "Filters records in a query.",
+            "Specifies a condition.",
+            "Only rows meeting the condition are returned."
+          ],
+          "a": "The `WHERE` clause is used to filter records in a SQL query. It specifies a condition that records must meet to be included in the result set. Only rows that satisfy the condition are returned.",
+          "id": "sql_easy_Wha_5",
+          "level": "Easy",
+          "q": "What is the purpose of the `WHERE` clause?"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are the different types of SQL statements?",
+      "questions": [
+        {
+          "id": "sql_easy_Wha_0",
+          "p": [
+            "DDL: Define schema",
+            "DML: Manipulate data",
+            "DCL: Control access",
+            "DQL: Query data"
+          ],
+          "q": "What are the four main categories of SQL statements?",
+          "level": "Easy",
+          "a": "The four main categories are: Data Definition Language (DDL), used to define the database schema; Data Manipulation Language (DML), used to manipulate data within the database; Data Control Language (DCL), used to control access to the database; and Data Query Language (DQL), used to query the database."
+        },
+        {
+          "a": "DDL stands for Data Definition Language. It's used to define and manage the structure of a database. Examples include CREATE TABLE (to create a new table), ALTER TABLE (to modify an existing table), and DROP TABLE (to delete a table).",
+          "id": "sql_easy_Wha_1",
+          "level": "Easy",
+          "p": [
+            "DDL: Data Definition Language",
+            "CREATE TABLE: Creates a table",
+            "ALTER TABLE: Modifies a table",
+            "DROP TABLE: Deletes a table"
+          ],
+          "q": "What is DDL and can you give some examples of DDL statements?"
+        },
+        {
+          "p": [
+            "DML: Data Manipulation Language",
+            "INSERT: Adds data",
+            "UPDATE: Modifies data",
+            "DELETE: Removes data"
+          ],
+          "level": "Easy",
+          "id": "sql_easy_Wha_2",
+          "a": "DML stands for Data Manipulation Language. It's used to manipulate the data stored in a database. Examples include INSERT (to add new data), UPDATE (to modify existing data), and DELETE (to remove data).",
+          "q": "What is DML and can you give some examples of DML statements?"
+        },
+        {
+          "id": "sql_easy_Wha_3",
+          "level": "Easy",
+          "a": "DQL stands for Data Query Language. It's used to retrieve data from a database. The primary DQL statement is SELECT, which allows you to specify the columns and conditions for retrieving data.",
+          "p": [
+            "DQL: Data Query Language",
+            "SELECT: Retrieves data",
+            "Specifies columns and conditions"
+          ],
+          "q": "What is DQL and what is the primary DQL statement?"
+        },
+        {
+          "a": "DCL stands for Data Control Language. It's used to control access to data within a database. Examples include GRANT (to give users access privileges) and REVOKE (to remove access privileges).",
+          "id": "sql_easy_Wha_4",
+          "q": "What is DCL and can you give some examples of DCL statements?",
+          "level": "Easy",
+          "p": [
+            "DCL: Data Control Language",
+            "GRANT: Gives access",
+            "REVOKE: Removes access"
+          ]
+        },
+        {
+          "a": "DELETE is a DML statement that removes specific rows from a table based on a condition. TRUNCATE is a DDL statement that removes all rows from a table, effectively resetting the table. TRUNCATE is faster than DELETE and cannot be rolled back.",
+          "id": "sql_easy_Wha_5",
+          "level": "Easy",
+          "q": "Explain the difference between DELETE and TRUNCATE statements.",
+          "p": [
+            "DELETE: DML, removes specific rows",
+            "TRUNCATE: DDL, removes all rows",
+            "TRUNCATE is faster",
+            "TRUNCATE cannot be rolled back"
+          ]
+        }
+      ],
+      "meaning": "SQL statements are categorized into several types based on their function. The main categories are Data Definition Language (DDL), Data Manipulation Language (DML), Data Control Language (DCL), and Data Query Language (DQL). Understanding these categories is crucial for database management and interaction."
+    },
+    {
+      "meaning": "The WHERE clause filters rows before grouping, while the HAVING clause filters groups after aggregation.",
+      "questions": [
+        {
+          "level": "Easy",
+          "id": "sql_easy_Exp_0",
+          "q": "What is the primary difference between the WHERE and HAVING clauses in SQL?",
+          "p": [
+            "WHERE filters before GROUP BY.",
+            "HAVING filters after GROUP BY.",
+            "WHERE filters rows; HAVING filters groups."
+          ],
+          "a": "The WHERE clause filters rows before any grouping occurs, operating on individual rows. The HAVING clause filters groups after the GROUP BY clause has been applied and aggregations have been calculated. WHERE filters individual records; HAVING filters groups."
+        },
+        {
+          "q": "Can you use a WHERE clause with aggregate functions?",
+          "id": "sql_easy_Exp_1",
+          "level": "Easy",
+          "p": [
+            "WHERE cannot use aggregate functions directly.",
+            "Use HAVING to filter based on aggregate functions.",
+            "WHERE filters before aggregation."
+          ],
+          "a": "No, you cannot directly use aggregate functions (like SUM, AVG, COUNT) in a WHERE clause. The WHERE clause operates on individual rows before aggregation. To filter based on aggregated values, you must use the HAVING clause."
+        },
+        {
+          "a": "You would use a HAVING clause when you need to filter based on the result of an aggregate function. For example, if you want to select departments where the average salary is greater than a certain value, you would use HAVING after grouping by department.",
+          "level": "Easy",
+          "q": "When would you use a HAVING clause instead of a WHERE clause?",
+          "id": "sql_easy_Exp_2",
+          "p": [
+            "Use HAVING to filter aggregated results.",
+            "Example: Average salary > X.",
+            "Requires GROUP BY."
+          ]
+        },
+        {
+          "p": [
+            "WHERE and HAVING can be used together.",
+            "WHERE filters rows, HAVING filters groups.",
+            "WHERE executes before HAVING."
+          ],
+          "id": "sql_easy_Exp_3",
+          "q": "Is it possible to use a WHERE clause and a HAVING clause in the same SQL query?",
+          "level": "Easy",
+          "a": "Yes, it is possible and often useful. The WHERE clause filters individual rows before grouping, and the HAVING clause filters the resulting groups after aggregation. This allows for more precise filtering of data."
+        },
+        {
+          "p": [
+            "WHERE filters salary > 50000.",
+            "GROUP BY department.",
+            "HAVING filters COUNT(*) > 5."
+          ],
+          "q": "Give a simple example demonstrating the use of both WHERE and HAVING clauses.",
+          "level": "Easy",
+          "id": "sql_easy_Exp_4",
+          "a": "Consider a table 'employees' with columns 'department' and 'salary'. To find departments with more than 5 employees earning over 50000, you'd use: `SELECT department FROM employees WHERE salary > 50000 GROUP BY department HAVING COUNT(*) > 5;`"
+        }
+      ],
+      "conceptName": "Explain the difference between WHERE and HAVING clauses."
+    },
+    {
+      "questions": [
+        {
+          "a": "A primary key is a column or a set of columns in a table that uniquely identifies each row in that table. It must contain unique values and cannot contain null values. A table can have only one primary key.",
+          "level": "Easy",
+          "q": "What is a primary key?",
+          "id": "sql_easy_Wha_0",
+          "p": [
+            "Uniquely identifies rows.",
+            "Cannot contain nulls.",
+            "Only one per table."
+          ]
+        },
+        {
+          "p": [
+            "Links to primary key of another table.",
+            "Enforces referential integrity.",
+            "Can contain duplicates/nulls."
+          ],
+          "id": "sql_easy_Wha_1",
+          "a": "A foreign key is a column or a set of columns in one table that refers to the primary key in another table. It establishes a link between the two tables, enforcing referential integrity. It can contain duplicate values and null values.",
+          "q": "What is a foreign key?",
+          "level": "Easy"
+        },
+        {
+          "level": "Easy",
+          "a": "A primary key uniquely identifies records within a table, ensuring no two records are the same. A foreign key, on the other hand, establishes a link between two tables by referencing the primary key of another table. Primary keys ensure uniqueness within a table, while foreign keys maintain relationships between tables.",
+          "q": "Explain the difference between a primary key and a foreign key.",
+          "id": "sql_easy_Wha_2",
+          "p": [
+            "Primary Key: Unique identifier in a table.",
+            "Foreign Key: Links tables, references primary key.",
+            "Primary Key: Enforces uniqueness.",
+            "Foreign Key: Enforces relationships."
+          ]
+        },
+        {
+          "q": "What is referential integrity, and how do primary and foreign keys help enforce it?",
+          "id": "sql_easy_Wha_3",
+          "p": [
+            "Ensures consistent relationships.",
+            "Foreign key values must exist as primary keys.",
+            "Prevents orphaned records."
+          ],
+          "a": "Referential integrity ensures that relationships between tables remain consistent. Foreign keys enforce it by ensuring that a foreign key value must either match an existing primary key value in the related table or be null. This prevents orphaned records and maintains data consistency.",
+          "level": "Easy"
+        },
+        {
+          "q": "Can a table have multiple foreign keys?",
+          "a": "Yes, a table can have multiple foreign keys. Each foreign key can reference a different primary key in another table, allowing a table to participate in multiple relationships with other tables.",
+          "id": "sql_easy_Wha_4",
+          "level": "Easy",
+          "p": [
+            "Yes, a table can have multiple foreign keys.",
+            "Each foreign key references a different table.",
+            "Enables multiple relationships."
+          ]
+        },
+        {
+          "id": "sql_easy_Wha_5",
+          "q": "What happens if you try to insert a row into a table with a foreign key that doesn't match any primary key in the related table?",
+          "level": "Easy",
+          "p": [
+            "Insertion will be rejected.",
+            "Violates referential integrity.",
+            "Prevents orphaned records."
+          ],
+          "a": "If you attempt to insert a row with a foreign key value that does not exist as a primary key value in the referenced table, the database will typically reject the insertion. This is because it violates referential integrity. The database enforces this constraint to prevent orphaned records."
+        }
+      ],
+      "meaning": "Primary and foreign keys are fundamental concepts in relational database design. A primary key uniquely identifies each record in a table, ensuring data integrity. A foreign key establishes a link between data in two tables, enforcing referential integrity.",
+      "conceptName": "What are primary and foreign keys?"
+    },
+    {
+      "conceptName": "What is normalization and why is it important?",
+      "questions": [
+        {
+          "a": "Database normalization is the process of organizing data in a database to minimize redundancy and dependency. It usually involves dividing a database into two or more tables and defining relationships between the tables. The goal is to isolate data so that amendments of an attribute can be made in just one table.",
+          "id": "sql_easy_Wha_0",
+          "p": [
+            "Organizing data to reduce redundancy.",
+            "Dividing databases into tables.",
+            "Defining relationships between tables.",
+            "Improving data integrity."
+          ],
+          "q": "What is database normalization?",
+          "level": "Easy"
+        },
+        {
+          "id": "sql_easy_Wha_1",
+          "level": "Easy",
+          "p": [
+            "Reduces data redundancy.",
+            "Eliminates data anomalies.",
+            "Improves data integrity.",
+            "Simplifies data management."
+          ],
+          "q": "Why is database normalization important?",
+          "a": "Normalization is important because it reduces data redundancy, eliminates data anomalies (insertion, update, and deletion anomalies), improves data integrity, and simplifies data management. It also helps in optimizing query performance and database storage space."
+        },
+        {
+          "p": [
+            "1NF: Eliminate repeating groups.",
+            "2NF: Eliminate redundant data.",
+            "3NF: Eliminate columns not dependent on the primary key."
+          ],
+          "level": "Easy",
+          "q": "What are the first three normal forms (1NF, 2NF, 3NF)?",
+          "a": "1NF: Eliminate repeating groups by creating separate tables for each set of related attributes and identify each row with a primary key.\n2NF: Be in 1NF and eliminate redundant data by removing attributes dependent on only part of the primary key to another table.\n3NF: Be in 2NF and eliminate columns not dependent on the primary key.",
+          "id": "sql_easy_Wha_2"
+        },
+        {
+          "q": "Explain the term 'functional dependency' in the context of database normalization.",
+          "id": "sql_easy_Wha_3",
+          "a": "Functional dependency means that the value of one attribute (or a set of attributes) uniquely determines the value of another attribute. For example, if 'EmployeeID' determines 'EmployeeName', then 'EmployeeName' is functionally dependent on 'EmployeeID'.",
+          "level": "Easy",
+          "p": [
+            "One attribute determines another.",
+            "Uniquely identifies a value.",
+            "Example: EmployeeID determines EmployeeName."
+          ]
+        },
+        {
+          "q": "What is a primary key, and how does it relate to normalization?",
+          "level": "Easy",
+          "id": "sql_easy_Wha_4",
+          "p": [
+            "Unique identifier for each record.",
+            "Ensures unique identification.",
+            "Crucial for table relationships.",
+            "Ensures data integrity."
+          ],
+          "a": "A primary key is a unique identifier for each record in a table. It ensures that each row is uniquely identifiable. In normalization, defining a primary key is crucial for establishing relationships between tables and ensuring data integrity."
+        },
+        {
+          "q": "What are some potential drawbacks of over-normalization?",
+          "p": [
+            "Increased complexity.",
+            "More joins required.",
+            "Potential performance impact.",
+            "Harder to maintain."
+          ],
+          "a": "Over-normalization can lead to increased complexity in database design, requiring more joins to retrieve data, which can negatively impact query performance. It can also make the database harder to understand and maintain.",
+          "level": "Easy",
+          "id": "sql_easy_Wha_5"
+        }
+      ],
+      "meaning": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing databases into tables and defining relationships between the tables. This helps to isolate data so that amendments to a field can be made in just one table."
+    },
+    {
+      "conceptName": "Explain the different normal forms (1NF, 2NF, 3NF).",
+      "meaning": "Normalization is organizing data in a database to reduce redundancy and improve data integrity. Normal forms are guidelines for ensuring databases are structured efficiently.",
+      "questions": [
+        {
+          "q": "What is 1NF (First Normal Form)?",
+          "a": "1NF requires that each column in a table contains only atomic values (indivisible). There should be no repeating groups of columns. Each row should have a primary key.",
+          "id": "sql_easy_Exp_0",
+          "p": [
+            "Atomic values in columns",
+            "No repeating groups",
+            "Primary key defined"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is 2NF (Second Normal Form)?",
+          "p": [
+            "Must be in 1NF",
+            "No partial dependencies",
+            "Non-key attributes depend on the whole key"
+          ],
+          "level": "Easy",
+          "a": "2NF builds on 1NF. A table is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the entire primary key. This means no partial dependencies.",
+          "id": "sql_easy_Exp_1"
+        },
+        {
+          "q": "What is 3NF (Third Normal Form)?",
+          "id": "sql_easy_Exp_2",
+          "p": [
+            "Must be in 2NF",
+            "No transitive dependencies",
+            "Non-key attributes depend only on the key"
+          ],
+          "a": "3NF builds on 2NF. A table is in 3NF if it is in 2NF and no non-key attribute is transitively dependent on the primary key. This means non-key attributes should not depend on other non-key attributes.",
+          "level": "Easy"
+        },
+        {
+          "id": "sql_easy_Exp_3",
+          "q": "Explain the difference between 2NF and 3NF.",
+          "p": [
+            "2NF: Eliminates partial dependencies",
+            "3NF: Eliminates transitive dependencies",
+            "Focus on dependencies of non-key attributes"
+          ],
+          "a": "2NF eliminates partial dependencies, ensuring non-key attributes depend on the entire primary key. 3NF eliminates transitive dependencies, ensuring non-key attributes depend only on the primary key and not on other non-key attributes.",
+          "level": "Easy"
+        },
+        {
+          "q": "Why is normalization important in database design?",
+          "level": "Easy",
+          "id": "sql_easy_Exp_4",
+          "a": "Normalization reduces data redundancy, which saves storage space and minimizes the risk of inconsistencies. It also improves data integrity by enforcing dependencies and making updates easier to manage.",
+          "p": [
+            "Reduces data redundancy",
+            "Improves data integrity",
+            "Saves storage space"
+          ]
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "id": "sql_easy_Wha_0",
+          "level": "Easy",
+          "a": "An index is a data structure that improves the speed of data retrieval operations on a database table. It's like an index in a book, allowing the database to quickly locate specific rows without scanning the entire table.",
+          "p": [
+            "Speeds up SELECT queries.",
+            "Uses extra storage space.",
+            "Can slow down INSERT, UPDATE, and DELETE operations."
+          ],
+          "q": "What is an index in a database?"
+        },
+        {
+          "p": [
+            "Reduces the amount of data scanned.",
+            "Uses a tree-like structure for fast lookups.",
+            "Avoids full table scans."
+          ],
+          "q": "How does an index improve query performance?",
+          "level": "Easy",
+          "id": "sql_easy_Wha_1",
+          "a": "Indexes improve query performance by allowing the database to quickly locate the rows that match the query criteria. Without an index, the database would have to scan every row in the table, which can be very slow for large tables."
+        },
+        {
+          "level": "Easy",
+          "p": [
+            "B-tree: General purpose, ordered data.",
+            "Hash: Equality lookups.",
+            "Full-text: Text searching."
+          ],
+          "a": "Common index types include B-tree indexes (most common), hash indexes, and full-text indexes. B-tree indexes are suitable for a wide range of queries, while hash indexes are good for equality lookups. Full-text indexes are used for searching text data.",
+          "id": "sql_easy_Wha_2",
+          "q": "What are the common types of indexes?"
+        },
+        {
+          "q": "When should you create an index?",
+          "p": [
+            "Frequently queried columns.",
+            "Columns used in JOINs.",
+            "Columns used for sorting."
+          ],
+          "a": "Create indexes on columns that are frequently used in WHERE clauses, JOIN conditions, or ORDER BY clauses. However, avoid creating too many indexes, as they can slow down write operations (INSERT, UPDATE, DELETE).",
+          "id": "sql_easy_Wha_3",
+          "level": "Easy"
+        },
+        {
+          "q": "What are the potential drawbacks of using indexes?",
+          "p": [
+            "Increased storage space.",
+            "Slower write operations.",
+            "Maintenance overhead."
+          ],
+          "id": "sql_easy_Wha_4",
+          "a": "Indexes consume storage space and can slow down write operations. When data is inserted, updated, or deleted, the indexes also need to be updated, which adds overhead. Therefore, it's important to strike a balance between read and write performance.",
+          "level": "Easy"
+        },
+        {
+          "level": "Easy",
+          "p": [
+            "Clustered: Physical order of data.",
+            "Non-clustered: Pointer to data.",
+            "One clustered index per table."
+          ],
+          "q": "Explain the difference between a clustered and a non-clustered index.",
+          "a": "A clustered index determines the physical order of data in a table. A table can only have one clustered index. Non-clustered indexes, on the other hand, store a pointer to the data row and can have multiple non-clustered indexes per table.",
+          "id": "sql_easy_Wha_5"
+        }
+      ],
+      "conceptName": "What is an index and how does it improve query performance?",
+      "meaning": "Indexes are special lookup tables that the database search engine can use to speed up data retrieval. Simply put, an index is a pointer to data in a table. An index in a database is very similar to an index in the back of a book."
+    },
+    {
+      "conceptName": "Explain the difference between clustered and non-clustered indexes.",
+      "meaning": "Clustered and non-clustered indexes are used to speed up data retrieval in a database. A table can only have one clustered index, which determines the physical order of the data. Non-clustered indexes, on the other hand, are separate structures that point to the data and a table can have multiple non-clustered indexes.",
+      "questions": [
+        {
+          "id": "sql_easy_Exp_0",
+          "p": [
+            "Determines physical order",
+            "One per table",
+            "Faster retrieval"
+          ],
+          "a": "A clustered index determines the physical order of data in a table. A table can only have one clustered index. Because the data is physically sorted, retrieval is generally faster when using the clustered index.",
+          "q": "What is a clustered index?",
+          "level": "Easy"
+        },
+        {
+          "q": "What is a non-clustered index?",
+          "id": "sql_easy_Exp_1",
+          "a": "A non-clustered index is a separate structure that contains a pointer to the data rows. A table can have multiple non-clustered indexes. It's like an index in a book; it points to the location of the data.",
+          "level": "Easy",
+          "p": [
+            "Separate structure",
+            "Multiple per table",
+            "Points to data"
+          ]
+        },
+        {
+          "p": [
+            "Clustered: Physical order",
+            "Non-clustered: Separate structure",
+            "One clustered, multiple non-clustered"
+          ],
+          "q": "Explain the key difference between clustered and non-clustered indexes.",
+          "level": "Easy",
+          "id": "sql_easy_Exp_2",
+          "a": "The primary difference is that a clustered index determines the physical order of the data in a table, while a non-clustered index creates a separate structure that points to the data. A table can have only one clustered index but multiple non-clustered indexes."
+        },
+        {
+          "p": [
+            "Physically sorts data",
+            "Faster range queries",
+            "Reduces full table scans"
+          ],
+          "a": "A clustered index improves query performance by physically sorting the data on disk according to the indexed column(s). This allows for faster retrieval of data within a specified range or order, as the database can efficiently locate the required rows without scanning the entire table.",
+          "q": "How does a clustered index improve query performance?",
+          "level": "Easy",
+          "id": "sql_easy_Exp_3"
+        },
+        {
+          "a": "Too many non-clustered indexes can negatively impact write operations (INSERT, UPDATE, DELETE) because each index needs to be updated whenever the underlying data changes. This can slow down overall database performance, especially for tables with frequent write operations.",
+          "p": [
+            "Slows down write operations",
+            "Index updates on data change",
+            "Impacts overall performance"
+          ],
+          "q": "What are the performance implications of having too many non-clustered indexes?",
+          "level": "Easy",
+          "id": "sql_easy_Exp_4"
+        },
+        {
+          "id": "sql_easy_Exp_5",
+          "q": "When would you choose to use a clustered index over a non-clustered index?",
+          "a": "A clustered index is best used when you frequently query data based on a range of values or when you need to retrieve data in a specific sorted order. It's also beneficial for columns that are often used in JOIN clauses. Non-clustered indexes are suitable for columns frequently used in WHERE clauses but don't require sorted data.",
+          "level": "Easy",
+          "p": [
+            "Clustered: Range queries, sorted order",
+            "Clustered: JOIN columns",
+            "Non-clustered: WHERE clause columns"
+          ]
+        }
+      ]
+    },
+    {
+      "meaning": "Transactions are a sequence of operations performed as a single logical unit of work. They ensure data integrity and consistency by treating multiple SQL statements as one atomic operation. If any part of the transaction fails, the entire transaction is rolled back, preventing partial updates and maintaining data integrity.",
+      "questions": [
+        {
+          "level": "Easy",
+          "a": "A transaction is a sequence of one or more SQL operations treated as a single unit. It ensures that either all operations succeed, or none do, maintaining data consistency.",
+          "id": "sql_easy_Wha_0",
+          "p": [
+            "Logical unit of work",
+            "All or nothing",
+            "Maintains data consistency"
+          ],
+          "q": "What is a transaction in SQL?"
+        },
+        {
+          "id": "sql_easy_Wha_1",
+          "q": "Why are transactions important in database management?",
+          "a": "Transactions are crucial for maintaining data integrity and consistency. They prevent partial updates, ensuring that the database remains in a valid state even if errors occur during a series of operations.",
+          "level": "Easy",
+          "p": [
+            "Data integrity",
+            "Consistency",
+            "Prevents partial updates"
+          ]
+        },
+        {
+          "id": "sql_easy_Wha_2",
+          "a": "ACID stands for Atomicity, Consistency, Isolation, and Durability. Atomicity ensures all operations in a transaction succeed or fail as a whole. Consistency ensures the transaction brings the database from one valid state to another. Isolation ensures concurrent transactions don't interfere with each other. Durability ensures that once a transaction is committed, it remains so, even in the event of a system failure.",
+          "q": "What are the ACID properties of a transaction?",
+          "level": "Easy",
+          "p": [
+            "Atomicity (all or nothing)",
+            "Consistency (valid state)",
+            "Isolation (no interference)",
+            "Durability (persisted changes)"
+          ]
+        },
+        {
+          "level": "Easy",
+          "q": "Explain the difference between `COMMIT` and `ROLLBACK` in the context of transactions.",
+          "a": "`COMMIT` permanently saves all changes made during a transaction to the database. `ROLLBACK` undoes all changes made during a transaction, reverting the database to its state before the transaction began.",
+          "id": "sql_easy_Wha_3",
+          "p": [
+            "COMMIT: Save changes",
+            "ROLLBACK: Undo changes",
+            "Maintain data integrity"
+          ]
+        },
+        {
+          "id": "sql_easy_Wha_4",
+          "q": "What is the purpose of the `BEGIN TRANSACTION` statement?",
+          "a": "The `BEGIN TRANSACTION` statement marks the start of a new transaction. It signals to the database system that all subsequent operations should be treated as part of a single, atomic unit.",
+          "level": "Easy",
+          "p": [
+            "Marks start of transaction",
+            "Defines atomic unit",
+            "Ensures all or nothing"
+          ]
+        },
+        {
+          "p": [
+            "Bank transfer example",
+            "Debit one account",
+            "Credit another account",
+            "Rollback on failure"
+          ],
+          "q": "Can you give an example of a scenario where using transactions is essential?",
+          "id": "sql_easy_Wha_5",
+          "level": "Easy",
+          "a": "Consider transferring funds between two bank accounts. The transaction would involve debiting one account and crediting another. If either operation fails, the entire transaction should be rolled back to prevent money from being lost or created."
+        }
+      ],
+      "conceptName": "What are transactions and why are they important?"
+    },
+    {
+      "conceptName": "ACID Properties in Database Transactions",
+      "meaning": "ACID properties (Atomicity, Consistency, Isolation, Durability) are a set of principles that guarantee reliable processing of database transactions. They ensure data integrity and consistency even in the event of failures.",
+      "questions": [
+        {
+          "level": "Easy",
+          "id": "sql_easy_Wha_0",
+          "a": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure that database transactions are processed reliably. Atomicity means a transaction is treated as a single, indivisible unit of work. Consistency ensures that a transaction brings the database from one valid state to another. Isolation ensures that concurrent transactions do not interfere with each other. Durability ensures that once a transaction is committed, it remains so, even in the event of power loss or system failures.",
+          "q": "What are ACID properties?",
+          "p": [
+            "Atomicity: All or nothing.",
+            "Consistency: Valid state to valid state.",
+            "Isolation: Transactions are independent.",
+            "Durability: Committed data persists."
+          ]
+        },
+        {
+          "p": [
+            "Transaction is a single unit.",
+            "All operations succeed or fail together.",
+            "Prevents partial updates."
+          ],
+          "level": "Easy",
+          "id": "sql_easy_Wha_1",
+          "a": "Atomicity ensures that a transaction is treated as a single, indivisible unit of work. Either all changes within the transaction are applied successfully, or none are. If any part of the transaction fails, the entire transaction is rolled back, leaving the database in its original state. This prevents partial updates and maintains data integrity.",
+          "q": "Explain Atomicity in the context of database transactions."
+        },
+        {
+          "p": [
+            "Maintains database integrity.",
+            "Adheres to defined rules and constraints.",
+            "Valid state to valid state."
+          ],
+          "level": "Easy",
+          "a": "Consistency ensures that a transaction brings the database from one valid state to another. It maintains database integrity by adhering to defined rules, constraints, and triggers. A transaction cannot violate these rules; otherwise, it will be rolled back to maintain the database's consistent state.",
+          "id": "sql_easy_Wha_2",
+          "q": "What does Consistency mean in ACID properties?"
+        },
+        {
+          "a": "Isolation ensures that concurrent transactions do not interfere with each other. Each transaction should operate as if it were the only transaction running on the database. This is achieved through various isolation levels, which define the degree to which transactions are isolated from each other's changes. Higher isolation levels provide greater protection but can reduce concurrency.",
+          "q": "Describe Isolation in ACID properties.",
+          "level": "Easy",
+          "id": "sql_easy_Wha_3",
+          "p": [
+            "Transactions are independent.",
+            "Prevents interference between transactions.",
+            "Achieved through isolation levels."
+          ]
+        },
+        {
+          "q": "What is Durability in the context of ACID?",
+          "p": [
+            "Committed data is permanent.",
+            "Survives system failures.",
+            "Achieved through transaction logs."
+          ],
+          "level": "Easy",
+          "a": "Durability ensures that once a transaction is committed, the changes are permanent and will survive any subsequent failures, such as power outages or system crashes. This is typically achieved through transaction logs and backup/recovery mechanisms. Once a transaction is committed, the database guarantees that the data will persist.",
+          "id": "sql_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "meaning": "SQL isolation levels control the degree to which concurrent transactions are isolated from each other. Higher isolation levels increase data consistency but can reduce concurrency. They define the extent to which one transaction is affected by the changes made by other concurrent transactions.",
+      "questions": [
+        {
+          "a": "The four standard SQL isolation levels are Read Uncommitted, Read Committed, Repeatable Read, and Serializable. They define the degree to which transactions are isolated from the modifications made by other concurrent transactions.",
+          "q": "What are the four standard SQL isolation levels?",
+          "level": "Easy",
+          "id": "sql_easy_Exp_0",
+          "p": [
+            "Read Uncommitted: Lowest level, allows dirty reads.",
+            "Read Committed: Prevents dirty reads.",
+            "Repeatable Read: Prevents dirty and non-repeatable reads.",
+            "Serializable: Highest level, prevents all concurrency issues."
+          ]
+        },
+        {
+          "p": [
+            "Lowest isolation level.",
+            "Allows 'dirty reads'.",
+            "Reads uncommitted data.",
+            "Not recommended for most applications."
+          ],
+          "q": "Explain the 'Read Uncommitted' isolation level.",
+          "id": "sql_easy_Exp_1",
+          "a": "Read Uncommitted is the lowest isolation level. Transactions can read data that has been modified but not yet committed by other transactions. This can lead to 'dirty reads', where a transaction reads uncommitted changes that are later rolled back.",
+          "level": "Easy"
+        },
+        {
+          "id": "sql_easy_Exp_2",
+          "q": "What is a 'dirty read', and which isolation level prevents it?",
+          "a": "A 'dirty read' occurs when a transaction reads data that has been modified by another transaction but not yet committed. If the modifying transaction rolls back, the reading transaction has read invalid data. The 'Read Committed' isolation level and higher prevent dirty reads.",
+          "level": "Easy",
+          "p": [
+            "Reading uncommitted data.",
+            "Data might be rolled back.",
+            "Leads to inconsistent results.",
+            "Prevented by Read Committed and higher."
+          ]
+        },
+        {
+          "q": "Explain the 'Read Committed' isolation level.",
+          "level": "Easy",
+          "p": [
+            "Prevents dirty reads.",
+            "Reads only committed data.",
+            "Allows non-repeatable reads.",
+            "Commonly used isolation level."
+          ],
+          "a": "Read Committed ensures that a transaction only reads data that has been committed by other transactions. This prevents dirty reads. However, non-repeatable reads are still possible, where a transaction may read different values for the same row during its execution if another transaction commits changes to that row in between.",
+          "id": "sql_easy_Exp_3"
+        },
+        {
+          "id": "sql_easy_Exp_4",
+          "q": "What is a 'non-repeatable read', and which isolation level prevents it?",
+          "a": "A 'non-repeatable read' occurs when a transaction reads the same row multiple times, and the values are different each time because another transaction has committed changes in between. The 'Repeatable Read' isolation level and higher prevent non-repeatable reads.",
+          "p": [
+            "Reading the same row multiple times.",
+            "Values change between reads.",
+            "Due to other committed transactions.",
+            "Prevented by Repeatable Read and higher."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the 'Serializable' isolation level.",
+          "a": "Serializable is the highest isolation level. It ensures that transactions are executed as if they were executed serially, one after another. This prevents dirty reads, non-repeatable reads, and phantom reads. It provides the highest level of data consistency but can reduce concurrency.",
+          "level": "Easy",
+          "p": [
+            "Highest isolation level.",
+            "Prevents all concurrency issues.",
+            "Transactions execute serially.",
+            "Reduces concurrency."
+          ],
+          "id": "sql_easy_Exp_5"
+        }
+      ],
+      "conceptName": "SQL Isolation Levels"
+    },
+    {
+      "questions": [
+        {
+          "q": "What is a stored procedure?",
+          "level": "Easy",
+          "id": "sql_easy_Wha_0",
+          "p": [
+            "Precompiled SQL statements",
+            "Stored in the database",
+            "Executed by name",
+            "Can accept parameters"
+          ],
+          "a": "A stored procedure is a precompiled collection of SQL statements stored within the database. It can be executed by calling its name, similar to invoking a function in a programming language. Stored procedures can accept input parameters and return output values."
+        },
+        {
+          "id": "sql_easy_Wha_1",
+          "q": "What are the advantages of using stored procedures?",
+          "a": "Stored procedures offer several advantages, including reduced network traffic (as only the procedure name is sent), improved performance (due to precompilation), enhanced security (by granting access only to the procedure and not the underlying tables), and code reusability.",
+          "p": [
+            "Reduced network traffic",
+            "Improved performance",
+            "Enhanced security",
+            "Code reusability"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you create a stored procedure?",
+          "a": "The syntax for creating a stored procedure typically involves using the `CREATE PROCEDURE` statement, followed by the procedure name, any input parameters, and the SQL statements to be executed within the procedure. The specific syntax may vary slightly depending on the database system.",
+          "id": "sql_easy_Wha_2",
+          "level": "Easy",
+          "p": [
+            "`CREATE PROCEDURE` statement",
+            "Procedure name",
+            "Input parameters (optional)",
+            "SQL statements"
+          ]
+        },
+        {
+          "p": [
+            "`EXECUTE` or `CALL` statement",
+            "Procedure name",
+            "Input parameters (if any)",
+            "Database-specific syntax"
+          ],
+          "id": "sql_easy_Wha_3",
+          "q": "How do you execute a stored procedure?",
+          "a": "Stored procedures are executed using the `EXECUTE` or `CALL` statement, followed by the procedure name and any required input parameters. The specific command may vary depending on the database system (e.g., `EXEC proc_name` in SQL Server, `CALL proc_name()` in MySQL).",
+          "level": "Easy"
+        },
+        {
+          "level": "Easy",
+          "p": [
+            "`RETURN` statement (single value)",
+            "Output parameters (multiple values)",
+            "Defined in procedure definition",
+            "Values set within the procedure"
+          ],
+          "id": "sql_easy_Wha_4",
+          "q": "Can stored procedures return values?",
+          "a": "Yes, stored procedures can return values. They can return a single value using the `RETURN` statement or multiple values using output parameters. Output parameters are defined in the procedure definition and their values are set within the procedure's code."
+        },
+        {
+          "id": "sql_easy_Wha_5",
+          "p": [
+            "Input: Values passed into the procedure",
+            "Output: Values returned from the procedure",
+            "Output: Send data back to the caller",
+            "Defined in procedure definition"
+          ],
+          "level": "Easy",
+          "q": "What are input and output parameters in a stored procedure?",
+          "a": "Input parameters are values passed into the stored procedure when it is executed. Output parameters are parameters defined in the stored procedure that can return values back to the caller after the procedure has finished executing. They allow the procedure to send data back to the calling application."
+        }
+      ],
+      "meaning": "A stored procedure is a precompiled set of SQL statements stored in a database. It can be executed by name, offering benefits like code reusability, improved performance, and enhanced security.",
+      "conceptName": "What is a stored procedure?"
+    },
+    {
+      "questions": [
+        {
+          "id": "sql_easy_Wha_0",
+          "q": "What is a view in SQL?",
+          "a": "A view is a virtual table based on the result-set of an SQL statement. It doesn't store data physically; instead, it's a stored query that can be treated like a table. Views simplify complex queries and provide a level of abstraction.",
+          "p": [
+            "Virtual table",
+            "Stored query",
+            "No physical data storage"
+          ],
+          "level": "Easy"
+        },
+        {
+          "id": "sql_easy_Wha_1",
+          "level": "Easy",
+          "q": "Why are views used in SQL?",
+          "a": "Views are used to simplify complex queries by encapsulating them, providing data access control by limiting access to certain columns or rows, and offering data independence by shielding applications from changes in the underlying table structure.",
+          "p": [
+            "Simplify complex queries",
+            "Data access control",
+            "Data independence"
+          ]
+        },
+        {
+          "q": "Can you perform DML operations (INSERT, UPDATE, DELETE) on views?",
+          "level": "Easy",
+          "p": [
+            "DML operations possible",
+            "Restrictions apply (single table, no aggregates)",
+            "Affects underlying table"
+          ],
+          "id": "sql_easy_Wha_2",
+          "a": "Yes, you can perform DML operations on views, but with certain restrictions. The view must be based on a single table and not contain aggregate functions, GROUP BY clauses, or DISTINCT keywords. Modifications to the view will affect the underlying table."
+        },
+        {
+          "a": "Views offer several advantages, including simplified query writing, enhanced data security by restricting access to sensitive data, improved data consistency by providing a single point of access, and increased data independence by isolating applications from database schema changes.",
+          "id": "sql_easy_Wha_3",
+          "level": "Easy",
+          "q": "What are the advantages of using views?",
+          "p": [
+            "Simplified queries",
+            "Enhanced security",
+            "Improved consistency",
+            "Increased data independence"
+          ]
+        },
+        {
+          "p": [
+            "Performance limitations",
+            "Updatability restrictions",
+            "Debugging complexity"
+          ],
+          "level": "Easy",
+          "q": "What are the limitations of using views?",
+          "a": "Views can have performance limitations if the underlying query is complex. Also, some views are not updatable, especially those involving joins or aggregations. Debugging can be more difficult as the view hides the underlying complexity.",
+          "id": "sql_easy_Wha_4"
+        },
+        {
+          "a": "A table is a physical storage structure that holds data, while a view is a virtual table based on a query. Tables store data persistently, whereas views only store the query definition. Views do not occupy physical storage space like tables.",
+          "level": "Easy",
+          "id": "sql_easy_Wha_5",
+          "p": [
+            "Table: physical storage",
+            "View: virtual table",
+            "View stores query definition"
+          ],
+          "q": "Explain the difference between a view and a table."
+        }
+      ],
+      "meaning": "Views are virtual tables based on the result-set of an SQL statement. They simplify complex queries, provide data access control, and offer data independence.",
+      "conceptName": "What are views and why are they used?"
+    },
+    {
+      "questions": [
+        {
+          "p": [
+            "INNER JOIN: Matching rows only.",
+            "LEFT JOIN: All from left, matching from right.",
+            "RIGHT JOIN: All from right, matching from left."
+          ],
+          "id": "sql_easy_Exp_0",
+          "q": "What is the difference between INNER JOIN, LEFT JOIN, and RIGHT JOIN in SQL?",
+          "a": "An INNER JOIN returns only the rows where there is a match in both tables based on the join condition. A LEFT JOIN returns all rows from the left table and the matching rows from the right table. If there is no match in the right table, it returns NULL values for the columns of the right table. A RIGHT JOIN returns all rows from the right table and the matching rows from the left table. If there is no match in the left table, it returns NULL values for the columns of the left table.",
+          "level": "Easy"
+        },
+        {
+          "a": "Consider two tables: 'Customers' and 'Orders'. If you want to retrieve all customers and their corresponding orders, even if a customer has not placed any orders, you would use a LEFT JOIN with 'Customers' as the left table. This ensures that all customers are listed, with order details if available, or NULL values if not.",
+          "level": "Easy",
+          "id": "sql_easy_Exp_1",
+          "p": [
+            "Retrieve all records from one table.",
+            "Include matching records from another.",
+            "Handle missing matches gracefully."
+          ],
+          "q": "Can you give an example scenario where you would use a LEFT JOIN?"
+        },
+        {
+          "q": "What happens if the JOIN condition is not met in an INNER JOIN?",
+          "level": "Easy",
+          "a": "If the JOIN condition is not met in an INNER JOIN, the rows from both tables that do not satisfy the condition are excluded from the result set. Only rows that have matching values in the specified columns of both tables are returned.",
+          "id": "sql_easy_Exp_2",
+          "p": [
+            "Rows must match the condition.",
+            "Non-matching rows are excluded.",
+            "Ensures data integrity."
+          ]
+        },
+        {
+          "level": "Easy",
+          "p": [
+            "Use the 'ON' keyword.",
+            "Specify the column relationship.",
+            "Defines the matching criteria."
+          ],
+          "id": "sql_easy_Exp_3",
+          "a": "The JOIN condition is specified using the 'ON' keyword after the JOIN type (INNER, LEFT, RIGHT). The 'ON' keyword is followed by a boolean expression that defines the relationship between the columns of the tables being joined. For example: 'SELECT * FROM TableA INNER JOIN TableB ON TableA.column1 = TableB.column2'.",
+          "q": "How do you specify the JOIN condition in a SQL query?"
+        },
+        {
+          "p": [
+            "Results in Cartesian product.",
+            "Every row combined with every row.",
+            "Avoid unless specifically needed."
+          ],
+          "q": "What is the result if you perform a JOIN operation without specifying any JOIN condition?",
+          "level": "Easy",
+          "a": "If you perform a JOIN operation without specifying a JOIN condition (e.g., using a CROSS JOIN), you will get a Cartesian product of the two tables. This means that every row from the first table will be combined with every row from the second table, resulting in a table with a large number of rows equal to the product of the number of rows in each table.",
+          "id": "sql_easy_Exp_4"
+        }
+      ],
+      "meaning": "SQL JOINs are used to combine rows from two or more tables based on a related column. Different types of JOINs return different sets of rows based on whether there is a match in the joined tables.",
+      "conceptName": "Explain the difference between INNER JOIN, LEFT JOIN, and RIGHT JOIN."
+    },
+    {
+      "meaning": "A subquery is a query nested inside another SQL query. It's used to retrieve data that will be used in the main query as a condition to further restrict the data to be selected.",
+      "questions": [
+        {
+          "level": "Easy",
+          "id": "sql_easy_Wha_0",
+          "a": "A subquery, also known as an inner query or nested query, is a query embedded within another SQL query. It's used to return data that will be used by the main query. Subqueries can appear in the SELECT, FROM, or WHERE clauses.",
+          "q": "What is a subquery?",
+          "p": [
+            "Query within a query.",
+            "Used in SELECT, FROM, WHERE.",
+            "Returns data for main query."
+          ]
+        },
+        {
+          "level": "Easy",
+          "q": "Can you give an example of a subquery used in a WHERE clause?",
+          "id": "sql_easy_Wha_1",
+          "p": [
+            "Used to filter rows.",
+            "Compares values against subquery result.",
+            "Example: salary > (subquery to get average salary)"
+          ],
+          "a": "Certainly. Suppose you want to find all employees who earn more than the average salary. You could use a subquery in the WHERE clause to calculate the average salary and then compare each employee's salary against that average.  `SELECT employee_name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);`"
+        },
+        {
+          "level": "Easy",
+          "p": [
+            "Refers to outer query's table.",
+            "Executes for each row of outer query.",
+            "Dependent on outer query."
+          ],
+          "id": "sql_easy_Wha_2",
+          "q": "What is a correlated subquery?",
+          "a": "A correlated subquery is a subquery that refers to a column from a table in the outer query. It means the subquery is executed once for each row in the outer query. This makes it dependent on the outer query."
+        },
+        {
+          "level": "Easy",
+          "id": "sql_easy_Wha_3",
+          "a": "A subquery is a query nested inside another query, often used to filter data based on a condition. A join combines rows from two or more tables based on a related column. Joins are generally more efficient for combining data from multiple tables, while subqueries are useful for filtering based on the result of another query.",
+          "p": [
+            "Subquery: Query inside a query, often for filtering.",
+            "Join: Combines rows from multiple tables.",
+            "Joins are often more efficient for combining data."
+          ],
+          "q": "What is the difference between a subquery and a join?"
+        },
+        {
+          "p": [
+            "Treated as a table.",
+            "Simplifies complex queries.",
+            "Derives a table with calculated values."
+          ],
+          "id": "sql_easy_Wha_4",
+          "q": "Can a subquery be used in the FROM clause?",
+          "a": "Yes, a subquery can be used in the FROM clause. When used in the FROM clause, the subquery is treated as a table. It's often used to simplify complex queries or to derive a table with calculated values.",
+          "level": "Easy"
+        },
+        {
+          "a": "Subqueries can sometimes be less efficient than equivalent queries using joins, especially correlated subqueries. The database might execute the subquery multiple times. Optimizing the query by using joins or temporary tables can improve performance.",
+          "p": [
+            "Can be less efficient than joins.",
+            "Correlated subqueries can be slow.",
+            "Optimize with joins or temporary tables."
+          ],
+          "level": "Easy",
+          "id": "sql_easy_Wha_5",
+          "q": "What are some potential performance considerations when using subqueries?"
+        }
+      ],
+      "conceptName": "What is a subquery?"
+    },
+    {
+      "questions": [
+        {
+          "id": "sql_easy_How_0",
+          "p": [
+            "Exploits vulnerabilities in database queries.",
+            "Allows unauthorized data access/modification.",
+            "Can lead to complete system compromise."
+          ],
+          "a": "SQL injection is a security vulnerability that allows attackers to interfere with the queries that an application makes to its database. Attackers can view data that they are not normally able to retrieve, modify or delete data, execute arbitrary administration operations on the database, compromise the operating system or file system on which the database server runs, or compromise the application.",
+          "level": "Easy",
+          "q": "What is SQL injection?"
+        },
+        {
+          "q": "How can you prevent SQL injection?",
+          "id": "sql_easy_How_1",
+          "level": "Easy",
+          "p": [
+            "Use parameterized queries/prepared statements.",
+            "Validate and sanitize user input.",
+            "Apply the principle of least privilege to database accounts."
+          ],
+          "a": "The primary way to prevent SQL injection is to use parameterized queries (also known as prepared statements). With parameterized queries, the SQL code is defined first, and then each parameter is passed to the query later. This ensures that user input is always treated as data, not as executable code. Other methods include input validation and escaping."
+        },
+        {
+          "a": "Parameterized queries separate SQL code from data, preventing user input from being interpreted as code. Dynamic SQL constructs SQL queries by concatenating strings, making it vulnerable to SQL injection if user input is not properly sanitized. Parameterized queries are the recommended approach for security.",
+          "level": "Easy",
+          "q": "Explain the difference between parameterized queries and dynamic SQL.",
+          "p": [
+            "Parameterized queries: SQL code and data are separate.",
+            "Dynamic SQL: SQL code is built by string concatenation.",
+            "Parameterized queries are safer."
+          ],
+          "id": "sql_easy_How_2"
+        },
+        {
+          "p": [
+            "Verifies user input against expected formats.",
+            "Rejects or sanitizes invalid data.",
+            "Reduces the attack surface for SQL injection."
+          ],
+          "q": "What is input validation, and how does it help prevent SQL injection?",
+          "id": "sql_easy_How_3",
+          "a": "Input validation involves checking user-supplied data to ensure it conforms to expected formats and values. By validating input, you can reject or sanitize potentially malicious data before it's used in SQL queries. This reduces the risk of attackers injecting harmful code.",
+          "level": "Easy"
+        },
+        {
+          "level": "Easy",
+          "id": "sql_easy_How_4",
+          "q": "What are some common SQL injection attack vectors?",
+          "a": "Common SQL injection attack vectors include user input fields (like login forms, search boxes), URL parameters, and cookies. Attackers often try to inject malicious SQL code into these inputs to manipulate database queries.",
+          "p": [
+            "User input fields (forms, search boxes).",
+            "URL parameters.",
+            "Cookies."
+          ]
+        },
+        {
+          "level": "Easy",
+          "a": "The principle of least privilege means granting users only the minimum necessary permissions to access database resources. This limits the potential damage an attacker can cause if they manage to compromise a user account through SQL injection or other means. If an account has limited privileges, the attacker's ability to manipulate the database is also limited.",
+          "p": [
+            "Grant minimal necessary permissions.",
+            "Limits the impact of compromised accounts.",
+            "Reduces the scope of potential damage."
+          ],
+          "q": "Why is it important to use the principle of least privilege when configuring database access?",
+          "id": "sql_easy_How_5"
+        }
+      ],
+      "meaning": "SQL injection is a code injection technique that exploits security vulnerabilities in an application's software. It occurs when user-supplied input is used to construct SQL queries without proper sanitization or validation, allowing attackers to inject malicious SQL code that can manipulate the database.",
+      "conceptName": "How do you prevent SQL injection?"
+    },
+    {
+      "conceptName": "What is the purpose of the GROUP BY clause?",
+      "meaning": "The GROUP BY clause in SQL is used to group rows that have the same values in one or more columns into a summary row, like finding the total sales for each product category.",
+      "questions": [
+        {
+          "a": "The GROUP BY clause is used to group rows with the same values in one or more columns into summary rows. It's often used with aggregate functions (like COUNT, SUM, AVG, MIN, MAX) to calculate results for each group.",
+          "id": "sql_easy_Wha_0",
+          "q": "What is the purpose of the GROUP BY clause in SQL?",
+          "level": "Easy",
+          "p": [
+            "Groups rows with matching column values.",
+            "Used with aggregate functions.",
+            "Calculates results per group."
+          ]
+        },
+        {
+          "q": "Can you give an example of when you would use GROUP BY?",
+          "id": "sql_easy_Wha_1",
+          "a": "Imagine a table of sales transactions. You might use GROUP BY to find the total sales for each product category. You would group by the 'category' column and use the SUM aggregate function on the 'sales' column.",
+          "level": "Easy",
+          "p": [
+            "Calculate totals per category.",
+            "Analyze sales data.",
+            "Summarize information."
+          ]
+        },
+        {
+          "q": "What aggregate functions are commonly used with GROUP BY?",
+          "p": [
+            "COUNT: Counts rows.",
+            "SUM: Calculates total.",
+            "AVG: Calculates average.",
+            "MIN/MAX: Finds minimum/maximum."
+          ],
+          "level": "Easy",
+          "id": "sql_easy_Wha_2",
+          "a": "Common aggregate functions used with GROUP BY include COUNT (to count rows in each group), SUM (to calculate the sum of values), AVG (to calculate the average), MIN (to find the minimum value), and MAX (to find the maximum value)."
+        },
+        {
+          "level": "Easy",
+          "p": [
+            "Non-aggregated columns must be in GROUP BY.",
+            "Or used in aggregate functions.",
+            "Avoids ambiguity in results."
+          ],
+          "id": "sql_easy_Wha_3",
+          "q": "What happens if you select a non-aggregated column that is not in the GROUP BY clause?",
+          "a": "In most SQL databases, if you select a column that is not part of the GROUP BY clause, it must be used within an aggregate function. Otherwise, the query will result in an error because the database doesn't know which specific value to return for that column within each group."
+        },
+        {
+          "p": [
+            "WHERE filters rows before grouping.",
+            "HAVING filters groups after grouping.",
+            "Different filtering stages."
+          ],
+          "id": "sql_easy_Wha_4",
+          "a": "The WHERE clause filters rows *before* grouping occurs. The HAVING clause filters groups *after* the grouping has been performed. WHERE operates on individual rows, while HAVING operates on groups.",
+          "q": "What is the difference between WHERE and HAVING clauses when using GROUP BY?",
+          "level": "Easy"
+        },
+        {
+          "q": "Can you use multiple columns in a GROUP BY clause?",
+          "level": "Easy",
+          "a": "Yes, you can group by multiple columns. The rows will be grouped based on the combination of values in those columns. This allows for more granular analysis and summarization of data.",
+          "p": [
+            "Group by multiple columns.",
+            "Groups based on value combinations.",
+            "Enables more granular analysis."
+          ],
+          "id": "sql_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "meaning": "Understanding the differences between DELETE, TRUNCATE, and DROP statements is crucial for data manipulation in SQL. Each command serves a distinct purpose, affecting data and table structure differently.",
+      "conceptName": "What is the difference between DELETE, TRUNCATE, and DROP statements?",
+      "questions": [
+        {
+          "q": "What is the difference between DELETE, TRUNCATE, and DROP statements in SQL?",
+          "id": "sql_easy_Wha_0",
+          "a": "DELETE removes specific rows based on a condition, TRUNCATE removes all rows from a table, and DROP removes the entire table (structure and data). DELETE is a DML command, TRUNCATE and DROP are DDL commands. DELETE can be rolled back, TRUNCATE cannot. DROP cannot be rolled back either.",
+          "p": [
+            "DELETE: Removes rows based on condition.",
+            "TRUNCATE: Removes all rows, faster than DELETE.",
+            "DROP: Removes the entire table."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Which of the DELETE, TRUNCATE, and DROP statements can be rolled back?",
+          "level": "Easy",
+          "p": [
+            "DELETE: Rollback possible.",
+            "TRUNCATE: Rollback not possible.",
+            "DROP: Rollback not possible."
+          ],
+          "id": "sql_easy_Wha_1",
+          "a": "Only the DELETE statement can be rolled back. TRUNCATE and DROP are DDL commands and their actions are not typically recoverable through a rollback operation."
+        },
+        {
+          "level": "Easy",
+          "id": "sql_easy_Wha_2",
+          "p": [
+            "DELETE: DML",
+            "TRUNCATE: DDL",
+            "DROP: DDL"
+          ],
+          "a": "DELETE is a Data Manipulation Language (DML) command, while TRUNCATE and DROP are Data Definition Language (DDL) commands.",
+          "q": "Are DELETE, TRUNCATE, and DROP statements DDL or DML commands?"
+        },
+        {
+          "id": "sql_easy_Wha_3",
+          "a": "TRUNCATE is generally faster than DELETE because it deallocates the data pages used by the table, whereas DELETE removes rows one at a time and logs each deletion.",
+          "p": [
+            "TRUNCATE: Faster",
+            "DELETE: Slower, logs each deletion"
+          ],
+          "level": "Easy",
+          "q": "Which statement is faster: DELETE or TRUNCATE?"
+        },
+        {
+          "a": "DELETE only removes rows, leaving the table structure intact. TRUNCATE also only removes rows, keeping the structure. DROP removes the entire table, including its structure.",
+          "id": "sql_easy_Wha_4",
+          "p": [
+            "DELETE: Structure remains.",
+            "TRUNCATE: Structure remains.",
+            "DROP: Structure is removed."
+          ],
+          "level": "Easy",
+          "q": "What happens to the table structure when using DELETE, TRUNCATE, and DROP?"
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "q": "Explain the role of the query optimizer's cost model. How does it estimate the cost of different execution plans, and what metrics are typically considered?",
+          "id": "sql_medium_Que_0",
+          "a": "The cost model estimates the resource consumption (CPU, I/O, memory) of each possible execution plan. It uses statistics about the data (e.g., table sizes, index selectivity) to predict costs. Metrics include I/O operations, CPU cycles, and memory usage. The optimizer chooses the plan with the lowest estimated cost, aiming for the fastest execution.",
+          "level": "Medium",
+          "p": [
+            "Estimates resource usage.",
+            "Uses data statistics.",
+            "Considers I/O, CPU, memory.",
+            "Chooses lowest cost plan."
+          ]
+        },
+        {
+          "q": "Describe the different phases of query optimization, including parsing, rewriting, plan generation, and cost estimation. How do these phases interact to produce an optimal execution plan?",
+          "level": "Medium",
+          "a": "Optimization starts with parsing the SQL query. Rewriting transforms the query into a logically equivalent but potentially more efficient form. Plan generation creates multiple execution plans. Cost estimation evaluates each plan's resource usage. The optimizer selects the lowest-cost plan for execution, ensuring efficient data retrieval.",
+          "id": "sql_medium_Que_1",
+          "p": [
+            "Parsing: SQL syntax check.",
+            "Rewriting: Improves query logic.",
+            "Plan Generation: Creates execution options.",
+            "Cost Estimation: Evaluates resource usage."
+          ]
+        },
+        {
+          "id": "sql_medium_Que_2",
+          "level": "Medium",
+          "p": [
+            "Nested Loop: Simple, slow for large data.",
+            "Hash Join: Memory-intensive, fast for equijoins.",
+            "Merge Join: Requires sorted data, efficient for large sorted data.",
+            "Choice depends on data characteristics."
+          ],
+          "a": "Nested loop joins are simple but inefficient for large datasets. Hash joins require memory to build hash tables but are faster for equijoins. Merge joins require sorted inputs but are efficient for large, sorted datasets. The choice depends on data size, join type, available memory, and whether data is pre-sorted.",
+          "q": "Discuss the trade-offs between different join algorithms (e.g., nested loop, hash join, merge join) in terms of memory usage, CPU cost, and suitability for different data sizes and distributions. When would you choose one over the others?"
+        },
+        {
+          "id": "sql_medium_Que_3",
+          "level": "Medium",
+          "p": [
+            "Correlated subqueries depend on outer query.",
+            "Inefficient due to repeated execution.",
+            "Rewriting as joins (decorrelation).",
+            "Using temporary tables or index lookups."
+          ],
+          "q": "How does the query optimizer handle correlated subqueries? Explain the challenges they pose and the optimization techniques used to improve their performance.",
+          "a": "Correlated subqueries depend on the outer query's values, making them inefficient. Optimization techniques include rewriting them as joins (decorrelation), using temporary tables, or applying specialized index lookups. The goal is to avoid repeated execution of the subquery for each row of the outer query."
+        },
+        {
+          "q": "Explain how statistics are used by the query optimizer and the importance of keeping them up-to-date. What are the potential consequences of using stale statistics?",
+          "level": "Medium",
+          "id": "sql_medium_Que_4",
+          "p": [
+            "Statistics describe data distribution.",
+            "Used for accurate cost estimation.",
+            "Stale statistics lead to poor plans.",
+            "Regular updates are crucial."
+          ],
+          "a": "Statistics provide information about data distribution, enabling the optimizer to estimate costs accurately. Stale statistics lead to incorrect cost estimations, resulting in suboptimal execution plans. This can cause significant performance degradation, such as full table scans instead of index lookups, or inefficient join orders."
+        },
+        {
+          "q": "Describe a scenario where the query optimizer might choose a suboptimal execution plan despite having accurate statistics. What factors could contribute to this, and how would you diagnose and address the issue?",
+          "level": "Medium",
+          "id": "sql_medium_Que_5",
+          "p": [
+            "Optimizer limitations can cause issues.",
+            "Complex queries or hidden dependencies.",
+            "Analyze execution plan and statistics.",
+            "Use hints, indexes, or rewrite query."
+          ],
+          "a": "Optimizer limitations, complex query structures, or hidden data dependencies can lead to suboptimal plans even with accurate statistics. Diagnosis involves analyzing the execution plan, checking for missing indexes, and rewriting the query. Addressing the issue might require query hints, index creation, or restructuring the query."
+        }
+      ],
+      "meaning": "Query optimization is the process a database management system (DBMS) uses to select the most efficient way to execute a SQL query. It involves analyzing different execution plans, estimating their costs based on statistics, and choosing the plan that minimizes resource consumption and execution time. Understanding this process is crucial for database administrators and developers to ensure optimal database performance.",
+      "conceptName": "Query Optimization Deep Dive: Understanding the query optimizer's algorithms, cost models, and plan generation process. Analyzing execution plans and identifying bottlenecks."
+    },
+    {
+      "questions": [
+        {
+          "id": "sql_medium_Ind_0",
+          "p": [
+            "B-trees: Balanced tree structure.",
+            "Fill factor: Space utilization per node.",
+            "Trade-off: Space vs. Write performance."
+          ],
+          "a": "B-trees are self-balancing tree structures. Each node contains keys and pointers to child nodes. Retrieval involves traversing the tree to locate the desired key. Fill factor determines the space utilization of each node. A lower fill factor reduces node splits during insertions but increases index size and potentially read I/O. Higher fill factor improves space utilization but increases node splits, impacting write performance.",
+          "q": "Explain the internal structure of a B-tree index and how it facilitates efficient data retrieval. How does the fill factor affect its performance, and what are the trade-offs?",
+          "level": "Medium"
+        },
+        {
+          "level": "Medium",
+          "id": "sql_medium_Ind_1",
+          "p": [
+            "Clustered: Physical data order.",
+            "Non-clustered: Pointer to data.",
+            "Trade-off: Read vs. Write performance."
+          ],
+          "a": "A clustered index determines the physical order of data on disk; only one per table is allowed. Non-clustered indexes store a pointer to the data row. Clustered indexes offer faster retrieval for range queries but slower for inserts/updates if they cause page splits. Non-clustered indexes are faster for inserts/updates but slower for retrieving the entire row, requiring a key lookup to the clustered index or the heap.",
+          "q": "Compare and contrast clustered and non-clustered indexes. How does each type affect data storage and retrieval performance, especially in scenarios involving large datasets and frequent updates?"
+        },
+        {
+          "level": "Medium",
+          "q": "Describe a scenario where a hash index would be more efficient than a B-tree index. What are the limitations of hash indexes, and how do they handle collisions?",
+          "a": "Hash indexes are efficient for equality lookups (e.g., `WHERE column = value`). They use a hash function to map keys to locations. However, they don't support range queries or ordered scans. Collisions are handled using techniques like chaining or open addressing, which can degrade performance if there are many collisions.",
+          "id": "sql_medium_Ind_2",
+          "p": [
+            "Hash index: Equality lookups.",
+            "No range queries.",
+            "Collision handling affects performance."
+          ]
+        },
+        {
+          "a": "Index fragmentation occurs when index pages are not optimally ordered or contain excessive empty space. Internal fragmentation is wasted space within a page; external fragmentation is the non-contiguous ordering of pages. Mitigation strategies include rebuilding or reorganizing indexes. Rebuilding creates a new index, while reorganizing reorders existing pages. Choose based on the level of fragmentation and available downtime.",
+          "id": "sql_medium_Ind_3",
+          "level": "Medium",
+          "p": [
+            "Fragmentation: Non-optimal index structure.",
+            "Internal/External fragmentation.",
+            "Mitigation: Rebuild or Reorganize."
+          ],
+          "q": "What is index fragmentation, and how does it impact query performance? Explain the difference between internal and external fragmentation, and outline strategies for mitigating fragmentation."
+        },
+        {
+          "p": [
+            "Many indexes: Faster SELECT, slower DML.",
+            "Query optimizer: Chooses best index.",
+            "Execution plan: Analyze index usage."
+          ],
+          "a": "More indexes can speed up SELECT queries but slow down INSERT, UPDATE, and DELETE operations due to index maintenance overhead. The query optimizer chooses the best index based on statistics and query predicates. Analyzing execution plans reveals which indexes are used (or not used) and their impact on query cost. Inefficient index usage may indicate missing indexes, redundant indexes, or outdated statistics.",
+          "level": "Medium",
+          "id": "sql_medium_Ind_4",
+          "q": "Discuss the performance trade-offs between having a large number of indexes versus having fewer indexes. How does the query optimizer use indexes, and how can you analyze query execution plans to identify inefficient index usage?"
+        },
+        {
+          "p": [
+            "OLTP: Prioritize write performance.",
+            "Non-clustered indexes, higher fill factor.",
+            "Schedule maintenance during off-peak hours."
+          ],
+          "a": "In OLTP systems, prioritize write performance. Use non-clustered indexes where possible to minimize data page splits. Set a higher fill factor to reduce page splits, accepting potential space overhead. Schedule index maintenance (rebuild/reorganize) during off-peak hours to minimize disruption. Consider using online index operations if supported by the database system to reduce downtime.",
+          "q": "In a high-volume OLTP system, how would you design an indexing strategy to minimize the impact of index maintenance on write performance while still ensuring acceptable read performance? Consider factors like index type, fill factor, and maintenance schedules.",
+          "id": "sql_medium_Ind_5",
+          "level": "Medium"
+        }
+      ],
+      "meaning": "Indexing is a database optimization technique to speed up data retrieval. Different index types like B-tree, hash, clustered, and non-clustered offer varying performance characteristics based on storage structure and access patterns. Understanding index fragmentation and maintenance is crucial for sustained performance.",
+      "conceptName": "Indexing Strategies and Internals: Exploring different index types (B-tree, hash, clustered, non-clustered), their storage structures, and the performance trade-offs associated with each. Understanding index fragmentation and maintenance."
+    },
+    {
+      "conceptName": "Transaction Management and Concurrency Control: Examining transaction isolation levels (Read Committed, Repeatable Read, Serializable), locking mechanisms (shared, exclusive, optimistic, pessimistic), and deadlock detection/resolution.",
+      "questions": [
+        {
+          "a": "Read Committed prevents dirty reads by holding a short-term exclusive lock on rows being updated. Other transactions can read the committed version. This avoids dirty reads but allows non-repeatable reads and phantom reads. Performance is generally good due to short lock duration, but frequent updates can still cause contention. Memory management involves storing the previous committed value for rollback purposes.",
+          "q": "Explain how the Read Committed isolation level works under the hood, focusing on its locking behavior and potential performance trade-offs. How does it prevent dirty reads, and what anomalies can still occur?",
+          "id": "sql_medium_Tra_0",
+          "level": "Medium",
+          "p": [
+            "Short-term exclusive locks during updates.",
+            "Prevents dirty reads.",
+            "Allows non-repeatable reads and phantom reads.",
+            "Good performance, potential contention."
+          ]
+        },
+        {
+          "p": [
+            "Shared locks held until transaction completion.",
+            "Prevents non-repeatable reads.",
+            "Reduced concurrency compared to Read Committed.",
+            "Potential performance degradation."
+          ],
+          "a": "Repeatable Read acquires shared locks on rows read and holds them until the transaction completes, preventing non-repeatable reads. Exclusive locks are used during updates. This increases consistency but reduces concurrency compared to Read Committed. Performance can degrade due to longer lock durations, leading to potential blocking. Memory is used to maintain lock information and potentially snapshot data for consistent reads.",
+          "level": "Medium",
+          "id": "sql_medium_Tra_1",
+          "q": "Describe the internal mechanisms of the Repeatable Read isolation level, including how it manages shared and exclusive locks. What are the performance implications of using Repeatable Read compared to Read Committed, and how does it affect concurrency?"
+        },
+        {
+          "q": "Explain how Serializable isolation is implemented, focusing on its locking strategies and the mechanisms it uses to prevent anomalies like phantom reads. What are the performance costs associated with Serializable, and when is it most appropriate to use?",
+          "p": [
+            "Range or predicate locks to prevent phantom reads.",
+            "Highest level of consistency.",
+            "Significant performance costs.",
+            "Suitable for critical transactions."
+          ],
+          "a": "Serializable typically uses range locks or predicate locks to prevent phantom reads, ensuring complete isolation. It may also use stricter locking protocols. This provides the highest level of consistency but significantly reduces concurrency and increases the risk of deadlocks. Performance is the worst among isolation levels. It's appropriate for critical transactions where data integrity is paramount, and concurrency is less of a concern.",
+          "id": "sql_medium_Tra_2",
+          "level": "Medium"
+        },
+        {
+          "level": "Medium",
+          "id": "sql_medium_Tra_3",
+          "p": [
+            "Pessimistic: Locks before access, high contention.",
+            "Optimistic: Checks before commit, low contention.",
+            "Pessimistic: Higher memory usage.",
+            "Optimistic: Higher CPU usage."
+          ],
+          "a": "Pessimistic locking acquires locks before data access, preventing conflicts but reducing concurrency. Optimistic locking assumes conflicts are rare, checking for modifications before committing. Pessimistic locking is better for high-contention scenarios; optimistic locking is better for low-contention scenarios. Optimistic locking uses CPU cycles for conflict detection, while pessimistic locking uses memory to hold locks.",
+          "q": "Compare and contrast optimistic and pessimistic locking. How do they differ in their approach to concurrency control, and what are the trade-offs in terms of performance and resource utilization? Describe a scenario where optimistic locking would be preferred over pessimistic locking, and vice versa."
+        },
+        {
+          "level": "Medium",
+          "p": [
+            "Wait-for graph for cycle detection.",
+            "Victim selection and rollback.",
+            "Overhead of detection and rollback.",
+            "Deadlock prevention strategies."
+          ],
+          "q": "Describe the process of deadlock detection and resolution in a database system. What data structures are used to detect deadlocks, and what strategies can be employed to resolve them? What are the performance implications of deadlock detection and resolution mechanisms?",
+          "a": "Deadlock detection typically uses a wait-for graph to identify cycles. Resolution involves selecting a victim transaction to roll back, releasing its locks. This can be based on factors like transaction age or resource consumption. Deadlock detection adds overhead, and rollback can be costly. Strategies include deadlock prevention (e.g., lock ordering) and timeout-based detection.",
+          "id": "sql_medium_Tra_4"
+        },
+        {
+          "level": "Medium",
+          "a": "Deadlocks in order processing can arise from concurrent updates to inventory, customer accounts, and order status. Solutions include: 1) Lock ordering: Acquire locks in a consistent order. 2) Reducing lock duration: Optimize transaction logic. 3) Using a lower isolation level (e.g., Read Committed) if appropriate, accepting potential anomalies. 4) Implementing retry logic after deadlock rollback. The trade-off is balancing consistency with concurrency and performance.",
+          "id": "sql_medium_Tra_5",
+          "p": [
+            "Identify concurrent updates as deadlock source.",
+            "Implement lock ordering.",
+            "Reduce lock duration.",
+            "Consider lower isolation levels with caution."
+          ],
+          "q": "In a high-volume e-commerce system, you notice frequent deadlocks occurring during order processing. Analyze the potential causes of these deadlocks, and propose a solution that minimizes their occurrence while maintaining data consistency. Consider the trade-offs between different locking strategies and isolation levels."
+        }
+      ],
+      "meaning": "Transaction Management and Concurrency Control ensures data consistency and integrity in multi-user database environments. It involves defining isolation levels to manage concurrent access, employing locking mechanisms to prevent conflicts, and implementing deadlock detection and resolution strategies to maintain system availability."
+    },
+    {
+      "questions": [
+        {
+          "level": "Medium",
+          "a": "The buffer pool caches data and index pages in memory. SQL Server uses a variation of the Least Recently Used (LRU) algorithm with a clock-hand mechanism to manage page replacement. Frequently accessed pages stay in memory, while less frequently used pages are aged out. A larger buffer pool reduces disk I/O but consumes more system memory, potentially impacting other applications. Insufficient memory can lead to excessive page swapping, degrading performance.",
+          "q": "Explain how SQL Server's buffer pool works under the hood, including the page replacement algorithms and how they impact performance. What are the performance trade-offs?",
+          "p": [
+            "LRU-based page replacement",
+            "Minimizes disk I/O",
+            "Memory vs. Performance trade-off"
+          ],
+          "id": "sql_medium_Mem_0"
+        },
+        {
+          "q": "Describe the role of the procedure cache in SQL Server's memory management. How does SQL Server determine when to remove execution plans from the cache, and what factors influence this decision?",
+          "p": [
+            "Stores compiled execution plans",
+            "Cost-based eviction algorithm",
+            "Memory pressure triggers eviction"
+          ],
+          "level": "Medium",
+          "a": "The procedure cache stores compiled execution plans for stored procedures, functions, and ad-hoc queries. SQL Server uses a cost-based algorithm to determine which plans to remove when memory pressure occurs. Factors include the plan's cost, last execution time, and number of uses. High-cost, infrequently used plans are more likely to be removed. Plan recompilation can occur if plans are prematurely evicted, impacting performance.",
+          "id": "sql_medium_Mem_1"
+        },
+        {
+          "id": "sql_medium_Mem_2",
+          "q": "How does SQL Server manage memory for query workspaces (e.g., sort and hash operations)? What happens when a query requires more memory than is available in the workspace?",
+          "level": "Medium",
+          "a": "SQL Server allocates memory for query workspaces dynamically. If a query requires more memory than granted, it spills to disk (tempdb). This significantly degrades performance due to disk I/O. Monitoring sort warnings and hash warnings can indicate memory pressure. Optimizing queries and increasing memory allocation can mitigate spills.",
+          "p": [
+            "Dynamic memory allocation",
+            "Spills to disk (tempdb) on memory pressure",
+            "Monitor sort/hash warnings"
+          ]
+        },
+        {
+          "level": "Medium",
+          "a": "Monitor 'Page Life Expectancy', 'Memory Grants Pending', 'Buffer Cache Hit Ratio', and 'SQL Server: Memory Manager' counters. To alleviate pressure, consider increasing max server memory, optimizing queries to reduce memory consumption, indexing appropriately to avoid sorts, and identifying and addressing memory leaks in custom code or extended stored procedures.",
+          "id": "sql_medium_Mem_3",
+          "q": "In a production environment experiencing memory pressure, what are the key performance counters you would monitor to diagnose the issue, and what steps would you take to alleviate the pressure?",
+          "p": [
+            "Monitor key performance counters",
+            "Increase max server memory",
+            "Optimize queries and indexing"
+          ]
+        },
+        {
+          "p": [
+            "Data stored entirely in memory",
+            "Optimistic concurrency control",
+            "Faster data access, higher throughput"
+          ],
+          "level": "Medium",
+          "id": "sql_medium_Mem_4",
+          "a": "Memory-optimized tables store data entirely in memory, eliminating disk I/O for data access. They use optimistic concurrency control and are durable through checkpoint and recovery processes. Advantages include significantly faster data access and higher transaction throughput. Disadvantages include higher memory consumption, limitations on data size, and certain T-SQL features not being supported.",
+          "q": "Explain how memory-optimized tables in SQL Server leverage memory differently compared to traditional disk-based tables. What are the advantages and disadvantages of using memory-optimized tables?"
+        },
+        {
+          "p": [
+            "Insufficient RAM or memory leaks",
+            "Poorly optimized queries",
+            "Increase RAM, optimize queries"
+          ],
+          "a": "Excessive page swapping can occur when SQL Server doesn't have enough memory to hold frequently accessed data. Root causes can include insufficient RAM, memory leaks, or poorly optimized queries consuming excessive memory. Resolution steps include increasing RAM, identifying and fixing memory leaks, optimizing queries, and adjusting the 'max server memory' setting to prevent SQL Server from starving the OS.",
+          "id": "sql_medium_Mem_5",
+          "level": "Medium",
+          "q": "Describe a scenario where you observed excessive page swapping in SQL Server. What were the root causes, and what steps did you take to resolve the issue?"
+        }
+      ],
+      "conceptName": "Memory Management and Buffer Pool Tuning in SQL Server",
+      "meaning": "Understanding how SQL Server manages memory, including the buffer pool, procedure cache, and query workspace. Tuning memory allocation for optimal performance."
+    },
+    {
+      "conceptName": "Storage Engine Internals: Delving into the storage engine's architecture, including data page organization, row storage formats, and the write-ahead logging (WAL) mechanism.",
+      "questions": [
+        {
+          "level": "Medium",
+          "p": [
+            "Fixed-size pages for data storage.",
+            "B-trees and clustered indexes for organization.",
+            "Balance read/write performance and space."
+          ],
+          "a": "Storage engines organize data into fixed-size pages. Techniques include B-trees for indexing and clustered indexes for physical ordering. Efficient retrieval involves minimizing I/O operations. Space utilization is optimized through techniques like page compression and variable-length data storage. Trade-offs involve balancing read/write performance, space overhead, and complexity. For example, clustered indexes improve read performance but can slow down writes.",
+          "id": "sql_medium_Sto_0",
+          "q": "Explain how a database storage engine manages data page organization, including techniques for efficient data retrieval and space utilization. What are the performance trade-offs associated with different page organization strategies?"
+        },
+        {
+          "p": [
+            "Fixed-length: fast, space inefficient.",
+            "Variable-length: space efficient, slower.",
+            "Bitmask for NULL value handling."
+          ],
+          "q": "Describe different row storage formats (e.g., fixed-length, variable-length) and their impact on storage efficiency and query performance. How does the storage engine handle NULL values in different row formats?",
+          "a": "Fixed-length formats offer fast access but can waste space. Variable-length formats are more space-efficient but require overhead for length indicators. NULL values are typically handled using a bitmask indicating which columns are NULL. This impacts storage overhead and query processing, as the engine must check the bitmask. Performance trade-offs involve balancing space usage with the cost of parsing variable-length data.",
+          "id": "sql_medium_Sto_1",
+          "level": "Medium"
+        },
+        {
+          "q": "Explain the Write-Ahead Logging (WAL) mechanism and its role in ensuring data durability and consistency. How does the WAL protocol handle concurrent transactions and crash recovery scenarios?",
+          "level": "Medium",
+          "p": [
+            "Log changes before data files.",
+            "LSNs for concurrency control.",
+            "Redo/Undo for crash recovery."
+          ],
+          "id": "sql_medium_Sto_2",
+          "a": "WAL ensures durability by writing all changes to a log file before applying them to the data files. This log is sequentially written, making it fast. For concurrency, WAL uses log sequence numbers (LSNs) to order changes. In crash recovery, the log is replayed to redo committed transactions and undo incomplete ones, guaranteeing atomicity and consistency. Performance trade-offs involve the overhead of writing to the log file."
+        },
+        {
+          "level": "Medium",
+          "q": "Discuss the memory management strategies employed by storage engines, including buffer pool management and caching mechanisms. How do these strategies impact query performance and overall system throughput?",
+          "id": "sql_medium_Sto_3",
+          "a": "Storage engines use a buffer pool to cache frequently accessed data pages in memory. Strategies like LRU (Least Recently Used) or LFU (Least Frequently Used) are used for page replacement. Effective caching significantly reduces disk I/O, improving query performance. However, the size of the buffer pool and the replacement strategy directly impact performance. Insufficient memory or a poor strategy can lead to thrashing.",
+          "p": [
+            "Buffer pool caches data pages.",
+            "LRU/LFU for page replacement.",
+            "Reduces disk I/O, improves performance."
+          ]
+        },
+        {
+          "level": "Medium",
+          "a": "Scenario: Slow query performance. Tools: Performance monitoring tools (e.g., `perf`, `iostat`), database-specific profiling tools. Techniques: Analyze query execution plans, monitor disk I/O, CPU usage, and memory allocation. Common bottlenecks: Insufficient memory, disk contention, inefficient indexing, lock contention, and fragmentation. Analyzing slow query logs and system metrics is crucial.",
+          "id": "sql_medium_Sto_4",
+          "q": "Describe a scenario where you would need to debug a performance issue related to the storage engine. What tools and techniques would you use to identify the root cause, and what are some common storage engine-related performance bottlenecks?",
+          "p": [
+            "Use performance monitoring tools.",
+            "Analyze query execution plans.",
+            "Monitor disk I/O, CPU, memory."
+          ]
+        },
+        {
+          "p": [
+            "Page splitting causes fragmentation.",
+            "Use fillfactor to leave space.",
+            "Rebuild indexes periodically."
+          ],
+          "id": "sql_medium_Sto_5",
+          "a": "Page splitting occurs when a B-tree index page becomes full, requiring the engine to split it into two pages. This can lead to fragmentation and increased I/O. Mitigation strategies include: using fillfactor to leave space on pages, periodic index rebuilds to defragment, and choosing appropriate data types for index keys. Monitoring index fragmentation is essential.",
+          "level": "Medium",
+          "q": "Explain the concept of page splitting in B-tree indexes and its impact on performance. How can you mitigate the negative effects of frequent page splits in a production environment?"
+        }
+      ],
+      "meaning": "Technical summary of Storage Engine Internals: Delving into the storage engine's architecture, including data page organization, row storage formats, and the write-ahead logging (WAL) mechanism."
+    },
+    {
+      "conceptName": "High Availability and Disaster Recovery: Implementing solutions like Always On Availability Groups, database mirroring, and log shipping. Understanding failover mechanisms and recovery time objectives (RTOs).",
+      "questions": [
+        {
+          "id": "sql_medium_Hig_0",
+          "level": "Medium",
+          "q": "Explain how Always On Availability Groups handle transaction log hardening and synchronization under the hood, focusing on memory management and potential performance bottlenecks.",
+          "a": "Always On hardens logs on the primary replica before acknowledging the transaction. Synchronous mode requires hardening on secondary replicas before acknowledgement. Memory pressure arises from log buffer management and network latency. Bottlenecks occur due to slow I/O on secondaries or network congestion. Optimize I/O, network, and consider asynchronous mode for performance, accepting potential data loss.",
+          "p": [
+            "Log hardening on primary.",
+            "Synchronous vs. Asynchronous.",
+            "Memory pressure from log buffers.",
+            "I/O and network bottlenecks."
+          ]
+        },
+        {
+          "a": "Failover involves detecting a failure, promoting a secondary replica to primary, and redirecting client connections. RTO is influenced by failure detection time, failover time (dependent on database size and recovery process), and DNS propagation. Optimize failure detection thresholds, pre-size secondary replica memory, and use connection string redirection for faster RTO.",
+          "p": [
+            "Failure detection.",
+            "Secondary promotion.",
+            "Client redirection.",
+            "RTO factors: detection, failover, DNS."
+          ],
+          "id": "sql_medium_Hig_1",
+          "level": "Medium",
+          "q": "Describe the internal workings of a failover in an Always On Availability Group, detailing the steps involved and the factors that influence the Recovery Time Objective (RTO)."
+        },
+        {
+          "level": "Medium",
+          "p": [
+            "Synchronous: Zero data loss, high latency.",
+            "Asynchronous: Potential data loss, low latency.",
+            "Consistency vs. Performance.",
+            "Distance considerations."
+          ],
+          "a": "Synchronous mode guarantees zero data loss but introduces latency due to waiting for secondary replica acknowledgement. Asynchronous mode offers lower latency but risks data loss in case of a primary replica failure. Choose synchronous for critical data requiring strong consistency; asynchronous for read-heavy workloads or disaster recovery across long distances where latency is a concern.",
+          "id": "sql_medium_Hig_2",
+          "q": "Compare and contrast synchronous vs. asynchronous commit modes in Always On Availability Groups, focusing on data consistency guarantees and performance trade-offs. When would you choose one over the other?"
+        },
+        {
+          "id": "sql_medium_Hig_3",
+          "a": "Diagnose by examining SQL Server error logs, Windows event logs, and network performance metrics. Common causes include network instability, high CPU/IO on either server, or mirroring endpoint issues. Mitigation involves improving network reliability, optimizing server resources, adjusting mirroring timeout settings, or considering Always On Availability Groups for enhanced resilience.",
+          "level": "Medium",
+          "p": [
+            "Check SQL Server and Windows logs.",
+            "Monitor network and server resources.",
+            "Adjust mirroring timeouts.",
+            "Consider Always On as alternative."
+          ],
+          "q": "In a production environment using database mirroring, you observe frequent mirroring disruptions. How would you diagnose the root cause, and what steps would you take to mitigate the issue?"
+        },
+        {
+          "level": "Medium",
+          "p": [
+            "Backup, copy, and restore logs.",
+            "Ensure log sequence integrity.",
+            "Optimize backup frequency and transfer speed.",
+            "Use compression and differential backups."
+          ],
+          "id": "sql_medium_Hig_4",
+          "a": "Log shipping involves backing up transaction logs on the primary, copying them to the secondary, and restoring them. Data consistency relies on proper sequencing and integrity of log backups. Minimize latency by optimizing backup frequency, network transfer speed, and restore process. Consider using compression and differential backups to reduce transfer size and time.",
+          "q": "Explain the process of log shipping, detailing how transaction log backups are transferred and applied to the secondary server. What are the key considerations for ensuring data consistency and minimizing latency?"
+        },
+        {
+          "level": "Medium",
+          "p": [
+            "Simpler DR with relaxed RTO.",
+            "Lower cost and complexity.",
+            "Suitable for delayed application.",
+            "Always On for faster failover."
+          ],
+          "id": "sql_medium_Hig_5",
+          "q": "Describe a scenario where you would choose log shipping over Always On Availability Groups, considering factors like cost, complexity, and recovery time objectives.",
+          "a": "Log shipping is suitable for simpler disaster recovery scenarios with less stringent RTO requirements, where cost and complexity are primary concerns. Always On requires more resources and expertise but offers faster failover and higher availability. If the RTO is flexible and the budget is limited, log shipping is a viable option. Also, log shipping can be useful in situations where you need to delay the application of changes to the secondary server."
+        }
+      ],
+      "meaning": "Technical summary of High Availability and Disaster Recovery: Implementing solutions like Always On Availability Groups, database mirroring, and log shipping. Understanding failover mechanisms and recovery time objectives (RTOs)."
+    },
+    {
+      "conceptName": "Replication Technologies: Exploring different replication models (snapshot, transactional, merge), conflict resolution strategies, and performance considerations for replicated environments.",
+      "meaning": "Technical summary of Replication Technologies: Exploring different replication models (snapshot, transactional, merge), conflict resolution strategies, and performance considerations for replicated environments.",
+      "questions": [
+        {
+          "q": "Explain the internal workings of transactional replication, focusing on the role of the Log Reader Agent and Distribution Agent. How does it ensure data consistency across subscribers, and what are the performance trade-offs?",
+          "a": "The Log Reader Agent monitors the transaction log on the publisher, capturing committed transactions relevant to published articles. These transactions are stored in the distribution database. The Distribution Agent then applies these transactions to the subscriber. Consistency is ensured by applying transactions in the same order they were committed on the publisher. Performance trade-offs include latency due to the asynchronous nature and overhead from log scanning and agent activity.",
+          "id": "sql_medium_Rep_0",
+          "p": [
+            "Log Reader captures transactions.",
+            "Distribution DB stores transactions.",
+            "Distribution Agent applies to subscribers.",
+            "Asynchronous, latency trade-off."
+          ],
+          "level": "Medium"
+        },
+        {
+          "q": "Describe a scenario where merge replication would be the most suitable choice. Detail the conflict resolution process, including how conflicts are detected, prioritized, and resolved. What are the memory management considerations for the Merge Agent?",
+          "p": [
+            "Suitable for disconnected environments.",
+            "Conflicts detected by Merge Agent.",
+            "Resolvers prioritize conflicts.",
+            "Memory needed for change tracking."
+          ],
+          "id": "sql_medium_Rep_1",
+          "level": "Medium",
+          "a": "Merge replication is suitable for disconnected or occasionally connected environments, like sales teams updating data offline. Conflicts are detected by the Merge Agent using pre-defined conflict resolvers (e.g., first writer wins, custom logic). The Merge Agent requires sufficient memory to track changes and resolve conflicts, especially with large datasets. Insufficient memory can lead to performance degradation or agent failure."
+        },
+        {
+          "level": "Medium",
+          "id": "sql_medium_Rep_2",
+          "a": "Snapshot replication creates a consistent point-in-time copy of the published data. During snapshot generation, the Distribution Agent typically acquires schema locks to prevent structural changes. This can impact publisher performance, especially during peak hours. Strategies to minimize impact include scheduling snapshots during off-peak hours, using minimal locking options, and optimizing the snapshot agent's configuration.",
+          "p": [
+            "Creates point-in-time copy.",
+            "Schema locks during generation.",
+            "Impacts publisher performance.",
+            "Schedule off-peak, minimize locking."
+          ],
+          "q": "How does snapshot replication work under the hood? What locking mechanisms are employed during the snapshot generation, and how do these impact the publisher database's performance? What strategies can you use to minimize the impact?"
+        },
+        {
+          "id": "sql_medium_Rep_3",
+          "a": "I'd start by monitoring the Replication Monitor in SQL Server Management Studio to identify the agent with the highest latency. I'd then use performance counters (e.g., Log Reader Agent latency, Distribution Agent latency) and extended events to pinpoint the bottleneck. Network latency can be checked using ping and traceroute. Profiling the Log Reader Agent and Distribution Agent can reveal slow queries or resource contention.",
+          "level": "Medium",
+          "p": [
+            "Replication Monitor for initial overview.",
+            "Performance counters for agent latency.",
+            "Extended events for detailed analysis.",
+            "Network latency checks (ping, traceroute)."
+          ],
+          "q": "You're troubleshooting a replication latency issue in a transactional replication setup. Describe your debugging approach, including the tools and techniques you would use to identify the bottleneck (e.g., Log Reader Agent, Distribution Agent, network latency)."
+        },
+        {
+          "level": "Medium",
+          "p": [
+            "Network bandwidth is crucial.",
+            "Fast disk I/O for distribution DB.",
+            "Dedicated CPU cores for agents.",
+            "Compress data, optimize log config."
+          ],
+          "id": "sql_medium_Rep_4",
+          "q": "Discuss the performance considerations for replicated environments, focusing on network bandwidth, disk I/O, and CPU utilization. How can you optimize these resources to improve replication performance, especially in high-volume transaction scenarios?",
+          "a": "Replication performance is heavily influenced by network bandwidth, disk I/O, and CPU utilization. Optimizations include compressing data before transmission, using faster storage for the distribution database, and dedicating CPU cores to replication agents. For high-volume transactions, consider increasing the number of distribution agents and optimizing the publisher database's transaction log configuration."
+        },
+        {
+          "p": [
+            "Transactional replication for consistency.",
+            "Multiple subscribers per region.",
+            "Central publisher, regional distributors.",
+            "Secondary publisher for DR."
+          ],
+          "level": "Medium",
+          "q": "Explain how you would design a replication topology for a globally distributed e-commerce application with read-heavy workloads in multiple regions and a central write-heavy data center. Consider factors like data consistency, latency, and disaster recovery.",
+          "id": "sql_medium_Rep_5",
+          "a": "I'd use transactional replication with multiple subscribers in each region for read-heavy workloads. The central data center would be the publisher. For disaster recovery, I'd implement a secondary publisher in a different region. To minimize latency, I'd use geographically close distribution servers. Data consistency would be ensured by transactional replication's guarantee of ordered delivery."
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "q": "Explain how SQL Server's Transparent Data Encryption (TDE) works under the hood, focusing on key management and performance implications.",
+          "a": "TDE encrypts the database at rest using a symmetric key (DEK) stored in the database boot record. The DEK is protected by a certificate stored in the master database or an EKM. Encryption/decryption happens at the page level. Performance overhead exists due to I/O and CPU usage, mitigated by hardware acceleration and careful key management.",
+          "level": "Medium",
+          "id": "sql_medium_Sec_0",
+          "p": [
+            "Page-level encryption",
+            "DEK protected by certificate/EKM",
+            "Performance overhead due to encryption/decryption"
+          ]
+        },
+        {
+          "p": [
+            "Event capture based on specifications",
+            "Logs stored in files or Windows Event Log",
+            "Performance impact due to event capture and writing"
+          ],
+          "level": "Medium",
+          "a": "SQL Server auditing captures events based on defined specifications and writes them to audit logs. These logs can be stored in files or the Windows Event Log. Auditing introduces overhead due to event capture and writing, impacting performance. Careful configuration and filtering of events are crucial to minimize this impact.",
+          "id": "sql_medium_Sec_1",
+          "q": "Describe the internal process of SQL Server auditing, including how audit events are captured, stored, and the performance impact of enabling auditing."
+        },
+        {
+          "id": "sql_medium_Sec_2",
+          "level": "Medium",
+          "p": [
+            "Windows Authentication (Active Directory)",
+            "SQL Server Authentication (username/password)",
+            "Security implications of each method"
+          ],
+          "a": "SQL Server supports Windows Authentication (integrated with Active Directory) and SQL Server Authentication (username/password). Windows Authentication is generally more secure due to centralized password policies and Kerberos. SQL Server Authentication requires careful password management and is more vulnerable to brute-force attacks.",
+          "q": "How does SQL Server manage user authentication and authorization? Explain the difference between Windows Authentication and SQL Server Authentication, and the security implications of each."
+        },
+        {
+          "p": [
+            "Malicious code inserted into SQL queries",
+            "Parameterized queries treat input as data",
+            "Input validation and escaping"
+          ],
+          "q": "Discuss common SQL injection vulnerabilities and mitigation techniques. How can parameterized queries and stored procedures prevent SQL injection attacks?",
+          "level": "Medium",
+          "a": "SQL injection occurs when malicious code is inserted into SQL queries. Parameterized queries and stored procedures treat input as data, not executable code, preventing injection. Input validation and escaping are also important. Under the hood, the query optimizer creates a plan based on the structure, and parameters are applied later, avoiding code execution.",
+          "id": "sql_medium_Sec_3"
+        },
+        {
+          "id": "sql_medium_Sec_4",
+          "level": "Medium",
+          "p": [
+            "Restrict data access based on user characteristics",
+            "Predicate functions to filter rows",
+            "Performance impact due to predicate evaluation"
+          ],
+          "a": "Row-Level Security (RLS) restricts data access based on user characteristics. It uses predicate functions to filter rows based on user context. RLS can impact performance due to added predicate evaluation. Proper indexing and careful predicate design are crucial for minimizing overhead. Under the hood, the query optimizer integrates the predicate into the query plan.",
+          "q": "Explain the concept of row-level security (RLS) in SQL Server. How does it work, and what are the performance considerations when implementing RLS?"
+        },
+        {
+          "q": "Describe a scenario where you would use database-level encryption versus column-level encryption. What are the trade-offs in terms of security, performance, and manageability?",
+          "p": [
+            "Database-level encryption (TDE) for broad protection",
+            "Column-level encryption for specific sensitive data",
+            "Trade-offs in security, performance, and manageability"
+          ],
+          "a": "Database-level encryption (TDE) protects the entire database at rest, suitable for broad compliance requirements. Column-level encryption protects specific sensitive columns, offering granular control but increased complexity. TDE has lower management overhead but less granular control. Column-level encryption impacts query performance due to encryption/decryption operations.",
+          "level": "Medium",
+          "id": "sql_medium_Sec_5"
+        }
+      ],
+      "conceptName": "Security and Auditing: Implementing robust security measures, including authentication, authorization, encryption (data at rest and in transit), and auditing. Understanding security vulnerabilities and mitigation techniques.",
+      "meaning": "Technical summary of Security and Auditing: Implementing robust security measures, including authentication, authorization, encryption (data at rest and in transit), and auditing. Understanding security vulnerabilities and mitigation techniques."
+    },
+    {
+      "questions": [
+        {
+          "id": "sql_medium_Per_0",
+          "level": "Medium",
+          "a": "The query optimizer aims to find the most efficient execution plan. It considers factors like CPU, I/O, and memory. It uses a cost-based approach, estimating the cost of different plans and choosing the lowest. Under memory pressure, the optimizer might simplify the search space, potentially leading to a sub-optimal plan but preventing optimization failure. This involves reducing the number of alternatives considered or using simpler cost estimation models.",
+          "q": "Explain how SQL Server's query optimizer works, focusing on the trade-offs it makes when choosing a query plan. How does it handle memory pressure during optimization?",
+          "p": [
+            "Cost-based optimization",
+            "Trade-offs: speed vs. accuracy",
+            "Memory pressure handling: simplification"
+          ]
+        },
+        {
+          "p": [
+            "Asynchronous event processing",
+            "Minimal performance overhead",
+            "Targeted data collection"
+          ],
+          "a": "Extended Events are preferred for production environments due to their minimal performance overhead. Unlike SQL Profiler, which can cause significant performance degradation, Extended Events use an asynchronous event processing model. This means event data is captured and processed separately from the main SQL Server execution thread, reducing the impact on server performance. The architecture allows for targeted data collection, minimizing resource consumption.",
+          "q": "Describe a scenario where Extended Events would be more suitable than SQL Server Profiler for performance monitoring. Explain the underlying architecture that makes Extended Events more efficient.",
+          "id": "sql_medium_Per_1",
+          "level": "Medium"
+        },
+        {
+          "id": "sql_medium_Per_2",
+          "a": "The buffer pool caches data pages in memory, reducing disk I/O. Insufficient buffer pool size leads to frequent disk reads, slowing down queries. To diagnose buffer pool pressure, monitor page life expectancy (PLE) and memory clerk usage. Resolving it involves increasing server memory, optimizing queries to reduce memory usage, and potentially using features like Resource Governor to manage memory allocation.",
+          "q": "How does SQL Server's buffer pool management impact query performance? Explain how you would diagnose and resolve issues related to buffer pool pressure.",
+          "level": "Medium",
+          "p": [
+            "Buffer pool: in-memory data cache",
+            "PLE: indicator of buffer pool pressure",
+            "Solutions: increase memory, optimize queries"
+          ]
+        },
+        {
+          "level": "Medium",
+          "a": "Index fragmentation occurs when data pages are not logically ordered within an index. Internal fragmentation is empty space within a page, while external fragmentation is the logical ordering of pages. Fragmentation increases I/O and slows down queries. REBUILD is more aggressive, creating a new index. REORGANIZE is online and less resource-intensive, reordering pages. Choose REORGANIZE for minor fragmentation and REBUILD for severe fragmentation or when changing index structure.",
+          "id": "sql_medium_Per_3",
+          "p": [
+            "Internal vs. External fragmentation",
+            "Impact: increased I/O",
+            "REBUILD vs. REORGANIZE"
+          ],
+          "q": "Explain the internal workings of index fragmentation and its impact on performance. Describe different types of index fragmentation and how you would choose the appropriate method to defragment an index."
+        },
+        {
+          "id": "sql_medium_Per_4",
+          "a": "Non-clustered indexes improve read performance but add overhead to write operations (INSERT, UPDATE, DELETE) because the index also needs to be updated. Excessive non-clustered indexes can significantly slow down writes. Mitigation strategies include using filtered indexes to reduce the number of rows indexed, delaying index maintenance to off-peak hours, and carefully evaluating the necessity of each index based on query patterns.",
+          "q": "Describe a scenario where a non-clustered index could negatively impact write performance. How can you mitigate this impact while still maintaining read performance benefits?",
+          "p": [
+            "Write overhead of non-clustered indexes",
+            "Filtered indexes",
+            "Delayed index maintenance"
+          ],
+          "level": "Medium"
+        },
+        {
+          "q": "How does SQL Server manage memory for in-memory OLTP (Hekaton) tables compared to disk-based tables? What are the performance trade-offs?",
+          "id": "sql_medium_Per_5",
+          "a": "In-memory OLTP tables reside entirely in memory, eliminating disk I/O for data access. SQL Server uses a different memory management model for Hekaton, including lock-free data structures and optimistic concurrency control. This results in significantly faster read and write operations. The trade-off is that all data must fit in memory, and durability relies on checkpoint and log files written to disk. Memory is also used differently, requiring careful planning.",
+          "p": [
+            "Memory-resident data",
+            "Lock-free data structures",
+            "Trade-off: speed vs. memory constraints"
+          ],
+          "level": "Medium"
+        }
+      ],
+      "meaning": "Technical summary of Performance Monitoring and Tuning: Utilizing performance monitoring tools (e.g., Extended Events, Performance Monitor) to identify performance bottlenecks. Tuning queries, indexes, and server configuration for optimal performance.",
+      "conceptName": "Performance Monitoring and Tuning: Utilizing performance monitoring tools (e.g., Extended Events, Performance Monitor) to identify performance bottlenecks. Tuning queries, indexes, and server configuration for optimal performance."
+    },
+    {
+      "meaning": "Technical summary of Data Partitioning and Sharding: Implementing data partitioning strategies (horizontal, vertical) to improve query performance and manage large datasets. Exploring sharding techniques for scaling out databases.",
+      "conceptName": "Data Partitioning and Sharding: Implementing data partitioning strategies (horizontal, vertical) to improve query performance and manage large datasets. Exploring sharding techniques for scaling out databases.",
+      "questions": [
+        {
+          "id": "sql_medium_Dat_0",
+          "p": [
+            "Rows divided across tables.",
+            "Partitioning key determines target.",
+            "Complex query design.",
+            "Uneven data distribution."
+          ],
+          "a": "Horizontal partitioning divides rows across multiple tables/databases. Internally, the database uses a partitioning key to determine the target partition. Query routing involves identifying relevant partitions based on the query's WHERE clause. Trade-offs include increased complexity in query design and potential for uneven data distribution, impacting performance. Memory management is affected as each partition operates independently, potentially requiring more memory overall.",
+          "level": "Medium",
+          "q": "Explain the internal workings of horizontal partitioning, focusing on how the database engine manages data distribution and query routing across partitions. What are the performance trade-offs?"
+        },
+        {
+          "id": "sql_medium_Dat_1",
+          "p": [
+            "Columns divided across tables.",
+            "Frequent column access.",
+            "Reduced memory footprint.",
+            "Potential join overhead."
+          ],
+          "level": "Medium",
+          "q": "Describe a scenario where vertical partitioning would be beneficial. How does it affect memory management and query performance compared to a non-partitioned table?",
+          "a": "Vertical partitioning is beneficial when certain columns are accessed more frequently than others. It improves memory management by reducing the amount of data read into memory for common queries. Query performance improves for queries only needing a subset of columns, but can degrade for queries requiring data from multiple partitions due to the need for joins."
+        },
+        {
+          "level": "Medium",
+          "a": "Re-sharding involves redistributing data across shards, often due to growth or changing data access patterns. Challenges include downtime and data inconsistency. Strategies include online re-sharding (migrating data in the background), using consistent hashing, and employing dual writes to both old and new shards during the transition. Careful planning and monitoring are crucial.",
+          "q": "Discuss the challenges of re-sharding a database. What strategies can be used to minimize downtime and ensure data consistency during the process?",
+          "id": "sql_medium_Dat_2",
+          "p": [
+            "Data redistribution.",
+            "Downtime minimization.",
+            "Data consistency.",
+            "Online re-sharding."
+          ]
+        },
+        {
+          "a": "Consistent hashing minimizes data movement during shard additions or removals. It maps data keys to a circular space, and each shard is assigned a range within that space. When a shard is added or removed, only the keys within the affected range need to be remapped. This reduces the overhead compared to methods that require remapping all keys.",
+          "level": "Medium",
+          "q": "How does consistent hashing improve the scalability and fault tolerance of a sharded database system? Explain its advantages over other sharding methods.",
+          "id": "sql_medium_Dat_3",
+          "p": [
+            "Minimizes data movement.",
+            "Circular key space.",
+            "Reduced remapping overhead.",
+            "Improved scalability."
+          ]
+        },
+        {
+          "q": "Explain the concept of 'two-phase commit' (2PC) in the context of distributed transactions across multiple shards. What are its limitations, and what alternative approaches can be used?",
+          "p": [
+            "Atomicity across shards.",
+            "Prepare and commit phases.",
+            "Performance overhead.",
+            "Eventual consistency alternatives."
+          ],
+          "a": "Two-phase commit (2PC) ensures atomicity across multiple shards. It involves a prepare phase where all shards agree to commit, followed by a commit or rollback phase. Limitations include performance overhead and potential for blocking. Alternatives include eventual consistency models, compensating transactions, and the Saga pattern, which break down transactions into smaller, independent steps.",
+          "level": "Medium",
+          "id": "sql_medium_Dat_4"
+        },
+        {
+          "id": "sql_medium_Dat_5",
+          "a": "Range-based partitioning is suitable when queries often involve range scans (e.g., date ranges). Hash-based partitioning distributes data more evenly but is less efficient for range queries. Monitoring involves tracking query latency, shard utilization, and data skew. Debugging requires analyzing query plans, identifying slow queries, and examining data distribution across shards.",
+          "p": [
+            "Range scans vs. even distribution.",
+            "Query latency monitoring.",
+            "Shard utilization tracking.",
+            "Data skew analysis."
+          ],
+          "q": "Describe a production-level scenario where you would choose range-based partitioning over hash-based partitioning. What are the key considerations for monitoring and debugging performance issues in such a system?",
+          "level": "Medium"
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "a": "Page-level compression analyzes data patterns within a page, using algorithms like prefix and dictionary compression. SQL Server manages memory by allocating buffers for compression/decompression. For large pages, it might use segmented buffers to avoid excessive memory allocation. Decompression happens in-place or into a separate buffer, depending on the algorithm and available memory.",
+          "level": "Medium",
+          "p": [
+            "Analyzes data patterns within a page.",
+            "Uses prefix and dictionary compression.",
+            "Allocates buffers for compression/decompression.",
+            "Uses segmented buffers for large pages."
+          ],
+          "q": "Explain the internal workings of page-level compression in SQL Server, detailing how it identifies and compresses redundant data within a page. How does SQL Server manage memory during the compression and decompression processes, especially when dealing with large pages?",
+          "id": "sql_medium_Dat_0"
+        },
+        {
+          "p": [
+            "Row-level: finer granularity, higher CPU.",
+            "Page-level: lower CPU, potentially more I/O.",
+            "Row-level: frequent selective reads/writes.",
+            "Page-level: read-mostly, sequential access."
+          ],
+          "q": "Compare and contrast row-level and page-level compression in terms of their impact on I/O performance and CPU utilization. Under what specific workload scenarios would you choose one over the other, and why?",
+          "id": "sql_medium_Dat_1",
+          "level": "Medium",
+          "a": "Row-level compression offers finer granularity, reducing I/O for selective reads but increasing CPU overhead per row. Page-level compression has lower CPU overhead but might read more data than needed. Choose row-level for frequent, selective reads/writes. Choose page-level for read-mostly workloads with sequential access patterns."
+        },
+        {
+          "id": "sql_medium_Dat_2",
+          "p": [
+            "Compression reduces I/O initially.",
+            "Increased data/complexity overloads CPU.",
+            "Profile CPU, examine wait stats, analyze plans.",
+            "Optimize queries, add CPU, selectively disable."
+          ],
+          "level": "Medium",
+          "a": "Initially, compression reduces I/O. Later, increased data volume and query complexity overload the CPU during decompression. Debug by profiling CPU usage during queries, examining wait statistics, and analyzing query plans. Mitigate by optimizing queries, adding CPU resources, or selectively disabling compression on frequently accessed data.",
+          "q": "Describe a production scenario where data compression initially improved performance but later caused performance degradation. What debugging steps would you take to identify the root cause, and how would you mitigate the issue?"
+        },
+        {
+          "id": "sql_medium_Dat_3",
+          "q": "Explain how SQL Server's storage engine handles compressed data during index operations (e.g., index rebuilds, inserts, updates). How does compression affect the efficiency of these operations, and what strategies can you employ to optimize index maintenance on compressed tables?",
+          "a": "During index operations, SQL Server decompresses data as needed. Compression can slow down index rebuilds due to the extra CPU overhead. Optimize by increasing the degree of parallelism (MAXDOP), allocating more memory to the sort process, and performing index maintenance during off-peak hours.",
+          "p": [
+            "SQL Server decompresses data during index ops.",
+            "Compression slows down index rebuilds.",
+            "Increase MAXDOP, allocate more memory.",
+            "Perform maintenance during off-peak hours."
+          ],
+          "level": "Medium"
+        },
+        {
+          "a": "Lempel-Ziv (LZ) is general-purpose, good for diverse data. Run-Length Encoding (RLE) excels with repetitive data. Choose LZ for tables with mixed data types and unpredictable patterns. Choose RLE for tables with many repeated values (e.g., status codes, flags). Analyze data distribution and query patterns to guide the selection.",
+          "level": "Medium",
+          "p": [
+            "LZ: general-purpose, diverse data.",
+            "RLE: repetitive data.",
+            "LZ: mixed data types, unpredictable patterns.",
+            "RLE: many repeated values."
+          ],
+          "id": "sql_medium_Dat_4",
+          "q": "Discuss the trade-offs between different compression algorithms (e.g., Lempel-Ziv, Run-Length Encoding) in the context of SQL Server. How would you choose the most appropriate algorithm for a specific table, considering factors like data type, data distribution, and query patterns?"
+        },
+        {
+          "a": "Enable compression on both the publisher and subscriber databases. Ensure the replication agent has sufficient resources to handle the increased CPU load from compression/decompression. Monitor replication latency and adjust the agent profile if necessary. Consider using transactional replication with minimal logging to reduce the impact on the transaction log.",
+          "p": [
+            "Enable compression on both servers.",
+            "Ensure sufficient resources for the replication agent.",
+            "Monitor replication latency.",
+            "Consider transactional replication with minimal logging."
+          ],
+          "id": "sql_medium_Dat_5",
+          "level": "Medium",
+          "q": "Describe a scenario where you need to compress data in a SQL Server database that is also replicated to another server. How would you ensure data consistency and minimize the impact of compression on replication performance?"
+        }
+      ],
+      "conceptName": "Data Compression: Understanding different data compression techniques (row, page) and their impact on storage space, I/O performance, and CPU utilization.",
+      "meaning": "Data compression techniques in SQL databases, such as row-level and page-level compression, reduce storage space by encoding data more efficiently. This impacts I/O performance, as less data needs to be read or written, but introduces CPU overhead for compression and decompression. The choice of technique depends on workload characteristics and hardware resources."
+    },
+    {
+      "meaning": "Technical summary of Query Execution Internals: Tracing the lifecycle of a query from parsing to execution, including compilation, optimization, and execution plan generation. Understanding the role of the query processor.",
+      "questions": [
+        {
+          "p": [
+            "Transforms SQL into efficient plans.",
+            "Uses rule-based and cost-based optimization.",
+            "Balances optimization time with execution time."
+          ],
+          "a": "The query optimizer transforms a SQL query into the most efficient execution plan. It uses techniques like rule-based optimization (heuristics) and cost-based optimization (statistical analysis). Cost-based optimization estimates the cost (CPU, I/O) of different plans and selects the lowest cost one. Trade-offs involve optimization time vs. execution time; a more thorough optimization takes longer but can result in a faster query execution.",
+          "id": "sql_medium_Que_0",
+          "level": "Medium",
+          "q": "Explain the role of the query optimizer in detail, including the different optimization techniques it employs and the trade-offs involved in choosing one technique over another. How does cost-based optimization work?"
+        },
+        {
+          "q": "Describe the steps involved in generating an execution plan. What information is included in an execution plan, and how can you use it to diagnose performance issues?",
+          "id": "sql_medium_Que_1",
+          "p": [
+            "Parsing, analysis, optimization, selection.",
+            "Details operators, access methods, costs.",
+            "Identifies performance bottlenecks."
+          ],
+          "level": "Medium",
+          "a": "Execution plan generation involves parsing, semantic analysis, optimization, and plan selection. The plan details operators (e.g., joins, sorts), access methods (e.g., index scans), and estimated costs. Analyzing the plan reveals bottlenecks like full table scans, inefficient joins, or missing indexes. High costs or unexpected operators indicate areas for optimization, such as adding indexes or rewriting the query."
+        },
+        {
+          "id": "sql_medium_Que_2",
+          "p": [
+            "Allocates memory for operations.",
+            "Spills to disk if memory is insufficient.",
+            "Disk I/O degrades performance."
+          ],
+          "a": "The query processor allocates memory for operations like sorting and joining. If memory is insufficient, it spills data to disk (disk-based sorting/joining). This significantly degrades performance due to disk I/O. Memory management strategies include buffer pools, hash tables, and spill-to-disk mechanisms. Monitoring memory usage and configuring memory limits are crucial for performance.",
+          "q": "How does the query processor manage memory during query execution, particularly for operations like sorting and joining large datasets? What are the performance implications of insufficient memory?",
+          "level": "Medium"
+        },
+        {
+          "a": "A clustered index determines the physical order of data on disk, while a non-clustered index stores pointers to the data. Clustered indexes are efficient for range queries and retrieving all columns. Non-clustered indexes are faster for point lookups and covering queries (all columns in the index). Clustered indexes benefit queries retrieving entire rows in a specific order; non-clustered indexes are useful for selective queries on a subset of columns.",
+          "q": "Explain the difference between clustered and non-clustered indexes, and how they impact query performance. Describe scenarios where each type of index would be most beneficial.",
+          "p": [
+            "Clustered: physical order; Non-clustered: pointers.",
+            "Clustered: range queries; Non-clustered: point lookups.",
+            "Choose based on query patterns."
+          ],
+          "id": "sql_medium_Que_3",
+          "level": "Medium"
+        },
+        {
+          "p": [
+            "Exponential increase in possible plans.",
+            "Query rewriting, join order optimization, hints.",
+            "Balance optimization time with plan quality."
+          ],
+          "level": "Medium",
+          "a": "Complex queries pose challenges due to the exponential increase in possible execution plans. Strategies include query rewriting (e.g., flattening subqueries), join order optimization, and using hints. Trade-offs involve optimization time and the risk of choosing a suboptimal plan. Materialized views can precompute results, but require maintenance. Careful indexing and query tuning are essential.",
+          "id": "sql_medium_Que_4",
+          "q": "Describe the challenges of optimizing complex queries involving multiple joins and subqueries. What strategies can be used to improve their performance, and what are the trade-offs?"
+        },
+        {
+          "q": "How does parallel query execution work, and what are the benefits and challenges of using it? Explain scenarios where parallel execution is most effective.",
+          "id": "sql_medium_Que_5",
+          "a": "Parallel query execution divides a query into smaller tasks that run concurrently on multiple processors. Benefits include reduced execution time for large queries. Challenges include overhead of task coordination, data partitioning, and potential for resource contention. It's most effective for CPU-bound operations (e.g., aggregations) and large table scans, where data can be easily partitioned.",
+          "level": "Medium",
+          "p": [
+            "Divides query into concurrent tasks.",
+            "Reduces execution time for large queries.",
+            "Overhead of coordination and contention."
+          ]
+        }
+      ],
+      "conceptName": "Query Execution Internals: Tracing the lifecycle of a query from parsing to execution, including compilation, optimization, and execution plan generation. Understanding the role of the query processor."
+    },
+    {
+      "questions": [
+        {
+          "p": [
+            "Reads active transaction log.",
+            "Copies records to backup file.",
+            "Potential I/O and blocking impact.",
+            "Log truncation (simple recovery)."
+          ],
+          "id": "sql_medium_Bac_0",
+          "a": "Transaction log backups capture the sequence of transaction log records since the last log backup. Internally, SQL Server reads the active transaction log, copying the necessary records to the backup file. This process can briefly impact performance due to I/O operations and potential blocking if the log is heavily used. The log is truncated after a successful backup in simple recovery model or remains intact in full recovery model until a subsequent log backup.",
+          "level": "Medium",
+          "q": "Explain the internal workings of a transaction log backup in SQL Server, focusing on how it interacts with the active transaction log and the potential impact on database performance."
+        },
+        {
+          "level": "Medium",
+          "a": "During a restore, SQL Server uses memory to buffer data being read from the backup file and written to the database files. For large databases, SQL Server employs techniques like buffering and parallel processing to optimize memory usage. It dynamically adjusts the buffer pool size based on available memory and the size of the database. Resource Governor can also be used to limit memory consumption during restore operations, preventing resource contention.",
+          "q": "Describe the memory management aspects involved during a database restore operation, particularly when dealing with large databases and limited memory resources. How does SQL Server optimize memory usage during the restore process?",
+          "id": "sql_medium_Bac_1",
+          "p": [
+            "Buffers data during restore.",
+            "Dynamic buffer pool adjustment.",
+            "Parallel processing optimization.",
+            "Resource Governor for memory limits."
+          ]
+        },
+        {
+          "q": "In a production environment, you observe that differential backups are taking increasingly longer to complete. What are the potential causes for this performance degradation, and how would you troubleshoot the issue?",
+          "p": [
+            "Increased data modification.",
+            "I/O performance monitoring.",
+            "Analyze data modification patterns.",
+            "Consider more frequent full backups."
+          ],
+          "level": "Medium",
+          "id": "sql_medium_Bac_2",
+          "a": "Increasing differential backup times often indicate a growing amount of changed data since the last full backup. Potential causes include increased data modification rates, large-scale data imports, or inefficient indexing. Troubleshooting involves monitoring I/O performance, analyzing data modification patterns, and considering more frequent full backups or a different backup strategy. Index maintenance can also reduce the amount of data that needs to be backed up."
+        },
+        {
+          "q": "Explain the differences between the Simple, Full, and Bulk-Logged recovery models in SQL Server, focusing on their impact on transaction log management and point-in-time recovery capabilities. What are the performance trade-offs associated with each model?",
+          "level": "Medium",
+          "id": "sql_medium_Bac_3",
+          "p": [
+            "Simple: Minimal log, no point-in-time.",
+            "Full: Point-in-time, requires log backups.",
+            "Bulk-Logged: Minimal log during bulk ops.",
+            "Performance vs. Recovery trade-offs."
+          ],
+          "a": "Simple recovery truncates the transaction log after each checkpoint, minimizing log space but preventing point-in-time recovery. Full recovery allows point-in-time recovery but requires regular transaction log backups. Bulk-Logged recovery minimizes log space during bulk operations but limits point-in-time recovery during those operations. Simple offers the best performance but least recovery options, while Full offers the most recovery options at the cost of performance and storage."
+        },
+        {
+          "id": "sql_medium_Bac_4",
+          "level": "Medium",
+          "q": "Describe a scenario where point-in-time recovery is crucial, and outline the steps involved in performing a point-in-time recovery in SQL Server using transaction log backups. What are the potential challenges and considerations during this process?",
+          "a": "A scenario is accidental data deletion. Point-in-time recovery involves restoring the last full backup, followed by all subsequent differential backups (if any), and then applying transaction log backups up to the desired point in time. Challenges include ensuring the integrity of the backup chain, accurately identifying the target point in time, and handling potential inconsistencies or data corruption. Testing the recovery process is crucial.",
+          "p": [
+            "Restore full backup.",
+            "Restore differential (if any).",
+            "Apply transaction log backups.",
+            "Verify backup chain integrity."
+          ]
+        },
+        {
+          "q": "How does SQL Server handle concurrent backup and restore operations? What mechanisms are in place to prevent data corruption or performance bottlenecks when multiple backup or restore processes are running simultaneously?",
+          "p": [
+            "Locking and latching mechanisms.",
+            "Resource Governor for resource limits.",
+            "Parallel backups and restores.",
+            "Prevents data corruption."
+          ],
+          "a": "SQL Server uses locking and latching mechanisms to manage concurrent backup and restore operations. It prevents conflicting operations by acquiring exclusive locks on database files. Resource Governor can be used to limit the resources consumed by each operation, preventing performance bottlenecks. SQL Server also supports parallel backups and restores, allowing multiple files to be processed concurrently, improving overall performance.",
+          "id": "sql_medium_Bac_5",
+          "level": "Medium"
+        }
+      ],
+      "conceptName": "Backup and Recovery Strategies: Developing comprehensive backup and recovery plans, including full, differential, and transaction log backups. Understanding recovery models and point-in-time recovery.",
+      "meaning": "Backup and recovery strategies are crucial for protecting data against loss or corruption. They involve creating copies of data (backups) and establishing procedures to restore data to a functional state after an incident. Different backup types (full, differential, transaction log) offer varying levels of granularity and performance trade-offs. Recovery models determine how transaction logs are managed and the extent to which point-in-time recovery is possible."
+    },
+    {
+      "conceptName": "Data Integrity and Consistency: Implementing constraints, triggers, and other mechanisms to ensure data integrity and consistency. Understanding ACID properties and their enforcement.",
+      "questions": [
+        {
+          "p": [
+            "Postpones constraint validation.",
+            "Improves performance, risks intermediate inconsistencies.",
+            "Batch validation at commit."
+          ],
+          "id": "sql_medium_Dat_0",
+          "level": "Medium",
+          "a": "Deferred constraint checking postpones constraint validation until transaction commit. This improves performance by reducing overhead during individual statements. However, it can lead to inconsistencies if intermediate states violate constraints. Internally, the database tracks changes and validates them as a batch at commit, potentially requiring rollback if violations are found.",
+          "q": "Explain how deferred constraint checking impacts transaction performance and data consistency, detailing the internal mechanisms involved."
+        },
+        {
+          "a": "Triggers, especially complex ones, can introduce significant overhead. For example, a trigger updating multiple tables on every row insertion can slow down write operations. Diagnosis involves profiling database performance to identify slow triggers. Mitigation strategies include optimizing trigger logic, using indexed views, or refactoring the logic into application code.",
+          "q": "Describe a scenario where using triggers to enforce data integrity could lead to performance bottlenecks. How would you diagnose and mitigate such issues?",
+          "level": "Medium",
+          "p": [
+            "Triggers can cause performance bottlenecks.",
+            "Diagnose via database profiling.",
+            "Optimize trigger logic or refactor."
+          ],
+          "id": "sql_medium_Dat_1"
+        },
+        {
+          "id": "sql_medium_Dat_2",
+          "level": "Medium",
+          "q": "Discuss the trade-offs between using declarative constraints and procedural triggers for enforcing complex business rules related to data integrity. Consider factors like maintainability, performance, and debugging.",
+          "a": "Declarative constraints are generally more maintainable and performant due to database optimization. Triggers offer flexibility for complex rules but can be harder to debug and maintain. Constraints are checked before triggers. Debugging triggers often involves examining execution plans and trigger execution order, which can be complex.",
+          "p": [
+            "Constraints: maintainable, performant.",
+            "Triggers: flexible, harder to debug.",
+            "Consider maintainability, performance, debugging."
+          ]
+        },
+        {
+          "a": "Transaction isolation levels control the degree to which transactions are isolated from each other. Lower levels (e.g., Read Committed) allow phantom reads and non-repeatable reads, potentially leading to inconsistencies. Higher levels (e.g., Serializable) use stricter locking (shared and exclusive locks) to prevent these anomalies, but at the cost of concurrency.",
+          "id": "sql_medium_Dat_3",
+          "p": [
+            "Isolation levels affect data consistency.",
+            "Lower levels: phantom/non-repeatable reads.",
+            "Higher levels: stricter locking, reduced concurrency."
+          ],
+          "level": "Medium",
+          "q": "How does the database's transaction isolation level affect data consistency, particularly concerning phantom reads and non-repeatable reads? Explain the internal locking mechanisms involved."
+        },
+        {
+          "level": "Medium",
+          "a": "Optimistic locking assumes conflicts are rare, checking for modifications before committing. Pessimistic locking acquires locks upfront, preventing conflicts. Optimistic locking suits low-contention scenarios, reducing overhead. Pessimistic locking is better for high-contention scenarios, preventing lost updates. Pessimistic locking can cause deadlocks, requiring deadlock detection and resolution mechanisms.",
+          "q": "Explain how optimistic locking and pessimistic locking strategies impact concurrency and data integrity. Describe scenarios where each approach is most suitable, considering potential deadlocks and performance implications.",
+          "p": [
+            "Optimistic: checks before commit, low contention.",
+            "Pessimistic: locks upfront, high contention.",
+            "Consider deadlocks and performance."
+          ],
+          "id": "sql_medium_Dat_4"
+        },
+        {
+          "id": "sql_medium_Dat_5",
+          "p": [
+            "Embrace eventual consistency.",
+            "Use distributed transactions/compensating actions.",
+            "Monitor and reconcile data discrepancies."
+          ],
+          "a": "Ensuring data integrity across microservices involves embracing eventual consistency. Strategies include using distributed transactions (e.g., two-phase commit), compensating transactions, and idempotent operations. Detecting inconsistencies involves monitoring data discrepancies and using audit logs. Resolving inconsistencies may require manual intervention or automated reconciliation processes.",
+          "q": "Describe how you would design a system to ensure data integrity across multiple microservices, considering eventual consistency and potential data inconsistencies. What strategies would you use for detecting and resolving inconsistencies?",
+          "level": "Medium"
+        }
+      ],
+      "meaning": "Data integrity ensures data accuracy and reliability. Consistency ensures that data remains valid across transactions. Mechanisms like constraints, triggers, and ACID properties (Atomicity, Consistency, Isolation, Durability) are used to enforce these principles in databases."
+    },
+    {
+      "conceptName": "Resource Governor: Configuring the Resource Governor to manage resource consumption by different workloads. Understanding resource pools, workload groups, and classification functions.",
+      "questions": [
+        {
+          "a": "Resource Governor uses a scheduler to allocate memory based on the MIN_MEMORY_PERCENT and MAX_MEMORY_PERCENT settings for each resource pool. It monitors memory usage and adjusts allocations dynamically. To prevent starvation, it enforces minimum memory guarantees and uses internal algorithms to prioritize pools based on their importance and current memory pressure. SQL Server's memory manager works closely with the Resource Governor to enforce these limits.",
+          "level": "Medium",
+          "q": "Explain the internal workings of how the Resource Governor manages memory allocation across different resource pools. How does it prevent one pool from starving another?",
+          "p": [
+            "Scheduler allocates memory based on MIN/MAX settings.",
+            "Dynamic adjustments based on usage.",
+            "Enforces minimum memory guarantees.",
+            "Prioritizes pools to prevent starvation."
+          ],
+          "id": "sql_medium_Res_0"
+        },
+        {
+          "a": "Overly restrictive resource pool configurations can lead to performance bottlenecks. For example, if a critical workload is assigned to a pool with insufficient resources, it can experience significant delays. The trade-off is between resource isolation and overall system throughput. Incorrect classification functions can also misroute workloads, leading to inefficient resource utilization and performance degradation.",
+          "level": "Medium",
+          "id": "sql_medium_Res_1",
+          "p": [
+            "Restrictive pools can cause bottlenecks.",
+            "Trade-off: Isolation vs. Throughput.",
+            "Incorrect classification leads to inefficiency."
+          ],
+          "q": "Describe a scenario where using Resource Governor might negatively impact overall SQL Server performance. What are the performance trade-offs involved?"
+        },
+        {
+          "id": "sql_medium_Res_2",
+          "p": [
+            "MAX_IOPS_PER_VOLUME limits I/O per pool.",
+            "SQL Server I/O manager monitors requests.",
+            "Throttles I/O to enforce limits."
+          ],
+          "level": "Medium",
+          "a": "Resource Governor manages I/O using the MAX_IOPS_PER_VOLUME setting for each resource pool. This setting limits the number of I/O operations per second that workload groups within the pool can perform against a specific disk volume. SQL Server's I/O resource manager monitors I/O requests and throttles them as needed to enforce these limits, preventing any single workload from monopolizing disk resources.",
+          "q": "How does the Resource Governor handle I/O resource management? Explain the mechanisms used to limit I/O usage by different workload groups."
+        },
+        {
+          "p": [
+            "Monitor resource consumption using DMVs.",
+            "Review classification function accuracy.",
+            "Analyze query execution plans.",
+            "Adjust settings incrementally."
+          ],
+          "id": "sql_medium_Res_3",
+          "level": "Medium",
+          "a": "First, I'd monitor resource consumption using DMVs like `sys.dm_resource_governor_resource_pools` and `sys.dm_resource_governor_workload_groups` to identify resource bottlenecks. I'd then review the classification function to ensure workloads are correctly assigned. I'd also analyze query execution plans to identify queries affected by resource limits. Finally, I'd adjust resource pool settings incrementally, monitoring performance after each change.",
+          "q": "In a production environment, you observe that a newly implemented Resource Governor configuration is causing unexpected performance issues. Describe your debugging approach to identify and resolve the problem."
+        },
+        {
+          "level": "Medium",
+          "p": [
+            "CPU affinity binds threads to CPUs.",
+            "Ensure pools have sufficient CPU resources.",
+            "Avoid overlapping affinity masks.",
+            "Plan carefully to prevent contention."
+          ],
+          "a": "CPU affinity allows you to bind SQL Server threads to specific CPUs. When used with Resource Governor, it's crucial to ensure that resource pools have access to sufficient CPU resources. Overlapping CPU affinity masks with Resource Governor settings can lead to resource contention and performance degradation. Careful planning is needed to avoid conflicts and ensure optimal resource allocation.",
+          "id": "sql_medium_Res_4",
+          "q": "Explain how CPU affinity interacts with Resource Governor. What considerations should be made when configuring both CPU affinity and Resource Governor?"
+        },
+        {
+          "id": "sql_medium_Res_5",
+          "level": "Medium",
+          "p": [
+            "Integrated resource management layer.",
+            "Intercepts and classifies connections.",
+            "Assigns connections to workload groups.",
+            "Scheduler enforces resource limits."
+          ],
+          "a": "The Resource Governor is integrated into the SQL Server engine as a resource management layer. It intercepts incoming connections, classifies them based on the classification function, and assigns them to appropriate workload groups. The scheduler within the Resource Governor then monitors and enforces resource limits (CPU, memory, I/O) for each workload group, working in conjunction with the SQL Server memory manager and I/O subsystem.",
+          "q": "Discuss the architecture of the Resource Governor. How does it integrate with the SQL Server engine to enforce resource limits?"
+        }
+      ],
+      "meaning": "The Resource Governor in SQL Server allows you to manage SQL Server workload and system resource consumption by specifying limits on CPU, memory, and I/O. It involves creating resource pools to represent physical resources, workload groups to represent sessions with similar resource needs, and classification functions to assign incoming connections to workload groups."
+    },
+    {
+      "meaning": "Technical summary of In-Memory OLTP (Hekaton): Understanding the architecture and benefits of In-Memory OLTP. Designing and implementing tables and stored procedures for in-memory execution.",
+      "questions": [
+        {
+          "a": "Hekaton uses a custom memory manager optimized for OLTP workloads. It pre-allocates memory pools to avoid fragmentation and uses a non-blocking garbage collection mechanism. This reduces overhead but can lead to memory pressure if not properly sized. Performance trade-offs include faster allocation/deallocation but potential for out-of-memory errors if the workload exceeds allocated memory.",
+          "id": "sql_medium_In-_0",
+          "level": "Medium",
+          "p": [
+            "Pre-allocated memory pools",
+            "Non-blocking garbage collection",
+            "Faster allocation/deallocation",
+            "Potential OOM errors"
+          ],
+          "q": "Explain how Hekaton manages memory internally, specifically addressing memory allocation and garbage collection. What are the performance implications of this memory management strategy?"
+        },
+        {
+          "a": "Hekaton employs lock-free data structures like optimistic concurrency control (OCC) to minimize locking overhead. This boosts performance by allowing concurrent operations. Challenges include complex implementation, debugging concurrency issues (e.g., write skew), and potential for increased transaction rollbacks due to conflicts.",
+          "q": "Describe the lock-free data structures used in Hekaton. How do they contribute to performance gains, and what are the challenges associated with their implementation and debugging?",
+          "p": [
+            "Optimistic Concurrency Control (OCC)",
+            "Minimizes locking overhead",
+            "Complex implementation/debugging",
+            "Increased transaction rollbacks"
+          ],
+          "level": "Medium",
+          "id": "sql_medium_In-_1"
+        },
+        {
+          "level": "Medium",
+          "p": [
+            "Checkpointing (periodic flush to disk)",
+            "Transaction logging (records changes)",
+            "Recovery replays logs",
+            "Ensures durability"
+          ],
+          "a": "Hekaton uses a combination of checkpointing and transaction logging for durability. Checkpoints periodically flush in-memory data to disk. Transaction logs record all changes since the last checkpoint. During recovery, the database replays the logs to bring the in-memory data to a consistent state. This ensures minimal data loss but introduces latency.",
+          "q": "How does Hekaton handle durability and recovery in case of a server crash? Explain the checkpointing and transaction logging mechanisms involved.",
+          "id": "sql_medium_In-_2"
+        },
+        {
+          "p": [
+            "T-SQL feature restrictions",
+            "Limited CLR integration",
+            "Recompilation overhead",
+            "Schema-bound objects"
+          ],
+          "level": "Medium",
+          "id": "sql_medium_In-_3",
+          "q": "What are the limitations of using natively compiled stored procedures in Hekaton, and how do you mitigate these limitations in a production environment?",
+          "a": "Limitations include restrictions on T-SQL features, lack of full CLR integration, and potential for recompilation overhead. Mitigation strategies involve careful code design, using schema-bound objects to prevent invalidations, and monitoring recompilation frequency. Also, consider breaking down complex logic into smaller, manageable natively compiled procedures."
+        },
+        {
+          "id": "sql_medium_In-_4",
+          "a": "Migration involves creating a new in-memory table with the same schema, copying data, and updating application code. Key considerations include data type compatibility, index design, and transaction isolation levels. Pitfalls include performance degradation during migration, increased memory consumption, and application compatibility issues. Thorough testing is crucial.",
+          "p": [
+            "Create new in-memory table",
+            "Copy data",
+            "Update application code",
+            "Test thoroughly"
+          ],
+          "level": "Medium",
+          "q": "Explain the process of migrating an existing disk-based table to an in-memory table in Hekaton. What are the key considerations and potential pitfalls during this migration?"
+        },
+        {
+          "level": "Medium",
+          "id": "sql_medium_In-_5",
+          "p": [
+            "Not optimal for read-heavy workloads",
+            "Not optimal when data exceeds memory",
+            "Consider disk-based tables with indexing",
+            "Consider caching solutions"
+          ],
+          "a": "Hekaton might not be optimal for read-heavy workloads with infrequent updates, or when data size exceeds available memory. Alternatives include traditional disk-based tables with optimized indexing, read replicas, or caching solutions like Redis. The choice depends on the specific workload characteristics and performance requirements.",
+          "q": "Describe a scenario where using Hekaton might *not* be the optimal solution. What are the alternative technologies or approaches you would consider in such a case, and why?"
+        }
+      ],
+      "conceptName": "In-Memory OLTP (Hekaton): Understanding the architecture and benefits of In-Memory OLTP. Designing and implementing tables and stored procedures for in-memory execution."
+    },
+    {
+      "questions": [
+        {
+          "q": "How does SQL Server manage the history table associated with a system-versioned temporal table under the hood, specifically concerning storage and indexing strategies, and what are the performance implications of these choices?",
+          "a": "SQL Server automatically creates and manages the history table. By default, it resides in the same filegroup as the temporal table. Indexing strategies on the history table are crucial for query performance. Typically, a clustered columnstore index is recommended for large history tables due to its compression and query performance benefits. However, this can impact the speed of data modifications. The choice of indexing strategy is a trade-off between write and read performance.",
+          "level": "Medium",
+          "id": "sql_medium_Tem_0",
+          "p": [
+            "History table managed automatically.",
+            "Clustered columnstore index recommended for large history.",
+            "Indexing impacts write/read performance trade-off."
+          ]
+        },
+        {
+          "p": [
+            "Updates/deletes are atomic transactions.",
+            "Locking/latching ensures concurrency.",
+            "Serializable isolation for temporal operations."
+          ],
+          "id": "sql_medium_Tem_1",
+          "q": "When a row is updated or deleted in a system-versioned temporal table, how does SQL Server ensure transactional consistency between the current table and the history table, especially in high-concurrency environments?",
+          "level": "Medium",
+          "a": "SQL Server uses internal mechanisms to maintain transactional consistency. When a row is updated or deleted, both the current table and the history table are modified within the same transaction. This ensures atomicity. SQL Server employs locking and latching mechanisms to handle concurrency, preventing data corruption and ensuring that historical data is accurately preserved even under heavy load. Serializable isolation level is effectively in place for temporal operations."
+        },
+        {
+          "a": "Frequent updates to a temporal table, especially with a large number of columns or indexes, can significantly impact write performance due to the overhead of writing to both the current and history tables. Mitigation strategies include: using delayed durability to reduce transaction log overhead, partitioning the history table for better manageability, and carefully designing indexes to balance read and write performance. Consider also batching updates where possible.",
+          "level": "Medium",
+          "p": [
+            "Frequent updates impact write performance.",
+            "Mitigation: delayed durability, partitioning.",
+            "Optimize indexes, batch updates."
+          ],
+          "id": "sql_medium_Tem_2",
+          "q": "Describe a scenario where using a temporal table might negatively impact write performance, and what strategies could you employ to mitigate these performance issues in a production environment?"
+        },
+        {
+          "level": "Medium",
+          "a": "Monitor disk space usage for both tables. Track query performance, focusing on historical data retrieval. Monitor write latency to identify performance bottlenecks during updates and deletes. Use SQL Server's built-in performance monitoring tools (e.g., Extended Events, SQL Profiler, DMVs) to capture relevant metrics like CPU usage, I/O operations, and lock contention. Regularly review execution plans for temporal queries.",
+          "id": "sql_medium_Tem_3",
+          "p": [
+            "Monitor disk space, query performance, write latency.",
+            "Use Extended Events, SQL Profiler, DMVs.",
+            "Review execution plans."
+          ],
+          "q": "In a production environment, how would you monitor the performance and storage utilization of temporal tables and their associated history tables, and what metrics would you focus on to identify potential issues?"
+        },
+        {
+          "id": "sql_medium_Tem_4",
+          "a": "Schema changes on temporal tables require careful planning. Adding a NOT NULL column requires providing a default value, as historical rows will need a value for the new column. Dropping columns is generally supported, but consider the impact on historical queries that might rely on those columns. Renaming columns is not directly supported; a workaround involves creating a new column, copying data, and dropping the old column. Always test schema changes in a non-production environment first.",
+          "p": [
+            "Adding NOT NULL requires default value.",
+            "Dropping columns impacts historical queries.",
+            "Renaming requires workaround."
+          ],
+          "q": "Explain the implications of schema changes on a system-versioned temporal table. How are schema changes handled, and what considerations should be taken into account when altering the table structure?",
+          "level": "Medium"
+        },
+        {
+          "id": "sql_medium_Tem_5",
+          "p": [
+            "Partitioning enables efficient removal.",
+            "Archive to separate storage (SSIS, ADF).",
+            "Purge during off-peak hours, use minimal logging."
+          ],
+          "a": "Retention policies often necessitate purging older data. Partitioning the history table by time range allows for efficient removal of old partitions. Alternatively, data can be archived to a separate storage location (e.g., Azure Blob Storage) using tools like SQL Server Integration Services (SSIS) or Azure Data Factory. Before purging, ensure that the data is no longer needed for compliance or auditing purposes. Minimizing downtime involves performing these operations during off-peak hours and using minimal logging.",
+          "q": "Discuss a scenario where you might need to purge or archive historical data from a temporal table's history table. What strategies would you use to accomplish this while minimizing downtime and ensuring data integrity?",
+          "level": "Medium"
+        }
+      ],
+      "meaning": "Technical summary of Temporal Tables: Implementing temporal tables to track data changes over time. Understanding system-versioned tables and querying historical data.",
+      "conceptName": "Temporal Tables: Implementing temporal tables to track data changes over time. Understanding system-versioned tables and querying historical data."
+    },
+    {
+      "questions": [
+        {
+          "level": "Medium",
+          "id": "sql_medium_CLR_0",
+          "a": "SQL Server hosts the CLR, providing a memory manager. CLR objects reside in the SQL Server process space. Memory leaks in CLR code can exhaust SQL Server's memory, leading to instability. Monitoring memory consumption using performance counters and SQL Server's DMVs is crucial. Using deterministic functions helps SQL Server optimize query plans and resource allocation.",
+          "p": [
+            "SQL Server hosts CLR.",
+            "Memory leaks impact SQL Server.",
+            "Monitor memory usage.",
+            "Use deterministic functions."
+          ],
+          "q": "How does SQL Server manage memory when executing CLR stored procedures, and what are the potential memory-related issues that can arise?"
+        },
+        {
+          "id": "sql_medium_CLR_1",
+          "level": "Medium",
+          "a": "SQL Server offers SAFE, EXTERNAL_ACCESS, and UNSAFE assembly permission sets. SAFE is the most restrictive, allowing only computation and data access within the database. EXTERNAL_ACCESS permits access to external resources like files. UNSAFE allows unrestricted code execution. CAS restricts what the CLR code can do based on the permission set. Choosing the correct level is crucial for security.",
+          "p": [
+            "SAFE: Limited access.",
+            "EXTERNAL_ACCESS: External resources.",
+            "UNSAFE: Unrestricted access.",
+            "CAS enforces permissions."
+          ],
+          "q": "Explain the different security levels available for CLR assemblies in SQL Server and the implications of choosing each level. How does code access security (CAS) play a role?"
+        },
+        {
+          "level": "Medium",
+          "q": "Describe a scenario where using a CLR stored procedure would be significantly more performant than using T-SQL, and explain the underlying reasons for the performance gain.",
+          "p": [
+            "Complex string operations.",
+            "Computationally intensive tasks.",
+            "Optimized .NET libraries.",
+            "Compiled code execution."
+          ],
+          "a": "Complex string manipulation or computationally intensive tasks benefit from CLR. .NET offers optimized string handling and math libraries. For example, parsing complex regular expressions or performing advanced encryption are faster in CLR. The performance gain comes from optimized .NET libraries and the ability to leverage compiled code execution within SQL Server.",
+          "id": "sql_medium_CLR_2"
+        },
+        {
+          "id": "sql_medium_CLR_3",
+          "a": "CLR integration introduces overhead due to context switching between SQL Server and the CLR. Serialization/deserialization of data between the two environments can also be costly. Mitigation strategies include minimizing data transfer, using deterministic functions, optimizing CLR code, and carefully selecting the appropriate security level to reduce security checks.",
+          "level": "Medium",
+          "q": "What are the performance trade-offs when using CLR integration in SQL Server, and how can you mitigate potential performance bottlenecks?",
+          "p": [
+            "Context switching overhead.",
+            "Serialization/deserialization costs.",
+            "Minimize data transfer.",
+            "Optimize CLR code."
+          ]
+        },
+        {
+          "level": "Medium",
+          "a": "First, identify the resources involved in the deadlock using SQL Server's extended events or the `sys.dm_tran_locks` DMV. Analyze the CLR trigger's code for potential locking issues. Use .NET debugging tools (e.g., Visual Studio) to step through the CLR code within the SQL Server process. Consider using transaction isolation levels to reduce locking contention. Review and optimize the CLR code's resource usage.",
+          "id": "sql_medium_CLR_4",
+          "p": [
+            "Identify deadlock resources.",
+            "Analyze CLR code for locking.",
+            "Use .NET debugging tools.",
+            "Optimize resource usage."
+          ],
+          "q": "You've deployed a CLR trigger that's causing deadlocks in your production environment. How would you approach debugging this issue, and what tools or techniques would you use?"
+        },
+        {
+          "p": [
+            "Use CREATE ASSEMBLY.",
+            "Strong names for versioning.",
+            "ALTER ASSEMBLY for updates.",
+            "Thorough testing is crucial."
+          ],
+          "level": "Medium",
+          "q": "Explain the process of deploying and managing CLR assemblies in a SQL Server environment, including versioning and updating assemblies without disrupting existing functionality.",
+          "a": "Deploy CLR assemblies using `CREATE ASSEMBLY`. Use strong names for versioning. To update, use `ALTER ASSEMBLY` with the `WITH UNCHECKED DATA` option to preserve existing data. Consider deploying new versions side-by-side and gradually migrating functionality. Implement thorough testing in a staging environment before deploying to production. Use SQL Server's DMVs to monitor assembly usage and performance.",
+          "id": "sql_medium_CLR_5"
+        }
+      ],
+      "conceptName": "CLR Integration: Developing and deploying CLR stored procedures, functions, and triggers. Understanding the security implications and performance considerations of CLR integration.",
+      "meaning": "Technical summary of CLR Integration: Developing and deploying CLR stored procedures, functions, and triggers. Understanding the security implications and performance considerations of CLR integration."
+    }
+  ]
+}

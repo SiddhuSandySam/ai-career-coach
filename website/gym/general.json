@@ -1,0 +1,1402 @@
+{
+  "skillId": "general",
+  "skillName": "General",
+  "questionCount": 113,
+  "concepts": [
+    {
+      "conceptName": "What are the four pillars of Object-Oriented Programming (OOP)?",
+      "meaning": "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of 'objects', which contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). The four pillars are Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+      "questions": [
+        {
+          "q": "What are the four pillars of Object-Oriented Programming (OOP)?",
+          "a": "The four pillars of OOP are Abstraction, Encapsulation, Inheritance, and Polymorphism. Abstraction simplifies complex reality by modeling classes appropriate to the problem. Encapsulation bundles data and methods that operate on that data, restricting direct access. Inheritance allows new classes to inherit properties and behaviors from existing classes. Polymorphism enables objects of different classes to respond to the same method call in their own way.",
+          "p": [
+            "Abstraction: Hiding complexity.",
+            "Encapsulation: Bundling data and methods.",
+            "Inheritance: Reusing code.",
+            "Polymorphism: Many forms."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "Explain Encapsulation.",
+          "a": "Encapsulation is the bundling of data (attributes) and methods that operate on that data within a single unit, or class. It restricts direct access to some of the object's components, preventing unintended external modification of the data. This is often achieved using access modifiers like 'private' and 'protected'.",
+          "p": [
+            "Bundling data and methods.",
+            "Hiding internal state.",
+            "Protecting data integrity."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is Inheritance?",
+          "a": "Inheritance is a mechanism where a new class (subclass or derived class) inherits properties and behaviors from an existing class (superclass or base class). It promotes code reuse and establishes an IS-A relationship between classes. Subclasses can override or extend the functionality of the superclass.",
+          "p": [
+            "Code reuse.",
+            "IS-A relationship.",
+            "Extending functionality."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What is Polymorphism?",
+          "a": "Polymorphism means 'many forms'. In OOP, it allows objects of different classes to respond to the same method call in their own specific way. This can be achieved through method overloading (same method name, different parameters) or method overriding (subclass provides a specific implementation of a method already defined in its superclass).",
+          "p": [
+            "Many forms.",
+            "Method overloading.",
+            "Method overriding."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "Explain Abstraction.",
+          "a": "Abstraction is the process of simplifying complex reality by modeling classes based on essential attributes and behaviors, while hiding unnecessary implementation details. It allows programmers to focus on what an object does rather than how it does it. Abstract classes and interfaces are used to achieve abstraction.",
+          "p": [
+            "Simplifying complexity.",
+            "Hiding details.",
+            "Focusing on essential features."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "What is the difference between method overloading and method overriding?",
+          "a": "Method overloading occurs within the same class when multiple methods have the same name but different parameters. Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. Overloading is resolved at compile time, while overriding is resolved at runtime.",
+          "p": [
+            "Overloading: Same class, different parameters.",
+            "Overriding: Subclass, same signature.",
+            "Overloading: Compile-time.",
+            "Overriding: Runtime."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between 'class' and 'object'.",
+      "meaning": "A class is a blueprint or template for creating objects. An object is a specific instance of a class, representing a real-world entity with its own state and behavior.",
+      "questions": [
+        {
+          "q": "What is the difference between a class and an object?",
+          "a": "A class is a blueprint or a template that defines the characteristics and behaviors of objects. It's a logical construct. An object is a specific instance of a class, representing a real-world entity. Objects have state (data) and behavior (methods). Think of a class as a cookie cutter and objects as the cookies.",
+          "p": [
+            "Class: Blueprint/Template",
+            "Object: Instance of a class",
+            "Class: Logical construct",
+            "Object: Real-world entity"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_0"
+        },
+        {
+          "q": "What are the four pillars of Object-Oriented Programming (OOP)?",
+          "a": "The four pillars of OOP are: 1. Encapsulation: Bundling data and methods that operate on that data within a class. 2. Abstraction: Hiding complex implementation details and exposing only essential information. 3. Inheritance: Creating new classes from existing classes, inheriting their properties and behaviors. 4. Polymorphism: The ability of an object to take on many forms.",
+          "p": [
+            "Encapsulation: Data bundling",
+            "Abstraction: Hiding complexity",
+            "Inheritance: Code reusability",
+            "Polymorphism: Many forms"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_1"
+        },
+        {
+          "q": "What is polymorphism?",
+          "a": "Polymorphism means 'many forms'. In OOP, it refers to the ability of an object to take on many forms. This is often achieved through method overloading (same method name, different parameters) and method overriding (redefining a method in a subclass). It allows you to write more flexible and reusable code.",
+          "p": [
+            "Many forms",
+            "Method overloading",
+            "Method overriding",
+            "Flexibility and reusability"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_2"
+        },
+        {
+          "q": "What is inheritance?",
+          "a": "Inheritance is a mechanism where a new class (subclass or derived class) inherits properties and behaviors from an existing class (superclass or base class). It promotes code reusability and establishes an IS-A relationship between classes. For example, a 'Dog' class can inherit from an 'Animal' class.",
+          "p": [
+            "Subclass inherits from superclass",
+            "Code reusability",
+            "IS-A relationship",
+            "Extends functionality"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_3"
+        },
+        {
+          "q": "What is the purpose of the 'static' keyword?",
+          "a": "The 'static' keyword is used to create members (variables or methods) that belong to the class itself, rather than to any specific instance of the class. Static members are shared by all objects of the class. Static methods can be called directly on the class without creating an object.",
+          "p": [
+            "Belongs to the class",
+            "Shared by all objects",
+            "Accessed directly via class name",
+            "Memory efficiency"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_4"
+        },
+        {
+          "q": "What is the difference between '==' and '.equals()' in Java (or equivalent in other languages)?",
+          "a": "The '==' operator compares the memory addresses of two objects. It checks if two references point to the same object in memory. The '.equals()' method, on the other hand, compares the content or values of two objects. The default implementation of '.equals()' also compares memory addresses, but it can be overridden to provide custom comparison logic based on the object's attributes.",
+          "p": [
+            "== : Compares memory addresses",
+            ".equals(): Compares content",
+            ".equals() can be overridden",
+            "Object equality"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Polymorphism? Provide a simple example.",
+      "meaning": "Polymorphism allows objects of different classes to respond to the same method call in their own specific way. It enables writing code that can work with objects of various types without needing to know their exact class.",
+      "questions": [
+        {
+          "q": "What is Polymorphism?",
+          "a": "Polymorphism means 'many forms'. In OOP, it's the ability of an object to take on many forms. This is typically achieved through method overloading (compile-time polymorphism) and method overriding (runtime polymorphism). It allows treating objects of different classes uniformly.",
+          "p": [
+            "Many forms",
+            "Method overloading (compile-time)",
+            "Method overriding (runtime)",
+            "Uniform object treatment"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "Explain the difference between compile-time (static) and runtime (dynamic) polymorphism.",
+          "a": "Compile-time polymorphism (method overloading) is resolved during compilation. The compiler knows which method to call based on the method signature. Runtime polymorphism (method overriding) is resolved during runtime. The correct method to call is determined based on the actual object type.",
+          "p": [
+            "Compile-time: Method overloading, resolved at compile time",
+            "Runtime: Method overriding, resolved at runtime",
+            "Based on method signature vs. object type"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is method overloading, and how does it relate to polymorphism?",
+          "a": "Method overloading is having multiple methods in the same class with the same name but different parameters (different number, type, or order of parameters). It's a form of compile-time polymorphism because the compiler determines which method to call based on the arguments passed.",
+          "p": [
+            "Same name, different parameters",
+            "Compile-time polymorphism",
+            "Compiler chooses based on arguments"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What is method overriding, and how does it relate to polymorphism?",
+          "a": "Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. It's a form of runtime polymorphism because the correct method to call is determined at runtime based on the actual object type.",
+          "p": [
+            "Subclass re-implements superclass method",
+            "Runtime polymorphism",
+            "Determined by object type at runtime"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "Provide a simple example of polymorphism using inheritance.",
+          "a": "Consider a base class `Animal` with a method `makeSound()`. Subclasses like `Dog` and `Cat` can override `makeSound()` to produce different sounds.  A program can then call `makeSound()` on an `Animal` object without knowing if it's a `Dog` or a `Cat`, and the correct sound will be produced.",
+          "p": [
+            "Base class with a method",
+            "Subclasses override the method",
+            "Call method on base class reference",
+            "Correct subclass method executes"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "What are some benefits of using polymorphism?",
+          "a": "Polymorphism promotes code reusability and flexibility. It allows writing generic code that can work with objects of different types. It also simplifies code maintenance and extension, as new classes can be added without modifying existing code that uses the polymorphic interface.",
+          "p": [
+            "Code reusability",
+            "Flexibility",
+            "Simplified maintenance",
+            "Extensibility"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Inheritance? How does it promote code reusability?",
+      "meaning": "Inheritance is a fundamental concept in object-oriented programming (OOP) where a new class (subclass or derived class) inherits properties and behaviors from an existing class (superclass or base class). This promotes code reusability by allowing the subclass to reuse the code already defined in the superclass, reducing redundancy and improving maintainability.",
+      "questions": [
+        {
+          "q": "What is inheritance in object-oriented programming?",
+          "a": "Inheritance is a mechanism where a new class (subclass) acquires properties and methods from an existing class (superclass). It establishes an IS-A relationship, allowing subclasses to inherit and extend the functionality of the superclass. This avoids code duplication and promotes a hierarchical structure.",
+          "p": [
+            "Subclass inherits from superclass.",
+            "Establishes IS-A relationship.",
+            "Promotes code reuse."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "How does inheritance promote code reusability?",
+          "a": "Inheritance promotes code reusability by allowing a subclass to inherit the attributes and methods of a superclass. Instead of rewriting the same code, the subclass can reuse the existing code from the superclass. This reduces redundancy, saves development time, and makes the code easier to maintain and update.",
+          "p": [
+            "Subclass reuses superclass code.",
+            "Reduces code duplication.",
+            "Improves maintainability."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between a superclass and a subclass?",
+          "a": "A superclass (or base class) is the class from which other classes inherit. A subclass (or derived class) is a class that inherits from a superclass. The subclass inherits the properties and methods of the superclass and can also add its own specific properties and methods.",
+          "p": [
+            "Superclass: Base class.",
+            "Subclass: Derived class.",
+            "Subclass inherits from superclass."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What is the 'super' keyword used for in inheritance?",
+          "a": "The 'super' keyword is used to access members (methods and variables) of the superclass from within the subclass. It's commonly used to call the superclass's constructor or to access overridden methods in the superclass.",
+          "p": [
+            "Access superclass members.",
+            "Call superclass constructor.",
+            "Access overridden methods."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "What are the different types of inheritance?",
+          "a": "Common types of inheritance include single inheritance (a class inherits from only one superclass), multiple inheritance (a class inherits from multiple superclasses - not supported in Java and some other languages), and multilevel inheritance (a class inherits from a class, which in turn inherits from another class).",
+          "p": [
+            "Single inheritance: One superclass.",
+            "Multiple inheritance: Multiple superclasses.",
+            "Multilevel inheritance: Inheritance chain."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "Can a subclass override a method from its superclass? If so, why is this useful?",
+          "a": "Yes, a subclass can override a method from its superclass. This is useful because it allows the subclass to provide a specific implementation of a method that is already defined in the superclass, tailoring the behavior to the subclass's needs. This is a key aspect of polymorphism.",
+          "p": [
+            "Subclass provides specific implementation.",
+            "Tailors behavior to subclass.",
+            "Supports polymorphism."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Encapsulation, and why is it important?",
+      "meaning": "Encapsulation is one of the fundamental principles of object-oriented programming (OOP). It describes the idea of bundling data (attributes) and methods that operate on that data within a single unit, or 'class', and restricting direct access to some of the object's components. This is often achieved using access modifiers like 'private', 'protected', and 'public'. Encapsulation helps in data hiding, code modularity, and preventing unintended modifications to the object's state, leading to more robust and maintainable code.",
+      "questions": [
+        {
+          "q": "What is encapsulation?",
+          "a": "Encapsulation is the bundling of data (attributes) and methods that operate on that data into a single unit (class). It also involves hiding the internal state of an object and preventing direct access to it from outside the class. Access is typically controlled through methods.",
+          "p": [
+            "Bundling data and methods.",
+            "Hiding internal state.",
+            "Controlled access via methods."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "Why is encapsulation important?",
+          "a": "Encapsulation enhances code maintainability, flexibility, and security. It prevents direct, uncontrolled access to data, reducing the risk of accidental modification. It allows internal implementation details to be changed without affecting external code that uses the class, promoting modularity and reducing dependencies.",
+          "p": [
+            "Enhances maintainability.",
+            "Increases flexibility.",
+            "Improves security by data hiding."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between public, private, and protected access modifiers in the context of encapsulation.",
+          "a": "Public members are accessible from anywhere. Private members are only accessible within the class itself. Protected members are accessible within the class and its subclasses (inheritance). These modifiers control the level of encapsulation.",
+          "p": [
+            "Public: Accessible everywhere.",
+            "Private: Accessible only within the class.",
+            "Protected: Accessible within the class and subclasses."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What are the benefits of using getter and setter methods in encapsulation?",
+          "a": "Getter methods (accessors) allow controlled read access to private data, while setter methods (mutators) allow controlled write access. This enables validation or modification of data before it's accessed or changed, maintaining data integrity and providing a layer of abstraction.",
+          "p": [
+            "Controlled read access (getters).",
+            "Controlled write access (setters).",
+            "Data validation and modification."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "How does encapsulation contribute to code modularity?",
+          "a": "Encapsulation promotes modularity by hiding the internal complexity of a class and exposing only a well-defined interface. This allows developers to work with the class without needing to understand its inner workings, making the code easier to manage, test, and reuse.",
+          "p": [
+            "Hides internal complexity.",
+            "Exposes a clear interface.",
+            "Easier to manage, test, and reuse."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "Can you give an example of how encapsulation can prevent unintended data modification?",
+          "a": "Consider a 'BankAccount' class with a 'balance' attribute. By making 'balance' private and providing public 'deposit' and 'withdraw' methods, we can ensure that the balance is only modified through these controlled methods, preventing direct and potentially invalid modifications from outside the class.",
+          "p": [
+            "Private 'balance' attribute.",
+            "Public 'deposit' and 'withdraw' methods.",
+            "Controlled access to modify balance."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Abstraction, and how does it differ from Encapsulation?",
+      "meaning": "Abstraction and encapsulation are fundamental OOP concepts. Abstraction focuses on hiding complex implementation details and showing only essential information to the user. Encapsulation is about bundling data and methods that operate on that data within a single unit (class) and protecting the data from direct access from outside.",
+      "questions": [
+        {
+          "q": "What is Abstraction?",
+          "a": "Abstraction is the process of hiding complex implementation details and exposing only the essential features of an object. It allows you to focus on what an object does rather than how it does it. This simplifies the use of objects and reduces complexity.",
+          "p": [
+            "Hiding complexity.",
+            "Showing essential features.",
+            "Simplifies object usage."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "What is Encapsulation?",
+          "a": "Encapsulation is the bundling of data (attributes) and methods that operate on that data into a single unit, known as a class. It restricts direct access to some of the object's components, preventing accidental modification of data. This is often achieved using access modifiers like private, protected, and public.",
+          "p": [
+            "Bundling data and methods.",
+            "Restricting direct access.",
+            "Data protection."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between Abstraction and Encapsulation.",
+          "a": "Abstraction focuses on hiding the implementation details and showing only the necessary information, while encapsulation is about bundling data and methods together and protecting the data from outside access. Abstraction solves the problem at the design level, while encapsulation solves it at the implementation level. Abstraction is 'what' an object does, encapsulation is 'how' it does it.",
+          "p": [
+            "Abstraction: Hiding complexity.",
+            "Encapsulation: Data bundling and protection.",
+            "Abstraction: 'What', Encapsulation: 'How'."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "Can you give an example of Abstraction in real life?",
+          "a": "Consider a car. When you drive a car, you only need to know how to use the steering wheel, accelerator, and brakes. You don't need to understand the complex inner workings of the engine, transmission, or exhaust system. The car's manufacturer has abstracted away these details, providing you with a simplified interface.",
+          "p": [
+            "Driving a car.",
+            "Simplified interface.",
+            "Hiding engine details."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "Can you give an example of Encapsulation in real life?",
+          "a": "Think of a vending machine. You insert money, select a product, and receive the item. You don't need to know how the vending machine internally manages the inventory, processes the payment, or dispenses the product. All these internal mechanisms are encapsulated within the vending machine.",
+          "p": [
+            "Vending machine.",
+            "Internal mechanisms hidden.",
+            "Payment processing encapsulated."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "How are Abstraction and Encapsulation related?",
+          "a": "Abstraction and encapsulation often work together. Encapsulation helps to achieve abstraction by hiding the internal state of an object and exposing only the necessary methods to interact with it. Abstraction uses encapsulation to protect the data and methods that are not meant to be accessed directly.",
+          "p": [
+            "Work together.",
+            "Encapsulation supports abstraction.",
+            "Abstraction uses encapsulation for protection."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between 'public', 'private', and 'protected' access modifiers.",
+      "meaning": "Access modifiers control the visibility and accessibility of class members (variables, methods) from different parts of the program. They are fundamental to encapsulation in object-oriented programming.",
+      "questions": [
+        {
+          "q": "What is the difference between 'public', 'private', and 'protected' access modifiers?",
+          "a": "Public members are accessible from anywhere. Private members are only accessible within the same class. Protected members are accessible within the same class, subclasses, and within the same package.",
+          "p": [
+            "Public: Accessible everywhere.",
+            "Private: Accessible only within the class.",
+            "Protected: Accessible within the class, subclasses, and package."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_0"
+        },
+        {
+          "q": "What is encapsulation, and how do access modifiers relate to it?",
+          "a": "Encapsulation is bundling data and methods that operate on that data within a class, hiding the internal implementation details from the outside world. Access modifiers help achieve encapsulation by controlling the visibility of class members, preventing direct access and modification of internal data from outside the class.",
+          "p": [
+            "Encapsulation: Bundling data and methods.",
+            "Hides internal implementation.",
+            "Access modifiers control visibility."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_1"
+        },
+        {
+          "q": "Can a private method be accessed from outside the class?",
+          "a": "No, a private method cannot be directly accessed from outside the class in which it is declared. This is a core principle of encapsulation, ensuring that the internal workings of a class are protected from unintended modification or access.",
+          "p": [
+            "Private methods: Not accessible outside the class.",
+            "Enforces encapsulation.",
+            "Protects internal workings."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_2"
+        },
+        {
+          "q": "What is the scope of a 'protected' member?",
+          "a": "A 'protected' member is accessible within the same class, any subclass (regardless of package), and any other class within the same package. It provides a balance between the strict privacy of 'private' and the open accessibility of 'public'.",
+          "p": [
+            "Protected: Class, subclass, package.",
+            "Subclass access even in different packages.",
+            "Package-level access."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_3"
+        },
+        {
+          "q": "If a class and its subclass are in different packages, can the subclass access a protected member of the superclass?",
+          "a": "Yes, if a class and its subclass are in different packages, the subclass can access a protected member of the superclass. This is a key feature of the 'protected' access modifier, allowing for inheritance-based access across package boundaries.",
+          "p": [
+            "Subclass in different package: Access to protected members.",
+            "Inheritance-based access.",
+            "Key feature of 'protected'."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the purpose of the 'static' keyword?",
+      "meaning": "The 'static' keyword in programming languages like Java and C++ is used to create members (variables and methods) that belong to the class itself rather than to any specific instance of the class. Static members are shared among all instances of the class.",
+      "questions": [
+        {
+          "q": "What is the purpose of the 'static' keyword?",
+          "a": "The 'static' keyword is used to create members that belong to the class itself, rather than to an instance of the class. Static variables are shared among all instances, and static methods can be called directly on the class without creating an object. Static members exist even if no objects of the class have been created.",
+          "p": [
+            "Belongs to the class, not the object.",
+            "Shared among all instances.",
+            "Accessed directly using the class name.",
+            "Exists even without object creation."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "What is a static variable?",
+          "a": "A static variable is a variable that is associated with the class, rather than with any object of the class. There is only one copy of a static variable, shared by all instances of the class. Changes to a static variable affect all instances.",
+          "p": [
+            "Class-level variable.",
+            "Single copy shared by all objects.",
+            "Changes affect all instances.",
+            "Initialized only once."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is a static method?",
+          "a": "A static method is a method that is associated with the class, rather than with any object of the class. Static methods can be called directly on the class using the class name. Static methods cannot access non-static members directly.",
+          "p": [
+            "Class-level method.",
+            "Called using the class name.",
+            "Cannot directly access non-static members.",
+            "Often used for utility functions."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "Can a static method access non-static variables?",
+          "a": "No, a static method cannot directly access non-static variables. Static methods belong to the class, not to any specific instance, so they don't have access to instance-specific data. To access a non-static variable from a static method, you would need to pass an instance of the class as an argument.",
+          "p": [
+            "No direct access.",
+            "Requires an instance to access.",
+            "Static methods belong to the class.",
+            "Non-static variables are instance-specific."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "What is a static class (in languages that support it, like C++)?",
+          "a": "In languages like C++, a static class (or a class with only static members) is a class that cannot be instantiated. It serves as a namespace for static members, providing a way to group related functions and variables. All members of a static class must be static.",
+          "p": [
+            "Cannot be instantiated.",
+            "Acts as a namespace.",
+            "All members must be static.",
+            "Groups related static members."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the purpose of the 'final' keyword?",
+      "meaning": "The 'final' keyword in Java is a non-access modifier used to apply restrictions on a variable, method, or class. It signifies that the entity it modifies cannot be changed or overridden.",
+      "questions": [
+        {
+          "q": "What is the purpose of the 'final' keyword in Java?",
+          "a": "The 'final' keyword is used to restrict modification. When applied to a variable, its value becomes a constant. When applied to a method, it cannot be overridden in subclasses. When applied to a class, it cannot be subclassed (inherited).",
+          "p": [
+            "Variable: Constant value",
+            "Method: Cannot override",
+            "Class: Cannot inherit"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "Can you declare a 'final' variable without initializing it immediately?",
+          "a": "Yes, you can declare a 'final' variable without initializing it immediately, but it must be initialized in the constructor of the class. This is common for instance variables that should be constant for each object but can have different values based on constructor parameters.",
+          "p": [
+            "Declaration without immediate initialization is allowed.",
+            "Must be initialized in the constructor.",
+            "Allows object-specific constants."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What happens if you try to override a 'final' method in a subclass?",
+          "a": "If you attempt to override a 'final' method in a subclass, the compiler will generate an error. 'Final' methods are designed to prevent subclasses from changing their implementation, ensuring consistent behavior.",
+          "p": [
+            "Compiler error occurs.",
+            "Prevents method overriding.",
+            "Ensures consistent behavior."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "Can a 'final' class be extended?",
+          "a": "No, a 'final' class cannot be extended. The 'final' keyword, when applied to a class, prevents any other class from inheriting from it. This is often used to create immutable classes or to prevent unintended modifications to a class's behavior.",
+          "p": [
+            "Cannot be extended.",
+            "Prevents inheritance.",
+            "Creates immutable classes."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "What is the difference between 'final', 'finally', and 'finalize' in Java?",
+          "a": "'Final' is a keyword used to apply restrictions (constant, non-override, non-extend). 'Finally' is a block in exception handling that always executes. 'Finalize' is a method called by the garbage collector before an object is reclaimed.",
+          "p": [
+            "Final: Restriction keyword",
+            "Finally: Exception handling block",
+            "Finalize: Garbage collection method"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the use of the 'this' keyword.",
+      "meaning": "The 'this' keyword refers to the current object in a method or constructor. It's used to access the object's members (variables and methods) and to distinguish between instance variables and local variables with the same name.",
+      "questions": [
+        {
+          "q": "What is the primary purpose of the 'this' keyword in Java?",
+          "a": "The 'this' keyword refers to the current object instance. It's mainly used to differentiate between instance variables and local variables when they have the same name, and to call one constructor from another within the same class.",
+          "p": [
+            "Refers to the current object.",
+            "Differentiates instance and local variables.",
+            "Calls one constructor from another."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_0"
+        },
+        {
+          "q": "Explain how 'this' is used to access instance variables when there's a naming conflict with local variables.",
+          "a": "When a method parameter or local variable has the same name as an instance variable, 'this' is used to explicitly refer to the instance variable. For example, 'this.variableName' refers to the instance variable, while 'variableName' refers to the local variable.",
+          "p": [
+            "Resolves naming conflicts.",
+            "'this.variableName' accesses instance variable.",
+            "'variableName' accesses local variable."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_1"
+        },
+        {
+          "q": "Can 'this' be used in a static method? Why or why not?",
+          "a": "No, 'this' cannot be used in a static method. Static methods belong to the class itself, not to any specific instance of the class. Therefore, there is no current object instance for 'this' to refer to within a static method.",
+          "p": [
+            "Cannot be used in static methods.",
+            "Static methods belong to the class.",
+            "No object instance in static context."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_2"
+        },
+        {
+          "q": "How can 'this' be used to call one constructor from another within the same class?",
+          "a": "Within a constructor, 'this()' can be used to call another constructor of the same class. This is useful for code reuse and ensuring that common initialization logic is executed regardless of which constructor is used to create the object. It must be the first statement in the constructor.",
+          "p": [
+            "Calls another constructor.",
+            "Enables code reuse.",
+            "Must be the first statement."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_3"
+        },
+        {
+          "q": "What happens if you try to use 'this' outside of a method or constructor?",
+          "a": "Using 'this' outside of a method or constructor (e.g., in a static initializer block or directly within the class definition) will result in a compile-time error. 'this' is only valid within the context of an object instance.",
+          "p": [
+            "Results in a compile-time error.",
+            "Only valid in methods/constructors.",
+            "Requires an object instance context."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the use of the 'super' keyword.",
+      "meaning": "The 'super' keyword in Java is used to access members (methods and variables) of the parent class from within a subclass. It's essential for inheritance and method overriding.",
+      "questions": [
+        {
+          "q": "What is the primary purpose of the 'super' keyword in Java?",
+          "a": "The 'super' keyword is used to access members (methods and variables) of the parent class from within a subclass. It allows a subclass to invoke a parent class's constructor, access overridden methods, or access hidden fields.",
+          "p": [
+            "Access parent class members.",
+            "Call parent's constructor.",
+            "Resolve naming conflicts."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_0"
+        },
+        {
+          "q": "How can you use 'super' to call a parent class constructor?",
+          "a": "You can call a parent class constructor using 'super()' within a subclass constructor. It must be the first statement in the subclass constructor. If you don't explicitly call 'super()', the compiler automatically inserts a call to the no-argument constructor of the superclass.",
+          "p": [
+            "super() calls parent constructor.",
+            "Must be first statement.",
+            "Implicit call if not present."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_1"
+        },
+        {
+          "q": "Explain how 'super' is used to access overridden methods in a subclass.",
+          "a": "When a subclass overrides a method from its parent class, you can use 'super.methodName()' to call the parent class's implementation of that method. This allows you to extend the functionality of the parent method in the subclass.",
+          "p": [
+            "Access parent's method implementation.",
+            "Used with overridden methods.",
+            "Extends parent functionality."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_2"
+        },
+        {
+          "q": "What happens if you try to use 'super' in a class that doesn't have a parent class?",
+          "a": "If you attempt to use 'super' in a class that does not have a parent class (i.e., a class that directly extends 'Object'), it will result in a compilation error. 'super' is only valid within a subclass.",
+          "p": [
+            "Invalid in classes without parent.",
+            "Causes compilation error.",
+            "Only for subclasses."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_3"
+        },
+        {
+          "q": "Can you use 'super' to access private members of the parent class?",
+          "a": "No, you cannot directly access private members (variables or methods) of the parent class using 'super'. Private members are not accessible outside the class in which they are declared, regardless of inheritance.",
+          "p": [
+            "Cannot access private members.",
+            "Private members are encapsulated.",
+            "Respects access modifiers."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_4"
+        },
+        {
+          "q": "What is the difference between 'this' and 'super' keywords?",
+          "a": "The 'this' keyword refers to the current instance of the class, while the 'super' keyword refers to the parent class. 'this' is used to access members of the current object, and 'super' is used to access members of the parent class.",
+          "p": [
+            "this: current object.",
+            "super: parent class.",
+            "Different scopes."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Primitive Data Types",
+      "meaning": "Primitive data types are the most basic data types available within a programming language. They are predefined and provided directly by the language. They represent single values and are not objects. Understanding primitive types is crucial for efficient memory usage and performance.",
+      "questions": [
+        {
+          "q": "What are the primitive data types in Java?",
+          "a": "Java has eight primitive data types: `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, and `char`. Each type has a specific size and range of values it can represent. These types are fundamental building blocks for storing and manipulating data.",
+          "p": [
+            "byte, short, int, long (integers)",
+            "float, double (floating-point numbers)",
+            "boolean (true/false)",
+            "char (single character)"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "What is the difference between `int` and `long`?",
+          "a": "`int` and `long` are both integer data types, but `long` has a larger range than `int`. `int` typically uses 32 bits, while `long` uses 64 bits. Use `long` when you need to store larger integer values that exceed the range of `int`.",
+          "p": [
+            "Both store integers.",
+            "long has a wider range.",
+            "int uses 32 bits, long uses 64 bits (typically)."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is the purpose of the `boolean` data type?",
+          "a": "The `boolean` data type represents a logical value that can be either `true` or `false`. It is commonly used for conditional statements and logical operations to control the flow of execution in a program.",
+          "p": [
+            "Represents true or false.",
+            "Used in conditional statements.",
+            "Controls program flow."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What is the `char` data type used for?",
+          "a": "The `char` data type is used to store a single character. It represents a Unicode character, which includes letters, numbers, symbols, and other characters from various languages. It typically occupies 2 bytes of memory.",
+          "p": [
+            "Stores a single character.",
+            "Represents Unicode characters.",
+            "Uses 2 bytes of memory."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "Explain the difference between `float` and `double`.",
+          "a": "Both `float` and `double` are used to store floating-point numbers, but `double` has higher precision and a larger range than `float`. `float` typically uses 32 bits, while `double` uses 64 bits. Use `double` when higher precision is required.",
+          "p": [
+            "Both store floating-point numbers.",
+            "double has higher precision.",
+            "float uses 32 bits, double uses 64 bits (typically)."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "Why are primitive data types important?",
+          "a": "Primitive data types are important because they are the fundamental building blocks for representing data in a program. They are efficient in terms of memory usage and processing speed compared to more complex data structures. Understanding them is crucial for writing efficient and effective code.",
+          "p": [
+            "Fundamental data representation.",
+            "Memory efficient.",
+            "Faster processing compared to complex types."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between checked and unchecked exceptions.",
+      "meaning": "Checked exceptions are exceptions that are checked by the compiler at compile time. Unchecked exceptions are not checked by the compiler at compile time.",
+      "questions": [
+        {
+          "q": "What is the difference between checked and unchecked exceptions in Java?",
+          "a": "Checked exceptions are exceptions that the compiler forces you to handle (using try-catch or throws). Unchecked exceptions (like `NullPointerException`) are not enforced by the compiler; handling them is optional. Checked exceptions typically represent recoverable errors, while unchecked exceptions often indicate programming errors.",
+          "p": [
+            "Checked: Compile-time check, mandatory handling.",
+            "Unchecked: Runtime, optional handling.",
+            "Checked: Recoverable errors.",
+            "Unchecked: Programming errors."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_0"
+        },
+        {
+          "q": "What are some examples of checked exceptions?",
+          "a": "Common examples of checked exceptions include `IOException` (e.g., when dealing with file input/output) and `SQLException` (when interacting with databases). These exceptions must be caught or declared in the method's `throws` clause.",
+          "p": [
+            "IOException (file operations)",
+            "SQLException (database access)",
+            "Must be caught or declared"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_1"
+        },
+        {
+          "q": "What are some examples of unchecked exceptions?",
+          "a": "Examples of unchecked exceptions include `NullPointerException`, `ArrayIndexOutOfBoundsException`, and `IllegalArgumentException`. These exceptions usually indicate programming errors and are not required to be caught or declared.",
+          "p": [
+            "NullPointerException",
+            "ArrayIndexOutOfBoundsException",
+            "IllegalArgumentException",
+            "Not required to be caught"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_2"
+        },
+        {
+          "q": "When should you use checked exceptions?",
+          "a": "Checked exceptions should be used when the caller can reasonably be expected to recover from the exception. This typically involves situations where external resources or conditions might cause a failure, and the program can potentially retry or handle the situation gracefully.",
+          "p": [
+            "Caller can recover.",
+            "External resources failure.",
+            "Program can retry."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_3"
+        },
+        {
+          "q": "When should you use unchecked exceptions?",
+          "a": "Unchecked exceptions are best suited for signaling programming errors or conditions that are unlikely to be recoverable at runtime. These exceptions often indicate a flaw in the program's logic or assumptions, and the appropriate response is usually to fix the code.",
+          "p": [
+            "Programming errors.",
+            "Unlikely to recover.",
+            "Fix the code."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_4"
+        },
+        {
+          "q": "How do you handle checked exceptions?",
+          "a": "Checked exceptions must be handled using either a `try-catch` block or by declaring the exception in the method's `throws` clause. The `try-catch` block allows you to catch and handle the exception within the method, while the `throws` clause indicates that the method might throw the exception, and the caller is responsible for handling it.",
+          "p": [
+            "try-catch block",
+            "throws clause",
+            "Caller responsibility"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is a try-catch block, and how is it used for exception handling?",
+      "meaning": "Technical summary of try-catch block and exception handling.",
+      "questions": [
+        {
+          "q": "What is a try-catch block?",
+          "a": "A try-catch block is a programming construct used for exception handling. The 'try' block encloses code that might throw an exception. If an exception occurs within the 'try' block, the control is transferred to the 'catch' block, which handles the exception. This prevents the program from crashing and allows for graceful error recovery.",
+          "p": [
+            "Used for exception handling.",
+            "Try block: Encloses code that might throw an exception.",
+            "Catch block: Handles the exception if it occurs."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "How does a try-catch block handle exceptions?",
+          "a": "When an exception is thrown within the 'try' block, the program searches for a matching 'catch' block to handle that specific type of exception. If a matching 'catch' block is found, the code within that block is executed. If no matching 'catch' block is found, the exception is passed up the call stack until it is handled or the program terminates.",
+          "p": [
+            "Exception thrown in 'try'.",
+            "Searches for matching 'catch'.",
+            "Executes 'catch' block if found."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is the purpose of the 'finally' block in exception handling?",
+          "a": "The 'finally' block is an optional block that follows the 'try' and 'catch' blocks. The code within the 'finally' block is always executed, regardless of whether an exception was thrown or caught. It is typically used to release resources, such as closing files or database connections, to ensure that these resources are properly cleaned up.",
+          "p": [
+            "Optional block after 'try' and 'catch'.",
+            "Always executes.",
+            "Used for resource cleanup."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "Can you have multiple 'catch' blocks?",
+          "a": "Yes, you can have multiple 'catch' blocks after a single 'try' block. Each 'catch' block handles a different type of exception. This allows you to handle different exceptions in different ways, providing more specific error handling for each potential issue.",
+          "p": [
+            "Yes, multiple 'catch' blocks are allowed.",
+            "Each 'catch' handles a specific exception type.",
+            "Allows for specific error handling."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "What happens if an exception is not caught?",
+          "a": "If an exception is not caught by any 'catch' block in the current method, it propagates up the call stack to the calling method. This process continues until either a 'catch' block handles the exception or the exception reaches the top of the call stack, causing the program to terminate abruptly.",
+          "p": [
+            "Exception propagates up the call stack.",
+            "Continues until caught or reaches top.",
+            "Program terminates if unhandled."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "What are some common exceptions in Java?",
+          "a": "Some common exceptions in Java include `NullPointerException` (accessing a null object), `ArrayIndexOutOfBoundsException` (accessing an array with an invalid index), `IOException` (input/output errors), `IllegalArgumentException` (invalid method argument), and `ArithmeticException` (e.g., division by zero).",
+          "p": [
+            "NullPointerException",
+            "ArrayIndexOutOfBoundsException",
+            "IOException"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the purpose of the 'finally' block in exception handling?",
+      "meaning": "The 'finally' block in exception handling ensures that a block of code is always executed, regardless of whether an exception is thrown or caught. It's typically used for cleanup operations like closing resources.",
+      "questions": [
+        {
+          "q": "What is the purpose of the 'finally' block in exception handling?",
+          "a": "The 'finally' block guarantees that a section of code will execute regardless of whether an exception is thrown or caught within a 'try' block. It's primarily used for releasing resources, such as closing files or network connections, to prevent resource leaks.",
+          "p": [
+            "Always executes.",
+            "Handles cleanup.",
+            "Prevents resource leaks."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "Explain the difference between 'throw' and 'throws' keywords in exception handling.",
+          "a": "The 'throw' keyword is used to explicitly throw an exception within a method. The 'throws' keyword is used in the method signature to declare that a method might throw a particular type of exception, which the caller needs to handle.",
+          "p": [
+            "'throw': Raises an exception.",
+            "'throws': Declares an exception.",
+            "Different usage contexts."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What are the common exception classes in Java?",
+          "a": "Common exception classes include 'IOException' (for input/output errors), 'NullPointerException' (when trying to access a null reference), 'ArrayIndexOutOfBoundsException' (when accessing an array with an invalid index), and 'IllegalArgumentException' (when a method receives an invalid argument).",
+          "p": [
+            "IOException: I/O errors.",
+            "NullPointerException: Null reference.",
+            "ArrayIndexOutOfBoundsException: Invalid array index.",
+            "IllegalArgumentException: Invalid argument."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between 'checked' and 'unchecked' exceptions?",
+          "a": "Checked exceptions must be either caught or declared in the method's 'throws' clause. Unchecked exceptions (like 'NullPointerException') do not need to be explicitly handled or declared; they are typically the result of programming errors.",
+          "p": [
+            "Checked: Must be handled.",
+            "Unchecked: No mandatory handling.",
+            "Compiler enforces checked exceptions."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "What happens if an exception is not caught in a program?",
+          "a": "If an exception is not caught, the program will terminate abruptly. The default exception handler will print the exception's stack trace to the console, and the program will exit. This can lead to data loss or inconsistent state.",
+          "p": [
+            "Program terminates.",
+            "Stack trace is printed.",
+            "Potential data loss."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "Can a 'finally' block be skipped during exception handling? If so, when?",
+          "a": "The 'finally' block is almost always executed. However, it can be skipped if the JVM crashes or if the program calls 'System.exit()' within the 'try' or 'catch' block. In these rare cases, the 'finally' block will not be executed.",
+          "p": [
+            "Almost always executes.",
+            "Skipped on JVM crash.",
+            "Skipped on System.exit()."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between String, StringBuilder, and StringBuffer.",
+      "meaning": "Understanding the differences between String, StringBuilder, and StringBuffer is crucial for efficient string manipulation in Java. String is immutable, while StringBuilder and StringBuffer are mutable. StringBuffer is thread-safe, making it suitable for multi-threaded environments, while StringBuilder is not thread-safe but offers better performance.",
+      "questions": [
+        {
+          "q": "What is the key difference between String, StringBuilder, and StringBuffer in terms of mutability?",
+          "a": "String is immutable, meaning its value cannot be changed after creation. StringBuilder and StringBuffer are mutable, allowing modification of their content without creating new objects. This difference impacts performance, especially in scenarios involving frequent string manipulation.",
+          "p": [
+            "String: Immutable",
+            "StringBuilder: Mutable, not thread-safe",
+            "StringBuffer: Mutable, thread-safe"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_0"
+        },
+        {
+          "q": "Explain the concept of immutability in the context of the String class.",
+          "a": "Immutability means that once a String object is created, its value cannot be changed. Any operation that appears to modify a String actually creates a new String object. This ensures that String objects are thread-safe and can be safely shared between multiple threads.",
+          "p": [
+            "Once created, cannot be changed",
+            "Operations create new String objects",
+            "Thread-safe"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_1"
+        },
+        {
+          "q": "Which class, StringBuilder or StringBuffer, is more suitable for a multi-threaded environment and why?",
+          "a": "StringBuffer is more suitable for multi-threaded environments because its methods are synchronized. This synchronization ensures that only one thread can access and modify the StringBuffer object at a time, preventing race conditions and data corruption.",
+          "p": [
+            "StringBuffer: Thread-safe",
+            "Methods are synchronized",
+            "Prevents race conditions"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_2"
+        },
+        {
+          "q": "When should you prefer using StringBuilder over StringBuffer?",
+          "a": "StringBuilder should be preferred over StringBuffer in single-threaded environments where thread safety is not a concern. StringBuilder offers better performance because it does not have the overhead of synchronization, making it faster for string manipulation operations.",
+          "p": [
+            "Single-threaded environment",
+            "No thread safety needed",
+            "Better performance"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_3"
+        },
+        {
+          "q": "What are the performance implications of using String concatenation (+) repeatedly within a loop?",
+          "a": "Repeated String concatenation using the '+' operator within a loop can lead to poor performance because each concatenation creates a new String object. This can result in excessive memory allocation and garbage collection. It's more efficient to use StringBuilder or StringBuffer for such operations.",
+          "p": [
+            "Creates new String object each time",
+            "Excessive memory allocation",
+            "Use StringBuilder/StringBuffer instead"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_4"
+        },
+        {
+          "q": "Can you provide a simple code example demonstrating the use of StringBuilder to efficiently build a string?",
+          "a": "```java\nStringBuilder sb = new StringBuilder();\nfor (int i = 0; i < 10; i++) {\n    sb.append(i);\n}\nString result = sb.toString();\nSystem.out.println(result); // Output: 0123456789\n``` This example efficiently builds a string by appending numbers to a StringBuilder object within a loop.",
+          "p": [
+            "Create StringBuilder object",
+            "Use append() method",
+            "Convert to String using toString()"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Exp_5"
+        }
+      ]
+    },
+    {
+      "conceptName": "How do you compare two strings for equality?",
+      "meaning": "Comparing strings involves checking if two strings have the same sequence of characters.  Different methods exist, each with specific use cases, especially when considering case sensitivity and object identity.",
+      "questions": [
+        {
+          "q": "What is the difference between using `==` and `.equals()` to compare strings in Java?",
+          "a": "`==` compares object references (memory addresses), checking if two variables point to the same object. `.equals()` compares the actual content of the strings, checking if they have the same sequence of characters. Use `.equals()` for content comparison and `==` to check if they are the same object.",
+          "p": [
+            "`==` compares references.",
+            "`.equals()` compares content.",
+            "Use `.equals()` for string content comparison."
+          ],
+          "level": "Easy",
+          "id": "general_easy_How_0"
+        },
+        {
+          "q": "How do you compare strings while ignoring case?",
+          "a": "Use the `.equalsIgnoreCase()` method. This method compares the content of two strings, ignoring the case of the characters. It returns `true` if the strings are equal ignoring case, and `false` otherwise.",
+          "p": [
+            "Use `.equalsIgnoreCase()`",
+            "Ignores case during comparison",
+            "Returns `true` if equal (ignoring case)."
+          ],
+          "level": "Easy",
+          "id": "general_easy_How_1"
+        },
+        {
+          "q": "Explain the concept of String interning and how it affects string comparison using `==`.",
+          "a": "String interning is a process where the JVM maintains a pool of String literals. When a string literal is created, the JVM checks if an identical string already exists in the pool. If it does, the new literal points to the existing string. This means that two string literals with the same content will have the same reference, so `==` will return `true`. However, strings created using `new String()` are not interned by default, so `==` will return `false` even if the content is the same.",
+          "p": [
+            "JVM maintains a pool of String literals.",
+            "String literals with same content point to the same object.",
+            "`new String()` creates a new object, not interned by default."
+          ],
+          "level": "Easy",
+          "id": "general_easy_How_2"
+        },
+        {
+          "q": "What is the purpose of the `compareTo()` method in the String class?",
+          "a": "The `compareTo()` method compares two strings lexicographically (based on Unicode values). It returns a negative value if the first string is lexicographically less than the second, a positive value if the first string is lexicographically greater than the second, and 0 if the strings are equal.",
+          "p": [
+            "Compares strings lexicographically.",
+            "Returns negative, positive, or zero.",
+            "Based on Unicode values."
+          ],
+          "level": "Easy",
+          "id": "general_easy_How_3"
+        },
+        {
+          "q": "How can you compare a String with a part of another String?",
+          "a": "You can use methods like `startsWith()`, `endsWith()`, or `contains()` to check if a string starts with, ends with, or contains a specific substring, respectively. For more complex comparisons, you can use `substring()` to extract a portion of a string and then compare it with another string using `.equals()`.",
+          "p": [
+            "`startsWith()` checks the beginning.",
+            "`endsWith()` checks the end.",
+            "`contains()` checks for any occurrence.",
+            "`substring()` extracts a portion for comparison."
+          ],
+          "level": "Easy",
+          "id": "general_easy_How_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are the different ways to create a String object?",
+      "meaning": "Explains the common methods for creating String objects in Java, focusing on literal assignment and using the 'new' keyword.",
+      "questions": [
+        {
+          "q": "What are the two primary ways to create a String object in Java?",
+          "a": "The two primary ways are using a string literal (e.g., `String str = \"Hello\";`) and using the `new` keyword (e.g., `String str = new String(\"Hello\");`). String literals are often interned, meaning the JVM reuses existing String objects with the same value to save memory.",
+          "p": [
+            "String Literal: `String str = \"Hello\";`",
+            "Using `new`: `String str = new String(\"Hello\");`",
+            "String literals may be interned.",
+            "`new` always creates a new object."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "Explain the difference between creating a String using a literal and using the `new` keyword.",
+          "a": "When you create a String using a literal, the JVM checks if a String with the same value already exists in the String pool. If it does, the existing String object is reused. Using the `new` keyword always creates a new String object in the heap, regardless of whether a String with the same value already exists in the pool.",
+          "p": [
+            "Literal: Reuses existing String (if any).",
+            "`new`: Always creates a new String object.",
+            "String pool optimization.",
+            "Heap allocation."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is the String pool, and how does it relate to String literals?",
+          "a": "The String pool is a special memory area in the heap that stores String literals. When a String literal is created, the JVM first checks the String pool. If a String with the same value exists, the existing String object is returned. Otherwise, a new String object is created in the pool and returned. This mechanism optimizes memory usage by avoiding the creation of duplicate String objects.",
+          "p": [
+            "Special memory area in the heap.",
+            "Stores String literals.",
+            "Optimizes memory usage.",
+            "Avoids duplicate String objects."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What is String interning?",
+          "a": "String interning is the process of adding a String to the String pool. When a String is interned, the JVM checks if a String with the same value already exists in the pool. If it does, the existing String object is returned. Otherwise, the String is added to the pool and returned. You can manually intern a String using the `String.intern()` method.",
+          "p": [
+            "Adding a String to the String pool.",
+            "JVM checks for existing String.",
+            "`String.intern()` method.",
+            "Optimizes memory."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "How can you manually add a String to the String pool?",
+          "a": "You can manually add a String to the String pool by calling the `intern()` method on the String object. For example: `String str = new String(\"Example\").intern();` This will either return an existing String from the pool or add the current String to the pool and return a reference to it.",
+          "p": [
+            "`String.intern()` method.",
+            "Adds String to the pool.",
+            "Returns existing String or adds a new one.",
+            "Manual control over interning."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the difference between == and .equals() method?",
+      "meaning": "Explains the difference between the equality operator (==) and the .equals() method in Java, focusing on object comparison.",
+      "questions": [
+        {
+          "q": "What is the difference between the `==` operator and the `.equals()` method in Java?",
+          "a": "The `==` operator compares object references; it checks if two variables point to the same object in memory. The `.equals()` method, on the other hand, is used to compare the content of objects. By default, `.equals()` behaves like `==`, but it can be overridden to provide a custom comparison based on object attributes.",
+          "p": [
+            "`==` compares object references.",
+            "`.equals()` compares object content (can be overridden).",
+            "Default `.equals()` is same as `==`."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "When should you override the `.equals()` method?",
+          "a": "You should override the `.equals()` method when you need to compare objects based on their content rather than their memory address. This is crucial when you want to determine if two distinct objects are logically equivalent based on their attributes. For example, comparing two `String` objects or two custom objects with specific fields.",
+          "p": [
+            "Compare objects by content.",
+            "Determine logical equivalence.",
+            "Custom object attribute comparison."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "What is the relationship between `.equals()` and `.hashCode()` methods?",
+          "a": "If you override the `.equals()` method, you must also override the `.hashCode()` method. This is because if two objects are equal according to `.equals()`, they must have the same hash code. Failing to do so can lead to issues when using these objects in hash-based collections like `HashMap` and `HashSet`.",
+          "p": [
+            "Override `.hashCode()` when overriding `.equals()`.",
+            "Equal objects must have the same hash code.",
+            "Ensures correct behavior in hash-based collections."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "Explain how the `.equals()` method is implemented in the `String` class.",
+          "a": "In the `String` class, the `.equals()` method is overridden to compare the content of the strings. It checks if the two strings have the same sequence of characters. If the character sequences are identical, the method returns `true`; otherwise, it returns `false`. This provides content-based comparison for strings.",
+          "p": [
+            "Compares character sequences.",
+            "Returns `true` if sequences are identical.",
+            "Content-based string comparison."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "What happens if you don't override the `.equals()` method in your custom class?",
+          "a": "If you don't override the `.equals()` method in your custom class, it inherits the implementation from the `Object` class. The `Object` class's `.equals()` method simply compares object references, which is the same as using the `==` operator. This means that two objects will only be considered equal if they are the same object in memory.",
+          "p": [
+            "Inherits from `Object` class.",
+            "Compares object references by default.",
+            "Same behavior as `==`."
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is method overloading and method overriding?",
+      "meaning": "Method overloading and overriding are key concepts in object-oriented programming (OOP), specifically related to polymorphism. Overloading allows a class to have multiple methods with the same name but different parameters. Overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass.",
+      "questions": [
+        {
+          "q": "What is method overloading?",
+          "a": "Method overloading allows a class to have multiple methods with the same name but different parameters (different number, type, or order of parameters). The compiler determines which method to call based on the arguments passed during the method call. It enhances code readability and reusability.",
+          "p": [
+            "Same method name",
+            "Different parameters",
+            "Compile-time polymorphism",
+            "Increases code readability"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_0"
+        },
+        {
+          "q": "What is method overriding?",
+          "a": "Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The method signature (name and parameters) must be the same in both the superclass and the subclass. It enables runtime polymorphism.",
+          "p": [
+            "Same method name and parameters",
+            "In subclass",
+            "Runtime polymorphism",
+            "Provides specific implementation"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between method overloading and method overriding.",
+          "a": "Overloading is having multiple methods with the same name but different parameters within the same class. Overriding is when a subclass provides a different implementation for a method already defined in its superclass, keeping the same method signature. Overloading is compile-time polymorphism, while overriding is runtime polymorphism.",
+          "p": [
+            "Overloading: Same class, different parameters",
+            "Overriding: Subclass, same signature",
+            "Overloading: Compile-time",
+            "Overriding: Runtime"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_2"
+        },
+        {
+          "q": "What is polymorphism?",
+          "a": "Polymorphism means 'many forms'. In OOP, it refers to the ability of an object to take on many forms. This is achieved through method overloading (compile-time polymorphism) and method overriding (runtime polymorphism). It allows treating objects of different classes in a uniform way.",
+          "p": [
+            "Many forms",
+            "Achieved through overloading and overriding",
+            "Compile-time and runtime",
+            "Uniform object treatment"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_3"
+        },
+        {
+          "q": "What is the purpose of the `@Override` annotation?",
+          "a": "The `@Override` annotation is used to indicate that a method in a subclass is intended to override a method in its superclass. It's a compiler hint that helps catch errors. If the method does not actually override a superclass method (e.g., due to a typo in the method signature), the compiler will generate an error.",
+          "p": [
+            "Indicates method overriding",
+            "Compiler hint",
+            "Catches errors",
+            "Improves code maintainability"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_4"
+        },
+        {
+          "q": "Can we overload the `main` method?",
+          "a": "Yes, we can overload the `main` method.  A class can have multiple `main` methods with different signatures. However, the JVM will only execute the `main` method with the specific signature `public static void main(String[] args)`. Other overloaded `main` methods can be called like regular methods.",
+          "p": [
+            "Yes, possible",
+            "Different signatures",
+            "JVM executes specific signature",
+            "`public static void main(String[] args)`"
+          ],
+          "level": "Easy",
+          "id": "general_easy_Wha_5"
+        }
+      ]
+    }
+  ]
+}
