@@ -1,0 +1,40 @@
+name: Weekly Incremental Skills Sync (0 Read Cost)
+
+on:
+  schedule:
+    # Runs automatically every Sunday at midnight (Weekly)
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
+
+jobs:
+  sync-skills:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install firebase-admin
+
+      - name: Run Incremental Sync Engine
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node syncSkillsToGit.js
+
+      - name: Commit and Push if New Skills Added
+        run: |
+          git config --global user.name "AI Career Coach Bot"
+          git config --global user.email "bot@aicareercoach.com"
+          git add skills.json
+          if git diff --staged --quiet; then
+            echo "🎉 No new skills found. 0 Firebase Reads performed!"
+          else
+            git commit -m "chore(auto-sync): auto-synced new skills to Git CDN"
+            git push
+          fi
