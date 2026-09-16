@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "category": "🧩 Java Output Prediction",
+    "q": "What will `System.out.println(10 + 20 + \"Java\" + 10 + 20);` output and why? Reply with your guess!"
+  },
+  {
+    "id": 2,
+    "category": "🏗️ System Design Debate",
+    "q": "Microservices vs Monolith: For a 0-user new startup app, which architecture would you pick and why?"
+  },
+  {
+    "id": 3,
+    "category": "🛢️ SQL Query Puzzle",
+    "q": "How to find the 2nd highest salary from an Employee table without using `LIMIT` or `OFFSET`?"
+  },
+  {
+    "id": 4,
+    "category": "🐍 Python Output Prediction",
+    "q": "What will `print([[]] * 3)` followed by modifying index 0 output? Reply with why lists multiply references!"
+  },
+  {
+    "id": 5,
+    "category": "📱 Android & Kotlin Challenge",
+    "q": "What is the difference between `StateFlow` and `SharedFlow` in Kotlin Coroutines?"
+  },
+  {
+    "id": 6,
+    "category": "⚡ JavaScript Tricky Puzzle",
+    "q": "What will `console.log([] + []);` and `console.log([] + {});` print in JS?"
+  },
+  {
+    "id": 7,
+    "category": "💼 Production Bug Story",
+    "q": "What is the most dangerous bug or memory leak you ever pushed to production and how did you fix it?"
+  },
+  {
+    "id": 8,
+    "category": "🌿 Spring Boot Microservices",
+    "q": "When should you use `@Transactional(propagation = Propagation.REQUIRES_NEW)` vs default `REQUIRED`?"
+  },
+  {
+    "id": 9,
+    "category": "⚙️ Data Structures & Algorithms",
+    "q": "HashMap Collision: How does Java 8 HashMap convert LinkedList bucket to Red-Black Tree?"
+  },
+  {
+    "id": 10,
+    "category": "🐋 Docker & Kubernetes",
+    "q": "What is the difference between Docker `ENV` vs `ARG` in Dockerfile?"
+  }
+]
