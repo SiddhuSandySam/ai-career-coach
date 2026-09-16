@@ -2,8 +2,8 @@
  * Pure Dynamic Daily Question Poster for Global Chat & Pinned Banner
  *
  * Rules:
- * 1. Picks a RANDOM question directly from Firestore 'interview_gym' collection (0 Hardcoding!).
- * 2. Posts to 'global_chat' as 'AI Career Coach Bot 🤖'
+ * 1. Picks a RANDOM question directly from Firestore 'interview_gym' collection.
+ * 2. Posts to 'global_chat' as 'AI Career Coach Bot 🤖' (using exact fields expected by GlobalChatMessage.java).
  * 3. Updates 'statistics/daily_discussion' doc so Android App auto-pins today's question banner!
  */
 
@@ -28,6 +28,22 @@ async function postDailyQuestion() {
     console.log("🚀 [Daily Discussion] Fetching random question from Firestore 'interview_gym'...");
 
     const db = admin.firestore();
+
+    // 0. Clean up any invalid bot messages without 'text' field
+    try {
+        const badBotMsgs = await db.collection("global_chat")
+            .where("senderUid", "==", "ai_bot_official")
+            .get();
+
+        for (const doc of badBotMsgs.docs) {
+            if (!doc.data().text) {
+                await doc.ref.delete();
+                console.log(`🧹 Removed invalid empty bot message: ${doc.id}`);
+            }
+        }
+    } catch (e) {
+        console.warn("Cleanup check warning:", e.message);
+    }
 
     // 1. Fetch all documents from interview_gym
     const gymSnap = await db.collection("interview_gym").get();
@@ -71,7 +87,7 @@ async function postDailyQuestion() {
     const randomIndex = Math.floor(Math.random() * allQuestions.length);
     const selected = allQuestions[randomIndex];
 
-    const todayStr = new Date().toISOString().split('T')[0]; // "2026-09-15"
+    const todayStr = new Date().toISOString().split('T')[0];
     console.log(`✨ Picked Random Question [${selected.skillName} - ${selected.level}]: "${selected.q}"`);
 
     // 3. Format Bot Chat Message
@@ -80,12 +96,17 @@ async function postDailyQuestion() {
     const chatRef = db.collection("global_chat").doc();
     const timestamp = admin.firestore.FieldValue.serverTimestamp();
 
+    // Exact fields mapped in GlobalChatMessage.java:
+    // text, senderUid, senderUsername, senderProfileImageUrl, timestamp, isDailyQuestion
     const chatMessageData = {
         messageId: chatRef.id,
-        senderUid: "ai_bot_official",
-        senderName: "AI Career Coach Bot 🤖",
-        senderPhotoUrl: "https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/sandesh.png",
+        text: botMessageText,
         message: botMessageText,
+        senderUid: "ai_bot_official",
+        senderUsername: "AI Career Coach Bot 🤖",
+        senderName: "AI Career Coach Bot 🤖",
+        senderProfileImageUrl: "https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/sandesh.png",
+        senderPhotoUrl: "https://raw.githubusercontent.com/SiddhuSandySam/ai-career-coach/main/sandesh.png",
         timestamp: timestamp,
         isDailyQuestion: true,
         skillId: selected.skillId,
