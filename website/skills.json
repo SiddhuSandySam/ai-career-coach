@@ -1,6 +1,6 @@
 {
-  "lastSyncedAt": "2026-09-15T08:07:52.544Z",
-  "totalSkills": 25,
+  "lastSyncedAt": "2026-09-17T03:13:28.022Z",
+  "totalSkills": 32,
   "skills": [
     {
       "id": "general",
@@ -812,6 +812,33 @@
       ]
     },
     {
+      "id": "django",
+      "name": "Django",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain MVT (Model-View-Template) Architecture and Request-Response Cycle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Project vs. App Structure and Settings Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain WSGI vs. ASGI and Asynchronous Django Support",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Field Types, Options, and Database Constraints",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Relationships: ForeignKey, OneToOneField, and ManyToManyField",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "docker",
       "name": "Docker",
       "category": "Tutorial",
@@ -839,6 +866,60 @@
       ]
     },
     {
+      "id": "expressjs",
+      "name": "Express.js",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Introduction to Express.js and the Node.js Ecosystem",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Request and Response Lifecycle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Routing and Route Parameters",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Understanding Middleware and the Next Function",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Application-Level vs Router-Level Middleware",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "flask",
+      "name": "Flask",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain WSGI and ASGI Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Application and Request Contexts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Routing and URL Building",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Request and Response Objects",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Jinja2 Templating Engine",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "git",
       "name": "Git",
       "category": "Tutorial",
@@ -861,6 +942,33 @@
         },
         {
           "q": "Explain Understanding the Git Staging Area",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "go_golang",
+      "name": "Go (Golang)",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Syntax, Types, and Variables",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Structures and Functions",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Pointers and Memory Allocation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays, Slices, and Internals",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Maps and Hash Collision Handling",
           "level": "Easy"
         }
       ]
@@ -1001,6 +1109,33 @@
       ]
     },
     {
+      "id": "laravel",
+      "name": "Laravel",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain HTTP Request Lifecycle and Service Container",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Service Providers and Facades Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Routing, Middleware, and Controllers",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Configuration and Environment Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Database Migrations, Seeders, and Factories",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "linux_system_administration",
       "name": "Linux System Administration",
       "category": "Tutorial",
@@ -1050,6 +1185,33 @@
         },
         {
           "q": "Explain Data Types in MongoDB",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "net",
+      "name": ".NET",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Value Types vs Reference Types & Memory Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Generics, Variance (Covariance/Contravariance), and Constraints",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Delegates, Events, Lambdas, and Expression Trees",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Asynchronous Programming (async/await, Task, ValueTask, SynchronizationContext)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain LINQ Internals, Deferred Execution, and Expression Translation",
           "level": "Easy"
         }
       ]
@@ -1158,6 +1320,33 @@
         },
         {
           "q": "Explain Data Structures (Lists, Tuples, Dictionaries, Sets)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "ruby_on_rails",
+      "name": "Ruby on Rails",
+      "category": "Tutorial",
+      "questions": [
+        {
+          "q": "Explain Blocks, Procs, and Lambdas",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Metaprogramming and Reflection",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Modules, Mixins, and Method Lookup Path",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Memory Management and Garbage Collection",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Action Pack and Request Lifecycle",
           "level": "Easy"
         }
       ]

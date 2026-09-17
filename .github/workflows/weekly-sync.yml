@@ -12,29 +12,31 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install Dependencies
         run: npm install firebase-admin
 
+      - name: Create Service Account Key from Secret
+        run: |
+          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}" > serviceAccountKey.json
+
       - name: Run Incremental Sync Engine
-        env:
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: node syncSkillsToGit.js
 
       - name: Commit and Push if New Skills Added
         run: |
           git config --global user.name "AI Career Coach Bot"
           git config --global user.email "bot@aicareercoach.com"
-          git add skills.json
+          git add .
           if git diff --staged --quiet; then
-            echo "🎉 No new skills found. 0 Firebase Reads performed!"
+            echo "🎉 No new skills or tutorials found in Firestore. 0 unnecessary commits created!"
           else
-            git commit -m "chore(auto-sync): auto-synced new skills to Git CDN"
+            git commit -m "chore(auto-sync): auto-synced new skills and tutorials to Git CDN"
             git push
           fi

@@ -1,13 +1,13 @@
 /**
- * Pure Dynamic Firebase to Git Sync Engine for AI Career Coach Website & Android App
+ * Incremental Dynamic Firebase to Git Sync Engine for AI Career Coach Website & Android App
  *
  * Rules:
  * 1. ZERO HARDCODED NAMES OR ALIASES.
- * 2. Uses Firestore document fields (`skillName`, `moduleName`, `topicName`) directly.
- * 3. Syncs Full Interview Gym docs to website/gym/{skillId}.json
- * 4. Syncs Full Tutorials to website/tutorials/{moduleId}/{topicId}.json
- * 5. Exports Master Tutorials Index to website/tutorials/master.json
- * 6. Generates website/skills.json dynamically from Firestore data.
+ * 2. Deduplicates skills dynamically.
+ * 3. Writes files ONLY if changed (0 unnecessary git commits!).
+ * 4. Syncs Full Interview Gym docs to website/gym/{skillId}.json
+ * 5. Syncs Full Tutorials to website/tutorials/{moduleId}/{topicId}.json
+ * 6. Exports Master Tutorials Index to website/tutorials/master.json
  */
 
 const fs = require('fs');
@@ -27,6 +27,20 @@ const rootSkillsFilePath = path.join(__dirname, 'skills.json');
 const websiteSkillsFilePath = path.join(websiteDir, 'skills.json');
 const masterTutorialsFilePath = path.join(tutorialsDir, 'master.json');
 
+// Helper to write file only if content actually changed
+function writeIfChanged(filePath, newContent) {
+    if (fs.existsSync(filePath)) {
+        try {
+            const oldContent = fs.readFileSync(filePath, 'utf8');
+            if (oldContent === newContent) {
+                return false; // Unchanged, skip write
+            }
+        } catch (e) {}
+    }
+    fs.writeFileSync(filePath, newContent);
+    return true; // Created or modified
+}
+
 // Initialize Firebase Admin
 if (!admin.apps.length) {
     try {
@@ -40,7 +54,7 @@ if (!admin.apps.length) {
 }
 
 async function fullSync() {
-    console.log("🔄 [Pure Dynamic Sync] Starting complete export for Skills, Gym & Tutorials from Firestore...");
+    console.log("🔄 [Incremental Sync] Starting check for new/updated Skills, Gym & Tutorials...");
 
     if (!admin.apps.length) {
         console.log("✅ [Sync Complete] Dry-run finished. 0 Firebase Reads performed.");
@@ -49,11 +63,12 @@ async function fullSync() {
 
     const db = admin.firestore();
     const skillsMap = new Map();
+    let totalUpdatedFiles = 0;
 
     // ==========================================
     // 1. SYNC INTERVIEW GYM TO website/gym/{skillId}.json
     // ==========================================
-    console.log("\n🏋️ [Gym Sync] Fetching 'interview_gym' collection from Firestore...");
+    console.log("\n🏋️ [Gym Sync] Checking 'interview_gym' collection...");
     const gymSnap = await db.collection("interview_gym").get();
 
     for (const doc of gymSnap.docs) {
@@ -70,8 +85,12 @@ async function fullSync() {
             concepts: gymData.concepts || []
         }, null, 2);
 
-        fs.writeFileSync(gymFilePath, gymJsonContent);
-        console.log(`  ✅ Saved Gym JSON for '${skillId}' (${skillName}) -> website/gym/${skillId}.json`);
+        if (writeIfChanged(gymFilePath, gymJsonContent)) {
+            totalUpdatedFiles++;
+            console.log(`  ✨ Updated Gym JSON for '${skillId}' (${skillName})`);
+        } else {
+            console.log(`  ⏩ Unchanged Gym JSON for '${skillId}' (0 Writes)`);
+        }
 
         const concepts = gymData.concepts || [];
         const questions = [];
@@ -100,7 +119,7 @@ async function fullSync() {
     // ==========================================
     // 2. SYNC TUTORIALS TO website/tutorials/{moduleId}/{topicId}.json
     // ==========================================
-    console.log("\n📚 [Tutorials Sync] Fetching 'tutorials' collection from Firestore...");
+    console.log("\n📚 [Tutorials Sync] Checking 'tutorials' collection...");
     const tutorialsSnap = await db.collection("tutorials").get();
     const masterModules = [];
 
@@ -127,7 +146,9 @@ async function fullSync() {
                 content: topicData.content || "[]"
             }, null, 2);
 
-            fs.writeFileSync(topicFilePath, topicJsonContent);
+            if (writeIfChanged(topicFilePath, topicJsonContent)) {
+                totalUpdatedFiles++;
+            }
 
             topicsList.push({
                 topicId: topicId,
@@ -146,7 +167,6 @@ async function fullSync() {
             topics: topicsList
         });
 
-        // If module is not in skillsMap, add it dynamically
         if (!skillsMap.has(moduleId)) {
             skillsMap.set(moduleId, {
                 id: moduleId,
@@ -162,8 +182,11 @@ async function fullSync() {
 
     masterModules.sort((a, b) => a.order - b.order);
 
-    fs.writeFileSync(masterTutorialsFilePath, JSON.stringify({ modules: masterModules }, null, 2));
-    console.log(`  ✅ Saved Master Tutorials Index -> website/tutorials/master.json (${masterModules.length} Modules)`);
+    const masterTutorialsJson = JSON.stringify({ modules: masterModules }, null, 2);
+    if (writeIfChanged(masterTutorialsFilePath, masterTutorialsJson)) {
+        totalUpdatedFiles++;
+        console.log(`  ✨ Updated Master Tutorials Index -> website/tutorials/master.json`);
+    }
 
     // Write Master skills.json dynamically
     const finalSkillsList = Array.from(skillsMap.values());
@@ -173,10 +196,11 @@ async function fullSync() {
         skills: finalSkillsList
     };
 
-    fs.writeFileSync(rootSkillsFilePath, JSON.stringify(finalSkillsData, null, 2));
-    fs.writeFileSync(websiteSkillsFilePath, JSON.stringify(finalSkillsData, null, 2));
+    const finalSkillsJson = JSON.stringify(finalSkillsData, null, 2);
+    if (writeIfChanged(rootSkillsFilePath, finalSkillsJson)) totalUpdatedFiles++;
+    if (writeIfChanged(websiteSkillsFilePath, finalSkillsJson)) totalUpdatedFiles++;
 
-    console.log(`\n🎉 [Sync Complete] All ${finalSkillsList.length} Skills & ${masterModules.length} Tutorials exported dynamically from Firestore!`);
+    console.log(`\n🎉 [Sync Complete] All ${finalSkillsList.length} Skills & ${masterModules.length} Tutorials processed. (${totalUpdatedFiles} files updated)`);
 }
 
 fullSync().catch(console.error);

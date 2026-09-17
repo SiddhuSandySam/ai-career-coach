@@ -6287,6 +6287,1052 @@
           "order": 31
         }
       ]
+    },
+    {
+      "moduleId": "django",
+      "moduleName": "Django",
+      "order": 22,
+      "description": "Master Django from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "DJ-FUN-01",
+          "topicName": "MVT (Model-View-Template) Architecture and Request-Response Cycle",
+          "order": 1
+        },
+        {
+          "topicId": "DJ-FUN-02",
+          "topicName": "Project vs. App Structure and Settings Configuration",
+          "order": 2
+        },
+        {
+          "topicId": "DJ-FUN-03",
+          "topicName": "WSGI vs. ASGI and Asynchronous Django Support",
+          "order": 3
+        },
+        {
+          "topicId": "DJ-ORM-01",
+          "topicName": "Field Types, Options, and Database Constraints",
+          "order": 4
+        },
+        {
+          "topicId": "DJ-ORM-02",
+          "topicName": "Relationships: ForeignKey, OneToOneField, and ManyToManyField",
+          "order": 5
+        },
+        {
+          "topicId": "DJ-ORM-03",
+          "topicName": "QuerySets, Evaluation, and Lazy Loading",
+          "order": 6
+        },
+        {
+          "topicId": "DJ-ORM-04",
+          "topicName": "Performance Optimization: select_related, prefetch_related, and only/defer",
+          "order": 7
+        },
+        {
+          "topicId": "DJ-ORM-05",
+          "topicName": "Database Migrations, Custom Operations, and Data Migrations",
+          "order": 8
+        },
+        {
+          "topicId": "DJ-ORM-06",
+          "topicName": "Custom Managers, QuerySets, and F/Q Expressions",
+          "order": 9
+        },
+        {
+          "topicId": "DJ-VRT-01",
+          "topicName": "URLconfs, Path Converters, and Inclusion of URL App Modules",
+          "order": 10
+        },
+        {
+          "topicId": "DJ-VRT-02",
+          "topicName": "Function-Based Views (FBVs) vs. Class-Based Views (CBVs)",
+          "order": 11
+        },
+        {
+          "topicId": "DJ-VRT-03",
+          "topicName": "Generic CBVs (ListView, DetailView, CreateView, UpdateView, DeleteView)",
+          "order": 12
+        },
+        {
+          "topicId": "DJ-VRT-04",
+          "topicName": "View Mixins and Custom View Logic Implementation",
+          "order": 13
+        },
+        {
+          "topicId": "DJ-FRM-01",
+          "topicName": "Django Forms vs. ModelForms",
+          "order": 14
+        },
+        {
+          "topicId": "DJ-FRM-02",
+          "topicName": "Field Validation, Clean Methods, and Formsets",
+          "order": 15
+        },
+        {
+          "topicId": "DJ-TMP-01",
+          "topicName": "Template Engine, Inheritance, Tags, and Filters",
+          "order": 16
+        },
+        {
+          "topicId": "DJ-TMP-02",
+          "topicName": "Static Files Management, Whitenoise, and Storage Backends",
+          "order": 17
+        },
+        {
+          "topicId": "DJ-AUT-01",
+          "topicName": "Built-in User Model, Authentication Backends, and Sessions",
+          "order": 18
+        },
+        {
+          "topicId": "DJ-AUT-02",
+          "topicName": "Permissions, Groups, and Decorators/Mixins (login_required, permission_required)",
+          "order": 19
+        },
+        {
+          "topicId": "DJ-MID-01",
+          "topicName": "Middleware Architecture and Execution Order",
+          "order": 20
+        },
+        {
+          "topicId": "DJ-MID-02",
+          "topicName": "Writing Custom Middleware for Logging, Security, and Metrics",
+          "order": 21
+        },
+        {
+          "topicId": "DJ-DRF-01",
+          "topicName": "Serializers, ModelSerializers, and Validation",
+          "order": 22
+        },
+        {
+          "topicId": "DJ-DRF-02",
+          "topicName": "APIViews, GenericViews, and ViewSets with Routers",
+          "order": 23
+        },
+        {
+          "topicId": "DJ-DRF-03",
+          "topicName": "Authentication, Permissions, and Throttling in DRF",
+          "order": 24
+        },
+        {
+          "topicId": "DJ-DRF-04",
+          "topicName": "Pagination, Filtering, and Searching in APIs",
+          "order": 25
+        },
+        {
+          "topicId": "DJ-TST-01",
+          "topicName": "TestCase, TransactionTestCase, and LiveServerTestCase",
+          "order": 26
+        },
+        {
+          "topicId": "DJ-TST-02",
+          "topicName": "Mocking, Fixtures, Factory Boy, and Test Coverage",
+          "order": 27
+        },
+        {
+          "topicId": "DJ-TST-03",
+          "topicName": "API Testing with DRF APITestCase",
+          "order": 28
+        },
+        {
+          "topicId": "DJ-CAC-01",
+          "topicName": "Caching Framework (Memcached, Redis, Per-view, and Low-level Caching)",
+          "order": 29
+        },
+        {
+          "topicId": "DJ-CAC-02",
+          "topicName": "Asynchronous Tasks with Celery and Redis Integration",
+          "order": 30
+        },
+        {
+          "topicId": "DJ-SEC-01",
+          "topicName": "Mitigating OWASP Top 10 (SQLi, XSS, CSRF, Clickjacking)",
+          "order": 31
+        },
+        {
+          "topicId": "DJ-SEC-02",
+          "topicName": "Secure Headers, CORS, and Content Security Policy (CSP)",
+          "order": 32
+        },
+        {
+          "topicId": "DJ-PRD-01",
+          "topicName": "Production Settings, Environment Variables, and WSGI/ASGI Servers (Gunicorn/Uvicorn)",
+          "order": 33
+        },
+        {
+          "topicId": "DJ-PRD-02",
+          "topicName": "Reverse Proxies (Nginx), SSL/TLS, and Static File Serving",
+          "order": 34
+        },
+        {
+          "topicId": "DJ-PRD-03",
+          "topicName": "Database Connection Pooling, Replicas, and Routing",
+          "order": 35
+        },
+        {
+          "topicId": "DJ-MON-01",
+          "topicName": "Logging Configuration, Sentry Integration, and APM Tools",
+          "order": 36
+        },
+        {
+          "topicId": "DJ-MON-02",
+          "topicName": "Debugging N+1 Queries with Django Silk and Debug Toolbar",
+          "order": 37
+        },
+        {
+          "topicId": "DJ-ADV-01",
+          "topicName": "Custom Management Commands and System Checks",
+          "order": 38
+        },
+        {
+          "topicId": "DJ-ADV-02",
+          "topicName": "Signals: Pre/Post Save/Delete, Custom Signals, and Anti-patterns",
+          "order": 39
+        },
+        {
+          "topicId": "DJ-ADV-03",
+          "topicName": "Django Channels for WebSockets and Real-time Applications",
+          "order": 40
+        }
+      ]
+    },
+    {
+      "moduleId": "flask",
+      "moduleName": "Flask",
+      "order": 23,
+      "description": "Master Flask from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "FL01",
+          "topicName": "WSGI and ASGI Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "FL02",
+          "topicName": "Application and Request Contexts",
+          "order": 2
+        },
+        {
+          "topicId": "FL03",
+          "topicName": "Routing and URL Building",
+          "order": 3
+        },
+        {
+          "topicId": "FL04",
+          "topicName": "Request and Response Objects",
+          "order": 4
+        },
+        {
+          "topicId": "FL05",
+          "topicName": "Jinja2 Templating Engine",
+          "order": 5
+        },
+        {
+          "topicId": "FL06",
+          "topicName": "Blueprints and Modular Design",
+          "order": 6
+        },
+        {
+          "topicId": "FL07",
+          "topicName": "Application Factory Pattern",
+          "order": 7
+        },
+        {
+          "topicId": "FL08",
+          "topicName": "Configuration Management",
+          "order": 8
+        },
+        {
+          "topicId": "FL09",
+          "topicName": "Custom CLI Commands",
+          "order": 9
+        },
+        {
+          "topicId": "FL10",
+          "topicName": "Flask-SQLAlchemy Integration",
+          "order": 10
+        },
+        {
+          "topicId": "FL11",
+          "topicName": "Database Migrations with Flask-Migrate",
+          "order": 11
+        },
+        {
+          "topicId": "FL12",
+          "topicName": "Handling Sessions and Cookies",
+          "order": 12
+        },
+        {
+          "topicId": "FL13",
+          "topicName": "Caching Strategies",
+          "order": 13
+        },
+        {
+          "topicId": "FL14",
+          "topicName": "Authentication and Authorization",
+          "order": 14
+        },
+        {
+          "topicId": "FL15",
+          "topicName": "CSRF Protection and Security Headers",
+          "order": 15
+        },
+        {
+          "topicId": "FL16",
+          "topicName": "Password Hashing and Token Management",
+          "order": 16
+        },
+        {
+          "topicId": "FL17",
+          "topicName": "RESTful APIs with Flask-RESTful/Marshmallow",
+          "order": 17
+        },
+        {
+          "topicId": "FL18",
+          "topicName": "Request Validation and Serialization",
+          "order": 18
+        },
+        {
+          "topicId": "FL19",
+          "topicName": "API Documentation with OpenAPI/Swagger",
+          "order": 19
+        },
+        {
+          "topicId": "FL20",
+          "topicName": "Background Jobs with Celery",
+          "order": 20
+        },
+        {
+          "topicId": "FL21",
+          "topicName": "Async Views and WebSockets",
+          "order": 21
+        },
+        {
+          "topicId": "FL22",
+          "topicName": "Unit and Integration Testing with Pytest",
+          "order": 22
+        },
+        {
+          "topicId": "FL23",
+          "topicName": "Test Fixtures and Database Mocking",
+          "order": 23
+        },
+        {
+          "topicId": "FL24",
+          "topicName": "WSGI/ASGI Servers (Gunicorn, uWSGI, Hypercorn)",
+          "order": 24
+        },
+        {
+          "topicId": "FL25",
+          "topicName": "Logging, Monitoring, and Error Tracking",
+          "order": 25
+        },
+        {
+          "topicId": "FL26",
+          "topicName": "Dockerization and Container Best Practices",
+          "order": 26
+        },
+        {
+          "topicId": "FL27",
+          "topicName": "Performance Tuning and Scalability",
+          "order": 27
+        }
+      ]
+    },
+    {
+      "moduleId": "expressjs",
+      "moduleName": "Express.js",
+      "order": 24,
+      "description": "Master Express.js from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "EXP-101",
+          "topicName": "Introduction to Express.js and the Node.js Ecosystem",
+          "order": 1
+        },
+        {
+          "topicId": "EXP-102",
+          "topicName": "Request and Response Lifecycle",
+          "order": 2
+        },
+        {
+          "topicId": "EXP-103",
+          "topicName": "Routing and Route Parameters",
+          "order": 3
+        },
+        {
+          "topicId": "EXP-201",
+          "topicName": "Understanding Middleware and the Next Function",
+          "order": 4
+        },
+        {
+          "topicId": "EXP-202",
+          "topicName": "Application-Level vs Router-Level Middleware",
+          "order": 5
+        },
+        {
+          "topicId": "EXP-203",
+          "topicName": "Built-in, Third-Party, and Custom Middleware",
+          "order": 6
+        },
+        {
+          "topicId": "EXP-301",
+          "topicName": "Modular Routing with express.Router",
+          "order": 7
+        },
+        {
+          "topicId": "EXP-302",
+          "topicName": "Route Path Patterns and Regular Expressions",
+          "order": 8
+        },
+        {
+          "topicId": "EXP-303",
+          "topicName": "Handling Route Chaining and Multiple Handlers",
+          "order": 9
+        },
+        {
+          "topicId": "EXP-401",
+          "topicName": "Synchronous vs Asynchronous Error Handling",
+          "order": 10
+        },
+        {
+          "topicId": "EXP-402",
+          "topicName": "Writing Centralized Error-Handling Middleware",
+          "order": 11
+        },
+        {
+          "topicId": "EXP-403",
+          "topicName": "Unhandled Rejections and Uncaught Exceptions in Express",
+          "order": 12
+        },
+        {
+          "topicId": "EXP-501",
+          "topicName": "Configuring View Engines (EJS, Pug, Handlebars)",
+          "order": 13
+        },
+        {
+          "topicId": "EXP-502",
+          "topicName": "Rendering Dynamic Views and Passing Data",
+          "order": 14
+        },
+        {
+          "topicId": "EXP-601",
+          "topicName": "Parsing Request Bodies and Query Parameters",
+          "order": 15
+        },
+        {
+          "topicId": "EXP-602",
+          "topicName": "Implementing CORS and Security Headers (Helmet)",
+          "order": 16
+        },
+        {
+          "topicId": "EXP-603",
+          "topicName": "Data Validation and Sanitization (express-validator, Joi)",
+          "order": 17
+        },
+        {
+          "topicId": "EXP-701",
+          "topicName": "Cookies, Signatures, and Parsing",
+          "order": 18
+        },
+        {
+          "topicId": "EXP-702",
+          "topicName": "Session Management and Store Configuration",
+          "order": 19
+        },
+        {
+          "topicId": "EXP-801",
+          "topicName": "Environment Configuration and Process Management (PM2)",
+          "order": 20
+        },
+        {
+          "topicId": "EXP-802",
+          "topicName": "Logging, Monitoring, and APM Integration",
+          "order": 21
+        },
+        {
+          "topicId": "EXP-803",
+          "topicName": "Graceful Shutdown and Connection Draining",
+          "order": 22
+        },
+        {
+          "topicId": "EXP-901",
+          "topicName": "Unit and Integration Testing Express Apps (Supertest, Jest)",
+          "order": 23
+        },
+        {
+          "topicId": "EXP-902",
+          "topicName": "Enterprise Folder Structures and Separation of Concerns",
+          "order": 24
+        }
+      ]
+    },
+    {
+      "moduleId": "go_golang",
+      "moduleName": "Go (Golang)",
+      "order": 25,
+      "description": "Master Go (Golang) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "GO-FUN-01",
+          "topicName": "Syntax, Types, and Variables",
+          "order": 1
+        },
+        {
+          "topicId": "GO-FUN-02",
+          "topicName": "Control Structures and Functions",
+          "order": 2
+        },
+        {
+          "topicId": "GO-FUN-03",
+          "topicName": "Pointers and Memory Allocation",
+          "order": 3
+        },
+        {
+          "topicId": "GO-DAT-01",
+          "topicName": "Arrays, Slices, and Internals",
+          "order": 4
+        },
+        {
+          "topicId": "GO-DAT-02",
+          "topicName": "Maps and Hash Collision Handling",
+          "order": 5
+        },
+        {
+          "topicId": "GO-DAT-03",
+          "topicName": "Structs, Methods, and Interfaces",
+          "order": 6
+        },
+        {
+          "topicId": "GO-CON-01",
+          "topicName": "Goroutines and Lifecycle",
+          "order": 7
+        },
+        {
+          "topicId": "GO-CON-02",
+          "topicName": "Channels and Synchronization",
+          "order": 8
+        },
+        {
+          "topicId": "GO-CON-03",
+          "topicName": "Select Statement and Multiplexing",
+          "order": 9
+        },
+        {
+          "topicId": "GO-CON-04",
+          "topicName": "Context Package and Cancellation",
+          "order": 10
+        },
+        {
+          "topicId": "GO-ADV-01",
+          "topicName": "Generics (Type Parameters)",
+          "order": 11
+        },
+        {
+          "topicId": "GO-ADV-02",
+          "topicName": "Reflection and Runtime Type Inspection",
+          "order": 12
+        },
+        {
+          "topicId": "GO-ADV-03",
+          "topicName": "Unsafe Pointer and Memory Layout",
+          "order": 13
+        },
+        {
+          "topicId": "GO-MEM-01",
+          "topicName": "Garbage Collection Mechanics",
+          "order": 14
+        },
+        {
+          "topicId": "GO-MEM-02",
+          "topicName": "Escape Analysis",
+          "order": 15
+        },
+        {
+          "topicId": "GO-MEM-03",
+          "topicName": "Memory Profiling and Tuning",
+          "order": 16
+        },
+        {
+          "topicId": "GO-ERR-01",
+          "topicName": "Errors as Values and Wrapping",
+          "order": 17
+        },
+        {
+          "topicId": "GO-ERR-02",
+          "topicName": "Panic, Recover, and Defers",
+          "order": 18
+        },
+        {
+          "topicId": "GO-ENG-01",
+          "topicName": "Modules, Vendoring, and Dependency Management",
+          "order": 19
+        },
+        {
+          "topicId": "GO-ENG-02",
+          "topicName": "Testing, Benchmarking, and Fuzzing",
+          "order": 20
+        },
+        {
+          "topicId": "GO-PRO-01",
+          "topicName": "HTTP Servers, Clients, and Middleware",
+          "order": 21
+        },
+        {
+          "topicId": "GO-PRO-02",
+          "topicName": "Concurrency Patterns (Worker Pool, Fan-out/Fan-in)",
+          "order": 22
+        },
+        {
+          "topicId": "GO-PRO-03",
+          "topicName": "Observability, Tracing, and Metrics",
+          "order": 23
+        }
+      ]
+    },
+    {
+      "moduleId": "laravel",
+      "moduleName": "Laravel",
+      "order": 26,
+      "description": "Master Laravel from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "LAR-01",
+          "topicName": "HTTP Request Lifecycle and Service Container",
+          "order": 1
+        },
+        {
+          "topicId": "LAR-02",
+          "topicName": "Service Providers and Facades Architecture",
+          "order": 2
+        },
+        {
+          "topicId": "LAR-03",
+          "topicName": "Routing, Middleware, and Controllers",
+          "order": 3
+        },
+        {
+          "topicId": "LAR-04",
+          "topicName": "Configuration and Environment Management",
+          "order": 4
+        },
+        {
+          "topicId": "LAR-05",
+          "topicName": "Database Migrations, Seeders, and Factories",
+          "order": 5
+        },
+        {
+          "topicId": "LAR-06",
+          "topicName": "Query Builder and Advanced SQL Operations",
+          "order": 6
+        },
+        {
+          "topicId": "LAR-07",
+          "topicName": "Eloquent Relationships (1:1, 1:M, M:N, Polymorphic)",
+          "order": 7
+        },
+        {
+          "topicId": "LAR-08",
+          "topicName": "Eloquent Performance (Eager Loading, N+1 Problem, Chunks)",
+          "order": 8
+        },
+        {
+          "topicId": "LAR-09",
+          "topicName": "Accessors, Mutators, Casts, and Attribute Serialisation",
+          "order": 9
+        },
+        {
+          "topicId": "LAR-10",
+          "topicName": "Database Transactions and Locking Strategies",
+          "order": 10
+        },
+        {
+          "topicId": "LAR-11",
+          "topicName": "Authentication Systems (Sanctum, Passport, Fortify)",
+          "order": 11
+        },
+        {
+          "topicId": "LAR-12",
+          "topicName": "Authorization with Gates, Policies, and Roles",
+          "order": 12
+        },
+        {
+          "topicId": "LAR-13",
+          "topicName": "Common Vulnerabilities (CSRF, XSS, SQLi, Mass Assignment)",
+          "order": 13
+        },
+        {
+          "topicId": "LAR-14",
+          "topicName": "Hashing, Encryption, and Secure Data Handling",
+          "order": 14
+        },
+        {
+          "topicId": "LAR-15",
+          "topicName": "Form Requests and Custom Validation Rules",
+          "order": 15
+        },
+        {
+          "topicId": "LAR-16",
+          "topicName": "API Resources and Data Transformation",
+          "order": 16
+        },
+        {
+          "topicId": "LAR-17",
+          "topicName": "API Rate Limiting and Throttling",
+          "order": 17
+        },
+        {
+          "topicId": "LAR-18",
+          "topicName": "Exception Handling and Custom Error Responses",
+          "order": 18
+        },
+        {
+          "topicId": "LAR-19",
+          "topicName": "Queues, Jobs, Workers, and Horizon",
+          "order": 19
+        },
+        {
+          "topicId": "LAR-20",
+          "topicName": "Events, Listeners, and Subscribers",
+          "order": 20
+        },
+        {
+          "topicId": "LAR-21",
+          "topicName": "Task Scheduling and Cron Integration",
+          "order": 21
+        },
+        {
+          "topicId": "LAR-22",
+          "topicName": "Notifications (Mail, SMS, Database, Broadcast)",
+          "order": 22
+        },
+        {
+          "topicId": "LAR-23",
+          "topicName": "Unit Testing with PHPUnit / Pest",
+          "order": 23
+        },
+        {
+          "topicId": "LAR-24",
+          "topicName": "Feature Testing and Database Transactions",
+          "order": 24
+        },
+        {
+          "topicId": "LAR-25",
+          "topicName": "Mocking, Stubbing, and Fake Services",
+          "order": 25
+        },
+        {
+          "topicId": "LAR-26",
+          "topicName": "Livewire and Alpine.js Integration",
+          "order": 26
+        },
+        {
+          "topicId": "LAR-27",
+          "topicName": "Laravel Breeze, Jetstream, and Inertia.js",
+          "order": 27
+        },
+        {
+          "topicId": "LAR-28",
+          "topicName": "Package Development and Service Providers",
+          "order": 28
+        },
+        {
+          "topicId": "LAR-29",
+          "topicName": "Caching Strategies (Redis, Database, Route/Config Caching)",
+          "order": 29
+        },
+        {
+          "topicId": "LAR-30",
+          "topicName": "Octane (Swoole / RoadRunner) and Memory Leaks",
+          "order": 30
+        },
+        {
+          "topicId": "LAR-31",
+          "topicName": "Zero-Downtime Deployments and Envoy",
+          "order": 31
+        },
+        {
+          "topicId": "LAR-32",
+          "topicName": "Logging, Monitoring, Telescope, and Debugbar",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "moduleId": "ruby_on_rails",
+      "moduleName": "Ruby on Rails",
+      "order": 27,
+      "description": "Master Ruby on Rails from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "RUBY-01",
+          "topicName": "Blocks, Procs, and Lambdas",
+          "order": 1
+        },
+        {
+          "topicId": "RUBY-02",
+          "topicName": "Metaprogramming and Reflection",
+          "order": 2
+        },
+        {
+          "topicId": "RUBY-03",
+          "topicName": "Modules, Mixins, and Method Lookup Path",
+          "order": 3
+        },
+        {
+          "topicId": "RUBY-04",
+          "topicName": "Memory Management and Garbage Collection",
+          "order": 4
+        },
+        {
+          "topicId": "RAILS-01",
+          "topicName": "Action Pack and Request Lifecycle",
+          "order": 5
+        },
+        {
+          "topicId": "RAILS-02",
+          "topicName": "Advanced Routing (Constraints, Scopes, Concerns)",
+          "order": 6
+        },
+        {
+          "topicId": "RAILS-03",
+          "topicName": "Controller Filters and Action Controller Parameters",
+          "order": 7
+        },
+        {
+          "topicId": "AR-01",
+          "topicName": "Associations, Polymorphism, and Self-Joins",
+          "order": 8
+        },
+        {
+          "topicId": "AR-02",
+          "topicName": "Query Optimization and N+1 Problem (Includes, Joins, Preload)",
+          "order": 9
+        },
+        {
+          "topicId": "AR-03",
+          "topicName": "Callbacks, Observers, and Lifecycle Hooks",
+          "order": 10
+        },
+        {
+          "topicId": "AR-04",
+          "topicName": "Migrations, Schema Evolution, and Zero-Downtime Deploys",
+          "order": 11
+        },
+        {
+          "topicId": "AR-05",
+          "topicName": "Transactions, Concurrency, and Locking (Optimistic & Pessimistic)",
+          "order": 12
+        },
+        {
+          "topicId": "AS-01",
+          "topicName": "Core Extensions and Inflections",
+          "order": 13
+        },
+        {
+          "topicId": "AS-02",
+          "topicName": "Active Support Instrumentation and Notifications",
+          "order": 14
+        },
+        {
+          "topicId": "JOB-01",
+          "topicName": "Active Job and Sidekiq Architecture",
+          "order": 15
+        },
+        {
+          "topicId": "JOB-02",
+          "topicName": "Idempotency and Distributed Locks in Jobs",
+          "order": 16
+        },
+        {
+          "topicId": "TEST-01",
+          "topicName": "RSpec vs Minitest and Test Design",
+          "order": 17
+        },
+        {
+          "topicId": "TEST-02",
+          "topicName": "FactoryBot, DatabaseCleaner, and Test Isolation",
+          "order": 18
+        },
+        {
+          "topicId": "SEC-01",
+          "topicName": "OWASP Top 10 in Rails (SQLi, XSS, CSRF, Mass Assignment)",
+          "order": 19
+        },
+        {
+          "topicId": "SEC-02",
+          "topicName": "Authentication, Authorization (Pundit/Cancancan), and Encrypted Credentials",
+          "order": 20
+        },
+        {
+          "topicId": "PERF-01",
+          "topicName": "Caching Strategies (Fragment, Russian Doll, Redis/Memcached)",
+          "order": 21
+        },
+        {
+          "topicId": "PERF-02",
+          "topicName": "Rack Middleware Stack and Custom Middleware",
+          "order": 22
+        },
+        {
+          "topicId": "PROD-01",
+          "topicName": "Application Servers (Puma, Unicorn) and Thread Safety",
+          "order": 23
+        },
+        {
+          "topicId": "PROD-02",
+          "topicName": "API Design, Versioning, and Action Cable (WebSockets)",
+          "order": 24
+        }
+      ]
+    },
+    {
+      "moduleId": "net",
+      "moduleName": ".NET",
+      "order": 28,
+      "description": "Master .NET from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CS01",
+          "topicName": "Value Types vs Reference Types & Memory Management",
+          "order": 1
+        },
+        {
+          "topicId": "CS02",
+          "topicName": "Generics, Variance (Covariance/Contravariance), and Constraints",
+          "order": 2
+        },
+        {
+          "topicId": "CS03",
+          "topicName": "Delegates, Events, Lambdas, and Expression Trees",
+          "order": 3
+        },
+        {
+          "topicId": "CS04",
+          "topicName": "Asynchronous Programming (async/await, Task, ValueTask, SynchronizationContext)",
+          "order": 4
+        },
+        {
+          "topicId": "CS05",
+          "topicName": "LINQ Internals, Deferred Execution, and Expression Translation",
+          "order": 5
+        },
+        {
+          "topicId": "CS06",
+          "topicName": "Modern C# Features (Pattern Matching, Records, Init-only, Nullable Reference Types)",
+          "order": 6
+        },
+        {
+          "topicId": "NET01",
+          "topicName": "CLR, CTS, CLS, JIT Compilation, and AOT",
+          "order": 7
+        },
+        {
+          "topicId": "NET02",
+          "topicName": "Garbage Collection (Generations, LOH, SOH, POH, and GC Modes)",
+          "order": 8
+        },
+        {
+          "topicId": "NET03",
+          "topicName": "Memory Optimization (Span<T>, Memory<T>, ArrayPool, stackalloc)",
+          "order": 9
+        },
+        {
+          "topicId": "NET04",
+          "topicName": "Assembly Loading, Reflection, and Metadata Inspection",
+          "order": 10
+        },
+        {
+          "topicId": "NET05",
+          "topicName": "Interoperability (P/Invoke, COM, NativeAOT)",
+          "order": 11
+        },
+        {
+          "topicId": "WEB01",
+          "topicName": "Middleware Pipeline and Request Lifecycle",
+          "order": 12
+        },
+        {
+          "topicId": "WEB02",
+          "topicName": "Dependency Injection (Lifetimes, Service Resolution, Scopes, Captive Dependencies)",
+          "order": 13
+        },
+        {
+          "topicId": "WEB03",
+          "topicName": "Routing, Endpoint Filters, and Minimal APIs vs Controllers",
+          "order": 14
+        },
+        {
+          "topicId": "WEB04",
+          "topicName": "Authentication & Authorization (JWT, OAuth2, OpenID Connect, Policies)",
+          "order": 15
+        },
+        {
+          "topicId": "WEB05",
+          "topicName": "gRPC, SignalR, and Real-time Communication",
+          "order": 16
+        },
+        {
+          "topicId": "DB01",
+          "topicName": "EF Core Change Tracker and Unit of Work Pattern",
+          "order": 17
+        },
+        {
+          "topicId": "DB02",
+          "topicName": "Query Translation, Compiled Queries, and Performance Tuning",
+          "order": 18
+        },
+        {
+          "topicId": "DB03",
+          "topicName": "Handling Concurrency (Optimistic vs Pessimistic)",
+          "order": 19
+        },
+        {
+          "topicId": "DB04",
+          "topicName": "Migrations, Interceptors, and Database Seed Strategies",
+          "order": 20
+        },
+        {
+          "topicId": "DIST01",
+          "topicName": "Resilience and Fault Tolerance (Polly, Circuit Breaker, Retry, Rate Limiting)",
+          "order": 21
+        },
+        {
+          "topicId": "DIST02",
+          "topicName": "Distributed Caching (IDistributedCache, Redis, Cache Aside, Invalidation)",
+          "order": 22
+        },
+        {
+          "topicId": "DIST03",
+          "topicName": "Messaging and Event-Driven Architecture (MassTransit, RabbitMQ, Kafka)",
+          "order": 23
+        },
+        {
+          "topicId": "DIST04",
+          "topicName": "Health Checks, Service Discovery, and API Gateways (YARP)",
+          "order": 24
+        },
+        {
+          "topicId": "OPS01",
+          "topicName": "Unit and Integration Testing (xUnit, Moq, FluentAssertions, Testcontainers)",
+          "order": 25
+        },
+        {
+          "topicId": "OPS02",
+          "topicName": "Observability (OpenTelemetry, Metrics, Distributed Tracing, Structured Logging with Serilog)",
+          "order": 26
+        },
+        {
+          "topicId": "OPS03",
+          "topicName": "Performance Profiling and Debugging (dotnet-dump, dotnet-trace, BenchmarkDotNet)",
+          "order": 27
+        },
+        {
+          "topicId": "OPS04",
+          "topicName": "Containerization, Multi-stage Docker Builds, and Kubernetes Deployment for .NET",
+          "order": 28
+        }
+      ]
     }
   ]
 }
