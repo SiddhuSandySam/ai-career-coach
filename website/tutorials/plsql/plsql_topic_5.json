@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_5",
+  "topicName": "What are PL/SQL cursors and why are they used?",
+  "order": 5,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are PL/SQL cursors and why are they used?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL cursors are a mechanism to fetch and process data row by row from a result set returned by a SQL query. They are essential for handling queries that return multiple rows, allowing developers to manipulate data in a procedural manner.\"}]"
+}

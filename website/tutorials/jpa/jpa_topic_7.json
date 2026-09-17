@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_7",
+  "topicName": "Explain the difference between @GeneratedValue(strategy = GenerationType.AUTO) and @GeneratedValue(strategy = GenerationType.IDENTITY).",
+  "order": 7,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between @GeneratedValue(strategy = GenerationType.AUTO) and @GeneratedValue(strategy = GenerationType.IDENTITY).\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"This question tests the candidate's understanding of primary key generation strategies in JPA, specifically focusing on the differences between letting the JPA provider choose the strategy (AUTO) and relying on the database's identity column feature (IDENTITY).\"}]"
+}

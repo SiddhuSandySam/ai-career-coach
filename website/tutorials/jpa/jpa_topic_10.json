@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_10",
+  "topicName": "Explain the difference between eager and lazy loading in JPA. What are the advantages and disadvantages of each?",
+  "order": 10,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between eager and lazy loading in JPA. What are the advantages and disadvantages of each?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Eager and lazy loading are strategies for fetching related entities in JPA. Eager loading fetches related entities immediately, while lazy loading fetches them only when explicitly accessed.\"}]"
+}

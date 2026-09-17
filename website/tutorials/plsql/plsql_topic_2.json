@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_2",
+  "topicName": "Explain the difference between PL/SQL and SQL.",
+  "order": 2,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between PL/SQL and SQL.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"SQL is a query language for managing data in relational database management systems (RDBMS), while PL/SQL is a procedural extension of SQL that allows for writing blocks of code with control structures, variables, and error handling.\"}]"
+}

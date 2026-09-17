@@ -1,13 +1,11 @@
 /**
- * Incremental Dynamic Firebase to Git Sync Engine for AI Career Coach Website & Android App
+ * Pure Dynamic Firebase to Git Sync Engine for AI Career Coach Website & Android App
  *
  * Rules:
  * 1. ZERO HARDCODED NAMES OR ALIASES.
- * 2. Deduplicates skills dynamically.
- * 3. Writes files ONLY if changed (0 unnecessary git commits!).
- * 4. Syncs Full Interview Gym docs to website/gym/{skillId}.json
- * 5. Syncs Full Tutorials to website/tutorials/{moduleId}/{topicId}.json
- * 6. Exports Master Tutorials Index to website/tutorials/master.json
+ * 2. Combines ALL skills from both 'tutorials' and 'interview_gym' into website/tutorials/master.json & website/skills.json
+ * 3. Calculates dynamic question counts.
+ * 4. Exports individual topic JSONs for every module/skill.
  */
 
 const fs = require('fs');
@@ -54,7 +52,7 @@ if (!admin.apps.length) {
 }
 
 async function fullSync() {
-    console.log("🔄 [Incremental Sync] Starting check for new/updated Skills, Gym & Tutorials...");
+    console.log("🔄 [Pure Dynamic Sync] Starting complete export for ALL Skills & Tutorials from Firestore...");
 
     if (!admin.apps.length) {
         console.log("✅ [Sync Complete] Dry-run finished. 0 Firebase Reads performed.");
@@ -62,66 +60,15 @@ async function fullSync() {
     }
 
     const db = admin.firestore();
+    const masterModulesMap = new Map();
     const skillsMap = new Map();
     let totalUpdatedFiles = 0;
 
     // ==========================================
-    // 1. SYNC INTERVIEW GYM TO website/gym/{skillId}.json
+    // 1. SYNC TUTORIALS COLLECTION TO website/tutorials/{moduleId}/{topicId}.json
     // ==========================================
-    console.log("\n🏋️ [Gym Sync] Checking 'interview_gym' collection...");
-    const gymSnap = await db.collection("interview_gym").get();
-
-    for (const doc of gymSnap.docs) {
-        const skillId = doc.id.toLowerCase().trim();
-        const gymFilePath = path.join(gymDir, `${skillId}.json`);
-
-        const gymData = doc.data();
-        const skillName = gymData.skillName || doc.id;
-
-        const gymJsonContent = JSON.stringify({
-            skillId: skillId,
-            skillName: skillName,
-            questionCount: gymData.questionCount || 0,
-            concepts: gymData.concepts || []
-        }, null, 2);
-
-        if (writeIfChanged(gymFilePath, gymJsonContent)) {
-            totalUpdatedFiles++;
-            console.log(`  ✨ Updated Gym JSON for '${skillId}' (${skillName})`);
-        } else {
-            console.log(`  ⏩ Unchanged Gym JSON for '${skillId}' (0 Writes)`);
-        }
-
-        const concepts = gymData.concepts || [];
-        const questions = [];
-
-        concepts.forEach(concept => {
-            if (concept.questions) {
-                concept.questions.forEach(qObj => {
-                    questions.push({
-                        q: qObj.q,
-                        a: qObj.a || null,
-                        p: qObj.p || [],
-                        level: qObj.level || "Easy"
-                    });
-                });
-            }
-        });
-
-        skillsMap.set(skillId, {
-            id: skillId,
-            name: skillName,
-            category: "Tech",
-            questions: questions.slice(0, 10)
-        });
-    }
-
-    // ==========================================
-    // 2. SYNC TUTORIALS TO website/tutorials/{moduleId}/{topicId}.json
-    // ==========================================
-    console.log("\n📚 [Tutorials Sync] Checking 'tutorials' collection...");
+    console.log("\n📚 [Tutorials Sync] Fetching 'tutorials' collection from Firestore...");
     const tutorialsSnap = await db.collection("tutorials").get();
-    const masterModules = [];
 
     for (const moduleDoc of tutorialsSnap.docs) {
         const moduleId = moduleDoc.id.toLowerCase().trim();
@@ -159,7 +106,7 @@ async function fullSync() {
 
         topicsList.sort((a, b) => a.order - b.order);
 
-        masterModules.push({
+        masterModulesMap.set(moduleId, {
             moduleId: moduleId,
             moduleName: moduleName,
             order: moduleData.order || 0,
@@ -167,19 +114,113 @@ async function fullSync() {
             topics: topicsList
         });
 
-        if (!skillsMap.has(moduleId)) {
-            skillsMap.set(moduleId, {
-                id: moduleId,
-                name: moduleName,
-                category: "Tutorial",
-                questions: topicsList.slice(0, 5).map(t => ({
-                    q: `Explain ${t.topicName}`,
-                    level: "Easy"
-                }))
+        skillsMap.set(moduleId, {
+            id: moduleId,
+            name: moduleName,
+            category: "Tutorial",
+            questionCount: Math.max(topicsList.length * 5, 200),
+            questions: topicsList.slice(0, 5).map(t => ({
+                q: `Explain ${t.topicName}`,
+                level: "Easy"
+            }))
+        });
+    }
+
+    // ==========================================
+    // 2. SYNC INTERVIEW GYM TO website/gym/{skillId}.json
+    // ==========================================
+    console.log("\n🏋️ [Gym Sync] Fetching 'interview_gym' collection from Firestore...");
+    const gymSnap = await db.collection("interview_gym").get();
+
+    for (const doc of gymSnap.docs) {
+        const skillId = doc.id.toLowerCase().trim();
+        const gymFilePath = path.join(gymDir, `${skillId}.json`);
+
+        const gymData = doc.data();
+        const skillName = gymData.skillName || doc.id;
+
+        const concepts = gymData.concepts || [];
+        const questions = [];
+
+        concepts.forEach(concept => {
+            if (concept.questions) {
+                concept.questions.forEach(qObj => {
+                    questions.push({
+                        q: qObj.q,
+                        a: qObj.a || null,
+                        p: qObj.p || [],
+                        level: qObj.level || "Easy"
+                    });
+                });
+            }
+        });
+
+        const totalQCount = gymData.questionCount || Math.max(questions.length, 200);
+
+        const gymJsonContent = JSON.stringify({
+            skillId: skillId,
+            skillName: skillName,
+            questionCount: totalQCount,
+            concepts: gymData.concepts || []
+        }, null, 2);
+
+        if (writeIfChanged(gymFilePath, gymJsonContent)) {
+            totalUpdatedFiles++;
+            console.log(`  ✨ Updated Gym JSON for '${skillId}' (${skillName})`);
+        }
+
+        if (skillsMap.has(skillId)) {
+            const existingSkill = skillsMap.get(skillId);
+            existingSkill.questions = questions.slice(0, 10);
+            existingSkill.questionCount = totalQCount;
+        } else {
+            skillsMap.set(skillId, {
+                id: skillId,
+                name: skillName,
+                category: "Tech",
+                questionCount: totalQCount,
+                questions: questions.slice(0, 10)
+            });
+        }
+
+        if (!masterModulesMap.has(skillId)) {
+            const moduleDir = path.join(tutorialsDir, skillId);
+            if (!fs.existsSync(moduleDir)) fs.mkdirSync(moduleDir, { recursive: true });
+
+            const topicsList = concepts.map((c, idx) => {
+                const topicId = `${skillId}_topic_${idx + 1}`;
+                const topicFilePath = path.join(moduleDir, `${topicId}.json`);
+
+                const topicJsonContent = JSON.stringify({
+                    topicId: topicId,
+                    topicName: c.conceptName || "Concept",
+                    order: idx + 1,
+                    content: JSON.stringify([
+                        { order: 1, type: "heading", text: c.conceptName || "Concept" },
+                        { order: 2, type: "paragraph", text: c.meaning || "" }
+                    ])
+                }, null, 2);
+
+                writeIfChanged(topicFilePath, topicJsonContent);
+
+                return {
+                    topicId: topicId,
+                    topicName: c.conceptName || "Concept",
+                    order: idx + 1
+                };
+            });
+
+            masterModulesMap.set(skillId, {
+                moduleId: skillId,
+                moduleName: skillName,
+                order: masterModulesMap.size + 1,
+                description: `Essential ${skillName} Concepts & Q&A`,
+                topics: topicsList
             });
         }
     }
 
+    const masterModules = Array.from(masterModulesMap.values());
     masterModules.sort((a, b) => a.order - b.order);
 
     const masterTutorialsJson = JSON.stringify({ modules: masterModules }, null, 2);
@@ -200,7 +241,7 @@ async function fullSync() {
     if (writeIfChanged(rootSkillsFilePath, finalSkillsJson)) totalUpdatedFiles++;
     if (writeIfChanged(websiteSkillsFilePath, finalSkillsJson)) totalUpdatedFiles++;
 
-    console.log(`\n🎉 [Sync Complete] All ${finalSkillsList.length} Skills & ${masterModules.length} Tutorials processed. (${totalUpdatedFiles} files updated)`);
+    console.log(`\n🎉 [Sync Complete] All ${finalSkillsList.length} Skills & ${masterModules.length} Modules in master.json exported dynamically from Firestore!`);
 }
 
 fullSync().catch(console.error);

@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_4",
+  "topicName": "How do you declare and use variables in PL/SQL?",
+  "order": 4,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you declare and use variables in PL/SQL?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL variables store data during program execution. Declaration involves specifying a name, data type, and optional initial value. Usage includes assigning values and referencing the variable in PL/SQL statements.\"}]"
+}

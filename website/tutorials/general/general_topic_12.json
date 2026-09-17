@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_12",
+  "topicName": "Primitive Data Types",
+  "order": 12,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Primitive Data Types\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Primitive data types are the most basic data types available within a programming language. They are predefined and provided directly by the language. They represent single values and are not objects. Understanding primitive types is crucial for efficient memory usage and performance.\"}]"
+}

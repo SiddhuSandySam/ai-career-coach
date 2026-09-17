@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_14",
+  "topicName": "PL/SQL Collections",
+  "order": 14,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"PL/SQL Collections\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL collections are data structures that allow you to store and manipulate multiple elements of the same data type. They are similar to arrays in other programming languages but offer more flexibility and features.\"}]"
+}

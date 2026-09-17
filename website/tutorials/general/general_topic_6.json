@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_6",
+  "topicName": "What is Abstraction, and how does it differ from Encapsulation?",
+  "order": 6,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is Abstraction, and how does it differ from Encapsulation?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Abstraction and encapsulation are fundamental OOP concepts. Abstraction focuses on hiding complex implementation details and showing only essential information to the user. Encapsulation is about bundling data and methods that operate on that data within a single unit (class) and protecting the data from direct access from outside.\"}]"
+}

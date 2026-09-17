@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_15",
+  "topicName": "How do you perform string manipulation in PL/SQL (e.g., concatenation, substring extraction)?",
+  "order": 15,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you perform string manipulation in PL/SQL (e.g., concatenation, substring extraction)?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"String manipulation in PL/SQL involves using built-in functions to modify and extract portions of character strings. Common operations include concatenation (joining strings), substring extraction (getting parts of a string), finding the length of a string, and replacing parts of a string.\"}]"
+}

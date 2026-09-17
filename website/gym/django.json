@@ -1,0 +1,642 @@
+{
+  "skillId": "django",
+  "skillName": "Django",
+  "questionCount": 49,
+  "concepts": [
+    {
+      "conceptName": "What is Django and what is the MVT architectural pattern?",
+      "meaning": "An introduction to Django as a high-level Python web framework and understanding its Model-View-Template architectural pattern for building maintainable web applications.",
+      "questions": [
+        {
+          "q": "What is Django?",
+          "a": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It follows the 'batteries-included' philosophy, meaning it comes with built-in features like an administrative interface, authentication, ORM, and form handling, allowing developers to focus on writing their app without needing to reinvent the wheel.",
+          "p": [
+            "High-level Python web framework",
+            "Batteries-included philosophy with built-in features",
+            "Encourages rapid development and clean design"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "What is the MVT architectural pattern in Django?",
+          "a": "MVT stands for Model-View-Template. The Model handles data and database interactions via the ORM. The Template handles the user interface and presentation layer using HTML and Django Template Language. The View acts as the bridge, receiving HTTP requests, querying the Model for data, and returning an HTTP response rendered through the Template.",
+          "p": [
+            "Model: Handles database data and ORM",
+            "View: Processes business logic and connects Model with Template",
+            "Template: Manages user interface and HTML presentation"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between Django's MVT and the traditional MVC pattern?",
+          "a": "In traditional MVC (Model-View-Controller), the Controller handles user input and business logic, while the View displays the data. In Django's MVT, the framework itself acts as the Controller handling the request/response cycle, the View corresponds to the Controller's logic handling the request, and the Template handles the presentation layer.",
+          "p": [
+            "MVC uses Controller for logic, Django uses View for logic",
+            "Django handles the Controller role internally",
+            "MVT View acts like an MVC Controller"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "What is the role of the Model in Django MVT?",
+          "a": "The Model is a Python class that subclasses `models.Model` and represents a database table or collection. It defines the data structure, fields, and behaviors of your data. Django uses the Model to interact with the database via its Object-Relational Mapper (ORM), allowing developers to write database queries in Python instead of SQL.",
+          "p": [
+            "Represents database tables as Python classes",
+            "Defines data fields and relationships",
+            "Interacts with databases using Django ORM"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are the core OOPs principles used in Django models?",
+      "meaning": "An exploration of how Object-Oriented Programming principles like Inheritance, Encapsulation, Polymorphism, and Abstraction are applied within Django's ORM and model structure.",
+      "questions": [
+        {
+          "q": "What is Inheritance in Django models and what are its types?",
+          "a": "Inheritance allows child models to inherit fields and behaviors from parent models. Django provides three types: Abstract base classes (for shared fields without a separate database table), Multi-table inheritance (where each model has its own table linked by a OneToOneField), and Proxy models (to modify Python-level behavior without changing the database schema).",
+          "p": [
+            "Abstract base classes share fields via Meta: abstract = True.",
+            "Multi-table inheritance creates a database table for every model in the hierarchy.",
+            "Proxy models change Python behavior without altering the database."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "How is Encapsulation used in Django models?",
+          "a": "Encapsulation bundles data (fields) and the methods that operate on that data within a single class (the Model). Django models hide the complex underlying SQL queries and database interactions, exposing a clean Python API like save(), delete(), or custom model methods to interact with the database securely.",
+          "p": [
+            "Combines data fields and business logic inside the model class.",
+            "Hides complex SQL queries behind simple Python methods.",
+            "Protects data integrity by restricting direct database access."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What is Polymorphism in the context of Django models?",
+          "a": "Polymorphism allows different model classes to be treated through a common interface. While standard Django ORM queries return instances of specific classes, method overriding allows child models to redefine parent methods (like __str__ or clean()) to execute model-specific behavior when called dynamically.",
+          "p": [
+            "Enables different models to respond to the same method call differently.",
+            "Achieved via method overriding in inherited models.",
+            "Standardizes interactions across diverse database entities."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "How does Abstraction apply to Django models?",
+          "a": "Abstraction hides complex database mechanics and platform-specific SQL syntax behind high-level Python abstractions. Developers define models using Python classes and field types (CharField, IntegerField), and Django automatically translates these into optimized SQL queries for databases like PostgreSQL, MySQL, or SQLite.",
+          "p": [
+            "Hides raw SQL complexity from the developer.",
+            "Uses Python classes and attributes to represent database tables and columns.",
+            "Provides database-agnostic code execution."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the difference between Django's save() and update() methods?",
+      "meaning": "Understanding when to use instance-level saving versus bulk database updating in Django ORM for performance and lifecycle management.",
+      "questions": [
+        {
+          "q": "What is the difference between Django's save() and update() methods?",
+          "a": "The `save()` method operates on a single model instance, triggers model signals (`pre_save`, `post_save`), and executes Python code for every field. In contrast, the `update()` method performs a bulk SQL update on a QuerySet directly in the database without fetching objects into memory, bypassing signals and custom save logic.",
+          "p": [
+            "save() works on single instances; update() works on QuerySets.",
+            "save() triggers signals and executes Python code; update() does not.",
+            "update() is faster for bulk operations because it runs a single SQL query."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "What are the four main OOPs principles in Python?",
+          "a": "The four main Object-Oriented Programming principles are Inheritance, Polymorphism, Encapsulation, and Abstraction. Inheritance allows a class to inherit attributes and methods from another class. Polymorphism lets different classes share the same method name. Encapsulation restricts direct access to data using private/protected variables. Abstraction hides complex implementation details and shows only essential features.",
+          "p": [
+            "Inheritance: Reusing code from parent classes.",
+            "Polymorphism: Using a unified interface for different data types.",
+            "Encapsulation: Hiding internal data and restricting access.",
+            "Abstraction: Hiding complex logic behind simple interfaces."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between 'is' and '==' keywords in Python?",
+          "a": "The `==` operator compares the values of two objects to check if they are equal. The `is` operator compares the memory addresses of two objects to check if they point to the exact same object in memory. For example, two different lists with the same items will return True for `==`, but False for `is`.",
+          "p": [
+            "== checks for value equality.",
+            "is checks for memory reference equality (identity).",
+            "Use == for data comparison and 'is' for checking None or singletons."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "What are the basic built-in data types in Python?",
+          "a": "Python has several built-in data types categorized by their nature. Numeric types include int, float, and complex. Sequence types include str, list, and tuple. Mapping type is dict. Set types include set and frozenset. Boolean type is bool, representing True or False values.",
+          "p": [
+            "Numeric: int, float, complex.",
+            "Sequence: str, list, tuple.",
+            "Mapping: dict.",
+            "Set and Boolean: set, frozenset, bool."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        },
+        {
+          "q": "How do you handle exceptions using try, except, and finally blocks in Python?",
+          "a": "Exception handling allows a program to catch and manage errors gracefully without crashing. The `try` block contains code that might raise an exception. The `except` block catches and handles specific errors. The optional `finally` block executes code regardless of whether an exception occurred or not, commonly used for cleanup tasks like closing files or database connections.",
+          "p": [
+            "try: Encloses code prone to errors.",
+            "except: Catches and handles specific exceptions.",
+            "finally: Executes cleanup code unconditionally."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are Django QuerySets and how do they implement lazy evaluation?",
+      "meaning": "A Django QuerySet is a collection of database queries from your model. Lazy evaluation means that creating a QuerySet doesn't hit the database until it is explicitly evaluated, optimizing performance by accumulating query modifications.",
+      "questions": [
+        {
+          "q": "What is a Django QuerySet?",
+          "a": "A QuerySet represents a collection of database queries for objects from your Django models. It allows you to filter, order, and slice data without immediately hitting the database, acting as a Pythonic interface for database operations.",
+          "p": [
+            "Collection of database queries",
+            "Derived from Django models",
+            "Allows filtering and ordering",
+            "Provides an iterable interface"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "What is lazy evaluation in Django QuerySets?",
+          "a": "Lazy evaluation means that QuerySet creation doesn't involve any database activity. You can chain filters together indefinitely, and Django will not execute the SQL query until the QuerySet is explicitly evaluated.",
+          "p": [
+            "No database hit upon creation",
+            "Allows chaining multiple filters",
+            "Delays execution for optimization",
+            "Builds up a SQL query gradually"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What actions cause a QuerySet to evaluate?",
+          "a": "A QuerySet is evaluated when it is iterated over, sliced with a step, sliced (if evaluated as a list), serialized, pickled, or when specific methods like len(), list(), or bool() are called on it.",
+          "p": [
+            "Iteration (e.g., for loop)",
+            "Slicing with a step",
+            "Calling len() or list()",
+            "Boolean evaluation (if qs:)"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between filter() and get()?",
+          "a": "The filter() method returns a new QuerySet containing objects that match the given lookup parameters (or an empty QuerySet if none match). The get() method returns a single object directly, raising a DoesNotExist exception if no match is found, or MultipleObjectsReturned if more than one match is found.",
+          "p": [
+            "filter() returns a QuerySet",
+            "get() returns a single model instance",
+            "get() raises exceptions if 0 or >1 matches",
+            "filter() never raises DoesNotExist"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between select_related() and prefetch_related().",
+      "meaning": "Understanding Django ORM query optimization techniques used to reduce database hits by resolving foreign key and many-to-many relationships efficiently.",
+      "questions": [
+        {
+          "q": "What is the main difference between select_related() and prefetch_related()?",
+          "a": "select_related() is used for single-valued relationships (ForeignKey and OneToOne) and performs a SQL JOIN to fetch the related object in a single query. prefetch_related() is used for multi-valued relationships (ManyToMany and Reverse ForeignKey) and executes a separate query for each relationship, then joins them in Python memory.",
+          "p": [
+            "select_related uses SQL JOINs.",
+            "prefetch_related uses separate queries.",
+            "Use select_related for Foreign Key.",
+            "Use prefetch_related for Many-to-Many."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Exp_0"
+        },
+        {
+          "q": "When should you use select_related() in Django?",
+          "a": "You should use select_related() when you are querying a model and need to access related objects that are a single-valued relationship, such as a ForeignKey or OneToOneField. It prevents the N+1 query problem by fetching all the required data in one single database round-trip using an SQL JOIN.",
+          "p": [
+            "Best for ForeignKey and OneToOne fields.",
+            "Executes a single SQL query with JOIN.",
+            "Reduces database hits effectively."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Exp_1"
+        },
+        {
+          "q": "When should you use prefetch_related() in Django?",
+          "a": "You should use prefetch_related() when dealing with backward ForeignKey relationships or ManyToManyField relationships. Because these involve multiple records on the other side, a SQL JOIN would duplicate data. Instead, it performs a separate lookup query for each relationship and stitches them together in Python memory.",
+          "p": [
+            "Best for ManyToMany and reverse ForeignKeys.",
+            "Executes separate queries for relationships.",
+            "Combines results in Python memory."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Exp_2"
+        },
+        {
+          "q": "What is the N+1 query problem and how do these methods solve it?",
+          "a": "The N+1 query problem occurs when your code executes 1 query to fetch the main list of objects, and then N additional queries to fetch related objects for each item. Both select_related() and prefetch_related() solve this by pre-loading the related data in advance, drastically reducing the total number of database queries.",
+          "p": [
+            "N+1 means 1 main query plus N extra queries.",
+            "Causes severe performance degradation.",
+            "Solved by pre-loading related data."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Exp_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Django ORM and what are its main advantages?",
+      "meaning": "Django ORM (Object-Relational Mapping) is a built-in tool that allows developers to interact with the database using Python objects instead of writing raw SQL queries, bridging the gap between object-oriented programming and relational databases.",
+      "questions": [
+        {
+          "q": "What is Django ORM and how does it work?",
+          "a": "Django ORM is an abstraction layer that connects your Python code to a relational database. It maps Python classes to database tables, attributes to columns, and instances to table rows. This allows developers to perform CRUD operations using native Python syntax.",
+          "p": [
+            "Maps Python classes to database tables",
+            "Converts Python objects into SQL queries",
+            "Eliminates the need for writing raw SQL",
+            "Supports multiple database backends easily"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "What are the main advantages of using Django ORM?",
+          "a": "The primary advantages include increased development speed, database independence, built-in security against SQL injection, and intuitive data manipulation using Python syntax. It allows developers to focus on business logic rather than writing complex database queries.",
+          "p": [
+            "Database agnosticism (switch SQL types easily)",
+            "Built-in protection against SQL injection",
+            "Faster development using Python objects",
+            "Easy handling of database migrations"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between save() and update() methods in Django ORM?",
+          "a": "The save() method is called on a model instance to insert a new record or update all fields of an existing record, triggering signals and clean methods. The update() method is a QuerySet method that updates specific fields directly in the database without loading objects into memory or triggering signals.",
+          "p": [
+            "save() operates on single model instances",
+            "update() operates on QuerySets in bulk",
+            "save() triggers save signals and clean methods",
+            "update() executes a single SQL query efficiently"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "What are the types of relationships supported by Django ORM?",
+          "a": "Django ORM supports three main types of database relationships using specific fields: ForeignKey for many-to-one relationships, OneToOneField for one-to-one relationships, and ManyToManyField for many-to-many relationships, making complex database schemas easy to define in Python.",
+          "p": [
+            "ForeignKey for Many-to-One",
+            "OneToOneField for One-to-One",
+            "ManyToManyField for Many-to-Many",
+            "Simplifies complex database joins"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How does Django handle URL routing and what is the role of urls.py?",
+      "meaning": "Django uses url.py files to map incoming HTTP request URLs to the appropriate view functions or class-based views using URL patterns (path and re_path).",
+      "questions": [
+        {
+          "q": "What is the role of urls.py in a Django project?",
+          "a": "The urls.py file acts as a navigation map or router for your Django application. It defines the mapping between URL path strings and their corresponding view functions. When a user requests a page, Django checks these patterns from top to bottom and routes the request to the first matching view.",
+          "p": [
+            "Acts as a router for incoming HTTP requests.",
+            "Maps URL patterns to specific view functions.",
+            "Evaluates patterns sequentially from top to bottom."
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_0"
+        },
+        {
+          "q": "What is the difference between path() and re_path() in Django?",
+          "a": "The path() function is used for standard, human-readable URL routing using simple path converters like <int:id>. The re_path() function is used for advanced URL routing using regular expressions (Regex) for complex pattern matching.",
+          "p": [
+            "path() uses simple converters like <str:> or <int:>.",
+            "re_path() uses regular expressions for complex matching.",
+            "path() is preferred for standard, readable URLs."
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_1"
+        },
+        {
+          "q": "What is the purpose of the include() function in Django URL routing?",
+          "a": "The include() function allows referencing other URLconfs (app-specific urls.py files). It promotes code reusability and modularity by letting each Django app manage its own URL patterns independently, which are then plugged into the main project-level URL configuration.",
+          "p": [
+            "Allows modular URL design per application.",
+            "References app-level urls.py from the project-level urls.py.",
+            "Promotes code organization and reusability."
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_2"
+        },
+        {
+          "q": "How do you pass parameters from a URL to a view in Django?",
+          "a": "You pass parameters using angle brackets in the path() function, specifying the data type and variable name, such as path('article/<int:year>/', views.year_archive). This variable is then automatically passed as a keyword argument to the target view function.",
+          "p": [
+            "Uses angle brackets <type:name> in the path string.",
+            "Supports types like int, slug, uuid, and str.",
+            "Passed automatically as an argument to the view."
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Django middleware and what are some common use cases?",
+      "meaning": "Django middleware is a framework of hooks into Django's request/response processing pipeline. It's a light, low-level plugin system that globally alters Django's input or output.",
+      "questions": [
+        {
+          "q": "What is Django middleware?",
+          "a": "Django middleware is a Python class that hooks into Django's request/response cycle. It acts as a set of plugins sitting between the web server and your view. Each middleware component is responsible for doing some specific function on requests or responses globally, allowing you to intercept, modify, or process them before they reach the view or after the response is generated.",
+          "p": [
+            "Processes requests and responses globally",
+            "Acts as a hook in the Django request pipeline",
+            "Executes code before views are reached",
+            "Can modify outgoing responses"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "What are some common use cases for Django middleware?",
+          "a": "Common use cases include handling user authentication, managing sessions, enforcing security headers, implementing CORS (Cross-Origin Resource Sharing), logging requests, and compressing response content. For instance, the AuthenticationMiddleware associates users with requests using sessions, while CSRF middleware protects against Cross-Site Request Forgery attacks.",
+          "p": [
+            "Authentication and session management",
+            "Security enforcement (e.g., CSRF protection)",
+            "Request logging and monitoring",
+            "CORS handling and compression"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "How does the execution flow of Django middleware work?",
+          "a": "Middleware executes in a 'onion' structure. During the request phase, Django traverses the middleware list from top to bottom, executing the code before the view is called. Once the view returns a response, the middleware executes in reverse order (bottom to top) on the way back out to the client. This allows for both pre-processing and post-processing.",
+          "p": [
+            "Top-to-bottom execution during requests",
+            "Bottom-to-top execution during responses",
+            "Resembles an onion or wrapper structure",
+            "Allows both pre-processing and post-processing"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between process_view and process_request in middleware?",
+          "a": "process_request is called on every request, just before Django decides which view to execute. It does not know which view will be called yet. In contrast, process_view is called just before Django calls the view itself, meaning it has access to the view function and its arguments, allowing you to inspect or modify view-specific logic.",
+          "p": [
+            "process_request runs before view resolution",
+            "process_view runs just before the specific view executes",
+            "process_view has access to the view function and arguments",
+            "Both modify or short-circuit the request flow"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are Django forms and what is the difference between Form and ModelForm?",
+      "meaning": "An entry-level overview of Django form handling, distinguishing between standard abstract forms and model-bound forms, alongside core Python fundamentals.",
+      "questions": [
+        {
+          "q": "What are Django forms and what is the main difference between Form and ModelForm?",
+          "a": "Django forms handle HTML form rendering, data validation, and conversion into Python types. A standard 'Form' is used for general input (like a contact us page) and requires manual field definition and saving logic. A 'ModelForm', however, is directly linked to a Django Model, automatically generating fields based on the model and providing built-in save() methods to create or update database records effortlessly.",
+          "p": [
+            "Django forms handle rendering, validation, and data cleaning.",
+            "Form: Used for generic data input without direct DB mapping.",
+            "ModelForm: Directly tied to a model for automatic DB saves.",
+            "ModelForm reduces boilerplate code by auto-generating fields."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "What are the four core OOPs principles in Python?",
+          "a": "The four core OOPs principles are Inheritance, Encapsulation, Polymorphism, and Abstraction. Inheritance allows a class to inherit attributes and methods from another class. Encapsulation restricts direct access to data using private/protected variables. Polymorphism allows different classes to use methods with the same name. Abstraction hides complex implementation details and shows only essential features using abstract base classes.",
+          "p": [
+            "Inheritance: Reusing code from parent classes.",
+            "Encapsulation: Bundling data and restricting direct access.",
+            "Polymorphism: Using a unified interface for different types.",
+            "Abstraction: Hiding internal complexity with simple interfaces."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between mutable and immutable data types in Python?",
+          "a": "Mutable objects can be modified after creation, whereas immutable objects cannot. Lists, dictionaries, and sets are mutable, meaning you can change their contents in place. Integers, floats, strings, and tuples are immutable; any modification creates a new object in memory. Understanding this is crucial for debugging reference issues, especially default argument values in functions.",
+          "p": [
+            "Mutable: Can be changed after creation (List, Dict, Set).",
+            "Immutable: Cannot be changed; updates create new objects (Int, String, Tuple).",
+            "Tuples are immutable, lists are mutable.",
+            "Affects how variables are stored and passed in memory."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "How do try, except, else, and finally work in Python exception handling?",
+          "a": "The 'try' block contains code that might raise an exception. The 'except' block catches and handles specific errors. The 'else' block runs only if the try block executes successfully without raising any exceptions. The 'finally' block executes no matter what, making it ideal for cleanup tasks like closing database connections or files, regardless of whether an error occurred.",
+          "p": [
+            "try: Code that may fail.",
+            "except: Catches and handles specific errors.",
+            "else: Runs if no exceptions occur.",
+            "finally: Always executes for cleanup."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How does Django handle database migrations and what are the key commands?",
+      "meaning": "Django migrations are built-in mechanisms to propagate changes made to models (like adding fields or deleting tables) into your database schema in a structured, version-controlled manner.",
+      "questions": [
+        {
+          "q": "What is Django migration and why do we use it?",
+          "a": "Django migrations are a way Django propagates changes you make to your models (adding a field, deleting a model, etc.) into your database schema. They are designed to be mostly automatic, but they also let you keep track of your database schema evolution in version control, ensuring consistency across different environments.",
+          "p": [
+            "Translates model changes into SQL",
+            "Tracks database schema evolution",
+            "Keeps development and production in sync"
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_0"
+        },
+        {
+          "q": "What is the difference between 'makemigrations' and 'migrate' commands?",
+          "a": "The 'makemigrations' command inspects your models.py files and generates new migration files based on any detected changes. The 'migrate' command takes those generated migration files and actually applies them to your database, executing the necessary SQL queries to update the database schema.",
+          "p": [
+            "makemigrations: creates migration files from models",
+            "migrate: applies migration files to the database",
+            "Use makemigrations first, then migrate"
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_1"
+        },
+        {
+          "q": "How can you check the current status of your database migrations?",
+          "a": "You can use the 'showmigrations' command to see a list of all apps in your project and their migration status. It will display a list of all migration files and put an 'X' next to the ones that have already been applied to the current database.",
+          "p": [
+            "Command: python manage.py showmigrations",
+            "Shows applied and unapplied migrations",
+            "Helps debug database state issues"
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_2"
+        },
+        {
+          "q": "What is the command to rollback migrations in Django?",
+          "a": "To rollback migrations, you use the 'migrate' command followed by the name of the app and the specific target migration number you want to revert to. For example, 'python manage.py migrate myapp 0001' rolls back the database schema to the state defined in migration 0001.",
+          "p": [
+            "Use 'python manage.py migrate [app_name] [target_migration]'",
+            "Can rollback to a previous state or 'zero'",
+            "Useful for undoing faulty schema changes"
+          ],
+          "level": "Easy",
+          "id": "django_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the Django Admin interface and how do you register a model?",
+      "meaning": "The Django Admin interface is a built-in ready-to-use CRUD tool generated from model definitions to manage application data, and registering a model makes it visible in this dashboard.",
+      "questions": [
+        {
+          "q": "What is the Django Admin interface?",
+          "a": "The Django Admin interface is a built-in web-based dashboard provided by Django. It reads your models.py file to automatically generate a user-friendly interface where site administrators can perform CRUD (Create, Read, Update, Delete) operations on your application data without writing custom views or templates.",
+          "p": [
+            "Built-in Django dashboard",
+            "Provides automatic CRUD operations",
+            "Saves time on backend development",
+            "Secure access via superuser accounts"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "How do you register a model in the Django Admin?",
+          "a": "To register a model, you open the 'admin.py' file of your Django app, import the model, and use the 'admin.site.register(ModelName)' function. This tells Django to include the model in the admin dashboard.",
+          "p": [
+            "Open app's admin.py file",
+            "Import your model from models.py",
+            "Call admin.site.register(ModelName)",
+            "Model appears in admin dashboard"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What is a Django Superuser and why is it needed?",
+          "a": "A superuser is a special administrative user account in Django that has all permissions enabled. It is required to log into the Django Admin interface and manage other users, permissions, and database records.",
+          "p": [
+            "Grants all administrative permissions",
+            "Required to log into Django Admin",
+            "Created using 'createsuperuser' command",
+            "Can manage standard users and data"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "How do you customize how a model is displayed in the Django Admin?",
+          "a": "You customize model display by creating a ModelAdmin class and registering it alongside your model using the '@admin.register' decorator or 'admin.site.register(Model, ModelAdmin)'. Inside this class, you can define attributes like 'list_display', 'search_fields', and 'list_filter'.",
+          "p": [
+            "Create a ModelAdmin subclass",
+            "Use 'list_display' to show specific fields",
+            "Add 'search_fields' for query capability",
+            "Register using the @admin.register decorator"
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are the common built-in data types and field types used in Django models?",
+      "meaning": "Fundamental understanding of Django model field types, common Python data types mapped to database columns, and basic OOP principles used in ORM modeling.",
+      "questions": [
+        {
+          "q": "What are the most common field types used in Django models?",
+          "a": "Django provides various field types to map model attributes to database columns. The most common ones include CharField for short strings, TextField for large blocks of text, IntegerField for whole numbers, BooleanField for true/false values, and DateField or DateTimeField for handling dates and times. Each field type corresponds to specific SQL columns and includes built-in validation.",
+          "p": [
+            "CharField is used for limited-length text strings.",
+            "IntegerField and FloatField handle numeric data.",
+            "BooleanField stores True/False values.",
+            "DateField and DateTimeField manage temporal data."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_0"
+        },
+        {
+          "q": "What is inheritance in Django models and how does it relate to OOP principles?",
+          "a": "Inheritance is an Object-Oriented Programming principle where a child class derives attributes and methods from a parent class. In Django, model inheritance allows you to reuse common fields across multiple models. Django supports three styles: Abstract base classes (for shared fields without creating a parent table), Multi-table inheritance (where each model has its own database table), and Proxy models (to modify model behavior without changing the schema).",
+          "p": [
+            "Abstract base classes share common fields without extra tables.",
+            "Multi-table inheritance creates linked tables for each model.",
+            "Proxy models change Python behavior without altering the database schema."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between null=True and blank=True in Django model fields?",
+          "a": "The difference lies between database-level and validation-level constraints. `null=True` is database-centric; it tells the database to store NULL values for that column when no value is provided. `blank=True` is validation-centric; it dictates whether the field is required in Django forms and the Django Admin. By default, both are False, meaning fields are mandatory and cannot be empty.",
+          "p": [
+            "null=True allows database columns to store NULL.",
+            "blank=True allows form inputs to be left empty.",
+            "Both default to False for strict data integrity."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_2"
+        },
+        {
+          "q": "What are common built-in exceptions in Django and Python?",
+          "a": "Exceptions handle runtime errors gracefully. In Django, common exceptions include `ObjectDoesNotExist` (raised when a query returns no results) and `ValidationError` (raised when field validation fails). In Python, common exceptions include `ValueError` (invalid argument type), `TypeError` (unsupported operation for a data type), and `KeyError` (missing dictionary key). Using try-except blocks with these helps prevent application crashes.",
+          "p": [
+            "ObjectDoesNotExist handles missing database records.",
+            "ValidationError manages invalid data inputs.",
+            "Python core exceptions include ValueError, TypeError, and KeyError."
+          ],
+          "level": "Easy",
+          "id": "django_easy_Wha_3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_15",
+  "topicName": "What is the purpose of application.properties or application.yml file?",
+  "order": 15,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of application.properties or application.yml file?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The application.properties or application.yml file in Spring Boot is used to configure the application. It allows you to define settings such as database connections, server ports, logging levels, and other application-specific properties. Spring Boot automatically loads these files and applies the configurations during startup.\"}]"
+}

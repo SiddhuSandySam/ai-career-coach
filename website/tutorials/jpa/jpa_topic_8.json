@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_8",
+  "topicName": "JPA Lifecycle Events and Annotations",
+  "order": 8,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"JPA Lifecycle Events and Annotations\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Understanding JPA lifecycle events and using annotations like @PrePersist, @PostPersist, @PreUpdate, @PostUpdate, @PreRemove, and @PostRemove to execute custom logic at specific points in an entity's lifecycle (creation, update, deletion).\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_15",
+  "topicName": "Explain the concept of caching in JPA. What are the different levels of caching?",
+  "order": 15,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the concept of caching in JPA. What are the different levels of caching?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Caching in JPA is a mechanism to improve application performance by storing frequently accessed data in memory. This reduces the number of database hits, leading to faster retrieval times. JPA defines two levels of caching: first-level cache (persistence context) and second-level cache (shared cache).\"}]"
+}

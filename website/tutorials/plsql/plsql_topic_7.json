@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_7",
+  "topicName": "What are PL/SQL exceptions and how are they handled?",
+  "order": 7,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are PL/SQL exceptions and how are they handled?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL exceptions are errors that occur during the execution of a PL/SQL block. Exception handling involves catching these errors and taking appropriate actions to prevent the program from crashing and ensuring data integrity.\"}]"
+}

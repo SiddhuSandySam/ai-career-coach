@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_17",
+  "topicName": "What are Spring Boot Actuators?",
+  "order": 17,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are Spring Boot Actuators?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Spring Boot Actuators provide endpoints to monitor and manage your application. They expose operational information like health, metrics, info, dump, env, etc., using HTTP endpoints or JMX.\"}]"
+}

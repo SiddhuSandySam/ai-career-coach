@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_17",
+  "topicName": "How do you compare two strings for equality?",
+  "order": 17,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you compare two strings for equality?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Comparing strings involves checking if two strings have the same sequence of characters.  Different methods exist, each with specific use cases, especially when considering case sensitivity and object identity.\"}]"
+}

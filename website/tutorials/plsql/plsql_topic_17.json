@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_17",
+  "topicName": "Explain the use of the `COMMIT` and `ROLLBACK` statements in PL/SQL.",
+  "order": 17,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the use of the `COMMIT` and `ROLLBACK` statements in PL/SQL.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"COMMIT and ROLLBACK are transaction control statements in PL/SQL. COMMIT saves all changes made during the current transaction to the database. ROLLBACK undoes all changes made during the current transaction, reverting the database to its previous state.\"}]"
+}

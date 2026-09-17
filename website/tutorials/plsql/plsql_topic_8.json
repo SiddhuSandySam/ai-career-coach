@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_8",
+  "topicName": "What are the different types of exceptions in PL/SQL?",
+  "order": 8,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the different types of exceptions in PL/SQL?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL exceptions handle runtime errors. They can be predefined (system-defined), user-defined, or raised explicitly.\"}]"
+}

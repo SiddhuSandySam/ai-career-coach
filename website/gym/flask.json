@@ -1,0 +1,568 @@
+{
+  "skillId": "flask",
+  "skillName": "Flask",
+  "questionCount": 44,
+  "concepts": [
+    {
+      "conceptName": "What is Flask and what are its core features?",
+      "meaning": "Flask is a lightweight WSGI web micro-framework in Python designed to get started quickly with building web applications, featuring a built-in development server, fast debugger, and integrated unit testing support.",
+      "questions": [
+        {
+          "q": "What is Flask and why is it called a micro-framework?",
+          "a": "Flask is a lightweight Python web framework classified as a 'micro-framework' because it does not require particular tools or libraries. It keeps the core simple yet extensible, giving developers the freedom to choose their preferred databases, form validation libraries, and tools without enforcing a specific project structure.",
+          "p": [
+            "Lightweight Python web framework",
+            "No rigid project layout required",
+            "Highly extensible architecture"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_0"
+        },
+        {
+          "q": "What are the core features of Flask?",
+          "a": "Flask's core features include a built-in development server and fast debugger, integrated support for unit testing, RESTful request dispatching, Jinja2 templating, and secure cookie support. It relies on Werkzeug for WSGI toolkit functionality and uses blueprints for organizing application components.",
+          "p": [
+            "Built-in development server and debugger",
+            "Jinja2 template engine integration",
+            "Werkzeug WSGI toolkit foundation",
+            "Support for Blueprints to organize code"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between Flask and Django.",
+          "a": "Flask is a micro-framework that provides minimal tools, allowing developers to pick their own libraries and architecture. Django is a 'batteries-included' framework that comes with a built-in ORM, admin panel, authentication system, and strict project structure, making Flask better for small apps and APIs, and Django better for large monolithic applications.",
+          "p": [
+            "Flask is minimal; Django is all-inclusive",
+            "Flask lets you choose components; Django provides them",
+            "Flask is ideal for microservices and APIs"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_2"
+        },
+        {
+          "q": "What is routing in Flask?",
+          "a": "Routing in Flask refers to binding a URL to a specific Python function using the '@app.route()' decorator. This tells the application what URL should trigger our function and handles incoming HTTP requests, mapping them to the corresponding view function which returns a response.",
+          "p": [
+            "Uses the @app.route() decorator",
+            "Maps URLs to Python functions",
+            "Handles incoming HTTP requests easily"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How do you define routes and view functions in Flask?",
+      "meaning": "Flask uses decorators to bind URLs to specific Python functions, known as view functions, which handle requests and return responses.",
+      "questions": [
+        {
+          "q": "What is a route in Flask and how do you define it?",
+          "a": "A route in Flask maps a URL pattern to a Python function using the `@app.route()` decorator. When a user visits that URL, Flask executes the decorated function—called a view function—and sends its return value back to the browser as the HTTP response.",
+          "p": [
+            "Use @app.route('/path') decorator above a function",
+            "The function immediately below is the view function",
+            "The function return value is sent to the client browser"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_0"
+        },
+        {
+          "q": "What is the difference between a route and a view function?",
+          "a": "A route is the URL endpoint (like '/about') defined by the `@app.route` decorator, while the view function is the actual Python function that executes the logic and generates the response when that URL is accessed.",
+          "p": [
+            "Route = URL endpoint pattern",
+            "View function = Python code that runs for that URL",
+            "Route connects the URL to the view function"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_1"
+        },
+        {
+          "q": "How do you pass variables in Flask routes?",
+          "a": "You pass variables in Flask routes by enclosing variable names in angle brackets '<variable_name>' inside the route decorator string. This variable is then passed as an argument to the corresponding view function.",
+          "p": [
+            "Use angle brackets like /user/<username>",
+            "Variable name in route must match function parameter",
+            "Flask automatically passes the value to the function"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_2"
+        },
+        {
+          "q": "What data types can be passed in Flask route parameters and how do you specify them?",
+          "a": "Flask routes support string (default), int, float, path, and uuid data types. You specify them in the route decorator using the syntax '<converter:variable_name>', which ensures the URL parameter is converted to the correct Python type before reaching the view function.",
+          "p": [
+            "Default type is string",
+            "Syntax is <converter:name> like <int:id>",
+            "Supports int, float, path, and uuid"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the difference between request.args and request.form in Flask?",
+      "meaning": "Understanding how Flask handles incoming HTTP request data using request.args for query parameters and request.form for form-encoded body data.",
+      "questions": [
+        {
+          "q": "What is the difference between request.args and request.form in Flask?",
+          "a": "In Flask, request.args is used to access URL query parameters (sent via GET method, visible in the URL), while request.form is used to access form data submitted in the request body (sent via POST method, hidden from the URL). Both return ImmutableMultiDict objects.",
+          "p": [
+            "request.args handles URL query strings (GET).",
+            "request.form handles HTTP POST body data.",
+            "Both return ImmutableMultiDict structures."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_0"
+        },
+        {
+          "q": "What are the four main Object-Oriented Programming principles used in Python?",
+          "a": "The four fundamental OOP principles are Encapsulation (bundling data and methods), Inheritance (reusing parent class code), Polymorphism (using a unified interface for different data types), and Abstraction (hiding complex implementation details behind a simple interface).",
+          "p": [
+            "Encapsulation: Bundling data and methods together.",
+            "Inheritance: Reusing code from parent classes.",
+            "Polymorphism: Same interface for different types.",
+            "Abstraction: Hiding complex implementation details."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between the 'is' keyword and the '==' operator in Python?",
+          "a": "The '==' operator checks for value equality, determining if the values of two objects are the same. In contrast, the 'is' keyword checks for object identity, determining if two variables point to the exact same object in memory.",
+          "p": [
+            "== checks if values are equal.",
+            "is checks if memory references are identical.",
+            "Use 'is' mainly for comparing to None."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_2"
+        },
+        {
+          "q": "How do you handle exceptions in Python using try and except?",
+          "a": "Exception handling in Python is done using try, except, else, and finally blocks. Code that might raise an error is placed in the try block. If an error occurs, execution jumps to the matching except block to handle the exception gracefully without crashing the program.",
+          "p": [
+            "Put risky code inside the 'try' block.",
+            "Catch specific errors using 'except ErrorType'.",
+            "Use 'finally' for cleanup tasks that must always run."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How do you handle redirects and errors in Flask applications?",
+      "meaning": "Managing URL redirection and custom error responses in Flask using built-in helper functions and error handlers.",
+      "questions": [
+        {
+          "q": "What is the redirect() function used for in Flask?",
+          "a": "The `redirect()` function is used to route users from one URL to another. It takes a destination URL as an argument and returns a response object with a standard HTTP status code (defaulting to 302, temporary redirect). It is typically combined with `url_for()` to safely redirect users to specific view functions rather than hardcoding paths.",
+          "p": [
+            "Returns an HTTP redirect response",
+            "Defaults to a 302 status code",
+            "Best used with url_for() for safety"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_0"
+        },
+        {
+          "q": "How do you handle custom error pages like 404 in Flask?",
+          "a": "You handle custom error pages using the `@app.errorhandler()` decorator. You pass the HTTP status code (such as 404 for Not Found or 500 for Internal Server Error) to the decorator and return a rendered template along with the specific status code integer from the view function.",
+          "p": [
+            "Uses the @app.errorhandler() decorator",
+            "Passes the HTTP status code as an argument",
+            "Returns the error template and status code"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_1"
+        },
+        {
+          "q": "What is the difference between abort() and redirect()?",
+          "a": "`redirect()` is used to send a user to a different valid URL with a 3xx status code. In contrast, `abort()` is used to immediately stop request processing and return an HTTP error code (like 401 Unauthorized or 404 Not Found), triggering the corresponding error handler.",
+          "p": [
+            "redirect() sends users to a new URL",
+            "abort() stops execution and triggers an error",
+            "redirect uses 3xx, abort uses 4xx/5xx status codes"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_2"
+        },
+        {
+          "q": "What is the purpose of the url_for() function?",
+          "a": "The `url_for()` function generates a URL for a specific view function by taking the function name as its first argument. This is crucial because it abstracts hardcoded URLs, ensuring that if route patterns change in your code, your redirects and links will not break.",
+          "p": [
+            "Generates URLs based on function names",
+            "Prevents broken links when routes change",
+            "Accepts dynamic route variables as keyword arguments"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the application and request context in Flask?",
+      "meaning": "Flask uses proxy objects (g, request, session, current_app) that are locally bound to specific threads or greenlets during execution. The application context tracks application-level data, while the request context tracks HTTP request-specific data.",
+      "questions": [
+        {
+          "q": "What is the difference between the application context and the request context in Flask?",
+          "a": "The application context (current_app, g) manages application-level data independent of any specific request, such as database connections and configuration settings. The request context (request, session) handles HTTP-specific data generated during a client request, including form data, query parameters, and cookies. While request context is automatically pushed during an HTTP request, application context is often pushed automatically or manually when running background tasks or CLI commands.",
+          "p": [
+            "App context manages global data like configurations and DB connections.",
+            "Request context manages HTTP-specific data like form inputs and headers.",
+            "Both are thread-local proxy objects managed automatically by Flask."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_0"
+        },
+        {
+          "q": "What is the purpose of the 'request' object in Flask?",
+          "a": "The 'request' object is a proxy that encapsulates all HTTP request data sent by the client to the server. It allows developers to access incoming data such as form submissions, query string arguments, uploaded files, JSON payloads, and HTTP headers. It is only available when a request context is active.",
+          "p": [
+            "Encapsulates incoming HTTP request data from the client.",
+            "Provides access to form data, JSON payloads, and query parameters.",
+            "Only accessible inside an active request context."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_1"
+        },
+        {
+          "q": "What is the purpose of the 'current_app' proxy?",
+          "a": "The 'current_app' is a proxy pointing to the application instance handling the current request. It allows developers to access the application's configuration, logger, and extensions without needing to explicitly import the main application instance, preventing circular import issues in larger applications.",
+          "p": [
+            "Points to the Flask application instance handling the current request.",
+            "Avoids circular imports by not requiring direct application imports.",
+            "Used to access app configuration, logger, and registered extensions."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_2"
+        },
+        {
+          "q": "What is the 'g' object used for in Flask?",
+          "a": "The 'g' object (global) is a namespace provided by Flask to store data that needs to be shared across functions during a single application or request lifecycle. It is commonly used in before-request handlers to store the currently authenticated user or database connection, and it is automatically reset at the end of each request.",
+          "p": [
+            "Acts as a temporary storage container for a single request lifecycle.",
+            "Commonly used to store current user data or database connections.",
+            "Automatically wiped clean at the end of every request."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How do you render templates and pass data using Jinja2 in Flask?",
+      "meaning": "The process of generating dynamic HTML responses by combining HTML files with Python data structures using the Jinja2 templating engine within a Flask application.",
+      "questions": [
+        {
+          "q": "What function do you use to render an HTML template in Flask?",
+          "a": "You use the render_template function, which is imported from the flask module. This function looks for HTML files inside a folder named 'templates' in your application directory and converts them into HTTP responses.",
+          "p": [
+            "Import render_template from flask",
+            "Place HTML files in the 'templates' folder",
+            "Call render_template('filename.html') inside your route"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_0"
+        },
+        {
+          "q": "How do you pass data from a Flask route to a Jinja2 template?",
+          "a": "You pass data as keyword arguments inside the render_template function. For example, render_template('index.html', username=name) makes the 'username' variable accessible inside the HTML template.",
+          "p": [
+            "Pass variables as keyword arguments in render_template",
+            "Use variable names on the left side of the equals sign",
+            "Access variables in HTML using double curly braces like {{ username }}"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_1"
+        },
+        {
+          "q": "What syntax is used in Jinja2 to display variables and execute control structures?",
+          "a": "Jinja2 uses specific delimiters for different tasks: double curly braces {{ variable }} are used to print or evaluate variables, and curly-brace percent signs {% if condition %} are used for control structures like loops and conditionals.",
+          "p": [
+            "{{ ... }} for outputting variables",
+            "{% ... %} for control flow (loops, ifs)",
+            "{# ... #} for template comments"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_2"
+        },
+        {
+          "q": "How do you loop through a list of items inside a Jinja2 template?",
+          "a": "You use the Jinja2 for-loop syntax, which looks like {% for item in items %} followed by the HTML to display, and ended with {% endfor %}. This allows you to dynamically generate lists or tables from Python data.",
+          "p": [
+            "Start loop with {% for item in list_name %}",
+            "Render HTML for each iteration",
+            "End loop with {% endfor %}"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are Flask blueprints and why are they used?",
+      "meaning": "Flask blueprints are objects that enable you to organize a Flask application into distinct components and reusable modules, facilitating better structure and scalability for growing web applications.",
+      "questions": [
+        {
+          "q": "What is a Flask blueprint?",
+          "a": "A Flask blueprint is a design pattern used to organize a group of related views and other code (like static files or templates). Instead of registering all routes on a single main application instance, blueprints allow you to group them by feature or module, making the codebase modular and maintainable.",
+          "p": [
+            "Organizes application into modules",
+            "Groups related routes and views",
+            "Improves code maintainability"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_0"
+        },
+        {
+          "q": "Why are blueprints used in Flask?",
+          "a": "Blueprints are used to avoid monolithic application structures where all code resides in a single file. They enable code reusability across different projects, allow team members to work on separate modules simultaneously without conflicts, and simplify the routing structure by adding URL prefixes.",
+          "p": [
+            "Prevents monolithic single-file apps",
+            "Enables code reusability",
+            "Facilitates team collaboration",
+            "Supports URL prefixing"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_1"
+        },
+        {
+          "q": "How do you register a blueprint in a Flask application?",
+          "a": "You register a blueprint by importing the blueprint instance from your module and calling the `app.register_blueprint()` method on your main Flask application object. You can also optionally pass a `url_prefix` parameter to namespace all routes defined within that blueprint.",
+          "p": [
+            "Import blueprint instance",
+            "Call app.register_blueprint()",
+            "Optionally use url_prefix"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between a Flask application and a blueprint?",
+          "a": "A Flask application is the central registry and core object that handles configuration and runs the server. A blueprint, on the other hand, is a blueprint for application components; it records operations to be executed when registered on the main application, but it cannot run independently.",
+          "p": [
+            "App is the central registry",
+            "Blueprint is a modular component",
+            "Blueprints cannot run independently"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How do you handle database integration in Flask using extensions like Flask-SQLAlchemy?",
+      "meaning": "Integration of relational databases in Flask applications using Flask-SQLAlchemy, an extension that simplifies database operations via Object-Relational Mapping (ORM).",
+      "questions": [
+        {
+          "q": "What is Flask-SQLAlchemy and why is it used in Flask applications?",
+          "a": "Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy, a powerful Object-Relational Mapper (ORM). It simplifies database integration by allowing developers to interact with databases using Python classes and objects instead of writing raw SQL queries. It manages the database connection lifecycle, provides easy session management, and supports multiple database backends like SQLite, PostgreSQL, and MySQL seamlessly.",
+          "p": [
+            "Wraps SQLAlchemy for Flask",
+            "Uses ORM to map Python classes to tables",
+            "Simplifies database connection management",
+            "Supports multiple database backends"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_0"
+        },
+        {
+          "q": "How do you define a database model using Flask-SQLAlchemy?",
+          "a": "To define a database model, you create a Python class that inherits from 'db.Model'. You specify table columns as class attributes using 'db.Column' along with data types such as 'db.Integer', 'db.String', or 'db.Boolean'. A primary key is typically defined using 'primary_key=True'. Flask-SQLAlchemy automatically maps the class name to a lowercased table name unless explicitly overridden with '__tablename__'.",
+          "p": [
+            "Inherit class from db.Model",
+            "Define columns using db.Column",
+            "Specify data types and constraints",
+            "Always define at least one primary key"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_1"
+        },
+        {
+          "q": "How do you perform basic CRUD operations using Flask-SQLAlchemy?",
+          "a": "CRUD operations are handled through the database session object ('db.session'). For Create, you instantiate your model, add it to the session with 'db.session.add(obj)', and commit using 'db.session.commit()'. For Read, you query using methods like 'Model.query.all()' or 'Model.query.get()'. For Update, you modify the attributes of a queried object and commit. For Delete, you remove the object using 'db.session.delete(obj)' and commit.",
+          "p": [
+            "Use db.session.add() and commit() for inserts",
+            "Use Model.query for retrieving data",
+            "Modify attributes and commit for updates",
+            "Use db.session.delete() and commit() for deletions"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_2"
+        },
+        {
+          "q": "What is the role of Flask-Migrate in database management?",
+          "a": "Flask-Migrate is an extension that integrates Alembic with Flask-SQLAlchemy to handle database migrations. As your application evolves, your database schema often needs to change (e.g., adding a new column). Flask-Migrate tracks these changes and generates migration scripts, allowing you to upgrade or downgrade your database schema safely without losing existing data.",
+          "p": [
+            "Integrates Alembic for Flask",
+            "Tracks database schema changes",
+            "Generates migration scripts automatically",
+            "Allows safe database upgrades and downgrades"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the purpose of Flask-WTF for form handling and validation?",
+      "meaning": "Flask-Wtf is an extension for Flask that integrates WTForms, providing secure form handling, CSRF protection, and robust input validation in Python web applications.",
+      "questions": [
+        {
+          "q": "What is the purpose of Flask-WTF?",
+          "a": "Flask-WTF integrates Flask with WTForms to simplify web form rendering, data validation, and CSRF (Cross-Site Request Forgery) protection. It allows developers to define forms as Python classes, keeping HTML templates clean and ensuring that user input is securely validated on the server side before processing.",
+          "p": [
+            "Integrates WTForms with Flask",
+            "Provides built-in CSRF protection",
+            "Handles server-side data validation",
+            "Simplifies HTML form rendering"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_0"
+        },
+        {
+          "q": "What are the four main OOPs principles?",
+          "a": "Object-Oriented Programming is built on four core pillars: Inheritance, Polymorphism, Encapsulation, and Abstraction. Inheritance allows a class to adopt properties of another. Polymorphism lets different classes use the same interface. Encapsulation restricts direct access to data. Abstraction hides complex implementation details and shows only essential features.",
+          "p": [
+            "Inheritance: Reuse code across classes",
+            "Polymorphism: Same interface, different behavior",
+            "Encapsulation: Restrict and bundle data",
+            "Abstraction: Hide complexity"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_1"
+        },
+        {
+          "q": "What are the basic built-in data types in Python?",
+          "a": "Python has several standard built-in data types used to store information. Numeric types include int, float, and complex. Sequence types include str, list, and tuple. Mapping types are represented by dict. Set types include set and frozenset. Boolean values are represented by bool (True or False), and NoneType represents the absence of a value.",
+          "p": [
+            "Numeric: int, float",
+            "Sequence: str, list, tuple",
+            "Mapping: dict",
+            "Boolean and Null: bool, NoneType"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_2"
+        },
+        {
+          "q": "How does exception handling work using try and except?",
+          "a": "Exception handling in Python is used to catch and manage runtime errors without crashing the program. Code that might trigger an error is placed inside the 'try' block. If an exception occurs, execution jumps to the corresponding 'except' block where the error is handled gracefully. An optional 'finally' block executes regardless of whether an exception occurred.",
+          "p": [
+            "Place risky code in 'try'",
+            "Catch errors in 'except'",
+            "Prevent application crashes",
+            "Use 'finally' for cleanup"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How do you manage configuration settings and environment variables in Flask?",
+      "meaning": "Managing application settings, secrets, and environment-specific parameters securely and efficiently in a Flask application.",
+      "questions": [
+        {
+          "q": "What is the primary object used to handle configuration settings in Flask?",
+          "a": "Flask uses the `app.config` dictionary object, which is a subclass of Python's standard dictionary. It allows you to store and retrieve configuration values easily using key-value pairs. You can update it directly, load settings from Python files, or populate it using environment variables.",
+          "p": [
+            "Inherits from a standard Python dictionary.",
+            "Accessed via the app.config attribute.",
+            "Stores keys in uppercase by convention."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_0"
+        },
+        {
+          "q": "Explain the difference between loading configuration from a Python file versus environment variables.",
+          "a": "Loading from a Python file (using `app.config.from_pyfile()`) is great for grouping static, non-sensitive default settings like database pagination limits. In contrast, loading from environment variables (using `os.environ`) is essential for securing sensitive data like API keys, database passwords, and toggling debug modes across different deployment stages.",
+          "p": [
+            "Python files hold static and default settings.",
+            "Environment variables secure sensitive credentials.",
+            "Environment variables allow seamless deployment changes."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_1"
+        },
+        {
+          "q": "What is the purpose of the python-dotenv library in a Flask application?",
+          "a": "The `python-dotenv` library is used to automatically load environment variables from a `.env` file into the application's environment (`os.environ`). This prevents hardcoding sensitive credentials in your source code and makes local development much easier by avoiding manual environment variable exports.",
+          "p": [
+            "Loads variables from a local .env file.",
+            "Keeps secrets out of source control.",
+            "Integrates directly with Flask startup."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_2"
+        },
+        {
+          "q": "What are the common built-in configuration variables used in Flask?",
+          "a": "Flask comes with several built-in configuration keys that alter the framework's behavior. Common ones include `DEBUG` (enables the interactive debugger), `TESTING` (enables testing mode and disables error catching), and `SECRET_KEY` (required to securely sign sessions and protect against CSRF).",
+          "p": [
+            "DEBUG enables development mode and auto-reload.",
+            "TESTING disables error catching for tests.",
+            "SECRET_KEY secures sessions and cookies."
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "How do you implement user authentication and session management in Flask?",
+      "meaning": "Technical summary of How do you implement user authentication and session management in Flask?",
+      "questions": [
+        {
+          "q": "What is Flask-Login and how does it manage user sessions?",
+          "a": "Flask-Login is an extension that provides user session management for Flask. It handles logging users in and out, and restricting views to logged-in users. It stores the active user's ID in the Flask session object, allowing you to easily load the current user using the @login_required decorator and current_user proxy.",
+          "p": [
+            "Manages user session states automatically",
+            "Provides the current_user global proxy",
+            "Uses @login_required to protect routes"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_0"
+        },
+        {
+          "q": "How do you securely store user passwords in a Flask application?",
+          "a": "You should never store plaintext passwords. Instead, use a hashing library like Werkzeug.security or bcrypt. Functions like generate_password_hash create a secure one-way hash with a salt, and check_password_hash safely verifies the password during the login process without exposing the original string.",
+          "p": [
+            "Never save plaintext passwords in the database",
+            "Use generate_password_hash for hashing",
+            "Use check_password_hash for verification"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_1"
+        },
+        {
+          "q": "What is the difference between Flask's session object and server-side sessions?",
+          "a": "Flask's default session uses signed cookies, meaning session data is stored client-side in the user's browser, secured cryptographically by the SECRET_KEY. In contrast, server-side sessions store data on the server (like in a database or Redis), and only a session ID token is sent to the client.",
+          "p": [
+            "Default Flask sessions are client-side signed cookies",
+            "Server-side sessions store data in databases or cache",
+            "Secret key is required to sign client-side cookies securely"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_2"
+        },
+        {
+          "q": "How do you restrict access to specific routes for unauthenticated users in Flask?",
+          "a": "You restrict route access by using the @login_required decorator provided by Flask-Login on top of your view functions. If an unauthenticated user tries to access a protected route, Flask-Login automatically redirects them to the designated login page defined in the login manager configuration.",
+          "p": [
+            "Apply @login_required decorator to routes",
+            "Unauthenticated users get redirected automatically",
+            "Requires configuring the login_view in Flask-Login"
+          ],
+          "level": "Easy",
+          "id": "flask_easy_How_3"
+        }
+      ]
+    }
+  ]
+}

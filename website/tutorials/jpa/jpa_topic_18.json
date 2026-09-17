@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_18",
+  "topicName": "What are the advantages of using JPA over JDBC?",
+  "order": 18,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the advantages of using JPA over JDBC?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"JPA (Java Persistence API) simplifies database interactions in Java applications by providing an abstraction layer over JDBC. It reduces boilerplate code, improves maintainability, and offers object-relational mapping (ORM) capabilities.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_1",
+  "topicName": "What is PL/SQL and what are its key features?",
+  "order": 1,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is PL/SQL and what are its key features?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL (Procedural Language/SQL) is Oracle's procedural extension to SQL. It combines SQL data manipulation with procedural programming constructs. Key features include block structure, exception handling, stored procedures, triggers, and support for object-oriented programming.\"}]"
+}

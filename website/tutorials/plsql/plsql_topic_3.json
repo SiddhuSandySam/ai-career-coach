@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_3",
+  "topicName": "What are the different data types available in PL/SQL?",
+  "order": 3,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the different data types available in PL/SQL?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL offers a variety of data types to store different kinds of values. These data types can be broadly classified into scalar, composite, reference, and LOB (Large Object) types. Understanding these data types is crucial for efficient data storage and manipulation within PL/SQL programs.\"}]"
+}

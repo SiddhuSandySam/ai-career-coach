@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_17",
+  "topicName": "How do you configure a data source for JPA?",
+  "order": 17,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you configure a data source for JPA?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Configuring a data source for JPA involves specifying the database connection details so that the application can interact with the database using JPA. This typically involves defining properties such as the database URL, username, password, and driver class name.\"}]"
+}

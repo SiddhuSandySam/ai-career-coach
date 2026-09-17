@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_5",
+  "topicName": "What is Encapsulation, and why is it important?",
+  "order": 5,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is Encapsulation, and why is it important?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Encapsulation is one of the fundamental principles of object-oriented programming (OOP). It describes the idea of bundling data (attributes) and methods that operate on that data within a single unit, or 'class', and restricting direct access to some of the object's components. This is often achieved using access modifiers like 'private', 'protected', and 'public'. Encapsulation helps in data hiding, code modularity, and preventing unintended modifications to the object's state, leading to more robust and maintainable code.\"}]"
+}

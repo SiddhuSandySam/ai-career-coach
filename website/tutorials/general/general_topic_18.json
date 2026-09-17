@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_18",
+  "topicName": "What are the different ways to create a String object?",
+  "order": 18,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the different ways to create a String object?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Explains the common methods for creating String objects in Java, focusing on literal assignment and using the 'new' keyword.\"}]"
+}

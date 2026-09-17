@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_16",
+  "topicName": "How do you create a custom auto-configuration in Spring Boot?",
+  "order": 16,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you create a custom auto-configuration in Spring Boot?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Creating a custom auto-configuration in Spring Boot involves defining a configuration class that Spring Boot automatically applies based on certain conditions. This allows you to configure beans and settings for your application without requiring manual configuration in the main application context.\"}]"
+}

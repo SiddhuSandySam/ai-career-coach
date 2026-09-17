@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_12",
+  "topicName": "What are the different isolation levels in JPA transactions?",
+  "order": 12,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the different isolation levels in JPA transactions?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Isolation levels control the degree to which transactions are isolated from each other's modifications. Higher isolation levels reduce concurrency but prevent certain data inconsistencies.\"}]"
+}

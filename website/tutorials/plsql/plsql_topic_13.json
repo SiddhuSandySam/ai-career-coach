@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_13",
+  "topicName": "Explain the concept of triggers in PL/SQL and their different types.",
+  "order": 13,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the concept of triggers in PL/SQL and their different types.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL triggers are blocks of code that automatically execute in response to specific events on a database table or view. They are used to enforce business rules, audit data changes, or perform other actions automatically. Triggers can be defined to fire before or after events like INSERT, UPDATE, or DELETE.\"}]"
+}

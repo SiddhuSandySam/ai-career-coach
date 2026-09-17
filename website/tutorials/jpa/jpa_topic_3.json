@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_3",
+  "topicName": "What are the main components of the JPA architecture?",
+  "order": 3,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the main components of the JPA architecture?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The Java Persistence API (JPA) architecture defines a standard way to map Java objects to relational database tables and manage persistence. Key components include the EntityManager, EntityManagerFactory, Persistence Unit, and JPA provider.\"}]"
+}

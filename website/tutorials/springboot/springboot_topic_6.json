@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_6",
+  "topicName": "What is a Spring Bean?",
+  "order": 6,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is a Spring Bean?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"A Spring Bean is an object that is managed by the Spring IoC (Inversion of Control) container. The container is responsible for instantiating, configuring, and assembling the dependencies of the bean. Beans are the building blocks of a Spring application.\"}]"
+}

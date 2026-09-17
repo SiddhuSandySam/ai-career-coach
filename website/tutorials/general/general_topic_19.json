@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_19",
+  "topicName": "What is the difference between == and .equals() method?",
+  "order": 19,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the difference between == and .equals() method?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Explains the difference between the equality operator (==) and the .equals() method in Java, focusing on object comparison.\"}]"
+}

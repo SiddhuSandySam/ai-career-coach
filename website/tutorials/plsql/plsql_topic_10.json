@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_10",
+  "topicName": "How do you create and use functions in PL/SQL?",
+  "order": 10,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you create and use functions in PL/SQL?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL functions are subprograms that perform a specific task and return a value. They are used to encapsulate reusable logic, improve code readability, and simplify complex operations within SQL statements or other PL/SQL blocks.\"}]"
+}

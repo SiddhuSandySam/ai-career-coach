@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_3",
+  "topicName": "What is Polymorphism? Provide a simple example.",
+  "order": 3,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is Polymorphism? Provide a simple example.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Polymorphism allows objects of different classes to respond to the same method call in their own specific way. It enables writing code that can work with objects of various types without needing to know their exact class.\"}]"
+}

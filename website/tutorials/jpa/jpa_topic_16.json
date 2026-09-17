@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_16",
+  "topicName": "What is the purpose of the 'persistence.xml' file in JPA?",
+  "order": 16,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of the 'persistence.xml' file in JPA?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The persistence.xml file is a configuration file in Java Persistence API (JPA) that defines persistence units. It specifies the data source, entity classes, and other properties needed to manage the persistence of data in a relational database.\"}]"
+}

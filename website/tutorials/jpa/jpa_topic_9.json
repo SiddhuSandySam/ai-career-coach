@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_9",
+  "topicName": "What is JPQL (Java Persistence Query Language)? How does it differ from SQL?",
+  "order": 9,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is JPQL (Java Persistence Query Language)? How does it differ from SQL?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"JPQL is an object-oriented query language used to make queries against entities stored in a relational database. Unlike SQL, which operates on tables and columns, JPQL operates on Java objects and their properties. This provides a level of abstraction, making queries more portable across different database systems.\"}]"
+}

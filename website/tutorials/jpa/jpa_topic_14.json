@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_14",
+  "topicName": "What are some common JPA performance optimization techniques?",
+  "order": 14,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are some common JPA performance optimization techniques?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"JPA performance optimization involves strategies to improve the speed and efficiency of data access in Java applications using the Java Persistence API (JPA).\"}]"
+}

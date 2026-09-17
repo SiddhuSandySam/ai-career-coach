@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_4",
+  "topicName": "What is an entity in JPA? How do you define an entity class?",
+  "order": 4,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is an entity in JPA? How do you define an entity class?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"In JPA, an entity represents a table in a relational database. An entity class is a Java class that maps to this table. Each instance of an entity class corresponds to a row in the table.  Entities are managed by the JPA provider (like Hibernate) and are used to persist data to the database.\"}]"
+}

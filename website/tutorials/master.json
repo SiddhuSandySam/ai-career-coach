@@ -7333,6 +7333,496 @@
           "order": 28
         }
       ]
+    },
+    {
+      "moduleId": "rest_apis",
+      "moduleName": "REST APIs",
+      "order": 29,
+      "description": "Master REST APIs from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "REST-001",
+          "topicName": "REST Architectural Constraints (HATEOAS, Statelessness, Cacheability)",
+          "order": 1
+        },
+        {
+          "topicId": "REST-002",
+          "topicName": "HTTP Methods & Semantics (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD)",
+          "order": 2
+        },
+        {
+          "topicId": "REST-003",
+          "topicName": "URI Design & Naming Conventions (Pluralization, Hierarchies, Query Parameters)",
+          "order": 3
+        },
+        {
+          "topicId": "REST-004",
+          "topicName": "Idempotency and Safe Methods in Distributed Systems",
+          "order": 4
+        },
+        {
+          "topicId": "REST-005",
+          "topicName": "Payload Design & Serialization (JSON, XML, Protocol Buffers over HTTP)",
+          "order": 5
+        },
+        {
+          "topicId": "REST-006",
+          "topicName": "Versioning Strategies (URI, Header, Content Negotiation)",
+          "order": 6
+        },
+        {
+          "topicId": "REST-007",
+          "topicName": "HTTP Status Codes Deep Dive (2xx, 3xx, 4xx, 5xx best practices)",
+          "order": 7
+        },
+        {
+          "topicId": "REST-008",
+          "topicName": "Standardized Error Payloads (RFC 7807 Problem Details for HTTP APIs)",
+          "order": 8
+        },
+        {
+          "topicId": "REST-009",
+          "topicName": "Authentication & Authorization (OAuth 2.0, OpenID Connect, JWT, API Keys)",
+          "order": 9
+        },
+        {
+          "topicId": "REST-010",
+          "topicName": "Transport Security & Threat Mitigation (TLS, CORS, CSRF, XSS, Rate Limiting)",
+          "order": 10
+        },
+        {
+          "topicId": "REST-011",
+          "topicName": "HTTP Caching (ETags, Cache-Control, Conditional Requests)",
+          "order": 11
+        },
+        {
+          "topicId": "REST-012",
+          "topicName": "Pagination, Filtering, and Sorting Strategies (Cursor vs Offset, Sparse Fieldsets)",
+          "order": 12
+        },
+        {
+          "topicId": "REST-013",
+          "topicName": "Asynchronous Processing & Long-Running Operations (Webhooks, Polling, 202 Accepted)",
+          "order": 13
+        },
+        {
+          "topicId": "REST-014",
+          "topicName": "API Documentation & Specifications (OpenAPI 3.0 / Swagger, AsyncAPI)",
+          "order": 14
+        },
+        {
+          "topicId": "REST-015",
+          "topicName": "Resiliency Patterns (Circuit Breakers, Bulkheads, Retries with Exponential Backoff)",
+          "order": 15
+        },
+        {
+          "topicId": "REST-016",
+          "topicName": "Observability, Logging, and Distributed Tracing (Correlation IDs, Metrics)",
+          "order": 16
+        }
+      ]
+    },
+    {
+      "moduleId": "general",
+      "moduleName": "General",
+      "order": 30,
+      "description": "Essential General Concepts & Q&A",
+      "topics": [
+        {
+          "topicId": "general_topic_1",
+          "topicName": "What are the four pillars of Object-Oriented Programming (OOP)?",
+          "order": 1
+        },
+        {
+          "topicId": "general_topic_2",
+          "topicName": "Explain the difference between 'class' and 'object'.",
+          "order": 2
+        },
+        {
+          "topicId": "general_topic_3",
+          "topicName": "What is Polymorphism? Provide a simple example.",
+          "order": 3
+        },
+        {
+          "topicId": "general_topic_4",
+          "topicName": "What is Inheritance? How does it promote code reusability?",
+          "order": 4
+        },
+        {
+          "topicId": "general_topic_5",
+          "topicName": "What is Encapsulation, and why is it important?",
+          "order": 5
+        },
+        {
+          "topicId": "general_topic_6",
+          "topicName": "What is Abstraction, and how does it differ from Encapsulation?",
+          "order": 6
+        },
+        {
+          "topicId": "general_topic_7",
+          "topicName": "Explain the difference between 'public', 'private', and 'protected' access modifiers.",
+          "order": 7
+        },
+        {
+          "topicId": "general_topic_8",
+          "topicName": "What is the purpose of the 'static' keyword?",
+          "order": 8
+        },
+        {
+          "topicId": "general_topic_9",
+          "topicName": "What is the purpose of the 'final' keyword?",
+          "order": 9
+        },
+        {
+          "topicId": "general_topic_10",
+          "topicName": "Explain the use of the 'this' keyword.",
+          "order": 10
+        },
+        {
+          "topicId": "general_topic_11",
+          "topicName": "Explain the use of the 'super' keyword.",
+          "order": 11
+        },
+        {
+          "topicId": "general_topic_12",
+          "topicName": "Primitive Data Types",
+          "order": 12
+        },
+        {
+          "topicId": "general_topic_13",
+          "topicName": "Explain the difference between checked and unchecked exceptions.",
+          "order": 13
+        },
+        {
+          "topicId": "general_topic_14",
+          "topicName": "What is a try-catch block, and how is it used for exception handling?",
+          "order": 14
+        },
+        {
+          "topicId": "general_topic_15",
+          "topicName": "What is the purpose of the 'finally' block in exception handling?",
+          "order": 15
+        },
+        {
+          "topicId": "general_topic_16",
+          "topicName": "Explain the difference between String, StringBuilder, and StringBuffer.",
+          "order": 16
+        },
+        {
+          "topicId": "general_topic_17",
+          "topicName": "How do you compare two strings for equality?",
+          "order": 17
+        },
+        {
+          "topicId": "general_topic_18",
+          "topicName": "What are the different ways to create a String object?",
+          "order": 18
+        },
+        {
+          "topicId": "general_topic_19",
+          "topicName": "What is the difference between == and .equals() method?",
+          "order": 19
+        },
+        {
+          "topicId": "general_topic_20",
+          "topicName": "What is method overloading and method overriding?",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "moduleId": "jpa",
+      "moduleName": "JPA",
+      "order": 31,
+      "description": "Essential JPA Concepts & Q&A",
+      "topics": [
+        {
+          "topicId": "jpa_topic_1",
+          "topicName": "What is JPA (Java Persistence API) and what problem does it solve?",
+          "order": 1
+        },
+        {
+          "topicId": "jpa_topic_2",
+          "topicName": "Explain the difference between an EntityManager and an EntityManagerFactory in JPA.",
+          "order": 2
+        },
+        {
+          "topicId": "jpa_topic_3",
+          "topicName": "What are the main components of the JPA architecture?",
+          "order": 3
+        },
+        {
+          "topicId": "jpa_topic_4",
+          "topicName": "What is an entity in JPA? How do you define an entity class?",
+          "order": 4
+        },
+        {
+          "topicId": "jpa_topic_5",
+          "topicName": "JPA Relationships",
+          "order": 5
+        },
+        {
+          "topicId": "jpa_topic_6",
+          "topicName": "What is the purpose of the @Id annotation in JPA?",
+          "order": 6
+        },
+        {
+          "topicId": "jpa_topic_7",
+          "topicName": "Explain the difference between @GeneratedValue(strategy = GenerationType.AUTO) and @GeneratedValue(strategy = GenerationType.IDENTITY).",
+          "order": 7
+        },
+        {
+          "topicId": "jpa_topic_8",
+          "topicName": "JPA Lifecycle Events and Annotations",
+          "order": 8
+        },
+        {
+          "topicId": "jpa_topic_9",
+          "topicName": "What is JPQL (Java Persistence Query Language)? How does it differ from SQL?",
+          "order": 9
+        },
+        {
+          "topicId": "jpa_topic_10",
+          "topicName": "Explain the difference between eager and lazy loading in JPA. What are the advantages and disadvantages of each?",
+          "order": 10
+        },
+        {
+          "topicId": "jpa_topic_11",
+          "topicName": "What is the purpose of the @Transactional annotation in JPA? How does transaction management work?",
+          "order": 11
+        },
+        {
+          "topicId": "jpa_topic_12",
+          "topicName": "What are the different isolation levels in JPA transactions?",
+          "order": 12
+        },
+        {
+          "topicId": "jpa_topic_13",
+          "topicName": "How do you handle exceptions in JPA? What is the role of the PersistenceException class?",
+          "order": 13
+        },
+        {
+          "topicId": "jpa_topic_14",
+          "topicName": "What are some common JPA performance optimization techniques?",
+          "order": 14
+        },
+        {
+          "topicId": "jpa_topic_15",
+          "topicName": "Explain the concept of caching in JPA. What are the different levels of caching?",
+          "order": 15
+        },
+        {
+          "topicId": "jpa_topic_16",
+          "topicName": "What is the purpose of the 'persistence.xml' file in JPA?",
+          "order": 16
+        },
+        {
+          "topicId": "jpa_topic_17",
+          "topicName": "How do you configure a data source for JPA?",
+          "order": 17
+        },
+        {
+          "topicId": "jpa_topic_18",
+          "topicName": "What are the advantages of using JPA over JDBC?",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "plsql",
+      "moduleName": "plsql",
+      "order": 32,
+      "description": "Essential plsql Concepts & Q&A",
+      "topics": [
+        {
+          "topicId": "plsql_topic_1",
+          "topicName": "What is PL/SQL and what are its key features?",
+          "order": 1
+        },
+        {
+          "topicId": "plsql_topic_2",
+          "topicName": "Explain the difference between PL/SQL and SQL.",
+          "order": 2
+        },
+        {
+          "topicId": "plsql_topic_3",
+          "topicName": "What are the different data types available in PL/SQL?",
+          "order": 3
+        },
+        {
+          "topicId": "plsql_topic_4",
+          "topicName": "How do you declare and use variables in PL/SQL?",
+          "order": 4
+        },
+        {
+          "topicId": "plsql_topic_5",
+          "topicName": "What are PL/SQL cursors and why are they used?",
+          "order": 5
+        },
+        {
+          "topicId": "plsql_topic_6",
+          "topicName": "Explain the difference between implicit and explicit cursors.",
+          "order": 6
+        },
+        {
+          "topicId": "plsql_topic_7",
+          "topicName": "What are PL/SQL exceptions and how are they handled?",
+          "order": 7
+        },
+        {
+          "topicId": "plsql_topic_8",
+          "topicName": "What are the different types of exceptions in PL/SQL?",
+          "order": 8
+        },
+        {
+          "topicId": "plsql_topic_9",
+          "topicName": "How do you create and use procedures in PL/SQL?",
+          "order": 9
+        },
+        {
+          "topicId": "plsql_topic_10",
+          "topicName": "How do you create and use functions in PL/SQL?",
+          "order": 10
+        },
+        {
+          "topicId": "plsql_topic_11",
+          "topicName": "What is the difference between a procedure and a function in PL/SQL?",
+          "order": 11
+        },
+        {
+          "topicId": "plsql_topic_12",
+          "topicName": "What are PL/SQL packages and what are their benefits?",
+          "order": 12
+        },
+        {
+          "topicId": "plsql_topic_13",
+          "topicName": "Explain the concept of triggers in PL/SQL and their different types.",
+          "order": 13
+        },
+        {
+          "topicId": "plsql_topic_14",
+          "topicName": "PL/SQL Collections",
+          "order": 14
+        },
+        {
+          "topicId": "plsql_topic_15",
+          "topicName": "How do you perform string manipulation in PL/SQL (e.g., concatenation, substring extraction)?",
+          "order": 15
+        },
+        {
+          "topicId": "plsql_topic_16",
+          "topicName": "PL/SQL Loops",
+          "order": 16
+        },
+        {
+          "topicId": "plsql_topic_17",
+          "topicName": "Explain the use of the `COMMIT` and `ROLLBACK` statements in PL/SQL.",
+          "order": 17
+        },
+        {
+          "topicId": "plsql_topic_18",
+          "topicName": "Dynamic SQL in PL/SQL",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "springboot",
+      "moduleName": "spring boot",
+      "order": 33,
+      "description": "Essential spring boot Concepts & Q&A",
+      "topics": [
+        {
+          "topicId": "springboot_topic_1",
+          "topicName": "What is Spring Boot?",
+          "order": 1
+        },
+        {
+          "topicId": "springboot_topic_2",
+          "topicName": "Explain the concept of Dependency Injection (DI) in Spring Boot.",
+          "order": 2
+        },
+        {
+          "topicId": "springboot_topic_3",
+          "topicName": "What is the difference between Spring and Spring Boot?",
+          "order": 3
+        },
+        {
+          "topicId": "springboot_topic_4",
+          "topicName": "What are the advantages of using Spring Boot?",
+          "order": 4
+        },
+        {
+          "topicId": "springboot_topic_5",
+          "topicName": "What is an Application Context in Spring Boot?",
+          "order": 5
+        },
+        {
+          "topicId": "springboot_topic_6",
+          "topicName": "What is a Spring Bean?",
+          "order": 6
+        },
+        {
+          "topicId": "springboot_topic_7",
+          "topicName": "Explain the use of @SpringBootApplication annotation.",
+          "order": 7
+        },
+        {
+          "topicId": "springboot_topic_8",
+          "topicName": "What are Spring Boot Starters?",
+          "order": 8
+        },
+        {
+          "topicId": "springboot_topic_9",
+          "topicName": "How do you create a RESTful API using Spring Boot?",
+          "order": 9
+        },
+        {
+          "topicId": "springboot_topic_10",
+          "topicName": "What is the purpose of the @RestController annotation?",
+          "order": 10
+        },
+        {
+          "topicId": "springboot_topic_11",
+          "topicName": "Explain the difference between @Component, @Service, and @Repository annotations.",
+          "order": 11
+        },
+        {
+          "topicId": "springboot_topic_12",
+          "topicName": "How do you handle exceptions in a Spring Boot application?",
+          "order": 12
+        },
+        {
+          "topicId": "springboot_topic_13",
+          "topicName": "What is Spring Data JPA?",
+          "order": 13
+        },
+        {
+          "topicId": "springboot_topic_14",
+          "topicName": "How do you configure a database connection in Spring Boot?",
+          "order": 14
+        },
+        {
+          "topicId": "springboot_topic_15",
+          "topicName": "What is the purpose of application.properties or application.yml file?",
+          "order": 15
+        },
+        {
+          "topicId": "springboot_topic_16",
+          "topicName": "How do you create a custom auto-configuration in Spring Boot?",
+          "order": 16
+        },
+        {
+          "topicId": "springboot_topic_17",
+          "topicName": "What are Spring Boot Actuators?",
+          "order": 17
+        },
+        {
+          "topicId": "springboot_topic_18",
+          "topicName": "Explain the use of profiles in Spring Boot.",
+          "order": 18
+        }
+      ]
     }
   ]
 }

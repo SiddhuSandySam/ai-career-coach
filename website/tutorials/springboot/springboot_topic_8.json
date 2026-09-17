@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_8",
+  "topicName": "What are Spring Boot Starters?",
+  "order": 8,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are Spring Boot Starters?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Spring Boot Starters are dependency descriptors that include all the necessary dependencies to start using a specific technology in a Spring Boot application. They simplify project setup by eliminating the need to manually add individual dependencies.\"}]"
+}

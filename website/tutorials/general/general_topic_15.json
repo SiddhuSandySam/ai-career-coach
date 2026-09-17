@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_15",
+  "topicName": "What is the purpose of the 'finally' block in exception handling?",
+  "order": 15,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of the 'finally' block in exception handling?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The 'finally' block in exception handling ensures that a block of code is always executed, regardless of whether an exception is thrown or caught. It's typically used for cleanup operations like closing resources.\"}]"
+}

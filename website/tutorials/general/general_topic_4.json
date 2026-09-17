@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_4",
+  "topicName": "What is Inheritance? How does it promote code reusability?",
+  "order": 4,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is Inheritance? How does it promote code reusability?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Inheritance is a fundamental concept in object-oriented programming (OOP) where a new class (subclass or derived class) inherits properties and behaviors from an existing class (superclass or base class). This promotes code reusability by allowing the subclass to reuse the code already defined in the superclass, reducing redundancy and improving maintainability.\"}]"
+}

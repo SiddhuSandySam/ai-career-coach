@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_18",
+  "topicName": "Explain the use of profiles in Spring Boot.",
+  "order": 18,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the use of profiles in Spring Boot.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Spring Profiles provide a way to configure different parts of your application and make it available for various environments. It helps in creating environment-specific configurations.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_7",
+  "topicName": "Explain the use of @SpringBootApplication annotation.",
+  "order": 7,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the use of @SpringBootApplication annotation.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The @SpringBootApplication annotation is a convenience annotation that combines @Configuration, @EnableAutoConfiguration, and @ComponentScan. It is typically used on the main application class to enable Spring Boot's auto-configuration and component scanning features.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_13",
+  "topicName": "Explain the difference between checked and unchecked exceptions.",
+  "order": 13,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between checked and unchecked exceptions.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Checked exceptions are exceptions that are checked by the compiler at compile time. Unchecked exceptions are not checked by the compiler at compile time.\"}]"
+}

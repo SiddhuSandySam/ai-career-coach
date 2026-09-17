@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_5",
+  "topicName": "What is an Application Context in Spring Boot?",
+  "order": 5,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is an Application Context in Spring Boot?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The Application Context in Spring Boot is a central interface that provides configuration information to the application. It manages beans, handles dependency injection, and provides various services like transaction management and resource loading. It represents the IoC container.\"}]"
+}

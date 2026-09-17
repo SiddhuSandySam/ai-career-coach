@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_6",
+  "topicName": "What is the purpose of the @Id annotation in JPA?",
+  "order": 6,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of the @Id annotation in JPA?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The @Id annotation in JPA is used to specify the primary key field of an entity. It marks the attribute that uniquely identifies each instance of the entity in the database.\"}]"
+}

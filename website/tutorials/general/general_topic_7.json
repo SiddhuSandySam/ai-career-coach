@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_7",
+  "topicName": "Explain the difference between 'public', 'private', and 'protected' access modifiers.",
+  "order": 7,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between 'public', 'private', and 'protected' access modifiers.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Access modifiers control the visibility and accessibility of class members (variables, methods) from different parts of the program. They are fundamental to encapsulation in object-oriented programming.\"}]"
+}

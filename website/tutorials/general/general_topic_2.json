@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_2",
+  "topicName": "Explain the difference between 'class' and 'object'.",
+  "order": 2,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between 'class' and 'object'.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"A class is a blueprint or template for creating objects. An object is a specific instance of a class, representing a real-world entity with its own state and behavior.\"}]"
+}

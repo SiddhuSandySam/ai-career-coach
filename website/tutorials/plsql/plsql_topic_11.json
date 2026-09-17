@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_11",
+  "topicName": "What is the difference between a procedure and a function in PL/SQL?",
+  "order": 11,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the difference between a procedure and a function in PL/SQL?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Explains the core differences between procedures and functions in PL/SQL, focusing on return values and usage.\"}]"
+}

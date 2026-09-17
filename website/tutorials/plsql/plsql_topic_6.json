@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_6",
+  "topicName": "Explain the difference between implicit and explicit cursors.",
+  "order": 6,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between implicit and explicit cursors.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Cursors are used to manipulate data one row at a time. Implicit cursors are automatically created by Oracle for DML statements, while explicit cursors are declared and managed by the programmer for more complex queries.\"}]"
+}

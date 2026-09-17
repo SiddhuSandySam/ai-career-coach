@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_11",
+  "topicName": "What is the purpose of the @Transactional annotation in JPA? How does transaction management work?",
+  "order": 11,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of the @Transactional annotation in JPA? How does transaction management work?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The @Transactional annotation in JPA (Java Persistence API) is used to define the scope of a single database transaction. It ensures that a series of operations are treated as one atomic unit, meaning either all operations succeed, or none do. Transaction management involves starting, committing, or rolling back transactions to maintain data integrity.\"}]"
+}

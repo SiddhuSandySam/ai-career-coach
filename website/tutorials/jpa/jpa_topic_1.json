@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_1",
+  "topicName": "What is JPA (Java Persistence API) and what problem does it solve?",
+  "order": 1,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is JPA (Java Persistence API) and what problem does it solve?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"JPA (Java Persistence API) is a specification that simplifies data persistence in Java applications. It provides an object-relational mapping (ORM) layer, allowing developers to interact with databases using Java objects instead of writing raw SQL queries. JPA solves the impedance mismatch between object-oriented programming and relational databases, improving developer productivity and code maintainability.\"}]"
+}

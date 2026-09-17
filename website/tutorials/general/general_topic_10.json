@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_10",
+  "topicName": "Explain the use of the 'this' keyword.",
+  "order": 10,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the use of the 'this' keyword.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The 'this' keyword refers to the current object in a method or constructor. It's used to access the object's members (variables and methods) and to distinguish between instance variables and local variables with the same name.\"}]"
+}

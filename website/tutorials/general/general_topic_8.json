@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_8",
+  "topicName": "What is the purpose of the 'static' keyword?",
+  "order": 8,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of the 'static' keyword?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The 'static' keyword in programming languages like Java and C++ is used to create members (variables and methods) that belong to the class itself rather than to any specific instance of the class. Static members are shared among all instances of the class.\"}]"
+}

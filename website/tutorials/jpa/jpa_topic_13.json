@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_13",
+  "topicName": "How do you handle exceptions in JPA? What is the role of the PersistenceException class?",
+  "order": 13,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you handle exceptions in JPA? What is the role of the PersistenceException class?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"JPA exception handling involves catching and managing exceptions that occur during database operations. `PersistenceException` is the root exception class for all JPA-related exceptions, providing a common type to catch. Specific subclasses like `EntityNotFoundException` or `RollbackException` offer more granular error handling.\"}]"
+}

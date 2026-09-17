@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_18",
+  "topicName": "Dynamic SQL in PL/SQL",
+  "order": 18,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Dynamic SQL in PL/SQL\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Dynamic SQL allows you to construct and execute SQL statements at runtime. This is useful when you don't know the exact SQL statement you need to execute until the program is running. It provides flexibility but requires careful handling to prevent SQL injection vulnerabilities.\"}]"
+}

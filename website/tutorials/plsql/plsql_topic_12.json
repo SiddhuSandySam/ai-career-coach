@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_12",
+  "topicName": "What are PL/SQL packages and what are their benefits?",
+  "order": 12,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are PL/SQL packages and what are their benefits?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL packages are schema objects that group logically related PL/SQL types, variables, constants, subprograms (procedures and functions), cursors, and exceptions. They provide modularity, encapsulation, and information hiding, improving code organization and maintainability.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_12",
+  "topicName": "How do you handle exceptions in a Spring Boot application?",
+  "order": 12,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you handle exceptions in a Spring Boot application?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Exception handling in Spring Boot involves gracefully managing errors that occur during application execution. This ensures the application doesn't crash and provides meaningful feedback to the user or administrator. Common approaches include using global exception handlers with `@ControllerAdvice` and `@ExceptionHandler`, and custom exception classes.\"}]"
+}

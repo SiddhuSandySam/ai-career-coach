@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_5",
+  "topicName": "JPA Relationships",
+  "order": 5,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"JPA Relationships\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Understanding the different types of relationships in JPA (OneToOne, OneToMany, ManyToMany) is crucial for mapping database tables to Java entities and managing data relationships in a Java application.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_2",
+  "topicName": "Explain the concept of Dependency Injection (DI) in Spring Boot.",
+  "order": 2,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the concept of Dependency Injection (DI) in Spring Boot.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Dependency Injection (DI) is a design pattern that allows us to develop loosely coupled code. In Spring Boot, DI is a core principle where objects receive their dependencies from external sources rather than creating them themselves. This promotes testability, maintainability, and reusability.\"}]"
+}

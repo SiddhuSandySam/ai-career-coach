@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_4",
+  "topicName": "What are the advantages of using Spring Boot?",
+  "order": 4,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the advantages of using Spring Boot?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Spring Boot simplifies the development of Spring-based applications by providing auto-configuration, embedded servers, and a set of starter dependencies. It reduces boilerplate code and makes it easier to get started with Spring.\"}]"
+}

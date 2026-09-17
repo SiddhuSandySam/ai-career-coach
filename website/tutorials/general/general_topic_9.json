@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_9",
+  "topicName": "What is the purpose of the 'final' keyword?",
+  "order": 9,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of the 'final' keyword?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The 'final' keyword in Java is a non-access modifier used to apply restrictions on a variable, method, or class. It signifies that the entity it modifies cannot be changed or overridden.\"}]"
+}

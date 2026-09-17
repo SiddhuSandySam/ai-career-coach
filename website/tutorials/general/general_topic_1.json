@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_1",
+  "topicName": "What are the four pillars of Object-Oriented Programming (OOP)?",
+  "order": 1,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the four pillars of Object-Oriented Programming (OOP)?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Object-Oriented Programming (OOP) is a programming paradigm based on the concept of 'objects', which contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). The four pillars are Abstraction, Encapsulation, Inheritance, and Polymorphism.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "general_topic_20",
+  "topicName": "What is method overloading and method overriding?",
+  "order": 20,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is method overloading and method overriding?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Method overloading and overriding are key concepts in object-oriented programming (OOP), specifically related to polymorphism. Overloading allows a class to have multiple methods with the same name but different parameters. Overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass.\"}]"
+}

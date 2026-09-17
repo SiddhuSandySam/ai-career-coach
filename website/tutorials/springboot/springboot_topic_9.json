@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_9",
+  "topicName": "How do you create a RESTful API using Spring Boot?",
+  "order": 9,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you create a RESTful API using Spring Boot?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Creating a RESTful API using Spring Boot involves defining controllers to handle HTTP requests, mapping URLs to specific methods, and using annotations to serialize Java objects into JSON or XML responses. It leverages Spring's dependency injection and auto-configuration features to simplify the development process.\"}]"
+}

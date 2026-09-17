@@ -1,0 +1,6 @@
+{
+  "topicId": "plsql_topic_9",
+  "topicName": "How do you create and use procedures in PL/SQL?",
+  "order": 9,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you create and use procedures in PL/SQL?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"PL/SQL procedures are named blocks of code that perform specific tasks. They can accept parameters, execute SQL statements, and return values. Procedures enhance code reusability, modularity, and maintainability within a database environment.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_14",
+  "topicName": "How do you configure a database connection in Spring Boot?",
+  "order": 14,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do you configure a database connection in Spring Boot?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Configuring a database connection in Spring Boot involves specifying the database driver, URL, username, and password in the application.properties or application.yml file. Spring Boot then uses these properties to create a DataSource, which is used to connect to the database.\"}]"
+}

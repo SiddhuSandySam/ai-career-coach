@@ -1,0 +1,6 @@
+{
+  "topicId": "jpa_topic_2",
+  "topicName": "Explain the difference between an EntityManager and an EntityManagerFactory in JPA.",
+  "order": 2,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between an EntityManager and an EntityManagerFactory in JPA.\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The EntityManagerFactory is a factory class that creates EntityManager instances. The EntityManager is an interface that manages the persistence operations on entities.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_10",
+  "topicName": "What is the purpose of the @RestController annotation?",
+  "order": 10,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the purpose of the @RestController annotation?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The @RestController annotation in Spring Boot simplifies the creation of RESTful controllers. It's a convenience annotation that combines @Controller and @ResponseBody, eliminating the need to annotate every request handling method with @ResponseBody. This makes it easier to build APIs that return data directly in formats like JSON or XML.\"}]"
+}
