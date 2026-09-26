@@ -3,7 +3,7 @@
  *
  * Rules:
  * 1. Picks a RANDOM question directly from Firestore 'interview_gym' collection.
- * 2. Posts to 'global_chat' as 'AI Career Coach Bot 🤖' (using exact fields expected by GlobalChatMessage.java).
+ * 2. Posts to 'global_chat' as 'AI Career Coach Bot 🤖'.
  * 3. Updates 'statistics/daily_discussion' doc so Android App auto-pins today's question banner!
  */
 
@@ -11,15 +11,28 @@ const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
-// Initialize Firebase Admin
+// Initialize Firebase Admin (supports file or env secret)
 if (!admin.apps.length) {
     try {
-        const serviceAccount = require('./serviceAccountKey.json');
-        admin.initializeApp({
-            credential: admin.credential.cert(serviceAccount)
-        });
+        let serviceAccount;
+        if (fs.existsSync('./serviceAccountKey.json')) {
+            serviceAccount = require('./serviceAccountKey.json');
+        } else if (process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
+            serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
+        } else if (process.env.FIREBASE_SERVICE_ACCOUNT) {
+            serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+        }
+
+        if (serviceAccount && serviceAccount.project_id) {
+            admin.initializeApp({
+                credential: admin.credential.cert(serviceAccount)
+            });
+            console.log("✅ Firebase Admin initialized for project:", serviceAccount.project_id);
+        } else {
+            throw new Error("No serviceAccountKey.json file or FIREBASE_SERVICE_ACCOUNT_KEY secret found.");
+        }
     } catch (e) {
-        console.error("❌ No serviceAccountKey.json found!");
+        console.error("❌ Firebase Admin Initialization Error:", e.message);
         process.exit(1);
     }
 }

@@ -21,8 +21,18 @@ jobs:
         run: npm install firebase-admin
 
       - name: Create Service Account Key from Secret
+        env:
+          KEY_1: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+          KEY_2: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
-          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}" > serviceAccountKey.json
+          if [ -n "$KEY_1" ]; then
+            echo "$KEY_1" > serviceAccountKey.json
+          elif [ -n "$KEY_2" ]; then
+            echo "$KEY_2" > serviceAccountKey.json
+          else
+            echo "❌ Neither FIREBASE_SERVICE_ACCOUNT_KEY nor FIREBASE_SERVICE_ACCOUNT secret was found!"
+            exit 1
+          fi
 
       - name: Run Daily Question Poster
         run: node postDailyQuestion.js
