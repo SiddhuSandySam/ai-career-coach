@@ -1,6 +1,6 @@
 {
-  "lastSyncedAt": "2026-09-17T05:07:25.859Z",
-  "totalSkills": 33,
+  "lastSyncedAt": "2026-09-26T15:01:40.210Z",
+  "totalSkills": 68,
   "skills": [
     {
       "id": "angular",
@@ -26,6 +26,62 @@
         },
         {
           "q": "Explain Component Creation and Structure (template, class, metadata)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "ansible",
+      "name": "Ansible",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Ansible Architecture and Control Node Requirements",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Inventory Management: Static vs Dynamic Inventories",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SSH Connection Plugins and Multiplexing Optimization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Playbook Syntax, Structure, and Execution Flow",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Tasks, Modules, and Idempotency Principles",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "apache_spark",
+      "name": "Apache Spark",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Spark Architecture and Cluster Components",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain RDDs vs DataFrames vs Datasets",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Lazy Evaluation and Execution Plans",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Transformations and Actions",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Catalyst Optimizer and Tungsten Engine",
           "level": "Easy"
         }
       ]
@@ -59,6 +115,34 @@
       ]
     },
     {
+      "id": "azure_microsoft_azure",
+      "name": "Azure (Microsoft Azure)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Azure Resource Manager (ARM) and Bicep/Terraform",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Subscriptions, Management Groups, and Enterprise Scale Landing Zones",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Azure Policy, Blueprints, and Compliance",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Role-Based Access Control (RBAC) and Entra ID (Azure AD) PIM",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Azure Virtual Machines, Scale Sets, and Availability Sets/Zones",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "c",
       "name": "C#",
       "category": "Tutorial",
@@ -82,6 +166,62 @@
         },
         {
           "q": "Explain Arrays and Collections (List, Dictionary, etc.)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "name": "CI/CD",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Continuous Integration and Continuous Deployment",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Version Control Systems and Branching Strategies (GitFlow, Trunk-Based Development)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Anatomy of a Build Pipeline: Build, Test, Package, and Release",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Artifact Management and Package Registries (Nexus, Artifactory, Container Registries)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Jenkins Architecture, Plugins, Shared Libraries, and Scalability",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "computer_vision",
+      "name": "Computer Vision",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Digital Image Representation and Color Spaces",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Filtering, Convolution, and Edge Detection",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Geometric Transformations and Interpolation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Feature Extraction (SIFT, SURF, ORB)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Image Stitching and Homography Estimation",
           "level": "Easy"
         }
       ]
@@ -115,6 +255,62 @@
       ]
     },
     {
+      "id": "css3",
+      "name": "CSS3",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain The Cascade, Specificity, and Inheritance",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Advanced Selectors and Pseudo-classes (:is, :where, :has)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Pseudo-elements and Generated Content",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Standard and Alternative Box Models & Margin Collapse",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain CSS Positioning Schemes (static, relative, absolute, fixed, sticky)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Linear Algebra for Data Science",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Calculus and Optimization Techniques",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Probability Theory and Random Variables",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Inferential Statistics and Hypothesis Testing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Advanced Python and Vectorization",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "data_structures__algorithms",
       "name": "Data Structures & Algorithms",
       "category": "Tutorial",
@@ -138,6 +334,90 @@
         },
         {
           "q": "Explain Arrays: Dynamic Arrays & Resizing",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "data_warehousing",
+      "name": "Data Warehousing",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Data Warehousing Fundamentals & ACID vs. BASE",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Inmon vs. Kimball Architecture Methodologies",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Modern Data Stack & Cloud DW Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Dimensional Modeling: Star Schema vs. Snowflake Schema",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Fact Tables: Additive, Semi-Additive, and Non-Additive",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "database_design",
+      "name": "Database Design",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Relational Model and ACID Properties",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Entity-Relationship (ER) Modeling",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Normalization (1NF through BCNF)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Denormalization Strategies and Trade-offs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain B-Tree and B+ Tree Index Internals",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "deep_learning",
+      "name": "Deep Learning",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Perceptrons and Multi-Layer Perceptrons (MLPs)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Activation Functions and Non-Linearities",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Forward Propagation and Computational Graphs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Backpropagation and Automatic Differentiation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Gradient Descent Variants (SGD, Momentum, Nesterov)",
           "level": "Easy"
         }
       ]
@@ -280,6 +560,62 @@
       ]
     },
     {
+      "id": "elasticsearch",
+      "name": "Elasticsearch",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Cluster Architecture, Nodes, and Shards",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Lucene Underlying Storage and Inverted Index",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Distributed Document Routing and Lifecycle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Dynamic vs Explicit Mapping and Datatypes",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Text vs Keyword Fields and Normalization",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "etl",
+      "name": "ETL",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to ETL vs ELT Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Warehousing Concepts (Data Lakes, Lakehouses, Star/Snowflake Schema)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Batch Processing vs Stream Processing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Governance, Lineage, and Cataloging",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Source Systems Connectivity (RDBMS, NoSQL, APIs, S3, FTP)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "expressjs",
       "name": "Express.js",
       "category": "Tutorial",
@@ -303,6 +639,34 @@
         },
         {
           "q": "Explain Application-Level vs Router-Level Middleware",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "firebase_firestore",
+      "name": "Firebase Firestore",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain NoSQL Data Modeling & Document-Based Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Collections, Documents, and Subcollections",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types, Field Values, and Nested Maps",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Document ID Generation & Auto-IDs vs Custom IDs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic Queries, Equality Operators, and Filters",
           "level": "Easy"
         }
       ]
@@ -446,6 +810,34 @@
       ]
     },
     {
+      "id": "github_actions",
+      "name": "GitHub Actions",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Architecture and Core Components (Runners, Jobs, Steps, Actions)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Workflow Syntax, Triggers, and Event Contexts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Environment Variables, Secrets, and Masking",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Artifacts and Workspace Persistence Between Jobs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Job Dependencies, Concurrency, and Fail-Fast Strategies",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "go_golang",
       "name": "Go (Golang)",
       "category": "Tutorial",
@@ -497,6 +889,62 @@
         },
         {
           "q": "Explain Identity and Access Management (IAM): Roles, Permissions, Service Accounts",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Core Concepts & Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Schema Definition Language (SDL)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Types, Scalars, and Interfaces",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Queries, Mutations, and Subscriptions",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Execution Engine & AST",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "hibernate",
+      "name": "Hibernate",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain ORM Concepts and Hibernate Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SessionFactory, Session, and EntityManager",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Hibernate Configuration (hibernate.cfg.xml vs JPA Persistence.xml)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Entity Mapping, Basic Annotations, and Column Configurations",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Primary Key Generation Strategies (Identity, Sequence, Table, Auto)",
           "level": "Easy"
         }
       ]
@@ -586,6 +1034,147 @@
       ]
     },
     {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Architecture, Master-Agent Topologies, and Executor Allocation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Freestyle vs. Pipeline Projects and Job Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Workspace Management, File Operations, and Artifact Archiving",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Declarative vs. Scripted Pipeline Syntax and Differences",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Pipeline Stages, Steps, When Conditions, and Post Actions",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "jpa",
+      "name": "JPA",
+      "category": "Tutorial",
+      "questionCount": 107,
+      "questions": [
+        {
+          "q": "What is JPA (Java Persistence API)?",
+          "a": "JPA is a Java specification for managing relational data in applications. It provides an ORM layer, mapping Java objects to database tables. JPA defines a standard for accessing, persisting, and managing data between Java objects and a relational database.",
+          "p": [
+            "Java specification",
+            "ORM (Object-Relational Mapping)",
+            "Data persistence"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What problem does JPA solve?",
+          "a": "JPA addresses the object-relational impedance mismatch. It simplifies database interactions by allowing developers to work with Java objects instead of writing SQL. This reduces boilerplate code, improves code readability, and enhances developer productivity by abstracting database complexities.",
+          "p": [
+            "Object-relational mismatch",
+            "Simplifies database interaction",
+            "Reduces boilerplate code"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the difference between JPA and Hibernate.",
+          "a": "JPA is a specification, while Hibernate is an implementation of that specification. JPA defines the standard, and Hibernate is a concrete library that implements the JPA standard. Other JPA implementations include EclipseLink and Apache OpenJPA.",
+          "p": [
+            "JPA: Specification",
+            "Hibernate: Implementation",
+            "Other implementations exist"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the key components of JPA?",
+          "a": "Key components include the EntityManager (for managing persistence operations), EntityManagerFactory (for creating EntityManager instances), Persistence Unit (configuration for database connection), and JPA annotations (for mapping Java classes to database tables).",
+          "p": [
+            "EntityManager",
+            "EntityManagerFactory",
+            "Persistence Unit",
+            "JPA Annotations"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the purpose of the `@Entity` annotation in JPA?",
+          "a": "The `@Entity` annotation marks a Java class as a persistent entity, meaning it represents a table in the database. Each instance of the class corresponds to a row in that table. It's a fundamental annotation for mapping Java objects to database tables using JPA.",
+          "p": [
+            "Marks a class as persistent",
+            "Represents a database table",
+            "Maps objects to rows"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the role of the `EntityManager` in JPA?",
+          "a": "The `EntityManager` is the core interface for interacting with the persistence context. It's used to perform operations like persisting (saving), retrieving, updating, and deleting entities. It manages the lifecycle of entities and synchronizes changes with the database.",
+          "p": [
+            "Core interface",
+            "Manages persistence operations",
+            "Synchronizes with the database"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between an EntityManagerFactory and an EntityManager in JPA?",
+          "a": "The EntityManagerFactory is a factory for creating EntityManager instances. It's heavyweight and typically created once per application. The EntityManager is a lightweight, short-lived object that manages persistence operations (CRUD) on entities within a specific transaction. Multiple EntityManagers can be created from a single EntityManagerFactory.",
+          "p": [
+            "EntityManagerFactory: Creates EntityManagers.",
+            "EntityManager: Manages persistence operations.",
+            "Factory is heavyweight, Manager is lightweight.",
+            "One Factory, multiple Managers."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is an EntityManager in JPA?",
+          "a": "An EntityManager is an interface in JPA that manages the persistence operations (CRUD - Create, Read, Update, Delete) on entity instances. It provides methods for persisting, merging, removing, and finding entities in the database. It operates within a transaction scope.",
+          "p": [
+            "Manages persistence operations.",
+            "Provides CRUD operations.",
+            "Operates within a transaction.",
+            "Interface in JPA."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is an EntityManagerFactory in JPA?",
+          "a": "An EntityManagerFactory is a factory class in JPA used to create EntityManager instances. It is a heavyweight object that is typically created once per application or persistence unit. It encapsulates the configuration details needed to connect to the database.",
+          "p": [
+            "Factory for EntityManagers.",
+            "Heavyweight object.",
+            "Created once per application.",
+            "Encapsulates database configuration."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you create an EntityManager from an EntityManagerFactory?",
+          "a": "You create an EntityManager by calling the `createEntityManager()` method on an EntityManagerFactory instance. This method returns a new EntityManager instance that can be used to manage entities.",
+          "p": [
+            "Use `createEntityManager()` method.",
+            "Call on EntityManagerFactory instance.",
+            "Returns a new EntityManager.",
+            "EntityManager is ready to use."
+          ],
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "jquery",
       "name": "jQuery",
       "category": "Tutorial",
@@ -614,29 +1203,142 @@
       ]
     },
     {
-      "id": "laravel",
-      "name": "Laravel",
+      "id": "kubernetes",
+      "name": "Kubernetes",
       "category": "Tutorial",
       "questionCount": 200,
       "questions": [
         {
-          "q": "Explain HTTP Request Lifecycle and Service Container",
+          "q": "Explain Architecture and Control Plane Components",
           "level": "Easy"
         },
         {
-          "q": "Explain Service Providers and Facades Architecture",
+          "q": "Explain API Server, etcd, and Consensus",
           "level": "Easy"
         },
         {
-          "q": "Explain Routing, Middleware, and Controllers",
+          "q": "Explain Kubelet, Kube-Proxy, and Node Internals",
           "level": "Easy"
         },
         {
-          "q": "Explain Configuration and Environment Management",
+          "q": "Explain Pods, Containers, and Container Runtimes (CRI)",
           "level": "Easy"
         },
         {
-          "q": "Explain Database Migrations, Seeders, and Factories",
+          "q": "Explain Deployments, ReplicaSets, and DaemonSets",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "category": "Tutorial",
+      "questionCount": 42,
+      "questions": [
+        {
+          "q": "What is Laravel and what is its primary architectural pattern?",
+          "a": "Laravel is a free, open-source PHP framework created by Taylor Otwell for developing web applications. It follows the Model-View-Controller (MVC) architectural pattern, which separates application logic from the user interface, making the code more maintainable, organized, and easier to scale.",
+          "p": [
+            "Open-source PHP web framework",
+            "Follows MVC architecture",
+            "Provides expressive and elegant syntax",
+            "Simplifies complex web development tasks"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are Eloquent ORM and database migrations in Laravel?",
+          "a": "Eloquent ORM is Laravel's built-in Object-Relational Mapper that allows you to interact with your database using readable PHP syntax instead of writing raw SQL queries, where each database table corresponds to a model. Migrations act as version control for your database, allowing teams to safely modify and share database schemas.",
+          "p": [
+            "Eloquent represents database tables as PHP classes",
+            "Eliminates the need for writing raw SQL",
+            "Migrations manage database schema changes",
+            "Enables easy database rollbacks and sharing"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is Blade templating engine and what are its benefits?",
+          "a": "Blade is Laravel's powerful and lightweight built-in templating engine. Unlike other PHP templating engines, Blade allows you to use plain PHP code in your views while providing convenient shortcuts, template inheritance, and reusable components, all compiled into plain PHP caching for optimal performance.",
+          "p": [
+            "Default templating engine in Laravel",
+            "Supports template inheritance and layouts",
+            "Uses clean syntax like directives (@if, @foreach)",
+            "Compiles down to plain PHP for high performance"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is routing and what are middleware in Laravel?",
+          "a": "Routing in Laravel defines the entry points for your application, mapping URLs to closures or controller actions in routes files. Middleware act as a filtering mechanism sitting between a request and your application, commonly used for tasks like authentication, CSRF protection, and logging.",
+          "p": [
+            "Routes map URLs to controllers or closures",
+            "Middleware inspect and filter HTTP requests",
+            "Used for authentication and security checks",
+            "Can be applied globally or to specific routes"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the MVC architectural pattern?",
+          "a": "MVC stands for Model-View-Controller. It is a design pattern used to decouple application logic. The Model handles data and business logic, the View manages the user interface and presentation, and the Controller acts as an intermediary that processes user requests, interacts with the Model, and returns the appropriate View.",
+          "p": [
+            "Model handles database and business logic.",
+            "View handles user interface and presentation.",
+            "Controller acts as the bridge between Model and View."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How does Laravel implement the MVC pattern?",
+          "a": "Laravel implements MVC by routing incoming HTTP requests directly to Controllers. The Controller interacts with Eloquent Models to fetch or save data from the database. Finally, the Controller passes this data to Blade templates (Views) to render the final HTML response back to the user.",
+          "p": [
+            "Routes direct requests to Controllers.",
+            "Controllers interact with Eloquent Models for data.",
+            "Views use Blade templates to display data to users."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the main OOPs principles used in Laravel?",
+          "a": "Object-Oriented Programming principles used in Laravel include Encapsulation (hiding data inside classes like Eloquent models), Inheritance (extending base classes like Controller or Model), Polymorphism, and Abstraction (using interfaces and service providers to hide complex implementations).",
+          "p": [
+            "Encapsulation bundles data and methods.",
+            "Inheritance reuses parent class features.",
+            "Abstraction hides complex internal logic."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between require, include, require_once, and include_once in PHP?",
+          "a": "These are PHP constructs used to load external files. 'Include' emits a warning if the file is missing and continues execution, whereas 'require' throws a fatal error and stops execution. The '_once' variants check if the file has already been loaded, preventing duplicate inclusions and redeclaration errors.",
+          "p": [
+            "Require throws fatal error on failure; include throws warning.",
+            "_once prevents duplicate file loading.",
+            "Use require for essential dependencies."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main principles of Object-Oriented Programming (OOP)?",
+          "a": "The four main OOP principles are Encapsulation (bundling data and methods together), Inheritance (inheriting properties from a parent class), Polymorphism (using a unified interface for different data types), and Abstraction (hiding complex implementation details and showing only essentials).",
+          "p": [
+            "Encapsulation: Bundles data and methods",
+            "Inheritance: Reuses parent class code",
+            "Polymorphism: Single interface, multiple forms",
+            "Abstraction: Hides complex logic"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the difference between 'public', 'private', and 'protected' keywords in PHP.",
+          "a": "These are visibility keywords. 'Public' properties and methods can be accessed from anywhere. 'Protected' can only be accessed within the class itself and its subclasses (inheritance). 'Private' restricts access strictly to the class where they are defined.",
+          "p": [
+            "Public: Accessible from anywhere",
+            "Protected: Accessible within class and subclasses",
+            "Private: Accessible only inside the defining class"
+          ],
           "level": "Easy"
         }
       ]
@@ -670,6 +1372,90 @@
       ]
     },
     {
+      "id": "machine_learning",
+      "name": "Machine Learning",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Linear Algebra for Machine Learning",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Calculus and Optimization Techniques",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Probability Theory and Statistics",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Information Theory",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Exploratory Data Analysis (EDA)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "microservices",
+      "name": "Microservices",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Monolith vs Microservices Trade-offs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Domain-Driven Design (DDD) & Bounded Contexts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Decomposition Strategies & Strangler Fig Pattern",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Database Per Service & Shared Database Anti-Pattern",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Synchronous Communication (REST, gRPC, GraphQL)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_sql_server",
+      "name": "Microsoft SQL Server",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Database Engine Architecture and Memory Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Storage Engine: Pages, Extents, and Allocation Units",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Transaction Log Architecture and Write-Ahead Logging (WAL)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain TempDB Design, Contention, and Best Practices",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain B-Tree Internals: Clustered vs. Non-Clustered Indexes",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "mongodb",
       "name": "MongoDB",
       "category": "Tutorial",
@@ -693,6 +1479,62 @@
         },
         {
           "q": "Explain Data Types in MongoDB",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "category": "Tutorial",
+      "questionCount": 210,
+      "questions": [
+        {
+          "q": "Explain InnoDB Architecture and Memory Structures",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain InnoDB Storage Layout and File Formats",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Comparison of Storage Engines: InnoDB vs MyISAM vs Memory",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain MySQL Server Layer vs Storage Engine Layer",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain B-Tree Index Internals and Clustering",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "natural_language_processing_nlp",
+      "name": "Natural Language Processing (NLP)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Tokenization, Stemming, and Lemmatization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Regular Expressions and Text Normalization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Edit Distance and Spelling Correction Algorithms",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Bag-of-Words (BoW) and TF-IDF",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain N-gram Language Models and Smoothing Techniques",
           "level": "Easy"
         }
       ]
@@ -754,6 +1596,62 @@
       ]
     },
     {
+      "id": "nosql_concepts",
+      "name": "NoSQL Concepts",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain CAP Theorem and PACELC Theorem",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain ACID vs. BASE Transactions",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Distributed Consensus (Paxos and Raft)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Consistent Hashing and Virtual Nodes",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Key-Value Stores Internal Architecture",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain ndarray Architecture and Memory Layout",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Types (dtypes) and Precision",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Array Creation Routines and Optimization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Indexing, Slicing, and Advanced Fancy Indexing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Reshaping, Transposing, and Flattening",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "oracle_db",
       "name": "Oracle DB",
       "category": "Tutorial",
@@ -777,6 +1675,34 @@
         },
         {
           "q": "Explain Basic Oracle Tools (SQL*Plus, SQL Developer)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "pandas",
+      "name": "Pandas",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Series and DataFrame Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Index Objects and Alignment",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain IO Operations (CSV, Parquet, JSON, SQL)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Selection, Filtering, and Indexing (.loc, .iloc, __getitem__)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Missing Data Handling (NaN, None, NaT)",
           "level": "Easy"
         }
       ]
@@ -810,6 +1736,34 @@
       ]
     },
     {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Process Architecture and Memory Structures",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Storage Engine and Page Layout (Heap Tuples)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Write-Ahead Logging (WAL) and Checkpointing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Concurrency Control and MVCC Internals",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Transaction Isolation Levels and Anomalies",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "python",
       "name": "Python",
       "category": "Tutorial",
@@ -833,6 +1787,34 @@
         },
         {
           "q": "Explain Data Structures (Lists, Tuples, Dictionaries, Sets)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Tensors, Creation, and Memory Layout",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Autograd Engine and Computation Graphs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Broadcasting Semantics and Vectorization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain torch.nn Module, Parameters, and State Dict",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Loss Functions and Optimizers (AdamW, SGD, Schedulers)",
           "level": "Easy"
         }
       ]
@@ -950,6 +1932,34 @@
       ]
     },
     {
+      "id": "redis",
+      "name": "Redis",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Single-Threaded Event Loop and I/O Multiplexing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Data Structures and Memory Encoding (Strings, Hashes, Lists, Sets, Sorted Sets)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Memory Management, Eviction Policies, and maxmemory",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain RDB (Redis Database) Snapshots and Copy-on-Write (CoW)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain AOF (Append-Only File), Fsync Policies, and AOF Rewrites",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "rest_apis",
       "name": "REST APIs",
       "category": "Tutorial",
@@ -1001,6 +2011,34 @@
         },
         {
           "q": "Explain Action Pack and Request Lifecycle",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "scikitlearn",
+      "name": "Scikit-learn",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Scikit-learn API Design Principles (Consistency, Inspection, Non-distribution)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain NumPy Arrays and SciPy Sparse Matrices as Inputs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Train-Test Splitting and Random State Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Handling Missing Data with SimpleImputer and IterativeImputer",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Feature Scaling: StandardScaler, MinMaxScaler, and RobustScaler",
           "level": "Easy"
         }
       ]
@@ -1145,6 +2183,146 @@
       ]
     },
     {
+      "id": "sql_tuning",
+      "name": "SQL Tuning",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Relational Algebra and Logical Query Processing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain B-Tree and B+Tree Index Architectures",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Clustered vs. Non-Clustered Indexes",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Full Table Scans and Index Seeks vs. Scans",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Composite Index Design and Leftmost Prefix Rule",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain TensorFlow Core Concepts and Tensors",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Autograph and tf.function Internals",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variables, Gradients, and GradientTape",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain tf.data API Performance and Optimization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain TFRecord Generation and Parsing",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Terraform Architecture & Core Workflow",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain HCL Syntax & Language Features",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Providers, Version Constraints, and Aliases",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain State Lifecycle, Locking, and Backends",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain State Manipulation (import, rm, mv, pull, push)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Type System Architecture and Primitive Types",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Interfaces vs. Type Aliases",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Functions, Overloads, and Signatures",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Arrays, Tuples, and Enums (Const vs. Regular)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Union, Intersection, and Literal Types",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "vuejs",
+      "name": "Vue.js",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Vue 3 Composition API vs Options API",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Reactivity System: ref, reactive, toRef, and toRefs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Computed Properties and Watchers (watch vs watchEffect)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Template Syntax, Directives (v-if, v-for, v-model), and Key Attribute",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Component Lifecycle Hooks in Vue 3",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "general",
       "name": "General",
       "category": "Tech",
@@ -1253,119 +2431,6 @@
             "Code reusability",
             "IS-A relationship",
             "Extends functionality"
-          ],
-          "level": "Easy"
-        }
-      ]
-    },
-    {
-      "id": "jpa",
-      "name": "JPA",
-      "category": "Tech",
-      "questionCount": 107,
-      "questions": [
-        {
-          "q": "What is JPA (Java Persistence API)?",
-          "a": "JPA is a Java specification for managing relational data in applications. It provides an ORM layer, mapping Java objects to database tables. JPA defines a standard for accessing, persisting, and managing data between Java objects and a relational database.",
-          "p": [
-            "Java specification",
-            "ORM (Object-Relational Mapping)",
-            "Data persistence"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What problem does JPA solve?",
-          "a": "JPA addresses the object-relational impedance mismatch. It simplifies database interactions by allowing developers to work with Java objects instead of writing SQL. This reduces boilerplate code, improves code readability, and enhances developer productivity by abstracting database complexities.",
-          "p": [
-            "Object-relational mismatch",
-            "Simplifies database interaction",
-            "Reduces boilerplate code"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "Explain the difference between JPA and Hibernate.",
-          "a": "JPA is a specification, while Hibernate is an implementation of that specification. JPA defines the standard, and Hibernate is a concrete library that implements the JPA standard. Other JPA implementations include EclipseLink and Apache OpenJPA.",
-          "p": [
-            "JPA: Specification",
-            "Hibernate: Implementation",
-            "Other implementations exist"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What are the key components of JPA?",
-          "a": "Key components include the EntityManager (for managing persistence operations), EntityManagerFactory (for creating EntityManager instances), Persistence Unit (configuration for database connection), and JPA annotations (for mapping Java classes to database tables).",
-          "p": [
-            "EntityManager",
-            "EntityManagerFactory",
-            "Persistence Unit",
-            "JPA Annotations"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is the purpose of the `@Entity` annotation in JPA?",
-          "a": "The `@Entity` annotation marks a Java class as a persistent entity, meaning it represents a table in the database. Each instance of the class corresponds to a row in that table. It's a fundamental annotation for mapping Java objects to database tables using JPA.",
-          "p": [
-            "Marks a class as persistent",
-            "Represents a database table",
-            "Maps objects to rows"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is the role of the `EntityManager` in JPA?",
-          "a": "The `EntityManager` is the core interface for interacting with the persistence context. It's used to perform operations like persisting (saving), retrieving, updating, and deleting entities. It manages the lifecycle of entities and synchronizes changes with the database.",
-          "p": [
-            "Core interface",
-            "Manages persistence operations",
-            "Synchronizes with the database"
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is the difference between an EntityManagerFactory and an EntityManager in JPA?",
-          "a": "The EntityManagerFactory is a factory for creating EntityManager instances. It's heavyweight and typically created once per application. The EntityManager is a lightweight, short-lived object that manages persistence operations (CRUD) on entities within a specific transaction. Multiple EntityManagers can be created from a single EntityManagerFactory.",
-          "p": [
-            "EntityManagerFactory: Creates EntityManagers.",
-            "EntityManager: Manages persistence operations.",
-            "Factory is heavyweight, Manager is lightweight.",
-            "One Factory, multiple Managers."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is an EntityManager in JPA?",
-          "a": "An EntityManager is an interface in JPA that manages the persistence operations (CRUD - Create, Read, Update, Delete) on entity instances. It provides methods for persisting, merging, removing, and finding entities in the database. It operates within a transaction scope.",
-          "p": [
-            "Manages persistence operations.",
-            "Provides CRUD operations.",
-            "Operates within a transaction.",
-            "Interface in JPA."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "What is an EntityManagerFactory in JPA?",
-          "a": "An EntityManagerFactory is a factory class in JPA used to create EntityManager instances. It is a heavyweight object that is typically created once per application or persistence unit. It encapsulates the configuration details needed to connect to the database.",
-          "p": [
-            "Factory for EntityManagers.",
-            "Heavyweight object.",
-            "Created once per application.",
-            "Encapsulates database configuration."
-          ],
-          "level": "Easy"
-        },
-        {
-          "q": "How do you create an EntityManager from an EntityManagerFactory?",
-          "a": "You create an EntityManager by calling the `createEntityManager()` method on an EntityManagerFactory instance. This method returns a new EntityManager instance that can be used to manage entities.",
-          "p": [
-            "Use `createEntityManager()` method.",
-            "Call on EntityManagerFactory instance.",
-            "Returns a new EntityManager.",
-            "EntityManager is ready to use."
           ],
           "level": "Easy"
         }

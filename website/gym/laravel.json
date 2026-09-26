@@ -1,0 +1,554 @@
+{
+  "skillId": "laravel",
+  "skillName": "Laravel",
+  "questionCount": 42,
+  "concepts": [
+    {
+      "conceptName": "What is Laravel and what are its key features?",
+      "meaning": "Laravel is a popular open-source PHP web framework designed for building scalable web applications following the Model-View-Controller (MVC) architectural pattern, known for its elegant syntax and rich ecosystem.",
+      "questions": [
+        {
+          "q": "What is Laravel and what is its primary architectural pattern?",
+          "a": "Laravel is a free, open-source PHP framework created by Taylor Otwell for developing web applications. It follows the Model-View-Controller (MVC) architectural pattern, which separates application logic from the user interface, making the code more maintainable, organized, and easier to scale.",
+          "p": [
+            "Open-source PHP web framework",
+            "Follows MVC architecture",
+            "Provides expressive and elegant syntax",
+            "Simplifies complex web development tasks"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "What are Eloquent ORM and database migrations in Laravel?",
+          "a": "Eloquent ORM is Laravel's built-in Object-Relational Mapper that allows you to interact with your database using readable PHP syntax instead of writing raw SQL queries, where each database table corresponds to a model. Migrations act as version control for your database, allowing teams to safely modify and share database schemas.",
+          "p": [
+            "Eloquent represents database tables as PHP classes",
+            "Eliminates the need for writing raw SQL",
+            "Migrations manage database schema changes",
+            "Enables easy database rollbacks and sharing"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "What is Blade templating engine and what are its benefits?",
+          "a": "Blade is Laravel's powerful and lightweight built-in templating engine. Unlike other PHP templating engines, Blade allows you to use plain PHP code in your views while providing convenient shortcuts, template inheritance, and reusable components, all compiled into plain PHP caching for optimal performance.",
+          "p": [
+            "Default templating engine in Laravel",
+            "Supports template inheritance and layouts",
+            "Uses clean syntax like directives (@if, @foreach)",
+            "Compiles down to plain PHP for high performance"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "What is routing and what are middleware in Laravel?",
+          "a": "Routing in Laravel defines the entry points for your application, mapping URLs to closures or controller actions in routes files. Middleware act as a filtering mechanism sitting between a request and your application, commonly used for tasks like authentication, CSRF protection, and logging.",
+          "p": [
+            "Routes map URLs to controllers or closures",
+            "Middleware inspect and filter HTTP requests",
+            "Used for authentication and security checks",
+            "Can be applied globally or to specific routes"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the MVC architectural pattern and how does Laravel implement it?",
+      "meaning": "MVC is a software architectural pattern that separates an application into three interconnected components: Model, View, and Controller, promoting organized code and maintainability in Laravel.",
+      "questions": [
+        {
+          "q": "What is the MVC architectural pattern?",
+          "a": "MVC stands for Model-View-Controller. It is a design pattern used to decouple application logic. The Model handles data and business logic, the View manages the user interface and presentation, and the Controller acts as an intermediary that processes user requests, interacts with the Model, and returns the appropriate View.",
+          "p": [
+            "Model handles database and business logic.",
+            "View handles user interface and presentation.",
+            "Controller acts as the bridge between Model and View."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "How does Laravel implement the MVC pattern?",
+          "a": "Laravel implements MVC by routing incoming HTTP requests directly to Controllers. The Controller interacts with Eloquent Models to fetch or save data from the database. Finally, the Controller passes this data to Blade templates (Views) to render the final HTML response back to the user.",
+          "p": [
+            "Routes direct requests to Controllers.",
+            "Controllers interact with Eloquent Models for data.",
+            "Views use Blade templates to display data to users."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "What are the main OOPs principles used in Laravel?",
+          "a": "Object-Oriented Programming principles used in Laravel include Encapsulation (hiding data inside classes like Eloquent models), Inheritance (extending base classes like Controller or Model), Polymorphism, and Abstraction (using interfaces and service providers to hide complex implementations).",
+          "p": [
+            "Encapsulation bundles data and methods.",
+            "Inheritance reuses parent class features.",
+            "Abstraction hides complex internal logic."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between require, include, require_once, and include_once in PHP?",
+          "a": "These are PHP constructs used to load external files. 'Include' emits a warning if the file is missing and continues execution, whereas 'require' throws a fatal error and stops execution. The '_once' variants check if the file has already been loaded, preventing duplicate inclusions and redeclaration errors.",
+          "p": [
+            "Require throws fatal error on failure; include throws warning.",
+            "_once prevents duplicate file loading.",
+            "Use require for essential dependencies."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Eloquent ORM and how does it relate to databases?",
+      "meaning": "Eloquent ORM is Laravel's built-in Object-Relational Mapper that allows developers to interact with database tables as PHP objects, mapping database records to model instances and handling relationships smoothly.",
+      "questions": [
+        {
+          "q": "What are the four main principles of Object-Oriented Programming (OOP)?",
+          "a": "The four main OOP principles are Encapsulation (bundling data and methods together), Inheritance (inheriting properties from a parent class), Polymorphism (using a unified interface for different data types), and Abstraction (hiding complex implementation details and showing only essentials).",
+          "p": [
+            "Encapsulation: Bundles data and methods",
+            "Inheritance: Reuses parent class code",
+            "Polymorphism: Single interface, multiple forms",
+            "Abstraction: Hides complex logic"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "Explain the difference between 'public', 'private', and 'protected' keywords in PHP.",
+          "a": "These are visibility keywords. 'Public' properties and methods can be accessed from anywhere. 'Protected' can only be accessed within the class itself and its subclasses (inheritance). 'Private' restricts access strictly to the class where they are defined.",
+          "p": [
+            "Public: Accessible from anywhere",
+            "Protected: Accessible within class and subclasses",
+            "Private: Accessible only inside the defining class"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between require, include, require_once, and include_once?",
+          "a": "All are used to load files. 'Include' emits a warning if the file is missing and continues script execution, whereas 'require' throws a fatal error and stops. The '_once' variants check if the file has already been included and prevent duplicate loading.",
+          "p": [
+            "Include: Issues warning on failure, continues execution",
+            "Require: Issues fatal error on failure, stops execution",
+            "_once: Prevents duplicate inclusion of the same file"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "How do you handle exceptions using try, catch, and finally blocks in PHP?",
+          "a": "Exception handling allows you to manage runtime errors gracefully. Code that might throw an error is placed inside the 'try' block. If an exception occurs, execution jumps to the 'catch' block where it can be handled. The 'finally' block always executes regardless of whether an exception occurred or not.",
+          "p": [
+            "Try: Wraps risky code",
+            "Catch: Handles the thrown exception",
+            "Finally: Always runs at the end"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between route parameters and query parameters in Laravel.",
+      "meaning": "Understanding how to pass data to Laravel applications via the URL using URI segments versus query string parameters.",
+      "questions": [
+        {
+          "q": "Explain the difference between route parameters and query parameters in Laravel.",
+          "a": "Route parameters are segments of the URL path itself, defined in the route definition using curly braces like `/user/{id}`, and are typically used for required resource identifiers. Query parameters are appended to the URL after a question mark like `?search=laravel`, and are used for optional filtering, sorting, or pagination. In Laravel, you access route parameters as arguments in your controller methods, while query parameters are retrieved using the `Request` object, such as `$request->query('key')` or `$request->input('key')`.",
+          "p": [
+            "Route parameters are part of the URI path (e.g., /posts/{id}).",
+            "Query parameters are appended after the question mark (e.g., ?page=2).",
+            "Route parameters are usually required for resource identification.",
+            "Query parameters are optional and used for filtering or searching."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_0"
+        },
+        {
+          "q": "What is Object-Oriented Programming (OOP) and what are its core principles in PHP/Laravel?",
+          "a": "Object-Oriented Programming is a programming paradigm based on the concept of 'objects', which contain data and code. In PHP and Laravel, the four core principles are Encapsulation (hiding internal state using visibility keywords like public, protected, private), Inheritance (inheriting properties and methods from a parent class using 'extends'), Polymorphism (objects taking multiple forms through interfaces and method overriding), and Abstraction (hiding complex implementation details behind simple interfaces or abstract classes).",
+          "p": [
+            "Encapsulation: Restricting direct access using visibility keywords.",
+            "Inheritance: Reusing code by extending parent classes.",
+            "Polymorphism: Implementing shared interfaces for varied behavior.",
+            "Abstraction: Hiding complex logic behind simple interfaces."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_1"
+        },
+        {
+          "q": "What are the common PHP keywords used for visibility and inheritance in Laravel classes?",
+          "a": "PHP uses several keywords to control class behavior, visibility, and inheritance. Visibility keywords include 'public' (accessible anywhere), 'protected' (accessible within the class and its subclasses), and 'private' (accessible only within the defining class). Inheritance and class definition keywords include 'extends' (for class inheritance), 'implements' (for implementing interfaces), 'abstract' (for classes that cannot be instantiated directly), 'static' (for class-level properties and methods), and 'final' (to prevent class extension or method overriding).",
+          "p": [
+            "Visibility: public, protected, private.",
+            "Inheritance: extends, implements.",
+            "Modifiers: abstract, final, static.",
+            "Used extensively in Laravel controllers, models, and services."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_2"
+        },
+        {
+          "q": "How do you handle exceptions in Laravel, and what are the basics of try-catch blocks?",
+          "a": "Exception handling manages runtime errors gracefully without crashing the application. In PHP and Laravel, you use a 'try-catch' block. Code that might throw an exception is placed inside the 'try' block. If an error occurs, execution jumps to the 'catch' block, where you can catch the specific exception instance, log the error, and return a user-friendly response. Laravel also provides a global exception handler in 'app/Exceptions/Handler.php' to catch unhandled exceptions application-wide.",
+          "p": [
+            "Try block: Contains code that may throw an exception.",
+            "Catch block: Handles the caught exception gracefully.",
+            "Finally block: Optional block that executes regardless of an exception.",
+            "Laravel handles global exceptions automatically in the Exception Handler."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are migrations in Laravel and why are they important?",
+      "meaning": "Laravel migrations act as version control for your database, allowing your team to define, modify, and share database schema definitions in PHP code instead of writing raw SQL.",
+      "questions": [
+        {
+          "q": "What are migrations in Laravel and why are they important?",
+          "a": "Migrations are PHP files that describe changes to your database schema, acting as version control for your database. They are important because they allow teams to easily share, synchronize, and rollback database structures across different development environments without manual SQL scripts.",
+          "p": [
+            "Acts as version control for database schemas.",
+            "Allows writing database changes in PHP code.",
+            "Enables easy synchronization across team environments.",
+            "Supports rolling back recent database changes safely."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "What are the four main OOPs principles?",
+          "a": "The four main Object-Oriented Programming principles are Encapsulation (bundling data and methods), Inheritance (reusing parent class code), Polymorphism (using a unified interface for different data types), and Abstraction (hiding complex implementation details and showing only essentials).",
+          "p": [
+            "Encapsulation: Bundling data and methods together.",
+            "Inheritance: Reusing code from a parent class.",
+            "Polymorphism: Using one interface for multiple types.",
+            "Abstraction: Hiding complexity and showing essentials."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between include and require in PHP.",
+          "a": "Both `include` and `require` are used to load external PHP files. The main difference is how they handle failure: `include` throws a warning and allows the script to continue running, while `require` throws a fatal error and stops execution immediately.",
+          "p": [
+            "include throws a warning on failure.",
+            "require throws a fatal error and halts execution.",
+            "Both are used to load external PHP files."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "What are the basic data types available in PHP?",
+          "a": "PHP supports eight primitive data types divided into four scalar types (boolean, integer, float, string), two compound types (array, object), and two special types (resource, NULL).",
+          "p": [
+            "Scalar types: boolean, integer, float, string.",
+            "Compound types: array, object.",
+            "Special types: resource, NULL."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        },
+        {
+          "q": "What is exception handling and how do you catch exceptions in PHP?",
+          "a": "Exception handling is a mechanism to handle runtime errors gracefully without crashing the application. In PHP, you use a `try-catch` block where code that might throw an error is placed inside the `try` block, and the error is captured and handled inside the `catch` block.",
+          "p": [
+            "Prevents application crashes during runtime errors.",
+            "Risky code goes inside the try block.",
+            "Errors are captured and handled inside the catch block."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is dependency injection and how is it used in Laravel services?",
+      "meaning": "Dependency Injection (DI) is a design pattern used to implement IoC (Inversion of Control), allowing the creation of dependent objects outside of a class and providing those objects to a class through various ways. In Laravel, the service container automatically resolves dependencies.",
+      "questions": [
+        {
+          "q": "What is Dependency Injection?",
+          "a": "Dependency Injection is a design pattern where a class receives its required dependencies from an external source rather than creating them internally. This promotes loose coupling, making code easier to test and maintain. In Laravel, the service container automatically injects these dependencies into class constructors or method parameters.",
+          "p": [
+            "Passes objects into a class instead of creating them inside",
+            "Promotes loose coupling and modular code",
+            "Makes unit testing much easier",
+            "Handled automatically by the Laravel service container"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "What are the main types of Dependency Injection?",
+          "a": "The three main types of dependency injection are Constructor Injection, Method Injection, and Setter Injection. Constructor injection is the most common and is used when a dependency is required for the class to function. Method injection is used when the dependency is only needed for a specific action.",
+          "p": [
+            "Constructor Injection: Passed via the class constructor",
+            "Method Injection: Passed directly to a specific method",
+            "Setter Injection: Passed via setter methods after instantiation",
+            "Constructor injection is the standard in Laravel"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "What is the Laravel Service Container?",
+          "a": "The Laravel service container is a powerful tool for managing class dependencies and performing dependency injection. It is responsible for resolving class dependencies, instantiating objects, and binding interfaces to implementations. Whenever you type-hint a dependency in a controller or service, the container automatically resolves it.",
+          "p": [
+            "Core tool for managing dependencies in Laravel",
+            "Automatically resolves type-hinted classes",
+            "Handles object instantiation behind the scenes",
+            "Supports binding interfaces to concrete implementations"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "Explain the difference between bind and singleton in Laravel Service Container.",
+          "a": "The `bind` method registers a binding that creates a new instance of the class every time it is requested from the container. In contrast, the `singleton` method binds a class so that it is resolved only once; every subsequent request for that dependency will return the exact same cached instance throughout the request lifecycle.",
+          "p": [
+            "bind: Creates a new instance every time",
+            "singleton: Creates one instance and reuses it",
+            "Use singleton for services that maintain state",
+            "Use bind for transient or stateless objects"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between GET and POST HTTP requests in Laravel routing.",
+      "meaning": "Understanding HTTP verbs and how Laravel routes different request types to controllers for data retrieval versus data submission.",
+      "questions": [
+        {
+          "q": "Explain the difference between GET and POST HTTP requests in Laravel routing.",
+          "a": "GET requests are used to retrieve data from the server and append parameters to the URL query string, making them visible and bookmarkable. In Laravel, you define them using Route::get(). POST requests are used to send data to the server to create or update resources, transmitting data securely in the request body rather than the URL. In Laravel, you define them using Route::post() and they require a CSRF token for security.",
+          "p": [
+            "GET retrieves data, POST submits/creates data.",
+            "GET exposes parameters in the URL, POST hides them in the body.",
+            "POST requests in Laravel require a @csrf token for security.",
+            "Defined in routes/web.php using Route::get() and Route::post()."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_0"
+        },
+        {
+          "q": "What are the four core OOPs principles in PHP and Laravel?",
+          "a": "The four core OOPs principles are Encapsulation, Inheritance, Polymorphism, and Abstraction. Encapsulation bundles data and methods within a class, restricting direct access. Inheritance allows a child class to inherit properties and methods from a parent class. Polymorphism lets different classes implement methods with the same name. Abstraction hides complex implementation details and exposes only essential features using abstract classes and interfaces.",
+          "p": [
+            "Encapsulation: Bundling data and restricting direct access.",
+            "Inheritance: Reusing code from parent to child classes.",
+            "Polymorphism: Same method name behaving differently across classes.",
+            "Abstraction: Hiding complex logic behind simple interfaces."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_1"
+        },
+        {
+          "q": "What is the difference between public, protected, and private visibility keywords in PHP?",
+          "a": "Visibility keywords control where class properties and methods can be accessed. 'Public' allows access from anywhere, inside and outside the class. 'Protected' restricts access to the class itself and its inherited child classes. 'Private' strictly limits access to the defining class only, preventing access from child classes or external code. Laravel controllers and models frequently use these to manage method and property access.",
+          "p": [
+            "Public: Accessible from anywhere inside or outside the class.",
+            "Protected: Accessible within the class and its child classes.",
+            "Private: Accessible only within the specific defining class.",
+            "Used for encapsulation and data security."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_2"
+        },
+        {
+          "q": "What are the primary data types available in PHP?",
+          "a": "PHP supports eight primitive and compound data types. The four scalar types are Boolean, Integer, Float (floating-point numbers), and String. The two compound types are Array and Object. The two special types are Resource (holding external references like database connections) and NULL (representing a variable with no value). Laravel heavily utilizes arrays, objects, and strings throughout its ecosystem.",
+          "p": [
+            "Scalar: boolean, integer, float, string.",
+            "Compound: array, object.",
+            "Special: resource, null.",
+            "Dynamically typed language handles these automatically."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_3"
+        },
+        {
+          "q": "How do you handle exceptions using try-catch blocks in PHP and Laravel?",
+          "a": "Exception handling allows you to catch runtime errors gracefully without crashing the application. You place risky code inside a 'try' block. If an error occurs, an exception is thrown and caught by the 'catch' block, where you can log the error or display a friendly message. Finally, an optional 'finally' block executes code regardless of whether an exception occurred. Laravel also provides a global exception handler in app/Exceptions/Handler.php.",
+          "p": [
+            "Try block contains the code that might throw an exception.",
+            "Catch block handles the thrown exception object.",
+            "Finally block always executes regardless of outcome.",
+            "Prevents fatal application crashes during runtime errors."
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Exp_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are Blade templates and what are their primary benefits?",
+      "meaning": "Blade is the simple yet powerful templating engine included with Laravel. It allows you to use plain PHP code in your views while providing convenient shortcuts, template inheritance, and data binding, compiling down to plain PHP code and cached for optimal performance.",
+      "questions": [
+        {
+          "q": "What is Blade and what are its primary benefits?",
+          "a": "Blade is Laravel's built-in templating engine. Its primary benefits include template inheritance, data binding via double curly braces, and the ability to write clean PHP code using lightweight directives like @if and @foreach. Blade files are compiled into plain PHP and cached, ensuring zero performance overhead.",
+          "p": [
+            "Built-in Laravel templating engine",
+            "Supports template inheritance (@extends, @section)",
+            "Compiles down to plain cached PHP",
+            "Provides clean, readable syntax shortcuts"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "What is the difference between {{ $variable }} and {!! $variable !!} in Blade?",
+          "a": "The double curly brace syntax {{ $variable }} automatically passes the data through PHP's htmlspecialchars function to prevent XSS attacks by escaping output. In contrast, the unescaped syntax {!! $variable !!} renders raw HTML directly to the browser, which should only be used when you completely trust the data source.",
+          "p": [
+            "{{ }} escapes output for security (XSS prevention)",
+            "{!! !!} renders raw unescaped HTML",
+            "Use escaped syntax by default",
+            "Only use unescaped syntax for trusted HTML content"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "How does template inheritance work in Blade?",
+          "a": "Template inheritance in Blade is achieved using the @extends, @section, and @yield directives. A master layout file defines common UI structures and uses @yield('section_name') as a placeholder. Child views extend this layout using @extends and define the content for those placeholders using @section('section_name')...@endsection.",
+          "p": [
+            "Use @extends to inherit a master layout",
+            "Use @yield to create content placeholders",
+            "Use @section to inject content into placeholders",
+            "Promotes code reusability across views"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "What are Blade components and why are they used?",
+          "a": "Blade components provide reusable UI elements similar to directives, allowing you to encapsulate HTML and logic into a single class-based or anonymous component. They improve maintainability by letting you pass data via attributes and render complex UI blocks cleanly throughout your application using custom HTML tags like <x-alert />.",
+          "p": [
+            "Reusable UI building blocks",
+            "Invoked using custom HTML tags (x-component)",
+            "Accept data via attributes or props",
+            "Encapsulate presentation and logic cleanly"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is middleware in Laravel and what is its standard use case?",
+      "meaning": "Middleware acts as a filtering mechanism for HTTP requests entering your Laravel application. It inspects, rejects, or passes requests further into the application lifecycle.",
+      "questions": [
+        {
+          "q": "What is middleware in Laravel and what is its standard use case?",
+          "a": "Middleware is a mechanism that inspects and filters HTTP requests entering your application. Think of it as a series of layers or guards that a request must pass through before reaching your controller. The most standard use case is authentication; for example, checking if a user is logged in before allowing them to access a dashboard route. If they are not authenticated, the middleware redirects them to the login page.",
+          "p": [
+            "Acts as a bridge between a request and a response",
+            "Standard use case is authentication and authorization",
+            "Can perform actions before or after the request hits the controller"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "What are the four pillars of OOPs principles?",
+          "a": "The four pillars of Object-Oriented Programming are Encapsulation, Inheritance, Polymorphism, and Abstraction. Encapsulation bundles data and methods into a single unit (class). Inheritance allows a class to acquire properties of another class. Polymorphism lets objects take multiple forms through method overriding or overloading. Abstraction hides complex implementation details and shows only essential features.",
+          "p": [
+            "Encapsulation: Bundling data and hiding internal state",
+            "Inheritance: Reusing code from parent classes",
+            "Polymorphism: Using a unified interface for different data types",
+            "Abstraction: Hiding complexity and showing only functionality"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between require and include in PHP?",
+          "a": "Both `require` and `include` are used to load external PHP files. The primary difference is how they handle failure. If a file loaded with `include` is missing, PHP throws a warning, but the script continues execution. Conversely, if a file loaded with `require` is missing, PHP throws a fatal error and stops script execution entirely.",
+          "p": [
+            "include throws a warning and continues execution on failure",
+            "require throws a fatal error and halts execution on failure",
+            "Both have 'once' variants to prevent duplicate file loading"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between GET and POST HTTP methods?",
+          "a": "GET is used to retrieve data from a server and appends parameters to the URL string, making it visible and bookmarkable. It has data length limitations and is not secure for sensitive information. POST is used to send data to the server to create or update a resource. The data is included in the HTTP request body, meaning it is hidden from the URL and can handle much larger volumes of data securely.",
+          "p": [
+            "GET exposes data in URL; POST hides data in the request body",
+            "GET is idempotent and meant for reading; POST is for modifications",
+            "POST supports larger data sizes compared to GET"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is Artisan CLI and what are the most common commands used in daily development?",
+      "meaning": "Artisan is the built-in command-line interface included with Laravel. It provides a number of helpful commands for managing your application, handling database migrations, seeding, running tests, and generating boilerplate code, making daily development much faster and more efficient.",
+      "questions": [
+        {
+          "q": "What is Laravel Artisan CLI?",
+          "a": "Artisan is the command-line tool included with Laravel. It provides helpful commands to build and manage web applications, automate repetitive tasks, and interact with the framework via the terminal.",
+          "p": [
+            "Built-in command-line tool in Laravel",
+            "Automates repetitive development tasks",
+            "Used for code generation and maintenance"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_0"
+        },
+        {
+          "q": "How do you run migrations using Artisan?",
+          "a": "You run database migrations using the 'php artisan migrate' command. This executes any pending migrations, creating or updating database tables according to your migration files.",
+          "p": [
+            "Command is 'php artisan migrate'",
+            "Applies pending database changes",
+            "Essential for database version control"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_1"
+        },
+        {
+          "q": "What command is used to create a new controller in Laravel?",
+          "a": "You use 'php artisan make:controller ControllerName' to generate a new controller class. You can also append flags like '--resource' to automatically include standard CRUD methods.",
+          "p": [
+            "Command is 'php artisan make:controller'",
+            "Generates boilerplate controller code",
+            "Use '--resource' flag for CRUD methods"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_2"
+        },
+        {
+          "q": "How do you clear the application cache using Artisan?",
+          "a": "You can clear the application cache using 'php artisan cache:clear'. Laravel also provides separate commands for clearing configuration, routes, and views.",
+          "p": [
+            "Command is 'php artisan cache:clear'",
+            "Helps reflect recent code or config changes",
+            "Prevents stale data bugs during development"
+          ],
+          "level": "Easy",
+          "id": "laravel_easy_Wha_3"
+        }
+      ]
+    }
+  ]
+}

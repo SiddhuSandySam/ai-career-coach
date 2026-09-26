@@ -7423,9 +7423,4822 @@
       ]
     },
     {
+      "moduleId": "graphql",
+      "moduleName": "GraphQL",
+      "order": 30,
+      "description": "Master GraphQL from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "GQL-01",
+          "topicName": "Core Concepts & Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "GQL-02",
+          "topicName": "Schema Definition Language (SDL)",
+          "order": 2
+        },
+        {
+          "topicId": "GQL-03",
+          "topicName": "Types, Scalars, and Interfaces",
+          "order": 3
+        },
+        {
+          "topicId": "GQL-04",
+          "topicName": "Queries, Mutations, and Subscriptions",
+          "order": 4
+        },
+        {
+          "topicId": "GQL-05",
+          "topicName": "Execution Engine & AST",
+          "order": 5
+        },
+        {
+          "topicId": "GQL-06",
+          "topicName": "Resolvers Architecture & Context",
+          "order": 6
+        },
+        {
+          "topicId": "GQL-07",
+          "topicName": "The N+1 Problem & DataLoader Pattern",
+          "order": 7
+        },
+        {
+          "topicId": "GQL-08",
+          "topicName": "Error Handling & Custom Extensions",
+          "order": 8
+        },
+        {
+          "topicId": "GQL-09",
+          "topicName": "Directives (Built-in & Custom)",
+          "order": 9
+        },
+        {
+          "topicId": "GQL-10",
+          "topicName": "Authentication & Authorization Strategies",
+          "order": 10
+        },
+        {
+          "topicId": "GQL-11",
+          "topicName": "Client State Management & Caching",
+          "order": 11
+        },
+        {
+          "topicId": "GQL-12",
+          "topicName": "Normalization & Cache Eviction",
+          "order": 12
+        },
+        {
+          "topicId": "GQL-13",
+          "topicName": "Fragments & Colocation",
+          "order": 13
+        },
+        {
+          "topicId": "GQL-14",
+          "topicName": "Performance Optimization & Monitoring",
+          "order": 14
+        },
+        {
+          "topicId": "GQL-15",
+          "topicName": "Security (Rate Limiting, Depth Limiting, Cost Analysis)",
+          "order": 15
+        },
+        {
+          "topicId": "GQL-16",
+          "topicName": "Federation & Microservices Architecture",
+          "order": 16
+        },
+        {
+          "topicId": "GQL-17",
+          "topicName": "Schema Evolution, Versioning, and Deprecation",
+          "order": 17
+        },
+        {
+          "topicId": "GQL-18",
+          "topicName": "Testing Strategies & Mocking",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "microservices",
+      "moduleName": "Microservices",
+      "order": 31,
+      "description": "Master Microservices from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "MS-FUD-01",
+          "topicName": "Monolith vs Microservices Trade-offs",
+          "order": 1
+        },
+        {
+          "topicId": "MS-FUD-02",
+          "topicName": "Domain-Driven Design (DDD) & Bounded Contexts",
+          "order": 2
+        },
+        {
+          "topicId": "MS-FUD-03",
+          "topicName": "Decomposition Strategies & Strangler Fig Pattern",
+          "order": 3
+        },
+        {
+          "topicId": "MS-FUD-04",
+          "topicName": "Database Per Service & Shared Database Anti-Pattern",
+          "order": 4
+        },
+        {
+          "topicId": "MS-COM-01",
+          "topicName": "Synchronous Communication (REST, gRPC, GraphQL)",
+          "order": 5
+        },
+        {
+          "topicId": "MS-COM-02",
+          "topicName": "Asynchronous Event-Driven Architecture (Pub/Sub, Brokers)",
+          "order": 6
+        },
+        {
+          "topicId": "MS-COM-03",
+          "topicName": "API Gateway & Backend for Frontend (BFF) Patterns",
+          "order": 7
+        },
+        {
+          "topicId": "MS-COM-04",
+          "topicName": "Service Discovery (Client-side vs Server-side)",
+          "order": 8
+        },
+        {
+          "topicId": "MS-DAT-01",
+          "topicName": "CAP Theorem & PACELC Theorem in Practice",
+          "order": 9
+        },
+        {
+          "topicId": "MS-DAT-02",
+          "topicName": "Distributed Transactions & The Saga Pattern (Orchestration vs Choreography)",
+          "order": 10
+        },
+        {
+          "topicId": "MS-DAT-03",
+          "topicName": "Event Sourcing & CQRS (Command Query Responsibility Segregation)",
+          "order": 11
+        },
+        {
+          "topicId": "MS-DAT-04",
+          "topicName": "Idempotency and Handling Duplicate Messages",
+          "order": 12
+        },
+        {
+          "topicId": "MS-RES-01",
+          "topicName": "Circuit Breakers, Retries, and Timeouts",
+          "order": 13
+        },
+        {
+          "topicId": "MS-RES-02",
+          "topicName": "Bulkheads and Rate Limiting",
+          "order": 14
+        },
+        {
+          "topicId": "MS-RES-03",
+          "topicName": "Graceful Degradation and Fallback Strategies",
+          "order": 15
+        },
+        {
+          "topicId": "MS-RES-04",
+          "topicName": "Chaos Engineering Principles",
+          "order": 16
+        },
+        {
+          "topicId": "MS-OBS-01",
+          "topicName": "Distributed Tracing & Context Propagation (W3C, OpenTelemetry)",
+          "order": 17
+        },
+        {
+          "topicId": "MS-OBS-02",
+          "topicName": "Centralized Logging and Log Aggregation",
+          "order": 18
+        },
+        {
+          "topicId": "MS-OBS-03",
+          "topicName": "Metrics, Monitoring, and the Four Golden Signals",
+          "order": 19
+        },
+        {
+          "topicId": "MS-SEC-01",
+          "topicName": "Authentication & Authorization (OAuth2, OIDC, JWT)",
+          "order": 20
+        },
+        {
+          "topicId": "MS-SEC-02",
+          "topicName": "Zero Trust Network Architecture & mTLS",
+          "order": 21
+        },
+        {
+          "topicId": "MS-SEC-03",
+          "topicName": "Secrets Management in Distributed Systems",
+          "order": 22
+        },
+        {
+          "topicId": "MS-INF-01",
+          "topicName": "Containerization (Docker) and Orchestration (Kubernetes)",
+          "order": 23
+        },
+        {
+          "topicId": "MS-INF-02",
+          "topicName": "Service Mesh Architecture (Istio, Linkerd)",
+          "order": 24
+        },
+        {
+          "topicId": "MS-INF-03",
+          "topicName": "CI/CD Pipelines for Microservices & Progressive Delivery",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "hibernate",
+      "moduleName": "Hibernate",
+      "order": 32,
+      "description": "Master Hibernate from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "HIB-001",
+          "topicName": "ORM Concepts and Hibernate Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "HIB-002",
+          "topicName": "SessionFactory, Session, and EntityManager",
+          "order": 2
+        },
+        {
+          "topicId": "HIB-003",
+          "topicName": "Hibernate Configuration (hibernate.cfg.xml vs JPA Persistence.xml)",
+          "order": 3
+        },
+        {
+          "topicId": "HIB-004",
+          "topicName": "Entity Mapping, Basic Annotations, and Column Configurations",
+          "order": 4
+        },
+        {
+          "topicId": "HIB-005",
+          "topicName": "Primary Key Generation Strategies (Identity, Sequence, Table, Auto)",
+          "order": 5
+        },
+        {
+          "topicId": "HIB-006",
+          "topicName": "Association Mappings (One-to-One, One-to-Many, Many-to-One, Many-to-Many)",
+          "order": 6
+        },
+        {
+          "topicId": "HIB-007",
+          "topicName": "Inheritance Mapping Strategies (Single Table, Joined, Table per Class)",
+          "order": 7
+        },
+        {
+          "topicId": "HIB-008",
+          "topicName": "Embedded Objects and Element Collections",
+          "order": 8
+        },
+        {
+          "topicId": "HIB-009",
+          "topicName": "Entity States (Transient, Persistent, Detached, Removed)",
+          "order": 9
+        },
+        {
+          "topicId": "HIB-010",
+          "topicName": "Session Methods: persist, merge, saveOrUpdate, update, delete, refresh",
+          "order": 10
+        },
+        {
+          "topicId": "HIB-011",
+          "topicName": "The Dirty Checking Mechanism",
+          "order": 11
+        },
+        {
+          "topicId": "HIB-012",
+          "topicName": "Cascading Operations and Orphan Removal",
+          "order": 12
+        },
+        {
+          "topicId": "HIB-013",
+          "topicName": "HQL (Hibernate Query Language) Fundamentals",
+          "order": 13
+        },
+        {
+          "topicId": "HIB-014",
+          "topicName": "Criteria API (Type-safe Queries)",
+          "order": 14
+        },
+        {
+          "topicId": "HIB-015",
+          "topicName": "Native SQL Queries and ResultTransformer / Tuple Mappings",
+          "order": 15
+        },
+        {
+          "topicId": "HIB-016",
+          "topicName": "Named Queries and Stored Procedures",
+          "order": 16
+        },
+        {
+          "topicId": "HIB-017",
+          "topicName": "First-Level Cache (Session Cache)",
+          "order": 17
+        },
+        {
+          "topicId": "HIB-018",
+          "topicName": "Second-Level Cache (RegionFactory, EHCache, Infinispan)",
+          "order": 18
+        },
+        {
+          "topicId": "HIB-019",
+          "topicName": "Query Cache Configuration and Usage",
+          "order": 19
+        },
+        {
+          "topicId": "HIB-020",
+          "topicName": "Fetch Strategies (Lazy vs Eager, FetchJoin, Subselect)",
+          "order": 20
+        },
+        {
+          "topicId": "HIB-021",
+          "topicName": "Solving the N+1 Select Problem",
+          "order": 21
+        },
+        {
+          "topicId": "HIB-022",
+          "topicName": "Transaction Management and ACID Properties in Hibernate",
+          "order": 22
+        },
+        {
+          "topicId": "HIB-023",
+          "topicName": "Optimistic Locking (@Version)",
+          "order": 23
+        },
+        {
+          "topicId": "HIB-024",
+          "topicName": "Pessimistic Locking (PESSIMISTIC_READ, PESSIMISTIC_WRITE)",
+          "order": 24
+        },
+        {
+          "topicId": "HIB-025",
+          "topicName": "Entity Graphs (FetchGraph vs LoadGraph)",
+          "order": 25
+        },
+        {
+          "topicId": "HIB-026",
+          "topicName": "Hibernate Interceptors and Event Listeners (Entity Lifecycle Hooks)",
+          "order": 26
+        },
+        {
+          "topicId": "HIB-027",
+          "topicName": "Hibernate Envers for Auditing",
+          "order": 27
+        },
+        {
+          "topicId": "HIB-028",
+          "topicName": "Spatial Data and Custom Types (UserType)",
+          "order": 28
+        },
+        {
+          "topicId": "HIB-029",
+          "topicName": "Batch Processing and Session StatelesSession",
+          "order": 29
+        },
+        {
+          "topicId": "HIB-030",
+          "topicName": "Connection Pooling (HikariCP) and Dialects",
+          "order": 30
+        },
+        {
+          "topicId": "HIB-031",
+          "topicName": "Common Anti-patterns and Memory Leaks in Hibernate",
+          "order": 31
+        },
+        {
+          "topicId": "HIB-032",
+          "topicName": "Debugging SQL Generation, Statistics, and Performance Tuning",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "moduleId": "jpa",
+      "moduleName": "JPA",
+      "order": 33,
+      "description": "Master JPA from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JPA-01",
+          "topicName": "Introduction to JPA and ORM Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "JPA-02",
+          "topicName": "Persistence Context and EntityManager Lifecycle",
+          "order": 2
+        },
+        {
+          "topicId": "JPA-03",
+          "topicName": "Entity States: Transient, Managed, Detached, and Removed",
+          "order": 3
+        },
+        {
+          "topicId": "JPA-04",
+          "topicName": "Basic Mappings, Table Strategies, and Column Configurations",
+          "order": 4
+        },
+        {
+          "topicId": "JPA-05",
+          "topicName": "Primary Key Generation Strategies (Identity, Sequence, Table, Auto)",
+          "order": 5
+        },
+        {
+          "topicId": "JPA-06",
+          "topicName": "Association Mappings: One-to-One, One-to-Many, Many-to-One, and Many-to-Many",
+          "order": 6
+        },
+        {
+          "topicId": "JPA-07",
+          "topicName": "Inheritance Mapping Strategies (Single Table, Joined, Table per Class)",
+          "order": 7
+        },
+        {
+          "topicId": "JPA-08",
+          "topicName": "Embedded Objects and Element Collections",
+          "order": 8
+        },
+        {
+          "topicId": "JPA-09",
+          "topicName": "JPQL (Java Persistence Query Language) Fundamentals",
+          "order": 9
+        },
+        {
+          "topicId": "JPA-10",
+          "topicName": "Criteria API for Dynamic Type-Safe Queries",
+          "order": 10
+        },
+        {
+          "topicId": "JPA-11",
+          "topicName": "Native SQL Queries and Resultset Mapping",
+          "order": 11
+        },
+        {
+          "topicId": "JPA-12",
+          "topicName": "Stored Procedures and Database Functions",
+          "order": 12
+        },
+        {
+          "topicId": "JPA-13",
+          "topicName": "Fetching Strategies: Lazy vs Eager Loading and N+1 Problem",
+          "order": 13
+        },
+        {
+          "topicId": "JPA-14",
+          "topicName": "Entity Graphs (Fetch Graphs and Load Graphs)",
+          "order": 14
+        },
+        {
+          "topicId": "JPA-15",
+          "topicName": "Caching: First-Level (L1) and Second-Level (L2) Cache Configuration",
+          "order": 15
+        },
+        {
+          "topicId": "JPA-16",
+          "topicName": "Dirty Checking, Flush Modes, and Batch Operations",
+          "order": 16
+        },
+        {
+          "topicId": "JPA-17",
+          "topicName": "Transaction Management and Propagation in JPA",
+          "order": 17
+        },
+        {
+          "topicId": "JPA-18",
+          "topicName": "Concurrency Control: Optimistic vs Pessimistic Locking (@Version)",
+          "order": 18
+        },
+        {
+          "topicId": "JPA-19",
+          "topicName": "Hibernate/JPA Event Listeners and Entity Lifecycle Callbacks",
+          "order": 19
+        },
+        {
+          "topicId": "JPA-20",
+          "topicName": "Database Schema Generation and Migration Tools (Flyway/Liquibase)",
+          "order": 20
+        },
+        {
+          "topicId": "JPA-21",
+          "topicName": "Debugging, SQL Logging, Statistics, and Performance Tuning in Production",
+          "order": 21
+        }
+      ]
+    },
+    {
+      "moduleId": "machine_learning",
+      "moduleName": "Machine Learning",
+      "order": 34,
+      "description": "Master Machine Learning from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "FM01",
+          "topicName": "Linear Algebra for Machine Learning",
+          "order": 1
+        },
+        {
+          "topicId": "FM02",
+          "topicName": "Calculus and Optimization Techniques",
+          "order": 2
+        },
+        {
+          "topicId": "FM03",
+          "topicName": "Probability Theory and Statistics",
+          "order": 3
+        },
+        {
+          "topicId": "FM04",
+          "topicName": "Information Theory",
+          "order": 4
+        },
+        {
+          "topicId": "DE01",
+          "topicName": "Exploratory Data Analysis (EDA)",
+          "order": 5
+        },
+        {
+          "topicId": "DE02",
+          "topicName": "Missing Data Imputation Strategies",
+          "order": 6
+        },
+        {
+          "topicId": "DE03",
+          "topicName": "Feature Scaling and Normalization",
+          "order": 7
+        },
+        {
+          "topicId": "DE04",
+          "topicName": "Categorical Encoding Techniques",
+          "order": 8
+        },
+        {
+          "topicId": "DE05",
+          "topicName": "Dimensionality Reduction (PCA, t-SNE, UMAP)",
+          "order": 9
+        },
+        {
+          "topicId": "CM01",
+          "topicName": "Linear and Logistic Regression",
+          "order": 10
+        },
+        {
+          "topicId": "CM02",
+          "topicName": "Support Vector Machines (SVM)",
+          "order": 11
+        },
+        {
+          "topicId": "CM03",
+          "topicName": "Decision Trees and Random Forests",
+          "order": 12
+        },
+        {
+          "topicId": "CM04",
+          "topicName": "Gradient Boosting (XGBoost, LightGBM, CatBoost)",
+          "order": 13
+        },
+        {
+          "topicId": "CM05",
+          "topicName": "Clustering Algorithms (K-Means, DBSCAN, Hierarchical)",
+          "order": 14
+        },
+        {
+          "topicId": "DL01",
+          "topicName": "Multilayer Perceptrons (MLP) and Backpropagation",
+          "order": 15
+        },
+        {
+          "topicId": "DL02",
+          "topicName": "Activation Functions and Initialization Strategies",
+          "order": 16
+        },
+        {
+          "topicId": "DL03",
+          "topicName": "Regularization Techniques (Dropout, BatchNorm, Weight Decay)",
+          "order": 17
+        },
+        {
+          "topicId": "DL04",
+          "topicName": "Optimization Algorithms (SGD, Adam, RMSprop)",
+          "order": 18
+        },
+        {
+          "topicId": "CV01",
+          "topicName": "Convolutional Neural Networks (CNNs)",
+          "order": 19
+        },
+        {
+          "topicId": "CV02",
+          "topicName": "Object Detection (YOLO, Faster R-CNN)",
+          "order": 20
+        },
+        {
+          "topicId": "CV03",
+          "topicName": "Image Segmentation (Semantic and Instance)",
+          "order": 21
+        },
+        {
+          "topicId": "NLP01",
+          "topicName": "Text Preprocessing and Tokenization",
+          "order": 22
+        },
+        {
+          "topicId": "NLP02",
+          "topicName": "Word Embeddings (Word2Vec, GloVe, FastText)",
+          "order": 23
+        },
+        {
+          "topicId": "NLP03",
+          "topicName": "Recurrent Neural Networks (RNN, LSTM, GRU)",
+          "order": 24
+        },
+        {
+          "topicId": "NLP04",
+          "topicName": "Transformer Architecture and Attention Mechanisms",
+          "order": 25
+        },
+        {
+          "topicId": "NLP05",
+          "topicName": "Large Language Models (LLMs) and Fine-Tuning",
+          "order": 26
+        },
+        {
+          "topicId": "ME01",
+          "topicName": "Cross-Validation and Data Splitting Strategies",
+          "order": 27
+        },
+        {
+          "topicId": "ME02",
+          "topicName": "Evaluation Metrics for Classification and Regression",
+          "order": 28
+        },
+        {
+          "topicId": "ME03",
+          "topicName": "Bias-Variance Tradeoff and Learning Curves",
+          "order": 29
+        },
+        {
+          "topicId": "ME04",
+          "topicName": "Hyperparameter Tuning (Grid Search, Bayesian Optimization)",
+          "order": 30
+        },
+        {
+          "topicId": "MO01",
+          "topicName": "Model Serialization and Serving (ONNX, TorchScript, FastAPI)",
+          "order": 31
+        },
+        {
+          "topicId": "MO02",
+          "topicName": "Model Monitoring, Drift Detection, and Data Quality",
+          "order": 32
+        },
+        {
+          "topicId": "MO03",
+          "topicName": "CI/CD for Machine Learning (MLOps Pipelines)",
+          "order": 33
+        },
+        {
+          "topicId": "MO04",
+          "topicName": "Feature Stores and Data Versioning (DVC)",
+          "order": 34
+        },
+        {
+          "topicId": "MO05",
+          "topicName": "Distributed Training and Scalability (Spark, Ray, Horovod)",
+          "order": 35
+        },
+        {
+          "topicId": "SD01",
+          "topicName": "Designing Recommendation Systems",
+          "order": 36
+        },
+        {
+          "topicId": "SD02",
+          "topicName": "Real-Time Fraud Detection Systems",
+          "order": 37
+        },
+        {
+          "topicId": "SD03",
+          "topicName": "Large-Scale Search and Ranking Architectures",
+          "order": 38
+        }
+      ]
+    },
+    {
+      "moduleId": "data_science",
+      "moduleName": "Data Science",
+      "order": 35,
+      "description": "Master Data Science from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "MS01",
+          "topicName": "Linear Algebra for Data Science",
+          "order": 1
+        },
+        {
+          "topicId": "MS02",
+          "topicName": "Calculus and Optimization Techniques",
+          "order": 2
+        },
+        {
+          "topicId": "MS03",
+          "topicName": "Probability Theory and Random Variables",
+          "order": 3
+        },
+        {
+          "topicId": "MS04",
+          "topicName": "Inferential Statistics and Hypothesis Testing",
+          "order": 4
+        },
+        {
+          "topicId": "PE01",
+          "topicName": "Advanced Python and Vectorization",
+          "order": 5
+        },
+        {
+          "topicId": "PE02",
+          "topicName": "SQL and Relational Database Design",
+          "order": 6
+        },
+        {
+          "topicId": "PE03",
+          "topicName": "NoSQL and Distributed Data Systems",
+          "order": 7
+        },
+        {
+          "topicId": "PE04",
+          "topicName": "ETL Pipelines and Data Wrangling with Pandas/Spark",
+          "order": 8
+        },
+        {
+          "topicId": "ED01",
+          "topicName": "Data Cleaning and Imputation Strategies",
+          "order": 9
+        },
+        {
+          "topicId": "ED02",
+          "topicName": "Exploratory Data Analysis and Visualization",
+          "order": 10
+        },
+        {
+          "topicId": "ED03",
+          "topicName": "Feature Scaling, Transformation, and Encoding",
+          "order": 11
+        },
+        {
+          "topicId": "ED04",
+          "topicName": "Dimensionality Reduction (PCA, t-SNE, UMAP)",
+          "order": 12
+        },
+        {
+          "topicId": "ML01",
+          "topicName": "Supervised Learning: Linear and Logistic Regression",
+          "order": 13
+        },
+        {
+          "topicId": "ML02",
+          "topicName": "Tree-Based Models (Decision Trees, Random Forests, Gradient Boosting)",
+          "order": 14
+        },
+        {
+          "topicId": "ML03",
+          "topicName": "Support Vector Machines and Naive Bayes",
+          "order": 15
+        },
+        {
+          "topicId": "ML04",
+          "topicName": "Unsupervised Learning (K-Means, DBSCAN, Hierarchical Clustering)",
+          "order": 16
+        },
+        {
+          "topicId": "ML05",
+          "topicName": "Model Evaluation Metrics and Validation Strategies",
+          "order": 17
+        },
+        {
+          "topicId": "DL01",
+          "topicName": "Neural Networks Fundamentals and Backpropagation",
+          "order": 18
+        },
+        {
+          "topicId": "DL02",
+          "topicName": "Convolutional Neural Networks (CNNs) for Computer Vision",
+          "order": 19
+        },
+        {
+          "topicId": "DL03",
+          "topicName": "Recurrent Neural Networks and Transformers for NLP",
+          "order": 20
+        },
+        {
+          "topicId": "DL04",
+          "topicName": "Hyperparameter Tuning and Automated Machine Learning (AutoML)",
+          "order": 21
+        },
+        {
+          "topicId": "MO01",
+          "topicName": "Model Serialization and REST API Deployment (Flask, FastAPI)",
+          "order": 22
+        },
+        {
+          "topicId": "MO02",
+          "topicName": "Containerization with Docker and Kubernetes",
+          "order": 23
+        },
+        {
+          "topicId": "MO03",
+          "topicName": "Model Monitoring, Drift Detection, and Retraining Pipelines",
+          "order": 24
+        },
+        {
+          "topicId": "MO04",
+          "topicName": "CI/CD for Machine Learning (MLOps Best Practices)",
+          "order": 25
+        },
+        {
+          "topicId": "SD01",
+          "topicName": "Designing End-to-End Recommendation Systems",
+          "order": 26
+        },
+        {
+          "topicId": "SD02",
+          "topicName": "Fraud Detection and Real-Time Scoring Architecture",
+          "order": 27
+        },
+        {
+          "topicId": "SD03",
+          "topicName": "Large Scale Search and Retrieval-Augmented Generation (RAG)",
+          "order": 28
+        }
+      ]
+    },
+    {
+      "moduleId": "deep_learning",
+      "moduleName": "Deep Learning",
+      "order": 36,
+      "description": "Master Deep Learning from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "DL-FUN-01",
+          "topicName": "Perceptrons and Multi-Layer Perceptrons (MLPs)",
+          "order": 1
+        },
+        {
+          "topicId": "DL-FUN-02",
+          "topicName": "Activation Functions and Non-Linearities",
+          "order": 2
+        },
+        {
+          "topicId": "DL-FUN-03",
+          "topicName": "Forward Propagation and Computational Graphs",
+          "order": 3
+        },
+        {
+          "topicId": "DL-FUN-04",
+          "topicName": "Backpropagation and Automatic Differentiation",
+          "order": 4
+        },
+        {
+          "topicId": "DL-OPT-01",
+          "topicName": "Gradient Descent Variants (SGD, Momentum, Nesterov)",
+          "order": 5
+        },
+        {
+          "topicId": "DL-OPT-02",
+          "topicName": "Adaptive Learning Rate Optimizers (AdaGrad, RMSProp, Adam, AdamW)",
+          "order": 6
+        },
+        {
+          "topicId": "DL-OPT-03",
+          "topicName": "Loss Functions (Regression, Classification, Ranking)",
+          "order": 7
+        },
+        {
+          "topicId": "DL-REG-01",
+          "topicName": "Weight Regularization (L1, L2, Elastic Net)",
+          "order": 8
+        },
+        {
+          "topicId": "DL-REG-02",
+          "topicName": "Dropout and Stochastic Regularization Techniques",
+          "order": 9
+        },
+        {
+          "topicId": "DL-REG-03",
+          "topicName": "Batch Normalization, Layer Normalization, and Group Normalization",
+          "order": 10
+        },
+        {
+          "topicId": "DL-CV-01",
+          "topicName": "Convolutional Neural Networks (CNNs) and Pooling",
+          "order": 11
+        },
+        {
+          "topicId": "DL-CV-02",
+          "topicName": "Classic Architectures (ResNet, VGG, DenseNet, EfficientNet)",
+          "order": 12
+        },
+        {
+          "topicId": "DL-CV-03",
+          "topicName": "Object Detection (YOLO, R-CNN, SSD)",
+          "order": 13
+        },
+        {
+          "topicId": "DL-CV-04",
+          "topicName": "Image Segmentation (Semantic and Instance, U-Net, Mask R-CNN)",
+          "order": 14
+        },
+        {
+          "topicId": "DL-SEQ-01",
+          "topicName": "Recurrent Neural Networks (RNNs) and BPTT",
+          "order": 15
+        },
+        {
+          "topicId": "DL-SEQ-02",
+          "topicName": "LSTMs and GRUs (Vanishing/Exploding Gradients)",
+          "order": 16
+        },
+        {
+          "topicId": "DL-SEQ-03",
+          "topicName": "Seq2Seq Models and Attention Mechanisms",
+          "order": 17
+        },
+        {
+          "topicId": "DL-TRN-01",
+          "topicName": "Self-Attention and Multi-Head Attention",
+          "order": 18
+        },
+        {
+          "topicId": "DL-TRN-02",
+          "topicName": "Transformer Architecture (Encoder-Decoder, Positional Encoding)",
+          "order": 19
+        },
+        {
+          "topicId": "DL-TRN-03",
+          "topicName": "Pre-trained Language Models (BERT, GPT, T5)",
+          "order": 20
+        },
+        {
+          "topicId": "DL-TRN-04",
+          "topicName": "Vision Transformers (ViT) and Multimodal Models (CLIP)",
+          "order": 21
+        },
+        {
+          "topicId": "DL-GEN-01",
+          "topicName": "Autoencoders and Variational Autoencoders (VAEs)",
+          "order": 22
+        },
+        {
+          "topicId": "DL-GEN-02",
+          "topicName": "Generative Adversarial Networks (GANs) and Losses",
+          "order": 23
+        },
+        {
+          "topicId": "DL-GEN-03",
+          "topicName": "Diffusion Models (DDPM, Score-based models, Classifier-free guidance)",
+          "order": 24
+        },
+        {
+          "topicId": "DL-ADV-01",
+          "topicName": "Transfer Learning and Fine-Tuning Strategies",
+          "order": 25
+        },
+        {
+          "topicId": "DL-ADV-02",
+          "topicName": "Parameter-Efficient Fine-Tuning (PEFT: LoRA, QLoRA, Prefix Tuning)",
+          "order": 26
+        },
+        {
+          "topicId": "DL-ADV-03",
+          "topicName": "Self-Supervised Learning and Contrastive Learning (SimCLR, MoCo)",
+          "order": 27
+        },
+        {
+          "topicId": "DL-PROD-01",
+          "topicName": "Distributed Training (Data Parallelism, Tensor Parallelism, Pipeline Parallelism)",
+          "order": 28
+        },
+        {
+          "topicId": "DL-PROD-02",
+          "topicName": "Mixed Precision Training (FP16, BF16, FP8) and Numerical Stability",
+          "order": 29
+        },
+        {
+          "topicId": "DL-PROD-03",
+          "topicName": "Model Quantization (PTQ, QAT) and Pruning",
+          "order": 30
+        },
+        {
+          "topicId": "DL-PROD-04",
+          "topicName": "Model Compression, Distillation, and ONNX Export",
+          "order": 31
+        },
+        {
+          "topicId": "DL-PROD-05",
+          "topicName": "Inference Optimization (Triton Inference Server, vLLM, TensorRT)",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "moduleId": "natural_language_processing_nlp",
+      "moduleName": "Natural Language Processing (NLP)",
+      "order": 37,
+      "description": "Master Natural Language Processing (NLP) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "NLP-101",
+          "topicName": "Tokenization, Stemming, and Lemmatization",
+          "order": 1
+        },
+        {
+          "topicId": "NLP-102",
+          "topicName": "Regular Expressions and Text Normalization",
+          "order": 2
+        },
+        {
+          "topicId": "NLP-103",
+          "topicName": "Edit Distance and Spelling Correction Algorithms",
+          "order": 3
+        },
+        {
+          "topicId": "NLP-201",
+          "topicName": "Bag-of-Words (BoW) and TF-IDF",
+          "order": 4
+        },
+        {
+          "topicId": "NLP-202",
+          "topicName": "N-gram Language Models and Smoothing Techniques",
+          "order": 5
+        },
+        {
+          "topicId": "NLP-203",
+          "topicName": "Hidden Markov Models (HMM) and POS Tagging",
+          "order": 6
+        },
+        {
+          "topicId": "NLP-204",
+          "topicName": "Support Vector Machines and Naive Bayes for Text Classification",
+          "order": 7
+        },
+        {
+          "topicId": "NLP-301",
+          "topicName": "Word2Vec (CBOW and Skip-gram)",
+          "order": 8
+        },
+        {
+          "topicId": "NLP-302",
+          "topicName": "GloVe (Global Vectors for Word Representation)",
+          "order": 9
+        },
+        {
+          "topicId": "NLP-303",
+          "topicName": "FastText and Subword Embeddings",
+          "order": 10
+        },
+        {
+          "topicId": "NLP-304",
+          "topicName": "Sentence and Document Embeddings (Doc2Vec, SBERT)",
+          "order": 11
+        },
+        {
+          "topicId": "NLP-401",
+          "topicName": "Recurrent Neural Networks (RNN) and LSTMs",
+          "order": 12
+        },
+        {
+          "topicId": "NLP-402",
+          "topicName": "Gated Recurrent Units (GRU) and Bidirectional RNNs",
+          "order": 13
+        },
+        {
+          "topicId": "NLP-403",
+          "topicName": "Seq2Seq Architecture and Encoder-Decoder Models",
+          "order": 14
+        },
+        {
+          "topicId": "NLP-404",
+          "topicName": "Attention Mechanisms and Bahdanau/Luong Attention",
+          "order": 15
+        },
+        {
+          "topicId": "NLP-501",
+          "topicName": "The Transformer Architecture (Self-Attention, Multi-Head Attention)",
+          "order": 16
+        },
+        {
+          "topicId": "NLP-502",
+          "topicName": "Positional Encoding and Layer Normalization",
+          "order": 17
+        },
+        {
+          "topicId": "NLP-503",
+          "topicName": "BERT and its Variants (RoBERTa, DistilBERT, ALBERT)",
+          "order": 18
+        },
+        {
+          "topicId": "NLP-504",
+          "topicName": "GPT Architecture and Autoregressive Language Modeling",
+          "order": 19
+        },
+        {
+          "topicId": "NLP-505",
+          "topicName": "Encoder-Decoder Transformers (T5, BART)",
+          "order": 20
+        },
+        {
+          "topicId": "NLP-601",
+          "topicName": "Named Entity Recognition (NER) and Information Extraction",
+          "order": 21
+        },
+        {
+          "topicId": "NLP-602",
+          "topicName": "Text Summarization (Extractive and Abstractive)",
+          "order": 22
+        },
+        {
+          "topicId": "NLP-603",
+          "topicName": "Machine Translation and Evaluation Metrics (BLEU, ROUGE)",
+          "order": 23
+        },
+        {
+          "topicId": "NLP-604",
+          "topicName": "Question Answering Systems and Reading Comprehension",
+          "order": 24
+        },
+        {
+          "topicId": "NLP-605",
+          "topicName": "Sentiment Analysis and Aspect-Based Sentiment Analysis",
+          "order": 25
+        },
+        {
+          "topicId": "NLP-701",
+          "topicName": "In-Context Learning and Zero-Shot/Few-Shot Prompting",
+          "order": 26
+        },
+        {
+          "topicId": "NLP-702",
+          "topicName": "Chain-of-Thought (CoT) and Advanced Prompting Strategies",
+          "order": 27
+        },
+        {
+          "topicId": "NLP-703",
+          "topicName": "Retrieval-Augmented Generation (RAG) Architecture",
+          "order": 28
+        },
+        {
+          "topicId": "NLP-704",
+          "topicName": "Vector Databases and Semantic Search (Pinecone, Milvus, FAISS)",
+          "order": 29
+        },
+        {
+          "topicId": "NLP-801",
+          "topicName": "Full Fine-Tuning vs Parameter-Efficient Fine-Tuning (PEFT)",
+          "order": 30
+        },
+        {
+          "topicId": "NLP-802",
+          "topicName": "LoRA and QLoRA Implementation Mechanics",
+          "order": 31
+        },
+        {
+          "topicId": "NLP-803",
+          "topicName": "Instruction Tuning and Supervised Fine-Tuning (SFT)",
+          "order": 32
+        },
+        {
+          "topicId": "NLP-804",
+          "topicName": "RLHF (Reinforcement Learning from Human Feedback) and DPO",
+          "order": 33
+        },
+        {
+          "topicId": "NLP-901",
+          "topicName": "Model Quantization (FP16, INT8, INT4) and Pruning",
+          "order": 34
+        },
+        {
+          "topicId": "NLP-902",
+          "topicName": "Inference Optimization (vLLM, TensorRT-LLM, KV Caching)",
+          "order": 35
+        },
+        {
+          "topicId": "NLP-903",
+          "topicName": "Latency, Throughput, and Scaling Strategies for LLMs",
+          "order": 36
+        },
+        {
+          "topicId": "NLP-904",
+          "topicName": "Safety, Toxicity, Bias Mitigation, and Hallucination Detection",
+          "order": 37
+        }
+      ]
+    },
+    {
+      "moduleId": "computer_vision",
+      "moduleName": "Computer Vision",
+      "order": 38,
+      "description": "Master Computer Vision from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CV-F101",
+          "topicName": "Digital Image Representation and Color Spaces",
+          "order": 1
+        },
+        {
+          "topicId": "CV-F102",
+          "topicName": "Filtering, Convolution, and Edge Detection",
+          "order": 2
+        },
+        {
+          "topicId": "CV-F103",
+          "topicName": "Geometric Transformations and Interpolation",
+          "order": 3
+        },
+        {
+          "topicId": "CV-T201",
+          "topicName": "Feature Extraction (SIFT, SURF, ORB)",
+          "order": 4
+        },
+        {
+          "topicId": "CV-T202",
+          "topicName": "Image Stitching and Homography Estimation",
+          "order": 5
+        },
+        {
+          "topicId": "CV-T203",
+          "topicName": "Hough Transforms and Contour Analysis",
+          "order": 6
+        },
+        {
+          "topicId": "CV-DL301",
+          "topicName": "Convolutional Neural Networks (CNNs) Architecture & Mechanics",
+          "order": 7
+        },
+        {
+          "topicId": "CV-DL302",
+          "topicName": "Object Detection (R-CNN family, YOLO, SSD)",
+          "order": 8
+        },
+        {
+          "topicId": "CV-DL303",
+          "topicName": "Image Segmentation (Semantic, Instance, Panoptic)",
+          "order": 9
+        },
+        {
+          "topicId": "CV-A401",
+          "topicName": "Vision Transformers (ViT) and Swin Transformers",
+          "order": 10
+        },
+        {
+          "topicId": "CV-A402",
+          "topicName": "Generative Adversarial Networks (GANs) and Diffusion Models",
+          "order": 11
+        },
+        {
+          "topicId": "CV-A403",
+          "topicName": "Self-Supervised Learning (SimCLR, CLIP, DINO)",
+          "order": 12
+        },
+        {
+          "topicId": "CV-3D501",
+          "topicName": "Multi-View Geometry and Stereo Vision",
+          "order": 13
+        },
+        {
+          "topicId": "CV-3D502",
+          "topicName": "Neural Radiance Fields (NeRFs) and 3D Gaussians Splatting",
+          "order": 14
+        },
+        {
+          "topicId": "CV-3D503",
+          "topicName": "Action Recognition and Optical Flow in Video",
+          "order": 15
+        },
+        {
+          "topicId": "CV-P601",
+          "topicName": "Model Optimization (Quantization, Pruning, Distillation)",
+          "order": 16
+        },
+        {
+          "topicId": "CV-P602",
+          "topicName": "Inference Engines (TensorRT, ONNX Runtime, OpenVINO)",
+          "order": 17
+        },
+        {
+          "topicId": "CV-P603",
+          "topicName": "Edge Deployment and Real-time Video Streaming Pipelines",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "pandas",
+      "moduleName": "Pandas",
+      "order": 39,
+      "description": "Master Pandas from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "PAN-01",
+          "topicName": "Series and DataFrame Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "PAN-02",
+          "topicName": "Index Objects and Alignment",
+          "order": 2
+        },
+        {
+          "topicId": "PAN-03",
+          "topicName": "IO Operations (CSV, Parquet, JSON, SQL)",
+          "order": 3
+        },
+        {
+          "topicId": "PAN-04",
+          "topicName": "Selection, Filtering, and Indexing (.loc, .iloc, __getitem__)",
+          "order": 4
+        },
+        {
+          "topicId": "PAN-05",
+          "topicName": "Missing Data Handling (NaN, None, NaT)",
+          "order": 5
+        },
+        {
+          "topicId": "PAN-06",
+          "topicName": "String and Categorical Accessors",
+          "order": 6
+        },
+        {
+          "topicId": "PAN-07",
+          "topicName": "GroupBy Operations and Aggregations",
+          "order": 7
+        },
+        {
+          "topicId": "PAN-08",
+          "topicName": "Window Functions and Rolling Operations",
+          "order": 8
+        },
+        {
+          "topicId": "PAN-09",
+          "topicName": "Reshaping, Pivoting, and Melting",
+          "order": 9
+        },
+        {
+          "topicId": "PAN-10",
+          "topicName": "Joins, Merges, and Concat Strategies",
+          "order": 10
+        },
+        {
+          "topicId": "PAN-11",
+          "topicName": "MultiIndex (Hierarchical Indexing) Operations",
+          "order": 11
+        },
+        {
+          "topicId": "PAN-12",
+          "topicName": "Datetime Indexing, Resampling, and Asfreq",
+          "order": 12
+        },
+        {
+          "topicId": "PAN-13",
+          "topicName": "Timezones and Shift/Lag Operations",
+          "order": 13
+        },
+        {
+          "topicId": "PAN-14",
+          "topicName": "Memory Optimization and Dtype Selection",
+          "order": 14
+        },
+        {
+          "topicId": "PAN-15",
+          "topicName": "Vectorization vs. Iteration (apply, iterrows, cython)",
+          "order": 15
+        },
+        {
+          "topicId": "PAN-16",
+          "topicName": "Eval and Query for Large Datasets",
+          "order": 16
+        },
+        {
+          "topicId": "PAN-17",
+          "topicName": "Integration with Dask, Polars, and PySpark",
+          "order": 17
+        },
+        {
+          "topicId": "PAN-18",
+          "topicName": "Debugging, Profiling, and Common Anti-Patterns (SettingWithCopyWarning)",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "numpy",
+      "moduleName": "NumPy",
+      "order": 40,
+      "description": "Master NumPy from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "NUM-01",
+          "topicName": "ndarray Architecture and Memory Layout",
+          "order": 1
+        },
+        {
+          "topicId": "NUM-02",
+          "topicName": "Data Types (dtypes) and Precision",
+          "order": 2
+        },
+        {
+          "topicId": "NUM-03",
+          "topicName": "Array Creation Routines and Optimization",
+          "order": 3
+        },
+        {
+          "topicId": "NUM-04",
+          "topicName": "Indexing, Slicing, and Advanced Fancy Indexing",
+          "order": 4
+        },
+        {
+          "topicId": "NUM-05",
+          "topicName": "Reshaping, Transposing, and Flattening",
+          "order": 5
+        },
+        {
+          "topicId": "NUM-06",
+          "topicName": "Concatenation, Stacking, and Splitting",
+          "order": 6
+        },
+        {
+          "topicId": "NUM-07",
+          "topicName": "Broadcasting Rules and Mechanics",
+          "order": 7
+        },
+        {
+          "topicId": "NUM-08",
+          "topicName": "Vectorization vs. Python Loops",
+          "order": 8
+        },
+        {
+          "topicId": "NUM-09",
+          "topicName": "Universal Functions (ufuncs) and Methods",
+          "order": 9
+        },
+        {
+          "topicId": "NUM-10",
+          "topicName": "Linear Algebra with numpy.linalg",
+          "order": 10
+        },
+        {
+          "topicId": "NUM-11",
+          "topicName": "Random Number Generation (PCG64 and Generator API)",
+          "order": 11
+        },
+        {
+          "topicId": "NUM-12",
+          "topicName": "Masked Arrays and Missing Data Handling",
+          "order": 12
+        },
+        {
+          "topicId": "NUM-13",
+          "topicName": "Strides, C-Contiguous vs. Fortran-Contiguous Memory",
+          "order": 13
+        },
+        {
+          "topicId": "NUM-14",
+          "topicName": "Views vs. Copies and Memory Management",
+          "order": 14
+        },
+        {
+          "topicId": "NUM-15",
+          "topicName": "Memory Mapping (memmap) for Large Datasets",
+          "order": 15
+        },
+        {
+          "topicId": "NUM-16",
+          "topicName": "Interoperability with Pandas, SciPy, and PyTorch",
+          "order": 16
+        },
+        {
+          "topicId": "NUM-17",
+          "topicName": "C-Extensions and Cython Integration",
+          "order": 17
+        },
+        {
+          "topicId": "NUM-18",
+          "topicName": "Buffer Protocol and DLpack Standard",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "scikitlearn",
+      "moduleName": "Scikit-learn",
+      "order": 41,
+      "description": "Master Scikit-learn from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SKL-01",
+          "topicName": "Scikit-learn API Design Principles (Consistency, Inspection, Non-distribution)",
+          "order": 1
+        },
+        {
+          "topicId": "SKL-02",
+          "topicName": "NumPy Arrays and SciPy Sparse Matrices as Inputs",
+          "order": 2
+        },
+        {
+          "topicId": "SKL-03",
+          "topicName": "Train-Test Splitting and Random State Management",
+          "order": 3
+        },
+        {
+          "topicId": "SKL-04",
+          "topicName": "Handling Missing Data with SimpleImputer and IterativeImputer",
+          "order": 4
+        },
+        {
+          "topicId": "SKL-05",
+          "topicName": "Feature Scaling: StandardScaler, MinMaxScaler, and RobustScaler",
+          "order": 5
+        },
+        {
+          "topicId": "SKL-06",
+          "topicName": "Categorical Encoding: OneHotEncoder, OrdinalEncoder, and TargetEncoder",
+          "order": 6
+        },
+        {
+          "topicId": "SKL-07",
+          "topicName": "Non-linear Transformations: PowerTransformer and QuantileTransformer",
+          "order": 7
+        },
+        {
+          "topicId": "SKL-08",
+          "topicName": "Building Sequential Workflows with Pipeline",
+          "order": 8
+        },
+        {
+          "topicId": "SKL-09",
+          "topicName": "Complex Feature Transformations with ColumnTransformer",
+          "order": 9
+        },
+        {
+          "topicId": "SKL-10",
+          "topicName": "Custom Transformers using FunctionTransformer and BaseEstimator",
+          "order": 10
+        },
+        {
+          "topicId": "SKL-11",
+          "topicName": "Linear Models: LinearRegression, Ridge, Lasso, and ElasticNet",
+          "order": 11
+        },
+        {
+          "topicId": "SKL-12",
+          "topicName": "Non-linear Regression: Support Vector Regression (SVR) and Kernel Ridge",
+          "order": 12
+        },
+        {
+          "topicId": "SKL-13",
+          "topicName": "Linear Classifiers: LogisticRegression and LinearSVC",
+          "order": 13
+        },
+        {
+          "topicId": "SKL-14",
+          "topicName": "Tree-Based Models: DecisionTreeClassifier, RandomForest, and ExtraTrees",
+          "order": 14
+        },
+        {
+          "topicId": "SKL-15",
+          "topicName": "Gradient Boosting Implementations: HistGradientBoostingClassifier",
+          "order": 15
+        },
+        {
+          "topicId": "SKL-16",
+          "topicName": "Distance and Probabilistic Models: KNeighborsClassifier and GaussianNB",
+          "order": 16
+        },
+        {
+          "topicId": "SKL-17",
+          "topicName": "Clustering Algorithms: KMeans, DBSCAN, AgglomerativeClustering, and HDBSCAN",
+          "order": 17
+        },
+        {
+          "topicId": "SKL-18",
+          "topicName": "Dimensionality Reduction: PCA, KernelPCA, and TruncatedSVD",
+          "order": 18
+        },
+        {
+          "topicId": "SKL-19",
+          "topicName": "Manifold Learning and Anomaly Detection: t-SNE, IsolationForest, and LocalOutlierFactor",
+          "order": 19
+        },
+        {
+          "topicId": "SKL-20",
+          "topicName": "Cross-Validation Strategies: KFold, StratifiedKFold, and TimeSeriesSplit",
+          "order": 20
+        },
+        {
+          "topicId": "SKL-21",
+          "topicName": "Regression Metrics: MSE, RMSE, MAE, R2, and MedianAbsoluteError",
+          "order": 21
+        },
+        {
+          "topicId": "SKL-22",
+          "topicName": "Classification Metrics: Accuracy, Precision, Recall, F1, ROC-AUC, and PR-AUC",
+          "order": 22
+        },
+        {
+          "topicId": "SKL-23",
+          "topicName": "Custom Scoring Functions with make_scorer",
+          "order": 23
+        },
+        {
+          "topicId": "SKL-24",
+          "topicName": "Grid Search and Randomized Search Optimization",
+          "order": 24
+        },
+        {
+          "topicId": "SKL-25",
+          "topicName": "Advanced Tuning: HalvingGridSearch and HalvingRandomSearch",
+          "order": 25
+        },
+        {
+          "topicId": "SKL-26",
+          "topicName": "Ensemble Methods: VotingClassifier and StackingClassifier",
+          "order": 26
+        },
+        {
+          "topicId": "SKL-27",
+          "topicName": "Handling Imbalanced Data: Class Weights and BalancedAccuracy",
+          "order": 27
+        },
+        {
+          "topicId": "SKL-28",
+          "topicName": "Model Calibration with CalibratedClassifierCV",
+          "order": 28
+        },
+        {
+          "topicId": "SKL-29",
+          "topicName": "Model Persistence: Serialization with joblib vs pickle",
+          "order": 29
+        },
+        {
+          "topicId": "SKL-30",
+          "topicName": "Avoiding Data Leakage in Cross-Validation and Pipelines",
+          "order": 30
+        },
+        {
+          "topicId": "SKL-31",
+          "topicName": "Memory Optimization and Sparse Data Handling in Production",
+          "order": 31
+        },
+        {
+          "topicId": "SKL-32",
+          "topicName": "Serving Scikit-learn Pipelines with ONNX and MLflow",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "moduleId": "tensorflow",
+      "moduleName": "TensorFlow",
+      "order": 42,
+      "description": "Master TensorFlow from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "TF-FUND-01",
+          "topicName": "TensorFlow Core Concepts and Tensors",
+          "order": 1
+        },
+        {
+          "topicId": "TF-FUND-02",
+          "topicName": "Autograph and tf.function Internals",
+          "order": 2
+        },
+        {
+          "topicId": "TF-FUND-03",
+          "topicName": "Variables, Gradients, and GradientTape",
+          "order": 3
+        },
+        {
+          "topicId": "TF-DATA-01",
+          "topicName": "tf.data API Performance and Optimization",
+          "order": 4
+        },
+        {
+          "topicId": "TF-DATA-02",
+          "topicName": "TFRecord Generation and Parsing",
+          "order": 5
+        },
+        {
+          "topicId": "TF-DATA-03",
+          "topicName": "Preprocessing Layers vs tf.image Operations",
+          "order": 6
+        },
+        {
+          "topicId": "TF-MOD-01",
+          "topicName": "Keras Functional API and Subclassing",
+          "order": 7
+        },
+        {
+          "topicId": "TF-MOD-02",
+          "topicName": "Custom Layers, Loss Functions, and Metrics",
+          "order": 8
+        },
+        {
+          "topicId": "TF-MOD-03",
+          "topicName": "Callbacks and Custom Training Loops",
+          "order": 9
+        },
+        {
+          "topicId": "TF-DIST-01",
+          "topicName": "MirroredStrategy and MultiWorkerMirroredStrategy",
+          "order": 10
+        },
+        {
+          "topicId": "TF-DIST-02",
+          "topicName": "Parameter Server and Centralized Training",
+          "order": 11
+        },
+        {
+          "topicId": "TF-DIST-03",
+          "topicName": "Mixed Precision Training (FP16/BF16)",
+          "order": 12
+        },
+        {
+          "topicId": "TF-PROD-01",
+          "topicName": "SavedModel Format and Serialization",
+          "order": 13
+        },
+        {
+          "topicId": "TF-PROD-02",
+          "topicName": "TensorFlow Serving Architecture and Config",
+          "order": 14
+        },
+        {
+          "topicId": "TF-PROD-03",
+          "topicName": "Model Signatures and Input/Output Contracts",
+          "order": 15
+        },
+        {
+          "topicId": "TF-OPT-01",
+          "topicName": "Post-Training Quantization (PTQ)",
+          "order": 16
+        },
+        {
+          "topicId": "TF-OPT-02",
+          "topicName": "Quantization-Aware Training (QAT)",
+          "order": 17
+        },
+        {
+          "topicId": "TF-OPT-03",
+          "topicName": "Graph Optimization with XLA (Accelerated Linear Algebra)",
+          "order": 18
+        },
+        {
+          "topicId": "TF-EDGE-01",
+          "topicName": "TensorFlow Lite (TFLite) Conversion and Delegates",
+          "order": 19
+        },
+        {
+          "topicId": "TF-EDGE-02",
+          "topicName": "TensorFlow.js (TFJS) Model Porting",
+          "order": 20
+        },
+        {
+          "topicId": "TF-MLOPS-01",
+          "topicName": "TensorBoard and TF Profiler Analysis",
+          "order": 21
+        },
+        {
+          "topicId": "TF-MLOPS-02",
+          "topicName": "Debugging tf.function and NaN Issues",
+          "order": 22
+        },
+        {
+          "topicId": "TF-MLOPS-03",
+          "topicName": "Integration with TFX (TensorFlow Extended)",
+          "order": 23
+        }
+      ]
+    },
+    {
+      "moduleId": "pytorch",
+      "moduleName": "PyTorch",
+      "order": 43,
+      "description": "Master PyTorch from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "TORCH-01",
+          "topicName": "Tensors, Creation, and Memory Layout",
+          "order": 1
+        },
+        {
+          "topicId": "TORCH-02",
+          "topicName": "Autograd Engine and Computation Graphs",
+          "order": 2
+        },
+        {
+          "topicId": "TORCH-03",
+          "topicName": "Broadcasting Semantics and Vectorization",
+          "order": 3
+        },
+        {
+          "topicId": "TORCH-04",
+          "topicName": "torch.nn Module, Parameters, and State Dict",
+          "order": 4
+        },
+        {
+          "topicId": "TORCH-05",
+          "topicName": "Loss Functions and Optimizers (AdamW, SGD, Schedulers)",
+          "order": 5
+        },
+        {
+          "topicId": "TORCH-06",
+          "topicName": "Custom Dataset, DataLoader, and Samplers",
+          "order": 6
+        },
+        {
+          "topicId": "TORCH-07",
+          "topicName": "Mixed Precision Training (AMP and float16/bfloat16)",
+          "order": 7
+        },
+        {
+          "topicId": "TORCH-08",
+          "topicName": "TorchScript (Tracing vs. Scripting)",
+          "order": 8
+        },
+        {
+          "topicId": "TORCH-09",
+          "topicName": "PyTorch 2.x torch.compile and Inductor Backend",
+          "order": 9
+        },
+        {
+          "topicId": "TORCH-10",
+          "topicName": "DataParallel vs. DistributedDataParallel (DDP)",
+          "order": 10
+        },
+        {
+          "topicId": "TORCH-11",
+          "topicName": "Fully Sharded Data Parallel (FSDP)",
+          "order": 11
+        },
+        {
+          "topicId": "TORCH-12",
+          "topicName": "Collective Communications (AllReduce, Broadcast, Ring-AllReduce)",
+          "order": 12
+        },
+        {
+          "topicId": "TORCH-13",
+          "topicName": "Custom C++ and CUDA Extensions",
+          "order": 13
+        },
+        {
+          "topicId": "TORCH-14",
+          "topicName": "Memory Management and Caching Allocator (cudaMalloc)",
+          "order": 14
+        },
+        {
+          "topicId": "TORCH-15",
+          "topicName": "Quantization (PTQ, QAT, and bitsandbytes)",
+          "order": 15
+        },
+        {
+          "topicId": "TORCH-16",
+          "topicName": "Model Serving with TorchServe and Triton",
+          "order": 16
+        },
+        {
+          "topicId": "TORCH-17",
+          "topicName": "ONNX Export and Inference Optimization",
+          "order": 17
+        },
+        {
+          "topicId": "TORCH-18",
+          "topicName": "Debugging and Profiling (PyTorch Profiler, Kineto, NaN traps)",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "data_warehousing",
+      "moduleName": "Data Warehousing",
+      "order": 44,
+      "description": "Master Data Warehousing from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "DW-01",
+          "topicName": "Data Warehousing Fundamentals & ACID vs. BASE",
+          "order": 1
+        },
+        {
+          "topicId": "DW-02",
+          "topicName": "Inmon vs. Kimball Architecture Methodologies",
+          "order": 2
+        },
+        {
+          "topicId": "DW-03",
+          "topicName": "Modern Data Stack & Cloud DW Architecture",
+          "order": 3
+        },
+        {
+          "topicId": "DW-04",
+          "topicName": "Dimensional Modeling: Star Schema vs. Snowflake Schema",
+          "order": 4
+        },
+        {
+          "topicId": "DW-05",
+          "topicName": "Fact Tables: Additive, Semi-Additive, and Non-Additive",
+          "order": 5
+        },
+        {
+          "topicId": "DW-06",
+          "topicName": "Dimension Tables: SCD Types (Type 0 through Type 6)",
+          "order": 6
+        },
+        {
+          "topicId": "DW-07",
+          "topicName": "Advanced Modeling: Bridge Tables & Conformed Dimensions",
+          "order": 7
+        },
+        {
+          "topicId": "DW-08",
+          "topicName": "ETL vs. ELT Patterns and Paradigm Shifts",
+          "order": 8
+        },
+        {
+          "topicId": "DW-09",
+          "topicName": "Change Data Capture (CDC) and Streaming Ingestion",
+          "order": 9
+        },
+        {
+          "topicId": "DW-10",
+          "topicName": "Idempotency, Retries, and Exactly-Once Semantics",
+          "order": 10
+        },
+        {
+          "topicId": "DW-11",
+          "topicName": "Columnar Storage Formats (Parquet, ORC, Arrow)",
+          "order": 11
+        },
+        {
+          "topicId": "DW-12",
+          "topicName": "Partitioning, Clustering, and Micro-Partitions",
+          "order": 12
+        },
+        {
+          "topicId": "DW-13",
+          "topicName": "Indexing Strategies: Zone Maps, Bloom Filters, and Indexes",
+          "order": 13
+        },
+        {
+          "topicId": "DW-14",
+          "topicName": "Execution Plans, Cost-Based Optimizers, and Joins",
+          "order": 14
+        },
+        {
+          "topicId": "DW-15",
+          "topicName": "Handling Data Skew and Broadcast vs. Shuffle Joins",
+          "order": 15
+        },
+        {
+          "topicId": "DW-16",
+          "topicName": "Materialized Views, Caching, and Pre-Aggregation",
+          "order": 16
+        },
+        {
+          "topicId": "DW-17",
+          "topicName": "Apache Iceberg, Delta Lake, and Apache Hudi internals",
+          "order": 17
+        },
+        {
+          "topicId": "DW-18",
+          "topicName": "ACID Transactions on Object Storage (Time Travel, Vacuuming)",
+          "order": 18
+        },
+        {
+          "topicId": "DW-19",
+          "topicName": "Data Lineage, Catalogs, and Metadata Management",
+          "order": 19
+        },
+        {
+          "topicId": "DW-20",
+          "topicName": "Fine-Grained Access Control, Masking, and Row-Level Security",
+          "order": 20
+        },
+        {
+          "topicId": "DW-21",
+          "topicName": "Cost Management, FinOps, and Resource Isolation",
+          "order": 21
+        },
+        {
+          "topicId": "DW-22",
+          "topicName": "High Availability, Disaster Recovery, and Cross-Region Replication",
+          "order": 22
+        },
+        {
+          "topicId": "DW-23",
+          "topicName": "Migration Strategies and Zero-Downtime Cutovers",
+          "order": 23
+        }
+      ]
+    },
+    {
+      "moduleId": "etl",
+      "moduleName": "ETL",
+      "order": 45,
+      "description": "Master ETL from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "ETL-FUND-01",
+          "topicName": "Introduction to ETL vs ELT Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "ETL-FUND-02",
+          "topicName": "Data Warehousing Concepts (Data Lakes, Lakehouses, Star/Snowflake Schema)",
+          "order": 2
+        },
+        {
+          "topicId": "ETL-FUND-03",
+          "topicName": "Batch Processing vs Stream Processing",
+          "order": 3
+        },
+        {
+          "topicId": "ETL-FUND-04",
+          "topicName": "Data Governance, Lineage, and Cataloging",
+          "order": 4
+        },
+        {
+          "topicId": "ETL-EXT-01",
+          "topicName": "Source Systems Connectivity (RDBMS, NoSQL, APIs, S3, FTP)",
+          "order": 5
+        },
+        {
+          "topicId": "ETL-EXT-02",
+          "topicName": "Change Data Capture (CDC) Mechanisms (Log-based, Trigger-based, Timestamp-based)",
+          "order": 6
+        },
+        {
+          "topicId": "ETL-EXT-03",
+          "topicName": "Handling Unstructured and Semi-Structured Data (JSON, XML, Parquet, Avro)",
+          "order": 7
+        },
+        {
+          "topicId": "ETL-EXT-04",
+          "topicName": "Incremental Extraction Strategies and Watermarking",
+          "order": 8
+        },
+        {
+          "topicId": "ETL-TRANS-01",
+          "topicName": "Data Cleansing, Deduplication, and Normalization",
+          "order": 9
+        },
+        {
+          "topicId": "ETL-TRANS-02",
+          "topicName": "Type 1, Type 2, and Type 3 Slowly Changing Dimensions (SCD)",
+          "order": 10
+        },
+        {
+          "topicId": "ETL-TRANS-03",
+          "topicName": "Aggregations, Joins, Pivoting, and Window Functions",
+          "order": 11
+        },
+        {
+          "topicId": "ETL-TRANS-04",
+          "topicName": "Data Masking, PII Anonymization, and Compliance (GDPR, HIPAA)",
+          "order": 12
+        },
+        {
+          "topicId": "ETL-LOAD-01",
+          "topicName": "Full Refresh vs Append vs Upsert (Merge) Operations",
+          "order": 13
+        },
+        {
+          "topicId": "ETL-LOAD-02",
+          "topicName": "Bulk Loading and Staging Area Management",
+          "order": 14
+        },
+        {
+          "topicId": "ETL-LOAD-03",
+          "topicName": "Handling Late-Arriving Dimensions and Facts",
+          "order": 15
+        },
+        {
+          "topicId": "ETL-LOAD-04",
+          "topicName": "Transaction Management and ACID Compliance in Targets",
+          "order": 16
+        },
+        {
+          "topicId": "ETL-TOOL-01",
+          "topicName": "Enterprise ETL Tools (Informatica, Talend, Pentaho)",
+          "order": 17
+        },
+        {
+          "topicId": "ETL-TOOL-02",
+          "topicName": "Cloud-Native ELT (Snowflake, BigQuery, AWS Redshift, dbt)",
+          "order": 18
+        },
+        {
+          "topicId": "ETL-TOOL-03",
+          "topicName": "Big Data Processing Engines (Apache Spark, Hive, Flink)",
+          "order": 19
+        },
+        {
+          "topicId": "ETL-TOOL-04",
+          "topicName": "Orchestration Engines (Apache Airflow, Prefect, Dagster)",
+          "order": 20
+        },
+        {
+          "topicId": "ETL-PERF-01",
+          "topicName": "Memory and CPU Tuning in Spark/ETL Pipelines",
+          "order": 21
+        },
+        {
+          "topicId": "ETL-PERF-02",
+          "topicName": "Partitioning, Bucketing, and Indexing Strategies",
+          "order": 22
+        },
+        {
+          "topicId": "ETL-PERF-03",
+          "topicName": "Data Skew Handling and Shuffle Optimization",
+          "order": 23
+        },
+        {
+          "topicId": "ETL-PERF-04",
+          "topicName": "Caching, Persistence, and Lazy Evaluation Mechanics",
+          "order": 24
+        },
+        {
+          "topicId": "ETL-OPS-01",
+          "topicName": "Idempotency and Pipeline Recovery Strategies",
+          "order": 25
+        },
+        {
+          "topicId": "ETL-OPS-02",
+          "topicName": "Data Quality Testing and Validation Frameworks (Great Expectations)",
+          "order": 26
+        },
+        {
+          "topicId": "ETL-OPS-03",
+          "topicName": "Monitoring, Logging, Alerting, and SLA Management",
+          "order": 27
+        },
+        {
+          "topicId": "ETL-OPS-04",
+          "topicName": "CI/CD for Data Pipelines and Infrastructure as Code (Terraform)",
+          "order": 28
+        }
+      ]
+    },
+    {
+      "moduleId": "apache_spark",
+      "moduleName": "Apache Spark",
+      "order": 46,
+      "description": "Master Apache Spark from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SPK-F01",
+          "topicName": "Spark Architecture and Cluster Components",
+          "order": 1
+        },
+        {
+          "topicId": "SPK-F02",
+          "topicName": "RDDs vs DataFrames vs Datasets",
+          "order": 2
+        },
+        {
+          "topicId": "SPK-F03",
+          "topicName": "Lazy Evaluation and Execution Plans",
+          "order": 3
+        },
+        {
+          "topicId": "SPK-F04",
+          "topicName": "Transformations and Actions",
+          "order": 4
+        },
+        {
+          "topicId": "SPK-F05",
+          "topicName": "Catalyst Optimizer and Tungsten Engine",
+          "order": 5
+        },
+        {
+          "topicId": "SPK-C01",
+          "topicName": "Advanced DataFrame Operations and Functions",
+          "order": 6
+        },
+        {
+          "topicId": "SPK-C02",
+          "topicName": "Working with Complex Types (Arrays, Structs, Maps)",
+          "order": 7
+        },
+        {
+          "topicId": "SPK-C03",
+          "topicName": "User Defined Functions (UDFs) and Pandas UDFs",
+          "order": 8
+        },
+        {
+          "topicId": "SPK-C04",
+          "topicName": "Window Functions and Analytical Queries",
+          "order": 9
+        },
+        {
+          "topicId": "SPK-C05",
+          "topicName": "Aggregations and Grouping Strategies",
+          "order": 10
+        },
+        {
+          "topicId": "SPK-P01",
+          "topicName": "Shuffle Internals and Network I/O",
+          "order": 11
+        },
+        {
+          "topicId": "SPK-P02",
+          "topicName": "Partitioning and Bucketing Strategies",
+          "order": 12
+        },
+        {
+          "topicId": "SPK-P03",
+          "topicName": "Broadcast Joins vs Sort-Merge Joins",
+          "order": 13
+        },
+        {
+          "topicId": "SPK-P04",
+          "topicName": "Caching, Persistence, and Serialization",
+          "order": 14
+        },
+        {
+          "topicId": "SPK-P05",
+          "topicName": "Handling Data Skew and Spill",
+          "order": 15
+        },
+        {
+          "topicId": "SPK-T01",
+          "topicName": "Memory Management (Heap, Off-Heap, Unified Memory)",
+          "order": 16
+        },
+        {
+          "topicId": "SPK-T02",
+          "topicName": "Garbage Collection Tuning",
+          "order": 17
+        },
+        {
+          "topicId": "SPK-T03",
+          "topicName": "Debugging Out of Memory (OOM) Errors",
+          "order": 18
+        },
+        {
+          "topicId": "SPK-T04",
+          "topicName": "Driver vs Executor Bottlenecks",
+          "order": 19
+        },
+        {
+          "topicId": "SPK-T05",
+          "topicName": "Reading and Interpreting Spark UI Metrics",
+          "order": 20
+        },
+        {
+          "topicId": "SPK-S01",
+          "topicName": "Structured Streaming Architecture and Time Handling",
+          "order": 21
+        },
+        {
+          "topicId": "SPK-S02",
+          "topicName": "Watermarking and State Management in Streaming",
+          "order": 22
+        },
+        {
+          "topicId": "SPK-S03",
+          "topicName": "Delta Lake Integration and ACID Transactions",
+          "order": 23
+        },
+        {
+          "topicId": "SPK-S04",
+          "topicName": "Lakehouse Design Patterns (Medallion Architecture)",
+          "order": 24
+        },
+        {
+          "topicId": "SPK-S05",
+          "topicName": "MLlib and Distributed Machine Learning Workflows",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "mysql",
+      "moduleName": "MySQL",
+      "order": 47,
+      "description": "Master MySQL from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "ARC-01",
+          "topicName": "InnoDB Architecture and Memory Structures",
+          "order": 1
+        },
+        {
+          "topicId": "ARC-02",
+          "topicName": "InnoDB Storage Layout and File Formats",
+          "order": 2
+        },
+        {
+          "topicId": "ARC-03",
+          "topicName": "Comparison of Storage Engines: InnoDB vs MyISAM vs Memory",
+          "order": 3
+        },
+        {
+          "topicId": "ARC-04",
+          "topicName": "MySQL Server Layer vs Storage Engine Layer",
+          "order": 4
+        },
+        {
+          "topicId": "IDX-01",
+          "topicName": "B-Tree Index Internals and Clustering",
+          "order": 5
+        },
+        {
+          "topicId": "IDX-02",
+          "topicName": "Secondary Indexes and Index Merges",
+          "order": 6
+        },
+        {
+          "topicId": "IDX-03",
+          "topicName": "EXPLAIN Plan Analysis and Execution Strategies",
+          "order": 7
+        },
+        {
+          "topicId": "IDX-04",
+          "topicName": "Query Optimizer Cost Model and Optimizer Hints",
+          "order": 8
+        },
+        {
+          "topicId": "IDX-05",
+          "topicName": "Full-Text Search and Spatial Indexes",
+          "order": 9
+        },
+        {
+          "topicId": "TXN-01",
+          "topicName": "ACID Properties and Implementation in InnoDB",
+          "order": 10
+        },
+        {
+          "topicId": "TXN-02",
+          "topicName": "Transaction Isolation Levels and Anomalies",
+          "order": 11
+        },
+        {
+          "topicId": "TXN-03",
+          "topicName": "Multi-Version Concurrency Control (MVCC) and Read Views",
+          "order": 12
+        },
+        {
+          "topicId": "TXN-04",
+          "topicName": "Locking Mechanisms: Record, Gap, and Next-Key Locks",
+          "order": 13
+        },
+        {
+          "topicId": "TXN-05",
+          "topicName": "Deadlocks: Detection, Prevention, and Troubleshooting",
+          "order": 14
+        },
+        {
+          "topicId": "LOG-01",
+          "topicName": "Write-Ahead Logging (WAL) and Redo Log Internals",
+          "order": 15
+        },
+        {
+          "topicId": "LOG-02",
+          "topicName": "Undo Logs and Purge Threads",
+          "order": 16
+        },
+        {
+          "topicId": "LOG-03",
+          "topicName": "Binary Log (Binlog) Formats and Synchronization",
+          "order": 17
+        },
+        {
+          "topicId": "LOG-04",
+          "topicName": "Crash Recovery Process and Doublewrite Buffer",
+          "order": 18
+        },
+        {
+          "topicId": "REP-01",
+          "topicName": "Asynchronous and Semi-Synchronous Replication",
+          "order": 19
+        },
+        {
+          "topicId": "REP-02",
+          "topicName": "Group Replication and Paxos Consensus",
+          "order": 20
+        },
+        {
+          "topicId": "REP-03",
+          "topicName": "GTID (Global Transaction Identifiers) and Replication Topologies",
+          "order": 21
+        },
+        {
+          "topicId": "REP-04",
+          "topicName": "High Availability Frameworks (InnoDB Cluster, MHA, Orchestrator)",
+          "order": 22
+        },
+        {
+          "topicId": "REP-05",
+          "topicName": "Replication Lag: Causes, Monitoring, and Mitigation",
+          "order": 23
+        },
+        {
+          "topicId": "SCL-01",
+          "topicName": "Table Partitioning: Range, List, Hash, and Key",
+          "order": 24
+        },
+        {
+          "topicId": "SCL-02",
+          "topicName": "Read-Write Splitting and Proxy Architecture",
+          "order": 25
+        },
+        {
+          "topicId": "SCL-03",
+          "topicName": "Horizontal Sharding Strategies and Middleware",
+          "order": 26
+        },
+        {
+          "topicId": "SEC-01",
+          "topicName": "Authentication Plugins and Password Management",
+          "order": 27
+        },
+        {
+          "topicId": "SEC-02",
+          "topicName": "Role-Based Access Control (RBAC) and Privilege Auditing",
+          "order": 28
+        },
+        {
+          "topicId": "SEC-03",
+          "topicName": "Data-at-Rest Encryption (Tablespace and Redo/Undo Logs)",
+          "order": 29
+        },
+        {
+          "topicId": "SEC-04",
+          "topicName": "Transport Layer Security (TLS) and SQL Injection Prevention",
+          "order": 30
+        },
+        {
+          "topicId": "BCK-01",
+          "topicName": "Physical Backups using Percona XtraBackup / MySQL Enterprise Backup",
+          "order": 31
+        },
+        {
+          "topicId": "BCK-02",
+          "topicName": "Logical Backups using mysqldump and mysqlpump",
+          "order": 32
+        },
+        {
+          "topicId": "BCK-03",
+          "topicName": "Point-in-Time Recovery (PITR) using Binlogs",
+          "order": 33
+        },
+        {
+          "topicId": "BCK-04",
+          "topicName": "Backup Validation and Disaster Recovery Planning",
+          "order": 34
+        },
+        {
+          "topicId": "PRF-01",
+          "topicName": "Key Memory and Thread Variable Tuning",
+          "order": 35
+        },
+        {
+          "topicId": "PRF-02",
+          "topicName": "Performance Schema and Information Schema Diagnostics",
+          "order": 36
+        },
+        {
+          "topicId": "PRF-03",
+          "topicName": "Slow Query Log Analysis and pt-query-digest",
+          "order": 37
+        },
+        {
+          "topicId": "PRF-04",
+          "topicName": "Operating System Level Tuning (IO, NUMA, Swapping)",
+          "order": 38
+        },
+        {
+          "topicId": "MOD-01",
+          "topicName": "JSON Data Type, Generated Columns, and Functional Indexes",
+          "order": 39
+        },
+        {
+          "topicId": "MOD-02",
+          "topicName": "Common Table Expressions (CTEs) and Window Functions",
+          "order": 40
+        },
+        {
+          "topicId": "MOD-03",
+          "topicName": "MySQL Router and AdminAPI",
+          "order": 41
+        },
+        {
+          "topicId": "MOD-04",
+          "topicName": "Upgrade Strategies and Minor/Major Version Migration",
+          "order": 42
+        }
+      ]
+    },
+    {
+      "moduleId": "postgresql",
+      "moduleName": "PostgreSQL",
+      "order": 48,
+      "description": "Master PostgreSQL from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "PG101",
+          "topicName": "Process Architecture and Memory Structures",
+          "order": 1
+        },
+        {
+          "topicId": "PG102",
+          "topicName": "Storage Engine and Page Layout (Heap Tuples)",
+          "order": 2
+        },
+        {
+          "topicId": "PG103",
+          "topicName": "Write-Ahead Logging (WAL) and Checkpointing",
+          "order": 3
+        },
+        {
+          "topicId": "PG104",
+          "topicName": "Concurrency Control and MVCC Internals",
+          "order": 4
+        },
+        {
+          "topicId": "PG105",
+          "topicName": "Transaction Isolation Levels and Anomalies",
+          "order": 5
+        },
+        {
+          "topicId": "PG201",
+          "topicName": "Advanced Data Types (JSONB, Arrays, Ranges, UUIDs)",
+          "order": 6
+        },
+        {
+          "topicId": "PG202",
+          "topicName": "Indexing Strategies (B-Tree, GIN, GiST, BRIN, Hash)",
+          "order": 7
+        },
+        {
+          "topicId": "PG203",
+          "topicName": "Constraints, Triggers, and Generated Columns",
+          "order": 8
+        },
+        {
+          "topicId": "PG204",
+          "topicName": "Window Functions and Common Table Expressions (CTEs)",
+          "order": 9
+        },
+        {
+          "topicId": "PG205",
+          "topicName": "Partitioning (Declarative Range, List, Hash)",
+          "order": 10
+        },
+        {
+          "topicId": "PG301",
+          "topicName": "Reading and Interpreting EXPLAIN ANALYZE",
+          "order": 11
+        },
+        {
+          "topicId": "PG302",
+          "topicName": "Join Strategies (Nested Loop, Hash Join, Merge Join)",
+          "order": 12
+        },
+        {
+          "topicId": "PG303",
+          "topicName": "Cost-Based Optimizer and Statistics (ANALYZE)",
+          "order": 13
+        },
+        {
+          "topicId": "PG304",
+          "topicName": "Identifying and Mitigating Slow Queries",
+          "order": 14
+        },
+        {
+          "topicId": "PG305",
+          "topicName": "Locking Mechanics and Deadlock Troubleshooting",
+          "order": 15
+        },
+        {
+          "topicId": "PG401",
+          "topicName": "Configuration Tuning (postgresql.conf for Production)",
+          "order": 16
+        },
+        {
+          "topicId": "PG402",
+          "topicName": "Vacuum Internals, Bloat Management, and Autotuning",
+          "order": 17
+        },
+        {
+          "topicId": "PG403",
+          "topicName": "Backup and Recovery (pg_dump, PITR, pg_basebackup)",
+          "order": 18
+        },
+        {
+          "topicId": "PG404",
+          "topicName": "User Management, Roles, and Row-Level Security (RLS)",
+          "order": 19
+        },
+        {
+          "topicId": "PG405",
+          "topicName": "Extension Ecosystem (PostGIS, pg_stat_statements, pg_cron)",
+          "order": 20
+        },
+        {
+          "topicId": "PG501",
+          "topicName": "Streaming Replication (Synchronous vs Asynchronous)",
+          "order": 21
+        },
+        {
+          "topicId": "PG502",
+          "topicName": "Failover Mechanisms and Connection Pooling (PgBouncer)",
+          "order": 22
+        },
+        {
+          "topicId": "PG503",
+          "topicName": "Logical Replication and Publication/Subscription",
+          "order": 23
+        },
+        {
+          "topicId": "PG504",
+          "topicName": "Distributed PostgreSQL Architectures (Citus)",
+          "order": 24
+        },
+        {
+          "topicId": "PG505",
+          "topicName": "Troubleshooting Split-Brain and Replication Lag",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "microsoft_sql_server",
+      "moduleName": "Microsoft SQL Server",
+      "order": 49,
+      "description": "Master Microsoft SQL Server from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SQL-ARC-01",
+          "topicName": "Database Engine Architecture and Memory Management",
+          "order": 1
+        },
+        {
+          "topicId": "SQL-ARC-02",
+          "topicName": "Storage Engine: Pages, Extents, and Allocation Units",
+          "order": 2
+        },
+        {
+          "topicId": "SQL-ARC-03",
+          "topicName": "Transaction Log Architecture and Write-Ahead Logging (WAL)",
+          "order": 3
+        },
+        {
+          "topicId": "SQL-ARC-04",
+          "topicName": "TempDB Design, Contention, and Best Practices",
+          "order": 4
+        },
+        {
+          "topicId": "SQL-IND-01",
+          "topicName": "B-Tree Internals: Clustered vs. Non-Clustered Indexes",
+          "order": 5
+        },
+        {
+          "topicId": "SQL-IND-02",
+          "topicName": "Advanced Indexing: Columnstore, Filtered, and Included Columns",
+          "order": 6
+        },
+        {
+          "topicId": "SQL-QRY-01",
+          "topicName": "Query Optimizer Mechanics and Statistics Management",
+          "order": 7
+        },
+        {
+          "topicId": "SQL-QRY-02",
+          "topicName": "Execution Plan Analysis and Troubleshooting Common Bottlenecks",
+          "order": 8
+        },
+        {
+          "topicId": "SQL-CON-01",
+          "topicName": "ACID Properties and Transaction Isolation Levels",
+          "order": 9
+        },
+        {
+          "topicId": "SQL-CON-02",
+          "topicName": "Locking Granularity, Escalation, and Deadlock Troubleshooting",
+          "order": 10
+        },
+        {
+          "topicId": "SQL-CON-03",
+          "topicName": "Row Versioning and Snapshot Isolation",
+          "order": 11
+        },
+        {
+          "topicId": "SQL-PROG-01",
+          "topicName": "Stored Procedures, Functions, and Dynamic SQL",
+          "order": 12
+        },
+        {
+          "topicId": "SQL-PROG-02",
+          "topicName": "Error Handling, TRY/CATCH, and XACT_STATE",
+          "order": 13
+        },
+        {
+          "topicId": "SQL-PROG-03",
+          "topicName": "Window Functions, CTEs, and Recursive Queries",
+          "order": 14
+        },
+        {
+          "topicId": "SQL-HADR-01",
+          "topicName": "Always On Availability Groups Architecture and Configuration",
+          "order": 15
+        },
+        {
+          "topicId": "SQL-HADR-02",
+          "topicName": "Failover Clustering Instances (FCI) and Shared Storage",
+          "order": 16
+        },
+        {
+          "topicId": "SQL-HADR-03",
+          "topicName": "Backup Strategies, Recovery Models, and Point-in-Time Recovery",
+          "order": 17
+        },
+        {
+          "topicId": "SQL-SEC-01",
+          "topicName": "Authentication, Authorization, and Principle of Least Privilege",
+          "order": 18
+        },
+        {
+          "topicId": "SQL-SEC-02",
+          "topicName": "Transparent Data Encryption (TDE) and Always Encrypted",
+          "order": 19
+        },
+        {
+          "topicId": "SQL-SEC-03",
+          "topicName": "Dynamic Data Masking and Row-Level Security (RLS)",
+          "order": 20
+        },
+        {
+          "topicId": "SQL-PERF-01",
+          "topicName": "Extended Events (XEvents) for Deep Diagnostics",
+          "order": 21
+        },
+        {
+          "topicId": "SQL-PERF-02",
+          "topicName": "Dynamic Management Views (DMVs) for Health Monitoring",
+          "order": 22
+        },
+        {
+          "topicId": "SQL-PERF-03",
+          "topicName": "Query Store: Capture, Analysis, and Plan Forcing",
+          "order": 23
+        },
+        {
+          "topicId": "SQL-CLD-01",
+          "topicName": "Azure SQL Database, Managed Instance, and Hybrid Scenarios",
+          "order": 24
+        },
+        {
+          "topicId": "SQL-CLD-02",
+          "topicName": "In-Memory OLTP (Hekaton) and Memory-Optimized Tables",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "redis",
+      "moduleName": "Redis",
+      "order": 50,
+      "description": "Master Redis from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "REDIS-01",
+          "topicName": "Single-Threaded Event Loop and I/O Multiplexing",
+          "order": 1
+        },
+        {
+          "topicId": "REDIS-02",
+          "topicName": "Data Structures and Memory Encoding (Strings, Hashes, Lists, Sets, Sorted Sets)",
+          "order": 2
+        },
+        {
+          "topicId": "REDIS-03",
+          "topicName": "Memory Management, Eviction Policies, and maxmemory",
+          "order": 3
+        },
+        {
+          "topicId": "REDIS-04",
+          "topicName": "RDB (Redis Database) Snapshots and Copy-on-Write (CoW)",
+          "order": 4
+        },
+        {
+          "topicId": "REDIS-05",
+          "topicName": "AOF (Append-Only File), Fsync Policies, and AOF Rewrites",
+          "order": 5
+        },
+        {
+          "topicId": "REDIS-06",
+          "topicName": "Hybrid Persistence (RDB + AOF) and Recovery Strategies",
+          "order": 6
+        },
+        {
+          "topicId": "REDIS-07",
+          "topicName": "Master-Replica Replication Mechanics and PSYNC",
+          "order": 7
+        },
+        {
+          "topicId": "REDIS-08",
+          "topicName": "Redis Sentinel Architecture, Quorum, and Failover",
+          "order": 8
+        },
+        {
+          "topicId": "REDIS-09",
+          "topicName": "Redis Cluster Hash Slots (16384) and Sharding",
+          "order": 9
+        },
+        {
+          "topicId": "REDIS-10",
+          "topicName": "Cluster Gossip Protocol, Meet Messages, and Failover Detection",
+          "order": 10
+        },
+        {
+          "topicId": "REDIS-11",
+          "topicName": "Client-Side Caching, Tracking, and Connection Management",
+          "order": 11
+        },
+        {
+          "topicId": "REDIS-12",
+          "topicName": "Pub/Sub and Redis Streams (Consumer Groups, ACK, XREADGROUP)",
+          "order": 12
+        },
+        {
+          "topicId": "REDIS-13",
+          "topicName": "Transactions (MULTI, EXEC, DISCARD) and Lua Scripting",
+          "order": 13
+        },
+        {
+          "topicId": "REDIS-14",
+          "topicName": "Probabilistic Data Structures (HyperLogLog, Bloom Filters, Cuckoo Filters)",
+          "order": 14
+        },
+        {
+          "topicId": "REDIS-15",
+          "topicName": "Latency Troubleshooting and SLOWLOG Analysis",
+          "order": 15
+        },
+        {
+          "topicId": "REDIS-16",
+          "topicName": "Security (AUTH, ACLs, TLS in Transit, and RESTRICTING Commands)",
+          "order": 16
+        },
+        {
+          "topicId": "REDIS-17",
+          "topicName": "Capacity Planning, OS Tuning (Transparent Huge Pages, vm.overcommit_memory)",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "moduleId": "elasticsearch",
+      "moduleName": "Elasticsearch",
+      "order": 51,
+      "description": "Master Elasticsearch from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "ES-ARC-01",
+          "topicName": "Cluster Architecture, Nodes, and Shards",
+          "order": 1
+        },
+        {
+          "topicId": "ES-ARC-02",
+          "topicName": "Lucene Underlying Storage and Inverted Index",
+          "order": 2
+        },
+        {
+          "topicId": "ES-ARC-03",
+          "topicName": "Distributed Document Routing and Lifecycle",
+          "order": 3
+        },
+        {
+          "topicId": "ES-MOD-01",
+          "topicName": "Dynamic vs Explicit Mapping and Datatypes",
+          "order": 4
+        },
+        {
+          "topicId": "ES-MOD-02",
+          "topicName": "Text vs Keyword Fields and Normalization",
+          "order": 5
+        },
+        {
+          "topicId": "ES-MOD-03",
+          "topicName": "Relationships Modeling (Nested, Join, Denormalization)",
+          "order": 6
+        },
+        {
+          "topicId": "ES-SRC-01",
+          "topicName": "Full-Text Queries and Match vs Term",
+          "order": 7
+        },
+        {
+          "topicId": "ES-SRC-02",
+          "topicName": "Compound Queries, Bool Logic, and Scoring",
+          "order": 8
+        },
+        {
+          "topicId": "ES-SRC-03",
+          "topicName": "Pagination (From/Size, Scroll, Search After)",
+          "order": 9
+        },
+        {
+          "topicId": "ES-AGG-01",
+          "topicName": "Metric and Bucket Aggregations",
+          "order": 10
+        },
+        {
+          "topicId": "ES-AGG-02",
+          "topicName": "Pipeline Aggregations and Matrix Operations",
+          "order": 11
+        },
+        {
+          "topicId": "ES-AGG-03",
+          "topicName": "Memory Management for Aggregations (Fielddata and Doc Values)",
+          "order": 12
+        },
+        {
+          "topicId": "ES-PER-01",
+          "topicName": "Indexing Performance Tuning and Bulk APIs",
+          "order": 13
+        },
+        {
+          "topicId": "ES-PER-02",
+          "topicName": "Search Performance Optimization and Caching",
+          "order": 14
+        },
+        {
+          "topicId": "ES-PER-03",
+          "topicName": "JVM Heap, Garbage Collection, and OS Settings",
+          "order": 15
+        },
+        {
+          "topicId": "ES-OPS-01",
+          "topicName": "Index Lifecycle Management (ILM) and Rollover",
+          "order": 16
+        },
+        {
+          "topicId": "ES-OPS-02",
+          "topicName": "Snapshots, Backup, and Disaster Recovery",
+          "order": 17
+        },
+        {
+          "topicId": "ES-OPS-03",
+          "topicName": "Cluster Health, Monitoring, and Troubleshooting",
+          "order": 18
+        },
+        {
+          "topicId": "ES-ADV-01",
+          "topicName": "Security, RBAC, and TLS Configuration",
+          "order": 19
+        },
+        {
+          "topicId": "ES-ADV-02",
+          "topicName": "Cross-Cluster Search (CCS) and Replication (CCR)",
+          "order": 20
+        },
+        {
+          "topicId": "ES-ADV-03",
+          "topicName": "Machine Learning and Vector Search (KNN)",
+          "order": 21
+        }
+      ]
+    },
+    {
+      "moduleId": "firebase_firestore",
+      "moduleName": "Firebase Firestore",
+      "order": 52,
+      "description": "Master Firebase Firestore from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "FS-01",
+          "topicName": "NoSQL Data Modeling & Document-Based Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "FS-02",
+          "topicName": "Collections, Documents, and Subcollections",
+          "order": 2
+        },
+        {
+          "topicId": "FS-03",
+          "topicName": "Data Types, Field Values, and Nested Maps",
+          "order": 3
+        },
+        {
+          "topicId": "FS-04",
+          "topicName": "Document ID Generation & Auto-IDs vs Custom IDs",
+          "order": 4
+        },
+        {
+          "topicId": "FS-05",
+          "topicName": "Basic Queries, Equality Operators, and Filters",
+          "order": 5
+        },
+        {
+          "topicId": "FS-06",
+          "topicName": "Compound Queries & Query Limitations",
+          "order": 6
+        },
+        {
+          "topicId": "FS-07",
+          "topicName": "Range Filters & Inequality Constraints on Single Fields",
+          "order": 7
+        },
+        {
+          "topicId": "FS-08",
+          "topicName": "Single-Field vs Composite Indexes",
+          "order": 8
+        },
+        {
+          "topicId": "FS-09",
+          "topicName": "Array-Contains and Array-Contains-Any Queries",
+          "order": 9
+        },
+        {
+          "topicId": "FS-10",
+          "topicName": "In and Not-In Operator Behaviors",
+          "order": 10
+        },
+        {
+          "topicId": "FS-11",
+          "topicName": "Atomic Operations with Batched Writes",
+          "order": 11
+        },
+        {
+          "topicId": "FS-12",
+          "topicName": "Read-Write Transactions & Optimistic Concurrency Control",
+          "order": 12
+        },
+        {
+          "topicId": "FS-13",
+          "topicName": "Transaction Conflicts, Retries, and Contention Handling",
+          "order": 13
+        },
+        {
+          "topicId": "FS-14",
+          "topicName": "Firestore Security Rules Language Syntax",
+          "order": 14
+        },
+        {
+          "topicId": "FS-15",
+          "topicName": "Authentication & Authorization Context in Rules",
+          "order": 15
+        },
+        {
+          "topicId": "FS-16",
+          "topicName": "Granular Field-Level and Structural Validation Rules",
+          "order": 16
+        },
+        {
+          "topicId": "FS-17",
+          "topicName": "Rules Testing using the Firebase Emulator Suite",
+          "order": 17
+        },
+        {
+          "topicId": "FS-18",
+          "topicName": "Real-time Listeners (onSnapshot) and Event Mechanics",
+          "order": 18
+        },
+        {
+          "topicId": "FS-19",
+          "topicName": "Offline Persistence & Local Cache Management",
+          "order": 19
+        },
+        {
+          "topicId": "FS-20",
+          "topicName": "Conflict Resolution During Offline Reconnection",
+          "order": 20
+        },
+        {
+          "topicId": "FS-21",
+          "topicName": "Hotspots and the 500/50/5 Rule",
+          "order": 21
+        },
+        {
+          "topicId": "FS-22",
+          "topicName": "Sharding Counter Patterns for High-Throughput Writes",
+          "order": 22
+        },
+        {
+          "topicId": "FS-23",
+          "topicName": "Denormalization Strategies and Data Duplication",
+          "order": 23
+        },
+        {
+          "topicId": "FS-24",
+          "topicName": "Polymorphic Data Modeling & Inheritance in NoSQL",
+          "order": 24
+        },
+        {
+          "topicId": "FS-25",
+          "topicName": "Cloud Functions Triggers (onCreate, onUpdate, onDelete)",
+          "order": 25
+        },
+        {
+          "topicId": "FS-26",
+          "topicName": "Full-Text Search Integration (Algolia / Typesense)",
+          "order": 26
+        },
+        {
+          "topicId": "FS-27",
+          "topicName": "Firebase Extensions for Firestore",
+          "order": 27
+        },
+        {
+          "topicId": "FS-28",
+          "topicName": "Read/Write Cost Optimization & Billing Management",
+          "order": 28
+        },
+        {
+          "topicId": "FS-29",
+          "topicName": "Data Migration and Schema Evolution Patterns",
+          "order": 29
+        },
+        {
+          "topicId": "FS-30",
+          "topicName": "Monitoring, Query Profiling, and Performance Diagnostics",
+          "order": 30
+        }
+      ]
+    },
+    {
+      "moduleId": "database_design",
+      "moduleName": "Database Design",
+      "order": 53,
+      "description": "Master Database Design from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "DB-FUND-01",
+          "topicName": "Relational Model and ACID Properties",
+          "order": 1
+        },
+        {
+          "topicId": "DB-FUND-02",
+          "topicName": "Entity-Relationship (ER) Modeling",
+          "order": 2
+        },
+        {
+          "topicId": "DB-FUND-03",
+          "topicName": "Normalization (1NF through BCNF)",
+          "order": 3
+        },
+        {
+          "topicId": "DB-FUND-04",
+          "topicName": "Denormalization Strategies and Trade-offs",
+          "order": 4
+        },
+        {
+          "topicId": "DB-IDX-01",
+          "topicName": "B-Tree and B+ Tree Index Internals",
+          "order": 5
+        },
+        {
+          "topicId": "DB-IDX-02",
+          "topicName": "Hash Indexes and Bitmap Indexes",
+          "order": 6
+        },
+        {
+          "topicId": "DB-IDX-03",
+          "topicName": "Composite Indexes and Leftmost Prefix Rule",
+          "order": 7
+        },
+        {
+          "topicId": "DB-IDX-04",
+          "topicName": "Covering Indexes and Index Intersection",
+          "order": 8
+        },
+        {
+          "topicId": "DB-IDX-05",
+          "topicName": "Full-Text Search and Inverted Indexes",
+          "order": 9
+        },
+        {
+          "topicId": "DB-TXN-01",
+          "topicName": "Isolation Levels and ANSI SQL Anomalies",
+          "order": 10
+        },
+        {
+          "topicId": "DB-TXN-02",
+          "topicName": "Pessimistic vs Optimistic Concurrency Control",
+          "order": 11
+        },
+        {
+          "topicId": "DB-TXN-03",
+          "topicName": "MVCC (Multi-Version Concurrency Control) Internals",
+          "order": 12
+        },
+        {
+          "topicId": "DB-TXN-04",
+          "topicName": "Deadlocks: Detection, Prevention, and Resolution",
+          "order": 13
+        },
+        {
+          "topicId": "DB-DIST-01",
+          "topicName": "CAP Theorem and PACELC Theorem",
+          "order": 14
+        },
+        {
+          "topicId": "DB-DIST-02",
+          "topicName": "Consistent Hashing and Partitioning",
+          "order": 15
+        },
+        {
+          "topicId": "DB-DIST-03",
+          "topicName": "Document, Column-Family, and Key-Value Stores",
+          "order": 16
+        },
+        {
+          "topicId": "DB-DIST-04",
+          "topicName": "Graph Databases and Property Graph Models",
+          "order": 17
+        },
+        {
+          "topicId": "DB-DIST-05",
+          "topicName": "Distributed Consensus (Raft and Paxos)",
+          "order": 18
+        },
+        {
+          "topicId": "DB-ADV-01",
+          "topicName": "Sharding Strategies and Cross-Shard Queries",
+          "order": 19
+        },
+        {
+          "topicId": "DB-ADV-02",
+          "topicName": "CQRS (Command Query Responsibility Segregation)",
+          "order": 20
+        },
+        {
+          "topicId": "DB-ADV-03",
+          "topicName": "Event Sourcing and Append-Only Logs",
+          "order": 21
+        },
+        {
+          "topicId": "DB-ADV-04",
+          "topicName": "Time-Series Database Design",
+          "order": 22
+        },
+        {
+          "topicId": "DB-ADV-05",
+          "topicName": "Hierarchical Data Modeling (Adjacency List vs Nested Sets)",
+          "order": 23
+        },
+        {
+          "topicId": "DB-OPS-01",
+          "topicName": "Query Optimization and Execution Plans",
+          "order": 24
+        },
+        {
+          "topicId": "DB-OPS-02",
+          "topicName": "Replication Topologies (Leader-Follower, Multi-Leader)",
+          "order": 25
+        },
+        {
+          "topicId": "DB-OPS-03",
+          "topicName": "Backup, Point-in-Time Recovery (PITR), and DR",
+          "order": 26
+        },
+        {
+          "topicId": "DB-OPS-04",
+          "topicName": "Connection Pooling and Thundering Herd Problem",
+          "order": 27
+        },
+        {
+          "topicId": "DB-OPS-05",
+          "topicName": "Database Migrations and Zero-Downtime Schema Changes",
+          "order": 28
+        }
+      ]
+    },
+    {
+      "moduleId": "sql_tuning",
+      "moduleName": "SQL Tuning",
+      "order": 54,
+      "description": "Master SQL Tuning from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SQL-F01",
+          "topicName": "Relational Algebra and Logical Query Processing",
+          "order": 1
+        },
+        {
+          "topicId": "SQL-F02",
+          "topicName": "B-Tree and B+Tree Index Architectures",
+          "order": 2
+        },
+        {
+          "topicId": "SQL-F03",
+          "topicName": "Clustered vs. Non-Clustered Indexes",
+          "order": 3
+        },
+        {
+          "topicId": "SQL-F04",
+          "topicName": "Full Table Scans and Index Seeks vs. Scans",
+          "order": 4
+        },
+        {
+          "topicId": "SQL-I01",
+          "topicName": "Composite Index Design and Leftmost Prefix Rule",
+          "order": 5
+        },
+        {
+          "topicId": "SQL-I02",
+          "topicName": "Covering Indexes and Included Columns",
+          "order": 6
+        },
+        {
+          "topicId": "SQL-I03",
+          "topicName": "Filtered and Partial Indexes",
+          "order": 7
+        },
+        {
+          "topicId": "SQL-I04",
+          "topicName": "Bitmap, Hash, and Expression-Based Indexes",
+          "order": 8
+        },
+        {
+          "topicId": "SQL-E01",
+          "topicName": "Reading and Interpreting Execution Plans",
+          "order": 9
+        },
+        {
+          "topicId": "SQL-E02",
+          "topicName": "Join Algorithms: Nested Loops, Hash Joins, and Merge Joins",
+          "order": 10
+        },
+        {
+          "topicId": "SQL-E03",
+          "topicName": "Sort Operations and Spills to TempDB/Disk",
+          "order": 11
+        },
+        {
+          "topicId": "SQL-E04",
+          "topicName": "Cost-Based Optimizer (CBO) Mechanics",
+          "order": 12
+        },
+        {
+          "topicId": "SQL-S01",
+          "topicName": "Column Statistics, Histograms, and Density",
+          "order": 13
+        },
+        {
+          "topicId": "SQL-S02",
+          "topicName": "Cardinality Estimation Pitfalls and Parameter Sniffing",
+          "order": 14
+        },
+        {
+          "topicId": "SQL-S03",
+          "topicName": "Stale Statistics and Auto-Update Thresholds",
+          "order": 15
+        },
+        {
+          "topicId": "SQL-A01",
+          "topicName": "Non-SARGable Expressions and Functions on Columns",
+          "order": 16
+        },
+        {
+          "topicId": "SQL-A02",
+          "topicName": "Implicit Type Conversions and Data Type Mismatches",
+          "order": 17
+        },
+        {
+          "topicId": "SQL-A03",
+          "topicName": "OR Conditions, UNION vs. OR, and IN vs. EXISTS",
+          "order": 18
+        },
+        {
+          "topicId": "SQL-A04",
+          "topicName": "Pagination Bottlenecks (OFFSET-FETCH vs. Keyset Pagination)",
+          "order": 19
+        },
+        {
+          "topicId": "SQL-N01",
+          "topicName": "Window Functions and Analytic Clauses",
+          "order": 20
+        },
+        {
+          "topicId": "SQL-N02",
+          "topicName": "Common Table Expressions (CTEs) and Materialization",
+          "order": 21
+        },
+        {
+          "topicId": "SQL-N03",
+          "topicName": "Recursive Queries and Graph Processing",
+          "order": 22
+        },
+        {
+          "topicId": "SQL-T01",
+          "topicName": "Isolation Levels and Concurrency Anomalies",
+          "order": 23
+        },
+        {
+          "topicId": "SQL-T02",
+          "topicName": "Lock Granularity, Escalation, and Deadlocks",
+          "order": 24
+        },
+        {
+          "topicId": "SQL-T03",
+          "topicName": "Optimistic vs. Pessimistic Concurrency Control",
+          "order": 25
+        },
+        {
+          "topicId": "SQL-T04",
+          "topicName": "MVCC (Multi-Version Concurrency Control) Mechanics",
+          "order": 26
+        },
+        {
+          "topicId": "SQL-P01",
+          "topicName": "Table and Index Partitioning (Range, List, Hash)",
+          "order": 27
+        },
+        {
+          "topicId": "SQL-P02",
+          "topicName": "Partition Pruning and Partition Elimination",
+          "order": 28
+        },
+        {
+          "topicId": "SQL-P03",
+          "topicName": "Distributed Databases and Sharding Strategies",
+          "order": 29
+        },
+        {
+          "topicId": "SQL-D01",
+          "topicName": "Tracing, Extended Events, and Slow Query Logs",
+          "order": 30
+        },
+        {
+          "topicId": "SQL-D02",
+          "topicName": "Identifying and Mitigating Blocking Chains",
+          "order": 31
+        },
+        {
+          "topicId": "SQL-D03",
+          "topicName": "Memory Grants and Workspace Memory Tuning",
+          "order": 32
+        },
+        {
+          "topicId": "SQL-D04",
+          "topicName": "Query Hints, Plan Guides, and Plan Baselines",
+          "order": 33
+        }
+      ]
+    },
+    {
+      "moduleId": "nosql_concepts",
+      "moduleName": "NoSQL Concepts",
+      "order": 55,
+      "description": "Master NoSQL Concepts from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "NSQL-01",
+          "topicName": "CAP Theorem and PACELC Theorem",
+          "order": 1
+        },
+        {
+          "topicId": "NSQL-02",
+          "topicName": "ACID vs. BASE Transactions",
+          "order": 2
+        },
+        {
+          "topicId": "NSQL-03",
+          "topicName": "Distributed Consensus (Paxos and Raft)",
+          "order": 3
+        },
+        {
+          "topicId": "NSQL-04",
+          "topicName": "Consistent Hashing and Virtual Nodes",
+          "order": 4
+        },
+        {
+          "topicId": "NSQL-05",
+          "topicName": "Key-Value Stores Internal Architecture",
+          "order": 5
+        },
+        {
+          "topicId": "NSQL-06",
+          "topicName": "Document Databases and BSON/JSON Internals",
+          "order": 6
+        },
+        {
+          "topicId": "NSQL-07",
+          "topicName": "Column-Family Stores and SSTables",
+          "order": 7
+        },
+        {
+          "topicId": "NSQL-08",
+          "topicName": "Graph Databases and Traversal Algorithms",
+          "order": 8
+        },
+        {
+          "topicId": "NSQL-09",
+          "topicName": "LSM-Trees vs. B-Trees",
+          "order": 9
+        },
+        {
+          "topicId": "NSQL-10",
+          "topicName": "Leaderless Replication and Sloppy Quorums",
+          "order": 10
+        },
+        {
+          "topicId": "NSQL-11",
+          "topicName": "Hinted Handoff and Read Repair",
+          "order": 11
+        },
+        {
+          "topicId": "NSQL-12",
+          "topicName": "Vector Clocks and Conflict Resolution",
+          "order": 12
+        },
+        {
+          "topicId": "NSQL-13",
+          "topicName": "Linearizability and Serializability",
+          "order": 13
+        },
+        {
+          "topicId": "NSQL-14",
+          "topicName": "Secondary Indexing in Distributed Systems",
+          "order": 14
+        },
+        {
+          "topicId": "NSQL-15",
+          "topicName": "Compound and Multi-Key Indexes",
+          "order": 15
+        },
+        {
+          "topicId": "NSQL-16",
+          "topicName": "Denormalization and Query-Driven Modeling",
+          "order": 16
+        },
+        {
+          "topicId": "NSQL-17",
+          "topicName": "Partitioning and Sharding Strategies",
+          "order": 17
+        },
+        {
+          "topicId": "NSQL-18",
+          "topicName": "Memory Management and Caching (LRU, LFU)",
+          "order": 18
+        },
+        {
+          "topicId": "NSQL-19",
+          "topicName": "Compaction Strategies (Size-Tiered vs. Leveled)",
+          "order": 19
+        },
+        {
+          "topicId": "NSQL-20",
+          "topicName": "Hot Spotting and Traffic Mitigations",
+          "order": 20
+        },
+        {
+          "topicId": "NSQL-21",
+          "topicName": "Backup, Point-in-Time Recovery, and Snapshots",
+          "order": 21
+        },
+        {
+          "topicId": "NSQL-22",
+          "topicName": "Multi-Model Databases Architecture",
+          "order": 22
+        },
+        {
+          "topicId": "NSQL-23",
+          "topicName": "Global Distributed Databases (CockroachDB, Spanner style)",
+          "order": 23
+        },
+        {
+          "topicId": "NSQL-24",
+          "topicName": "Handling Split-Brain Scenarios and Network Partitions",
+          "order": 24
+        },
+        {
+          "topicId": "NSQL-25",
+          "topicName": "Migration Strategies from RDBMS to NoSQL",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "azure_microsoft_azure",
+      "moduleName": "Azure (Microsoft Azure)",
+      "order": 56,
+      "description": "Master Azure (Microsoft Azure) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "AZ-F01",
+          "topicName": "Azure Resource Manager (ARM) and Bicep/Terraform",
+          "order": 1
+        },
+        {
+          "topicId": "AZ-F02",
+          "topicName": "Subscriptions, Management Groups, and Enterprise Scale Landing Zones",
+          "order": 2
+        },
+        {
+          "topicId": "AZ-F03",
+          "topicName": "Azure Policy, Blueprints, and Compliance",
+          "order": 3
+        },
+        {
+          "topicId": "AZ-F04",
+          "topicName": "Role-Based Access Control (RBAC) and Entra ID (Azure AD) PIM",
+          "order": 4
+        },
+        {
+          "topicId": "AZ-C01",
+          "topicName": "Azure Virtual Machines, Scale Sets, and Availability Sets/Zones",
+          "order": 5
+        },
+        {
+          "topicId": "AZ-C02",
+          "topicName": "Azure App Service and App Service Plans",
+          "order": 6
+        },
+        {
+          "topicId": "AZ-C03",
+          "topicName": "Azure Kubernetes Service (AKS) Architecture and CNI",
+          "order": 7
+        },
+        {
+          "topicId": "AZ-C04",
+          "topicName": "Azure Functions, Logic Apps, and Serverless Patterns",
+          "order": 8
+        },
+        {
+          "topicId": "AZ-N01",
+          "topicName": "Virtual Networks (VNets), Subnets, and NSGs/ASGs",
+          "order": 9
+        },
+        {
+          "topicId": "AZ-N02",
+          "topicName": "VNet Peering, VPN Gateway, and ExpressRoute",
+          "order": 10
+        },
+        {
+          "topicId": "AZ-N03",
+          "topicName": "Azure Load Balancer, Application Gateway, and Front Door",
+          "order": 11
+        },
+        {
+          "topicId": "AZ-N04",
+          "topicName": "Azure Firewall, Bastion, and Private Endpoints/Links",
+          "order": 12
+        },
+        {
+          "topicId": "AZ-S01",
+          "topicName": "Azure Storage Accounts, Tiers, and Redundancy (LRS, GRS, ZRS)",
+          "order": 13
+        },
+        {
+          "topicId": "AZ-S02",
+          "topicName": "Azure SQL Database, Managed Instance, and Elastic Pools",
+          "order": 14
+        },
+        {
+          "topicId": "AZ-S03",
+          "topicName": "Azure Cosmos DB Consistency Models and Partitioning",
+          "order": 15
+        },
+        {
+          "topicId": "AZ-S04",
+          "topicName": "Azure Cache for Redis and Data Lake Storage Gen2",
+          "order": 16
+        },
+        {
+          "topicId": "AZ-SEC01",
+          "topicName": "Microsoft Entra ID (Azure AD), Conditional Access, and Identity Protection",
+          "order": 17
+        },
+        {
+          "topicId": "AZ-SEC02",
+          "topicName": "Azure Key Vault, Managed Identities, and Secret Rotation",
+          "order": 18
+        },
+        {
+          "topicId": "AZ-SEC03",
+          "topicName": "Microsoft Defender for Cloud and Sentinel",
+          "order": 19
+        },
+        {
+          "topicId": "AZ-M01",
+          "topicName": "Azure Monitor, Log Analytics Workspaces, and Kusto Query Language (KQL)",
+          "order": 20
+        },
+        {
+          "topicId": "AZ-M02",
+          "topicName": "Application Insights and Distributed Tracing",
+          "order": 21
+        },
+        {
+          "topicId": "AZ-M03",
+          "topicName": "Azure Backup, Site Recovery (ASR), and Disaster Recovery Strategies",
+          "order": 22
+        },
+        {
+          "topicId": "AZ-A01",
+          "topicName": "Well-Architected Framework (Reliability, Security, Cost Optimization, Performance, Operational Excellence)",
+          "order": 23
+        },
+        {
+          "topicId": "AZ-A02",
+          "topicName": "Azure DevOps Pipelines and GitHub Actions Integration",
+          "order": 24
+        },
+        {
+          "topicId": "AZ-A03",
+          "topicName": "Multi-Region Design Patterns and Traffic Manager",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "kubernetes",
+      "moduleName": "Kubernetes",
+      "order": 57,
+      "description": "Master Kubernetes from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "K8S-01",
+          "topicName": "Architecture and Control Plane Components",
+          "order": 1
+        },
+        {
+          "topicId": "K8S-02",
+          "topicName": "API Server, etcd, and Consensus",
+          "order": 2
+        },
+        {
+          "topicId": "K8S-03",
+          "topicName": "Kubelet, Kube-Proxy, and Node Internals",
+          "order": 3
+        },
+        {
+          "topicId": "K8S-04",
+          "topicName": "Pods, Containers, and Container Runtimes (CRI)",
+          "order": 4
+        },
+        {
+          "topicId": "K8S-05",
+          "topicName": "Deployments, ReplicaSets, and DaemonSets",
+          "order": 5
+        },
+        {
+          "topicId": "K8S-06",
+          "topicName": "StatefulSets and Persistent Identity",
+          "order": 6
+        },
+        {
+          "topicId": "K8S-07",
+          "topicName": "Jobs, CronJobs, and Batch Processing",
+          "order": 7
+        },
+        {
+          "topicId": "K8S-08",
+          "topicName": "Advanced Scheduling, Taints, Tolerations, and Affinity",
+          "order": 8
+        },
+        {
+          "topicId": "K8S-09",
+          "topicName": "Kubernetes Networking Model and CNI Plugins",
+          "order": 9
+        },
+        {
+          "topicId": "K8S-10",
+          "topicName": "Services (ClusterIP, NodePort, LoadBalancer, ExternalName)",
+          "order": 10
+        },
+        {
+          "topicId": "K8S-11",
+          "topicName": "Ingress Controllers and Ingress Resources",
+          "order": 11
+        },
+        {
+          "topicId": "K8S-12",
+          "topicName": "Gateway API and Advanced Traffic Routing",
+          "order": 12
+        },
+        {
+          "topicId": "K8S-13",
+          "topicName": "Volumes, PersistentVolumes (PV), and PersistentVolumeClaims (PVC)",
+          "order": 13
+        },
+        {
+          "topicId": "K8S-14",
+          "topicName": "Container Storage Interface (CSI) Architecture",
+          "order": 14
+        },
+        {
+          "topicId": "K8S-15",
+          "topicName": "StorageClasses, Dynamic Provisioning, and Access Modes",
+          "order": 15
+        },
+        {
+          "topicId": "K8S-16",
+          "topicName": "Authentication, Authorization (RBAC), and Admission Control",
+          "order": 16
+        },
+        {
+          "topicId": "K8S-17",
+          "topicName": "Secrets Management and External Secrets Operators",
+          "order": 17
+        },
+        {
+          "topicId": "K8S-18",
+          "topicName": "Pod Security Standards and Pod Security Admission (PSA)",
+          "order": 18
+        },
+        {
+          "topicId": "K8S-19",
+          "topicName": "Network Policies and Microsegmentation",
+          "order": 19
+        },
+        {
+          "topicId": "K8S-20",
+          "topicName": "Probes (Liveness, Readiness, Startup) and Lifecycle Hooks",
+          "order": 20
+        },
+        {
+          "topicId": "K8S-21",
+          "topicName": "Logging, Monitoring, and Metrics Architecture (Prometheus/OpenTelemetry)",
+          "order": 21
+        },
+        {
+          "topicId": "K8S-22",
+          "topicName": "Debugging and Troubleshooting Failing Pods and Nodes",
+          "order": 22
+        },
+        {
+          "topicId": "K8S-23",
+          "topicName": "Custom Resources (CRDs) and Operator Pattern",
+          "order": 23
+        },
+        {
+          "topicId": "K8S-24",
+          "topicName": "Cluster Autoscaling, HPA, VPA, and KEDA",
+          "order": 24
+        },
+        {
+          "topicId": "K8S-25",
+          "topicName": "Disaster Recovery, Backup, and etcd Management (Velero)",
+          "order": 25
+        },
+        {
+          "topicId": "K8S-26",
+          "topicName": "Multi-Tenancy, Namespaces, and Resource Quotas",
+          "order": 26
+        },
+        {
+          "topicId": "K8S-27",
+          "topicName": "GitOps and Continuous Delivery (ArgoCD, Flux)",
+          "order": 27
+        },
+        {
+          "topicId": "K8S-28",
+          "topicName": "Service Mesh Integration (Istio, Linkerd)",
+          "order": 28
+        }
+      ]
+    },
+    {
+      "moduleId": "jenkins",
+      "moduleName": "Jenkins",
+      "order": 58,
+      "description": "Master Jenkins from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JK-FUND-01",
+          "topicName": "Architecture, Master-Agent Topologies, and Executor Allocation",
+          "order": 1
+        },
+        {
+          "topicId": "JK-FUND-02",
+          "topicName": "Freestyle vs. Pipeline Projects and Job Configuration",
+          "order": 2
+        },
+        {
+          "topicId": "JK-FUND-03",
+          "topicName": "Workspace Management, File Operations, and Artifact Archiving",
+          "order": 3
+        },
+        {
+          "topicId": "JK-PIPE-01",
+          "topicName": "Declarative vs. Scripted Pipeline Syntax and Differences",
+          "order": 4
+        },
+        {
+          "topicId": "JK-PIPE-02",
+          "topicName": "Pipeline Stages, Steps, When Conditions, and Post Actions",
+          "order": 5
+        },
+        {
+          "topicId": "JK-PIPE-03",
+          "topicName": "Error Handling, Try-Catch Blocks, and Timeout Management",
+          "order": 6
+        },
+        {
+          "topicId": "JK-PIPE-04",
+          "topicName": "Parallel Execution, Matrix Jobs, and Stage Concurrency",
+          "order": 7
+        },
+        {
+          "topicId": "JK-GROV-01",
+          "topicName": "Groovy Fundamentals for Jenkins (Closures, Maps, Lists)",
+          "order": 8
+        },
+        {
+          "topicId": "JK-GROV-02",
+          "topicName": "Shared Libraries Structure, Global Vars, and Versioning",
+          "order": 9
+        },
+        {
+          "topicId": "JK-GROV-03",
+          "topicName": "Sandbox Security, Method Approvals, and CPS Transformation",
+          "order": 10
+        },
+        {
+          "topicId": "JK-SEC-01",
+          "topicName": "Credentials Binding Plugin and Secret Management",
+          "order": 11
+        },
+        {
+          "topicId": "JK-SEC-02",
+          "topicName": "Role-Based Access Control (RBAC) and Matrix Authorization",
+          "order": 12
+        },
+        {
+          "topicId": "JK-SEC-03",
+          "topicName": "Authentication Integrations (LDAP, SAML, OIDC, Active Directory)",
+          "order": 13
+        },
+        {
+          "topicId": "JK-INT-01",
+          "topicName": "Git SCM Integration, Webhooks, and Polling Strategies",
+          "order": 14
+        },
+        {
+          "topicId": "JK-INT-02",
+          "topicName": "Docker Integration, Docker Pipeline Plugin, and Container Agents",
+          "order": 15
+        },
+        {
+          "topicId": "JK-INT-03",
+          "topicName": "Kubernetes Cloud Plugin and Dynamic Pod Agents",
+          "order": 16
+        },
+        {
+          "topicId": "JK-INT-04",
+          "topicName": "External Tool Integrations (Maven, Gradle, SonarQube, Nexus/Artifactory)",
+          "order": 17
+        },
+        {
+          "topicId": "JK-OPS-01",
+          "topicName": "Plugin Management, Dependency Conflicts, and Upgrades",
+          "order": 18
+        },
+        {
+          "topicId": "JK-OPS-02",
+          "topicName": "Backup, Disaster Recovery, and Configuration as Code (JCasC)",
+          "order": 19
+        },
+        {
+          "topicId": "JK-OPS-03",
+          "topicName": "Monitoring, Logging, Audit Trails, and Metrics (Prometheus)",
+          "order": 20
+        },
+        {
+          "topicId": "JK-OPS-04",
+          "topicName": "High Availability, Scaling Strategies, and Performance Tuning",
+          "order": 21
+        },
+        {
+          "topicId": "JK-ADV-01",
+          "topicName": "Jenkins Queue Management, Load Balancing, and Throttle Concurrent Builds",
+          "order": 22
+        },
+        {
+          "topicId": "JK-ADV-02",
+          "topicName": "Garbage Collection Tuning, JVM Parameters, and Memory Leaks",
+          "order": 23
+        },
+        {
+          "topicId": "JK-ADV-03",
+          "topicName": "Troubleshooting Deadlocks, Thread Dumps, and Hung Pipelines",
+          "order": 24
+        },
+        {
+          "topicId": "JK-ADV-04",
+          "topicName": "Multi-Branch Pipelines, Pull Request Builders, and Org Scans",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "github_actions",
+      "moduleName": "GitHub Actions",
+      "order": 59,
+      "description": "Master GitHub Actions from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "GHA-F01",
+          "topicName": "Architecture and Core Components (Runners, Jobs, Steps, Actions)",
+          "order": 1
+        },
+        {
+          "topicId": "GHA-F02",
+          "topicName": "Workflow Syntax, Triggers, and Event Contexts",
+          "order": 2
+        },
+        {
+          "topicId": "GHA-F03",
+          "topicName": "Environment Variables, Secrets, and Masking",
+          "order": 3
+        },
+        {
+          "topicId": "GHA-F04",
+          "topicName": "Artifacts and Workspace Persistence Between Jobs",
+          "order": 4
+        },
+        {
+          "topicId": "GHA-W01",
+          "topicName": "Job Dependencies, Concurrency, and Fail-Fast Strategies",
+          "order": 5
+        },
+        {
+          "topicId": "GHA-W02",
+          "topicName": "Matrix Builds and Dynamic Strategy Generation",
+          "order": 6
+        },
+        {
+          "topicId": "GHA-W03",
+          "topicName": "Reusable Workflows and Composite Actions",
+          "order": 7
+        },
+        {
+          "topicId": "GHA-W04",
+          "topicName": "Workflow Callers, Inputs, and Secrets Inheritance",
+          "order": 8
+        },
+        {
+          "topicId": "GHA-S01",
+          "topicName": "OpenID Connect (OIDC) and Cloud Provider Authentication (AWS, Azure, GCP)",
+          "order": 9
+        },
+        {
+          "topicId": "GHA-S02",
+          "topicName": "Token Permissions (GITHUB_TOKEN) and Least Privilege Principle",
+          "order": 10
+        },
+        {
+          "topicId": "GHA-S03",
+          "topicName": "Supply Chain Security (Pinning Actions to SHA, Dependabot, CodeQL)",
+          "order": 11
+        },
+        {
+          "topicId": "GHA-S04",
+          "topicName": "Mitigating Injection Attacks in Workflow Expressions",
+          "order": 12
+        },
+        {
+          "topicId": "GHA-R01",
+          "topicName": "Self-Hosted Runners (Ephemeral vs Persistent, Scaletsets, Kubernetes Operators)",
+          "order": 13
+        },
+        {
+          "topicId": "GHA-R02",
+          "topicName": "Runner Group Management, Access Control, and Network Isolation",
+          "order": 14
+        },
+        {
+          "topicId": "GHA-R03",
+          "topicName": "Caching Strategies (actions/cache, Dependency Management, Optimization)",
+          "order": 15
+        },
+        {
+          "topicId": "GHA-E01",
+          "topicName": "Enterprise Policy Management, Organization-level Actions, and Templates",
+          "order": 16
+        },
+        {
+          "topicId": "GHA-E02",
+          "topicName": "Advanced Troubleshooting, Debug Logging, and Workflow Diagnostics",
+          "order": 17
+        },
+        {
+          "topicId": "GHA-E03",
+          "topicName": "GitHub API Integration, Custom Webhooks, and Status Checks",
+          "order": 18
+        },
+        {
+          "topicId": "GHA-E04",
+          "topicName": "Cost Management, Rate Limits, and Queue Optimization at Scale",
+          "order": 19
+        }
+      ]
+    },
+    {
+      "moduleId": "cicd",
+      "moduleName": "CI/CD",
+      "order": 60,
+      "description": "Master CI/CD from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CICD-101",
+          "topicName": "Introduction to Continuous Integration and Continuous Deployment",
+          "order": 1
+        },
+        {
+          "topicId": "CICD-102",
+          "topicName": "Version Control Systems and Branching Strategies (GitFlow, Trunk-Based Development)",
+          "order": 2
+        },
+        {
+          "topicId": "CICD-103",
+          "topicName": "Anatomy of a Build Pipeline: Build, Test, Package, and Release",
+          "order": 3
+        },
+        {
+          "topicId": "CICD-104",
+          "topicName": "Artifact Management and Package Registries (Nexus, Artifactory, Container Registries)",
+          "order": 4
+        },
+        {
+          "topicId": "CICD-201",
+          "topicName": "Jenkins Architecture, Plugins, Shared Libraries, and Scalability",
+          "order": 5
+        },
+        {
+          "topicId": "CICD-202",
+          "topicName": "GitHub Actions: Workflows, Runners, Actions, and Secrets Management",
+          "order": 6
+        },
+        {
+          "topicId": "CICD-203",
+          "topicName": "GitLab CI/CD: Runners, Stages, Jobs, and Include Directives",
+          "order": 7
+        },
+        {
+          "topicId": "CICD-204",
+          "topicName": "Tekton and Kubernetes-Native CI/CD Pipelines",
+          "order": 8
+        },
+        {
+          "topicId": "CICD-301",
+          "topicName": "Integrating Automated Testing (Unit, Integration, E2E) into Pipelines",
+          "order": 9
+        },
+        {
+          "topicId": "CICD-302",
+          "topicName": "Static Code Analysis and Code Quality Gates (SonarQube, Checkmarx)",
+          "order": 10
+        },
+        {
+          "topicId": "CICD-303",
+          "topicName": "Software Composition Analysis (SCA) and Vulnerability Scanning (Snyk, Trivy)",
+          "order": 11
+        },
+        {
+          "topicId": "CICD-401",
+          "topicName": "Blue-Green Deployments and Zero-Downtime Releases",
+          "order": 12
+        },
+        {
+          "topicId": "CICD-402",
+          "topicName": "Canary Deployments and Progressive Delivery",
+          "order": 13
+        },
+        {
+          "topicId": "CICD-403",
+          "topicName": "Rolling Updates and Feature Flags (LaunchDarkly, Unleash)",
+          "order": 14
+        },
+        {
+          "topicId": "CICD-501",
+          "topicName": "Infrastructure as Code (Terraform, Ansible) in CI/CD Pipelines",
+          "order": 15
+        },
+        {
+          "topicId": "CICD-502",
+          "topicName": "GitOps Principles and Paradigm Shifts",
+          "order": 16
+        },
+        {
+          "topicId": "CICD-503",
+          "topicName": "ArgoCD and FluxCD: Kubernetes Continuous Delivery Operators",
+          "order": 17
+        },
+        {
+          "topicId": "CICD-601",
+          "topicName": "Secrets Management in CI/CD (HashiCorp Vault, AWS Secrets Manager)",
+          "order": 18
+        },
+        {
+          "topicId": "CICD-602",
+          "topicName": "Supply Chain Security and Software Bill of Materials (SBOM)",
+          "order": 19
+        },
+        {
+          "topicId": "CICD-603",
+          "topicName": "Pipeline Security Hardening and Principle of Least Privilege",
+          "order": 20
+        },
+        {
+          "topicId": "CICD-701",
+          "topicName": "Pipeline Performance Optimization and Caching Strategies",
+          "order": 21
+        },
+        {
+          "topicId": "CICD-702",
+          "topicName": "Monitoring and Observability of CI/CD Infrastructure and Metrics",
+          "order": 22
+        },
+        {
+          "topicId": "CICD-703",
+          "topicName": "Automated Rollbacks, Circuit Breakers, and Incident Remediation",
+          "order": 23
+        },
+        {
+          "topicId": "CICD-704",
+          "topicName": "Multi-Region and Multi-Cloud Deployment Orchestration",
+          "order": 24
+        }
+      ]
+    },
+    {
+      "moduleId": "terraform",
+      "moduleName": "Terraform",
+      "order": 61,
+      "description": "Master Terraform from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "TF001",
+          "topicName": "Terraform Architecture & Core Workflow",
+          "order": 1
+        },
+        {
+          "topicId": "TF002",
+          "topicName": "HCL Syntax & Language Features",
+          "order": 2
+        },
+        {
+          "topicId": "TF003",
+          "topicName": "Providers, Version Constraints, and Aliases",
+          "order": 3
+        },
+        {
+          "topicId": "TF004",
+          "topicName": "State Lifecycle, Locking, and Backends",
+          "order": 4
+        },
+        {
+          "topicId": "TF005",
+          "topicName": "State Manipulation (import, rm, mv, pull, push)",
+          "order": 5
+        },
+        {
+          "topicId": "TF006",
+          "topicName": "Handling State Drift & Troubleshooting",
+          "order": 6
+        },
+        {
+          "topicId": "TF007",
+          "topicName": "Module Design Patterns & Composition",
+          "order": 7
+        },
+        {
+          "topicId": "TF008",
+          "topicName": "Module Sources & Registry Management",
+          "order": 8
+        },
+        {
+          "topicId": "TF009",
+          "topicName": "Dynamic Blocks & Meta-Arguments (count, for_each, lifecycle)",
+          "order": 9
+        },
+        {
+          "topicId": "TF010",
+          "topicName": "Complex Data Types & Built-in Functions",
+          "order": 10
+        },
+        {
+          "topicId": "TF011",
+          "topicName": "Automation, Workspaces, and Environment Separation",
+          "order": 11
+        },
+        {
+          "topicId": "TF012",
+          "topicName": "CI/CD Pipeline Integration & Terraform Cloud/Enterprise",
+          "order": 12
+        },
+        {
+          "topicId": "TF013",
+          "topicName": "Secret Management & Sensitive Data Handling",
+          "order": 13
+        },
+        {
+          "topicId": "TF014",
+          "topicName": "Policy as Code (Sentinel, OPA/Conftest)",
+          "order": 14
+        },
+        {
+          "topicId": "TF015",
+          "topicName": "Writing Custom Providers & Terraform Plugin Protocol",
+          "order": 15
+        },
+        {
+          "topicId": "TF016",
+          "topicName": "Troubleshooting Performance, Graph Optimization & Large-Scale Refactoring",
+          "order": 16
+        }
+      ]
+    },
+    {
+      "moduleId": "ansible",
+      "moduleName": "Ansible",
+      "order": 62,
+      "description": "Master Ansible from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "ANS-001",
+          "topicName": "Ansible Architecture and Control Node Requirements",
+          "order": 1
+        },
+        {
+          "topicId": "ANS-002",
+          "topicName": "Inventory Management: Static vs Dynamic Inventories",
+          "order": 2
+        },
+        {
+          "topicId": "ANS-003",
+          "topicName": "SSH Connection Plugins and Multiplexing Optimization",
+          "order": 3
+        },
+        {
+          "topicId": "ANS-004",
+          "topicName": "Playbook Syntax, Structure, and Execution Flow",
+          "order": 4
+        },
+        {
+          "topicId": "ANS-005",
+          "topicName": "Tasks, Modules, and Idempotency Principles",
+          "order": 5
+        },
+        {
+          "topicId": "ANS-006",
+          "topicName": "Variables, Scope, Precedence, and Fact Gathering",
+          "order": 6
+        },
+        {
+          "topicId": "ANS-007",
+          "topicName": "Conditionals (when) and Loops (loop, with_items)",
+          "order": 7
+        },
+        {
+          "topicId": "ANS-008",
+          "topicName": "Jinja2 Templating Engine and Filters",
+          "order": 8
+        },
+        {
+          "topicId": "ANS-009",
+          "topicName": "Error Handling: block, rescue, always, and ignore_errors",
+          "order": 9
+        },
+        {
+          "topicId": "ANS-010",
+          "topicName": "Ansible Roles: Structure, Dependencies, and Defaults",
+          "order": 10
+        },
+        {
+          "topicId": "ANS-011",
+          "topicName": "Collections, Namespaces, and ansible-galaxy",
+          "order": 11
+        },
+        {
+          "topicId": "ANS-012",
+          "topicName": "Imports vs Includes (Static vs Dynamic Execution)",
+          "order": 12
+        },
+        {
+          "topicId": "ANS-013",
+          "topicName": "Ansible Vault: Encrypting Files, Strings, and Passwords",
+          "order": 13
+        },
+        {
+          "topicId": "ANS-014",
+          "topicName": "Privilege Escalation (become, become_user, become_method)",
+          "order": 14
+        },
+        {
+          "topicId": "ANS-015",
+          "topicName": "Performance Tuning: Forks, Serial, and Strategy Plugins",
+          "order": 15
+        },
+        {
+          "topicId": "ANS-016",
+          "topicName": "Asynchronous Actions and Polling",
+          "order": 16
+        },
+        {
+          "topicId": "ANS-017",
+          "topicName": "Writing Custom Modules and Plugins (Python)",
+          "order": 17
+        },
+        {
+          "topicId": "ANS-018",
+          "topicName": "Linting and Testing with Molecule and ansible-lint",
+          "order": 18
+        },
+        {
+          "topicId": "ANS-019",
+          "topicName": "Red Hat Ansible Automation Platform (AAP) & AWX",
+          "order": 19
+        },
+        {
+          "topicId": "ANS-020",
+          "topicName": "AAP Controller RBAC, Credentials, and Webhooks",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "moduleId": "css3",
+      "moduleName": "CSS3",
+      "order": 63,
+      "description": "Master CSS3 from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CSS-FUND-01",
+          "topicName": "The Cascade, Specificity, and Inheritance",
+          "order": 1
+        },
+        {
+          "topicId": "CSS-FUND-02",
+          "topicName": "Advanced Selectors and Pseudo-classes (:is, :where, :has)",
+          "order": 2
+        },
+        {
+          "topicId": "CSS-FUND-03",
+          "topicName": "Pseudo-elements and Generated Content",
+          "order": 3
+        },
+        {
+          "topicId": "CSS-BOX-01",
+          "topicName": "Standard and Alternative Box Models & Margin Collapse",
+          "order": 4
+        },
+        {
+          "topicId": "CSS-BOX-02",
+          "topicName": "CSS Positioning Schemes (static, relative, absolute, fixed, sticky)",
+          "order": 5
+        },
+        {
+          "topicId": "CSS-BOX-03",
+          "topicName": "Z-Index Stacking Contexts and Rendering Order",
+          "order": 6
+        },
+        {
+          "topicId": "CSS-LAY-01",
+          "topicName": "Flexbox Architecture, Alignment, and Sizing Algorithms",
+          "order": 7
+        },
+        {
+          "topicId": "CSS-LAY-02",
+          "topicName": "CSS Grid Layout (Tracks, Areas, Implicit/Explicit Grids)",
+          "order": 8
+        },
+        {
+          "topicId": "CSS-LAY-03",
+          "topicName": "Subgrid and Complex Responsive Layout Patterns",
+          "order": 9
+        },
+        {
+          "topicId": "CSS-TYP-01",
+          "topicName": "Fluid Typography, Clamp, Viewport Units, and Variable Fonts",
+          "order": 10
+        },
+        {
+          "topicId": "CSS-TYP-02",
+          "topicName": "Visual Effects, Shadows, Gradients, and Masking",
+          "order": 11
+        },
+        {
+          "topicId": "CSS-TYP-03",
+          "topicName": "CSS Filters, Backdrop Filters, and Blend Modes",
+          "order": 12
+        },
+        {
+          "topicId": "CSS-DYN-01",
+          "topicName": "CSS Custom Properties (Variables) and Scope Architecture",
+          "order": 13
+        },
+        {
+          "topicId": "CSS-DYN-02",
+          "topicName": "Transforms, Transitions, and Keyframe Animations",
+          "order": 14
+        },
+        {
+          "topicId": "CSS-DYN-03",
+          "topicName": "Scroll-driven Animations and View Transitions API",
+          "order": 15
+        },
+        {
+          "topicId": "CSS-MOD-01",
+          "topicName": "Container Queries and Container Style Queries",
+          "order": 16
+        },
+        {
+          "topicId": "CSS-MOD-02",
+          "topicName": "Logical Properties and Writing Modes for Internationalization",
+          "order": 17
+        },
+        {
+          "topicId": "CSS-MOD-03",
+          "topicName": "CSS Layers (@layer) and Architectural Scope Management",
+          "order": 18
+        },
+        {
+          "topicId": "CSS-PERF-01",
+          "topicName": "CSS Rendering Engine, Paint Flashing, and Layout Thrashing",
+          "order": 19
+        },
+        {
+          "topicId": "CSS-PERF-02",
+          "topicName": "Hardware Acceleration, Will-Change, and Compositing Layers",
+          "order": 20
+        },
+        {
+          "topicId": "CSS-PERF-03",
+          "topicName": "Critical CSS, Code Splitting, and Delivery Optimization",
+          "order": 21
+        }
+      ]
+    },
+    {
+      "moduleId": "typescript",
+      "moduleName": "TypeScript",
+      "order": 64,
+      "description": "Master TypeScript from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "TS101",
+          "topicName": "Type System Architecture and Primitive Types",
+          "order": 1
+        },
+        {
+          "topicId": "TS102",
+          "topicName": "Interfaces vs. Type Aliases",
+          "order": 2
+        },
+        {
+          "topicId": "TS103",
+          "topicName": "Functions, Overloads, and Signatures",
+          "order": 3
+        },
+        {
+          "topicId": "TS104",
+          "topicName": "Arrays, Tuples, and Enums (Const vs. Regular)",
+          "order": 4
+        },
+        {
+          "topicId": "TS201",
+          "topicName": "Union, Intersection, and Literal Types",
+          "order": 5
+        },
+        {
+          "topicId": "TS202",
+          "topicName": "Type Guards and Narrowing (typeof, instanceof, custom)",
+          "order": 6
+        },
+        {
+          "topicId": "TS203",
+          "topicName": "Discriminated Unions and Exhaustiveness Checking",
+          "order": 7
+        },
+        {
+          "topicId": "TS204",
+          "topicName": "Keyof, Indexed Access, and Mapped Types",
+          "order": 8
+        },
+        {
+          "topicId": "TS205",
+          "topicName": "Conditional Types and infer keyword",
+          "order": 9
+        },
+        {
+          "topicId": "TS301",
+          "topicName": "Generic Constraints and Default Types",
+          "order": 10
+        },
+        {
+          "topicId": "TS302",
+          "topicName": "Generic Classes, Interfaces, and Functions",
+          "order": 11
+        },
+        {
+          "topicId": "TS303",
+          "topicName": "Variance (Covariance, Contravariance, Invariance)",
+          "order": 12
+        },
+        {
+          "topicId": "TS401",
+          "topicName": "Transformation Utilities (Partial, Required, Readonly, Record)",
+          "order": 13
+        },
+        {
+          "topicId": "TS402",
+          "topicName": "Filtering Utilities (Pick, Omit, Extract, Exclude)",
+          "order": 14
+        },
+        {
+          "topicId": "TS403",
+          "topicName": "Function Utilities (Parameters, ReturnType, Awaited)",
+          "order": 15
+        },
+        {
+          "topicId": "TS501",
+          "topicName": "Classes, Access Modifiers, and Parameter Properties",
+          "order": 16
+        },
+        {
+          "topicId": "TS502",
+          "topicName": "Abstract Classes and Interfaces in Depth",
+          "order": 17
+        },
+        {
+          "topicId": "TS503",
+          "topicName": "Mixins and Composition Patterns",
+          "order": 18
+        },
+        {
+          "topicId": "TS601",
+          "topicName": "tsconfig.json Configuration Deep Dive (Strict mode, Paths, References)",
+          "order": 19
+        },
+        {
+          "topicId": "TS602",
+          "topicName": "Module Resolution (Node vs. Bundler, CommonJS vs. ESModules)",
+          "order": 20
+        },
+        {
+          "topicId": "TS603",
+          "topicName": "Declaration Files (.d.ts) and Module Augmentation",
+          "order": 21
+        },
+        {
+          "topicId": "TS701",
+          "topicName": "Any vs. Unknown vs. Never vs. Void",
+          "order": 22
+        },
+        {
+          "topicId": "TS702",
+          "topicName": "Type Soundness Pitfalls and Structural Typing (Duck Typing)",
+          "order": 23
+        },
+        {
+          "topicId": "TS703",
+          "topicName": "Performance Optimization for Large Codebases (Project References, incremental)",
+          "order": 24
+        },
+        {
+          "topicId": "TS704",
+          "topicName": "Runtime Validation Integration (Zod, io-ts, TypeBox)",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "vuejs",
+      "moduleName": "Vue.js",
+      "order": 65,
+      "description": "Master Vue.js from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "VUE-01",
+          "topicName": "Vue 3 Composition API vs Options API",
+          "order": 1
+        },
+        {
+          "topicId": "VUE-02",
+          "topicName": "Reactivity System: ref, reactive, toRef, and toRefs",
+          "order": 2
+        },
+        {
+          "topicId": "VUE-03",
+          "topicName": "Computed Properties and Watchers (watch vs watchEffect)",
+          "order": 3
+        },
+        {
+          "topicId": "VUE-04",
+          "topicName": "Template Syntax, Directives (v-if, v-for, v-model), and Key Attribute",
+          "order": 4
+        },
+        {
+          "topicId": "VUE-05",
+          "topicName": "Component Lifecycle Hooks in Vue 3",
+          "order": 5
+        },
+        {
+          "topicId": "VUE-06",
+          "topicName": "Props Down, Events Up: defineProps and defineEmits",
+          "order": 6
+        },
+        {
+          "topicId": "VUE-07",
+          "topicName": "Advanced Props Validation and Fallthrough Attributes",
+          "order": 7
+        },
+        {
+          "topicId": "VUE-08",
+          "topicName": "Provide and Inject for Dependency Injection",
+          "order": 8
+        },
+        {
+          "topicId": "VUE-09",
+          "topicName": "Under the Hood of Vue 3 Reactivity (Proxies and Effects)",
+          "order": 9
+        },
+        {
+          "topicId": "VUE-10",
+          "topicName": "Shallow APIs (shallowRef, shallowReactive, shallowReadonly)",
+          "order": 10
+        },
+        {
+          "topicId": "VUE-11",
+          "topicName": "Custom Refs with customRef",
+          "order": 11
+        },
+        {
+          "topicId": "VUE-12",
+          "topicName": "Writing Reusable Composables (Best Practices & Cleanups)",
+          "order": 12
+        },
+        {
+          "topicId": "VUE-13",
+          "topicName": "Custom Directives Lifecycle and Implementation",
+          "order": 13
+        },
+        {
+          "topicId": "VUE-14",
+          "topicName": "Slots, Scoped Slots, and Render Functions (JSX / TSX)",
+          "order": 14
+        },
+        {
+          "topicId": "VUE-15",
+          "topicName": "Vue Router: Guards, Lazy Loading, and Dynamic Routes",
+          "order": 15
+        },
+        {
+          "topicId": "VUE-16",
+          "topicName": "Pinia State Management: Stores, Actions, and Getters",
+          "order": 16
+        },
+        {
+          "topicId": "VUE-17",
+          "topicName": "Pinia Plugins and SSR Hydration State Synchronization",
+          "order": 17
+        },
+        {
+          "topicId": "VUE-18",
+          "topicName": "Performance Optimization: v-memo, Async Components, and Suspense",
+          "order": 18
+        },
+        {
+          "topicId": "VUE-19",
+          "topicName": "Bundle Optimization, Tree Shaking, and Vite Configuration",
+          "order": 19
+        },
+        {
+          "topicId": "VUE-20",
+          "topicName": "Server-Side Rendering (SSR) and Nuxt.js Architecture",
+          "order": 20
+        },
+        {
+          "topicId": "VUE-21",
+          "topicName": "Testing Vue Applications (Vitest, Vue Test Utils, and Cypress)",
+          "order": 21
+        },
+        {
+          "topicId": "VUE-22",
+          "topicName": "TypeScript Integration with Vue 3 (Generic Components, Volar)",
+          "order": 22
+        }
+      ]
+    },
+    {
       "moduleId": "general",
       "moduleName": "General",
-      "order": 30,
+      "order": 66,
       "description": "Essential General Concepts & Q&A",
       "topics": [
         {
@@ -7531,107 +12344,9 @@
       ]
     },
     {
-      "moduleId": "jpa",
-      "moduleName": "JPA",
-      "order": 31,
-      "description": "Essential JPA Concepts & Q&A",
-      "topics": [
-        {
-          "topicId": "jpa_topic_1",
-          "topicName": "What is JPA (Java Persistence API) and what problem does it solve?",
-          "order": 1
-        },
-        {
-          "topicId": "jpa_topic_2",
-          "topicName": "Explain the difference between an EntityManager and an EntityManagerFactory in JPA.",
-          "order": 2
-        },
-        {
-          "topicId": "jpa_topic_3",
-          "topicName": "What are the main components of the JPA architecture?",
-          "order": 3
-        },
-        {
-          "topicId": "jpa_topic_4",
-          "topicName": "What is an entity in JPA? How do you define an entity class?",
-          "order": 4
-        },
-        {
-          "topicId": "jpa_topic_5",
-          "topicName": "JPA Relationships",
-          "order": 5
-        },
-        {
-          "topicId": "jpa_topic_6",
-          "topicName": "What is the purpose of the @Id annotation in JPA?",
-          "order": 6
-        },
-        {
-          "topicId": "jpa_topic_7",
-          "topicName": "Explain the difference between @GeneratedValue(strategy = GenerationType.AUTO) and @GeneratedValue(strategy = GenerationType.IDENTITY).",
-          "order": 7
-        },
-        {
-          "topicId": "jpa_topic_8",
-          "topicName": "JPA Lifecycle Events and Annotations",
-          "order": 8
-        },
-        {
-          "topicId": "jpa_topic_9",
-          "topicName": "What is JPQL (Java Persistence Query Language)? How does it differ from SQL?",
-          "order": 9
-        },
-        {
-          "topicId": "jpa_topic_10",
-          "topicName": "Explain the difference between eager and lazy loading in JPA. What are the advantages and disadvantages of each?",
-          "order": 10
-        },
-        {
-          "topicId": "jpa_topic_11",
-          "topicName": "What is the purpose of the @Transactional annotation in JPA? How does transaction management work?",
-          "order": 11
-        },
-        {
-          "topicId": "jpa_topic_12",
-          "topicName": "What are the different isolation levels in JPA transactions?",
-          "order": 12
-        },
-        {
-          "topicId": "jpa_topic_13",
-          "topicName": "How do you handle exceptions in JPA? What is the role of the PersistenceException class?",
-          "order": 13
-        },
-        {
-          "topicId": "jpa_topic_14",
-          "topicName": "What are some common JPA performance optimization techniques?",
-          "order": 14
-        },
-        {
-          "topicId": "jpa_topic_15",
-          "topicName": "Explain the concept of caching in JPA. What are the different levels of caching?",
-          "order": 15
-        },
-        {
-          "topicId": "jpa_topic_16",
-          "topicName": "What is the purpose of the 'persistence.xml' file in JPA?",
-          "order": 16
-        },
-        {
-          "topicId": "jpa_topic_17",
-          "topicName": "How do you configure a data source for JPA?",
-          "order": 17
-        },
-        {
-          "topicId": "jpa_topic_18",
-          "topicName": "What are the advantages of using JPA over JDBC?",
-          "order": 18
-        }
-      ]
-    },
-    {
       "moduleId": "plsql",
       "moduleName": "plsql",
-      "order": 32,
+      "order": 67,
       "description": "Essential plsql Concepts & Q&A",
       "topics": [
         {
@@ -7729,7 +12444,7 @@
     {
       "moduleId": "springboot",
       "moduleName": "spring boot",
-      "order": 33,
+      "order": 68,
       "description": "Essential spring boot Concepts & Q&A",
       "topics": [
         {
