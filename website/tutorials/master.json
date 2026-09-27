@@ -12236,9 +12236,265 @@
       ]
     },
     {
+      "moduleId": "nextjs",
+      "moduleName": "Next.js",
+      "order": 66,
+      "description": "Master Next.js from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "NX-001",
+          "topicName": "App Router vs Pages Router Architecture",
+          "order": 1
+        },
+        {
+          "topicId": "NX-002",
+          "topicName": "File-based Routing Conventions and Special Files (page, layout, template, loading, error)",
+          "order": 2
+        },
+        {
+          "topicId": "NX-003",
+          "topicName": "Dynamic Routes, Catch-all Segments, and Optional Catch-all",
+          "order": 3
+        },
+        {
+          "topicId": "NX-004",
+          "topicName": "Route Groups and Private Folders",
+          "order": 4
+        },
+        {
+          "topicId": "NX-005",
+          "topicName": "Parallel Routes and Intercepting Routes",
+          "order": 5
+        },
+        {
+          "topicId": "NX-006",
+          "topicName": "Server Components (RSC) vs Client Components Architecture",
+          "order": 6
+        },
+        {
+          "topicId": "NX-007",
+          "topicName": "Static Site Generation (SSG), Incremental Static Regeneration (ISR), and SSR in App Router",
+          "order": 7
+        },
+        {
+          "topicId": "NX-008",
+          "topicName": "Data Fetching Strategies, Caching, and Revalidation (fetch API options)",
+          "order": 8
+        },
+        {
+          "topicId": "NX-009",
+          "topicName": "Streaming, Suspense, and Progressive Rendering",
+          "order": 9
+        },
+        {
+          "topicId": "NX-010",
+          "topicName": "Server Actions and Form Handling",
+          "order": 10
+        },
+        {
+          "topicId": "NX-011",
+          "topicName": "Mutation Patterns, Optimistic Updates, and useOptimistic",
+          "order": 11
+        },
+        {
+          "topicId": "NX-012",
+          "topicName": "Client-side State Management Integration (Context, Zustand, Redux) with RSC",
+          "order": 12
+        },
+        {
+          "topicId": "NX-013",
+          "topicName": "URL Search Params as State Management",
+          "order": 13
+        },
+        {
+          "topicId": "NX-014",
+          "topicName": "Image Optimization with next/image and Remote Patterns",
+          "order": 14
+        },
+        {
+          "topicId": "NX-015",
+          "topicName": "Font Optimization and Script Loading Strategies (next/font, next/script)",
+          "order": 15
+        },
+        {
+          "topicId": "NX-016",
+          "topicName": "Bundle Analysis, Code Splitting, and Dynamic Imports (next/dynamic)",
+          "order": 16
+        },
+        {
+          "topicId": "NX-017",
+          "topicName": "Core Web Vitals Optimization in Next.js",
+          "order": 17
+        },
+        {
+          "topicId": "NX-018",
+          "topicName": "Middleware Architecture, Edge Runtime, and Use Cases (Auth, Routing)",
+          "order": 18
+        },
+        {
+          "topicId": "NX-019",
+          "topicName": "Route Handlers (API Routes) and Request/Response Handling",
+          "order": 19
+        },
+        {
+          "topicId": "NX-020",
+          "topicName": "Security Best Practices (CORS, CSP, CSRF, Sanitization)",
+          "order": 20
+        },
+        {
+          "topicId": "NX-021",
+          "topicName": "Authentication & Authorization Patterns (NextAuth/Auth.js, Custom JWT)",
+          "order": 21
+        },
+        {
+          "topicId": "NX-022",
+          "topicName": "Internationalization (i18n) and Localization Strategies",
+          "order": 22
+        },
+        {
+          "topicId": "NX-023",
+          "topicName": "Testing Strategies (Jest, React Testing Library, Playwright E2E)",
+          "order": 23
+        },
+        {
+          "topicId": "NX-024",
+          "topicName": "Deployment Architectures (Vercel, Self-Hosting with Docker, Standalone Output)",
+          "order": 24
+        },
+        {
+          "topicId": "NX-025",
+          "topicName": "Monitoring, Error Tracking, and Observability in Production (Sentry, OpenTelemetry)",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "svelte",
+      "moduleName": "Svelte",
+      "order": 67,
+      "description": "Master Svelte from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SVT-F01",
+          "topicName": "Reactivity Model & Assignment",
+          "order": 1
+        },
+        {
+          "topicId": "SVT-F02",
+          "topicName": "Component Lifecycle & Initialization",
+          "order": 2
+        },
+        {
+          "topicId": "SVT-F03",
+          "topicName": "Template Syntax & Directives",
+          "order": 3
+        },
+        {
+          "topicId": "SVT-T01",
+          "topicName": "Logic Blocks (if, each, await)",
+          "order": 4
+        },
+        {
+          "topicId": "SVT-T02",
+          "topicName": "Event Handling & Modifiers",
+          "order": 5
+        },
+        {
+          "topicId": "SVT-T03",
+          "topicName": "Bindings (bind:value, bind:this)",
+          "order": 6
+        },
+        {
+          "topicId": "SVT-C01",
+          "topicName": "Props & Export Let",
+          "order": 7
+        },
+        {
+          "topicId": "SVT-C02",
+          "topicName": "Event Dispatching & Forwarding",
+          "order": 8
+        },
+        {
+          "topicId": "SVT-C03",
+          "topicName": "Slots & Fallback Content",
+          "order": 9
+        },
+        {
+          "topicId": "SVT-S01",
+          "topicName": "Writable, Readable, & Derived Stores",
+          "order": 10
+        },
+        {
+          "topicId": "SVT-S02",
+          "topicName": "Custom Stores & Contract Patterns",
+          "order": 11
+        },
+        {
+          "topicId": "SVT-S03",
+          "topicName": "Context API vs Stores",
+          "order": 12
+        },
+        {
+          "topicId": "SVT-A01",
+          "topicName": "Reactive Statements ($:)",
+          "order": 13
+        },
+        {
+          "topicId": "SVT-A02",
+          "topicName": "Tick API & DOM Flushes",
+          "order": 14
+        },
+        {
+          "topicId": "SVT-AN01",
+          "topicName": "Built-in Transitions & Parameters",
+          "order": 15
+        },
+        {
+          "topicId": "SVT-AN02",
+          "topicName": "Custom CSS and JS Transitions",
+          "order": 16
+        },
+        {
+          "topicId": "SVT-AN03",
+          "topicName": "Flip Animations & List Reordering",
+          "order": 17
+        },
+        {
+          "topicId": "SVT-E01",
+          "topicName": "SvelteKit Routing & Load Functions",
+          "order": 18
+        },
+        {
+          "topicId": "SVT-E02",
+          "topicName": "Form Actions & Server-Side Data",
+          "order": 19
+        },
+        {
+          "topicId": "SVT-E03",
+          "topicName": "Vite Integration & Preprocessors",
+          "order": 20
+        },
+        {
+          "topicId": "SVT-P01",
+          "topicName": "Virtual DOM-less Compiler Architecture",
+          "order": 21
+        },
+        {
+          "topicId": "SVT-P02",
+          "topicName": "Bundle Size Optimization & Code Splitting",
+          "order": 22
+        },
+        {
+          "topicId": "SVT-P03",
+          "topicName": "SSR, Hydration, and Edge Rendering",
+          "order": 23
+        }
+      ]
+    },
+    {
       "moduleId": "general",
       "moduleName": "General",
-      "order": 66,
+      "order": 68,
       "description": "Essential General Concepts & Q&A",
       "topics": [
         {
@@ -12346,7 +12602,7 @@
     {
       "moduleId": "plsql",
       "moduleName": "plsql",
-      "order": 67,
+      "order": 69,
       "description": "Essential plsql Concepts & Q&A",
       "topics": [
         {
@@ -12444,7 +12700,7 @@
     {
       "moduleId": "springboot",
       "moduleName": "spring boot",
-      "order": 68,
+      "order": 70,
       "description": "Essential spring boot Concepts & Q&A",
       "topics": [
         {

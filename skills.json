@@ -1,6 +1,6 @@
 {
-  "lastSyncedAt": "2026-09-26T15:01:40.210Z",
-  "totalSkills": 68,
+  "lastSyncedAt": "2026-09-27T03:32:48.689Z",
+  "totalSkills": 70,
   "skills": [
     {
       "id": "angular",
@@ -1568,6 +1568,34 @@
       ]
     },
     {
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain App Router vs Pages Router Architecture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain File-based Routing Conventions and Special Files (page, layout, template, loading, error)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Dynamic Routes, Catch-all Segments, and Optional Catch-all",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Route Groups and Private Folders",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Parallel Routes and Intercepting Routes",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "nodejs",
       "name": "Node.js",
       "category": "Tutorial",
@@ -2206,6 +2234,34 @@
         },
         {
           "q": "Explain Composite Index Design and Leftmost Prefix Rule",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "svelte",
+      "name": "Svelte",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Reactivity Model & Assignment",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Component Lifecycle & Initialization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Template Syntax & Directives",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Logic Blocks (if, each, await)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Event Handling & Modifiers",
           "level": "Easy"
         }
       ]
