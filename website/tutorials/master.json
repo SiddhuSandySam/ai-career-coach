@@ -12492,9 +12492,3500 @@
       ]
     },
     {
+      "moduleId": "bootstrap",
+      "moduleName": "Bootstrap",
+      "order": 68,
+      "description": "Master Bootstrap from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "BS-01",
+          "topicName": "Introduction to Bootstrap and Grid System",
+          "order": 1
+        },
+        {
+          "topicId": "BS-02",
+          "topicName": "Containers, Breakpoints, and Responsive Design",
+          "order": 2
+        },
+        {
+          "topicId": "BS-03",
+          "topicName": "Typography, Colors, and Spacing Utilities",
+          "order": 3
+        },
+        {
+          "topicId": "BS-04",
+          "topicName": "Flexbox Utilities and Alignment",
+          "order": 4
+        },
+        {
+          "topicId": "BS-05",
+          "topicName": "CSS Grid Integration in Bootstrap",
+          "order": 5
+        },
+        {
+          "topicId": "BS-06",
+          "topicName": "Responsive Tables and Figures",
+          "order": 6
+        },
+        {
+          "topicId": "BS-07",
+          "topicName": "Navigation Bars, Navs, and Tabs",
+          "order": 7
+        },
+        {
+          "topicId": "BS-08",
+          "topicName": "Modals, Popovers, and Tooltips",
+          "order": 8
+        },
+        {
+          "topicId": "BS-09",
+          "topicName": "Cards, Carousels, and Accordions",
+          "order": 9
+        },
+        {
+          "topicId": "BS-10",
+          "topicName": "Form Controls, Layouts, and Validation",
+          "order": 10
+        },
+        {
+          "topicId": "BS-11",
+          "topicName": "Floating Labels and Custom Form Elements",
+          "order": 11
+        },
+        {
+          "topicId": "BS-12",
+          "topicName": "Data Attributes and Programmatic Initialization",
+          "order": 12
+        },
+        {
+          "topicId": "BS-13",
+          "topicName": "Lifecycle Events and DOM Manipulation via JS",
+          "order": 13
+        },
+        {
+          "topicId": "BS-14",
+          "topicName": "Sass Architecture and Variable Overrides",
+          "order": 14
+        },
+        {
+          "topicId": "BS-15",
+          "topicName": "Color Modes and Dark Mode Implementation",
+          "order": 15
+        },
+        {
+          "topicId": "BS-16",
+          "topicName": "Purging CSS and Tree Shaking Unused Styles",
+          "order": 16
+        },
+        {
+          "topicId": "BS-17",
+          "topicName": "Accessibility (a11y) and ARIA Attributes in Bootstrap",
+          "order": 17
+        },
+        {
+          "topicId": "BS-18",
+          "topicName": "Performance Optimization and Bundle Size Management",
+          "order": 18
+        }
+      ]
+    },
+    {
+      "moduleId": "tailwind_css",
+      "moduleName": "Tailwind CSS",
+      "order": 69,
+      "description": "Master Tailwind CSS from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "TW-FUND-01",
+          "topicName": "Utility-First Paradigm vs. Traditional CSS",
+          "order": 1
+        },
+        {
+          "topicId": "TW-FUND-02",
+          "topicName": "Installation, CLI Setup, and PostCSS Configuration",
+          "order": 2
+        },
+        {
+          "topicId": "TW-FUND-03",
+          "topicName": "The Configuration File (tailwind.config.js) and Content Paths",
+          "order": 3
+        },
+        {
+          "topicId": "TW-FUND-04",
+          "topicName": "Spacing, Sizing, and the Default Design Scale",
+          "order": 4
+        },
+        {
+          "topicId": "TW-LAY-01",
+          "topicName": "Display, Box Sizing, and Positioning Utilities",
+          "order": 5
+        },
+        {
+          "topicId": "TW-LAY-02",
+          "topicName": "Flexbox Layout Mechanics and Alignment",
+          "order": 6
+        },
+        {
+          "topicId": "TW-LAY-03",
+          "topicName": "CSS Grid Systems, Template Columns, and Spanning",
+          "order": 7
+        },
+        {
+          "topicId": "TW-LAY-04",
+          "topicName": "Container Queries and Responsive Design Modifiers",
+          "order": 8
+        },
+        {
+          "topicId": "TW-DS-01",
+          "topicName": "Color Palette, Opacity Modifiers, and CSS Variables",
+          "order": 9
+        },
+        {
+          "topicId": "TW-DS-02",
+          "topicName": "Typography, Font Families, and Leading/Tracking",
+          "order": 10
+        },
+        {
+          "topicId": "TW-DS-03",
+          "topicName": "Borders, Shadows, Blurs, and Visual Effects",
+          "order": 11
+        },
+        {
+          "topicId": "TW-DS-04",
+          "topicName": "Transitions, Transforms, and Animations",
+          "order": 12
+        },
+        {
+          "topicId": "TW-STATE-01",
+          "topicName": "Pseudo-classes (:hover, :focus, :active, :visited)",
+          "order": 13
+        },
+        {
+          "topicId": "TW-STATE-02",
+          "topicName": "Form States and Validation Modifiers (:checked, :disabled, :invalid)",
+          "order": 14
+        },
+        {
+          "topicId": "TW-STATE-03",
+          "topicName": "Advanced States (Group Hover, Peer States, and Has Selector)",
+          "order": 15
+        },
+        {
+          "topicId": "TW-STATE-04",
+          "topicName": "Dark Mode Implementation (Media and Selector Strategies)",
+          "order": 16
+        },
+        {
+          "topicId": "TW-ADV-01",
+          "topicName": "Custom Directives (@layer, @apply, @config, @theme)",
+          "order": 17
+        },
+        {
+          "topicId": "TW-ADV-02",
+          "topicName": "Extracting Component Classes and Managing Code Duplication",
+          "order": 18
+        },
+        {
+          "topicId": "TW-ADV-03",
+          "topicName": "Arbitrary Values and Arbitrary Properties Syntax",
+          "order": 19
+        },
+        {
+          "topicId": "TW-ADV-04",
+          "topicName": "Tailwind Plugins API and Writing Custom Utilities",
+          "order": 20
+        },
+        {
+          "topicId": "TW-PROD-01",
+          "topicName": "Just-in-Time (JIT) Compiler Mechanics",
+          "order": 21
+        },
+        {
+          "topicId": "TW-PROD-02",
+          "topicName": "Tree-shaking, Content Detection, and Avoiding Purge Pitfalls",
+          "order": 22
+        },
+        {
+          "topicId": "TW-PROD-03",
+          "topicName": "CSS Bundle Size Optimization and Performance Benchmarks",
+          "order": 23
+        },
+        {
+          "topicId": "TW-ECO-01",
+          "topicName": "Integrating with React, Vue, Svelte, and Framework Meta-tools",
+          "order": 24
+        },
+        {
+          "topicId": "TW-ECO-02",
+          "topicName": "Headless UI and Radix UI Integration Patterns",
+          "order": 25
+        },
+        {
+          "topicId": "TW-ECO-03",
+          "topicName": "Class Variance Authority (CVA) and Tailwind Merge",
+          "order": 26
+        }
+      ]
+    },
+    {
+      "moduleId": "android_java",
+      "moduleName": "Android (Java)",
+      "order": 70,
+      "description": "Master Android (Java) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JAVA_01",
+          "topicName": "Memory Management & Garbage Collection",
+          "order": 1
+        },
+        {
+          "topicId": "JAVA_02",
+          "topicName": "Generics, Wildcards & Type Erasure",
+          "order": 2
+        },
+        {
+          "topicId": "JAVA_03",
+          "topicName": "Concurrency, Threads & ExecutorService",
+          "order": 3
+        },
+        {
+          "topicId": "JAVA_04",
+          "topicName": "Collections Framework & Concurrent Collections",
+          "order": 4
+        },
+        {
+          "topicId": "JAVA_05",
+          "topicName": "Reflection, Annotations & Annotation Processing",
+          "order": 5
+        },
+        {
+          "topicId": "ARCH_01",
+          "topicName": "Activity and Fragment Lifecycle Internals",
+          "order": 6
+        },
+        {
+          "topicId": "ARCH_02",
+          "topicName": "Configuration Changes & State Restoration",
+          "order": 7
+        },
+        {
+          "topicId": "ARCH_03",
+          "topicName": "MVVM & MVI Architecture Patterns",
+          "order": 8
+        },
+        {
+          "topicId": "ARCH_04",
+          "topicName": "Clean Architecture & Dependency Inversion",
+          "order": 9
+        },
+        {
+          "topicId": "ARCH_05",
+          "topicName": "Jetpack Navigation & Deep Linking",
+          "order": 10
+        },
+        {
+          "topicId": "UI_01",
+          "topicName": "View Measure, Layout & Draw Pass Internals",
+          "order": 11
+        },
+        {
+          "topicId": "UI_02",
+          "topicName": "Custom Views & Canvas Drawing",
+          "order": 12
+        },
+        {
+          "topicId": "UI_03",
+          "topicName": "RecyclerView Optimization & DiffUtil",
+          "order": 13
+        },
+        {
+          "topicId": "UI_04",
+          "topicName": "ConstraintLayout Performance & Complex Hierarchies",
+          "order": 14
+        },
+        {
+          "topicId": "UI_05",
+          "topicName": "Animations (Property, View & Transition API)",
+          "order": 15
+        },
+        {
+          "topicId": "DATA_01",
+          "topicName": "Room Database & SQLite Performance Tuning",
+          "order": 16
+        },
+        {
+          "topicId": "DATA_02",
+          "topicName": "DataStore vs SharedPreferences Internals",
+          "order": 17
+        },
+        {
+          "topicId": "DATA_03",
+          "topicName": "EncryptedSharedPreferences & KeyStore",
+          "order": 18
+        },
+        {
+          "topicId": "DATA_04",
+          "topicName": "Content Providers & IPC",
+          "order": 19
+        },
+        {
+          "topicId": "NET_01",
+          "topicName": "OkHttp Interceptors & Connection Pooling",
+          "order": 20
+        },
+        {
+          "topicId": "NET_02",
+          "topicName": "Retrofit Internals & Dynamic Proxies",
+          "order": 21
+        },
+        {
+          "topicId": "NET_03",
+          "topicName": "RxJava Operators, Schedulers & Backpressure",
+          "order": 22
+        },
+        {
+          "topicId": "NET_04",
+          "topicName": "WorkManager & Background Execution Constraints",
+          "order": 23
+        },
+        {
+          "topicId": "PERF_01",
+          "topicName": "Memory Leaks & LeakCanary Diagnostics",
+          "order": 24
+        },
+        {
+          "topicId": "PERF_02",
+          "topicName": "Profile GPU Rendering & Overdraw Mitigation",
+          "order": 25
+        },
+        {
+          "topicId": "PERF_03",
+          "topicName": "Startup Time Optimization (App Startup Library)",
+          "order": 26
+        },
+        {
+          "topicId": "PERF_04",
+          "topicName": "APK Size Reduction & ProGuard/R8 Optimization",
+          "order": 27
+        },
+        {
+          "topicId": "SEC_01",
+          "topicName": "SSL Pinning & Network Security Config",
+          "order": 28
+        },
+        {
+          "topicId": "SEC_02",
+          "topicName": "Root Detection & Tamper Prevention",
+          "order": 29
+        },
+        {
+          "topicId": "TEST_01",
+          "topicName": "JUnit, Mockito & PowerMock for Java",
+          "order": 30
+        },
+        {
+          "topicId": "TEST_02",
+          "topicName": "Espresso UI Testing & Idling Resources",
+          "order": 31
+        },
+        {
+          "topicId": "CICD_01",
+          "topicName": "Gradle Build System & Custom Task Creation",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "moduleId": "android_kotlin",
+      "moduleName": "Android (Kotlin)",
+      "order": 71,
+      "description": "Master Android (Kotlin) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "KT-01",
+          "topicName": "Null Safety, Smart Casts, and Type System",
+          "order": 1
+        },
+        {
+          "topicId": "KT-02",
+          "topicName": "Coroutines, Dispatchers, and Structured Concurrency",
+          "order": 2
+        },
+        {
+          "topicId": "KT-03",
+          "topicName": "Flows, StateFlow, SharedFlow, and Cold vs Hot Streams",
+          "order": 3
+        },
+        {
+          "topicId": "KT-04",
+          "topicName": "Higher-Order Functions, Lambdas, and Inline/Noinline/Crossinline",
+          "order": 4
+        },
+        {
+          "topicId": "KT-05",
+          "topicName": "Generics, Variance (In, Out, Invariant), and Type Erasure",
+          "order": 5
+        },
+        {
+          "topicId": "KT-06",
+          "topicName": "Delegated Properties and DSL Construction",
+          "order": 6
+        },
+        {
+          "topicId": "ARC-01",
+          "topicName": "Clean Architecture and Separation of Concerns",
+          "order": 7
+        },
+        {
+          "topicId": "ARC-02",
+          "topicName": "MVVM vs MVI Architecture Patterns",
+          "order": 8
+        },
+        {
+          "topicId": "ARC-03",
+          "topicName": "Jetpack Navigation Component and Deep Linking",
+          "order": 9
+        },
+        {
+          "topicId": "ARC-04",
+          "topicName": "Dependency Injection with Hilt and Dagger",
+          "order": 10
+        },
+        {
+          "topicId": "UI-01",
+          "topicName": "Jetpack Compose Recomposition Internals and Stability",
+          "order": 11
+        },
+        {
+          "topicId": "UI-02",
+          "topicName": "State Hoisting, Side Effects, and LaunchedEffect/rememberUpdatedState",
+          "order": 12
+        },
+        {
+          "topicId": "UI-03",
+          "topicName": "Custom Layouts, Modifiers, and Canvas Drawing",
+          "order": 13
+        },
+        {
+          "topicId": "UI-04",
+          "topicName": "Performance Optimization in LazyLists and Rendering",
+          "order": 14
+        },
+        {
+          "topicId": "UI-05",
+          "topicName": "Accessibility (a11y) and Dynamic Theming",
+          "order": 15
+        },
+        {
+          "topicId": "SYS-01",
+          "topicName": "Activity and Fragment Lifecycle Under Configuration Changes",
+          "order": 16
+        },
+        {
+          "topicId": "SYS-02",
+          "topicName": "Process Death, State Restoration, and SavedStateHandle",
+          "order": 17
+        },
+        {
+          "topicId": "SYS-03",
+          "topicName": "Services, Foreground Services, and WorkManager for Background Tasks",
+          "order": 18
+        },
+        {
+          "topicId": "SYS-04",
+          "topicName": "Broadcast Receivers, Content Providers, and IPC via Binder",
+          "order": 19
+        },
+        {
+          "topicId": "DATA-01",
+          "topicName": "Room Database, Migrations, and SQLCipher Encryption",
+          "order": 20
+        },
+        {
+          "topicId": "DATA-02",
+          "topicName": "DataStore (Preferences and Proto) vs SharedPreferences",
+          "order": 21
+        },
+        {
+          "topicId": "DATA-03",
+          "topicName": "Retrofit, OkHttp Interceptors, and Certificate Pinning",
+          "order": 22
+        },
+        {
+          "topicId": "TEST-01",
+          "topicName": "Unit Testing with JUnit5, MockK, and Turbine",
+          "order": 23
+        },
+        {
+          "topicId": "TEST-02",
+          "topicName": "UI Testing with Jetpack Compose Testing Library",
+          "order": 24
+        },
+        {
+          "topicId": "TEST-03",
+          "topicName": "Instrumented Tests with Espresso and UI Automator",
+          "order": 25
+        },
+        {
+          "topicId": "PERF-01",
+          "topicName": "Memory Leaks, LeakCanary, and Garbage Collection Profiling",
+          "order": 26
+        },
+        {
+          "topicId": "PERF-02",
+          "topicName": "App Startup Optimization and Baseline Profiles",
+          "order": 27
+        },
+        {
+          "topicId": "PERF-03",
+          "topicName": "Network, Battery, and Rendering Performance Profiling",
+          "order": 28
+        },
+        {
+          "topicId": "SEC-01",
+          "topicName": "ProGuard, R8 Obfuscation, and Shrinking",
+          "order": 29
+        },
+        {
+          "topicId": "SEC-02",
+          "topicName": "Secure Storage, Biometric Authentication, and Root Detection",
+          "order": 30
+        }
+      ]
+    },
+    {
+      "moduleId": "ios_swift",
+      "moduleName": "iOS (Swift)",
+      "order": 72,
+      "description": "Master iOS (Swift) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SWF-01",
+          "topicName": "Memory Management: ARC, Strong, Weak, and Unowned References",
+          "order": 1
+        },
+        {
+          "topicId": "SWF-02",
+          "topicName": "Value Types vs Reference Types: Structs, Classes, and Copy-on-Write",
+          "order": 2
+        },
+        {
+          "topicId": "SWF-03",
+          "topicName": "Closures: Capture Lists, Retain Cycles, and Escaping vs Non-Escaping",
+          "order": 3
+        },
+        {
+          "topicId": "SWF-04",
+          "topicName": "Protocols, Extensions, and Protocol-Oriented Programming (POP)",
+          "order": 4
+        },
+        {
+          "topicId": "SWF-05",
+          "topicName": "Generics, Associated Types, and Type Erasure",
+          "order": 5
+        },
+        {
+          "topicId": "SWF-06",
+          "topicName": "Error Handling: do, try, catch, Result type, and Fatal Errors",
+          "order": 6
+        },
+        {
+          "topicId": "SWF-07",
+          "topicName": "Advanced Swift: Property Wrappers, Result Builders, and Dynamic Member Lookup",
+          "order": 7
+        },
+        {
+          "topicId": "CON-01",
+          "topicName": "Grand Central Dispatch (GCD): Queues, DispatchGroups, and Semaphores",
+          "order": 8
+        },
+        {
+          "topicId": "CON-02",
+          "topicName": "Modern Swift Concurrency: async/await and Task Mechanics",
+          "order": 9
+        },
+        {
+          "topicId": "CON-03",
+          "topicName": "Actors, MainActor, and Thread Safety in Swift",
+          "order": 10
+        },
+        {
+          "topicId": "CON-04",
+          "topicName": "AsyncSequences, Continuations, and Bridging Legacy Code",
+          "order": 11
+        },
+        {
+          "topicId": "ARC-01",
+          "topicName": "Architectural Patterns: MVC, MVVM, VIPER, and TCA (The Composable Architecture)",
+          "order": 12
+        },
+        {
+          "topicId": "ARC-02",
+          "topicName": "Dependency Injection: Manual vs Frameworks (Swinject, Factory)",
+          "order": 13
+        },
+        {
+          "topicId": "ARC-03",
+          "topicName": "Design Patterns in iOS: Singleton, Factory, Observer, Decorator, and Strategy",
+          "order": 14
+        },
+        {
+          "topicId": "UI-01",
+          "topicName": "SwiftUI State Management: @State, @Binding, @ObservedObject, @StateObject, and @Environment",
+          "order": 15
+        },
+        {
+          "topicId": "UI-02",
+          "topicName": "SwiftUI Layout System, GeometryReader, and Custom Layouts",
+          "order": 16
+        },
+        {
+          "topicId": "UI-03",
+          "topicName": "UIKit Lifecycle, UIViewController containment, and Custom View Hierarchies",
+          "order": 17
+        },
+        {
+          "topicId": "UI-04",
+          "topicName": "Advanced Auto Layout, Constraints, and Diffable Data Sources with UICollectionView",
+          "order": 18
+        },
+        {
+          "topicId": "UI-05",
+          "topicName": "Bridging UIKit and SwiftUI: UIViewRepresentable and UIViewControllerRepresentable",
+          "order": 19
+        },
+        {
+          "topicId": "DAT-01",
+          "topicName": "Core Data: Stack Setup, NSFetchedResultsController, and Concurrency",
+          "order": 20
+        },
+        {
+          "topicId": "DAT-02",
+          "topicName": "SwiftData: Schema Migration, Models, and Queries",
+          "order": 21
+        },
+        {
+          "topicId": "DAT-03",
+          "topicName": "Local Caching: Keychain, UserDefaults, FileManager, and SQLite",
+          "order": 22
+        },
+        {
+          "topicId": "DAT-04",
+          "topicName": "Networking Layer: URLSession, Codable, Multipart Form Data, and Certificate Pinning",
+          "order": 23
+        },
+        {
+          "topicId": "RX-01",
+          "topicName": "Combine Framework: Publishers, Subscribers, Operators, and Subjects",
+          "order": 24
+        },
+        {
+          "topicId": "RX-02",
+          "topicName": "RxSwift vs Combine: Comparing Paradigms, Memory Management, and Error Handling",
+          "order": 25
+        },
+        {
+          "topicId": "PER-01",
+          "topicName": "Memory Leaks and Leaked Objects: Debugging with Instruments (Leaks, Allocations)",
+          "order": 26
+        },
+        {
+          "topicId": "PER-02",
+          "topicName": "CPU and UI Performance: Identifying Hitches, Off-screen Rendering, and Core Animation Profiling",
+          "order": 27
+        },
+        {
+          "topicId": "PER-03",
+          "topicName": "App Launch Optimization: Pre-main and Post-main Optimizations",
+          "order": 28
+        },
+        {
+          "topicId": "TST-01",
+          "topicName": "Unit Testing: XCTest, Stubbing, Mocking, and Test-Driven Development (TDD)",
+          "order": 29
+        },
+        {
+          "topicId": "TST-02",
+          "topicName": "UI Testing: XCUITest and Snapshot Testing Strategies",
+          "order": 30
+        },
+        {
+          "topicId": "TST-03",
+          "topicName": "CI/CD Pipelines: Xcode Cloud, Fastlane, GitHub Actions, and Code Signing",
+          "order": 31
+        },
+        {
+          "topicId": "PRD-01",
+          "topicName": "App Lifecycle, Background Tasks, and Push Notifications (APNs)",
+          "order": 32
+        },
+        {
+          "topicId": "PRD-02",
+          "topicName": "Security and Cryptography: Keychain, Bio-metrics (LocalAuthentication), and App Transport Security",
+          "order": 33
+        },
+        {
+          "topicId": "PRD-03",
+          "topicName": "Dependency Managers: Swift Package Manager (SPM), CocoaPods, and Carthage internals",
+          "order": 34
+        },
+        {
+          "topicId": "PRD-04",
+          "topicName": "Accessibility (a11y) and Internationalization (i18n/L10n) at Scale",
+          "order": 35
+        }
+      ]
+    },
+    {
+      "moduleId": "swiftui",
+      "moduleName": "SwiftUI",
+      "order": 73,
+      "description": "Master SwiftUI from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SW101",
+          "topicName": "Declarative Syntax & View Life Cycle",
+          "order": 1
+        },
+        {
+          "topicId": "SW102",
+          "topicName": "Property Wrappers: State, Binding, and ObservedObject",
+          "order": 2
+        },
+        {
+          "topicId": "SW103",
+          "topicName": "Advanced State Management: StateObject, EnvironmentObject, and Environment",
+          "order": 3
+        },
+        {
+          "topicId": "SW104",
+          "topicName": "Understanding View Identity and Structural Identity",
+          "order": 4
+        },
+        {
+          "topicId": "SW201",
+          "topicName": "The Layout System: Proposals, Sizes, and Coordinate Spaces",
+          "order": 5
+        },
+        {
+          "topicId": "SW202",
+          "topicName": "Custom Layouts via Layout Protocol",
+          "order": 6
+        },
+        {
+          "topicId": "SW203",
+          "topicName": "Containers, Stacks, and GeometryReader Anti-Patterns",
+          "order": 7
+        },
+        {
+          "topicId": "SW204",
+          "topicName": "Adaptive and Responsive Design Across Form Factors",
+          "order": 8
+        },
+        {
+          "topicId": "SW301",
+          "topicName": "Observable Macro and Modern State Architecture",
+          "order": 9
+        },
+        {
+          "topicId": "SW302",
+          "topicName": "Integration with Swift Concurrency (async/await, Task, @MainActor)",
+          "order": 10
+        },
+        {
+          "topicId": "SW303",
+          "topicName": "Handling Asynchronous Data Streams with AsyncSequence",
+          "order": 11
+        },
+        {
+          "topicId": "SW304",
+          "topicName": "Error Handling and Retry Strategies in SwiftUI",
+          "order": 12
+        },
+        {
+          "topicId": "SW401",
+          "topicName": "NavigationStack and NavigationPath Deep Dive",
+          "order": 13
+        },
+        {
+          "topicId": "SW402",
+          "topicName": "Split Views and Complex Adaptive Navigation",
+          "order": 14
+        },
+        {
+          "topicId": "SW403",
+          "topicName": "Deep Linking and Universal Links Integration",
+          "order": 15
+        },
+        {
+          "topicId": "SW404",
+          "topicName": "Modular Architecture with SwiftUI (TCA, VIPER, Clean Architecture)",
+          "order": 16
+        },
+        {
+          "topicId": "SW501",
+          "topicName": "Lists, LazyVStack, LazyHStack, and LazyVGrid Optimization",
+          "order": 17
+        },
+        {
+          "topicId": "SW502",
+          "topicName": "Identifying and Fixing Re-rendering Bottlenecks",
+          "order": 18
+        },
+        {
+          "topicId": "SW503",
+          "topicName": "Profiling with Instruments (SwiftUI, Time Profiler, Allocations)",
+          "order": 19
+        },
+        {
+          "topicId": "SW504",
+          "topicName": "Memory Leak Detection and Lifecycle Management",
+          "order": 20
+        },
+        {
+          "topicId": "SW601",
+          "topicName": "Implicit vs. Explicit Animations and Animation Curves",
+          "order": 21
+        },
+        {
+          "topicId": "SW602",
+          "topicName": "MatchedGeometryEffect and Transition Mechanics",
+          "order": 22
+        },
+        {
+          "topicId": "SW603",
+          "topicName": "Canvas and Custom Graphics Rendering",
+          "order": 23
+        },
+        {
+          "topicId": "SW604",
+          "topicName": "Shader Effects and Metal Integration in SwiftUI",
+          "order": 24
+        },
+        {
+          "topicId": "SW701",
+          "topicName": "UIViewRepresentable and UIViewControllerRepresentable",
+          "order": 25
+        },
+        {
+          "topicId": "SW702",
+          "topicName": "Bridging UIKit Delegates and Combine to SwiftUI",
+          "order": 26
+        },
+        {
+          "topicId": "SW703",
+          "topicName": "Widgets, Live Activities, and App Intents",
+          "order": 27
+        },
+        {
+          "topicId": "SW704",
+          "topicName": "SwiftUI for macOS, watchOS, and visionOS",
+          "order": 28
+        },
+        {
+          "topicId": "SW801",
+          "topicName": "Unit Testing ViewModels and State Logic",
+          "order": 29
+        },
+        {
+          "topicId": "SW802",
+          "topicName": "UI Testing and ViewInspector Patterns",
+          "order": 30
+        },
+        {
+          "topicId": "SW803",
+          "topicName": "Accessibility Implementation (Dynamic Type, VoiceOver, Labels)",
+          "order": 31
+        },
+        {
+          "topicId": "SW804",
+          "topicName": "Production Readiness: Localization, Security, and Crash Reporting",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "moduleId": "flutter",
+      "moduleName": "Flutter",
+      "order": 74,
+      "description": "Master Flutter from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "DART-01",
+          "topicName": "Type System, Soundness, and Null Safety",
+          "order": 1
+        },
+        {
+          "topicId": "DART-02",
+          "topicName": "Asynchronous Programming: Futures, Streams, and async/await",
+          "order": 2
+        },
+        {
+          "topicId": "DART-03",
+          "topicName": "Isolates, Concurrency, and Event Loop Mechanics",
+          "order": 3
+        },
+        {
+          "topicId": "DART-04",
+          "topicName": "Generics, Collections, and Functional Operators",
+          "order": 4
+        },
+        {
+          "topicId": "FLUT-01",
+          "topicName": "The Three Trees: Widget, Element, and RenderObject",
+          "order": 5
+        },
+        {
+          "topicId": "FLUT-02",
+          "topicName": "BuildContext Lifecycle and Scope Management",
+          "order": 6
+        },
+        {
+          "topicId": "FLUT-03",
+          "topicName": "Rendering Pipeline: Animation, Layout, Paint, and Compositing",
+          "order": 7
+        },
+        {
+          "topicId": "FLUT-04",
+          "topicName": "Keys: ValueKey, ObjectKey, GlobalKey, and Diffing Mechanics",
+          "order": 8
+        },
+        {
+          "topicId": "STATE-01",
+          "topicName": "setState, InheritedWidget, and InheritedModel",
+          "order": 9
+        },
+        {
+          "topicId": "STATE-02",
+          "topicName": "Provider and ChangeNotifier Deep Dive",
+          "order": 10
+        },
+        {
+          "topicId": "STATE-03",
+          "topicName": "Bloc and Cubit Architecture, Events, and States",
+          "order": 11
+        },
+        {
+          "topicId": "STATE-04",
+          "topicName": "Riverpod Architecture and Compile-Time Safety",
+          "order": 12
+        },
+        {
+          "topicId": "UI-01",
+          "topicName": "Custom Layouts, CustomPainter, and RenderBox",
+          "order": 13
+        },
+        {
+          "topicId": "UI-02",
+          "topicName": "Implicit vs Explicit Animations and AnimationController",
+          "order": 14
+        },
+        {
+          "topicId": "UI-03",
+          "topicName": "Hero Animations, Physics, and Gesture Handling",
+          "order": 15
+        },
+        {
+          "topicId": "UI-04",
+          "topicName": "Slivers and Complex Scrolling Strategies",
+          "order": 16
+        },
+        {
+          "topicId": "PERF-01",
+          "topicName": "Jank Reduction, Frame Budget, and Profiling Tools",
+          "order": 17
+        },
+        {
+          "topicId": "PERF-02",
+          "topicName": "Memory Leak Detection and Garbage Collection Tuning",
+          "order": 18
+        },
+        {
+          "topicId": "PERF-03",
+          "topicName": "Const Constructors, RepaintBoundary, and ListView Optimization",
+          "order": 19
+        },
+        {
+          "topicId": "PLAT-01",
+          "topicName": "Method Channels, Platform Views, and FFI",
+          "order": 20
+        },
+        {
+          "topicId": "PLAT-02",
+          "topicName": "Local Storage Solutions: Hive, Isar, Drift, and Secure Storage",
+          "order": 21
+        },
+        {
+          "topicId": "PLAT-03",
+          "topicName": "Networking, Dio Interceptors, WebSockets, and Serialization",
+          "order": 22
+        },
+        {
+          "topicId": "TEST-01",
+          "topicName": "Unit and Widget Testing Best Practices",
+          "order": 23
+        },
+        {
+          "topicId": "TEST-02",
+          "topicName": "Integration Testing and Golden Tests",
+          "order": 24
+        },
+        {
+          "topicId": "PROD-01",
+          "topicName": "Build Flavors, Environment Configuration, and Obfuscation",
+          "order": 25
+        },
+        {
+          "topicId": "PROD-02",
+          "topicName": "CI/CD Pipelines with Fastlane, GitHub Actions, and CodePush",
+          "order": 26
+        }
+      ]
+    },
+    {
+      "moduleId": "react_native",
+      "moduleName": "React Native",
+      "order": 75,
+      "description": "Master React Native from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "RN-ARCH-01",
+          "topicName": "React Native Architecture Overview: Old vs. New Architecture (Fabric, TurboModules, JSI)",
+          "order": 1
+        },
+        {
+          "topicId": "RN-ARCH-02",
+          "topicName": "The Metro Bundler, Babel, and JavaScript Execution Contexts (Hermes vs. JSC)",
+          "order": 2
+        },
+        {
+          "topicId": "RN-ARCH-03",
+          "topicName": "Thread Management: JS Thread, UI (Main) Thread, Shadow Thread, and Background Tasks",
+          "order": 3
+        },
+        {
+          "topicId": "RN-ARCH-04",
+          "topicName": "Bridge Communication Mechanics and Serialization Bottlenecks",
+          "order": 4
+        },
+        {
+          "topicId": "RN-CORE-01",
+          "topicName": "Core Components Deep Dive: View, Text, Image, ScrollView, and FlatList Optimization",
+          "order": 5
+        },
+        {
+          "topicId": "RN-CORE-02",
+          "topicName": "Styling, Flexbox Layout Engine (Yoga), and Platform-Specific Styling",
+          "order": 6
+        },
+        {
+          "topicId": "RN-CORE-03",
+          "topicName": "Handling User Input, Touch Responders, and PanResponder API",
+          "order": 7
+        },
+        {
+          "topicId": "RN-CORE-04",
+          "topicName": "Accessibility (a11y) and Internationalization (i18n) Best Practices",
+          "order": 8
+        },
+        {
+          "topicId": "RN-STATE-01",
+          "topicName": "Local State Management: useState, useReducer, useContext, and Performance Pitfalls",
+          "order": 9
+        },
+        {
+          "topicId": "RN-STATE-02",
+          "topicName": "Global State Management: Redux Toolkit, Zustand, Jotai, and Recoil Architecture",
+          "order": 10
+        },
+        {
+          "topicId": "RN-STATE-03",
+          "topicName": "Server State and Caching: React Query (TanStack Query) and Apollo Client",
+          "order": 11
+        },
+        {
+          "topicId": "RN-STATE-04",
+          "topicName": "Local Persistence: MMKV, AsyncStorage, SQLite, and WatermelonDB",
+          "order": 12
+        },
+        {
+          "topicId": "RN-NAV-01",
+          "topicName": "React Navigation Internals: Stack, Tab, Drawer, and Deep Linking Architecture",
+          "order": 13
+        },
+        {
+          "topicId": "RN-NAV-02",
+          "topicName": "Expo Router and File-Based Routing Paradigms",
+          "order": 14
+        },
+        {
+          "topicId": "RN-NAV-03",
+          "topicName": "Navigation Performance: Screen Transitions, Memory Management, and Lazy Loading",
+          "order": 15
+        },
+        {
+          "topicId": "RN-PERF-01",
+          "topicName": "Profiling React Native Apps: React DevTools, Flipper, and Performance Monitor",
+          "order": 16
+        },
+        {
+          "topicId": "RN-PERF-02",
+          "topicName": "Memory Leak Detection, Garbage Collection, and Unmount Cleanups",
+          "order": 17
+        },
+        {
+          "topicId": "RN-PERF-03",
+          "topicName": "Optimizing FlatList: windowSize, getItemLayout, initialNumToRender, and keyExtractor",
+          "order": 18
+        },
+        {
+          "topicId": "RN-PERF-04",
+          "topicName": "Avoiding Bridge/JSI Bottlenecks and Unnecessary Re-renders (React.memo, useMemo, useCallback)",
+          "order": 19
+        },
+        {
+          "topicId": "RN-ANIM-01",
+          "topicName": "React Native Animated API vs. Reanimated 3 (Worklets and Shared Values)",
+          "order": 20
+        },
+        {
+          "topicId": "RN-ANIM-02",
+          "topicName": "Gesture Handler Integration (react-native-gesture-handler) and Complex Interactions",
+          "order": 21
+        },
+        {
+          "topicId": "RN-ANIM-03",
+          "topicName": "Layout Animations and LayoutTransitions for UI Fluidity",
+          "order": 22
+        },
+        {
+          "topicId": "RN-NAT-01",
+          "topicName": "Building Custom Native Modules and Native Components (iOS/Swift & Android/Kotlin)",
+          "order": 23
+        },
+        {
+          "topicId": "RN-NAT-02",
+          "topicName": "TurboModules and Fabric Native Component Implementation via JSI",
+          "order": 24
+        },
+        {
+          "topicId": "RN-NAT-03",
+          "topicName": "Bridging Third-Party Native SDKs (Firebase, Payment Gateways, Bluetooth)",
+          "order": 25
+        },
+        {
+          "topicId": "RN-BUILD-01",
+          "topicName": "Native Build Systems: Gradle (Android) and CocoaPods / Xcode (iOS)",
+          "order": 26
+        },
+        {
+          "topicId": "RN-BUILD-02",
+          "topicName": "Expo EAS Build, Development Builds, and Bare Workflow Management",
+          "order": 27
+        },
+        {
+          "topicId": "RN-BUILD-03",
+          "topicName": "CI/CD Pipelines for React Native: Fastlane, GitHub Actions, Bitrise",
+          "order": 28
+        },
+        {
+          "topicId": "RN-BUILD-04",
+          "topicName": "Over-the-Air (OTA) Updates: CodePush, Expo Updates, and Rollout Strategies",
+          "order": 29
+        },
+        {
+          "topicId": "RN-TEST-01",
+          "topicName": "Unit and Integration Testing: Jest, React Native Testing Library (RNTL)",
+          "order": 30
+        },
+        {
+          "topicId": "RN-TEST-02",
+          "topicName": "End-to-End Testing: Detox and Appium",
+          "order": 31
+        },
+        {
+          "topicId": "RN-SEC-01",
+          "topicName": "Security Best Practices: SSL Pinning, Secure Storage (Keychain/Keystore), and Code Obfuscation",
+          "order": 32
+        },
+        {
+          "topicId": "RN-PROD-01",
+          "topicName": "Crash Reporting and Monitoring: Sentry, Firebase Crashlytics, and Performance APMs",
+          "order": 33
+        }
+      ]
+    },
+    {
+      "moduleId": "nativescript",
+      "moduleName": "NativeScript",
+      "order": 76,
+      "description": "Master NativeScript from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "NS101",
+          "topicName": "Architecture and Runtime Mechanics",
+          "order": 1
+        },
+        {
+          "topicId": "NS102",
+          "topicName": "Development Environment Setup and CLI",
+          "order": 2
+        },
+        {
+          "topicId": "NS103",
+          "topicName": "Project Structure and Configuration Files",
+          "order": 3
+        },
+        {
+          "topicId": "NS201",
+          "topicName": "Native UI Components vs Web Views",
+          "order": 4
+        },
+        {
+          "topicId": "NS202",
+          "topicName": "Layout Systems (Stack, Grid, Flexbox, Absolute)",
+          "order": 5
+        },
+        {
+          "topicId": "NS203",
+          "topicName": "Styling and CSS Support",
+          "order": 6
+        },
+        {
+          "topicId": "NS204",
+          "topicName": "Data Binding and Observables",
+          "order": 7
+        },
+        {
+          "topicId": "NS301",
+          "topicName": "Accessing Native APIs (iOS and Android)",
+          "order": 8
+        },
+        {
+          "topicId": "NS302",
+          "topicName": "Using and Consuming Native Plugins",
+          "order": 9
+        },
+        {
+          "topicId": "NS303",
+          "topicName": "Writing Custom Native Bridge Modules",
+          "order": 10
+        },
+        {
+          "topicId": "NS401",
+          "topicName": "Navigation and Page Transitions",
+          "order": 11
+        },
+        {
+          "topicId": "NS402",
+          "topicName": "Application Lifecycle Management",
+          "order": 12
+        },
+        {
+          "topicId": "NS403",
+          "topicName": "State Management Patterns",
+          "order": 13
+        },
+        {
+          "topicId": "NS501",
+          "topicName": "NativeScript with Angular",
+          "order": 14
+        },
+        {
+          "topicId": "NS502",
+          "topicName": "NativeScript with Vue.js",
+          "order": 15
+        },
+        {
+          "topicId": "NS503",
+          "topicName": "NativeScript with React (via Alternatives) and Plain TypeScript",
+          "order": 16
+        },
+        {
+          "topicId": "NS601",
+          "topicName": "Performance Optimization and Garbage Collection",
+          "order": 17
+        },
+        {
+          "topicId": "NS602",
+          "topicName": "Memory Management and Leak Detection",
+          "order": 18
+        },
+        {
+          "topicId": "NS603",
+          "topicName": "Debugging, Profiling, and DevTools",
+          "order": 19
+        },
+        {
+          "topicId": "NS701",
+          "topicName": "Build Process, Bundling, and Webpack",
+          "order": 20
+        },
+        {
+          "topicId": "NS702",
+          "topicName": "App Store and Google Play Preparation",
+          "order": 21
+        },
+        {
+          "topicId": "NS703",
+          "topicName": "CI/CD Pipelines for NativeScript Apps",
+          "order": 22
+        }
+      ]
+    },
+    {
+      "moduleId": "xamarin",
+      "moduleName": "Xamarin",
+      "order": 77,
+      "description": "Master Xamarin from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "XAM001",
+          "topicName": "Introduction to Xamarin and .NET MAUI transition path",
+          "order": 1
+        },
+        {
+          "topicId": "XAM002",
+          "topicName": "Xamarin.Forms vs Xamarin.iOS vs Xamarin.Android",
+          "order": 2
+        },
+        {
+          "topicId": "XAM003",
+          "topicName": "Application Lifecycle and Startup Configuration",
+          "order": 3
+        },
+        {
+          "topicId": "XAM004",
+          "topicName": "Dependency Service and Platform-Specific Implementation",
+          "order": 4
+        },
+        {
+          "topicId": "XAM005",
+          "topicName": "XAML Fundamentals and Markup Extensions",
+          "order": 5
+        },
+        {
+          "topicId": "XAM006",
+          "topicName": "Layout Containers (StackLayout, Grid, AbsoluteLayout, FlexLayout)",
+          "order": 6
+        },
+        {
+          "topicId": "XAM007",
+          "topicName": "Optimizing Layout Performance and Reducing Render Passes",
+          "order": 7
+        },
+        {
+          "topicId": "XAM008",
+          "topicName": "Custom Renderers and Effects Architecture",
+          "order": 8
+        },
+        {
+          "topicId": "XAM009",
+          "topicName": "MVVM Pattern and INotifyPropertyChanged Implementation",
+          "order": 9
+        },
+        {
+          "topicId": "XAM010",
+          "topicName": "Commands, Parameters, and Event-to-Command Behaviours",
+          "order": 10
+        },
+        {
+          "topicId": "XAM011",
+          "topicName": "Value Converters and Compiled Bindings",
+          "order": 11
+        },
+        {
+          "topicId": "XAM012",
+          "topicName": "Navigation Patterns (Shell vs MasterDetailPage vs TabbedPage)",
+          "order": 12
+        },
+        {
+          "topicId": "XAM013",
+          "topicName": "Local Data Storage (SQLite, Realm, and File System)",
+          "order": 13
+        },
+        {
+          "topicId": "XAM014",
+          "topicName": "RESTful API Integration, HttpClient, and Refit",
+          "order": 14
+        },
+        {
+          "topicId": "XAM015",
+          "topicName": "Offline Synchronization and Connectivity Monitoring",
+          "order": 15
+        },
+        {
+          "topicId": "XAM016",
+          "topicName": "Essentials Library (Geolocation, SecureStorage, Essentials)",
+          "order": 16
+        },
+        {
+          "topicId": "XAM017",
+          "topicName": "Push Notifications (Firebase Cloud Messaging and APNs)",
+          "order": 17
+        },
+        {
+          "topicId": "XAM018",
+          "topicName": "Background Tasks and Long-Running Operations",
+          "order": 18
+        },
+        {
+          "topicId": "XAM019",
+          "topicName": "Unit Testing ViewModels (NUnit, xUnit, Moq)",
+          "order": 19
+        },
+        {
+          "topicId": "XAM020",
+          "topicName": "UI Testing with Xamarin.UITest",
+          "order": 20
+        },
+        {
+          "topicId": "XAM021",
+          "topicName": "Continuous Integration and Deployment (App Center, GitHub Actions, Azure DevOps)",
+          "order": 21
+        },
+        {
+          "topicId": "XAM022",
+          "topicName": "Memory Management, Garbage Collection, and Leak Detection",
+          "order": 22
+        },
+        {
+          "topicId": "XAM023",
+          "topicName": "Startup Time Optimization and Fast Renderers",
+          "order": 23
+        },
+        {
+          "topicId": "XAM024",
+          "topicName": "Profiling and Diagnostics with Visual Studio and Xamarin Profiler",
+          "order": 24
+        },
+        {
+          "topicId": "XAM025",
+          "topicName": "App Store and Google Play Provisioning, Signing, and Deployment",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "system_design",
+      "moduleName": "System Design",
+      "order": 78,
+      "description": "Master System Design from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SD-FUND-01",
+          "topicName": "Scalability & Performance Metrics (Latency, Throughput, Percentiles)",
+          "order": 1
+        },
+        {
+          "topicId": "SD-FUND-02",
+          "topicName": "CAP Theorem & PACELC Theorem",
+          "order": 2
+        },
+        {
+          "topicId": "SD-FUND-03",
+          "topicName": "Consistent Hashing & Virtual Nodes",
+          "order": 3
+        },
+        {
+          "topicId": "SD-FUND-04",
+          "topicName": "Load Balancing Algorithms (Round Robin, Least Connections, IP Hash)",
+          "order": 4
+        },
+        {
+          "topicId": "SD-FUND-05",
+          "topicName": "Service Discovery & Registration",
+          "order": 5
+        },
+        {
+          "topicId": "SD-STOR-01",
+          "topicName": "Relational Databases: Sharding, Partitioning, and Federation",
+          "order": 6
+        },
+        {
+          "topicId": "SD-STOR-02",
+          "topicName": "NoSQL Database Paradigms (Key-Value, Document, Column-Family, Graph)",
+          "order": 7
+        },
+        {
+          "topicId": "SD-STOR-03",
+          "topicName": "Database Indexing: B-Trees vs. LSM-Trees",
+          "order": 8
+        },
+        {
+          "topicId": "SD-STOR-04",
+          "topicName": "Replication Strategies (Leader-Follower, Multi-Leader, Leaderless)",
+          "order": 9
+        },
+        {
+          "topicId": "SD-STOR-05",
+          "topicName": "Distributed Transactions & Two-Phase Commit (2PC)",
+          "order": 10
+        },
+        {
+          "topicId": "SD-STOR-06",
+          "topicName": "Saga Pattern for Distributed Transactions",
+          "order": 11
+        },
+        {
+          "topicId": "SD-CACH-01",
+          "topicName": "Caching Strategies (Cache-Aside, Write-Through, Write-Behind, Refresh-Ahead)",
+          "order": 12
+        },
+        {
+          "topicId": "SD-CACH-02",
+          "topicName": "Eviction Policies (LRU, LFU, FIFO, ARC)",
+          "order": 13
+        },
+        {
+          "topicId": "SD-CACH-03",
+          "topicName": "Cache Stampede, Thundering Herd, and Cache Breakdown",
+          "order": 14
+        },
+        {
+          "topicId": "SD-CACH-04",
+          "topicName": "Content Delivery Networks (CDNs) & Edge Computing",
+          "order": 15
+        },
+        {
+          "topicId": "SD-MSG-01",
+          "topicName": "Message Queues vs. Event Streaming Platforms",
+          "order": 16
+        },
+        {
+          "topicId": "SD-MSG-02",
+          "topicName": "Publish-Subscribe Pattern & Topic Partitioning",
+          "order": 17
+        },
+        {
+          "topicId": "SD-MSG-03",
+          "topicName": "Message Delivery Semantics (At-Most-Once, At-Least-Once, Exactly-Once)",
+          "order": 18
+        },
+        {
+          "topicId": "SD-MSG-04",
+          "topicName": "Backpressure Handling & Rate Limiting Algorithms (Token Bucket, Leaky Bucket)",
+          "order": 19
+        },
+        {
+          "topicId": "SD-RES-01",
+          "topicName": "Circuit Breakers, Retries, and Exponential Backoff",
+          "order": 20
+        },
+        {
+          "topicId": "SD-RES-02",
+          "topicName": "Bulkheading and Resource Isolation",
+          "order": 21
+        },
+        {
+          "topicId": "SD-RES-03",
+          "topicName": "Graceful Degradation and Shedding Load",
+          "order": 22
+        },
+        {
+          "topicId": "SD-RES-04",
+          "topicName": "Idempotency Patterns in Distributed Systems",
+          "order": 23
+        },
+        {
+          "topicId": "SD-ADV-01",
+          "topicName": "Microservices Design Patterns & Decomposition Strategies",
+          "order": 24
+        },
+        {
+          "topicId": "SD-ADV-02",
+          "topicName": "API Design Paradigms (REST, GraphQL, gRPC, WebSockets)",
+          "order": 25
+        },
+        {
+          "topicId": "SD-ADV-03",
+          "topicName": "Distributed Locking & Consensus Algorithms (Raft, Paxos)",
+          "order": 26
+        },
+        {
+          "topicId": "SD-ADV-04",
+          "topicName": "Distributed Tracing, Logging, and Observability",
+          "order": 27
+        },
+        {
+          "topicId": "SD-ADV-05",
+          "topicName": "Search Systems & Inverted Indexes (Elasticsearch, Lucene)",
+          "order": 28
+        },
+        {
+          "topicId": "SD-PROD-01",
+          "topicName": "Data Migration and Zero-Downtime Deployments",
+          "order": 29
+        },
+        {
+          "topicId": "SD-PROD-02",
+          "topicName": "Disaster Recovery, Backup Strategies, and Multi-Region Architectures",
+          "order": 30
+        }
+      ]
+    },
+    {
+      "moduleId": "objectoriented_programming_oop",
+      "moduleName": "Object-Oriented Programming (OOP)",
+      "order": 79,
+      "description": "Master Object-Oriented Programming (OOP) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "OOP-001",
+          "topicName": "Classes, Objects, and Instance State",
+          "order": 1
+        },
+        {
+          "topicId": "OOP-002",
+          "topicName": "Encapsulation and Information Hiding",
+          "order": 2
+        },
+        {
+          "topicId": "OOP-003",
+          "topicName": "Constructors, Destructors, and Object Lifecycle",
+          "order": 3
+        },
+        {
+          "topicId": "OOP-004",
+          "topicName": "Method Overloading vs Method Overriding",
+          "order": 4
+        },
+        {
+          "topicId": "OOP-005",
+          "topicName": "Inheritance and Code Reuse",
+          "order": 5
+        },
+        {
+          "topicId": "OOP-006",
+          "topicName": "Polymorphism (Compile-time vs Runtime)",
+          "order": 6
+        },
+        {
+          "topicId": "OOP-007",
+          "topicName": "Abstract Classes and Interfaces",
+          "order": 7
+        },
+        {
+          "topicId": "OOP-008",
+          "topicName": "Composition vs Inheritance (Has-A vs Is-A)",
+          "order": 8
+        },
+        {
+          "topicId": "OOP-009",
+          "topicName": "SOLID Principles (Deep Dive)",
+          "order": 9
+        },
+        {
+          "topicId": "OOP-010",
+          "topicName": "Design Patterns: Creational (Singleton, Factory, Builder)",
+          "order": 10
+        },
+        {
+          "topicId": "OOP-011",
+          "topicName": "Design Patterns: Structural (Adapter, Decorator, Facade)",
+          "order": 11
+        },
+        {
+          "topicId": "OOP-012",
+          "topicName": "Design Patterns: Behavioral (Observer, Strategy, Command)",
+          "order": 12
+        },
+        {
+          "topicId": "OOP-013",
+          "topicName": "Multiple Inheritance and the Diamond Problem",
+          "order": 13
+        },
+        {
+          "topicId": "OOP-014",
+          "topicName": "Immutability and Value Objects",
+          "order": 14
+        },
+        {
+          "topicId": "OOP-015",
+          "topicName": "Generics, Type Erasure, and Variance (Covariance/Contravariance)",
+          "order": 15
+        },
+        {
+          "topicId": "OOP-016",
+          "topicName": "Object-Relational Impedance Mismatch (ORM)",
+          "order": 16
+        },
+        {
+          "topicId": "OOP-017",
+          "topicName": "Memory Management, Garbage Collection, and Object Leaks",
+          "order": 17
+        },
+        {
+          "topicId": "OOP-018",
+          "topicName": "Thread Safety, Concurrency, and Object State",
+          "order": 18
+        },
+        {
+          "topicId": "OOP-019",
+          "topicName": "Anti-Patterns (God Object, Anemic Domain Model, Spaghetti Code)",
+          "order": 19
+        },
+        {
+          "topicId": "OOP-020",
+          "topicName": "Testing, Mocking, and Dependency Injection in OOP",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "moduleId": "solid_principles",
+      "moduleName": "SOLID Principles",
+      "order": 80,
+      "description": "Master SOLID Principles from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SP-01",
+          "topicName": "Introduction to SOLID and Coupling vs Cohesion",
+          "order": 1
+        },
+        {
+          "topicId": "SP-02",
+          "topicName": "SRP: Theory, Identification of Responsibilities, and Separation of Concerns",
+          "order": 2
+        },
+        {
+          "topicId": "SP-03",
+          "topicName": "SRP: Architectural Impacts, Fat Models, and God Classes",
+          "order": 3
+        },
+        {
+          "topicId": "SP-04",
+          "topicName": "OCP: Core Concept and Extension via Polymorphism",
+          "order": 4
+        },
+        {
+          "topicId": "SP-05",
+          "topicName": "OCP: Strategy Pattern, Plugin Architectures, and Framework Design",
+          "order": 5
+        },
+        {
+          "topicId": "SP-06",
+          "topicName": "LSP: Subtyping, Behavioral Subtyping, and Contract Design",
+          "order": 6
+        },
+        {
+          "topicId": "SP-07",
+          "topicName": "LSP: Circle-Ellipse Dilemma and Handling Exceptions/Preconditions",
+          "order": 7
+        },
+        {
+          "topicId": "SP-08",
+          "topicName": "ISP: Client-Specific Interfaces and Avoiding Fat Interfaces",
+          "order": 8
+        },
+        {
+          "topicId": "SP-09",
+          "topicName": "ISP: Adapter Pattern and Decoupling Systems",
+          "order": 9
+        },
+        {
+          "topicId": "SP-10",
+          "topicName": "DIP: Abstractions vs Implementations and Inversion of Control (IoC)",
+          "order": 10
+        },
+        {
+          "topicId": "SP-11",
+          "topicName": "DIP: Dependency Injection Containers and Wiring Architecture",
+          "order": 11
+        },
+        {
+          "topicId": "SP-12",
+          "topicName": "SOLID in Microservices and Distributed Systems",
+          "order": 12
+        },
+        {
+          "topicId": "SP-13",
+          "topicName": "Anti-Patterns, Code Smells, and Refactoring Legacy Code to SOLID",
+          "order": 13
+        },
+        {
+          "topicId": "SP-14",
+          "topicName": "Test-Driven Development (TDD) and SOLID as a Testing Enabler",
+          "order": 14
+        },
+        {
+          "topicId": "SP-15",
+          "topicName": "Over-Engineering vs Pragmatism: When SOLID Goes Too Far",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "moduleId": "design_patterns",
+      "moduleName": "Design Patterns",
+      "order": 81,
+      "description": "Master Design Patterns from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "DP-FUND-01",
+          "topicName": "SOLID Principles and Design Pattern Foundations",
+          "order": 1
+        },
+        {
+          "topicId": "DP-FUND-02",
+          "topicName": "Classification of Design Patterns: Creational, Structural, Behavioral",
+          "order": 2
+        },
+        {
+          "topicId": "DP-FUND-03",
+          "topicName": "Composition over Inheritance and Interface Segregation",
+          "order": 3
+        },
+        {
+          "topicId": "DP-CRET-01",
+          "topicName": "Singleton: Thread Safety, Double-Checked Locking, and Serialization Issues",
+          "order": 4
+        },
+        {
+          "topicId": "DP-CRET-02",
+          "topicName": "Factory Method vs. Abstract Factory",
+          "order": 5
+        },
+        {
+          "topicId": "DP-CRET-03",
+          "topicName": "Builder Pattern for Complex Object Construction and Immutability",
+          "order": 6
+        },
+        {
+          "topicId": "DP-CRET-04",
+          "topicName": "Prototype Pattern and Deep vs. Shallow Cloning",
+          "order": 7
+        },
+        {
+          "topicId": "DP-STRU-01",
+          "topicName": "Adapter Pattern for Legacy System Integration",
+          "order": 8
+        },
+        {
+          "topicId": "DP-STRU-02",
+          "topicName": "Decorator vs. Proxy Pattern: Use Cases and Differences",
+          "order": 9
+        },
+        {
+          "topicId": "DP-STRU-03",
+          "topicName": "Facade Pattern for Subsystem Simplification and Decoupling",
+          "order": 10
+        },
+        {
+          "topicId": "DP-STRU-04",
+          "topicName": "Composite Pattern for Tree-Structured Hierarchies",
+          "order": 11
+        },
+        {
+          "topicId": "DP-STRU-05",
+          "topicName": "Flyweight Pattern for Memory Optimization",
+          "order": 12
+        },
+        {
+          "topicId": "DP-BEH-01",
+          "topicName": "Strategy Pattern vs. State Pattern",
+          "order": 13
+        },
+        {
+          "topicId": "DP-BEH-02",
+          "topicName": "Observer Pattern and Distributed Event-Driven Architectures",
+          "order": 14
+        },
+        {
+          "topicId": "DP-BEH-03",
+          "topicName": "Command Pattern for Undo/Redo and Transactional Operations",
+          "order": 15
+        },
+        {
+          "topicId": "DP-BEH-04",
+          "topicName": "Chain of Responsibility for Request Processing Pipelines",
+          "order": 16
+        },
+        {
+          "topicId": "DP-BEH-05",
+          "topicName": "Mediator Pattern vs. Event Bus for Component Communication",
+          "order": 17
+        },
+        {
+          "topicId": "DP-BEH-06",
+          "topicName": "Template Method vs. Strategy Pattern",
+          "order": 18
+        },
+        {
+          "topicId": "DP-BEH-07",
+          "topicName": "Visitor Pattern for Operations on Object Structures",
+          "order": 19
+        },
+        {
+          "topicId": "DP-ENT-01",
+          "topicName": "Dependency Injection and Inversion of Control Containers",
+          "order": 20
+        },
+        {
+          "topicId": "DP-ENT-02",
+          "topicName": "Repository and Unit of Work Patterns in Data Access Layers",
+          "order": 21
+        },
+        {
+          "topicId": "DP-ENT-03",
+          "topicName": "CQRS (Command Query Responsibility Segregation) Pattern",
+          "order": 22
+        },
+        {
+          "topicId": "DP-ENT-04",
+          "topicName": "Event Sourcing and Snapshotting",
+          "order": 23
+        },
+        {
+          "topicId": "DP-ENT-05",
+          "topicName": "Circuit Breaker, Retry, and Bulkhead Resilience Patterns",
+          "order": 24
+        },
+        {
+          "topicId": "DP-ENT-06",
+          "topicName": "API Gateway and Backend for Frontend (BFF) Patterns",
+          "order": 25
+        },
+        {
+          "topicId": "DP-PROD-01",
+          "topicName": "Anti-Patterns: God Object, Spaghetti Code, and The Golden Hammer",
+          "order": 26
+        },
+        {
+          "topicId": "DP-PROD-02",
+          "topicName": "Performance Overhead and Memory Leaks Caused by Improper Pattern Usage",
+          "order": 27
+        },
+        {
+          "topicId": "DP-PROD-03",
+          "topicName": "Concurrency Bottlenecks in Shared-State Behavioral Patterns",
+          "order": 28
+        },
+        {
+          "topicId": "DP-PROD-04",
+          "topicName": "Refactoring Legacy Code: Identifying Opportunities for Design Patterns",
+          "order": 29
+        }
+      ]
+    },
+    {
+      "moduleId": "agile_methodologies",
+      "moduleName": "Agile Methodologies",
+      "order": 82,
+      "description": "Master Agile Methodologies from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "AGF-01",
+          "topicName": "Agile Manifesto and Principles",
+          "order": 1
+        },
+        {
+          "topicId": "AGF-02",
+          "topicName": "Scrum Framework Core Roles, Events, and Artifacts",
+          "order": 2
+        },
+        {
+          "topicId": "AGF-03",
+          "topicName": "Kanban Method Principles and Flow Metrics",
+          "order": 3
+        },
+        {
+          "topicId": "AGF-04",
+          "topicName": "Extreme Programming (XP) Engineering Practices",
+          "order": 4
+        },
+        {
+          "topicId": "PLE-01",
+          "topicName": "User Story Mapping and Writing Effective Acceptance Criteria",
+          "order": 5
+        },
+        {
+          "topicId": "PLE-02",
+          "topicName": "Relative Estimation Techniques (Planning Poker, Story Points)",
+          "order": 6
+        },
+        {
+          "topicId": "PLE-03",
+          "topicName": "Capacity Planning and Velocity Tracking",
+          "order": 7
+        },
+        {
+          "topicId": "PLE-04",
+          "topicName": "Release Planning and Roadmap Management",
+          "order": 8
+        },
+        {
+          "topicId": "EXF-01",
+          "topicName": "Sprint Planning and Backlog Refinement Best Practices",
+          "order": 9
+        },
+        {
+          "topicId": "EXF-02",
+          "topicName": "Daily Standup Optimization and Impediment Removal",
+          "order": 10
+        },
+        {
+          "topicId": "EXF-03",
+          "topicName": "Sprint Review and Stakeholder Feedback Loops",
+          "order": 11
+        },
+        {
+          "topicId": "EXF-04",
+          "topicName": "Effective Retrospectives and Continuous Improvement Frameworks",
+          "order": 12
+        },
+        {
+          "topicId": "SCL-01",
+          "topicName": "Scaled Agile Framework (SAFe) Core Configurations",
+          "order": 13
+        },
+        {
+          "topicId": "SCL-02",
+          "topicName": "Large-Scale Scrum (LeSS) Principles",
+          "order": 14
+        },
+        {
+          "topicId": "SCL-03",
+          "topicName": "Nexus and Disciplined Agile (DA) Overviews",
+          "order": 15
+        },
+        {
+          "topicId": "SCL-04",
+          "topicName": "Managing Dependencies and Cross-Team Alignment in Enterprise",
+          "order": 16
+        },
+        {
+          "topicId": "TED-01",
+          "topicName": "Continuous Integration and Continuous Delivery (CI/CD) in Agile",
+          "order": 17
+        },
+        {
+          "topicId": "TED-02",
+          "topicName": "Test-Driven Development (TDD) and Behavior-Driven Development (BDD)",
+          "order": 18
+        },
+        {
+          "topicId": "TED-03",
+          "topicName": "Refactoring, Technical Debt Management, and Code Quality",
+          "order": 19
+        },
+        {
+          "topicId": "TED-04",
+          "topicName": "Feature Flags and Trunk-Based Development",
+          "order": 20
+        },
+        {
+          "topicId": "MEG-01",
+          "topicName": "Agile Metrics (Lead Time, Cycle Time, Throughput, Cumulative Flow)",
+          "order": 21
+        },
+        {
+          "topicId": "MEG-02",
+          "topicName": "Anti-patterns in Agile Metrics (Velocity as a Productivity Tool)",
+          "order": 22
+        },
+        {
+          "topicId": "MEG-03",
+          "topicName": "Value Stream Mapping (VSM) and Waste Identification",
+          "order": 23
+        },
+        {
+          "topicId": "APB-01",
+          "topicName": "Managing Distributed and Remote Agile Teams",
+          "order": 24
+        },
+        {
+          "topicId": "APB-02",
+          "topicName": "Handling Scope Creep and Production Incidents in Sprints",
+          "order": 25
+        },
+        {
+          "topicId": "APB-03",
+          "topicName": "Agile Leadership, Psychological Safety, and Servant Leadership",
+          "order": 26
+        },
+        {
+          "topicId": "APB-04",
+          "topicName": "Transforming Traditional Organizations into Agile Culture",
+          "order": 27
+        }
+      ]
+    },
+    {
+      "moduleId": "scrum",
+      "moduleName": "Scrum",
+      "order": 83,
+      "description": "Master Scrum from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SCM-101",
+          "topicName": "Scrum Theory and Empirical Process Control",
+          "order": 1
+        },
+        {
+          "topicId": "SCM-102",
+          "topicName": "The Three Pillars of Scrum",
+          "order": 2
+        },
+        {
+          "topicId": "SCM-103",
+          "topicName": "Scrum Values and Cultural Mindset",
+          "order": 3
+        },
+        {
+          "topicId": "SCM-201",
+          "topicName": "The Product Owner: Accountability and Backlog Management",
+          "order": 4
+        },
+        {
+          "topicId": "SCM-202",
+          "topicName": "The Scrum Master: Servant Leadership and Impediment Removal",
+          "order": 5
+        },
+        {
+          "topicId": "SCM-203",
+          "topicName": "The Developers: Self-Organization and Cross-Functionality",
+          "order": 6
+        },
+        {
+          "topicId": "SCM-301",
+          "topicName": "Sprint Planning: Goal Setting and Capacity Planning",
+          "order": 7
+        },
+        {
+          "topicId": "SCM-302",
+          "topicName": "Daily Scrum: Synchronization and Plan Adaptation",
+          "order": 8
+        },
+        {
+          "topicId": "SCM-303",
+          "topicName": "Sprint Review: Stakeholder Feedback and Product Inspection",
+          "order": 9
+        },
+        {
+          "topicId": "SCM-304",
+          "topicName": "Sprint Retrospective: Continuous Process Improvement",
+          "order": 10
+        },
+        {
+          "topicId": "SCM-401",
+          "topicName": "Product Backlog: Refinement, Ordering, and Readiness",
+          "order": 11
+        },
+        {
+          "topicId": "SCM-402",
+          "topicName": "Sprint Backlog: Commitment and Execution Plan",
+          "order": 12
+        },
+        {
+          "topicId": "SCM-403",
+          "topicName": "Increment: Definition of Done and Shippable Quality",
+          "order": 13
+        },
+        {
+          "topicId": "SCM-501",
+          "topicName": "Scaling Scrum: Nexus, LeSS, and SAFe Principles",
+          "order": 14
+        },
+        {
+          "topicId": "SCM-502",
+          "topicName": "Distributed and Remote Scrum Teams",
+          "order": 15
+        },
+        {
+          "topicId": "SCM-503",
+          "topicName": "Metrics and Tracking: Velocity, Burn-down, and Flow Metrics",
+          "order": 16
+        },
+        {
+          "topicId": "SCM-601",
+          "topicName": "Overcoming Common Scrum Anti-Patterns",
+          "order": 17
+        },
+        {
+          "topicId": "SCM-602",
+          "topicName": "Handling Scope Creep and Mid-Sprint Interruption",
+          "order": 18
+        },
+        {
+          "topicId": "SCM-603",
+          "topicName": "Transitioning from Waterfall to Scrum in Enterprise",
+          "order": 19
+        }
+      ]
+    },
+    {
+      "moduleId": "manual_testing",
+      "moduleName": "Manual Testing",
+      "order": 84,
+      "description": "Master Manual Testing from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "MT-FUND-01",
+          "topicName": "Software Development Life Cycle (SDLC) & Testing Life Cycle (STLC)",
+          "order": 1
+        },
+        {
+          "topicId": "MT-FUND-02",
+          "topicName": "Seven Principles of Software Testing",
+          "order": 2
+        },
+        {
+          "topicId": "MT-FUND-03",
+          "topicName": "Verification vs. Validation & Quality Assurance vs. Quality Control",
+          "order": 3
+        },
+        {
+          "topicId": "MT-DES-01",
+          "topicName": "Black Box Testing Techniques: Equivalence Partitioning & Boundary Value Analysis",
+          "order": 4
+        },
+        {
+          "topicId": "MT-DES-02",
+          "topicName": "Decision Table Testing & State Transition Testing",
+          "order": 5
+        },
+        {
+          "topicId": "MT-DES-03",
+          "topicName": "Use Case Testing & Error Guessing",
+          "order": 6
+        },
+        {
+          "topicId": "MT-LVL-01",
+          "topicName": "Unit, Integration, System, and Acceptance Testing",
+          "order": 7
+        },
+        {
+          "topicId": "MT-LVL-02",
+          "topicName": "Functional vs. Non-Functional Testing",
+          "order": 8
+        },
+        {
+          "topicId": "MT-LVL-03",
+          "topicName": "Smoke, Sanity, Regression, and Re-testing",
+          "order": 9
+        },
+        {
+          "topicId": "MT-LVL-04",
+          "topicName": "Exploratory, Ad-hoc, and Monkey Testing",
+          "order": 10
+        },
+        {
+          "topicId": "MT-ART-01",
+          "topicName": "Test Scenarios, Test Cases, and Traceability Matrix (RTM)",
+          "order": 11
+        },
+        {
+          "topicId": "MT-ART-02",
+          "topicName": "Bug Life Cycle & Defect Tracking Best Practices",
+          "order": 12
+        },
+        {
+          "topicId": "MT-ART-03",
+          "topicName": "Test Planning, Estimation Techniques, and Test Strategy",
+          "order": 13
+        },
+        {
+          "topicId": "MT-ADV-01",
+          "topicName": "API Testing Fundamentals using Postman (Manual validation)",
+          "order": 14
+        },
+        {
+          "topicId": "MT-ADV-02",
+          "topicName": "Database Testing & Basic SQL Queries for Testers",
+          "order": 15
+        },
+        {
+          "topicId": "MT-ADV-03",
+          "topicName": "Mobile Application Testing (iOS/Android, Emulators, Real Devices)",
+          "order": 16
+        },
+        {
+          "topicId": "MT-ADV-04",
+          "topicName": "Web Accessibility (WCAG) and Usability Testing",
+          "order": 17
+        },
+        {
+          "topicId": "MT-AGILE-01",
+          "topicName": "Agile Scrum & Kanban Frameworks for QA",
+          "order": 18
+        },
+        {
+          "topicId": "MT-AGILE-02",
+          "topicName": "Behavior-Driven Development (BDD) & Acceptance Test-Driven Development (ATDD)",
+          "order": 19
+        },
+        {
+          "topicId": "MT-PROD-01",
+          "topicName": "Production Monitoring, Log Analysis (Kibana/Splunk), and Triage",
+          "order": 20
+        },
+        {
+          "topicId": "MT-PROD-02",
+          "topicName": "Root Cause Analysis (RCA) and Post-Incident Reviews",
+          "order": 21
+        }
+      ]
+    },
+    {
+      "moduleId": "automation_testing",
+      "moduleName": "Automation Testing",
+      "order": 85,
+      "description": "Master Automation Testing from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "FUND-01",
+          "topicName": "Introduction to Automation Testing and Test Pyramid",
+          "order": 1
+        },
+        {
+          "topicId": "FUND-02",
+          "topicName": "Test Automation Planning, ROI, and Tool Selection",
+          "order": 2
+        },
+        {
+          "topicId": "FUND-03",
+          "topicName": "Programming Basics (Java/Python/JavaScript) for Testers",
+          "order": 3
+        },
+        {
+          "topicId": "FUND-04",
+          "topicName": "Object-Oriented Programming (OOPs) Principles in Automation",
+          "order": 4
+        },
+        {
+          "topicId": "WEB-01",
+          "topicName": "Selenium WebDriver Architecture and Locators Strategy",
+          "order": 5
+        },
+        {
+          "topicId": "WEB-02",
+          "topicName": "Handling Complex Web Elements (Frames, Shadows, Alerts, Windows)",
+          "order": 6
+        },
+        {
+          "topicId": "WEB-03",
+          "topicName": "Synchronization Techniques (Implicit, Explicit, Fluent Waits)",
+          "order": 7
+        },
+        {
+          "topicId": "WEB-04",
+          "topicName": "Alternative Web Automation Tools (Playwright, Cypress)",
+          "order": 8
+        },
+        {
+          "topicId": "API-01",
+          "topicName": "RESTful Web Services Architecture and HTTP Protocols",
+          "order": 9
+        },
+        {
+          "topicId": "API-02",
+          "topicName": "API Testing using RestAssured / Postman / Playwright API",
+          "order": 10
+        },
+        {
+          "topicId": "API-03",
+          "topicName": "JSON/XML Payload Validation and Schema Testing",
+          "order": 11
+        },
+        {
+          "topicId": "API-04",
+          "topicName": "Authentication & Authorization Mechanisms (OAuth, JWT, API Keys)",
+          "order": 12
+        },
+        {
+          "topicId": "FRM-01",
+          "topicName": "Page Object Model (POM) and Page Factory Design Patterns",
+          "order": 13
+        },
+        {
+          "topicId": "FRM-02",
+          "topicName": "Behavior Driven Development (BDD) with Cucumber and Gherkin",
+          "order": 14
+        },
+        {
+          "topicId": "FRM-03",
+          "topicName": "Data-Driven and Keyword-Driven Framework Architectures",
+          "order": 15
+        },
+        {
+          "topicId": "FRM-04",
+          "topicName": "Test Framework Logging, Reporting (Extent, Allure), and Assertions",
+          "order": 16
+        },
+        {
+          "topicId": "MOB-01",
+          "topicName": "Appium Architecture and Mobile Testing Fundamentals",
+          "order": 17
+        },
+        {
+          "topicId": "MOB-02",
+          "topicName": "Gestures, Touch Actions, and Hybrid App Automation",
+          "order": 18
+        },
+        {
+          "topicId": "CI-01",
+          "topicName": "Version Control Systems (Git branching strategies and workflows)",
+          "order": 19
+        },
+        {
+          "topicId": "CI-02",
+          "topicName": "CI/CD Pipelines (Jenkins, GitHub Actions, GitLab CI)",
+          "order": 20
+        },
+        {
+          "topicId": "CI-03",
+          "topicName": "Containerization with Docker for Test Execution",
+          "order": 21
+        },
+        {
+          "topicId": "ADV-01",
+          "topicName": "Visual Validation and AI-Powered Testing",
+          "order": 22
+        },
+        {
+          "topicId": "ADV-02",
+          "topicName": "Performance and Load Testing Integration (JMeter, k6)",
+          "order": 23
+        },
+        {
+          "topicId": "ADV-03",
+          "topicName": "Flaky Tests Management and Root Cause Analysis",
+          "order": 24
+        },
+        {
+          "topicId": "ADV-04",
+          "topicName": "Cloud-Based Testing Infrastructures (BrowserStack, Sauce Labs)",
+          "order": 25
+        }
+      ]
+    },
+    {
+      "moduleId": "selenium",
+      "moduleName": "Selenium",
+      "order": 86,
+      "description": "Master Selenium from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SEL-01",
+          "topicName": "Selenium WebDriver Architecture & W3C Protocol",
+          "order": 1
+        },
+        {
+          "topicId": "SEL-02",
+          "topicName": "Locators Strategy & XPath/CSS Selectors Optimization",
+          "order": 2
+        },
+        {
+          "topicId": "SEL-03",
+          "topicName": "Browser Options, Capabilities, and Profiles",
+          "order": 3
+        },
+        {
+          "topicId": "SEL-04",
+          "topicName": "Headless Browser Execution & Resource Management",
+          "order": 4
+        },
+        {
+          "topicId": "SEL-05",
+          "topicName": "Implicit vs Explicit vs Fluent Waits",
+          "order": 5
+        },
+        {
+          "topicId": "SEL-06",
+          "topicName": "ExpectedConditions & Custom Conditions Implementation",
+          "order": 6
+        },
+        {
+          "topicId": "SEL-07",
+          "topicName": "Handling StaleElementReferenceException & Timeouts",
+          "order": 7
+        },
+        {
+          "topicId": "SEL-08",
+          "topicName": "Actions Class (Drag and Drop, Hover, Multi-key)",
+          "order": 8
+        },
+        {
+          "topicId": "SEL-09",
+          "topicName": "JavaScript Executor for DOM Manipulation & Scrolling",
+          "order": 9
+        },
+        {
+          "topicId": "SEL-10",
+          "topicName": "Handling Shadow DOM & Open/Closed Shadow Roots",
+          "order": 10
+        },
+        {
+          "topicId": "SEL-11",
+          "topicName": "File Uploads, Downloads, and Native Dialogs",
+          "order": 11
+        },
+        {
+          "topicId": "SEL-12",
+          "topicName": "Frames & iFrames Switching and Context Handling",
+          "order": 12
+        },
+        {
+          "topicId": "SEL-13",
+          "topicName": "Multiple Windows & Tabs (Window Handles & New Tab API)",
+          "order": 13
+        },
+        {
+          "topicId": "SEL-14",
+          "topicName": "Alerts, Prompts, and Confirmation Popups Handling",
+          "order": 14
+        },
+        {
+          "topicId": "SEL-15",
+          "topicName": "Relative Locators (above, below, near, toLeftOf)",
+          "order": 15
+        },
+        {
+          "topicId": "SEL-16",
+          "topicName": "Chrome DevTools Protocol (CDP) Integration",
+          "order": 16
+        },
+        {
+          "topicId": "SEL-17",
+          "topicName": "Network Emulation, Interception, and Mocking",
+          "order": 17
+        },
+        {
+          "topicId": "SEL-18",
+          "topicName": "Geo-location, Device Metrics, and Permissions Emulation",
+          "order": 18
+        },
+        {
+          "topicId": "SEL-19",
+          "topicName": "Page Object Model (POM) Design Pattern & Best Practices",
+          "order": 19
+        },
+        {
+          "topicId": "SEL-20",
+          "topicName": "Page Factory vs Modern POM Implementations",
+          "order": 20
+        },
+        {
+          "topicId": "SEL-21",
+          "topicName": "Data-Driven & Keyword-Driven Framework Architectures",
+          "order": 21
+        },
+        {
+          "topicId": "SEL-22",
+          "topicName": "TestNG / JUnit Integration, Parallel Execution, and Thread Safety",
+          "order": 22
+        },
+        {
+          "topicId": "SEL-23",
+          "topicName": "Logging, Extent Reports, and Allure Reporting Integration",
+          "order": 23
+        },
+        {
+          "topicId": "SEL-24",
+          "topicName": "Selenium Grid Architecture (Hub-Node vs Distributed Mode)",
+          "order": 24
+        },
+        {
+          "topicId": "SEL-25",
+          "topicName": "Dockerizing Selenium Grid & Scaling Containers",
+          "order": 25
+        },
+        {
+          "topicId": "SEL-26",
+          "topicName": "Cloud Grid Integration (Sauce Labs, BrowserStack, LambdaTest)",
+          "order": 26
+        },
+        {
+          "topicId": "SEL-27",
+          "topicName": "CI/CD Pipeline Integration (Jenkins, GitLab CI, GitHub Actions)",
+          "order": 27
+        },
+        {
+          "topicId": "SEL-28",
+          "topicName": "Debugging Flaky Tests & Root Cause Analysis",
+          "order": 28
+        },
+        {
+          "topicId": "SEL-29",
+          "topicName": "Capturing Screenshots, Page Source, and Console Logs on Failure",
+          "order": 29
+        },
+        {
+          "topicId": "SEL-30",
+          "topicName": "Performance Metrics & Web Vitals Monitoring via Selenium",
+          "order": 30
+        }
+      ]
+    },
+    {
+      "moduleId": "cypress",
+      "moduleName": "Cypress",
+      "order": 87,
+      "description": "Master Cypress from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CYP-01",
+          "topicName": "Architecture and Core Concepts (Chainer, Node vs Browser)",
+          "order": 1
+        },
+        {
+          "topicId": "CYP-02",
+          "topicName": "Installation, Configuration, and cypress.config.js",
+          "order": 2
+        },
+        {
+          "topicId": "CYP-03",
+          "topicName": "Test Structure, Hooks (before, beforeEach), and Suite Organization",
+          "order": 3
+        },
+        {
+          "topicId": "CYP-04",
+          "topicName": "Best Practices for Element Selection (data-cy, data-testid)",
+          "order": 4
+        },
+        {
+          "topicId": "CYP-05",
+          "topicName": "Traversing the DOM and Assertions (Chai, expect, should)",
+          "order": 5
+        },
+        {
+          "topicId": "CYP-06",
+          "topicName": "Understanding the Cypress Command Queue and Closures",
+          "order": 6
+        },
+        {
+          "topicId": "CYP-07",
+          "topicName": "Managing Asynchronous Code and Avoiding Anti-Patterns",
+          "order": 7
+        },
+        {
+          "topicId": "CYP-08",
+          "topicName": "Stubbing and Spying with cy.intercept()",
+          "order": 8
+        },
+        {
+          "topicId": "CYP-09",
+          "topicName": "Mocking Network Requests and Waiting for Aliases",
+          "order": 9
+        },
+        {
+          "topicId": "CYP-10",
+          "topicName": "Making Real API Requests with cy.request()",
+          "order": 10
+        },
+        {
+          "topicId": "CYP-11",
+          "topicName": "Custom Commands and TypeScript Integration",
+          "order": 11
+        },
+        {
+          "topicId": "CYP-12",
+          "topicName": "Handling Iframes, Alerts, and Multiple Windows/Tabs",
+          "order": 12
+        },
+        {
+          "topicId": "CYP-13",
+          "topicName": "File Uploads, Downloads, and Native Events",
+          "order": 13
+        },
+        {
+          "topicId": "CYP-14",
+          "topicName": "Managing Test Data with Fixtures and Environment Variables",
+          "order": 14
+        },
+        {
+          "topicId": "CYP-15",
+          "topicName": "Session Management and Fast UI Login via cy.session()",
+          "order": 15
+        },
+        {
+          "topicId": "CYP-16",
+          "topicName": "Using Node.js Tasks with cy.task() for DB and File Operations",
+          "order": 16
+        },
+        {
+          "topicId": "CYP-17",
+          "topicName": "Continuous Integration Setup (GitHub Actions, GitLab CI, Parallelization)",
+          "order": 17
+        },
+        {
+          "topicId": "CYP-18",
+          "topicName": "Flaky Test Identification, Retries, and Performance Optimization",
+          "order": 18
+        },
+        {
+          "topicId": "CYP-19",
+          "topicName": "Cypress Component Testing (React, Vue, Angular)",
+          "order": 19
+        }
+      ]
+    },
+    {
+      "moduleId": "playwright",
+      "moduleName": "Playwright",
+      "order": 88,
+      "description": "Master Playwright from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "PW101",
+          "topicName": "Playwright Architecture vs Selenium and Cypress",
+          "order": 1
+        },
+        {
+          "topicId": "PW102",
+          "topicName": "Browser Contexts and Isolation",
+          "order": 2
+        },
+        {
+          "topicId": "PW103",
+          "topicName": "Locators and Auto-Waiting Mechanism",
+          "order": 3
+        },
+        {
+          "topicId": "PW104",
+          "topicName": "Assertions and Web-First Assertions",
+          "order": 4
+        },
+        {
+          "topicId": "PW201",
+          "topicName": "Handling Multiple Pages, Tabs, and Popups",
+          "order": 5
+        },
+        {
+          "topicId": "PW202",
+          "topicName": "Frames and Iframes Interaction",
+          "order": 6
+        },
+        {
+          "topicId": "PW203",
+          "topicName": "Dialogs, Alerts, and File Uploads/Downloads",
+          "order": 7
+        },
+        {
+          "topicId": "PW204",
+          "topicName": "Keyboard, Mouse, and Touch Gestures",
+          "order": 8
+        },
+        {
+          "topicId": "PW301",
+          "topicName": "Network Interception and Request/Response Mocking",
+          "order": 9
+        },
+        {
+          "topicId": "PW302",
+          "topicName": "Route Fulfillment and API Request Testing",
+          "order": 10
+        },
+        {
+          "topicId": "PW303",
+          "topicName": "Handling Authentication and State Re-use",
+          "order": 11
+        },
+        {
+          "topicId": "PW401",
+          "topicName": "Visual Comparisons and Snapshot Testing",
+          "order": 12
+        },
+        {
+          "topicId": "PW402",
+          "topicName": "Tracing, Videos, and Screenshots Configuration",
+          "order": 13
+        },
+        {
+          "topicId": "PW403",
+          "topicName": "Shadow DOM and Complex Selector Strategies",
+          "order": 14
+        },
+        {
+          "topicId": "PW501",
+          "topicName": "Playwright Test Runner Configuration and Projects",
+          "order": 15
+        },
+        {
+          "topicId": "PW502",
+          "topicName": "Parallel Execution, Sharding, and Reporters",
+          "order": 16
+        },
+        {
+          "topicId": "PW503",
+          "topicName": "CI/CD Integration (GitHub Actions, Docker, Cloud Providers)",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "moduleId": "junit",
+      "moduleName": "JUnit",
+      "order": 89,
+      "description": "Master JUnit from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JNT-101",
+          "topicName": "Architecture and Modular Design of JUnit 5 (Jupiter, Platform, Vintage)",
+          "order": 1
+        },
+        {
+          "topicId": "JNT-102",
+          "topicName": "Annotations Lifecycle (@Test, @BeforeEach, @AfterEach, @BeforeAll, @AfterAll)",
+          "order": 2
+        },
+        {
+          "topicId": "JNT-103",
+          "topicName": "Assertions and Soft Assertions (Assertions class, assertAll)",
+          "order": 3
+        },
+        {
+          "topicId": "JNT-104",
+          "topicName": "Exception Testing (assertThrows, assertDoesNotThrow)",
+          "order": 4
+        },
+        {
+          "topicId": "JNT-105",
+          "topicName": "Test Discovery, Execution, and Console Launcher",
+          "order": 5
+        },
+        {
+          "topicId": "JNT-201",
+          "topicName": "Parameterized Tests (@ValueSource, @CsvSource, @MethodSource, @ArgumentsProvider)",
+          "order": 6
+        },
+        {
+          "topicId": "JNT-202",
+          "topicName": "Dynamic Tests (Factory method pattern with DynamicTest)",
+          "order": 7
+        },
+        {
+          "topicId": "JNT-203",
+          "topicName": "Nested Tests and Hierarchical Test Structures (@Nested)",
+          "order": 8
+        },
+        {
+          "topicId": "JNT-204",
+          "topicName": "Test Repetition and Timeout Management (@RepeatedTest, @Timeout)",
+          "order": 9
+        },
+        {
+          "topicId": "JNT-205",
+          "topicName": "Conditional Test Execution (OS, JRE, Environment Variables, System Properties)",
+          "order": 10
+        },
+        {
+          "topicId": "JNT-301",
+          "topicName": "Extension Model Overview vs JUnit 4 Rules/Runners",
+          "order": 11
+        },
+        {
+          "topicId": "JNT-302",
+          "topicName": "Lifecycle Callbacks (BeforeAllCallback, BeforeEachCallback, etc.)",
+          "order": 12
+        },
+        {
+          "topicId": "JNT-303",
+          "topicName": "Parameter Resolution (ParameterResolver API)",
+          "order": 13
+        },
+        {
+          "topicId": "JNT-304",
+          "topicName": "Execution Condition (ExecutionCondition API for Custom Tagging/Disabling)",
+          "order": 14
+        },
+        {
+          "topicId": "JNT-305",
+          "topicName": "Exception Handling Extensions (TestExecutionExceptionHandler)",
+          "order": 15
+        },
+        {
+          "topicId": "JNT-401",
+          "topicName": "Spring TestContext Framework Integration (@SpringBootTest, @WebMvcTest)",
+          "order": 16
+        },
+        {
+          "topicId": "JNT-402",
+          "topicName": "Mocking Framework Integration (MockitoExtension, Static Mocking)",
+          "order": 17
+        },
+        {
+          "topicId": "JNT-403",
+          "topicName": "Database Integration Testing (Testcontainers, @Sql, Transaction Management)",
+          "order": 18
+        },
+        {
+          "topicId": "JNT-404",
+          "topicName": "Parallel Test Execution (Configuration, Thread Safety, Resource Locking)",
+          "order": 19
+        },
+        {
+          "topicId": "JNT-501",
+          "topicName": "Build Tool Integration (Maven Surefire/Failsafe, Gradle Test Engine)",
+          "order": 20
+        },
+        {
+          "topicId": "JNT-502",
+          "topicName": "Test Coverage and Code Quality (JaCoCo, SonarQube integration)",
+          "order": 21
+        },
+        {
+          "topicId": "JNT-503",
+          "topicName": "Debugging Flaky Tests and Identifying Concurrency Bottlenecks",
+          "order": 22
+        },
+        {
+          "topicId": "JNT-504",
+          "topicName": "Custom Test Listeners and Reporting (TestExecutionListener)",
+          "order": 23
+        }
+      ]
+    },
+    {
+      "moduleId": "mockito",
+      "moduleName": "Mockito",
+      "order": 90,
+      "description": "Master Mockito from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "MOCK-01",
+          "topicName": "Introduction to Mocking and Mockito",
+          "order": 1
+        },
+        {
+          "topicId": "MOCK-02",
+          "topicName": "Stubbing Methods with when() and thenReturn()",
+          "order": 2
+        },
+        {
+          "topicId": "MOCK-03",
+          "topicName": "Basic Verification using verify()",
+          "order": 3
+        },
+        {
+          "topicId": "MOCK-04",
+          "topicName": "Argument Matchers (any(), eq(), etc.)",
+          "order": 4
+        },
+        {
+          "topicId": "MOCK-05",
+          "topicName": "Exception Stubbing and thenThrow()",
+          "order": 5
+        },
+        {
+          "topicId": "MOCK-06",
+          "topicName": "Verification Modes (times, never, atLeast, atMost)",
+          "order": 6
+        },
+        {
+          "topicId": "MOCK-07",
+          "topicName": "Spies and Partial Mocking",
+          "order": 7
+        },
+        {
+          "topicId": "MOCK-08",
+          "topicName": "Capturing Arguments with ArgumentCaptor",
+          "order": 8
+        },
+        {
+          "topicId": "MOCK-09",
+          "topicName": "Mocking Void Methods",
+          "order": 9
+        },
+        {
+          "topicId": "MOCK-10",
+          "topicName": "Consecutive Calls and thenAnswer()",
+          "order": 10
+        },
+        {
+          "topicId": "MOCK-11",
+          "topicName": "InOrder Verification",
+          "order": 11
+        },
+        {
+          "topicId": "MOCK-12",
+          "topicName": "BDDMockito (Given-When-Then Syntax)",
+          "order": 12
+        },
+        {
+          "topicId": "MOCK-13",
+          "topicName": "Mockito JUnit 5 Extension and Annotations (@Mock, @InjectMocks)",
+          "order": 13
+        },
+        {
+          "topicId": "MOCK-14",
+          "topicName": "Mocking Static Methods",
+          "order": 14
+        },
+        {
+          "topicId": "MOCK-15",
+          "topicName": "Mocking Final Classes and Methods",
+          "order": 15
+        },
+        {
+          "topicId": "MOCK-16",
+          "topicName": "Mocking Constructors",
+          "order": 16
+        },
+        {
+          "topicId": "MOCK-17",
+          "topicName": "StrictMode and Unnecessary Stubbing Exceptions",
+          "order": 17
+        },
+        {
+          "topicId": "MOCK-18",
+          "topicName": "Memory Management and Clear Invocations",
+          "order": 18
+        },
+        {
+          "topicId": "MOCK-19",
+          "topicName": "Anti-Patterns in Mocking (Over-mocking, Fragile Tests)",
+          "order": 19
+        },
+        {
+          "topicId": "MOCK-20",
+          "topicName": "Performance Tuning and Inline Byte Buddy MockMaker",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "moduleId": "postman_api_testing",
+      "moduleName": "Postman (API Testing)",
+      "order": 91,
+      "description": "Master Postman (API Testing) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "POST-01",
+          "topicName": "Postman Architecture and UI Components",
+          "order": 1
+        },
+        {
+          "topicId": "POST-02",
+          "topicName": "Request Building: Methods, Headers, and Body Payloads",
+          "order": 2
+        },
+        {
+          "topicId": "POST-03",
+          "topicName": "Collections, Folders, and Request Organization",
+          "order": 3
+        },
+        {
+          "topicId": "POST-04",
+          "topicName": "Workspaces: Personal, Team, and Private",
+          "order": 4
+        },
+        {
+          "topicId": "POST-05",
+          "topicName": "Variable Scopes: Global, Collection, Environment, Data, and Local",
+          "order": 5
+        },
+        {
+          "topicId": "POST-06",
+          "topicName": "Environment Management and Secret Handling",
+          "order": 6
+        },
+        {
+          "topicId": "POST-07",
+          "topicName": "Pre-request Scripts and Dynamic Data Generation",
+          "order": 7
+        },
+        {
+          "topicId": "POST-08",
+          "topicName": "Test Scripts and Chai Assertion Library",
+          "order": 8
+        },
+        {
+          "topicId": "POST-09",
+          "topicName": "pm Object API and Cryptographic Utilities",
+          "order": 9
+        },
+        {
+          "topicId": "POST-10",
+          "topicName": "Workflow Control: pm.setNextRequest()",
+          "order": 10
+        },
+        {
+          "topicId": "POST-11",
+          "topicName": "API Mock Servers and Contract Testing",
+          "order": 11
+        },
+        {
+          "topicId": "POST-12",
+          "topicName": "API Documentation Generation and Publishing",
+          "order": 12
+        },
+        {
+          "topicId": "POST-13",
+          "topicName": "GraphQL and WebSocket Request Handling",
+          "order": 13
+        },
+        {
+          "topicId": "POST-14",
+          "topicName": "Newman CLI: Execution and Reporters",
+          "order": 14
+        },
+        {
+          "topicId": "POST-15",
+          "topicName": "CI/CD Pipeline Integration (Jenkins, GitHub Actions, GitLab CI)",
+          "order": 15
+        },
+        {
+          "topicId": "POST-16",
+          "topicName": "Postman Monitors and Scheduled Runs",
+          "order": 16
+        },
+        {
+          "topicId": "POST-17",
+          "topicName": "API Governance: Linting and Spectral Rules",
+          "order": 17
+        },
+        {
+          "topicId": "POST-18",
+          "topicName": "Security Testing and OAuth 2.0 / API Key Management",
+          "order": 18
+        },
+        {
+          "topicId": "POST-19",
+          "topicName": "Version Control, Git Integration, and Forking",
+          "order": 19
+        },
+        {
+          "topicId": "POST-20",
+          "topicName": "Enterprise RBAC, Private Network Agents, and Performance Testing",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "moduleId": "performance_testing",
+      "moduleName": "Performance Testing",
+      "order": 92,
+      "description": "Master Performance Testing from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "PT-01",
+          "topicName": "Introduction to Performance Testing and Types",
+          "order": 1
+        },
+        {
+          "topicId": "PT-02",
+          "topicName": "Non-Functional Requirements (NFRs) and SLAs",
+          "order": 2
+        },
+        {
+          "topicId": "PT-03",
+          "topicName": "Performance Testing Life Cycle (PTLC)",
+          "order": 3
+        },
+        {
+          "topicId": "PT-04",
+          "topicName": "Key Performance Indicators (KPIs) and Metrics",
+          "order": 4
+        },
+        {
+          "topicId": "PT-05",
+          "topicName": "Understanding Distributed Systems and Network Topologies",
+          "order": 5
+        },
+        {
+          "topicId": "PT-06",
+          "topicName": "Client-Server Architecture and Web Protocols (HTTP/HTTPS, HTTP/2, gRPC, WebSockets)",
+          "order": 6
+        },
+        {
+          "topicId": "PT-07",
+          "topicName": "Load Balancers, Reverse Proxies, and CDN Behavior",
+          "order": 7
+        },
+        {
+          "topicId": "PT-08",
+          "topicName": "Database Performance Fundamentals (Indexing, Connection Pooling, Query Plans)",
+          "order": 8
+        },
+        {
+          "topicId": "PT-09",
+          "topicName": "Apache JMeter Core Concepts and Advanced Configuration",
+          "order": 9
+        },
+        {
+          "topicId": "PT-10",
+          "topicName": "Locust: Python-Based Load Testing and Distributed Swarm",
+          "order": 10
+        },
+        {
+          "topicId": "PT-11",
+          "topicName": "k6 by Grafana: Modern Developer-Centric Load Testing",
+          "order": 11
+        },
+        {
+          "topicId": "PT-12",
+          "topicName": "Protocol-Level Scripting, Correlation, and Parameterization",
+          "order": 12
+        },
+        {
+          "topicId": "PT-13",
+          "topicName": "User Journey Mapping and Think Time / Pacing Calculations",
+          "order": 13
+        },
+        {
+          "topicId": "PT-14",
+          "topicName": "Little's Law and Throughput vs. Concurrency Mathematics",
+          "order": 14
+        },
+        {
+          "topicId": "PT-15",
+          "topicName": "Designing Load, Stress, Endurance, and Spike Test Scenarios",
+          "order": 15
+        },
+        {
+          "topicId": "PT-16",
+          "topicName": "OS-Level Performance Metrics (CPU, Memory, Disk I/O, Network)",
+          "order": 16
+        },
+        {
+          "topicId": "PT-17",
+          "topicName": "APM Tools (Datadog, New Relic, Dynatrace) Integration and Tracing",
+          "order": 17
+        },
+        {
+          "topicId": "PT-18",
+          "topicName": "Containerization and Orchestration Performance (Docker and Kubernetes)",
+          "order": 18
+        },
+        {
+          "topicId": "PT-19",
+          "topicName": "Thread Dumps and Heap Dumps Analysis (JVM Performance)",
+          "order": 19
+        },
+        {
+          "topicId": "PT-20",
+          "topicName": "Database Bottleneck Analysis (Locking, Blocking, Deadlocks, Slow Queries)",
+          "order": 20
+        },
+        {
+          "topicId": "PT-21",
+          "topicName": "Network Latency, Packet Loss, and Bandwidth Saturation",
+          "order": 21
+        },
+        {
+          "topicId": "PT-22",
+          "topicName": "Chaos Engineering and Resilience Testing",
+          "order": 22
+        },
+        {
+          "topicId": "PT-23",
+          "topicName": "Testing Asynchronous Architectures (Kafka, RabbitMQ, Event-Driven Systems)",
+          "order": 23
+        },
+        {
+          "topicId": "PT-24",
+          "topicName": "Frontend Performance Testing (Core Web Vitals, Lighthouse, RUM)",
+          "order": 24
+        },
+        {
+          "topicId": "PT-25",
+          "topicName": "Shift-Left Performance Testing and CI/CD Pipeline Integration",
+          "order": 25
+        },
+        {
+          "topicId": "PT-26",
+          "topicName": "Automated Performance Regression and SLA Gatekeeper Checks",
+          "order": 26
+        },
+        {
+          "topicId": "PT-27",
+          "topicName": "Capacity Planning and Scalability Forecasting",
+          "order": 27
+        },
+        {
+          "topicId": "PT-28",
+          "topicName": "Production Profiling, Synthetic Monitoring, and Real User Monitoring (RUM)",
+          "order": 28
+        }
+      ]
+    },
+    {
+      "moduleId": "jmeter",
+      "moduleName": "JMeter",
+      "order": 93,
+      "description": "Master JMeter from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "JM-01",
+          "topicName": "JMeter Architecture and Execution Model",
+          "order": 1
+        },
+        {
+          "topicId": "JM-02",
+          "topicName": "Thread Groups and Execution Order",
+          "order": 2
+        },
+        {
+          "topicId": "JM-03",
+          "topicName": "Test Plan Structure and Scoping Rules",
+          "order": 3
+        },
+        {
+          "topicId": "JM-04",
+          "topicName": "HTTP Request Sampler and Configuration Elements",
+          "order": 4
+        },
+        {
+          "topicId": "JM-05",
+          "topicName": "Recording Tests with HTTP(S) Test Script Recorder and Proxies",
+          "order": 5
+        },
+        {
+          "topicId": "JM-06",
+          "topicName": "Handling Dynamic Data with Regular Expression Extractor",
+          "order": 6
+        },
+        {
+          "topicId": "JM-07",
+          "topicName": "JSON Extractor and XPath Extractor",
+          "order": 7
+        },
+        {
+          "topicId": "JM-08",
+          "topicName": "Correlation and Session Management",
+          "order": 8
+        },
+        {
+          "topicId": "JM-09",
+          "topicName": "Assertions (Response, JSON, Duration, Size)",
+          "order": 9
+        },
+        {
+          "topicId": "JM-10",
+          "topicName": "Logic Controllers (If, Loop, Transaction, While, Switch)",
+          "order": 10
+        },
+        {
+          "topicId": "JM-11",
+          "topicName": "JSR223 Samplers and PostProcessors with Groovy",
+          "order": 11
+        },
+        {
+          "topicId": "JM-12",
+          "topicName": "CSV Data Set Config and Parameterization Strategies",
+          "order": 12
+        },
+        {
+          "topicId": "JM-13",
+          "topicName": "Listeners and Resource Utilization in GUI vs CLI Mode",
+          "order": 13
+        },
+        {
+          "topicId": "JM-14",
+          "topicName": "Backend Listener and Integration with InfluxDB/Grafana",
+          "order": 14
+        },
+        {
+          "topicId": "JM-15",
+          "topicName": "Distributed Testing (Master-Slave/Worker Architecture)",
+          "order": 15
+        },
+        {
+          "topicId": "JM-16",
+          "topicName": "Cloud-Native Execution and Kubernetes/Docker scaling",
+          "order": 16
+        },
+        {
+          "topicId": "JM-17",
+          "topicName": "Headless CLI Execution and CI/CD Integration (Jenkins/GitLab)",
+          "order": 17
+        },
+        {
+          "topicId": "JM-18",
+          "topicName": "HTML Report Generation and Trend Analysis",
+          "order": 18
+        },
+        {
+          "topicId": "JM-19",
+          "topicName": "Testing WebSockets and SSE (Server-Sent Events)",
+          "order": 19
+        },
+        {
+          "topicId": "JM-20",
+          "topicName": "JDBC Request Sampler and Database Load Testing",
+          "order": 20
+        },
+        {
+          "topicId": "JM-21",
+          "topicName": "Developing Custom Java Samplers and Plugins",
+          "order": 21
+        },
+        {
+          "topicId": "JM-22",
+          "topicName": "JMeter Performance Tuning and JVM Garbage Collection",
+          "order": 22
+        },
+        {
+          "topicId": "JM-23",
+          "topicName": "Troubleshooting High CPU, Memory Leaks, and Bottlenecks",
+          "order": 23
+        }
+      ]
+    },
+    {
+      "moduleId": "communication",
+      "moduleName": "Communication",
+      "order": 94,
+      "description": "Master Communication from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "COM-01",
+          "topicName": "Active Listening and Empathy",
+          "order": 1
+        },
+        {
+          "topicId": "COM-02",
+          "topicName": "Clarity and Conciseness in Messaging",
+          "order": 2
+        },
+        {
+          "topicId": "COM-03",
+          "topicName": "Written vs. Verbal Communication Protocols",
+          "order": 3
+        },
+        {
+          "topicId": "COM-04",
+          "topicName": "Technical Translation for Non-Technical Stakeholders",
+          "order": 4
+        },
+        {
+          "topicId": "COM-05",
+          "topicName": "Constructive Feedback and Code Review Etiquette",
+          "order": 5
+        },
+        {
+          "topicId": "COM-06",
+          "topicName": "Cross-Functional Collaboration and Alignment",
+          "order": 6
+        },
+        {
+          "topicId": "COM-07",
+          "topicName": "Crisis Communication and Incident Management",
+          "order": 7
+        },
+        {
+          "topicId": "COM-08",
+          "topicName": "Negotiation and Managing Technical Debt Conflicts",
+          "order": 8
+        },
+        {
+          "topicId": "COM-09",
+          "topicName": "Architectural Decision Records (ADRs) and Documentation Culture",
+          "order": 9
+        },
+        {
+          "topicId": "COM-10",
+          "topicName": "Executive Presence and Boardroom Communication",
+          "order": 10
+        }
+      ]
+    },
+    {
       "moduleId": "general",
       "moduleName": "General",
-      "order": 68,
+      "order": 95,
       "description": "Essential General Concepts & Q&A",
       "topics": [
         {
@@ -12602,7 +16093,7 @@
     {
       "moduleId": "plsql",
       "moduleName": "plsql",
-      "order": 69,
+      "order": 96,
       "description": "Essential plsql Concepts & Q&A",
       "topics": [
         {
@@ -12700,7 +16191,7 @@
     {
       "moduleId": "springboot",
       "moduleName": "spring boot",
-      "order": 70,
+      "order": 97,
       "description": "Essential spring boot Concepts & Q&A",
       "topics": [
         {

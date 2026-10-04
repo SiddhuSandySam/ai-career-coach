@@ -1,7 +1,91 @@
 {
-  "lastSyncedAt": "2026-09-27T03:32:48.689Z",
-  "totalSkills": 70,
+  "lastSyncedAt": "2026-10-04T04:12:11.717Z",
+  "totalSkills": 97,
   "skills": [
+    {
+      "id": "agile_methodologies",
+      "name": "Agile Methodologies",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Agile Manifesto and Principles",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Scrum Framework Core Roles, Events, and Artifacts",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Kanban Method Principles and Flow Metrics",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Extreme Programming (XP) Engineering Practices",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain User Story Mapping and Writing Effective Acceptance Criteria",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "android_java",
+      "name": "Android (Java)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Memory Management & Garbage Collection",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Generics, Wildcards & Type Erasure",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Concurrency, Threads & ExecutorService",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Collections Framework & Concurrent Collections",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Reflection, Annotations & Annotation Processing",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "android_kotlin",
+      "name": "Android (Kotlin)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Null Safety, Smart Casts, and Type System",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Coroutines, Dispatchers, and Structured Concurrency",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Flows, StateFlow, SharedFlow, and Cold vs Hot Streams",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Higher-Order Functions, Lambdas, and Inline/Noinline/Crossinline",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Generics, Variance (In, Out, Invariant), and Type Erasure",
+          "level": "Easy"
+        }
+      ]
+    },
     {
       "id": "angular",
       "name": "Angular",
@@ -87,6 +171,34 @@
       ]
     },
     {
+      "id": "automation_testing",
+      "name": "Automation Testing",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Automation Testing and Test Pyramid",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Test Automation Planning, ROI, and Tool Selection",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Programming Basics (Java/Python/JavaScript) for Testers",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Object-Oriented Programming (OOPs) Principles in Automation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Selenium WebDriver Architecture and Locators Strategy",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "aws_amazon_web_services",
       "name": "AWS (Amazon Web Services)",
       "category": "Tutorial",
@@ -143,6 +255,34 @@
       ]
     },
     {
+      "id": "bootstrap",
+      "name": "Bootstrap",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Bootstrap and Grid System",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Containers, Breakpoints, and Responsive Design",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Typography, Colors, and Spacing Utilities",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Flexbox Utilities and Alignment",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain CSS Grid Integration in Bootstrap",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "c",
       "name": "C#",
       "category": "Tutorial",
@@ -194,6 +334,34 @@
         },
         {
           "q": "Explain Jenkins Architecture, Plugins, Shared Libraries, and Scalability",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Active Listening and Empathy",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Clarity and Conciseness in Messaging",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Written vs. Verbal Communication Protocols",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Technical Translation for Non-Technical Stakeholders",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Constructive Feedback and Code Review Etiquette",
           "level": "Easy"
         }
       ]
@@ -278,6 +446,34 @@
         },
         {
           "q": "Explain CSS Positioning Schemes (static, relative, absolute, fixed, sticky)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "cypress",
+      "name": "Cypress",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Architecture and Core Concepts (Chainer, Node vs Browser)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Installation, Configuration, and cypress.config.js",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Test Structure, Hooks (before, beforeEach), and Suite Organization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Best Practices for Element Selection (data-cy, data-testid)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Traversing the DOM and Assertions (Chai, expect, should)",
           "level": "Easy"
         }
       ]
@@ -418,6 +614,34 @@
         },
         {
           "q": "Explain Gradient Descent Variants (SGD, Momentum, Nesterov)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "design_patterns",
+      "name": "Design Patterns",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain SOLID Principles and Design Pattern Foundations",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Classification of Design Patterns: Creational, Structural, Behavioral",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Composition over Inheritance and Interface Segregation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Singleton: Thread Safety, Double-Checked Locking, and Serialization Issues",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Factory Method vs. Abstract Factory",
           "level": "Easy"
         }
       ]
@@ -782,6 +1006,34 @@
       ]
     },
     {
+      "id": "flutter",
+      "name": "Flutter",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Type System, Soundness, and Null Safety",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Asynchronous Programming: Futures, Streams, and async/await",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Isolates, Concurrency, and Event Loop Mechanics",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Generics, Collections, and Functional Operators",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Three Trees: Widget, Element, and RenderObject",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "git",
       "name": "Git",
       "category": "Tutorial",
@@ -978,6 +1230,34 @@
       ]
     },
     {
+      "id": "ios_swift",
+      "name": "iOS (Swift)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Memory Management: ARC, Strong, Weak, and Unowned References",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Value Types vs Reference Types: Structs, Classes, and Copy-on-Write",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Closures: Capture Lists, Retain Cycles, and Escaping vs Non-Escaping",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Protocols, Extensions, and Protocol-Oriented Programming (POP)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Generics, Associated Types, and Type Erasure",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "java",
       "name": "Java",
       "category": "Tutorial",
@@ -1057,6 +1337,34 @@
         },
         {
           "q": "Explain Pipeline Stages, Steps, When Conditions, and Post Actions",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "jmeter",
+      "name": "JMeter",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain JMeter Architecture and Execution Model",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Thread Groups and Execution Order",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Test Plan Structure and Scoping Rules",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain HTTP Request Sampler and Configuration Elements",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Recording Tests with HTTP(S) Test Script Recorder and Proxies",
           "level": "Easy"
         }
       ]
@@ -1198,6 +1506,34 @@
         },
         {
           "q": "Explain Events: Handling common events (click, mouseover, submit) and event delegation.",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "junit",
+      "name": "JUnit",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Architecture and Modular Design of JUnit 5 (Jupiter, Platform, Vintage)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Annotations Lifecycle (@Test, @BeforeEach, @AfterEach, @BeforeAll, @AfterAll)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Assertions and Soft Assertions (Assertions class, assertAll)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Exception Testing (assertThrows, assertDoesNotThrow)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Test Discovery, Execution, and Console Launcher",
           "level": "Easy"
         }
       ]
@@ -1400,6 +1736,34 @@
       ]
     },
     {
+      "id": "manual_testing",
+      "name": "Manual Testing",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Software Development Life Cycle (SDLC) & Testing Life Cycle (STLC)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Seven Principles of Software Testing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Verification vs. Validation & Quality Assurance vs. Quality Control",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Black Box Testing Techniques: Equivalence Partitioning & Boundary Value Analysis",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Decision Table Testing & State Transition Testing",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "microservices",
       "name": "Microservices",
       "category": "Tutorial",
@@ -1451,6 +1815,34 @@
         },
         {
           "q": "Explain B-Tree Internals: Clustered vs. Non-Clustered Indexes",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "mockito",
+      "name": "Mockito",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Mocking and Mockito",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Stubbing Methods with when() and thenReturn()",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Basic Verification using verify()",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Argument Matchers (any(), eq(), etc.)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Exception Stubbing and thenThrow()",
           "level": "Easy"
         }
       ]
@@ -1512,6 +1904,34 @@
       ]
     },
     {
+      "id": "nativescript",
+      "name": "NativeScript",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Architecture and Runtime Mechanics",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Development Environment Setup and CLI",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Project Structure and Configuration Files",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Native UI Components vs Web Views",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Layout Systems (Stack, Grid, Flexbox, Absolute)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "natural_language_processing_nlp",
       "name": "Natural Language Processing (NLP)",
       "category": "Tutorial",
@@ -1544,28 +1964,7 @@
       "name": ".NET",
       "category": "Tutorial",
       "questionCount": 200,
-      "questions": [
-        {
-          "q": "Explain Value Types vs Reference Types & Memory Management",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Generics, Variance (Covariance/Contravariance), and Constraints",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Delegates, Events, Lambdas, and Expression Trees",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain Asynchronous Programming (async/await, Task, ValueTask, SynchronizationContext)",
-          "level": "Easy"
-        },
-        {
-          "q": "Explain LINQ Internals, Deferred Execution, and Expression Translation",
-          "level": "Easy"
-        }
-      ]
+      "questions": []
     },
     {
       "id": "nextjs",
@@ -1680,6 +2079,34 @@
       ]
     },
     {
+      "id": "objectoriented_programming_oop",
+      "name": "Object-Oriented Programming (OOP)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Classes, Objects, and Instance State",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Encapsulation and Information Hiding",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Constructors, Destructors, and Object Lifecycle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Method Overloading vs Method Overriding",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Inheritance and Code Reuse",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "oracle_db",
       "name": "Oracle DB",
       "category": "Tutorial",
@@ -1736,6 +2163,34 @@
       ]
     },
     {
+      "id": "performance_testing",
+      "name": "Performance Testing",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Performance Testing and Types",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Non-Functional Requirements (NFRs) and SLAs",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Performance Testing Life Cycle (PTLC)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Key Performance Indicators (KPIs) and Metrics",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Understanding Distributed Systems and Network Topologies",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "php",
       "name": "PHP",
       "category": "Tutorial",
@@ -1764,6 +2219,34 @@
       ]
     },
     {
+      "id": "playwright",
+      "name": "Playwright",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Playwright Architecture vs Selenium and Cypress",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Browser Contexts and Isolation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Locators and Auto-Waiting Mechanism",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Assertions and Web-First Assertions",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Handling Multiple Pages, Tabs, and Popups",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "postgresql",
       "name": "PostgreSQL",
       "category": "Tutorial",
@@ -1787,6 +2270,34 @@
         },
         {
           "q": "Explain Transaction Isolation Levels and Anomalies",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "postman_api_testing",
+      "name": "Postman (API Testing)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Postman Architecture and UI Components",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Request Building: Methods, Headers, and Body Payloads",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Collections, Folders, and Request Organization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Workspaces: Personal, Team, and Private",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Variable Scopes: Global, Collection, Environment, Data, and Local",
           "level": "Easy"
         }
       ]
@@ -1843,6 +2354,34 @@
         },
         {
           "q": "Explain Loss Functions and Optimizers (AdamW, SGD, Schedulers)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "react_native",
+      "name": "React Native",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain React Native Architecture Overview: Old vs. New Architecture (Fabric, TurboModules, JSI)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Metro Bundler, Babel, and JavaScript Execution Contexts (Hermes vs. JSC)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Thread Management: JS Thread, UI (Main) Thread, Shadow Thread, and Background Tasks",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Bridge Communication Mechanics and Serialization Bottlenecks",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Core Components Deep Dive: View, Text, Image, ScrollView, and FlatList Optimization",
           "level": "Easy"
         }
       ]
@@ -2072,6 +2611,90 @@
       ]
     },
     {
+      "id": "scrum",
+      "name": "Scrum",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Scrum Theory and Empirical Process Control",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Three Pillars of Scrum",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Scrum Values and Cultural Mindset",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Product Owner: Accountability and Backlog Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Scrum Master: Servant Leadership and Impediment Removal",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "selenium",
+      "name": "Selenium",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Selenium WebDriver Architecture & W3C Protocol",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Locators Strategy & XPath/CSS Selectors Optimization",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Browser Options, Capabilities, and Profiles",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Headless Browser Execution & Resource Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Implicit vs Explicit vs Fluent Waits",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "solid_principles",
+      "name": "SOLID Principles",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to SOLID and Coupling vs Cohesion",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SRP: Theory, Identification of Responsibilities, and Separation of Concerns",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain SRP: Architectural Impacts, Fat Models, and God Classes",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain OCP: Core Concept and Extension via Polymorphism",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain OCP: Strategy Pattern, Plugin Architectures, and Framework Design",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "spring_boot",
       "name": "Spring Boot",
       "category": "Tutorial",
@@ -2267,6 +2890,90 @@
       ]
     },
     {
+      "id": "swiftui",
+      "name": "SwiftUI",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Declarative Syntax & View Life Cycle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Property Wrappers: State, Binding, and ObservedObject",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Advanced State Management: StateObject, EnvironmentObject, and Environment",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Understanding View Identity and Structural Identity",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Layout System: Proposals, Sizes, and Coordinate Spaces",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "system_design",
+      "name": "System Design",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Scalability & Performance Metrics (Latency, Throughput, Percentiles)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain CAP Theorem & PACELC Theorem",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Consistent Hashing & Virtual Nodes",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Load Balancing Algorithms (Round Robin, Least Connections, IP Hash)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Service Discovery & Registration",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "tailwind_css",
+      "name": "Tailwind CSS",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Utility-First Paradigm vs. Traditional CSS",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Installation, CLI Setup, and PostCSS Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Configuration File (tailwind.config.js) and Content Paths",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Spacing, Sizing, and the Default Design Scale",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Display, Box Sizing, and Positioning Utilities",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "tensorflow",
       "name": "TensorFlow",
       "category": "Tutorial",
@@ -2374,6 +3081,34 @@
         },
         {
           "q": "Explain Component Lifecycle Hooks in Vue 3",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "xamarin",
+      "name": "Xamarin",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Xamarin and .NET MAUI transition path",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Xamarin.Forms vs Xamarin.iOS vs Xamarin.Android",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Application Lifecycle and Startup Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Dependency Service and Platform-Specific Implementation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain XAML Fundamentals and Markup Extensions",
           "level": "Easy"
         }
       ]
