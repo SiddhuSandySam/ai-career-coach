@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_29",
+  "topicName": "ApplicationContext Hierarchy, Classloading Isolation, and Parent-Child Container Dynamics",
+  "order": 29,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"ApplicationContext Hierarchy, Classloading Isolation, and Parent-Child Container Dynamics\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced mechanics of managing nested Spring ApplicationContexts, hierarchical bean visibility, classloader boundaries, and memory leak vectors in multi-module or modular enterprise runtimes.\"}]"
+}

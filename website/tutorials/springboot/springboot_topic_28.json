@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_28",
+  "topicName": "Spring Boot Bean Lifecycle Internals and Custom BeanPostProcessor Interactions",
+  "order": 28,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Spring Boot Bean Lifecycle Internals and Custom BeanPostProcessor Interactions\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Deep dive into the sequence of bean creation, initialization, and destruction phases in Spring's IoC container, specifically focusing on how BeanPostProcessors intercept, wrap, and modify bean instances under the hood.\"}]"
+}

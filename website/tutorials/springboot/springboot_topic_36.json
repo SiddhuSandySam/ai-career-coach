@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_36",
+  "topicName": "Spring Boot Integration Testing, TestContainers Lifecycle, and Context Caching Strategies",
+  "order": 36,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Spring Boot Integration Testing, TestContainers Lifecycle, and Context Caching Strategies\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced mastery of Spring's ApplicationContext caching mechanics, TestContainers lifecycle management via JUnit 5 extensions, and memory-performance trade-offs in high-concurrency enterprise test suites.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_23",
+  "topicName": "Externalized Configuration & Profile-Based Environments",
+  "order": 23,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Externalized Configuration & Profile-Based Environments\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The practice of separating application configuration from compiled code to enable seamless deployments across diverse environments like development, staging, and production using Spring Boot profiles and property sources.\"}]"
+}

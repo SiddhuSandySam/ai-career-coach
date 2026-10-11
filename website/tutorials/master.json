@@ -15983,9 +15983,1596 @@
       ]
     },
     {
+      "moduleId": "teamwork",
+      "moduleName": "Teamwork",
+      "order": 95,
+      "description": "Master Teamwork from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "TW-FUND-01",
+          "topicName": "Communication Styles and Active Listening in Technical Teams",
+          "order": 1
+        },
+        {
+          "topicId": "TW-FUND-02",
+          "topicName": "Psychological Safety and Its Impact on Engineering Velocity",
+          "order": 2
+        },
+        {
+          "topicId": "TW-FUND-03",
+          "topicName": "Roles and Responsibilities (RACI Matrix in Software Engineering)",
+          "order": 3
+        },
+        {
+          "topicId": "TW-COLL-01",
+          "topicName": "Effective Code Reviews and Constructive Feedback Culture",
+          "order": 4
+        },
+        {
+          "topicId": "TW-COLL-02",
+          "topicName": "Cross-Functional Collaboration (Product, Design, QA, and Ops)",
+          "order": 5
+        },
+        {
+          "topicId": "TW-COLL-03",
+          "topicName": "Pair Programming and Mob Programming Best Practices",
+          "order": 6
+        },
+        {
+          "topicId": "TW-CONF-01",
+          "topicName": "Resolving Technical Disagreements and Architecture Debates",
+          "order": 7
+        },
+        {
+          "topicId": "TW-CONF-02",
+          "topicName": "Handling Personality Clashes and High-Stress Situations",
+          "order": 8
+        },
+        {
+          "topicId": "TW-CONF-03",
+          "topicName": "Blameless Post-Mortems and Root Cause Analysis",
+          "order": 9
+        },
+        {
+          "topicId": "TW-REMO-01",
+          "topicName": "Asynchronous Communication Protocols and Documentation-First Culture",
+          "order": 10
+        },
+        {
+          "topicId": "TW-REMO-02",
+          "topicName": "Bridging Time Zones and Maintaining Global Team Cohesion",
+          "order": 11
+        },
+        {
+          "topicId": "TW-LEAD-01",
+          "topicName": "Mentoring Junior Engineers and Growing Technical Talent",
+          "order": 12
+        },
+        {
+          "topicId": "TW-LEAD-02",
+          "topicName": "Influencing Without Authority as a Senior Architect",
+          "order": 13
+        },
+        {
+          "topicId": "TW-PROD-01",
+          "topicName": "Collaborative Incident Response and On-Call Handover Rituals",
+          "order": 14
+        },
+        {
+          "topicId": "TW-PROD-02",
+          "topicName": "Managing Technical Debt as a Team and Aligning with Business Goals",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "moduleId": "problem_solving",
+      "moduleName": "Problem Solving",
+      "order": 96,
+      "description": "Master Problem Solving from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "PS-101",
+          "topicName": "Decomposition and Pattern Recognition",
+          "order": 1
+        },
+        {
+          "topicId": "PS-102",
+          "topicName": "Algorithmic Thinking and Pseudocode",
+          "order": 2
+        },
+        {
+          "topicId": "PS-103",
+          "topicName": "Asymptotic Analysis and Big-O Notation",
+          "order": 3
+        },
+        {
+          "topicId": "PS-201",
+          "topicName": "Linear Data Structures: Arrays, Strings, and Linked Lists",
+          "order": 4
+        },
+        {
+          "topicId": "PS-202",
+          "topicName": "Hierarchical Data Structures: Trees and Tries",
+          "order": 5
+        },
+        {
+          "topicId": "PS-203",
+          "topicName": "Graph Theory and Traversal Strategies",
+          "order": 6
+        },
+        {
+          "topicId": "PS-204",
+          "topicName": "Hash Tables, Heaps, and Disjoint Set Unions",
+          "order": 7
+        },
+        {
+          "topicId": "PS-301",
+          "topicName": "Two Pointers and Sliding Window Techniques",
+          "order": 8
+        },
+        {
+          "topicId": "PS-302",
+          "topicName": "Divide and Conquer with Binary Search Variants",
+          "order": 9
+        },
+        {
+          "topicId": "PS-303",
+          "topicName": "Greedy Algorithms and Proof Strategies",
+          "order": 10
+        },
+        {
+          "topicId": "PS-304",
+          "topicName": "Dynamic Programming: Memoization and Tabulation",
+          "order": 11
+        },
+        {
+          "topicId": "PS-305",
+          "topicName": "Backtracking and Combinatorial Search",
+          "order": 12
+        },
+        {
+          "topicId": "PS-401",
+          "topicName": "Advanced Graph Algorithms: Shortest Paths and Network Flow",
+          "order": 13
+        },
+        {
+          "topicId": "PS-402",
+          "topicName": "String Matching and Manipulation Algorithms",
+          "order": 14
+        },
+        {
+          "topicId": "PS-403",
+          "topicName": "Bit Manipulation and Mathematical Algorithms",
+          "order": 15
+        },
+        {
+          "topicId": "PS-501",
+          "topicName": "Concurrency, Thread Safety, and Lock-free Problem Solving",
+          "order": 16
+        },
+        {
+          "topicId": "PS-502",
+          "topicName": "Memory Management, Garbage Collection, and Cache Optimization",
+          "order": 17
+        },
+        {
+          "topicId": "PS-503",
+          "topicName": "Debugging Distributed Systems and Latency Troubleshooting",
+          "order": 18
+        },
+        {
+          "topicId": "PS-504",
+          "topicName": "Resilience Patterns: Circuit Breakers, Rate Limiting, and Backpressure",
+          "order": 19
+        }
+      ]
+    },
+    {
+      "moduleId": "leadership",
+      "moduleName": "Leadership",
+      "order": 97,
+      "description": "Master Leadership from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "LEAD-01",
+          "topicName": "Introduction to Leadership vs. Management",
+          "order": 1
+        },
+        {
+          "topicId": "LEAD-02",
+          "topicName": "Core Leadership Styles and When to Apply Them",
+          "order": 2
+        },
+        {
+          "topicId": "LEAD-03",
+          "topicName": "Emotional Intelligence (EQ) in the Workplace",
+          "order": 3
+        },
+        {
+          "topicId": "LEAD-04",
+          "topicName": "Effective Communication and Active Listening",
+          "order": 4
+        },
+        {
+          "topicId": "LEAD-05",
+          "topicName": "Building and Fostering Psychological Safety",
+          "order": 5
+        },
+        {
+          "topicId": "LEAD-06",
+          "topicName": "Delegation and Empowerment Frameworks",
+          "order": 6
+        },
+        {
+          "topicId": "LEAD-07",
+          "topicName": "Performance Management and Constructive Feedback",
+          "order": 7
+        },
+        {
+          "topicId": "LEAD-08",
+          "topicName": "Conflict Resolution and De-escalation Techniques",
+          "order": 8
+        },
+        {
+          "topicId": "LEAD-09",
+          "topicName": "Vision Setting and Strategic Alignment",
+          "order": 9
+        },
+        {
+          "topicId": "LEAD-10",
+          "topicName": "Change Management and Organizational Agility",
+          "order": 10
+        },
+        {
+          "topicId": "LEAD-11",
+          "topicName": "Decision Making under Uncertainty and Risk",
+          "order": 11
+        },
+        {
+          "topicId": "LEAD-12",
+          "topicName": "Cross-functional Collaboration and Stakeholder Management",
+          "order": 12
+        },
+        {
+          "topicId": "LEAD-13",
+          "topicName": "Hiring, Interviewing, and Building High-Performing Teams",
+          "order": 13
+        },
+        {
+          "topicId": "LEAD-14",
+          "topicName": "Mentorship, Coaching, and Career Development",
+          "order": 14
+        },
+        {
+          "topicId": "LEAD-15",
+          "topicName": "Diversity, Equity, and Inclusion (DEI) Best Practices",
+          "order": 15
+        },
+        {
+          "topicId": "LEAD-16",
+          "topicName": "Crisis Management and Incident Leadership",
+          "order": 16
+        },
+        {
+          "topicId": "LEAD-17",
+          "topicName": "Scaling Engineering Culture and Organizational Design",
+          "order": 17
+        },
+        {
+          "topicId": "LEAD-18",
+          "topicName": "Managing Up: Influencing Executives and Board Members",
+          "order": 18
+        },
+        {
+          "topicId": "LEAD-19",
+          "topicName": "Burnout Prevention and Team Resilience",
+          "order": 19
+        },
+        {
+          "topicId": "LEAD-20",
+          "topicName": "Metrics and KPIs for Measuring Leadership Effectiveness",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "moduleId": "time_management",
+      "moduleName": "Time Management",
+      "order": 98,
+      "description": "Master Time Management from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "TM-101",
+          "topicName": "Introduction to Time Management and Productivity Theories",
+          "order": 1
+        },
+        {
+          "topicId": "TM-102",
+          "topicName": "The Eisenhower Matrix: Urgent vs. Important",
+          "order": 2
+        },
+        {
+          "topicId": "TM-103",
+          "topicName": "Parkinson's Law and Deadlines",
+          "order": 3
+        },
+        {
+          "topicId": "TM-104",
+          "topicName": "Pareto Principle (80/20 Rule) in Daily Tasks",
+          "order": 4
+        },
+        {
+          "topicId": "TM-201",
+          "topicName": "Time Blocking and Time Boxing Strategies",
+          "order": 5
+        },
+        {
+          "topicId": "TM-202",
+          "topicName": "The Pomodoro Technique and Deep Work",
+          "order": 6
+        },
+        {
+          "topicId": "TM-203",
+          "topicName": "Eat That Frog: Tackling High-Resistance Tasks",
+          "order": 7
+        },
+        {
+          "topicId": "TM-204",
+          "topicName": "Digital Task Management and Kanban for Individuals",
+          "order": 8
+        },
+        {
+          "topicId": "TM-301",
+          "topicName": "Identifying and Mitigating Context Switching Overhead",
+          "order": 9
+        },
+        {
+          "topicId": "TM-302",
+          "topicName": "Managing Procrastination and Decision Fatigue",
+          "order": 10
+        },
+        {
+          "topicId": "TM-303",
+          "topicName": "Energy Management vs. Time Management",
+          "order": 11
+        },
+        {
+          "topicId": "TM-401",
+          "topicName": "Handling Interruptions and Asynchronous Communication",
+          "order": 12
+        },
+        {
+          "topicId": "TM-402",
+          "topicName": "Saying No: Stakeholder Management and Boundary Setting",
+          "order": 13
+        },
+        {
+          "topicId": "TM-403",
+          "topicName": "Audit, Review, and Continuous Improvement (Personal Retrospectives)",
+          "order": 14
+        }
+      ]
+    },
+    {
+      "moduleId": "adaptability",
+      "moduleName": "Adaptability",
+      "order": 99,
+      "description": "Master Adaptability from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "ADP-001",
+          "topicName": "Cognitive Flexibility and Mental Agility",
+          "order": 1
+        },
+        {
+          "topicId": "ADP-002",
+          "topicName": "Embracing Ambiguity and Uncertainty",
+          "order": 2
+        },
+        {
+          "topicId": "ADP-003",
+          "topicName": "Continuous Learning and Unlearning",
+          "order": 3
+        },
+        {
+          "topicId": "ADP-004",
+          "topicName": "Agile and Lean Mindsets in Technical Environments",
+          "order": 4
+        },
+        {
+          "topicId": "ADP-005",
+          "topicName": "Rapid Prototyping and Failing Fast",
+          "order": 5
+        },
+        {
+          "topicId": "ADP-006",
+          "topicName": "Iterative Problem Solving and Feedback Loops",
+          "order": 6
+        },
+        {
+          "topicId": "ADP-007",
+          "topicName": "Designing for Change: Loose Coupling and High Cohesion",
+          "order": 7
+        },
+        {
+          "topicId": "ADP-008",
+          "topicName": "Technology Stack Migration and Legacy Modernization",
+          "order": 8
+        },
+        {
+          "topicId": "ADP-009",
+          "topicName": "Pivoting Architecture under Changing Business Requirements",
+          "order": 9
+        },
+        {
+          "topicId": "ADP-010",
+          "topicName": "Leading Teams Through Organizational and Technical Shifts",
+          "order": 10
+        },
+        {
+          "topicId": "ADP-011",
+          "topicName": "Stakeholder Management During Crisis and Scope Creep",
+          "order": 11
+        },
+        {
+          "topicId": "ADP-012",
+          "topicName": "Blameless Post-Mortems and Root Cause Adaptations",
+          "order": 12
+        },
+        {
+          "topicId": "ADP-013",
+          "topicName": "Incident Response, Chaos Engineering, and Resilience",
+          "order": 13
+        },
+        {
+          "topicId": "ADP-014",
+          "topicName": "Dynamic Scaling and Auto-Reconfiguration in Production",
+          "order": 14
+        },
+        {
+          "topicId": "ADP-015",
+          "topicName": "Handling Black Swan Events and Zero-Day Mitigations",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "moduleId": "critical_thinking",
+      "moduleName": "Critical Thinking",
+      "order": 100,
+      "description": "Master Critical Thinking from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CT-01",
+          "topicName": "Introduction to Critical Thinking in Engineering",
+          "order": 1
+        },
+        {
+          "topicId": "CT-02",
+          "topicName": "Identifying Assumptions and Biases",
+          "order": 2
+        },
+        {
+          "topicId": "CT-03",
+          "topicName": "First Principles Thinking",
+          "order": 3
+        },
+        {
+          "topicId": "CT-04",
+          "topicName": "Logical Fallacies in Technical Arguments",
+          "order": 4
+        },
+        {
+          "topicId": "CT-05",
+          "topicName": "Root Cause Analysis and Problem Deconstruction",
+          "order": 5
+        },
+        {
+          "topicId": "CT-06",
+          "topicName": "Trade-off Analysis and Decision Matrix Design",
+          "order": 6
+        },
+        {
+          "topicId": "CT-07",
+          "topicName": "Systems Thinking and Feedback Loops",
+          "order": 7
+        },
+        {
+          "topicId": "CT-08",
+          "topicName": "Evaluating Architectural Trade-offs Under Uncertainty",
+          "order": 8
+        },
+        {
+          "topicId": "CT-09",
+          "topicName": "Incident Post-Mortems and Blameless Culture",
+          "order": 9
+        },
+        {
+          "topicId": "CT-10",
+          "topicName": "Cognitive Biases in Production Debugging and Outages",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "moduleId": "cybersecurity",
+      "moduleName": "Cybersecurity",
+      "order": 101,
+      "description": "Master Cybersecurity from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "CYBER-01",
+          "topicName": "CIA Triad and Core Security Principles",
+          "order": 1
+        },
+        {
+          "topicId": "CYBER-02",
+          "topicName": "Authentication, Authorization, and Accounting (AAA)",
+          "order": 2
+        },
+        {
+          "topicId": "CYBER-03",
+          "topicName": "Cryptographic Basics (Symmetric vs Asymmetric, Hashing)",
+          "order": 3
+        },
+        {
+          "topicId": "CYBER-04",
+          "topicName": "Firewalls, VPNs, and Network Segmentation",
+          "order": 4
+        },
+        {
+          "topicId": "CYBER-05",
+          "topicName": "IDS, IPS, and SIEM Architecture",
+          "order": 5
+        },
+        {
+          "topicId": "CYBER-06",
+          "topicName": "Zero Trust Network Architecture (ZTNA)",
+          "order": 6
+        },
+        {
+          "topicId": "CYBER-07",
+          "topicName": "OWASP Top 10 Vulnerabilities and Mitigation",
+          "order": 7
+        },
+        {
+          "topicId": "CYBER-08",
+          "topicName": "Secure Software Development Life Cycle (SSDLC) and DevSecOps",
+          "order": 8
+        },
+        {
+          "topicId": "CYBER-09",
+          "topicName": "API Security and OAuth2/OpenID Connect",
+          "order": 9
+        },
+        {
+          "topicId": "CYBER-10",
+          "topicName": "Threat Intelligence and Threat Modeling (STRIDE)",
+          "order": 10
+        },
+        {
+          "topicId": "CYBER-11",
+          "topicName": "Vulnerability Assessment and Penetration Testing (VAPT)",
+          "order": 11
+        },
+        {
+          "topicId": "CYBER-12",
+          "topicName": "Incident Response and Digital Forensics (IRDF)",
+          "order": 12
+        },
+        {
+          "topicId": "CYBER-13",
+          "topicName": "Cloud Security Posture Management (CSPM) and CWPP",
+          "order": 13
+        },
+        {
+          "topicId": "CYBER-14",
+          "topicName": "Container Security and Kubernetes Hardening",
+          "order": 14
+        },
+        {
+          "topicId": "CYBER-15",
+          "topicName": "Frameworks and Standards (ISO 27001, NIST, SOC 2, GDPR)",
+          "order": 15
+        },
+        {
+          "topicId": "CYBER-16",
+          "topicName": "Resilience Engineering, Chaos Engineering, and Red Teaming",
+          "order": 16
+        },
+        {
+          "topicId": "CYBER-17",
+          "topicName": "Advanced Persistent Threats (APT) Detection and Mitigation at Scale",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "moduleId": "blockchain",
+      "moduleName": "Blockchain",
+      "order": 102,
+      "description": "Master Blockchain from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "BF01",
+          "topicName": "Cryptographic Primitives and Hashing",
+          "order": 1
+        },
+        {
+          "topicId": "BF02",
+          "topicName": "Consensus Mechanisms (PoW, PoS, DPoS, PoA)",
+          "order": 2
+        },
+        {
+          "topicId": "BF03",
+          "topicName": "Distributed Systems and the CAP Theorem",
+          "order": 3
+        },
+        {
+          "topicId": "BF04",
+          "topicName": "Public-Key Cryptography and Digital Signatures",
+          "order": 4
+        },
+        {
+          "topicId": "BF05",
+          "topicName": "Merkle Trees and State Accumulators",
+          "order": 5
+        },
+        {
+          "topicId": "SC01",
+          "topicName": "EVM Architecture and Gas Optimization",
+          "order": 6
+        },
+        {
+          "topicId": "SC02",
+          "topicName": "Solidity/Rust Advanced Design Patterns",
+          "order": 7
+        },
+        {
+          "topicId": "SC03",
+          "topicName": "Smart Contract Upgradeability Patterns",
+          "order": 8
+        },
+        {
+          "topicId": "SC04",
+          "topicName": "Oracle Integration and Chainlink",
+          "order": 9
+        },
+        {
+          "topicId": "SC05",
+          "topicName": "Formal Verification and Static Analysis",
+          "order": 10
+        },
+        {
+          "topicId": "SEC01",
+          "topicName": "Reentrancy and Access Control Flaws",
+          "order": 11
+        },
+        {
+          "topicId": "SEC02",
+          "topicName": "Front-running and MEV Mitigation",
+          "order": 12
+        },
+        {
+          "topicId": "SEC03",
+          "topicName": "Integer Overflow/Underflow and Precision Loss",
+          "order": 13
+        },
+        {
+          "topicId": "SEC04",
+          "topicName": "Flash Loan Attacks and Economic Exploits",
+          "order": 14
+        },
+        {
+          "topicId": "SEC05",
+          "topicName": "Zero-Knowledge Proofs (ZKPs) and Privacy",
+          "order": 15
+        },
+        {
+          "topicId": "SA01",
+          "topicName": "Layer 2 Solutions (Optimistic vs. ZK Rollups)",
+          "order": 16
+        },
+        {
+          "topicId": "SA02",
+          "topicName": "Cross-Chain Bridges and Interoperability (IBC, LayerZero)",
+          "order": 17
+        },
+        {
+          "topicId": "SA03",
+          "topicName": "Data Availability Layers and Sharding",
+          "order": 18
+        },
+        {
+          "topicId": "SA04",
+          "topicName": "App-Chains and Subnet Architectures",
+          "order": 19
+        },
+        {
+          "topicId": "PO01",
+          "topicName": "Node Infrastructure and RPC Management",
+          "order": 20
+        },
+        {
+          "topicId": "PO02",
+          "topicName": "Key Management Systems (HSM, MPC, Custody)",
+          "order": 21
+        },
+        {
+          "topicId": "PO03",
+          "topicName": "Gas Price Strategies and Mempool Monitoring",
+          "order": 22
+        },
+        {
+          "topicId": "PO04",
+          "topicName": "Decentralized Storage (IPFS, Arweave)",
+          "order": 23
+        },
+        {
+          "topicId": "PO05",
+          "topicName": "Disaster Recovery and State Bloat Mitigation",
+          "order": 24
+        }
+      ]
+    },
+    {
+      "moduleId": "solidity",
+      "moduleName": "Solidity",
+      "order": 103,
+      "description": "Master Solidity from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SOL-101",
+          "topicName": "Data Types, Storage Layout, and Memory Management",
+          "order": 1
+        },
+        {
+          "topicId": "SOL-102",
+          "topicName": "Control Structures, Functions, and Modifiers",
+          "order": 2
+        },
+        {
+          "topicId": "SOL-103",
+          "topicName": "Error Handling: require, revert, assert, and Custom Errors",
+          "order": 3
+        },
+        {
+          "topicId": "SOL-201",
+          "topicName": "Contract Inheritance and MRO (C3 Linearization)",
+          "order": 4
+        },
+        {
+          "topicId": "SOL-202",
+          "topicName": "Interfaces, Abstract Contracts, and Libraries",
+          "order": 5
+        },
+        {
+          "topicId": "SOL-203",
+          "topicName": "Design Patterns: Factory, Proxy, and Upgradeability",
+          "order": 6
+        },
+        {
+          "topicId": "SOL-301",
+          "topicName": "Low-level Calls: call, delegatecall, and staticcall",
+          "order": 7
+        },
+        {
+          "topicId": "SOL-302",
+          "topicName": "Assembly and Yul Inline Coding",
+          "order": 8
+        },
+        {
+          "topicId": "SOL-303",
+          "topicName": "EVM Opcodes, Gas Optimization, and Metering",
+          "order": 9
+        },
+        {
+          "topicId": "SOL-401",
+          "topicName": "Reentrancy Attacks and Defense Mechanisms",
+          "order": 10
+        },
+        {
+          "topicId": "SOL-402",
+          "topicName": "Integer Overflows, Underflows, and Precision Loss",
+          "order": 11
+        },
+        {
+          "topicId": "SOL-403",
+          "topicName": "Access Control Flaws and Front-Running (MEV)",
+          "order": 12
+        },
+        {
+          "topicId": "SOL-501",
+          "topicName": "Foundry and Hardhat Testing Frameworks",
+          "order": 13
+        },
+        {
+          "topicId": "SOL-502",
+          "topicName": "Fuzzing, Invariant Testing, and Formal Verification",
+          "order": 14
+        },
+        {
+          "topicId": "SOL-503",
+          "topicName": "Deployment Scripts, Verification, and CI/CD Pipelines",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "moduleId": "web3",
+      "moduleName": "Web3",
+      "order": 104,
+      "description": "Master Web3 from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "W3-FUND-01",
+          "topicName": "Public/Private Key Cryptography & Signatures (ECDSA, Ed25519)",
+          "order": 1
+        },
+        {
+          "topicId": "W3-FUND-02",
+          "topicName": "Hash Functions, Merkle Trees, and State Accumulators",
+          "order": 2
+        },
+        {
+          "topicId": "W3-FUND-03",
+          "topicName": "Peer-to-Peer Networks & Gossip Protocols (libp2p, Devp2p)",
+          "order": 3
+        },
+        {
+          "topicId": "W3-FUND-04",
+          "topicName": "Consensus Mechanisms: Nakamoto Consensus, PoW, and PoS",
+          "order": 4
+        },
+        {
+          "topicId": "W3-FUND-05",
+          "topicName": "Byzantine Fault Tolerance (BFT) and State Machine Replication",
+          "order": 5
+        },
+        {
+          "topicId": "W3-EVM-01",
+          "topicName": "EVM Internals: Stack, Memory, Storage, and Execution Lifecycle",
+          "order": 6
+        },
+        {
+          "topicId": "W3-EVM-02",
+          "topicName": "Gas Mechanics, Pricing, and Optimization Techniques",
+          "order": 7
+        },
+        {
+          "topicId": "W3-EVM-03",
+          "topicName": "Transaction Lifecycle: Mempool, Ordering, Inclusion, and Finality",
+          "order": 8
+        },
+        {
+          "topicId": "W3-EVM-04",
+          "topicName": "Account Abstraction (ERC-4337): Paymasters, Bundlers, and UserOps",
+          "order": 9
+        },
+        {
+          "topicId": "W3-EVM-05",
+          "topicName": "EIPs & Hard Forks: Cancun, EIP-1559, EIP-4844 (Blobs)",
+          "order": 10
+        },
+        {
+          "topicId": "W3-SCD-01",
+          "topicName": "Advanced Solidity: Assembly, Yul, and Memory Management",
+          "order": 11
+        },
+        {
+          "topicId": "W3-SCD-02",
+          "topicName": "Contract Upgradeability Patterns: Proxy, Diamond (ERC-2535), and UUPS",
+          "order": 12
+        },
+        {
+          "topicId": "W3-SCD-03",
+          "topicName": "Standard Tokenomics & Interfaces: ERC-20, ERC-721, ERC-1155",
+          "order": 13
+        },
+        {
+          "topicId": "W3-SCD-04",
+          "topicName": "Development & Testing Tooling: Foundry, Hardhat, Formal Verification",
+          "order": 14
+        },
+        {
+          "topicId": "W3-SCD-05",
+          "topicName": "Alternative Execution Environments: Rust on Solana, Move on Aptos/Sui",
+          "order": 15
+        },
+        {
+          "topicId": "W3-DEFI-01",
+          "topicName": "Automated Market Makers (AMMs): Constant Product, Concentrated Liquidity (Uniswap v3/v4)",
+          "order": 16
+        },
+        {
+          "topicId": "W3-DEFI-02",
+          "topicName": "Lending Protocols: Collateralization, Liquidation Engines, and Interest Rate Models",
+          "order": 17
+        },
+        {
+          "topicId": "W3-DEFI-03",
+          "topicName": "Oracles: Chainlink, TWAP, and Handling Manipulation Vectors",
+          "order": 18
+        },
+        {
+          "topicId": "W3-DEFI-04",
+          "topicName": "Maximal Extractable Value (MEV): Flashbots, Bundles, Arbitrage, and Liquidations",
+          "order": 19
+        },
+        {
+          "topicId": "W3-DEFI-05",
+          "topicName": "Cross-Chain Bridges, Interoperability, and Messaging (IBC, LayerZero, CCIP)",
+          "order": 20
+        },
+        {
+          "topicId": "W3-L2-01",
+          "topicName": "Optimistic Rollups: Fraud Proofs, Challenge Periods, and Sequencing",
+          "order": 21
+        },
+        {
+          "topicId": "W3-L2-02",
+          "topicName": "Zero-Knowledge Rollups: Validity Proofs, zk-SNARKs, and zk-STARKs",
+          "order": 22
+        },
+        {
+          "topicId": "W3-L2-03",
+          "topicName": "Data Availability Layers: Celestia, EigenDA, and EIP-4844 Blobs",
+          "order": 23
+        },
+        {
+          "topicId": "W3-L2-04",
+          "topicName": "Appchains, Subnets, and Layer 3 Custom Architectures",
+          "order": 24
+        },
+        {
+          "topicId": "W3-SEC-01",
+          "topicName": "Reentrancy Attacks: Single-Function, Cross-Function, and Read-Only",
+          "order": 25
+        },
+        {
+          "topicId": "W3-SEC-02",
+          "topicName": "Access Control, Ownership, and Signature Verification Flaws",
+          "order": 26
+        },
+        {
+          "topicId": "W3-SEC-03",
+          "topicName": "Integer Overflows, Precision Loss, and Rounding Errors",
+          "order": 27
+        },
+        {
+          "topicId": "W3-SEC-04",
+          "topicName": "Front-Running, Sandwich Attacks, and Mempool Mitigation Strategies",
+          "order": 28
+        },
+        {
+          "topicId": "W3-SEC-05",
+          "topicName": "Automated Security Tools, Static Analysis, and Bug Bounties",
+          "order": 29
+        },
+        {
+          "topicId": "W3-INF-01",
+          "topicName": "JSON-RPC Protocols, WebSockets, and Node Provider Infrastructure (Infura, Alchemy)",
+          "order": 30
+        },
+        {
+          "topicId": "W3-INF-02",
+          "topicName": "Indexing & Data Retrieval: The Graph, Subgraphs, and SQL-based Indexers",
+          "order": 31
+        },
+        {
+          "topicId": "W3-INF-03",
+          "topicName": "Decentralized Storage: IPFS, Filecoin, and Arweave",
+          "order": 32
+        },
+        {
+          "topicId": "W3-INF-04",
+          "topicName": "Wallet Integration & SDKs: EIP-1193, WalletConnect, Wagmi, and Viem",
+          "order": 33
+        },
+        {
+          "topicId": "W3-PROD-01",
+          "topicName": "Smart Contract Deployment Pipelines, Deterministic Deployments, and Multi-sigs (Safe)",
+          "order": 34
+        },
+        {
+          "topicId": "W3-PROD-02",
+          "topicName": "Node Operations: Running Full Nodes, Archive Nodes, and Validator Setup",
+          "order": 35
+        },
+        {
+          "topicId": "W3-PROD-03",
+          "topicName": "Monitoring, Alerting, and Incident Response for Smart Contracts (Forta, Tenderly)",
+          "order": 36
+        },
+        {
+          "topicId": "W3-PROD-04",
+          "topicName": "Gas Optimization at Scale and Transaction Batching Strategies",
+          "order": 37
+        },
+        {
+          "topicId": "W3-PROD-05",
+          "topicName": "Decentralized Governance, DAOs, Timelocks, and Voting Mechanisms",
+          "order": 38
+        }
+      ]
+    },
+    {
+      "moduleId": "unity_game_dev",
+      "moduleName": "Unity (Game Dev)",
+      "order": 105,
+      "description": "Master Unity (Game Dev) from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "UFD-01",
+          "topicName": "Unity Architecture & The Editor",
+          "order": 1
+        },
+        {
+          "topicId": "UFD-02",
+          "topicName": "Scenes, GameObjects, and Components Lifecycle",
+          "order": 2
+        },
+        {
+          "topicId": "UFD-03",
+          "topicName": "Prefab System & Variant Nesting",
+          "order": 3
+        },
+        {
+          "topicId": "CS-01",
+          "topicName": "MonoBehaviour Lifecycle Execution Order",
+          "order": 4
+        },
+        {
+          "topicId": "CS-02",
+          "topicName": "Memory Management & Garbage Collection Optimization",
+          "order": 5
+        },
+        {
+          "topicId": "CS-03",
+          "topicName": "Coroutines, Async/Await, and Threading",
+          "order": 6
+        },
+        {
+          "topicId": "MP-01",
+          "topicName": "Vector Mathematics & Transformations",
+          "order": 7
+        },
+        {
+          "topicId": "MP-02",
+          "topicName": "Quaternions & Rotation Mechanics",
+          "order": 8
+        },
+        {
+          "topicId": "MP-03",
+          "topicName": "Rigidbody, Colliders, and Physics Layers",
+          "order": 9
+        },
+        {
+          "topicId": "MP-04",
+          "topicName": "Raycasting, Overlap Queries, and Character Controllers",
+          "order": 10
+        },
+        {
+          "topicId": "REN-01",
+          "topicName": "Render Pipelines: Built-in, URP, and HDRP",
+          "order": 11
+        },
+        {
+          "topicId": "REN-02",
+          "topicName": "Shader Graph & HLSL Fundamentals",
+          "order": 12
+        },
+        {
+          "topicId": "REN-03",
+          "topicName": "Lighting, Baking, and Global Illumination",
+          "order": 13
+        },
+        {
+          "topicId": "REN-04",
+          "topicName": "Batching, Draw Calls, and GPU Optimization",
+          "order": 14
+        },
+        {
+          "topicId": "ANI-01",
+          "topicName": "Animator Controller, Blend Trees, and Avatar Masks",
+          "order": 15
+        },
+        {
+          "topicId": "ANI-02",
+          "topicName": "Timeline, Cinemachine, and Virtual Cameras",
+          "order": 16
+        },
+        {
+          "topicId": "ANI-03",
+          "topicName": "UI Toolkit vs Canvas (UGUI) Performance",
+          "order": 17
+        },
+        {
+          "topicId": "AIN-01",
+          "topicName": "NavMesh, NavMeshAgents, and Off-Mesh Links",
+          "order": 18
+        },
+        {
+          "topicId": "AIN-02",
+          "topicName": "Behavior Trees and State Machines",
+          "order": 19
+        },
+        {
+          "topicId": "DAT-01",
+          "topicName": "ScriptableObjects Architecture & State Management",
+          "order": 20
+        },
+        {
+          "topicId": "DAT-02",
+          "topicName": "Design Patterns in Unity (Dependency Injection, Service Locator, Observer)",
+          "order": 21
+        },
+        {
+          "topicId": "DAT-03",
+          "topicName": "Addressables & Asset Management System",
+          "order": 22
+        },
+        {
+          "topicId": "NET-01",
+          "topicName": "Netcode for GameObjects (NGO) & Client-Server Architecture",
+          "order": 23
+        },
+        {
+          "topicId": "NET-02",
+          "topicName": "State Synchronization, RPCs, and Prediction/Reconciliation",
+          "order": 24
+        },
+        {
+          "topicId": "OPT-01",
+          "topicName": "Profiling with Unity Profiler and Memory Profiler",
+          "order": 25
+        },
+        {
+          "topicId": "OPT-02",
+          "topicName": "Object Pooling & CPU Cache Optimization",
+          "order": 26
+        },
+        {
+          "topicId": "ADV-01",
+          "topicName": "DOTS (Data-Oriented Technology Stack): ECS, Burst, and Job System",
+          "order": 27
+        },
+        {
+          "topicId": "ADV-02",
+          "topicName": "Custom Editor Scripting & Property Drawers",
+          "order": 28
+        },
+        {
+          "topicId": "ADV-03",
+          "topicName": "Unit Testing & Integration Testing in Unity (Test Framework)",
+          "order": 29
+        },
+        {
+          "topicId": "BLD-01",
+          "topicName": "Build Pipelines, Asset Bundles, and Platform-Specific Optimization",
+          "order": 30
+        }
+      ]
+    },
+    {
+      "moduleId": "unreal_engine",
+      "moduleName": "Unreal Engine",
+      "order": 106,
+      "description": "Master Unreal Engine from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "UE_FUND_01",
+          "topicName": "Unreal Engine Source Architecture and Build Configuration",
+          "order": 1
+        },
+        {
+          "topicId": "UE_FUND_02",
+          "topicName": "UObject Reflection System and Garbage Collection Mechanics",
+          "order": 2
+        },
+        {
+          "topicId": "UE_FUND_03",
+          "topicName": "Actor Lifecycle, Spawning, and Destruction",
+          "order": 3
+        },
+        {
+          "topicId": "UE_FUND_04",
+          "topicName": "Modules and Plugins Architecture in C++",
+          "order": 4
+        },
+        {
+          "topicId": "UE_FUND_05",
+          "topicName": "GameFramework Core: World, GameMode, GameState, PlayerController, and Pawn",
+          "order": 5
+        },
+        {
+          "topicId": "UE_CPP_01",
+          "topicName": "Memory Management, Smart Pointers (TSharedPtr, TUniquePtr), and TArray Optimization",
+          "order": 6
+        },
+        {
+          "topicId": "UE_CPP_02",
+          "topicName": "Delegates, Events, and Multicast Architecture",
+          "order": 7
+        },
+        {
+          "topicId": "UE_CPP_03",
+          "topicName": "Interfaces and Modular Gameplay Design",
+          "order": 8
+        },
+        {
+          "topicId": "UE_CPP_04",
+          "topicName": "Gameplay Ability System (GAS) Architecture and Implementation",
+          "order": 9
+        },
+        {
+          "topicId": "UE_CPP_05",
+          "topicName": "Gameplay Tags and Hierarchical Query Systems",
+          "order": 10
+        },
+        {
+          "topicId": "UE_BP_01",
+          "topicName": "Blueprint Virtual Machine Execution and Native C++ Interop",
+          "order": 11
+        },
+        {
+          "topicId": "UE_BP_02",
+          "topicName": "Blueprint Nativization and Performance Profiling",
+          "order": 12
+        },
+        {
+          "topicId": "UE_BP_03",
+          "topicName": "Blueprint Clean Code, Structs, and Data-Driven Design",
+          "order": 13
+        },
+        {
+          "topicId": "UE_REND_01",
+          "topicName": "Rendering Pipeline: Deferred vs Forward Shading and Nanite Architecture",
+          "order": 14
+        },
+        {
+          "topicId": "UE_REND_02",
+          "topicName": "Lumen Global Illumination and Reflections Setup",
+          "order": 15
+        },
+        {
+          "topicId": "UE_REND_03",
+          "topicName": "Material Graph Optimization, Custom Shaders, and HLSL Integration",
+          "order": 16
+        },
+        {
+          "topicId": "UE_REND_04",
+          "topicName": "Niagara VFX System and GPU Particle Simulation",
+          "order": 17
+        },
+        {
+          "topicId": "UE_REND_05",
+          "topicName": "Virtual Texture Streaming and GPU Memory Management",
+          "order": 18
+        },
+        {
+          "topicId": "UE_PHYS_01",
+          "topicName": "Chaos Physics Engine, Collision Channels, and Sweep Queries",
+          "order": 19
+        },
+        {
+          "topicId": "UE_PHYS_02",
+          "topicName": "AnimBP Architecture, State Machines, and Layered Animation",
+          "order": 20
+        },
+        {
+          "topicId": "UE_PHYS_03",
+          "topicName": "Control Rig and Procedural Animation Pipelines",
+          "order": 21
+        },
+        {
+          "topicId": "UE_PHYS_04",
+          "topicName": "Character Movement Component Customization and Prediction",
+          "order": 22
+        },
+        {
+          "topicId": "UE_NET_01",
+          "topicName": "Client-Server Model, RPCs, and Variable Replication",
+          "order": 23
+        },
+        {
+          "topicId": "UE_NET_02",
+          "topicName": "Network Relevancy, Priority, and Spatialization",
+          "order": 24
+        },
+        {
+          "topicId": "UE_NET_03",
+          "topicName": "Client-Side Prediction, Server Reconciliation, and Lag Compensation",
+          "order": 25
+        },
+        {
+          "topicId": "UE_NET_04",
+          "topicName": "NetSerialize, Custom Struct Replication, and Bandwidth Optimization",
+          "order": 26
+        },
+        {
+          "topicId": "UE_AI_01",
+          "topicName": "Behavior Trees, Blackboards, and Environmental Query System (EQS)",
+          "order": 27
+        },
+        {
+          "topicId": "UE_AI_02",
+          "topicName": "Recast Navigation, NavMesh Generation, and Dynamic Obstacles",
+          "order": 28
+        },
+        {
+          "topicId": "UE_UI_01",
+          "topicName": "UMG Architecture, Slate Integration, and Widget Lifecycle",
+          "order": 29
+        },
+        {
+          "topicId": "UE_UI_02",
+          "topicName": "UMG Performance Optimization, Invalidation Boxes, and GC Control",
+          "order": 30
+        },
+        {
+          "topicId": "UE_PROF_01",
+          "topicName": "Unreal Insights and CPU/GPU Profiling",
+          "order": 31
+        },
+        {
+          "topicId": "UE_PROF_02",
+          "topicName": "Memory Profiling, Asset Audit, and Cooked Build Size Reduction",
+          "order": 32
+        },
+        {
+          "topicId": "UE_PROF_03",
+          "topicName": "Level Streaming, World Partition, and Data Layers Architecture",
+          "order": 33
+        },
+        {
+          "topicId": "UE_DEV_01",
+          "topicName": "Unreal Build Tool (UBT) and Unreal Automation Tool (UAT)",
+          "order": 34
+        },
+        {
+          "topicId": "UE_DEV_02",
+          "topicName": "Automation Testing Framework (Functional Tests, Unit Tests)",
+          "order": 35
+        }
+      ]
+    },
+    {
+      "moduleId": "cyber_security",
+      "moduleName": "Cyber Security",
+      "order": 107,
+      "description": "Master Cyber Security from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "SEC101",
+          "topicName": "CIA Triad and Security Principles",
+          "order": 1
+        },
+        {
+          "topicId": "SEC102",
+          "topicName": "Authentication, Authorization, and Accounting (AAA)",
+          "order": 2
+        },
+        {
+          "topicId": "SEC103",
+          "topicName": "Networking Fundamentals and OSI Model",
+          "order": 3
+        },
+        {
+          "topicId": "SEC104",
+          "topicName": "Cryptographic Basics (Symmetric and Asymmetric)",
+          "order": 4
+        },
+        {
+          "topicId": "NET201",
+          "topicName": "Firewalls, IDS/IPS, and VPN Architectures",
+          "order": 5
+        },
+        {
+          "topicId": "NET202",
+          "topicName": "Zero Trust Network Architecture (ZTNA)",
+          "order": 6
+        },
+        {
+          "topicId": "NET203",
+          "topicName": "DDoS Mitigation and Traffic Analysis",
+          "order": 7
+        },
+        {
+          "topicId": "APP301",
+          "topicName": "OWASP Top 10 Vulnerabilities and Mitigation",
+          "order": 8
+        },
+        {
+          "topicId": "APP302",
+          "topicName": "Secure SDLC and DevSecOps Integration",
+          "order": 9
+        },
+        {
+          "topicId": "APP303",
+          "topicName": "API Security and OAuth2/OIDC Protocols",
+          "order": 10
+        },
+        {
+          "topicId": "CLD401",
+          "topicName": "Shared Responsibility Model in Cloud",
+          "order": 11
+        },
+        {
+          "topicId": "CLD402",
+          "topicName": "Identity and Access Management (IAM) in AWS/Azure/GCP",
+          "order": 12
+        },
+        {
+          "topicId": "CLD403",
+          "topicName": "Container and Kubernetes Security",
+          "order": 13
+        },
+        {
+          "topicId": "TIR501",
+          "topicName": "Incident Response Lifecycle (NIST/SANS)",
+          "order": 14
+        },
+        {
+          "topicId": "TIR502",
+          "topicName": "SIEM, SOAR, and Log Analysis",
+          "order": 15
+        },
+        {
+          "topicId": "TIR503",
+          "topicName": "Digital Forensics and Malware Analysis Basics",
+          "order": 16
+        },
+        {
+          "topicId": "ADV601",
+          "topicName": "Enterprise Security Architecture and Threat Modeling",
+          "order": 17
+        },
+        {
+          "topicId": "ADV602",
+          "topicName": "Regulatory Compliance (GDPR, HIPAA, PCI-DSS, SOC2)",
+          "order": 18
+        },
+        {
+          "topicId": "ADV603",
+          "topicName": "Resilience, Disaster Recovery, and Business Continuity",
+          "order": 19
+        }
+      ]
+    },
+    {
+      "moduleId": "ethical_hacking",
+      "moduleName": "Ethical Hacking",
+      "order": 108,
+      "description": "Master Ethical Hacking from basics to advanced.",
+      "topics": [
+        {
+          "topicId": "EH-FUND-01",
+          "topicName": "Introduction to Ethical Hacking and Penetration Testing",
+          "order": 1
+        },
+        {
+          "topicId": "EH-FUND-02",
+          "topicName": "Legal and Ethical Frameworks (Rules of Engagement, NDA, Scope)",
+          "order": 2
+        },
+        {
+          "topicId": "EH-FUND-03",
+          "topicName": "Networking Protocols and TCP/IP Deep Dive",
+          "order": 3
+        },
+        {
+          "topicId": "EH-RECON-01",
+          "topicName": "Open Source Intelligence (OSINT) and Passive Reconnaissance",
+          "order": 4
+        },
+        {
+          "topicId": "EH-RECON-02",
+          "topicName": "Active Reconnaissance and Footprinting (Nmap, Masscan)",
+          "order": 5
+        },
+        {
+          "topicId": "EH-RECON-03",
+          "topicName": "Vulnerability Assessment and Scanning (Nessus, OpenVAS)",
+          "order": 6
+        },
+        {
+          "topicId": "EH-NET-01",
+          "topicName": "Layer 2 Attacks (ARP Spoofing, VLAN Hopping, STP Manipulation)",
+          "order": 7
+        },
+        {
+          "topicId": "EH-NET-02",
+          "topicName": "Man-in-the-Middle (MitM) and Traffic Sniffing (Wireshark, Ettercap)",
+          "order": 8
+        },
+        {
+          "topicId": "EH-NET-03",
+          "topicName": "Wireless Network Attacks (WPA/WPA2/WPA3 Cracking, Rogue AP)",
+          "order": 9
+        },
+        {
+          "topicId": "EH-SYS-01",
+          "topicName": "Enumeration and System Hacking Methodologies",
+          "order": 10
+        },
+        {
+          "topicId": "EH-SYS-02",
+          "topicName": "Privilege Escalation (Windows and Linux)",
+          "order": 11
+        },
+        {
+          "topicId": "EH-SYS-03",
+          "topicName": "Credential Dumping and Hash Cracking (Mimikatz, Hashcat, John the Ripper)",
+          "order": 12
+        },
+        {
+          "topicId": "EH-WEB-01",
+          "topicName": "OWASP Top 10 Deep Dive",
+          "order": 13
+        },
+        {
+          "topicId": "EH-WEB-02",
+          "topicName": "Injection Attacks (SQLi, Command Injection, XSS)",
+          "order": 14
+        },
+        {
+          "topicId": "EH-WEB-03",
+          "topicName": "Broken Authentication and Session Management",
+          "order": 15
+        },
+        {
+          "topicId": "EH-WEB-04",
+          "topicName": "Server-Side Request Forgery (SSRF) and XML External Entity (XXE)",
+          "order": 16
+        },
+        {
+          "topicId": "EH-ADV-01",
+          "topicName": "Buffer Overflow and Binary Exploitation Basics",
+          "order": 17
+        },
+        {
+          "topicId": "EH-ADV-02",
+          "topicName": "Active Directory Attacks (Kerberoasting, BloodHound, Golden Ticket)",
+          "order": 18
+        },
+        {
+          "topicId": "EH-ADV-03",
+          "topicName": "Cloud Infrastructure Penetration Testing (AWS, Azure, GCP)",
+          "order": 19
+        },
+        {
+          "topicId": "EH-POST-01",
+          "topicName": "Persistence Mechanisms and Lateral Movement",
+          "order": 20
+        },
+        {
+          "topicId": "EH-POST-02",
+          "topicName": "Command and Control (C2) Frameworks (Cobalt Strike, Sliver, Empire)",
+          "order": 21
+        },
+        {
+          "topicId": "EH-POST-03",
+          "topicName": "Antivirus and EDR Evasion Techniques",
+          "order": 22
+        },
+        {
+          "topicId": "EH-REP-01",
+          "topicName": "Writing Effective Penetration Testing Reports and CVSS Scoring",
+          "order": 23
+        },
+        {
+          "topicId": "EH-REP-02",
+          "topicName": "Remediation Strategies and DevSecOps Integration",
+          "order": 24
+        }
+      ]
+    },
+    {
       "moduleId": "general",
       "moduleName": "General",
-      "order": 95,
+      "order": 109,
       "description": "Essential General Concepts & Q&A",
       "topics": [
         {
@@ -16093,7 +17680,7 @@
     {
       "moduleId": "plsql",
       "moduleName": "plsql",
-      "order": 96,
+      "order": 110,
       "description": "Essential plsql Concepts & Q&A",
       "topics": [
         {
@@ -16190,9 +17777,9 @@
     },
     {
       "moduleId": "springboot",
-      "moduleName": "spring boot",
-      "order": 97,
-      "description": "Essential spring boot Concepts & Q&A",
+      "moduleName": "Spring Boot",
+      "order": 111,
+      "description": "Essential Spring Boot Concepts & Q&A",
       "topics": [
         {
           "topicId": "springboot_topic_1",
@@ -16283,6 +17870,101 @@
           "topicId": "springboot_topic_18",
           "topicName": "Explain the use of profiles in Spring Boot.",
           "order": 18
+        },
+        {
+          "topicId": "springboot_topic_19",
+          "topicName": "Robust Exception Handling & Global Error Responses",
+          "order": 19
+        },
+        {
+          "topicId": "springboot_topic_20",
+          "topicName": "Comprehensive RESTful API Design & Validation Patterns",
+          "order": 20
+        },
+        {
+          "topicId": "springboot_topic_21",
+          "topicName": "Data Persistence with Spring Data JPA & Query Optimization",
+          "order": 21
+        },
+        {
+          "topicId": "springboot_topic_22",
+          "topicName": "Spring Boot Actuator & Production-Ready Monitoring",
+          "order": 22
+        },
+        {
+          "topicId": "springboot_topic_23",
+          "topicName": "Externalized Configuration & Profile-Based Environments",
+          "order": 23
+        },
+        {
+          "topicId": "springboot_topic_24",
+          "topicName": "Caching Strategies with Spring Cache & Redis",
+          "order": 24
+        },
+        {
+          "topicId": "springboot_topic_25",
+          "topicName": "Comprehensive Unit & Integration Testing Strategies",
+          "order": 25
+        },
+        {
+          "topicId": "springboot_topic_26",
+          "topicName": "Centralized Logging & Distributed Tracing Fundamentals",
+          "order": 26
+        },
+        {
+          "topicId": "springboot_topic_27",
+          "topicName": "Database Migration Management with Flyway or Liquibase",
+          "order": 27
+        },
+        {
+          "topicId": "springboot_topic_28",
+          "topicName": "Spring Boot Bean Lifecycle Internals and Custom BeanPostProcessor Interactions",
+          "order": 28
+        },
+        {
+          "topicId": "springboot_topic_29",
+          "topicName": "ApplicationContext Hierarchy, Classloading Isolation, and Parent-Child Container Dynamics",
+          "order": 29
+        },
+        {
+          "topicId": "springboot_topic_30",
+          "topicName": "Embedded Servlet Container (Tomcat/Jetty/Undertow) Concurrency Tuning and Thread Pool Exhaustion",
+          "order": 30
+        },
+        {
+          "topicId": "springboot_topic_31",
+          "topicName": "Spring Boot Autoconfiguration Mechanics, Conditional Evaluation, and Startup Optimization",
+          "order": 31
+        },
+        {
+          "topicId": "springboot_topic_32",
+          "topicName": "Advanced Spring AOP, Dynamic Proxies (JDK vs CGLIB), and Interceptor Chain Execution",
+          "order": 32
+        },
+        {
+          "topicId": "springboot_topic_33",
+          "topicName": "Spring Boot Memory Management: Metaspace, GC Tuning, Off-Heap Caching, and Leak Diagnostics",
+          "order": 33
+        },
+        {
+          "topicId": "springboot_topic_34",
+          "topicName": "Reactive Spring (Project Reactor, WebFlux) Backpressure, Schedulers, and Event-Loop Bottlenecks",
+          "order": 34
+        },
+        {
+          "topicId": "springboot_topic_35",
+          "topicName": "Externalized Configuration Precedence, Property Binding, and Environment Post-Processor Internals",
+          "order": 35
+        },
+        {
+          "topicId": "springboot_topic_36",
+          "topicName": "Spring Boot Integration Testing, TestContainers Lifecycle, and Context Caching Strategies",
+          "order": 36
+        },
+        {
+          "topicId": "springboot_topic_37",
+          "topicName": "Resilience4j Integration, Circuit Breakers, Bulkheads, and Fallback Execution Internals",
+          "order": 37
         }
       ]
     }

@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_26",
+  "topicName": "Centralized Logging & Distributed Tracing Fundamentals",
+  "order": 26,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Centralized Logging & Distributed Tracing Fundamentals\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The architectural approach of aggregating application logs to a central store and propagating unique trace identifiers across distributed services to track request lifecycles.\"}]"
+}

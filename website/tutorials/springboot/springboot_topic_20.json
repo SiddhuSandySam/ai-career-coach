@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_20",
+  "topicName": "Comprehensive RESTful API Design & Validation Patterns",
+  "order": 20,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Comprehensive RESTful API Design & Validation Patterns\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Designing robust, scalable, and standardized REST APIs in Spring Boot using proper resource modeling, status codes, DTOs, and declarative validation mechanisms.\"}]"
+}

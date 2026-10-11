@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_30",
+  "topicName": "Embedded Servlet Container (Tomcat/Jetty/Undertow) Concurrency Tuning and Thread Pool Exhaustion",
+  "order": 30,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Embedded Servlet Container (Tomcat/Jetty/Undertow) Concurrency Tuning and Thread Pool Exhaustion\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced tuning and diagnostic strategies for embedded servlet containers (Tomcat, Jetty, Undertow) to manage thread pool exhaustion, non-blocking I/O, and memory footprints under high concurrency.\"}]"
+}

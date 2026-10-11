@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_32",
+  "topicName": "Advanced Spring AOP, Dynamic Proxies (JDK vs CGLIB), and Interceptor Chain Execution",
+  "order": 32,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Advanced Spring AOP, Dynamic Proxies (JDK vs CGLIB), and Interceptor Chain Execution\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Deep architectural understanding of Spring's proxy mechanisms, byte-code generation, interceptor invocation ordering, and memory footprints in enterprise applications.\"}]"
+}

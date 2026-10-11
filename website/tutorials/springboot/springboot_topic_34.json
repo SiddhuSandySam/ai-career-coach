@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_34",
+  "topicName": "Reactive Spring (Project Reactor, WebFlux) Backpressure, Schedulers, and Event-Loop Bottlenecks",
+  "order": 34,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Reactive Spring (Project Reactor, WebFlux) Backpressure, Schedulers, and Event-Loop Bottlenecks\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced technical evaluation of Project Reactor internals, backpressure propagation, scheduler thread models, and mitigating Event-Loop thread starvation in Spring Boot.\"}]"
+}

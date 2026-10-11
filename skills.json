@@ -1,7 +1,35 @@
 {
-  "lastSyncedAt": "2026-10-04T04:12:11.717Z",
-  "totalSkills": 97,
+  "lastSyncedAt": "2026-10-11T03:51:35.547Z",
+  "totalSkills": 111,
   "skills": [
+    {
+      "id": "adaptability",
+      "name": "Adaptability",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Cognitive Flexibility and Mental Agility",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Embracing Ambiguity and Uncertainty",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Continuous Learning and Unlearning",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Agile and Lean Mindsets in Technical Environments",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Rapid Prototyping and Failing Fast",
+          "level": "Easy"
+        }
+      ]
+    },
     {
       "id": "agile_methodologies",
       "name": "Agile Methodologies",
@@ -255,6 +283,34 @@
       ]
     },
     {
+      "id": "blockchain",
+      "name": "Blockchain",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Cryptographic Primitives and Hashing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Consensus Mechanisms (PoW, PoS, DPoS, PoA)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Distributed Systems and the CAP Theorem",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Public-Key Cryptography and Digital Signatures",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Merkle Trees and State Accumulators",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "bootstrap",
       "name": "Bootstrap",
       "category": "Tutorial",
@@ -423,6 +479,34 @@
       ]
     },
     {
+      "id": "critical_thinking",
+      "name": "Critical Thinking",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Critical Thinking in Engineering",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Identifying Assumptions and Biases",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain First Principles Thinking",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Logical Fallacies in Technical Arguments",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Root Cause Analysis and Problem Deconstruction",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "css3",
       "name": "CSS3",
       "category": "Tutorial",
@@ -446,6 +530,62 @@
         },
         {
           "q": "Explain CSS Positioning Schemes (static, relative, absolute, fixed, sticky)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "cyber_security",
+      "name": "Cyber Security",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain CIA Triad and Security Principles",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Authentication, Authorization, and Accounting (AAA)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Networking Fundamentals and OSI Model",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Cryptographic Basics (Symmetric and Asymmetric)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Firewalls, IDS/IPS, and VPN Architectures",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain CIA Triad and Core Security Principles",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Authentication, Authorization, and Accounting (AAA)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Cryptographic Basics (Symmetric vs Asymmetric, Hashing)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Firewalls, VPNs, and Network Segmentation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain IDS, IPS, and SIEM Architecture",
           "level": "Easy"
         }
       ]
@@ -650,7 +790,7 @@
       "id": "django",
       "name": "Django",
       "category": "Tutorial",
-      "questionCount": 49,
+      "questionCount": 125,
       "questions": [
         {
           "q": "What is Django?",
@@ -812,6 +952,34 @@
       ]
     },
     {
+      "id": "ethical_hacking",
+      "name": "Ethical Hacking",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Ethical Hacking and Penetration Testing",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Legal and Ethical Frameworks (Rules of Engagement, NDA, Scope)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Networking Protocols and TCP/IP Deep Dive",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Open Source Intelligence (OSINT) and Passive Reconnaissance",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Active Reconnaissance and Footprinting (Nmap, Masscan)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "etl",
       "name": "ETL",
       "category": "Tutorial",
@@ -899,7 +1067,7 @@
       "id": "flask",
       "name": "Flask",
       "category": "Tutorial",
-      "questionCount": 44,
+      "questionCount": 112,
       "questions": [
         {
           "q": "What is Flask and why is it called a micro-framework?",
@@ -1261,27 +1429,111 @@
       "id": "java",
       "name": "Java",
       "category": "Tutorial",
-      "questionCount": 200,
+      "questionCount": 36,
       "questions": [
         {
-          "q": "Explain JVM Architecture, ClassLoaders, and Bytecode Verification",
-          "level": "Easy"
+          "q": "How does Tiered Compilation manage the transition between C1 and C2 compilers, and what triggers the compilation thresholds?",
+          "a": "Tiered compilation uses 5 levels. Level 0 is interpreted. Levels 1-3 use C1 (Client Compiler) with varying profiling (Invocation and Backedge counters). Level 4 uses C2 (Server Compiler). When method invocation or loop iteration counters exceed flags like -XX:CompileThreshold, the VM queues the method for compilation. Level 3 fully profiles code feeding statistics to C2 for aggressive optimizations like escape analysis and devirtualization.",
+          "p": [
+            "Level 0 (Interpreter) to Level 3 (C1 with full profiling)",
+            "Invocation and Backedge counters trigger compilation queues",
+            "Level 4 (C2) applies heavy optimizations using C1 profiling data"
+          ],
+          "level": "Hard"
         },
         {
-          "q": "Explain Memory Management, Heap Structure, and Garbage Collection Algorithms",
-          "level": "Easy"
+          "q": "Explain On-Stack Replacement (OSR). When does the JVM trigger it, and what are the mechanics of replacing an active frame?",
+          "a": "OSR compiles a method while it is actively executing inside a long-running loop, bypassing standard method entry. It triggers when a backedge counter exceeds the OSR threshold before the method itself meets invocation criteria. The JVM allocates a new compiled stack frame, maps local variables and operand stack from the interpreted frame to the compiled frame layout, and seamlessly transfers execution mid-method.",
+          "p": [
+            "Triggers on long-running loops via Backedge counters",
+            "Compiles method mid-execution without waiting for return",
+            "Reconstructs stack frames, mapping interpreter locals to compiled registers"
+          ],
+          "level": "Hard"
         },
         {
-          "q": "Explain Object Lifecycle, Immutable Objects, and defensive copying",
-          "level": "Easy"
+          "q": "What happens during JIT deoptimization (Deopt), and what are the performance implications of frequent trap occurrences?",
+          "a": "Deoptimization occurs when a speculative JIT optimization (like an assumed class hierarchy) is invalidated by runtime events (e.g., loading a subclass). The JVM safely unwinds the compiled frame, recreates precise interpreter frames on the stack, and resumes execution in the interpreter. Frequent deopts cause severe performance degradation due to CPU overhead in frame remapping and thrashing the JIT compilation queue with recompilations.",
+          "p": [
+            "Triggered when speculative assumptions fail at runtime",
+            "Unwinds compiled stack frames back to interpreter frames",
+            "Frequent traps cause CPU churn and severe performance degradation"
+          ],
+          "level": "Hard"
         },
         {
-          "q": "Explain Exception Hierarchy, Checked vs Unchecked, and Best Practices",
-          "level": "Easy"
+          "q": "How do Code Cache fragmentation and sweeper mechanics impact long-running microservices under heavy JIT load?",
+          "a": "The Code Cache stores compiled native methods. As classes load and deoptimizations occur, dead or invalidated methods accumulate, causing fragmentation. The Code Cache sweeper periodically scans and reclaims memory. If the cache fills up (-XX:ReservedCodeCacheSize), JIT compilers stop compiling new methods, forcing the JVM into pure interpretation. Mitigation involves tuning cache sizes and monitoring sweeper threads.",
+          "p": [
+            "Stores compiled native code with a fixed maximum size",
+            "Sweeper thread reclaims memory from dead or deoptimized methods",
+            "A full code cache disables JIT, reverting execution to the interpreter"
+          ],
+          "level": "Hard"
         },
         {
-          "q": "Explain SOLID Principles in Java Design",
-          "level": "Easy"
+          "q": "Explain how ZGC utilizes Colored Pointers and Load Barriers to achieve sub-millisecond pauses during concurrent relocation.",
+          "a": "ZGC encodes metadata—such as Finalizable, Remapped, MarkLive0, and MarkLive1—directly into the upper bits of 64-bit object references. Because pointers themselves carry object state, a Load Barrier intercepts reference reads on the application thread. If the barrier detects a stale pointer (not yet remapped), it transparently resolves the forwarding table, updates the reference, and returns the correct address. This eliminates Stop-The-World pause scaling relative to heap size.",
+          "p": [
+            "Colored pointers store GC metadata in reference bits.",
+            "Load barriers intercept reads to lazily fix stale pointers.",
+            "Forwarding tables track moved objects concurrently.",
+            "Pause times remain decoupled from heap size."
+          ],
+          "level": "Hard"
+        },
+        {
+          "q": "How does G1 handle Humongous Objects, and what are the performance implications of allocating objects larger than half a region?",
+          "a": "G1 allocates objects exceeding 50% of a standard region size into contiguous 'Humongous Regions' within the Tenured generation. These objects bypass Eden and Survivor spaces entirely. They are only collected during a Mixed GC or a full GC cycle, often triggering premature Concurrent Mark cycles. Because they are not moved during compaction, they cause severe internal fragmentation and can abruptly elevate memory pressure, leading to evacuation failures.",
+          "p": [
+            "Humongous allocations span contiguous regions in Tenured space.",
+            "They bypass standard generational aging completely.",
+            "Collected only during mixed or full GC, risking fragmentation.",
+            "Frequent humongous allocations trigger premature GC cycles."
+          ],
+          "level": "Hard"
+        },
+        {
+          "q": "Compare the mechanics of Shenandoah's Brooks Pointers versus ZGC's Colored Pointers. What are the trade-offs?",
+          "a": "Shenandoah uses Brooks Pointers—an extra word prefix embedded directly inside the object header that points to the object itself (or its forwarded copy). During compaction, threads update this pointer atomically. While this works on 32-bit and 64-bit architectures without specialized OS support, it increases object header overhead and causes cache-line bouncing. ZGC's Colored Pointers avoid object header bloat and cache contention by storing metadata in the reference, but they require 64-bit architectures and virtual memory trickery.",
+          "p": [
+            "Brooks pointers add an extra word inside the object header.",
+            "Colored pointers store metadata directly in the reference bits.",
+            "Brooks pointers cause cache-line bouncing under high contention.",
+            "Colored pointers require 64-bit architectures and OS-level mapping."
+          ],
+          "level": "Hard"
+        },
+        {
+          "q": "During a production incident, you observe frequent G1 evacuation failures ('To-space exhausted'). How do you diagnose and tune for this?",
+          "a": "An evacuation failure occurs when G1 lacks free regions to copy surviving objects into during young or mixed collections, forcing a costly Full GC. Diagnose via GC logs looking for 'To-space exhausted' and high survivor occupancy. Tune by increasing heap size, increasing region size (-XX:G1HeapRegionSize) to accommodate larger objects, widening the survivor space ratio, starting the concurrent marking cycle earlier (-XX:InitiatingHeapOccupancyPercent), or increasing `-XX:G1ReservePercent` to maintain a safety buffer.",
+          "p": [
+            "Caused by lack of free regions during object evacuation.",
+            "Triggers expensive Stop-The-World Full GC fallback.",
+            "Mitigate by lowering IHOP and increasing reserve percentage.",
+            "Adjust region size to prevent premature fragmentation."
+          ],
+          "level": "Hard"
+        },
+        {
+          "q": "How do StoreLoad, StoreStore, LoadLoad, and LoadStore memory barriers map to x86 and ARM architectures, and what is the cost of a full fence?",
+          "a": "On x86, loads and stores are strictly ordered except for StoreLoad (handled via locked instructions or `mfence`). ARM is weakly ordered, requiring explicit barrier instructions (`dmb`, `dsb`, `isb`) for all four types. A full fence stalls the CPU pipeline, flushing store buffers, destroying instruction-level parallelism, and heavily degrading multi-core throughput.",
+          "p": [
+            "x86 enforces TSO implicitly, needing barriers mainly for StoreLoad.",
+            "ARM requires explicit barriers for almost all combinations.",
+            "Full fences flush store buffers and stall CPU execution pipelines."
+          ],
+          "level": "Hard"
+        },
+        {
+          "q": "Explain how final fields provide initialization safety without synchronization, and why reordering is prohibited even if the reference escapes during construction.",
+          "a": "Final fields guarantee that once an object constructor finishes, the values assigned to its final fields are visible to all other threads without synchronization. The JMM inserts a StoreStore barrier between final field writes and the reference assignment, plus a LoadLoad barrier on architectures like Alpha, preventing the 'this' reference escape hazard.",
+          "p": [
+            "StoreStore barrier guarantees final writes precede reference publication.",
+            "Provides immutability guarantees without explicit locking overhead.",
+            "Prevents reading stale default values on weakly-ordered architectures."
+          ],
+          "level": "Hard"
         }
       ]
     },
@@ -1680,6 +1932,34 @@
       ]
     },
     {
+      "id": "leadership",
+      "name": "Leadership",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Leadership vs. Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Core Leadership Styles and When to Apply Them",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Emotional Intelligence (EQ) in the Workplace",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Effective Communication and Active Listening",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Building and Fostering Psychological Safety",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "linux_system_administration",
       "name": "Linux System Administration",
       "category": "Tutorial",
@@ -1998,26 +2278,111 @@
       "id": "nodejs",
       "name": "Node.js",
       "category": "Tutorial",
-      "questionCount": 310,
+      "questionCount": 132,
       "questions": [
         {
-          "q": "Explain Introduction to Node.js: History, Use Cases, and Architecture",
+          "q": "What is Node.js and what is its primary use case?",
+          "a": "Node.js is a runtime environment that executes JavaScript on the server side. Built on the V8 engine, it allows developers to use JavaScript for both frontend and backend development. Its primary use case is building fast, scalable network applications, APIs, and real-time services like chat applications.",
+          "p": [
+            "Runs JavaScript outside the browser",
+            "Powered by Google Chrome's V8 engine",
+            "Used mainly for backend and API development"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Node.js Event Loop: Understanding Single-Threaded Asynchronous Architecture",
+          "q": "How does Node.js work under the hood?",
+          "a": "Node.js works on a single-threaded event loop architecture using non-blocking I/O operations. When a request comes in, the single thread handles it. If there's a blocking operation like a database query or file read, Node delegates it to the libuv thread pool, freeing the main thread to handle other requests. Once complete, a callback is pushed to the event loop.",
+          "p": [
+            "Single-threaded event loop architecture",
+            "Non-blocking, asynchronous I/O operations",
+            "Uses libuv library to handle background tasks"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain NPM and Package Management: Installing, Managing, and Publishing Packages",
+          "q": "What is the Event Loop in Node.js?",
+          "a": "The Event Loop is the mechanism that allows Node.js to perform non-blocking I/O operations despite JavaScript being single-threaded. It continuously monitors the call stack and the callback queue. If the call stack is empty, it takes callback functions from the queue and pushes them to the stack for execution.",
+          "p": [
+            "Handles asynchronous callback execution",
+            "Continuously checks call stack and queues",
+            "Enables high concurrency on a single thread"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Modules in Node.js: CommonJS vs. ES Modules (ESM)",
+          "q": "What is the difference between blocking and non-blocking code in Node.js?",
+          "a": "Blocking code executes synchronously, meaning Node.js must wait for the current task to finish completely before moving to the next line of code, which freezes the application. Non-blocking code executes asynchronously; tasks like file reads or network requests are handed off with a callback function, allowing Node.js to process other requests immediately.",
+          "p": [
+            "Blocking is synchronous and freezes execution",
+            "Non-blocking is asynchronous and uses callbacks",
+            "Non-blocking improves application performance and throughput"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Global Objects: Understanding process, console, Buffer, etc.",
+          "q": "What is the V8 engine?",
+          "a": "The V8 engine is a C++ based open-source engine developed by Google that compiles JavaScript directly into native machine code. In Node.js, V8 serves as the core execution environment that runs JavaScript on the server side, providing high performance and efficient memory management.",
+          "p": [
+            "Developed by Google in C++",
+            "Executes JavaScript in Node.js",
+            "Compiles code to native machine code",
+            "Includes advanced garbage collection"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main OOPs principles?",
+          "a": "Object-Oriented Programming (OOP) relies on four pillars: Encapsulation (bundling data and methods together), Inheritance (reusing code from parent classes), Polymorphism (using a single interface for different types), and Abstraction (hiding complex implementation details and showing only essentials).",
+          "p": [
+            "Encapsulation: Bundling data and behavior",
+            "Inheritance: Reusing existing code",
+            "Polymorphism: Many forms, one interface",
+            "Abstraction: Hiding internal complexity"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between let, const, and var?",
+          "a": "'var' is function-scoped and can be re-declared and updated, prone to hoisting issues. 'let' is block-scoped, can be updated but not re-declared within the same scope. 'const' is also block-scoped, but it cannot be updated or re-declared, ensuring the variable reference remains constant.",
+          "p": [
+            "var: Function-scoped, hoisted, re-declarable",
+            "let: Block-scoped, updatable, not re-declarable",
+            "const: Block-scoped, read-only reference",
+            "Always prefer const, then let, avoid var"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the primitive data types in JavaScript?",
+          "a": "JavaScript has seven primitive data types: String, Number, Boolean, Undefined, Null, Symbol, and BigInt. Primitives are immutable data types stored directly in the stack memory, representing single values without properties or methods.",
+          "p": [
+            "String, Number, Boolean",
+            "Undefined, Null",
+            "Symbol, BigInt",
+            "Immutable and stored in stack memory"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you handle exceptions using try...catch?",
+          "a": "The try...catch statement handles runtime errors gracefully without crashing the application. Code that might throw an error is placed inside the 'try' block. If an error occurs, execution jumps to the 'catch' block, which receives the error object for logging or handling.",
+          "p": [
+            "try block contains risky code",
+            "catch block handles the error",
+            "Prevents app crashes on failure",
+            "Optional finally block always executes"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is npm?",
+          "a": "npm stands for Node Package Manager. It is the default package manager for Node.js. It consists of an online repository for publishing open-source Node.js projects and a command-line utility used for installing, updating, and managing project dependencies and running scripts.",
+          "p": [
+            "Default package manager for Node.js",
+            "CLI tool to install and manage packages",
+            "Hosts a massive online registry of libraries"
+          ],
           "level": "Easy"
         }
       ]
@@ -2303,29 +2668,144 @@
       ]
     },
     {
+      "id": "problem_solving",
+      "name": "Problem Solving",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Decomposition and Pattern Recognition",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Algorithmic Thinking and Pseudocode",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Asymptotic Analysis and Big-O Notation",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Linear Data Structures: Arrays, Strings, and Linked Lists",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Hierarchical Data Structures: Trees and Tries",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "python",
       "name": "Python",
       "category": "Tutorial",
-      "questionCount": 370,
+      "questionCount": 91,
       "questions": [
         {
-          "q": "Explain Basic Data Types (Integers, Floats, Strings, Booleans)",
+          "q": "What are the fundamental built-in data types in Python?",
+          "a": "Python has several fundamental built-in data types used to store different types of information. The primary categories include numeric types (int, float, complex), sequence types (str, list, tuple), mapping type (dict), set types (set, frozenset), and boolean type (bool). These types form the foundation of data manipulation in Python.",
+          "p": [
+            "Numeric: int, float, complex",
+            "Sequence: str, list, tuple",
+            "Mapping & Set: dict, set",
+            "Boolean: bool"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Variables and Operators",
+          "q": "What are the four fundamental principles of OOPs?",
+          "a": "Object-Oriented Programming (OOP) is based on four core principles: Inheritance, Polymorphism, Encapsulation, and Abstraction. Inheritance allows a class to inherit properties from another class. Polymorphism allows different classes to use methods with the same name. Encapsulation restricts direct access to data. Abstraction hides complex implementation details and shows only the essential features.",
+          "p": [
+            "Inheritance: Reusing code across parent and child classes",
+            "Polymorphism: Using a unified interface for different data types",
+            "Encapsulation: Bundling data and methods, restricting direct access",
+            "Abstraction: Hiding internal complexity and showing only features"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Control Flow (if, elif, else)",
+          "q": "Explain the difference between a list and a tuple.",
+          "a": "The primary difference is mutability. Lists are mutable, meaning their elements can be changed, added, or removed after creation, and they are defined using square brackets []. Tuples are immutable, meaning once created, their values cannot be modified, and they are defined using parentheses (). Tuples are generally faster and use less memory than lists.",
+          "p": [
+            "Lists are mutable [ ], tuples are immutable ( )",
+            "Lists consume more memory; tuples are lightweight",
+            "Use lists for collections that change; tuples for fixed data"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Loops (for, while)",
+          "q": "What is the difference between '==' and 'is' operators in Python?",
+          "a": "The '==' operator compares the values of two objects to check if they are equal. In contrast, the 'is' operator compares the memory addresses (identity) of two objects to check if they point to the exact same object in memory.",
+          "p": [
+            "'==' checks for value equality",
+            "'is' checks for memory address identity",
+            "Two variables can be '==' without being 'is'"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Data Structures (Lists, Tuples, Dictionaries, Sets)",
+          "q": "How does exception handling work using try, except, and finally?",
+          "a": "Exception handling allows a program to manage runtime errors gracefully without crashing. Code that might raise an error is placed in the 'try' block. If an error occurs, execution jumps to the 'except' block to handle it. The 'finally' block executes regardless of whether an exception occurred or not, typically used for clean-up tasks like closing files.",
+          "p": [
+            "try: Contains code prone to errors",
+            "except: Catches and handles specific exceptions",
+            "finally: Executes cleanup code unconditionally"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between a list and a tuple?",
+          "a": "The main difference is mutability. Lists are mutable, meaning their elements can be changed, added, or removed after creation, and they are defined using square brackets []. Tuples are immutable, meaning once created, their values cannot be modified, and they are defined using parentheses (). Tuples are generally faster and use less memory than lists.",
+          "p": [
+            "Lists are mutable []",
+            "Tuples are immutable ()",
+            "Tuples are faster and use less memory",
+            "Lists have more built-in methods"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main principles of OOPs?",
+          "a": "The four pillars of Object-Oriented Programming are Inheritance, Polymorphism, Encapsulation, and Abstraction. Inheritance allows a class to inherit properties from another. Polymorphism allows different classes to use methods with the same name. Encapsulation restricts direct access to data. Abstraction hides complex implementation details and shows only essential features.",
+          "p": [
+            "Inheritance: Code reusability via parent-child classes",
+            "Polymorphism: Same interface, multiple implementations",
+            "Encapsulation: Data hiding and bundling",
+            "Abstraction: Hiding complexity"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Explain the difference between 'is' and '==' operators in Python.",
+          "a": "The '==' operator compares the values of two objects to check if they are equal. In contrast, the 'is' operator compares the memory addresses of two objects to check if they point to the exact same object in memory. For example, two different lists with the same elements will return True for '==' but False for 'is'.",
+          "p": [
+            "'==' compares values",
+            "'is' compares memory identity (reference)",
+            "Use '==' for data equality",
+            "Use 'is' for checking None or singletons"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the purpose of the 'self' keyword in Python?",
+          "a": "The 'self' keyword represents the current instance of a class. It is used as the first parameter in instance methods to access variables and other methods associated with that specific object. Although you can technically use any name instead of 'self', adhering to this convention is crucial for code readability and standard Python practice.",
+          "p": [
+            "Represents the current object instance",
+            "Must be the first parameter in instance methods",
+            "Used to access instance variables and methods",
+            "Not a reserved keyword, just a strong convention"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do try, except, and finally blocks work in exception handling?",
+          "a": "The 'try' block contains code that might raise an exception. If an error occurs, the execution jumps to the matching 'except' block to handle the error gracefully without crashing the program. The 'finally' block is optional and executes no matter what, whether an exception occurred or not, making it ideal for cleanup tasks like closing files.",
+          "p": [
+            "try: Code that might fail",
+            "except: Handles the caught exception",
+            "finally: Always executes for cleanup",
+            "Prevents abrupt program crashes"
+          ],
           "level": "Easy"
         }
       ]
@@ -2695,6 +3175,34 @@
       ]
     },
     {
+      "id": "solidity",
+      "name": "Solidity",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Data Types, Storage Layout, and Memory Management",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Control Structures, Functions, and Modifiers",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Error Handling: require, revert, assert, and Custom Errors",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Contract Inheritance and MRO (C3 Linearization)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Interfaces, Abstract Contracts, and Libraries",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "spring_boot",
       "name": "Spring Boot",
       "category": "Tutorial",
@@ -2974,6 +3482,34 @@
       ]
     },
     {
+      "id": "teamwork",
+      "name": "Teamwork",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Communication Styles and Active Listening in Technical Teams",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Psychological Safety and Its Impact on Engineering Velocity",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Roles and Responsibilities (RACI Matrix in Software Engineering)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Effective Code Reviews and Constructive Feedback Culture",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Cross-Functional Collaboration (Product, Design, QA, and Ops)",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "tensorflow",
       "name": "TensorFlow",
       "category": "Tutorial",
@@ -3030,6 +3566,34 @@
       ]
     },
     {
+      "id": "time_management",
+      "name": "Time Management",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Introduction to Time Management and Productivity Theories",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain The Eisenhower Matrix: Urgent vs. Important",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Parkinson's Law and Deadlines",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Pareto Principle (80/20 Rule) in Daily Tasks",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Time Blocking and Time Boxing Strategies",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "typescript",
       "name": "TypeScript",
       "category": "Tutorial",
@@ -3058,6 +3622,62 @@
       ]
     },
     {
+      "id": "unity_game_dev",
+      "name": "Unity (Game Dev)",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Unity Architecture & The Editor",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Scenes, GameObjects, and Components Lifecycle",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Prefab System & Variant Nesting",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain MonoBehaviour Lifecycle Execution Order",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Memory Management & Garbage Collection Optimization",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "unreal_engine",
+      "name": "Unreal Engine",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Unreal Engine Source Architecture and Build Configuration",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain UObject Reflection System and Garbage Collection Mechanics",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Actor Lifecycle, Spawning, and Destruction",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Modules and Plugins Architecture in C++",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain GameFramework Core: World, GameMode, GameState, PlayerController, and Pawn",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "vuejs",
       "name": "Vue.js",
       "category": "Tutorial",
@@ -3081,6 +3701,34 @@
         },
         {
           "q": "Explain Component Lifecycle Hooks in Vue 3",
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "web3",
+      "name": "Web3",
+      "category": "Tutorial",
+      "questionCount": 200,
+      "questions": [
+        {
+          "q": "Explain Public/Private Key Cryptography & Signatures (ECDSA, Ed25519)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Hash Functions, Merkle Trees, and State Accumulators",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Peer-to-Peer Networks & Gossip Protocols (libp2p, Devp2p)",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Consensus Mechanisms: Nakamoto Consensus, PoW, and PoS",
+          "level": "Easy"
+        },
+        {
+          "q": "Explain Byzantine Fault Tolerance (BFT) and State Machine Replication",
           "level": "Easy"
         }
       ]
@@ -3341,9 +3989,9 @@
     },
     {
       "id": "springboot",
-      "name": "spring boot",
+      "name": "Spring Boot",
       "category": "Tech",
-      "questionCount": 108,
+      "questionCount": 184,
       "questions": [
         {
           "q": "What is Spring Boot?",

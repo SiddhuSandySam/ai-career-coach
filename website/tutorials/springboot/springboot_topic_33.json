@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_33",
+  "topicName": "Spring Boot Memory Management: Metaspace, GC Tuning, Off-Heap Caching, and Leak Diagnostics",
+  "order": 33,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Spring Boot Memory Management: Metaspace, GC Tuning, Off-Heap Caching, and Leak Diagnostics\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced evaluation of JVM memory structures, garbage collection mechanics, off-heap caching strategies, and production leak troubleshooting in Spring Boot applications.\"}]"
+}

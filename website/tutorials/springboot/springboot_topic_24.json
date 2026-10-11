@@ -1,0 +1,6 @@
+{
+  "topicId": "springboot_topic_24",
+  "topicName": "Caching Strategies with Spring Cache & Redis",
+  "order": 24,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Caching Strategies with Spring Cache & Redis\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Implementing efficient data retrieval patterns using Spring's abstraction layer backed by Redis to reduce database load and improve application performance.\"}]"
+}
