@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_31",
+  "topicName": "Serialization Strategies, N+1 Query Detection, and JSON Payload Optimization",
+  "order": 31,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Serialization Strategies, N+1 Query Detection, and JSON Payload Optimization\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced Ruby on Rails engineering focused on memory-efficient object serialization, bulletproof N+1 query detection algorithms, and high-performance JSON payload rendering under heavy loads.\"}]"
+}

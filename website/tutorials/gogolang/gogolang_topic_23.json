@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_23",
+  "topicName": "GMP Scheduler Internals (Work Stealing, Network Poller, Preemption, and SYSENTER transitions)",
+  "order": 23,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"GMP Scheduler Internals (Work Stealing, Network Poller, Preemption, and SYSENTER transitions)\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Deep architectural mechanics of Go's runtime scheduler, covering M:N multiplexing, work-stealing algorithms, netpoller integration, asynchronous/cooperative preemption, and OS-level syscall transitions.\"}]"
+}

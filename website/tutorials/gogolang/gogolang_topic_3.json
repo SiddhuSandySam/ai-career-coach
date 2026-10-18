@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_3",
+  "topicName": "What are the basic data types available in Go?",
+  "order": 3,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the basic data types available in Go?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Fundamental data types in Go define the storage format and operations allowed on values, categorized into booleans, numeric types, and strings.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_27",
+  "topicName": "Global VM Lock (GVL) Interplay with Multi-threading and Evented I/O",
+  "order": 27,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Global VM Lock (GVL) Interplay with Multi-threading and Evented I/O\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced analysis of how MRI's Global VM Lock governs thread concurrency, C-extension yielding, and its architectural friction with event-driven I/O models in high-throughput Ruby on Rails environments.\"}]"
+}

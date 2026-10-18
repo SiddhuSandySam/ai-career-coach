@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_20",
+  "topicName": "Modular Monolith Architecture and Concerns Pattern",
+  "order": 20,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Modular Monolith Architecture and Concerns Pattern\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"An architectural approach that structures a Rails monolith into autonomous, domain-driven engines while utilizing ActiveSupport::Concern for modularizing cross-cutting domain logic within models and controllers.\"}]"
+}

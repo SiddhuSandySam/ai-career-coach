@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_11",
+  "topicName": "Advanced Concurrency Patterns with Channels and Select",
+  "order": 11,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Advanced Concurrency Patterns with Channels and Select\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Mastering Go's concurrency primitives to build robust, scalable, and deadlock-free asynchronous systems using channels, select multiplexing, and cancellation tokens.\"}]"
+}

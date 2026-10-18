@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_12",
+  "topicName": "Idiomatic Error Handling and Custom Error Types",
+  "order": 12,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Idiomatic Error Handling and Custom Error Types\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Mastering Go's explicit error handling model using built-in error interfaces, sentinel errors, dynamic custom error types, and modern unwrapping utilities introduced in Go 1.13.\"}]"
+}

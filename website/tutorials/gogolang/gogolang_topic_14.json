@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_14",
+  "topicName": "Interface-Driven Design and Dependency Injection",
+  "order": 14,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Interface-Driven Design and Dependency Injection\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"A software design approach in Go that promotes decoupling by programming against abstract behaviors using interfaces rather than concrete implementations, combined with passing dependencies explicitly to enhance modularity, testability, and maintainability.\"}]"
+}

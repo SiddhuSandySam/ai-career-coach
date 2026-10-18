@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_26",
+  "topicName": "Slice, Map, and String Data Structures (Growth strategies, hash collision mitigation, memory leaks)",
+  "order": 26,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Slice, Map, and String Data Structures (Growth strategies, hash collision mitigation, memory leaks)\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Deep dive into Go's memory layout, allocation strategies, garbage collection traps, and internal runtime mechanisms for composite types.\"}]"
+}

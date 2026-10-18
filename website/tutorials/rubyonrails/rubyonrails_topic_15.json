@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_15",
+  "topicName": "RESTful API Design and JSON Serialization with Jbuilder/FastJSON",
+  "order": 15,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"RESTful API Design and JSON Serialization with Jbuilder/FastJSON\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Designing scalable HTTP-compliant APIs in Ruby on Rails and efficiently serializing complex object graphs into JSON formats using Jbuilder or FastJSON.\"}]"
+}

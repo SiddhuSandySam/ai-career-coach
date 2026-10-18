@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_20",
+  "topicName": "Go Memory Allocator Architecture (Arenas, Spans, Mcache, Mcentral, Mheap)",
+  "order": 20,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Go Memory Allocator Architecture (Arenas, Spans, Mcache, Mcentral, Mheap)\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Go's multi-tiered memory allocator manages heap memory hierarchically using Arenas, Spans, mcache, mcentral, and mheap to minimize lock contention and fragmentation.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_25",
+  "topicName": "Channel Internals, Synchronization primitives, and Lock-free algorithms in runtime/lock_sema.go",
+  "order": 25,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Channel Internals, Synchronization primitives, and Lock-free algorithms in runtime/lock_sema.go\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Deep dive into Go's runtime synchronization primitives, semasleep/semawake mechanics, lock_sema.go implementation details, and channel wait queues.\"}]"
+}

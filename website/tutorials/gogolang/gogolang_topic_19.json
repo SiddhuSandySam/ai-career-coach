@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_19",
+  "topicName": "Graceful Shutdown and Lifecycle Management",
+  "order": 19,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Graceful Shutdown and Lifecycle Management\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The process of safely halting a Go application by stopping new incoming requests, allowing ongoing operations to complete within a timeout, and releasing system resources cleanly.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_10",
+  "topicName": "What are the different types of ActiveRecord associations in Rails?",
+  "order": 10,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the different types of ActiveRecord associations in Rails?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"ActiveRecord associations create a connection between two Active Record models, making common operations simpler and more efficient by defining relationships like belongs_to, has_one, has_many, and has_and_belongs_to_many.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_10",
+  "topicName": "What are pointers in Go and how are they used?",
+  "order": 10,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are pointers in Go and how are they used?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Pointers in Go are variables that store the memory address of another value, enabling efficient data manipulation by reference rather than by value.\"}]"
+}

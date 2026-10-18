@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_26",
+  "topicName": "Action Cable WebSocket Architecture, Concurrency, and Scaling Bottlenecks",
+  "order": 26,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Action Cable WebSocket Architecture, Concurrency, and Scaling Bottlenecks\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced mechanics of Ruby on Rails WebSocket implementation, covering concurrent thread-pool management, pub/sub adapters, Redis bottlenecks, and memory optimization in production.\"}]"
+}

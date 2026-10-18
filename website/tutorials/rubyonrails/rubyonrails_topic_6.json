@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_6",
+  "topicName": "What is the difference between local, instance, class, and global variables in Ruby?",
+  "order": 6,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the difference between local, instance, class, and global variables in Ruby?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Understanding variable scopes in Ruby is fundamental for managing state and data visibility across methods, objects, and the entire application.\"}]"
+}

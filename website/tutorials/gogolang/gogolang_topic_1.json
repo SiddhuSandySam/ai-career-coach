@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_1",
+  "topicName": "What is Go and what are its primary design goals?",
+  "order": 1,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is Go and what are its primary design goals?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Go is an open-source programming language developed by Google, designed for building simple, fast, and reliable software, particularly for networked services and concurrency.\"}]"
+}

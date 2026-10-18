@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_9",
+  "topicName": "What are interfaces in Go and how do they achieve implicit satisfaction?",
+  "order": 9,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are interfaces in Go and how do they achieve implicit satisfaction?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Go interfaces define behavior rather than data structures. They achieve implicit satisfaction, meaning types implement interfaces automatically by implementing the required methods, without explicitly declaring 'implements'.\"}]"
+}

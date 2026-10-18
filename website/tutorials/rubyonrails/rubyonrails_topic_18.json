@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_18",
+  "topicName": "Caching Strategies: Fragment Caching, Russian Doll Caching, and Redis",
+  "order": 18,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Caching Strategies: Fragment Caching, Russian Doll Caching, and Redis\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced Rails caching techniques utilizing Redis to store view fragments hierarchically, minimizing database queries and rendering time.\"}]"
+}

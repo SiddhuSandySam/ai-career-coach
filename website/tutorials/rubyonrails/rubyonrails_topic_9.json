@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_9",
+  "topicName": "How do database migrations work in Ruby on Rails?",
+  "order": 9,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How do database migrations work in Ruby on Rails?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Database migrations are a Ruby DSL-based feature in Rails that allows developers to evolve the database schema consistently and persistently over time across different environments.\"}]"
+}

@@ -17678,9 +17678,162 @@
       ]
     },
     {
+      "moduleId": "gogolang",
+      "moduleName": "Go (Golang)",
+      "order": 110,
+      "description": "Essential Go (Golang) Concepts & Q&A",
+      "topics": [
+        {
+          "topicId": "gogolang_topic_1",
+          "topicName": "What is Go and what are its primary design goals?",
+          "order": 1
+        },
+        {
+          "topicId": "gogolang_topic_2",
+          "topicName": "Explain the difference between value types and reference types in Go",
+          "order": 2
+        },
+        {
+          "topicId": "gogolang_topic_3",
+          "topicName": "What are the basic data types available in Go?",
+          "order": 3
+        },
+        {
+          "topicId": "gogolang_topic_4",
+          "topicName": "How does Go implement Object-Oriented Programming principles without classes?",
+          "order": 4
+        },
+        {
+          "topicId": "gogolang_topic_5",
+          "topicName": "What is the difference between new() and make() functions?",
+          "order": 5
+        },
+        {
+          "topicId": "gogolang_topic_6",
+          "topicName": "Explain the difference between arrays and slices in Go",
+          "order": 6
+        },
+        {
+          "topicId": "gogolang_topic_7",
+          "topicName": "How does error handling work in Go, and why doesn't it use try-catch exceptions?",
+          "order": 7
+        },
+        {
+          "topicId": "gogolang_topic_8",
+          "topicName": "Explain how string manipulation works in Go and why strings are immutable",
+          "order": 8
+        },
+        {
+          "topicId": "gogolang_topic_9",
+          "topicName": "What are interfaces in Go and how do they achieve implicit satisfaction?",
+          "order": 9
+        },
+        {
+          "topicId": "gogolang_topic_10",
+          "topicName": "What are pointers in Go and how are they used?",
+          "order": 10
+        },
+        {
+          "topicId": "gogolang_topic_11",
+          "topicName": "Advanced Concurrency Patterns with Channels and Select",
+          "order": 11
+        },
+        {
+          "topicId": "gogolang_topic_12",
+          "topicName": "Idiomatic Error Handling and Custom Error Types",
+          "order": 12
+        },
+        {
+          "topicId": "gogolang_topic_13",
+          "topicName": "Context Propagation and Cancellation Management",
+          "order": 13
+        },
+        {
+          "topicId": "gogolang_topic_14",
+          "topicName": "Interface-Driven Design and Dependency Injection",
+          "order": 14
+        },
+        {
+          "topicId": "gogolang_topic_15",
+          "topicName": "Robust RESTful API Development and Middleware Design",
+          "order": 15
+        },
+        {
+          "topicId": "gogolang_topic_16",
+          "topicName": "Benchmarking, Profiling, and Performance Optimization",
+          "order": 16
+        },
+        {
+          "topicId": "gogolang_topic_17",
+          "topicName": "Structured Logging and Observability Implementation",
+          "order": 17
+        },
+        {
+          "topicId": "gogolang_topic_18",
+          "topicName": "Database Integration and Connection Pooling Best Practices",
+          "order": 18
+        },
+        {
+          "topicId": "gogolang_topic_19",
+          "topicName": "Graceful Shutdown and Lifecycle Management",
+          "order": 19
+        },
+        {
+          "topicId": "gogolang_topic_20",
+          "topicName": "Go Memory Allocator Architecture (Arenas, Spans, Mcache, Mcentral, Mheap)",
+          "order": 20
+        },
+        {
+          "topicId": "gogolang_topic_21",
+          "topicName": "Escape Analysis and Stack Allocation Mechanics",
+          "order": 21
+        },
+        {
+          "topicId": "gogolang_topic_22",
+          "topicName": "Go Garbage Collector Internals (Tri-color Mark-Sweep, Write Barriers, STW Phases, and Tuning)",
+          "order": 22
+        },
+        {
+          "topicId": "gogolang_topic_23",
+          "topicName": "GMP Scheduler Internals (Work Stealing, Network Poller, Preemption, and SYSENTER transitions)",
+          "order": 23
+        },
+        {
+          "topicId": "gogolang_topic_24",
+          "topicName": "Data Race Detection and Memory Model Consistency (Happens-Before, Sync primitives under the hood)",
+          "order": 24
+        },
+        {
+          "topicId": "gogolang_topic_25",
+          "topicName": "Channel Internals, Synchronization primitives, and Lock-free algorithms in runtime/lock_sema.go",
+          "order": 25
+        },
+        {
+          "topicId": "gogolang_topic_26",
+          "topicName": "Slice, Map, and String Data Structures (Growth strategies, hash collision mitigation, memory leaks)",
+          "order": 26
+        },
+        {
+          "topicId": "gogolang_topic_27",
+          "topicName": "High-Performance Network I/O and Epoll integration via the Runtime Netpoller",
+          "order": 27
+        },
+        {
+          "topicId": "gogolang_topic_28",
+          "topicName": "Cgo Performance Overheads, Memory Safety, and ABI Transition Costs",
+          "order": 28
+        },
+        {
+          "topicId": "gogolang_topic_29",
+          "topicName": "Production Profiling, Tracing, and Low-Level Debugging (Pprof, Execution Traces, GODEBUG variables)",
+          "order": 29
+        }
+      ]
+    },
+    {
       "moduleId": "plsql",
       "moduleName": "plsql",
-      "order": 110,
+      "order": 111,
       "description": "Essential plsql Concepts & Q&A",
       "topics": [
         {
@@ -17776,9 +17929,177 @@
       ]
     },
     {
+      "moduleId": "rubyonrails",
+      "moduleName": "Ruby on Rails",
+      "order": 112,
+      "description": "Essential Ruby on Rails Concepts & Q&A",
+      "topics": [
+        {
+          "topicId": "rubyonrails_topic_1",
+          "topicName": "What is Ruby on Rails and what is the MVC architecture?",
+          "order": 1
+        },
+        {
+          "topicId": "rubyonrails_topic_2",
+          "topicName": "What are the four main OOPs principles and how are they implemented in Ruby?",
+          "order": 2
+        },
+        {
+          "topicId": "rubyonrails_topic_3",
+          "topicName": "What is the difference between symbols and strings in Ruby?",
+          "order": 3
+        },
+        {
+          "topicId": "rubyonrails_topic_4",
+          "topicName": "What is the difference between nil, false, and truthy values in Ruby?",
+          "order": 4
+        },
+        {
+          "topicId": "rubyonrails_topic_5",
+          "topicName": "What are attr_reader, attr_writer, and attr_accessor?",
+          "order": 5
+        },
+        {
+          "topicId": "rubyonrails_topic_6",
+          "topicName": "What is the difference between local, instance, class, and global variables in Ruby?",
+          "order": 6
+        },
+        {
+          "topicId": "rubyonrails_topic_7",
+          "topicName": "What are ActiveRecord validations and what are some common validation helpers?",
+          "order": 7
+        },
+        {
+          "topicId": "rubyonrails_topic_8",
+          "topicName": "What is the difference between render and redirect_to in Rails controllers?",
+          "order": 8
+        },
+        {
+          "topicId": "rubyonrails_topic_9",
+          "topicName": "How do database migrations work in Ruby on Rails?",
+          "order": 9
+        },
+        {
+          "topicId": "rubyonrails_topic_10",
+          "topicName": "What are the different types of ActiveRecord associations in Rails?",
+          "order": 10
+        },
+        {
+          "topicId": "rubyonrails_topic_11",
+          "topicName": "How does exception handling work in Ruby using begin, rescue, ensure, and raise?",
+          "order": 11
+        },
+        {
+          "topicId": "rubyonrails_topic_12",
+          "topicName": "What are some common string manipulation methods in Ruby?",
+          "order": 12
+        },
+        {
+          "topicId": "rubyonrails_topic_13",
+          "topicName": "Active Record Associations and Advanced Querying",
+          "order": 13
+        },
+        {
+          "topicId": "rubyonrails_topic_14",
+          "topicName": "Service Objects and Business Logic Encapsulation",
+          "order": 14
+        },
+        {
+          "topicId": "rubyonrails_topic_15",
+          "topicName": "RESTful API Design and JSON Serialization with Jbuilder/FastJSON",
+          "order": 15
+        },
+        {
+          "topicId": "rubyonrails_topic_16",
+          "topicName": "Database Indexing, Migration Strategies, and N+1 Query Mitigation",
+          "order": 16
+        },
+        {
+          "topicId": "rubyonrails_topic_17",
+          "topicName": "Comprehensive Test-Driven Development with RSpec and FactoryBot",
+          "order": 17
+        },
+        {
+          "topicId": "rubyonrails_topic_18",
+          "topicName": "Caching Strategies: Fragment Caching, Russian Doll Caching, and Redis",
+          "order": 18
+        },
+        {
+          "topicId": "rubyonrails_topic_19",
+          "topicName": "Secure Authentication, Authorization, and CSRF/XSS Protection",
+          "order": 19
+        },
+        {
+          "topicId": "rubyonrails_topic_20",
+          "topicName": "Modular Monolith Architecture and Concerns Pattern",
+          "order": 20
+        },
+        {
+          "topicId": "rubyonrails_topic_21",
+          "topicName": "Third-Party API Integration and Robust Error Handling",
+          "order": 21
+        },
+        {
+          "topicId": "rubyonrails_topic_22",
+          "topicName": "Asset Pipeline and Modern Frontend Integration with Importmaps/esbuild",
+          "order": 22
+        },
+        {
+          "topicId": "rubyonrails_topic_23",
+          "topicName": "Rack Middleware Execution Flow and Lifecycle Management",
+          "order": 23
+        },
+        {
+          "topicId": "rubyonrails_topic_24",
+          "topicName": "Active Record Object Allocation, Garbage Collection, and Memory Profiling",
+          "order": 24
+        },
+        {
+          "topicId": "rubyonrails_topic_25",
+          "topicName": "Advanced Query Optimization and JOIN Strategy Trade-offs",
+          "order": 25
+        },
+        {
+          "topicId": "rubyonrails_topic_26",
+          "topicName": "Action Cable WebSocket Architecture, Concurrency, and Scaling Bottlenecks",
+          "order": 26
+        },
+        {
+          "topicId": "rubyonrails_topic_27",
+          "topicName": "Global VM Lock (GVL) Interplay with Multi-threading and Evented I/O",
+          "order": 27
+        },
+        {
+          "topicId": "rubyonrails_topic_28",
+          "topicName": "Database Connection Pool Saturated States and Thread Safety Guarantees",
+          "order": 28
+        },
+        {
+          "topicId": "rubyonrails_topic_29",
+          "topicName": "Active Support Instrumentation, Callbacks, and Monkey-Patching Overhead",
+          "order": 29
+        },
+        {
+          "topicId": "rubyonrails_topic_30",
+          "topicName": "Autoloading Mechanisms (Zeitwerk), Module Resolution, and Concurrency Locks",
+          "order": 30
+        },
+        {
+          "topicId": "rubyonrails_topic_31",
+          "topicName": "Serialization Strategies, N+1 Query Detection, and JSON Payload Optimization",
+          "order": 31
+        },
+        {
+          "topicId": "rubyonrails_topic_32",
+          "topicName": "Background Job Processing Fault Tolerance, Idempotency, and Backpressure Handling",
+          "order": 32
+        }
+      ]
+    },
+    {
       "moduleId": "springboot",
       "moduleName": "Spring Boot",
-      "order": 111,
+      "order": 113,
       "description": "Essential Spring Boot Concepts & Q&A",
       "topics": [
         {

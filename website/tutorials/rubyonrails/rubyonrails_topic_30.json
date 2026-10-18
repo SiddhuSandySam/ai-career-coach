@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_30",
+  "topicName": "Autoloading Mechanisms (Zeitwerk), Module Resolution, and Concurrency Locks",
+  "order": 30,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Autoloading Mechanisms (Zeitwerk), Module Resolution, and Concurrency Locks\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced internals of Rails autoloading using Zeitwerk, Ruby module resolution algorithms, and thread-safety concurrency locks during boot and runtime.\"}]"
+}

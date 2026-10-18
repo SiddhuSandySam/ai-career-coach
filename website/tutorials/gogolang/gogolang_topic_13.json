@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_13",
+  "topicName": "Context Propagation and Cancellation Management",
+  "order": 13,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Context Propagation and Cancellation Management\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The mechanism in Go to manage deadlines, cancellation signals, and request-scoped values across API boundaries and concurrent goroutines.\"}]"
+}

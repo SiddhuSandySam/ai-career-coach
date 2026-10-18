@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_22",
+  "topicName": "Go Garbage Collector Internals (Tri-color Mark-Sweep, Write Barriers, STW Phases, and Tuning)",
+  "order": 22,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Go Garbage Collector Internals (Tri-color Mark-Sweep, Write Barriers, STW Phases, and Tuning)\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced mechanics of Go's concurrent tri-color mark-sweep garbage collector, focusing on write barriers, stop-the-world phases, pacing algorithms, and production performance tuning.\"}]"
+}

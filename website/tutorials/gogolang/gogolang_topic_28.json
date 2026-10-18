@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_28",
+  "topicName": "Cgo Performance Overheads, Memory Safety, and ABI Transition Costs",
+  "order": 28,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Cgo Performance Overheads, Memory Safety, and ABI Transition Costs\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Deep architectural analysis of the performance, safety, and calling convention costs associated with bridging Go and C code.\"}]"
+}

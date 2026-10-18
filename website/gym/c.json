@@ -1,0 +1,1570 @@
+{
+  "skillId": "c",
+  "skillName": "C#",
+  "questionCount": 120,
+  "concepts": [
+    {
+      "conceptName": "What is C# and what is the .NET Framework?",
+      "meaning": "Fundamental understanding of the C# programming language, the .NET ecosystem, and core beginner concepts including OOP, data types, and keywords.",
+      "questions": [
+        {
+          "q": "What is C# and what is the .NET Framework?",
+          "a": "C# is a modern, object-oriented, type-safe programming language developed by Microsoft. The .NET Framework is a software development framework that provides a controlled programming environment to develop, run, and execute C# applications. It includes the Common Language Runtime (CLR) for execution and the Base Class Library (BCL) for pre-written code functionality.",
+          "p": [
+            "C# is the programming language.",
+            ".NET is the execution environment and library.",
+            "CLR executes code and manages memory."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        },
+        {
+          "q": "What are the core OOPs principles in C#?",
+          "a": "Object-Oriented Programming in C# relies on four main pillars: Encapsulation (hiding internal state using access modifiers), Inheritance (reusing code by deriving new classes from existing ones), Polymorphism (performing a single action in different forms using method overloading or overriding), and Abstraction (hiding complex implementation details and showing only essential features).",
+          "p": [
+            "Encapsulation: Hiding data.",
+            "Inheritance: Code reuse.",
+            "Polymorphism: Many forms.",
+            "Abstraction: Hiding complexity."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between Value Types and Reference Types.",
+          "a": "Value types store data directly in the stack (e.g., int, bool, struct) and hold their own copy of data. Reference types store a reference to the memory address where the data is stored on the heap (e.g., string, class, array). When you copy a value type, you copy the value. When you copy a reference type, you only copy the memory address reference.",
+          "p": [
+            "Value types stored on stack.",
+            "Reference types stored on heap.",
+            "Value types hold actual data; reference types hold pointers."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between string and StringBuilder?",
+          "a": "The string class is immutable, meaning every time you modify a string (like concatenation), a new object is created in memory, which can impact performance. StringBuilder is mutable, meaning it can be modified without creating new objects, making it much more efficient for heavy string manipulation and concatenation loops.",
+          "p": [
+            "String is immutable (cannot be changed).",
+            "StringBuilder is mutable (efficient for modifications).",
+            "Use StringBuilder for heavy string concatenation."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_3"
+        },
+        {
+          "q": "What are access modifiers in C# and what are the main types?",
+          "a": "Access modifiers are keywords used to set the visibility or accessibility of classes, methods, and other members. The primary types in C# are: Public (accessible from anywhere), Private (accessible only within the same class), Protected (accessible within the same class and derived classes), Internal (accessible only within the same assembly), and Protected Internal.",
+          "p": [
+            "Public: Accessible everywhere.",
+            "Private: Accessible inside the class only.",
+            "Protected: Accessible in class and subclasses.",
+            "Internal: Accessible within the same project."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are the four fundamental principles of Object-Oriented Programming (OOP)?",
+      "meaning": "The four core pillars of OOP in C# are Encapsulation, Inheritance, Polymorphism, and Abstraction, which help organize code into reusable, maintainable, and modular structures.",
+      "questions": [
+        {
+          "q": "What are the four fundamental principles of Object-Oriented Programming?",
+          "a": "The four fundamental principles are Encapsulation (bundling data and methods together while hiding internal state), Inheritance (reusing code by deriving new classes from existing ones), Polymorphism (allowing objects to be treated as instances of their parent class, enabling multiple forms), and Abstraction (hiding complex implementation details and showing only essential features).",
+          "p": [
+            "Encapsulation: Hiding data using access modifiers (private, public).",
+            "Inheritance: Reusing code via parent-child class relationships.",
+            "Polymorphism: Using a single interface for different data types.",
+            "Abstraction: Hiding complexity with abstract classes and interfaces."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        },
+        {
+          "q": "What is the difference between string and StringBuilder in C#?",
+          "a": "In C#, strings are immutable, meaning every time you modify a string, a new object is created in memory, which can hurt performance during heavy manipulation. StringBuilder is mutable, meaning it can be modified in place without creating new objects, making it much more efficient for frequent concatenation or changes.",
+          "p": [
+            "String is immutable (cannot be changed once created).",
+            "StringBuilder is mutable (can be modified in place).",
+            "Use StringBuilder for loops or heavy string manipulations."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between value types and reference types in C#?",
+          "a": "Value types hold their actual data directly in the stack (e.g., int, bool, structs). Reference types store a reference or memory address to the actual data located on the heap (e.g., class, string, array). When passing value types, a copy is made; when passing reference types, only the memory address is copied.",
+          "p": [
+            "Value types store data directly and live on the stack.",
+            "Reference types store memory addresses and live on the heap.",
+            "Common value types: int, float, struct, char.",
+            "Common reference types: string, class, array, object."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_2"
+        },
+        {
+          "q": "What is a try-catch block and how does exception handling work?",
+          "a": "A try-catch block is used to handle runtime errors gracefully in C#. The 'try' block contains code that might throw an exception. If an error occurs, execution jumps to the 'catch' block, preventing the application from crashing. An optional 'finally' block can be added to execute cleanup code regardless of whether an exception occurred.",
+          "p": [
+            "Try block: Contains risky code that might throw an error.",
+            "Catch block: Handles the exception if one occurs.",
+            "Finally block: Always executes for cleanup (e.g., closing files).",
+            "Prevents application crashes and manages errors gracefully."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between Value Types and Reference Types.",
+      "meaning": "Fundamental categorization of data types in C# based on how and where they are stored in memory.",
+      "questions": [
+        {
+          "q": "What is the difference between Value Types and Reference Types?",
+          "a": "Value types store their actual data directly in the stack, while reference types store a reference (or pointer) on the stack that points to the actual data located on the heap. Examples of value types include int, bool, and structs. Examples of reference types include string, arrays, and classes. When you copy a value type, you create an independent duplicate of the data. When you copy a reference type, you only copy the memory address, meaning both variables point to the exact same object in memory.",
+          "p": [
+            "Value types store data in the stack; reference types store data in the heap.",
+            "Value types hold the actual value; reference types hold a memory address.",
+            "Copying a value type duplicates the data; copying a reference type duplicates the pointer."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_0"
+        },
+        {
+          "q": "What are the four main principles of OOPs?",
+          "a": "The four main principles of Object-Oriented Programming are Encapsulation, Inheritance, Polymorphism, and Abstraction. Encapsulation bundles data and methods together while hiding internal state. Inheritance allows a class to reuse code from a parent class. Polymorphism lets objects be treated as instances of their parent class, enabling methods to behave differently based on the object calling them. Abstraction hides complex implementation details and exposes only essential features.",
+          "p": [
+            "Encapsulation: Hiding data and bundling functionality.",
+            "Inheritance: Reusing code from parent classes.",
+            "Polymorphism: Many forms, method overriding and overloading.",
+            "Abstraction: Hiding complexity with simplified interfaces."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_1"
+        },
+        {
+          "q": "What is the difference between 'ref' and 'out' keywords?",
+          "a": "Both 'ref' and 'out' are used to pass arguments by reference rather than by value in C#. The primary difference is initialization. A variable passed using 'ref' must be initialized before it is passed to the method. In contrast, a variable passed using 'out' does not need to be initialized before passing, but the called method is strictly required to assign a value to it before the method returns.",
+          "p": [
+            "ref requires the variable to be initialized before passing.",
+            "out does not require prior initialization.",
+            "out parameters must be assigned a value inside the called method."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_2"
+        },
+        {
+          "q": "What is the difference between a string and a StringBuilder?",
+          "a": "In C#, the 'string' type is immutable, meaning every time you modify a string, a brand new object is created in memory, which can degrade performance during heavy manipulations. 'StringBuilder', on the other hand, is mutable. It uses an internal buffer to modify the existing string data without creating new objects, making it much more efficient for frequent concatenation or modification tasks inside loops.",
+          "p": [
+            "Strings are immutable; every change creates a new memory allocation.",
+            "StringBuilder is mutable; it modifies the existing buffer directly.",
+            "Use StringBuilder for heavy string manipulations and loops."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the difference between string and StringBuilder?",
+      "meaning": "Understanding string immutability in C# and when to use mutable string buffers for performance optimization.",
+      "questions": [
+        {
+          "q": "What is the main difference between string and StringBuilder in C#?",
+          "a": "The primary difference is that the `string` type is immutable, meaning every time you modify a string, a new object is created in memory, which can impact performance. In contrast, `StringBuilder` is mutable. It maintains an internal buffer to modify strings in place without creating new objects, making it much more efficient for frequent concatenation or heavy text manipulation.",
+          "p": [
+            "String is immutable (cannot be changed).",
+            "StringBuilder is mutable (can be modified in place).",
+            "Use StringBuilder for loops or heavy concatenation to avoid performance overhead."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are the main access modifiers in C# and what do they mean?",
+      "meaning": "Access modifiers are keywords used to specify the accessibility or visibility of a type (like a class) or a member (like a method or property) within your C# application.",
+      "questions": [
+        {
+          "q": "What are the main access modifiers in C#?",
+          "a": "The main access modifiers in C# are public, private, protected, internal, and protected internal. They control where methods, variables, and classes can be accessed in your code. 'Public' allows access from anywhere, 'private' restricts access to the containing class only, 'protected' allows access within the class and its derived classes, and 'internal' limits access to the current assembly.",
+          "p": [
+            "Public: Accessible from anywhere.",
+            "Private: Accessible only within the same class.",
+            "Protected: Accessible within the class and derived classes.",
+            "Internal: Accessible only within the current assembly."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        },
+        {
+          "q": "What is the default access modifier in C#?",
+          "a": "The default access modifier depends on the context in which the member or type is declared. For members of a class or struct (like fields and methods), the default is private. For types (like classes and interfaces) declared directly within a namespace, the default is internal. It is considered a best practice to explicitly specify access modifiers rather than relying on defaults.",
+          "p": [
+            "Class members default to private.",
+            "Top-level classes and interfaces default to internal.",
+            "Always specify access modifiers explicitly for clarity."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_1"
+        },
+        {
+          "q": "Explain the difference between private and protected access modifiers.",
+          "a": "The key difference lies in inheritance. A 'private' member can only be accessed within the exact class where it is declared; even child (derived) classes cannot see it. In contrast, a 'protected' member is accessible within its own class and also inside any class that inherits from it, making it ideal for shared base class functionality.",
+          "p": [
+            "Private means strictly restricted to the declaring class.",
+            "Protected allows access to derived (child) classes.",
+            "Neither allows external access from unrelated classes."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_2"
+        },
+        {
+          "q": "What is the difference between public and internal access modifiers?",
+          "a": "A 'public' member has no restrictions and can be accessed from any other code in the same assembly or another referencing assembly. An 'internal' member can be accessed anywhere within the same assembly (project), but it is completely invisible to any outside assembly or project.",
+          "p": [
+            "Public is universally accessible across all projects.",
+            "Internal is restricted strictly to the current assembly/project.",
+            "Internal is often used for internal library implementation details."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Explain the difference between '==' and the Equals() method.",
+      "meaning": "In C#, '==' is an operator that compares references by default for reference types and values for primitive types, while Equals() is a virtual method designed for content/value equality comparison that can be overridden.",
+      "questions": [
+        {
+          "q": "Explain the difference between '==' and the Equals() method in C#.",
+          "a": "The '==' operator is resolved at compile time and performs reference comparison by default for reference types, checking if both variables point to the same memory location. For value types, it compares values. In contrast, 'Equals()' is a virtual method defined in System.Object resolved at runtime. It can be overridden by classes to define custom value equality (logical equivalence). Additionally, '==' can be overloaded, whereas Equals() is typically overridden.",
+          "p": [
+            "'==' is an operator evaluated at compile time.",
+            "Equals() is a virtual method evaluated at runtime.",
+            "By default, '==' checks reference identity for objects.",
+            "Equals() is designed to be overridden for logical value equality."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_0"
+        },
+        {
+          "q": "How does the '==' operator behave differently for Strings compared to standard reference types?",
+          "a": "Although string is a reference type, the '==' operator is explicitly overloaded in the String class to compare the text content rather than the memory reference. As a result, '==' performs value equality for strings, returning true if both strings have identical characters in the same order, even if they occupy separate memory addresses. To force reference comparison on strings, object.ReferenceEquals() must be used.",
+          "p": [
+            "String is a reference type.",
+            "C# overloads '==' specifically for the String class.",
+            "Compares character sequence instead of memory location.",
+            "Behaves identically to String.Equals() in standard usage."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_1"
+        },
+        {
+          "q": "Explain the difference between Value Types and Reference Types in C#.",
+          "a": "Value types hold their data directly and are typically allocated on the stack (e.g., int, float, bool, struct). When assigned or passed, a copy of the actual data is created. Reference types store a memory address pointing to data allocated on the managed heap (e.g., class, string, array, interface). Assigning a reference type copies the memory address, meaning multiple variables can reference the exact same object.",
+          "p": [
+            "Value types store actual data (usually stack-allocated).",
+            "Reference types store pointers to data on the heap.",
+            "Assignment copies the value for value types.",
+            "Assignment copies the pointer for reference types."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_2"
+        },
+        {
+          "q": "What is the ReferenceEquals() method in C#?",
+          "a": "ReferenceEquals() is a static method provided by System.Object used to determine whether two object instances point to the exact same reference in memory. Unlike the '==' operator or the instance Equals() method, ReferenceEquals() cannot be overridden or overloaded, ensuring an unalterable reference comparison. If applied to value types, it always returns false because each value gets boxed into a new object instance on the heap.",
+          "p": [
+            "Static method defined on System.Object.",
+            "Guarantees reference comparison; cannot be overridden.",
+            "Returns true only if both references point to the same object.",
+            "Always returns false for value types due to boxing."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_3"
+        },
+        {
+          "q": "Why must you override GetHashCode() whenever you override Equals()?",
+          "a": "C# enforces the rule that if two objects are considered equal according to Equals(), they must return the same hash code. Collections like Dictionary and HashSet rely on GetHashCode() to organize and retrieve items in buckets. If Equals() is overridden without GetHashCode(), two equal objects might return different hash codes, causing lookups in hash-based collections to fail or behave unpredictably. The C# compiler also emits a warning if this contract is violated.",
+          "p": [
+            "Equal objects must produce identical hash codes.",
+            "Essential for correct behavior in Dictionary and HashSet.",
+            "Failing to override it breaks lookups in collections.",
+            "Generates compiler warning CS0659 if omitted."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Exp_4"
+        }
+      ]
+    },
+    {
+      "conceptName": "How does exception handling work in C# using try, catch, and finally?",
+      "meaning": "Exception handling in C# is a mechanism to handle runtime errors gracefully using try, catch, and finally blocks to maintain program flow and release resources.",
+      "questions": [
+        {
+          "q": "What is the purpose of try, catch, and finally blocks in C#?",
+          "a": "The try block contains code that might throw an exception. The catch block handles the exception if one occurs. The finally block executes regardless of whether an exception was thrown or caught, making it ideal for cleanup tasks like closing database connections or files.",
+          "p": [
+            "Try: Wraps risky code.",
+            "Catch: Handles the error.",
+            "Finally: Always executes for cleanup."
+          ],
+          "level": "Easy",
+          "id": "c_easy_How_0"
+        },
+        {
+          "q": "What is the base class for all exceptions in C#?",
+          "a": "The base class for all exceptions in C# is System.Exception. All built-in and user-defined exceptions derive directly or indirectly from this class. Common derived classes include ArgumentNullException and DivideByZeroException.",
+          "p": [
+            "Base class is System.Exception.",
+            "All exceptions inherit from it.",
+            "Includes built-in and custom types."
+          ],
+          "level": "Easy",
+          "id": "c_easy_How_1"
+        },
+        {
+          "q": "Can you have a try block without a catch block in C#?",
+          "a": "Yes, a try block can exist without a catch block, but it must be followed by a finally block. This pattern is often used to ensure that cleanup code in the finally block runs even if an exception occurs, without necessarily handling the exception locally.",
+          "p": [
+            "Yes, if paired with finally.",
+            "Used to guarantee resource cleanup.",
+            "Exception propagates up the call stack."
+          ],
+          "level": "Easy",
+          "id": "c_easy_How_2"
+        },
+        {
+          "q": "When does the finally block NOT execute?",
+          "a": "The finally block executes in almost all scenarios, but it will not run if the application encounters a catastrophic failure such as a StackOverflowException, if Environment.FailFast() is called, or if the process is abruptly terminated by the operating system or power failure.",
+          "p": [
+            "Runs in almost all cases.",
+            "Skipped on StackOverflowException.",
+            "Skipped if Environment.FailFast() is called."
+          ],
+          "level": "Easy",
+          "id": "c_easy_How_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is the difference between 'const' and 'readonly' keywords?",
+      "meaning": "Understanding immutability and variable initialization timing in C# for compile-time versus run-time constants.",
+      "questions": [
+        {
+          "q": "What is the difference between 'const' and 'readonly' in C#?",
+          "a": "'const' defines a compile-time constant, meaning its value must be known at compile time and cannot be changed. It is implicitly static. 'readonly' defines a run-time constant, meaning its value can be assigned either at declaration or within the constructor of the class. It can be instance-specific.",
+          "p": [
+            "const is evaluated at compile-time; readonly is evaluated at run-time.",
+            "const fields are implicitly static; readonly fields can be instance-level or static.",
+            "const can only be assigned at declaration; readonly can also be assigned in a constructor."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        },
+        {
+          "q": "Can you assign a value to a 'readonly' variable inside a method?",
+          "a": "No, you cannot assign a value to a 'readonly' variable inside a regular method. 'readonly' fields can only be assigned during their declaration or within the constructor of the class in which they are declared.",
+          "p": [
+            "Readonly fields are immutable after object construction.",
+            "Assignment is restricted to the declaration line or constructors.",
+            "Attempting to modify them in standard methods causes a compilation error."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_1"
+        },
+        {
+          "q": "Why is 'const' implicitly static?",
+          "a": "Because the value of a 'const' field is hardcoded directly into the Intermediate Language (IL) code at compile time for every usage. Therefore, it belongs to the type itself rather than any specific instance of the class, making it static by default.",
+          "p": [
+            "Values are embedded directly into the IL during compilation.",
+            "An instance is not needed to access a const variable.",
+            "Using the static keyword with const is actually a compilation error."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_2"
+        },
+        {
+          "q": "What types of data can be used with the 'const' keyword?",
+          "a": "The 'const' keyword in C# can only be used with primitive data types (like int, double, bool), strings, or null. You cannot create a const of a complex reference type like a custom class, except for string which is a special reference type.",
+          "p": [
+            "Allowed types include primitives and strings.",
+            "Custom classes and complex objects cannot be const.",
+            "Null can be assigned to a const reference type."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What is boxing and unboxing in C#?",
+      "meaning": "Boxing and unboxing are the mechanisms in C# that convert value types to reference types (boxing) and reference types back to value types (unboxing).",
+      "questions": [
+        {
+          "q": "What is boxing in C#?",
+          "a": "Boxing is the implicit conversion of a value type (like int, char, or structs) to the type object or to any interface type implemented by this value type. When the CLR boxes a value type, it allocates an instance on the heap and assigns the value to it.",
+          "p": [
+            "Converts value type to reference type",
+            "Implicit process managed by CLR",
+            "Allocates memory on the heap",
+            "Can cause performance overhead"
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        },
+        {
+          "q": "What is unboxing in C#?",
+          "a": "Unboxing is the explicit extraction of the value type from the object or interface type. It creates a copy of the value from the heap back onto the stack. Unboxing requires an explicit cast and throws an InvalidCastException if the object is not the correct type.",
+          "p": [
+            "Converts reference type back to value type",
+            "Requires explicit casting",
+            "Copies heap data back to stack",
+            "Throws exception if types mismatch"
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_1"
+        },
+        {
+          "q": "What are the performance implications of boxing and unboxing?",
+          "a": "Boxing and unboxing are computationally expensive processes. Boxing allocates a new object on the heap, and unboxing requires a cast and memory copying. Frequent boxing in loops can cause significant garbage collection pressure and degrade application performance.",
+          "p": [
+            "Heap allocation overhead",
+            "Increased Garbage Collection (GC) pressure",
+            "CPU cost for type checking and casting",
+            "Avoid using in performance-critical code"
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_2"
+        },
+        {
+          "q": "How can you avoid boxing and unboxing in C#?",
+          "a": "You can avoid boxing and unboxing by using generics (like List<T> instead of ArrayList). Generics allow collections and methods to operate on specific value types without converting them to object, ensuring type safety and optimal performance.",
+          "p": [
+            "Use Generics instead of non-generic collections",
+            "Use List<T> instead of ArrayList",
+            "Prevents runtime casting errors",
+            "Improves execution speed"
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "What are properties and how do automatic properties work?",
+      "meaning": "Fundamental C# concepts regarding encapsulation of class fields and shorthand syntax for property declarations.",
+      "questions": [
+        {
+          "q": "What is a property in C#?",
+          "a": "A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. It uses accessors (get and set) to protect data and enforce encapsulation while allowing fields to be accessed as if they were public variables.",
+          "p": [
+            "Encapsulates private fields safely.",
+            "Uses 'get' and 'set' accessors.",
+            "Accessed like public variables.",
+            "Allows validation logic in setters."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        },
+        {
+          "q": "How do automatic properties work?",
+          "a": "Automatic (auto-implemented) properties simplify property declarations when no additional logic is required in the accessor. When you declare an auto-property like 'public string Name { get; set; }', the C# compiler automatically creates a private, anonymous backing field behind the scenes.",
+          "p": [
+            "Introduced in C# 3.0 for brevity.",
+            "Compiler generates the backing field.",
+            "Syntax: { get; set; } without body.",
+            "Can have private setters for immutability."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_1"
+        },
+        {
+          "q": "What is the difference between a field and a property?",
+          "a": "A field is a variable declared directly in a class that simply stores data, often kept private. A property is a combination of a field and methods (accessors) that control how that data is accessed or modified, allowing for validation and encapsulation.",
+          "p": [
+            "Fields store raw data.",
+            "Properties control data access.",
+            "Fields are usually private.",
+            "Properties expose controlled entry points."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_2"
+        },
+        {
+          "q": "What are the four main OOPs principles?",
+          "a": "The four main Object-Oriented Programming principles are Encapsulation (bundling data and methods), Inheritance (reusing code across classes), Polymorphism (using a unified interface for different types), and Abstraction (hiding complex implementation details).",
+          "p": [
+            "Encapsulation: Data hiding.",
+            "Inheritance: Code reuse.",
+            "Polymorphism: Many forms.",
+            "Abstraction: Simplified interfaces."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Exception Handling: throw vs throw ex",
+      "meaning": "Understanding the difference between using 'throw' and 'throw ex' in C# exception handling to preserve or reset the stack trace.",
+      "questions": [
+        {
+          "q": "What is the difference between 'throw' and 'throw ex' when catching exceptions in C#?",
+          "a": "Using 'throw' re-throws the current exception while preserving the original stack trace, making debugging easier because you can see where the error originally occurred. Using 'throw ex' resets the stack trace to the line where 'throw ex' is called, which overwrites the original error origin and makes debugging harder.",
+          "p": [
+            "'throw' preserves the original stack trace.",
+            "'throw ex' resets the stack trace to the current line.",
+            "Always use 'throw' to maintain complete error context for debugging."
+          ],
+          "level": "Easy",
+          "id": "c_easy_Wha_0"
+        }
+      ]
+    },
+    {
+      "conceptName": "Asynchronous Programming and Task-Based Asynchronous Pattern (TAP)",
+      "meaning": "A C# programming model using async/await keywords and Task/Task<T> types to write non-blocking, highly responsive scalable code by freeing threads during I/O-bound or CPU-bound operations.",
+      "questions": [
+        {
+          "q": "What is the difference between Task.Run and Task.Factory.StartNew, and when should you use them in modern C#?",
+          "a": "Task.Run is a simplified wrapper around Task.Factory.StartNew, specifically optimized for CPU-bound work. Task.Run uses TaskScheduler.Default under the hood, safely avoiding pitfalls like improper unwrapping of nested tasks and complex scheduler configurations. In modern C#, you should almost always use Task.Run for offloading CPU-intensive work to the thread pool. Avoid using Task.Run for I/O-bound operations, as that wastes thread pool threads; instead, use async/await with native asynchronous APIs.",
+          "p": [
+            "Task.Run is the recommended wrapper for CPU-bound work.",
+            "Task.Factory.StartNew offers complex configuration options but is rarely needed.",
+            "Never use Task.Run for I/O-bound operations to prevent thread starvation."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Asy_0"
+        },
+        {
+          "q": "How does ConfigureAwait(false) work, and what are the best practices for its usage in libraries versus applications?",
+          "a": "ConfigureAwait(false) instructs the awaiter not to attempt capturing and marshalling the continuation back to the original synchronization context (like the UI thread or ASP.NET request context). In library code, you should almost always use ConfigureAwait(false) to prevent deadlocks and improve performance by avoiding unnecessary context switches. In modern ASP.NET Core, synchronization contexts do not exist, making it less critical, but it remains a best practice for multi-target or generic library development.",
+          "p": [
+            "Prevents capturing the current SynchronizationContext.",
+            "Essential in reusable library code to avoid deadlocks and boost performance.",
+            "Not strictly necessary in modern ASP.NET Core due to lack of synchronization context."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Asy_1"
+        },
+        {
+          "q": "How do you properly implement asynchronous cancellation in TAP using CancellationToken and CancellationTokenSource?",
+          "a": "To support cancellation, accept a CancellationToken parameter in your async method and periodically pass it to underlying async APIs or check its IsCancellationRequested property (or call ThrowIfCancellationRequested()). Instantiate a CancellationTokenSource to trigger cancellations and set timeouts if needed. When cancellation occurs, these APIs throw an OperationCanceledException (or TaskCanceledException), which you should allow to propagate or handle gracefully without marking the task as faulted.",
+          "p": [
+            "Pass CancellationToken down through the async call stack.",
+            "Periodically check token.ThrowIfCancellationRequested().",
+            "Trigger cancellation using CancellationTokenSource.",
+            "Catch OperationCanceledException for graceful handling."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Asy_2"
+        },
+        {
+          "q": "What causes async/async deadlocks in C#, and how do synchronous blocking calls like .Result or .Wait() contribute to them?",
+          "a": "Deadlocks occur when synchronous blocking methods like .Result or .Wait() are called on a Task within an environment that has a SynchronizationContext (such as WPF, WinForms, or older ASP.NET). The calling thread blocks while waiting for the task, but the async continuation attempts to post back to that same blocked thread to resume execution, resulting in a permanent stalemate. The best practice is 'async all the way down'—never mix synchronous blocking with async code.",
+          "p": [
+            "Caused by blocking async code (.Result or .Wait) on a thread with a SynchronizationContext.",
+            "The continuation waits for the blocked thread, creating a circular deadlock.",
+            "Solution: Always use 'async all the way down' and avoid blocking calls."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Asy_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "LINQ Performance, Deferred Execution, and Expression Trees",
+      "meaning": "Mastering query evaluation timing, avoiding performance traps like multiple enumerations, and translating C# lambdas into executable logic for out-of-memory providers using expression trees.",
+      "questions": [
+        {
+          "q": "What is deferred execution in LINQ, and how does it impact performance?",
+          "a": "Deferred execution means query construction is separated from its execution. The query doesn't run when defined, but iterates when enumerated (e.g., via foreach, ToList). This avoids immediate memory allocation and allows chaining. However, multiple enumerations of the same query cause redundant iterations and performance hits. Always materialize results with ToList() or ToArray() if the data must be iterated multiple times.",
+          "p": [
+            "Queries execute on iteration, not definition.",
+            "Saves memory by avoiding premature evaluation.",
+            "Multiple enumerations re-run the entire query logic.",
+            "Use ToList() to cache and prevent repeated execution."
+          ],
+          "level": "Medium",
+          "id": "c_medium_LIN_0"
+        },
+        {
+          "q": "What is the difference between IEnumerable and IQueryable regarding execution and performance?",
+          "a": "IEnumerable executes queries in-memory using LINQ-to-Objects, meaning all data is loaded locally before filtering. IQueryable represents a remote query structure, translating LINQ expressions into SQL or other query languages to execute on the database server. IQueryable heavily optimizes network bandwidth and memory by filtering data at the source. Use IQueryable for databases and IEnumerable for in-memory collections.",
+          "p": [
+            "IEnumerable processes data entirely in local memory.",
+            "IQueryable translates expressions for remote data stores (SQL).",
+            "IQueryable reduces network payload by pushing down logic.",
+            "Mistaking IEnumerable for IQueryable causes massive client-side memory loads."
+          ],
+          "level": "Medium",
+          "id": "c_medium_LIN_1"
+        },
+        {
+          "q": "How do Expression Trees work in LINQ, and why are they crucial for IQueryable?",
+          "a": "Expression trees represent code as a data structure rather than executable instructions, encapsulated by Expression<TDelegate>. When using IQueryable, LINQ providers inspect these trees to translate C# lambda expressions into database-specific SQL queries. Without expression trees, the provider would lack the metadata needed to parse the logic into a remote query language, forcing execution in client memory.",
+          "p": [
+            "Represents code as traversable data structures.",
+            "Used by IQueryable to translate LINQ to SQL.",
+            "Allows inspection and modification of lambda logic at runtime.",
+            "Enables remote execution instead of local loading."
+          ],
+          "level": "Medium",
+          "id": "c_medium_LIN_2"
+        },
+        {
+          "q": "What are common performance pitfalls when working with LINQ, and how do you avoid them?",
+          "a": "Common pitfalls include multiple enumeration, calling AsEnumerable() too early, and using complex methods inside queries that cannot be translated to SQL (causing client-side evaluation). Avoid multiple enumeration by materializing results. Ensure filtering happens early in IQueryable chains before projections. Be mindful of closure captures in queries, which can degrade performance or prevent SQL translation.",
+          "p": [
+            "Avoid multiple enumeration by calling ToList().",
+            "Filter data as early as possible to reduce dataset size.",
+            "Watch for unintended client-side evaluation warnings.",
+            "Avoid heavy method calls inside query predicates."
+          ],
+          "level": "Medium",
+          "id": "c_medium_LIN_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Dependency Injection and IoC Container Lifetimes",
+      "meaning": "Dependency Injection is a design pattern for achieving Inversion of Control between classes and their dependencies. IoC containers manage the lifecycle and instantiation of these registered services in a C# application.",
+      "questions": [
+        {
+          "q": "What are the three service lifetimes available in the native .NET IoC container, and when should you use each?",
+          "a": "Transient services are created each time they are requested, ideal for lightweight, stateless services. Scoped services are created once per client request (HTTP request in web apps), perfect for Unit of Work or Entity Framework DbContext. Singleton services are created the first time they are requested and live for the application's entire lifespan, suitable for shared caches or configuration settings.",
+          "p": [
+            "Transient: New instance every time.",
+            "Scoped: One instance per web/client request.",
+            "Singleton: Single instance for the app's lifetime."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Dep_0"
+        },
+        {
+          "q": "What is a captive dependency, and how does it happen in C#?",
+          "a": "A captive dependency occurs when a service with a shorter lifetime (like Transient or Scoped) is injected into a service with a longer lifetime (like a Singleton). Because the Singleton lives forever, it captures the shorter-lived dependency, potentially causing memory leaks or stale data issues. .NET Core prevents this for Scoped-in-Singleton by default when using built-in validation options.",
+          "p": [
+            "Shorter-lived service trapped in a longer-lived one.",
+            "Singleton holding a Scoped or Transient service.",
+            "Causes memory leaks or unintended state sharing."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Dep_1"
+        },
+        {
+          "q": "Why is Entity Framework Core's DbContext registered as Scoped by default, and what happens if you make it Transient?",
+          "a": "DbContext is Scoped because it maintains a tracking cache of entities and is not thread-safe. A Scoped lifetime ensures that all database operations within a single HTTP request share the same context and Unit of Work. Making it Transient could lead to multiple concurrent instances per request, breaking change-tracking consistency and causing race conditions or data corruption.",
+          "p": [
+            "DbContext is not thread-safe.",
+            "Scoped ensures one context per HTTP request.",
+            "Transient causes separate instances and tracking issues."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Dep_2"
+        },
+        {
+          "q": "How do you implement keyed services in .NET 8, and why are they useful?",
+          "a": "Keyed services allow you to register multiple implementations of the same interface using a lookup key (string or enum). You use methods like AddKeyedTransient<TInterface, TImplementation>('key') and inject them using the [FromKeyedServices('key')] attribute. They are useful when you need to dynamically select a specific implementation at runtime without resolving all implementations.",
+          "p": [
+            "Register multiple implementations with unique keys.",
+            "Use [FromKeyedServices] attribute for injection.",
+            "Great for strategy pattern selection in .NET 8+."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Dep_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "ASP.NET Core Web API Architecture and RESTful Best Practices",
+      "meaning": "Designing scalable, maintainable, and standards-compliant HTTP services using ASP.NET Core with proper separation of concerns and robust API design principles.",
+      "questions": [
+        {
+          "q": "How do you implement versioning in ASP.NET Core Web APIs, and what are the common approaches?",
+          "a": "API versioning ensures backward compatibility when your API evolves. The most common approaches are URI path versioning (e.g., /api/v1/resource), query string versioning, and custom request headers (e.g., X-Version). In ASP.NET Core, you implement this using the Microsoft.AspNetCore.Mvc.Versioning package. You configure API Explorer to document versions via Swagger, apply [ApiVersion] attributes to controllers, and use convention-based or attribute-based routing to direct traffic to the correct controller implementation, ensuring seamless client transitions.",
+          "p": [
+            "Use Microsoft.AspNetCore.Mvc.Versioning NuGet package.",
+            "Choose URI path, query string, or header for versioning.",
+            "Apply [ApiVersion] attribute to controllers.",
+            "Integrate with Swagger for multi-version documentation."
+          ],
+          "level": "Medium",
+          "id": "c_medium_ASP_0"
+        },
+        {
+          "q": "What is the Repository Pattern with Unit of Work, and why is it used in Web API architecture?",
+          "a": "The Repository Pattern abstracts data access logic, while the Unit of Work maintains a list of objects affected by a transaction and coordinates writing changes. In ASP.NET Core, this pattern decouples your Web API controllers from Entity Framework Core's DbContext, making unit testing easier and centralizing data querying logic. However, for simpler APIs using EF Core (which already implements Unit of Work via DbContext and repositories via DbSet), overusing this pattern can add unnecessary abstraction and boilerplate code.",
+          "p": [
+            "Abstracts data access and database operations.",
+            "Unit of Work coordinates atomic database transactions.",
+            "Improves unit testability by mocking data layers.",
+            "Can add unnecessary boilerplate if overused with EF Core."
+          ],
+          "level": "Medium",
+          "id": "c_medium_ASP_1"
+        },
+        {
+          "q": "How should global exception handling be implemented in an ASP.NET Core Web API?",
+          "a": "Global exception handling should be implemented using custom middleware or the built-in IExceptionHandler feature introduced in .NET 8. This ensures unhandled exceptions are caught uniformly, preventing sensitive stack traces from leaking to clients. It maps exceptions to standard HTTP status codes and returns consistent error payloads, typically following the RFC 7807 Problem Details specification. This approach keeps controllers clean, centralizes logging, and provides a predictable error contract for API consumers.",
+          "p": [
+            "Use custom middleware or .NET 8 IExceptionHandler.",
+            "Prevent internal stack traces from leaking to clients.",
+            "Return standard RFC 7807 Problem Details payloads.",
+            "Centralize logging for easier debugging."
+          ],
+          "level": "Medium",
+          "id": "c_medium_ASP_2"
+        },
+        {
+          "q": "How do you achieve rate limiting in ASP.NET Core Web APIs to protect resources?",
+          "a": "Rate limiting protects APIs from abuse and denial-of-service attacks by controlling the number of requests a client can make within a time window. ASP.NET Core provides built-in rate limiting middleware supporting Fixed Window, Sliding Window, Token Bucket, and Concurrency limiters. You configure policies in Program.cs using services.AddRateLimiter() and apply them globally or via the [EnableRateLimiter] attribute on controllers or actions, returning standard 429 Too Many Requests responses when limits are exceeded.",
+          "p": [
+            "Use built-in ASP.NET Core rate-limiting middleware.",
+            "Configure policies like Fixed Window or Sliding Window.",
+            "Apply globally or via [EnableRateLimiter] attributes.",
+            "Return HTTP 429 Too Many Requests on limit breaches."
+          ],
+          "level": "Medium",
+          "id": "c_medium_ASP_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Entity Framework Core Performance, Change Tracking, and Migrations",
+      "meaning": "Evaluating a developer's ability to optimize EF Core queries, manage change tracking states efficiently, and handle database schema evolution safely in production environments.",
+      "questions": [
+        {
+          "q": "When should you use AsNoTracking() in EF Core, and what performance benefits does it provide?",
+          "a": "Use AsNoTracking() for read-only queries. It tells EF Core not to cache entity instances in the Change Tracker, drastically reducing memory consumption and CPU overhead required for snapshot allocation and state management. This significantly improves throughput for large result sets.",
+          "p": [
+            "Use for read-only data scenarios.",
+            "Disables internal Change Tracker snapshot creation.",
+            "Reduces memory footprint and speeds up query execution.",
+            "Entities cannot be saved back via context without re-attaching."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Ent_0"
+        },
+        {
+          "q": "How do you prevent the N+1 query problem when loading related data in EF Core?",
+          "a": "Prevent the N+1 query problem by using eager loading with Include() and ThenInclude() to fetch related data in a single SQL round-trip. Alternatively, use split queries via AsSplitQuery() for complex graphs to avoid massive cartesian explosion and optimize memory usage.",
+          "p": [
+            "Eager load related data using Include() and ThenInclude().",
+            "Be aware of cartesian explosions on large collection joins.",
+            "Use AsSplitQuery() to execute separate optimized SQL statements.",
+            "Avoid lazy loading in web applications to prevent hidden database hits."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Ent_1"
+        },
+        {
+          "q": "What is the difference between Update(), Attach(), and modifying an entity retrieved from the change tracker?",
+          "a": "Retrieved entities are automatically tracked; modifying their properties flags them as Modified, generating precise UPDATE statements. Attach() marks an existing entity as Unchanged, requiring manual state changes. Update() marks the entire entity graph as Modified, forcing SQL updates for all properties regardless of actual changes.",
+          "p": [
+            "Tracked entities automatically detect property changes.",
+            "Attach() brings disconnected entities into the context as Unchanged.",
+            "Update() marks all entity properties as Modified.",
+            "Prefer targeted property updates over blanket Update() calls for performance."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Ent_2"
+        },
+        {
+          "q": "What are best practices for managing and applying database migrations in a production environment?",
+          "a": "Never run automatic migrations on application startup in production, as this causes concurrency issues and race conditions. Instead, generate idempotent SQL scripts using 'dotnet ef migrations script' and apply them through a secure CI/CD deployment pipeline.",
+          "p": [
+            "Avoid running context.Database.Migrate() in production app startup.",
+            "Generate idempotent SQL scripts via CLI tools for deployments.",
+            "Review generated migration scripts for potential data loss.",
+            "Maintain version-controlled migration history in source control."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Ent_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Exception Handling, Global Error Handling, and Logging Strategies",
+      "meaning": "Mastering resilient application design through structured exception management, centralized error interception in web APIs, and contextual, performant diagnostic logging.",
+      "questions": [
+        {
+          "q": "How do you implement global error handling in an ASP.NET Core Web API, and why is it preferred over try-catch in every controller?",
+          "a": "Use IExceptionHandler introduced in .NET 8 or custom middleware to intercept unhandled exceptions globally. This avoids repetitive try-catch boilerplate in controllers, ensures consistent error response formats (like RFC 7807 Problem Details), and centralizes logging logic, making maintenance cleaner and APIs more robust.",
+          "p": [
+            "Use IExceptionHandler or custom middleware.",
+            "Eliminates repetitive try-catch blocks.",
+            "Ensures consistent RFC 7807 Problem Details responses.",
+            "Centralizes cross-cutting logging concerns."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Exc_0"
+        },
+        {
+          "q": "What is structured logging (Semantic Logging), and why should you use it instead of string interpolation?",
+          "a": "Structured logging captures data as key-value pairs rather than plain concatenated strings. Using libraries like Serilog with message templates (e.g., 'User {UserId} logged in') preserves object structures. This enables efficient querying, indexing, and filtering in log aggregators like Seq or ElasticSearch, whereas string interpolation destroys searchability and hurts performance.",
+          "p": [
+            "Preserves data as queryable key-value pairs.",
+            "Avoids costly string concatenation.",
+            "Enables powerful filtering in log aggregators.",
+            "Uses message template syntax."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Exc_1"
+        },
+        {
+          "q": "When should you catch an exception versus letting it bubble up, and what is an anti-pattern to avoid?",
+          "a": "Catch exceptions only when you can handle them recoverably or add meaningful context before rethrowing. Let framework-level exceptions bubble up to global handlers. A major anti-pattern is 'catch-and-swallow' (empty catch blocks) or catching base System.Exception broadly, which hides bugs and leaves the application in an unstable state.",
+          "p": [
+            "Catch only to recover or wrap with context.",
+            "Rethrow using 'throw;' to preserve stack traces.",
+            "Avoid swallowing exceptions silently.",
+            "Never catch base System.Exception blindly."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Exc_2"
+        },
+        {
+          "q": "How do log levels impact production performance, and how does Serilog achieve zero-allocation logging?",
+          "a": "Log levels (Debug, Info, Warning, Error) filter verbosity to prevent disk I/O and CPU bottlenecks in production. Serilog achieves high performance through message template parsing at startup and conditional logging checks (IsEnabled). Using Serilog's structural parameters avoids boxing value types and string allocations when logging is disabled.",
+          "p": [
+            "Filter noise using appropriate log levels.",
+            "Prevents I/O and CPU performance degradation.",
+            "Check IsEnabled before executing expensive log prep.",
+            "Avoids object allocation and boxing overhead."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Exc_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Unit Testing, Integration Testing, and Mocking Frameworks",
+      "meaning": "Evaluating C# applications through isolated component tests, multi-component database/API checks, and behavior simulation using frameworks like xUnit and Moq.",
+      "questions": [
+        {
+          "q": "What is the primary difference between Stubbing and Mocking in C# unit tests?",
+          "a": "A stub provides predefined answers to method calls during a test, caring only about state and inputs. A mock verifies behavior by setting expectations on how methods are called (e.g., verifying a method was invoked exactly once). Stubs represent state verification, while mocks focus on behavior verification.",
+          "p": [
+            "Stubs supply indirect inputs to the system under test.",
+            "Mocks verify indirect outputs and method interactions.",
+            "Moq framework supports both depending on setup and verification."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Uni_0"
+        },
+        {
+          "q": "How do you test asynchronous code and async methods effectively using xUnit?",
+          "a": "Test methods returning asynchronous operations should be defined as returning `Task` instead of `void`. This allows xUnit to properly await the execution lifecycle. Use `async/await` syntax within the test body, and use `Assert.ThrowsAsync<T>` to validate expected exceptions thrown by async operations.",
+          "p": [
+            "Return Task from test methods, never async void.",
+            "Await all asynchronous operations inside the test.",
+            "Use Assert.ThrowsAsync for exception handling."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Uni_1"
+        },
+        {
+          "q": "When should you use integration tests over unit tests in a .NET Core Web API?",
+          "a": "Use unit tests to validate isolated business logic using mocked dependencies. Use integration tests—leveraging `WebApplicationFactory<TStartup>`—to verify that multiple components, such as routing, middleware, Entity Framework Core contexts, and external API controllers, work together correctly against a real or in-memory database.",
+          "p": [
+            "Unit tests isolate single classes with mocks.",
+            "Integration tests validate end-to-end component cooperation.",
+            "WebApplicationFactory simplifies ASP.NET Core integration testing."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Uni_2"
+        },
+        {
+          "q": "What are the common pitfalls when mocking extension methods or sealed classes in C#?",
+          "a": "Standard mocking frameworks like Moq cannot intercept or mock static methods, extension methods, or sealed classes directly because they rely on dynamic proxy generation via inheritance. To overcome this, wrap static/sealed dependencies in an interface-based adapter or use advanced tools like JustMock or Microsoft Fakes.",
+          "p": [
+            "Moq requires virtual or interface-based members.",
+            "Static and extension methods cannot be directly mocked.",
+            "Use an interface wrapper (Adapter pattern) as a best practice."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Uni_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Memory Management, Garbage Collection, and IDisposable Implementation",
+      "meaning": "Mastering .NET memory allocation, Gen 0/1/2 GC cycles, large object heap (LOH), and deterministic cleanup of unmanaged resources via the Dispose pattern.",
+      "questions": [
+        {
+          "q": "Explain the generational Garbage Collection mechanism in .NET and how objects are promoted.",
+          "a": ".NET divides the managed heap into three generations: Gen 0, Gen 1, and Gen 2. Gen 0 holds short-lived objects and is collected most frequently. Objects surviving a GC collection are promoted to the next generation. Gen 2 holds long-lived objects, alongside the Large Object Heap (LOH) for objects over 85,000 bytes. This generational approach optimizes performance by avoiding full heap scans during frequent minor collections.",
+          "p": [
+            "Gen 0: Short-lived objects, collected fastest.",
+            "Gen 1: Buffer generation between short and long life.",
+            "Gen 2: Long-lived objects and static references.",
+            "Promotion happens when an object survives a collection."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mem_0"
+        },
+        {
+          "q": "What is the standard Dispose pattern, and why is the finalizer considered a fallback?",
+          "a": "The Dispose pattern implements deterministic cleanup of unmanaged resources using IDisposable.Dispose(). The finalizer (~ClassName) is a non-deterministic fallback executed by the GC if the consumer forgets to call Dispose, causing memory pressure and latency. You suppress finalization via GC.SuppressFinalize(this) in Dispose to optimize GC performance, as finalizing objects requires two GC cycles.",
+          "p": [
+            "IDisposable provides deterministic resource cleanup.",
+            "Finalizers are non-deterministic and hurt GC performance.",
+            "Always call GC.SuppressFinalize(this) in Dispose.",
+            "Finalizers run on a separate dedicated thread."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mem_1"
+        },
+        {
+          "q": "When and why should you use the Large Object Heap (LOH), and what are its performance pitfalls?",
+          "a": "The LOH stores objects larger than 85,000 bytes, typically large arrays. It is allocated on a separate segment and is not compacted by default during standard GC sweeps to avoid massive CPU overhead. This leads to memory fragmentation. Starting with .NET Core, LOH compaction can be explicitly triggered, but minimizing large allocations or using ArrayPool<T> is the best practice to prevent fragmentation.",
+          "p": [
+            "Triggered by objects >= 85,000 bytes.",
+            "Not compacted by default, leading to fragmentation.",
+            "Use ArrayPool<T> to reuse large arrays efficiently.",
+            "Explicit LOH compaction available in modern .NET."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mem_2"
+        },
+        {
+          "q": "How does GC.Collect() impact application performance, and when is it acceptable to use?",
+          "a": "Calling GC.Collect() forces an immediate collection across specified generations, disrupting the runtime's heuristic algorithms that optimize GC frequency based on memory pressure. It causes significant CPU spikes and stop-the-world pauses. It should almost never be called in production code, except in rare scenarios like hosting long-running batch jobs after releasing massive, isolated memory blocks.",
+          "p": [
+            "Disrupts optimized runtime heuristics.",
+            "Causes CPU spikes and application pauses.",
+            "Avoid in high-throughput web applications.",
+            "Acceptable only in specific batch/memory-heavy scripts."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mem_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Configuration Management, Options Pattern, and Environment Secrets",
+      "meaning": "The mechanism in .NET for securely and strongly typing application settings across environments using configuration providers and the Options pattern.",
+      "questions": [
+        {
+          "q": "What is the primary benefit of using the Options Pattern (`IOptions<T>`, `IOptionsSnapshot<T>`, `IOptionsMonitor<T>`) over direct configuration binding?",
+          "a": "The Options Pattern decouples configuration settings from your services by using strongly-typed classes. It adheres to the Interface Segregation Principle and provides built-in validation. `IOptions` is a singleton for static settings, `IOptionsSnapshot` scopes configuration to re-evaluate on each web request for reloading files, and `IOptionsMonitor` is a singleton that supports change notifications in real-time without restarting the application.",
+          "p": [
+            "Strongly-typed classes replace magic strings.",
+            "IOptions handles static configuration.",
+            "IOptionsSnapshot supports per-request reloading.",
+            "IOptionsMonitor provides real-time change notifications."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Con_0"
+        },
+        {
+          "q": "How does ASP.NET Core determine the order of configuration precedence, and why does it matter?",
+          "a": "ASP.NET Core loads configuration providers sequentially, where later providers override earlier ones. The typical order is: appsettings.json, appsettings.{Environment}.json, User Secrets (development only), Environment Variables, and Command-Line arguments. This precedence is critical because it allows local development defaults to be safely overridden by environment-specific configurations and secure secrets in production without changing code.",
+          "p": [
+            "Later providers override earlier ones.",
+            "Environment variables take high precedence.",
+            "User secrets apply only in development.",
+            "Enables seamless local-to-production transitions."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Con_1"
+        },
+        {
+          "q": "What is the difference between appsettings.json and .NET User Secrets, and when should you use each?",
+          "a": "Appsettings.json stores general, non-sensitive configuration settings that can safely be checked into source control. .NET User Secrets stores sensitive data (like connection strings or API keys) locally on your machine during development, stored outside the project directory. Use appsettings.json for shared configuration defaults and User Secrets to prevent accidental exposure of sensitive credentials in public repositories.",
+          "p": [
+            "Appsettings.json is for safe, non-sensitive settings.",
+            "User Secrets store sensitive data locally.",
+            "User Secrets reside outside the project directory.",
+            "Prevents accidental credential leaks in source control."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Con_2"
+        },
+        {
+          "q": "How can you validate configuration settings at startup using the Options Pattern?",
+          "a": "You can validate configuration at startup by using data annotations on the options class combined with `.ValidateDataAnnotations()`, or by implementing the `IValidateOptions<T>` interface for custom validation logic. Registering these during service configuration causes the application to fail fast upon startup if any required settings are missing or invalid, preventing runtime errors later.",
+          "p": [
+            "Use Data Annotations for declarative validation.",
+            "Implement IValidateOptions for custom logic.",
+            "Enable validation via Fluent API during registration.",
+            "Fails fast on startup to prevent runtime crashes."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Con_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Middleware Pipelines, Filters, and Cross-Cutting Concerns",
+      "meaning": "Managing cross-cutting concerns in ASP.NET Core using request-processing middleware and MVC execution filters.",
+      "questions": [
+        {
+          "q": "What is the difference between ASP.NET Core Middleware and MVC Filters?",
+          "a": "Middleware operates at the low-level HTTP pipeline level, handling every request regardless of the endpoint, ideal for routing, authentication, and static files. MVC Filters operate within the MVC framework context after routing has determined the controller and action, providing access to model state and action arguments.",
+          "p": [
+            "Middleware handles raw HTTP requests globally.",
+            "Filters operate within the MVC/Controller context.",
+            "Middleware executes before routing; filters execute after."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mid_0"
+        },
+        {
+          "q": "How do you create a custom inline middleware using `Use` vs `Run`?",
+          "a": "Use `app.Use()` when you want to execute logic and pass the request to the next middleware in the pipeline via `next()`. Use `app.Run()` to define a terminal middleware that short-circuits the pipeline and immediately returns a response without calling subsequent middleware.",
+          "p": [
+            "`Use` calls the next delegate to continue the pipeline.",
+            "`Run` is terminal and short-circuits further execution.",
+            "Order matters significantly when registering middleware."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mid_1"
+        },
+        {
+          "q": "When should you use an Action Filter versus a Middleware for cross-cutting concerns like logging?",
+          "a": "Use Middleware for low-level, global concerns that apply to all requests (e.g., global exception handling, request timing). Use Action Filters when you need specific context about the MVC action, such as method arguments, controller names, or model state validation.",
+          "p": [
+            "Middleware is global and framework-agnostic.",
+            "Filters give access to action arguments and metadata.",
+            "Choose based on required scope and dependency needs."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mid_2"
+        },
+        {
+          "q": "How do you pass dependencies to a custom Action Filter in ASP.NET Core?",
+          "a": "Because filters are often instantiated per request or attribute usage, you typically use the `[TypeFilter]` or `[ServiceFilter]` attribute on the controller/action, or implement `IAsyncActionFilter` and apply it via `[TypeFilter(typeof(MyCustomFilter))]`, allowing the dependency injection container to resolve dependencies.",
+          "p": [
+            "Standard attributes cannot directly use constructor injection.",
+            "Use `[ServiceFilter]` for registered filter services.",
+            "Use `[TypeFilter]` to automatically instantiate unregistered filters."
+          ],
+          "level": "Medium",
+          "id": "c_medium_Mid_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "NuGet Package Management, Versioning, and Code Modularity",
+      "meaning": "Technical summary of NuGet Package Management, Versioning, and Code Modularity",
+      "questions": [
+        {
+          "q": "How does Semantic Versioning (SemVer) dictate upgrade safety in NuGet packages, and what is the role of the caret (^) or tilde (~) operators?",
+          "a": "SemVer uses MAJOR.MINOR.PATCH format. Major changes indicate breaking changes, minor adds features backwards-compatibly, and patch fixes bugs. In NuGet, the floating version operators manage how transitive and direct dependencies update. The caret operator allows updates that do not change the leftmost non-zero digit, ensuring safe non-breaking updates.",
+          "p": [
+            "Major.Minor.Patch structure defines API stability.",
+            "Major changes require manual intervention due to breaking updates.",
+            "Range operators automate safe minor and patch upgrades."
+          ],
+          "level": "Medium",
+          "id": "c_medium_NuG_0"
+        },
+        {
+          "q": "What is the difference between project references and NuGet package references in a modular C# solution, and when should you use PrivateAssets?",
+          "a": "Project references provide direct source code compilation and rapid iteration within a solution, while NuGet packages offer isolated, versioned binaries for distribution. You use PrivateAssets=\"all\" on a NuGet reference to prevent transitively flowing development-only tools, like analyzers or code generators, to consuming projects.",
+          "p": [
+            "Project references are best for internal monolithic solutions.",
+            "NuGet packages enforce boundaries and versioning for external consumption.",
+            "PrivateAssets hides transitively bundled dependencies from consumers."
+          ],
+          "level": "Medium",
+          "id": "c_medium_NuG_1"
+        },
+        {
+          "q": "How do you design a modular C# library to avoid dependency hell when consuming third-party packages?",
+          "a": "Adopt the Dependency Inversion Principle. Instead of binding your domain logic directly to concrete third-party implementations, expose abstractions (interfaces) in your core library and inject dependencies via IoC containers. Keep third-party package dependencies as low as possible in foundational layers to prevent forcing consumers into specific versions.",
+          "p": [
+            "Depend on abstractions, not concrete third-party packages.",
+            "Keep core domain libraries dependency-free.",
+            "Use adapter patterns to isolate external SDK changes."
+          ],
+          "level": "Medium",
+          "id": "c_medium_NuG_2"
+        },
+        {
+          "q": "What is Central Package Management (CPM) in NuGet, and how does it improve code modularity and maintainability in large solutions?",
+          "a": "Central Package Management consolidates NuGet package versions into a single Directory.Packages.props file at the root of your repository. This ensures that all projects within the solution consume the exact same package version, eliminating version drift, simplifying audits, and streamlining updates across multiple modular class libraries.",
+          "p": [
+            "Managed via Directory.Packages.props at the solution root.",
+            "Eliminates version conflicts across multiple projects.",
+            "Enables global package version updates in one place."
+          ],
+          "level": "Medium",
+          "id": "c_medium_NuG_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "CLR Execution Engine & Execution Pipeline: JIT Compilation (RyuJIT, Tiered Compilation, OSR), Native AOT, and Execution Modes",
+      "meaning": "Advanced architecture of .NET compilation, covering RyuJIT internals, Tiered Compilation, On-Stack Replacement (OSR), and Native AOT.",
+      "questions": [
+        {
+          "q": "How does RyuJIT optimize small structs passed by value, and what are the memory layout implications under the hood?",
+          "a": "RyuJIT flattens small structs (up to 4 registers on 64-bit systems) and passes their fields directly in CPU registers rather than pushing them onto the stack. This reduces memory traffic, avoids heap allocations, and bypasses the overhead of traditional calling conventions. However, it increases register pressure and can complicate debugging because field addresses become transient or unavailable in memory.",
+          "p": [
+            "Passes fields in CPU registers instead of stack memory.",
+            "Reduces memory traffic and avoids heap allocations.",
+            "Increases register pressure during method execution."
+          ],
+          "level": "Hard",
+          "id": "c_hard_CLR_0"
+        },
+        {
+          "q": "Explain the mechanics of Tiered Compilation and On-Stack Replacement (OSR) when a hot loop runs inside a cold method.",
+          "a": "Tier 0 compiles methods quickly with minimal optimizations. When a method or loop execution count exceeds a threshold, background Tier 1 compilation triggers. If a long-running, non-terminating loop (cold method) is already executing on the stack, Tiered OSR intercepts it mid-execution, translates the active stack frame to optimized Tier 1 machine code, and seamlessly transfers control without restarting the method from the prologue.",
+          "p": [
+            "Tier 0 provides fast startup with minimal optimizations.",
+            "Background threads compile hot code to Tier 1.",
+            "OSR hot-swaps stack frames mid-loop for active methods."
+          ],
+          "level": "Hard",
+          "id": "c_hard_CLR_1"
+        },
+        {
+          "q": "What are the runtime limitations and trade-offs of Native AOT regarding Reflection, Generics, and dynamic code generation?",
+          "a": "Native AOT compiles IL directly to native machine code ahead of time, eliminating the JIT compiler at runtime. Without JIT, technologies relying on dynamic code generation (like System.Reflection.Emit) fail. Generics require explicit instantiation hints via dynamic dependency analysis or [DynamicDependency] attributes because RyuJIT cannot instantiate new generic types at runtime. This reduces binary size and startup time at the cost of dynamic flexibility.",
+          "p": [
+            "Removes JIT overhead for faster startup and smaller footprint.",
+            "Breaks dynamic code generation (Reflection.Emit).",
+            "Requires explicit generic type instantiation analysis."
+          ],
+          "level": "Hard",
+          "id": "c_hard_CLR_2"
+        },
+        {
+          "q": "How does the execution engine handle interface method dispatch via MethodTable and Dispatch Resolution Slots (Vtable/Interface Maps), and how does RyuJIT optimize it?",
+          "a": "Interface dispatch uses interface maps embedded in the class's MethodTable. When calling an interface method, the runtime performs a lookup in this map unless optimized. RyuJIT optimizes this via Interface Dispatch Caching (IDCache) and devirtualization. It uses inline caching (PIC - Polymorphic Inline Cache) to remember the target type, turning a costly interface lookup into a fast guarded direct or indirect branch.",
+          "p": [
+            "Relies on MethodTable interface maps for dispatch.",
+            "Uses Polymorphic Inline Caching (PIC) to cache lookups.",
+            "Enables devirtualization to convert interface calls into direct jumps."
+          ],
+          "level": "Hard",
+          "id": "c_hard_CLR_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Advanced Memory Management & Garbage Collection: GC Heap Segments, Generations, LOH/POH, Ephemeral GC, and GC Latency Modes",
+      "meaning": "Internal mechanisms of .NET Garbage Collection, covering heap segment architectures (Gen 0/1/2, LOH, POH), cross-generational reference tracking, memory compaction trade-offs, and fine-tuning GC behavior via execution modes.",
+      "questions": [
+        {
+          "q": "How does the Pinned Object Heap (POH) prevent heap fragmentation and GC pause spikes compared to pinning on the Ephemeral Heap?",
+          "a": "Pinning objects on Ephemeral heaps creates unmovable 'islands' that block GC compaction, causing severe fragmentation and preventing segment sweeps. The Pinned Object Heap (POH), introduced in .NET 5, isolates pinned objects (like array buffers for I/O) into dedicated, non-compacted segments. Allocations on POH use a free-list strategy and accept user-specified allocations via GC.AllocateArray(..., pinned: true). By isolating pinned instances from Gen 0/1/2, the GC can freely compact ephemeral heaps without tracking complex pin handles, eliminating GC pause spikes and fragmentation in high-I/O applications.",
+          "p": [
+            "Ephemeral pinning creates unmovable islands, causing severe heap fragmentation.",
+            "POH isolates pinned buffers into distinct non-compacted segments.",
+            "Eliminates GC compaction tracking overhead on Ephemeral heaps.",
+            "Uses a free-list strategy for allocations, reducing Gen 0/1 pause spikes."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Adv_0"
+        },
+        {
+          "q": "How do Write Barriers and Card Tables enable Ephemeral GC without scanning the entire Gen 2 heap?",
+          "a": "Ephemeral GC (Gen 0/1) must identify all live references without scanning Gen 2. When a Gen 2 object is updated to reference a Gen 0/1 object, the JIT injects a Write Barrier—a small assembly snippet executed during reference assignment. This barrier marks a bit in the Card Table, a byte array where each byte represents a 512-byte region of the heap. During Ephemeral GC, the collector scans only the dirty cards in the Card Table rather than all of Gen 2, dramatically reducing Gen 0/1 pause times.",
+          "p": [
+            "Ephemeral GC avoids Gen 2 full scans via JIT-injected Write Barriers.",
+            "Card Table maps 512-byte heap chunks; updated chunks are marked 'dirty'.",
+            "GC scans only dirty card regions to locate root references into Gen 0/1.",
+            "Minimizes Ephemeral collection pauses by isolating inter-generational pointers."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Adv_1"
+        },
+        {
+          "q": "What happens under the hood when GCLatencyMode.SustainedLowLatency is enabled, and what are its operational risks?",
+          "a": "SustainedLowLatency suppresses blocking full Gen 2 collections while allowing Ephemeral collections (Gen 0/1) and non-blocking Background GC to run. If Gen 2 memory pressure increases, the GC refrains from compacting Gen 2 and instead expands heap segments by acquiring more virtual memory. The primary operational risk is running Out of Memory (OOM). If process memory hits hard limits, the engine overrides the latency setting, triggering a full blocking GC or throwing OutOfMemoryException. It must be used briefly during critical execution windows.",
+          "p": [
+            "Suppresses blocking full Gen 2 collections while keeping Ephemeral GC active.",
+            "Background GC continues, but full non-blocking compaction is deferred.",
+            "Unbounded allocations force heap segment expansion, risking OOM errors.",
+            "Intended for short, latency-critical windows and requires manual restoration."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Adv_2"
+        },
+        {
+          "q": "How does Server GC differ internally from Workstation GC regarding thread alignment, TLABs, and performance trade-offs?",
+          "a": "Server GC creates dedicated GC heaps and execution threads for each logical CPU core. Allocations occur on core-local heaps via Thread Local Allocation Buffers (TLABs), eliminating lock contention during multi-threaded allocations. During garbage collection, dedicated GC threads mark and sweep their respective heaps in parallel using synchronization barriers. While Server GC delivers maximum throughput and scales efficiently with high core counts, it consumes a significantly larger base memory footprint and can cause severe thread starvation on shared hosting environments compared to Workstation GC.",
+          "p": [
+            "Creates a dedicated GC heap and GC thread per logical CPU core.",
+            "Core-local TLABs eliminate lock contention during concurrent allocations.",
+            "Parallel mark/sweep phases maximize throughput on high-core machines.",
+            "Higher base memory footprint and risk of CPU starvation on shared hosts."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Adv_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Value Types, Boxing/Unboxing Internals, and Stack Allocation Mechanics via ref struct and Span<T>",
+      "meaning": "Advanced analysis of C# memory allocation, focusing on stack vs. heap mechanics, the cost of boxing value types, and safe memory manipulation using ref struct and Span<T>.",
+      "questions": [
+        {
+          "q": "Explain the exact CLR memory mechanics that occur during boxing and unboxing of a struct implementing an interface.",
+          "a": "Boxing allocates memory on the GC heap for an object header, method table pointer, and the copied struct payload. If the struct implements an interface, invoking a method on the boxed instance causes a type check, but crucially, calling it directly avoids interface stub dispatch overhead. Unboxing extracts a managed pointer (typed reference) to the value payload inside the heap object, avoiding a copy until explicitly assigned back to a stack variable.",
+          "p": [
+            "Allocates object header and method table on the GC heap.",
+            "Copies the value type payload from stack to heap.",
+            "Unboxing yields a managed pointer to the heap payload.",
+            "Interface method calls on boxed types can cause boxing/unboxing if not carefully constrained."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Val_0"
+        },
+        {
+          "q": "Why does the C# compiler enforce that a ref struct cannot be boxed, captured in async state machines, or stored in generic fields?",
+          "a": "Ref structs are strictly constrained to the evaluation stack or native memory frames to guarantee they never outlive their stack frame. Allowing boxing would move them to the managed heap, violating stack-only safety. Async state machines lift local variables into heap-allocated classes across await boundaries, which destroys stack lifetimes. Generic fields are disallowed because the JIT cannot statically prove the type parameter is not a reference type or a boxed type, risking lifetime safety violations.",
+          "p": [
+            "Guarantees stack-only lifetime allocation to prevent dangling pointers.",
+            "Async methods rewrite local variables into heap-allocated state machines.",
+            "Generics cannot guarantee stack-only boundaries without strict type constraints.",
+            "Ensures zero heap allocation overhead for high-performance pipelines."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Val_1"
+        },
+        {
+          "q": "How does Span<T> bypass array covariance checks and safe indexing overhead while remaining memory-safe?",
+          "a": "Span<T> wraps a managed pointer (ref T) and a length using byref-like architecture. Unlike arrays, Span<T> is invariant, eliminating runtime covariance checks during assignments. It uses intrinsic methods JIT-compiled into optimized assembly, often removing bounds checks entirely within predictable loops. The ref struct constraint ensures the span itself cannot escape its stack frame, neutralizing lifetime-related memory corruption risks.",
+          "p": [
+            "Encapsulates a managed pointer (ref T) and length.",
+            "Enforces type invariance to eliminate runtime covariance checks.",
+            "Enables JIT-optimized bounds-check elimination in tight loops.",
+            "Restricted by ref struct rules to prevent heap escape."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Val_2"
+        },
+        {
+          "q": "Analyze the dangers of using stackalloc inside a loop within a high-throughput hot path.",
+          "a": "The stackalloc operator allocates memory directly on the stack by adjusting the stack pointer. In a tight loop, repeated stackalloc calls continuously decrement the stack pointer without releasing it until the method exits, leading to a rapid StackOverflowException. Furthermore, memory allocated via stackalloc is uninitialized and not garbage-collected, meaning it can leak sensitive data or cause undefined behavior if not explicitly handled.",
+          "p": [
+            "Adjusts the stack pointer without immediate deallocation until method return.",
+            "Repeated allocations in loops quickly trigger StackOverflowException.",
+            "Memory is uninitialized and can contain stale data.",
+            "Bypasses the GC entirely, requiring manual safety guarantees."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Val_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Memory Layout, Object Structuring, Method Table Pointers, SyncBlocks, and Pinned Objects",
+      "meaning": "Deep dive into the CLR object header anatomy, method dispatch mechanics, object synchronization structures, and GC pinning implications.",
+      "questions": [
+        {
+          "q": "Explain the exact memory layout of a reference type instance on the 64-bit managed heap, including Object Header and MethodTable pointer mechanics.",
+          "a": "A 64-bit managed object starts with an 8-byte SyncBlock (Object Header), followed by an 8-byte MethodTable pointer. Fields follow, arranged by size (references, 8-byte, 4-byte, 2-byte, 1-byte) to minimize padding. Subclass fields generally follow base class fields. The MethodTable pointer enables type identity, interface mapping, and virtual dispatch. GC uses this layout to traverse object graphs during collection cycles.",
+          "p": [
+            "SyncBlock (8 bytes) + MethodTable pointer (8 bytes) overhead.",
+            "Field packing optimizes space and prevents memory holes.",
+            "MethodTable pointer links instance to its type definition."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Mem_0"
+        },
+        {
+          "q": "How does the CLR dynamically manage SyncBlocks when lock contention or hash code requests occur on an object?",
+          "a": "Initially, the SyncBlock index in the Object Header is zero. When a lock (lock statement) or GetHashCode() is called, the CLR allocates a SyncBlock from a global SyncBlock Table and points the object header's index to it. This lazy allocation saves memory. Under high contention, the SyncBlock holds the owning thread ID and recursion count, while unallocated objects bypass this overhead entirely.",
+          "p": [
+            "SyncBlocks are allocated lazily to save heap memory.",
+            "Object header holds an index mapping to a global table.",
+            "Handles thread ownership, waiting queues, and hash codes."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Mem_1"
+        },
+        {
+          "q": "What are the exact GC mechanics and performance penalties associated with using GCHandle.Alloc with GCHandleType.Pinned?",
+          "a": "Pinning an object registers its address with the GC, preventing it from being relocated during compaction. This creates a fixed memory barrier in the generation, causing external fragmentation. The GC cannot compact memory around pinned objects, leading to increased memory footprints and GC promotion delays. Excessive pinning forces the GC to work harder, degrading throughput in high-allocation scenarios.",
+          "p": [
+            "Prevents GC from moving the object during compaction.",
+            "Causes memory fragmentation and reduces heap efficiency.",
+            "Must be explicitly freed to avoid memory leaks."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Mem_2"
+        },
+        {
+          "q": "How does MethodTable dispatch work for interface methods versus virtual methods, and what is the role of interface maps?",
+          "a": "Virtual methods are resolved via a slot in the MethodTable's vtable, allowing O(1) dispatch. Interface methods cannot rely on fixed vtable offsets because different classes implement interfaces at different indices. The CLR uses an interface map (Itable) per class, mapping interface slots to the class's actual method implementations. Interface dispatch involves a small lookup cost compared to direct virtual calls.",
+          "p": [
+            "Virtual methods use fixed vtable slots for fast O(1) dispatch.",
+            "Interfaces require an Itable lookup due to varying implementations.",
+            "MethodTable resolves polymorphic calls dynamically."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Mem_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Asynchronous Programming Internals: The Async Method Builder State Machine, Task/ValueTask Allocation, and SynchronizationContext",
+      "meaning": "Advanced mechanics of C# async/await, including state machine rewriting, memory allocation optimization via ValueTask, and context marshalling.",
+      "questions": [
+        {
+          "q": "How does the C# compiler rewrite an async method into a state machine, and what role does AsyncMethodBuilder play in memory allocation?",
+          "a": "The compiler transforms the method into a struct implementing `IAsyncStateMachine`. It uses `AsyncTaskMethodBuilder` (or its generic counterpart) to manage the underlying `Task` lifecycle. If the awaited operation completes synchronously, the builder avoids allocating a new `Task` object, caching and returning a completed task instead, which drastically reduces GC pressure in hot paths.",
+          "p": [
+            "Compiler generates struct implementing IAsyncStateMachine.",
+            "AsyncMethodBuilder controls Task creation and lifecycle.",
+            "Synchronous completion avoids heap allocation."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Asy_0"
+        },
+        {
+          "q": "Compare Task and ValueTask. When is ValueTask allocation-free, and what are the catastrophic pitfalls of misusing it?",
+          "a": "ValueTask is a discriminated union of a `Task` and a `T` result, designed to avoid allocations when operations complete synchronously. It is allocation-free only when consumed correctly: awaited once, synchronously or asynchronously. Pitfalls include awaiting multiple times, ignoring the result, or reading `.Result` before completion, which leads to undefined behavior, data corruption, or memory leaks due to underlying pooled token misuse.",
+          "p": [
+            "Discriminated union wrapping Task or direct result.",
+            "Allocation-free only on single, direct await.",
+            "Multiple awaits or race conditions cause undefined behavior."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Asy_1"
+        },
+        {
+          "q": "What is the role of SynchronizationContext in async/await, and why is relying on it considered an anti-pattern in modern library design?",
+          "a": "SynchronizationContext captures the thread context (like the UI thread) before an await point and posts the continuation back to it. In modern library design, it causes deadlocks (e.g., calling `.Result` on a UI thread) and limits throughput by pinning continuations to specific threads. Libraries should always use `.ConfigureAwait(false)` to bypass context marshalling.",
+          "p": [
+            "Captures and marshals continuations to original thread.",
+            "Causes deadlocks when blocked synchronously.",
+            "Always use ConfigureAwait(false) in libraries."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Asy_2"
+        },
+        {
+          "q": "Explain how ExecutionContext flows across async boundaries and the performance overhead associated with it.",
+          "a": "ExecutionContext encapsulates ambient data like AsyncLocal variables, security context, and logical call contexts. Whenever an async operation yields, ExecutionContext is captured and later restored on the continuation thread via ThreadPool or SynchronizationContext. This flow introduces CPU and memory overhead. High-performance code can suppress this using ExecutionContext.SuppressFlow() when ambient context propagation is unnecessary.",
+          "p": [
+            "Captures AsyncLocal and security context across awaits.",
+            "Ensures ambient data flows to continuations.",
+            "Adds CPU overhead; suppressable via SuppressFlow()."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Asy_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Generic Specialization, Type Substitution, Covariance/Contravariance, and Code Bloat Mitigation in RyuJIT",
+      "meaning": "Advanced mechanics of how the CLR and RyuJIT instantiate generics, handle value vs. reference type substitution, enforce variance, and prevent excessive native code generation.",
+      "questions": [
+        {
+          "q": "How does RyuJIT differentiate code generation for value types versus reference types in generics, and what is the memory footprint impact?",
+          "a": "RyuJIT creates a specialized native code instantiation for every unique value type combination because sizes vary. For reference types, it shares a single shared generic implementation using pointer-sized representations (canonical types). This optimization drastically reduces code bloat, though value-type specialization can cause instruction cache pressure if overused.",
+          "p": [
+            "Value types get unique native code per instantiation.",
+            "Reference types share a single canonical method table.",
+            "Prevents explosive code bloat for classes.",
+            "Increases i-cache pressure for heavy value-type generics."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Gen_0"
+        },
+        {
+          "q": "Explain how variance (covariance and contravariance) is enforced at the IL and JIT levels, and why it is restricted to reference types.",
+          "a": "Variance in C# is a compile-time and metadata construct. At the runtime level, interfaces/delegates use reference assignments because all reference types share the same underlying pointer size and GC representation. Value types are disallowed because they lack polymorphic pointer equivalence, preventing zero-cost substitutions without boxing.",
+          "p": [
+            "Enforced via metadata and interface table mapping.",
+            "Restricted to reference types due to pointer uniformity.",
+            "Avoids boxing overhead during implicit casting.",
+            "Maintains type safety without dynamic casts in RyuJIT."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Gen_1"
+        },
+        {
+          "q": "What is generic code bloat, and how does RyuJIT or the runtime mitigate it when dealing with numerous value-type instantiations?",
+          "a": "Code bloat occurs when excessive native code is generated for every distinct generic value type parameter. RyuJIT mitigates this by sharing shared method bodies where possible, utilizing shared generic dictionaries, and allowing tiered compilation to defer heavy optimizations on rarely used instantiations.",
+          "p": [
+            "Caused by redundant native code per struct type.",
+            "Mitigated by shared generic method dictionaries.",
+            "Tiered compilation defers costly specialization.",
+            "Balancing inlining vs code size is critical."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Gen_2"
+        },
+        {
+          "q": "How do shared generic methods handle dictionary lookups for type parameters under the hood in RyuJIT?",
+          "a": "When generics share code (like reference types), RyuJIT passes a hidden generic context pointer (EEType or MethodTable pointer) to the method. This pointer references a dictionary containing the exact type parameters needed at runtime for operations like casting, allocations, or static field access.",
+          "p": [
+            "Uses a hidden generic context parameter.",
+            "References a runtime dictionary for type metadata.",
+            "Enables shared code to execute type-specific logic.",
+            "Incurs minor overhead for dictionary lookups."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Gen_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Unsafe Code, Pointers, Memory Marshaling, and Interoperability with Native Code (P/Invoke and NativeAOT)",
+      "meaning": "Advanced mastery of low-level memory manipulation, pointer arithmetic, zero-allocation interop patterns, and NativeAOT compilation constraints in high-performance C#.",
+      "questions": [
+        {
+          "q": "How does NativeAOT handle P/Invoke differently than the traditional CoreCLR runtime, specifically regarding marshalling code generation?",
+          "a": "Traditional CoreCLR uses dynamic IL stub generation and reflection at runtime for marshalling. NativeAOT eliminates the JIT compiler, requiring all marshalling stubs to be statically analyzed and generated ahead-of-time by the Roslyn compiler and ILCompiler toolchain. Complex types needing dynamic marshalling must use LibraryImportAttribute with source generators instead of DllImportAttribute to avoid runtime failures.",
+          "p": [
+            "Eliminates dynamic IL stub generation and JIT.",
+            "Relies on [LibraryImport] and source generators.",
+            "Requires explicit ahead-of-time type layout mapping."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Uns_0"
+        },
+        {
+          "q": "What are the exact GC implications of pinning large object heap (LOH) arrays via 'fixed' statements in high-throughput pipelines?",
+          "a": "Pinning objects via the 'fixed' statement prevents the Garbage Collector from compacting memory, leading to memory fragmentation on the LOH. While pinning is necessary to prevent objects from moving during native calls, prolonged or frequent pinning restricts the GC's ability to sweep and reorganize memory, severely degrading allocation throughput and inducing unpredictable latency spikes under heavy concurrent load.",
+          "p": [
+            "Prevents GC compaction, causing memory fragmentation.",
+            "Critical for passing managed buffers to native code safely.",
+            "Prolonged pinning degrades allocator performance."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Uns_1"
+        },
+        {
+          "q": "Explain the performance trade-offs and safety mechanisms of Unsafe.As vs Unsafe.AsRef when casting managed references.",
+          "a": "Unsafe.As reinterprets the type of an object reference or reference type without checking inheritance, risking memory corruption if types mismatch. Unsafe.AsRef converts a readonly reference (in ref) or a pointer into a mutable ref T. Both bypass type safety for maximum performance by avoiding bounds and type checks, shifting the burden entirely to the developer to ensure lifetime safety and prevent dangling pointers.",
+          "p": [
+            "Bypasses type safety and inheritance checks entirely.",
+            "Unsafe.As reinterprets object references.",
+            "Unsafe.AsRef converts pointers/readonly refs to mutable refs."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Uns_2"
+        },
+        {
+          "q": "When implementing custom memory marshaling for blittable vs non-blittable structs across P/Invoke boundaries, how does the runtime optimize pinning?",
+          "a": "Blittable structs share an identical memory layout in both managed and unmanaged code, allowing the runtime to bypass deep-copy marshaling and pass direct pointers via fast pinning. Non-blittable structs require explicit conversion, allocating unmanaged memory buffers and copying field-by-field, incurring significant CPU and GC pressure. Optimizing this requires manually laying out structs with [StructLayout(LayoutKind.Sequential)] and ensuring zero-allocation spans.",
+          "p": [
+            "Blittable types avoid deep-copy marshaling overhead.",
+            "Non-blittable types require field-by-field conversion.",
+            "Explicit LayoutKind.Sequential enforces precise memory mapping."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Uns_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "High-Performance Diagnostics, Memory Profiling, ETW/EventCounters, and Production Crash/Dump Analysis",
+      "meaning": "Mastery of advanced .NET internals, low-overhead tracing, memory layout diagnostics, and root-cause analysis of production failures.",
+      "questions": [
+        {
+          "q": "How do EventCounters differ from traditional ETW (Event Tracing for Windows) regarding performance and architecture in high-throughput .NET applications?",
+          "a": "EventCounters are a lightweight, cross-platform alternative to ETW built on EventSource. Unlike verbose ETW manifests, EventCounters aggregate metrics in-memory (e.g., mean, count) to minimize allocation and CPU overhead. They use buffered, pull-based or push-based polling mechanisms via diagnostic ports. This drastically reduces serialization costs and IO bottlenecks in high-throughput microservices, avoiding the heavy context-switch penalties associated with classic ETW sessions while still allowing external listeners like dotnet-counters to consume telemetry safely.",
+          "p": [
+            "Lightweight wrapper over EventSource avoiding string allocations.",
+            "In-memory metric aggregation reduces high-frequency tracing overhead.",
+            "Cross-platform support via diagnostic IPC ports."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Hig_0"
+        },
+        {
+          "q": "Explain the internal mechanics of a Gen 0 vs. LOH (Large Object Heap) allocation during high-pressure scenarios, and how the new Server GC pinned object heap (POH) mitigates fragmentation.",
+          "a": "Objects over 85,000 bytes bypass Gen 0/1 and land on the LOH, which is unmanaged by default compaction to avoid heavy CPU costs. Frequent LOH allocations cause severe memory fragmentation. Server GC allocates dedicated heaps per CPU core, reducing lock contention. Introduced in .NET 5, the POH (Pinned Object Heap) mitigates fragmentation caused by pinning arrays for interop. By isolating pinned references to the POH, the LOH can compact normally during GC, drastically lowering memory footprint and avoiding catastrophic OutOfMemory exceptions in high-load production environments.",
+          "p": [
+            "LOH bypasses Gen 0/1 and lacks default compaction.",
+            "Server GC isolates heaps per core to reduce thread contention.",
+            "POH isolates pinned memory, allowing LOH compaction."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Hig_1"
+        },
+        {
+          "q": "When diagnosing a native crash (Access Violation) caused by P/Invoke in a memory dump, what is your step-by-step SOS/LLDB/WinDbg workflow to identify the corrupted stack frame?",
+          "a": "First, load the appropriate SOS extension matching the runtime version. Run '!analyze -v' to inspect the exception record and faulty instruction pointer (RIP/EIP). Use '!clrstack' to view the managed stack, then switch to the native stack using 'k' or 'bt'. If a P/Invoke transition corrupted the stack, look for raw arguments or unmanaged marshaling structures using 'dps' or 'dt'. Inspect native heap corruption via '!heap -s' or examine GC handle tables if callbacks holding managed objects were prematurely collected, causing native access violations.",
+          "p": [
+            "Load SOS and execute !analyze -v for the exception record.",
+            "Compare managed (!clrstack) and native (k/bt) call stacks.",
+            "Inspect P/Invoke arguments and GC handles for premature collection."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Hig_2"
+        },
+        {
+          "q": "How do you use 'dotnet-dump' or WinDbg to detect a managed memory leak caused by event listener subscriptions ('Lapsed Listener' pattern)?",
+          "a": "In the memory dump, use '!eeheap -gc' to confirm the memory growth is on the Managed Heap. Run '!dumpheap -stat' to identify types with abnormally high instance counts. Use '!dumpheap -type <ClassName>' to list individual object addresses. Then, run '!gcroot <object_address>' on a suspected leaked instance. If the output shows the path tracing back to a static event publisher (e.g., a static event handler list), you have confirmed a lapsed listener. The publisher holds a strong reference to the subscriber, preventing GC collection.",
+          "p": [
+            "Verify heap growth using !eeheap and !dumpheap -stat.",
+            "Locate specific instance addresses of leaking subscribers.",
+            "Execute !gcroot to trace the retaining reference chain to static publishers."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Hig_3"
+        }
+      ]
+    },
+    {
+      "conceptName": "Reflection, Dynamic Code Generation, Expression Trees, and Metadata Inspection Performance Trade-offs",
+      "meaning": "Advanced evaluation of runtime code manipulation mechanisms in C#, balancing extreme flexibility against memory allocation, JIT compilation costs, and execution overhead.",
+      "questions": [
+        {
+          "q": "Explain the JIT compilation overhead and memory allocation implications when using `System.Reflection.Emit` versus Expression Trees compiled via `Compile()`.",
+          "a": "Emit creates dynamic assemblies in memory, requiring full IL generation, metadata tokens, and can cause memory leaks if dynamic modules aren't garbage collected properly (tied to AssemblyLoadContext). Expression Trees compile down to lightweight DynamicMethods via lightweight code gen (LCG), which bypass heavy assembly generation and allow garbage collection of the underlying delegate and method pointers much more efficiently.",
+          "p": [
+            "Emit creates heavy dynamic assemblies and metadata.",
+            "Expression Trees use LCG for lightweight DynamicMethods.",
+            "Improper AssemblyLoadContext usage prevents GC of emitted types."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Ref_0"
+        },
+        {
+          "q": "How does repeated invocation of `Type.GetMethod()` or `Type.GetProperty()` impact application performance, and what is the optimal mitigation strategy under high-throughput scenarios?",
+          "a": "Metadata lookup via Reflection parses internal metadata tables (`TypeDef`, `MethodDef`), involving costly string comparisons and array allocations. Repeated calls degrade throughput. Mitigation involves caching `MethodInfo`/`PropertyInfo` instances statically, or better yet, generating a caching delegate using Expression Trees or calling `Delegate.CreateDelegate()` to bypass invocation overhead entirely.",
+          "p": [
+            "Reflection lookups traverse metadata tables with string matching.",
+            "Cache `MethodInfo` or `PropertyInfo` statically to avoid lookup costs.",
+            "Use `Delegate.CreateDelegate()` for direct method invocation speed."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Ref_1"
+        },
+        {
+          "q": "Discuss the performance trade-offs of using `MakeGenericMethod` at runtime versus dispatching through an interface or using Expression Trees for generic service resolution.",
+          "a": "Calling `MakeGenericMethod` forces the runtime to generate specialized native code for value types, causing JIT compilation stalls and cache misses. For reference types, it shares code but incurs metadata instantiation overhead. Dispatching via a non-generic interface avoids runtime JIT generation but introduces interface dispatch and boxing overhead. Expression Trees can pre-bind generic arguments, avoiding repeated reflection invocation costs.",
+          "p": [
+            "Value type generics via `MakeGenericMethod` trigger JIT code bloat.",
+            "Reference types share code but have instantiation metadata costs.",
+            "Interface dispatch avoids JIT stalls but adds indirection overhead."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Ref_2"
+        },
+        {
+          "q": "Why can extensive use of LINQ Expression Trees compilation (`Expression<T>.Compile()`) lead to memory fragmentation in the Large Object Heap (LOH) or Gen 2 GC pressure?",
+          "a": "Every time `Compile()` is called, the runtime generates a new dynamic method and its underlying metadata structures, allocating memory in the loader heap or specialized managed heaps. If compiled dynamically in hot paths without caching, these short-lived or permanent dynamic delegates accumulate, promoting objects to Gen 2 and triggering frequent, expensive garbage collection sweeps.",
+          "p": [
+            "`Compile()` generates new dynamic methods on every execution.",
+            "Uncached compilation floods memory with dynamic delegates.",
+            "Leads to Gen 2 GC pressure and potential memory fragmentation."
+          ],
+          "level": "Hard",
+          "id": "c_hard_Ref_3"
+        }
+      ]
+    }
+  ]
+}

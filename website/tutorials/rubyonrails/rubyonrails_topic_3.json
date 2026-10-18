@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_3",
+  "topicName": "What is the difference between symbols and strings in Ruby?",
+  "order": 3,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the difference between symbols and strings in Ruby?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Fundamental understanding of Ruby data types, specifically immutability, memory management, and use cases for symbols versus strings.\"}]"
+}

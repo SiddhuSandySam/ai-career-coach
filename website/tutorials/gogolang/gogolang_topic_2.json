@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_2",
+  "topicName": "Explain the difference between value types and reference types in Go",
+  "order": 2,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between value types and reference types in Go\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Fundamental Go types categorized by how they store data in memory: value types hold direct data, while reference types point to underlying data structures.\"}]"
+}

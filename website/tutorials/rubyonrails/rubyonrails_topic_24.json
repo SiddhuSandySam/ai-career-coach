@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_24",
+  "topicName": "Active Record Object Allocation, Garbage Collection, and Memory Profiling",
+  "order": 24,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Active Record Object Allocation, Garbage Collection, and Memory Profiling\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced mastery of Ruby's heap management, CRuby generational garbage collection mechanics, and Active Record memory footprint optimization under heavy production workloads.\"}]"
+}

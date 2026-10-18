@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_14",
+  "topicName": "Service Objects and Business Logic Encapsulation",
+  "order": 14,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Service Objects and Business Logic Encapsulation\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Service objects are plain Ruby objects used in Rails to encapsulate complex, multi-step business logic, keeping controllers 'skinny' and models focused on persistence and associations.\"}]"
+}

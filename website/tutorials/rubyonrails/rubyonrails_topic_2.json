@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_2",
+  "topicName": "What are the four main OOPs principles and how are they implemented in Ruby?",
+  "order": 2,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are the four main OOPs principles and how are they implemented in Ruby?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Object-Oriented Programming in Ruby revolves around four core principles: Encapsulation, Inheritance, Polymorphism, and Abstraction, which help organize code into reusable and maintainable structures.\"}]"
+}

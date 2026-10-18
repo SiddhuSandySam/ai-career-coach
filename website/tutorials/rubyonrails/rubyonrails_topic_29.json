@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_29",
+  "topicName": "Active Support Instrumentation, Callbacks, and Monkey-Patching Overhead",
+  "order": 29,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Active Support Instrumentation, Callbacks, and Monkey-Patching Overhead\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Deep architectural analysis of Active Support's pub-sub instrumentation pipeline, chained method callback execution cost, and the memory/performance trade-offs of runtime method refinement vs. class-level monkey-patching in Ruby on Rails.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_8",
+  "topicName": "What is the difference between render and redirect_to in Rails controllers?",
+  "order": 8,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the difference between render and redirect_to in Rails controllers?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Technical summary of understanding how Rails handles HTTP responses through view rendering versus browser redirection.\"}]"
+}

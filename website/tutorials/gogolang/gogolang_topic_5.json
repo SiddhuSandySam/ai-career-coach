@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_5",
+  "topicName": "What is the difference between new() and make() functions?",
+  "order": 5,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is the difference between new() and make() functions?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"In Go, both `new()` and `make()` are built-in functions used for allocation, but they serve different purposes and operate on different data types.\"}]"
+}

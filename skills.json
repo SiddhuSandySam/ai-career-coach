@@ -1,6 +1,6 @@
 {
-  "lastSyncedAt": "2026-10-11T03:51:35.547Z",
-  "totalSkills": 111,
+  "lastSyncedAt": "2026-10-18T04:34:57.048Z",
+  "totalSkills": 113,
   "skills": [
     {
       "id": "adaptability",
@@ -342,26 +342,111 @@
       "id": "c",
       "name": "C#",
       "category": "Tutorial",
-      "questionCount": 295,
+      "questionCount": 120,
       "questions": [
         {
-          "q": "Explain Data Types (Primitive and Reference)",
+          "q": "What is C# and what is the .NET Framework?",
+          "a": "C# is a modern, object-oriented, type-safe programming language developed by Microsoft. The .NET Framework is a software development framework that provides a controlled programming environment to develop, run, and execute C# applications. It includes the Common Language Runtime (CLR) for execution and the Base Class Library (BCL) for pre-written code functionality.",
+          "p": [
+            "C# is the programming language.",
+            ".NET is the execution environment and library.",
+            "CLR executes code and manages memory."
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Variables and Constants",
+          "q": "What are the core OOPs principles in C#?",
+          "a": "Object-Oriented Programming in C# relies on four main pillars: Encapsulation (hiding internal state using access modifiers), Inheritance (reusing code by deriving new classes from existing ones), Polymorphism (performing a single action in different forms using method overloading or overriding), and Abstraction (hiding complex implementation details and showing only essential features).",
+          "p": [
+            "Encapsulation: Hiding data.",
+            "Inheritance: Code reuse.",
+            "Polymorphism: Many forms.",
+            "Abstraction: Hiding complexity."
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Operators (Arithmetic, Logical, Bitwise)",
+          "q": "Explain the difference between Value Types and Reference Types.",
+          "a": "Value types store data directly in the stack (e.g., int, bool, struct) and hold their own copy of data. Reference types store a reference to the memory address where the data is stored on the heap (e.g., string, class, array). When you copy a value type, you copy the value. When you copy a reference type, you only copy the memory address reference.",
+          "p": [
+            "Value types stored on stack.",
+            "Reference types stored on heap.",
+            "Value types hold actual data; reference types hold pointers."
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Control Flow (if/else, switch, loops)",
+          "q": "What is the difference between string and StringBuilder?",
+          "a": "The string class is immutable, meaning every time you modify a string (like concatenation), a new object is created in memory, which can impact performance. StringBuilder is mutable, meaning it can be modified without creating new objects, making it much more efficient for heavy string manipulation and concatenation loops.",
+          "p": [
+            "String is immutable (cannot be changed).",
+            "StringBuilder is mutable (efficient for modifications).",
+            "Use StringBuilder for heavy string concatenation."
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Arrays and Collections (List, Dictionary, etc.)",
+          "q": "What are access modifiers in C# and what are the main types?",
+          "a": "Access modifiers are keywords used to set the visibility or accessibility of classes, methods, and other members. The primary types in C# are: Public (accessible from anywhere), Private (accessible only within the same class), Protected (accessible within the same class and derived classes), Internal (accessible only within the same assembly), and Protected Internal.",
+          "p": [
+            "Public: Accessible everywhere.",
+            "Private: Accessible inside the class only.",
+            "Protected: Accessible in class and subclasses.",
+            "Internal: Accessible within the same project."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four fundamental principles of Object-Oriented Programming?",
+          "a": "The four fundamental principles are Encapsulation (bundling data and methods together while hiding internal state), Inheritance (reusing code by deriving new classes from existing ones), Polymorphism (allowing objects to be treated as instances of their parent class, enabling multiple forms), and Abstraction (hiding complex implementation details and showing only essential features).",
+          "p": [
+            "Encapsulation: Hiding data using access modifiers (private, public).",
+            "Inheritance: Reusing code via parent-child class relationships.",
+            "Polymorphism: Using a single interface for different data types.",
+            "Abstraction: Hiding complexity with abstract classes and interfaces."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between string and StringBuilder in C#?",
+          "a": "In C#, strings are immutable, meaning every time you modify a string, a new object is created in memory, which can hurt performance during heavy manipulation. StringBuilder is mutable, meaning it can be modified in place without creating new objects, making it much more efficient for frequent concatenation or changes.",
+          "p": [
+            "String is immutable (cannot be changed once created).",
+            "StringBuilder is mutable (can be modified in place).",
+            "Use StringBuilder for loops or heavy string manipulations."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between value types and reference types in C#?",
+          "a": "Value types hold their actual data directly in the stack (e.g., int, bool, structs). Reference types store a reference or memory address to the actual data located on the heap (e.g., class, string, array). When passing value types, a copy is made; when passing reference types, only the memory address is copied.",
+          "p": [
+            "Value types store data directly and live on the stack.",
+            "Reference types store memory addresses and live on the heap.",
+            "Common value types: int, float, struct, char.",
+            "Common reference types: string, class, array, object."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is a try-catch block and how does exception handling work?",
+          "a": "A try-catch block is used to handle runtime errors gracefully in C#. The 'try' block contains code that might throw an exception. If an error occurs, execution jumps to the 'catch' block, preventing the application from crashing. An optional 'finally' block can be added to execute cleanup code regardless of whether an exception occurred.",
+          "p": [
+            "Try block: Contains risky code that might throw an error.",
+            "Catch block: Handles the exception if one occurs.",
+            "Finally block: Always executes for cleanup (e.g., closing files).",
+            "Prevents application crashes and manages errors gracefully."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between Value Types and Reference Types?",
+          "a": "Value types store their actual data directly in the stack, while reference types store a reference (or pointer) on the stack that points to the actual data located on the heap. Examples of value types include int, bool, and structs. Examples of reference types include string, arrays, and classes. When you copy a value type, you create an independent duplicate of the data. When you copy a reference type, you only copy the memory address, meaning both variables point to the exact same object in memory.",
+          "p": [
+            "Value types store data in the stack; reference types store data in the heap.",
+            "Value types hold the actual value; reference types hold a memory address.",
+            "Copying a value type duplicates the data; copying a reference type duplicates the pointer."
+          ],
           "level": "Easy"
         }
       ]
@@ -1011,26 +1096,114 @@
       "id": "expressjs",
       "name": "Express.js",
       "category": "Tutorial",
-      "questionCount": 200,
+      "questionCount": 116,
       "questions": [
         {
-          "q": "Explain Introduction to Express.js and the Node.js Ecosystem",
+          "q": "What is Express.js?",
+          "a": "Express.js is a minimal, fast, and unopinionated web application framework for Node.js. It provides a robust set of features for building single-page, multi-page, or hybrid web applications and RESTful APIs. It simplifies the underlying Node.js HTTP module, making routing and middleware management much easier and cleaner.",
+          "p": [
+            "Built on top of Node.js",
+            "Provides robust routing mechanisms",
+            "Simplifies HTTP request and response handling",
+            "Highly extensible with middleware"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Request and Response Lifecycle",
+          "q": "Why is Express.js used in web development?",
+          "a": "Express.js is used because it drastically reduces development time by providing pre-built methods and utilities for handling HTTP requests, routing, and middleware. It is unopinionated, meaning developers have complete freedom to structure their application and choose their database, making it extremely versatile for building lightweight APIs and scalable web servers.",
+          "p": [
+            "Fast and lightweight framework",
+            "Saves time with built-in routing",
+            "Unopinionated structure for flexibility",
+            "Large ecosystem and community support"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Routing and Route Parameters",
+          "q": "What is middleware in Express.js?",
+          "a": "Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. They are used to execute code, modify request and response objects, end the request-response cycle, and call the next middleware in the stack.",
+          "p": [
+            "Has access to req, res, and next objects",
+            "Can modify request and response data",
+            "Executes sequentially in the request cycle",
+            "Used for logging, authentication, and parsing"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Understanding Middleware and the Next Function",
+          "q": "How do you handle routing in Express.js?",
+          "a": "Routing in Express refers to how an application's endpoints (URIs) respond to client requests. You define routes using methods of the Express app object that correspond to HTTP methods, such as app.get(), app.post(), app.put(), and app.delete(), passing a path and a callback function to handle the request.",
+          "p": [
+            "Defines endpoints for client requests",
+            "Uses methods like app.get() and app.post()",
+            "Maps HTTP verbs to specific callback functions",
+            "Can be modularized using express.Router()"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Application-Level vs Router-Level Middleware",
+          "q": "What is Express.js and how does it differ from vanilla Node.js?",
+          "a": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. While vanilla Node.js requires writing extensive boilerplate code using the built-in 'http' module to handle routing, parsing, and server setup, Express simplifies this with a clean, built-in routing system, middleware support, and modular architecture, drastically reducing development time.",
+          "p": [
+            "Built on top of Node.js HTTP module",
+            "Provides robust routing and middleware",
+            "Reduces boilerplate code significantly",
+            "Speeds up web application development"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is middleware in Express.js?",
+          "a": "Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. They can execute any code, make changes to the request and response objects, end the request-response cycle, and call the next middleware in the stack using 'next()'.",
+          "p": [
+            "Has access to req, res, and next objects",
+            "Can modify request and response data",
+            "Executes sequentially in the request cycle",
+            "Must call next() or end the response"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you handle routing in Express.js compared to vanilla Node.js?",
+          "a": "In vanilla Node.js, you must manually parse the URL using the 'url' module and check request methods using conditional statements (if/else or switch) on the 'req.url' string. Express.js provides a dedicated routing mechanism using methods corresponding to HTTP verbs (like app.get() and app.post()) that match paths and HTTP methods automatically, making URL handling much cleaner.",
+          "p": [
+            "Uses HTTP method functions like app.get()",
+            "Eliminates manual URL parsing logic",
+            "Supports route parameters and query strings easily",
+            "Cleaner code than vanilla switch statements"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How is error handling managed in Express.js?",
+          "a": "Express.js provides built-in error-handling middleware that takes four arguments instead of three: (err, req, res, next). When you pass an error to the 'next()' function inside any middleware or route handler, Express skips all regular middleware and jumps straight to the nearest error-handling middleware function, allowing centralized management of errors.",
+          "p": [
+            "Uses specialized middleware with four arguments",
+            "Signature: (err, req, res, next)",
+            "Triggered by passing an error to next(err)",
+            "Provides centralized error management"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is Express.js middleware and why do we need it for parsing request bodies?",
+          "a": "Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. We need body-parser or built-in Express middleware because raw HTTP requests arrive as streams of data. Middleware intercepts these streams, parses the JSON or URL-encoded data, and attaches the resulting JavaScript object to req.body for easy access in our route handlers.",
+          "p": [
+            "Functions with access to req, res, and next",
+            "Converts raw HTTP data streams into usable formats",
+            "Attaches parsed data directly to req.body"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between express.json() and express.urlencoded()?",
+          "a": "express.json() is a built-in middleware function in Express that parses incoming requests with JSON payloads and is based on body-parser. It populates req.body with a JavaScript object. On the other hand, express.urlencoded() parses incoming requests with URL-encoded payloads, typically sent by HTML form submissions. It allows parsing rich objects and arrays encoded in the URL-encoded format, using the 'qs' library or the 'querystring' library based on configuration.",
+          "p": [
+            "express.json() parses JSON formatted request bodies",
+            "express.urlencoded() parses HTML form submission data",
+            "Both attach their parsed results to req.body"
+          ],
           "level": "Easy"
         }
       ]
@@ -1822,7 +1995,7 @@
       "id": "laravel",
       "name": "Laravel",
       "category": "Tutorial",
-      "questionCount": 42,
+      "questionCount": 110,
       "questions": [
         {
           "q": "What is Laravel and what is its primary architectural pattern?",
@@ -2559,26 +2732,113 @@
       "id": "php",
       "name": "PHP",
       "category": "Tutorial",
-      "questionCount": 410,
+      "questionCount": 120,
       "questions": [
         {
-          "q": "Explain Basic Syntax and Data Types (Variables, Operators, Control Structures)",
+          "q": "What is PHP and what does it stand for?",
+          "a": "PHP stands for 'PHP: Hypertext Preprocessor'. It is a widely-used, open-source server-side scripting language designed specifically for web development. PHP code is executed on the server, and the result is returned to the browser as plain HTML. It can be easily embedded into HTML and integrates seamlessly with various databases like MySQL.",
+          "p": [
+            "Stands for PHP: Hypertext Preprocessor",
+            "Open-source server-side scripting language",
+            "Executes on the server, outputs HTML",
+            "Integrates easily with databases like MySQL"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Data Types (Integers, Floats, Strings, Booleans, Arrays, Objects, Resources, NULL)",
+          "q": "What are the four main principles of OOPs in PHP?",
+          "a": "The four main principles of Object-Oriented Programming are Encapsulation, Inheritance, Polymorphism, and Abstraction. Encapsulation bundles data and methods inside a class and restricts access using visibility keywords. Inheritance allows a child class to inherit properties and methods from a parent class. Polymorphism enables different classes to use the same interface. Abstraction hides complex implementation details and shows only essential features.",
+          "p": [
+            "Encapsulation: Bundling data and restricting access",
+            "Inheritance: Reusing code from a parent class",
+            "Polymorphism: Using a unified interface for different types",
+            "Abstraction: Hiding complex implementation details"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Operators (Arithmetic, Assignment, Comparison, Logical, Increment/Decrement)",
+          "q": "What are the primary data types available in PHP?",
+          "a": "PHP supports eight primitive and composite data types. The four scalar types are Boolean, Integer, Float (floating-point numbers), and String. The two compound types are Array and Object. The two special types are NULL and Resource. PHP also uses dynamic typing, meaning you do not need to explicitly declare a variable's data type when creating it.",
+          "p": [
+            "Scalar: boolean, integer, float, string",
+            "Compound: array, object",
+            "Special: NULL, resource",
+            "Dynamically typed language"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Control Structures (if, else, elseif, switch, while, do-while, for, foreach)",
+          "q": "What is the difference between 'echo' and 'print' in PHP?",
+          "a": "Both 'echo' and 'print' are used to output data to the screen, but there are minor differences. 'Echo' can take multiple parameters, has no return value, and is marginally faster. 'Print' can only take a single argument, always returns the integer 1, and can be used like a function in expressions.",
+          "p": [
+            "Echo can take multiple arguments; print takes only one",
+            "Echo has no return value; print returns 1",
+            "Echo is slightly faster than print",
+            "Print can be used within expressions"
+          ],
           "level": "Easy"
         },
         {
-          "q": "Explain Functions (Defining, Calling, Arguments, Return Values, Scope)",
+          "q": "Explain the difference between echo and print.",
+          "a": "Both echo and print are language constructs used to output data in PHP. The main differences are that echo can take multiple parameters, does not return a value, and is marginally faster. Print accepts only a single argument, always returns 1, and can be used in expressions.",
+          "p": [
+            "Echo has no return value; print returns 1.",
+            "Echo accepts multiple parameters separated by commas; print accepts only one.",
+            "Echo is slightly faster than print due to not returning any value."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four pillars of OOPs principles?",
+          "a": "Object-Oriented Programming is built on four core principles: Encapsulation (bundling data and methods), Inheritance (reusing code from parent classes), Polymorphism (using a unified interface for different data types), and Abstraction (hiding complex implementation details and showing only essentials).",
+          "p": [
+            "Encapsulation: Hiding internal state and requiring all interaction to be performed through an object's methods.",
+            "Inheritance: Creating new classes based on existing ones.",
+            "Polymorphism: Implementing multiple forms of a single method.",
+            "Abstraction: Hiding complex logic behind a simple interface."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the scalar data types in PHP?",
+          "a": "Scalar data types hold a single value. In PHP, there are four scalar data types: boolean (true or false), integer (whole numbers), float (numbers with a decimal point, also called double), and string (sequence of characters).",
+          "p": [
+            "Boolean: Represents true or false.",
+            "Integer: Whole numbers without decimals.",
+            "Float: Numbers with fractional parts.",
+            "String: Textual data enclosed in quotes."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between require and include?",
+          "a": "Both include and require are used to load external PHP files. The key difference lies in how they handle failures: include emits a warning (E_WARNING) and allows the script to continue execution, whereas require emits a fatal error (E_COMPILE_ERROR) and halts the script immediately.",
+          "p": [
+            "Include triggers a warning and continues execution on failure.",
+            "Require triggers a fatal error and stops execution on failure.",
+            "Use require when the file is essential for the application to run."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between '==' and '===' operators in PHP?",
+          "a": "The '==' operator is the equality operator, which checks if two values are equal after performing type juggling (converting them to a common type). The '===' operator is the identity operator, which checks if two values are equal and of the exact same data type without any type conversion.",
+          "p": [
+            "== checks value equality with type conversion",
+            "=== checks both value and data type equality",
+            "=== is generally safer and recommended for strict checks"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main principles of Object-Oriented Programming (OOP)?",
+          "a": "The four main OOP principles are Encapsulation (bundling data and methods together and restricting access), Inheritance (allowing a class to adopt properties and methods of another), Polymorphism (allowing objects to be treated as instances of their parent class with overridden methods), and Abstraction (hiding complex implementation details and showing only essential features).",
+          "p": [
+            "Encapsulation: Hiding internal state",
+            "Inheritance: Code reuse through parent-child classes",
+            "Polymorphism: Many forms, method overriding",
+            "Abstraction: Hiding complexity"
+          ],
           "level": "Easy"
         }
       ]
@@ -3876,6 +4136,117 @@
       ]
     },
     {
+      "id": "gogolang",
+      "name": "Go (Golang)",
+      "category": "Tech",
+      "questionCount": 113,
+      "questions": [
+        {
+          "q": "What is Go and what are its primary design goals?",
+          "a": "Go (or Golang) is a statically typed, compiled programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. Its primary design goals are simplicity, high performance, fast compilation, and robust support for concurrency. Go aims to combine the development speed of dynamic languages with the safety and efficiency of compiled languages, making it ideal for modern cloud and network infrastructure.",
+          "p": [
+            "Created at Google for fast, reliable software",
+            "Combines dynamic language ease with compiled performance",
+            "Focuses heavily on concurrency and simplicity"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "Does Go support Object-Oriented Programming (OOP) principles like inheritance?",
+          "a": "Go does not have traditional classes or classical inheritance. Instead, it achieves OOP principles through structs and interfaces. Encapsulation is handled via package-level visibility (capitalization), polymorphism is achieved using interfaces, and code reuse is implemented through composition and struct embedding rather than hierarchical inheritance.",
+          "p": [
+            "No traditional classes or inheritance",
+            "Uses composition and struct embedding instead",
+            "Polymorphism achieved via interfaces"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the basic data types available in Go?",
+          "a": "Go features several built-in basic data types. These include booleans (bool), numeric types (integers like int, int8, uint, floats like float32, float64, and complex numbers), and strings. Additionally, Go provides composite types such as arrays, slices, maps, and structs, as well as pointers.",
+          "p": [
+            "Booleans: bool",
+            "Numerics: int, uint, float32, float64",
+            "Strings and complex numbers",
+            "Composite types: arrays, slices, maps, structs"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How does Go handle exception handling without traditional try-catch blocks?",
+          "a": "Go does not use traditional try-catch-finally exception blocks. Instead, it treats error handling as ordinary value returns. Functions indicate errors by returning an error interface as the last return value. Developers handle errors explicitly using standard conditional checks (e.g., if err != nil). For unrecoverable errors, Go provides panic and recover mechanisms.",
+          "p": [
+            "No try-catch blocks",
+            "Errors returned as ordinary values",
+            "Explicit checks using 'if err != nil'",
+            "Panic and recover for fatal errors"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between value types and reference types in Go?",
+          "a": "Value types (like int, float, bool, struct, and array) hold their own data directly and are copied when assigned or passed to a function. Reference types (like slices, maps, channels, and pointers) hold a reference (pointer) to the underlying memory data. When you copy a reference type, you copy the reference, not the underlying data, so changes affect the original.",
+          "p": [
+            "Value types store actual data and are copied on assignment.",
+            "Reference types store pointers to memory and share underlying data.",
+            "Structs and primitives are value types; slices and maps are reference types."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the basic data types available in Go?",
+          "a": "Go has four main categories of data types: Basic types (integers, floats, complex numbers, booleans, and strings), Aggregate types (arrays and structs), Reference types (slices, maps, and channels), and Interface types. Integers include signed and unsigned variants of various sizes, such as int, int8, uint, and uint32.",
+          "p": [
+            "Includes numerics, booleans, and strings.",
+            "Aggregates include arrays and structs.",
+            "Reference types include slices, maps, and channels."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the 'defer' keyword used for in Go?",
+          "a": "The 'defer' keyword schedules a function call to be executed immediately before the surrounding function returns. It is commonly used for cleanup operations like closing files, unlocking mutexes, or closing database connections. Defers are executed in Last-In, First-Out (LIFO) order.",
+          "p": [
+            "Delays function execution until the surrounding function exits.",
+            "Commonly used for cleanup tasks like closing files.",
+            "Executes in LIFO (Last-In, First-Out) order if multiple are used."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How does Go handle exception handling since it does not have try-catch blocks?",
+          "a": "Go does not have traditional try-catch-finally exception handling. Instead, it treats error handling as normal control flow using explicit error return values. Functions return an error interface as their last return value, which callers must check using standard 'if err != nil' conditionals. For unrecoverable errors, Go uses panic and recover.",
+          "p": [
+            "Errors are returned as standard values, not thrown exceptions.",
+            "Callers check errors explicitly using 'if err != nil'.",
+            "Panic and recover are used for fatal, unrecoverable runtime errors."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the basic data types available in Go?",
+          "a": "Go's basic data types include booleans (bool), numeric types (integers like int, uint; floating-point like float32, float64; complex numbers), and strings. Unlike some languages, Go has explicit sizes for integers (e.g., int8, int64) and treats strings as immutable sequences of bytes.",
+          "p": [
+            "Booleans represent true or false values.",
+            "Numerics include signed/unsigned integers and floats.",
+            "Strings are immutable byte sequences.",
+            "Types are explicitly sized for performance."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between string and rune types in Go?",
+          "a": "A string in Go is a read-only slice of bytes representing UTF-8 text, whereas a rune is an alias for int32 and represents a single Unicode code point. You iterate over strings using runes when dealing with multi-byte characters to avoid splitting characters incorrectly.",
+          "p": [
+            "String is a read-only slice of bytes.",
+            "Rune is an alias for int32 representing a Unicode code point.",
+            "Strings handle raw bytes; runes handle characters safely."
+          ],
+          "level": "Easy"
+        }
+      ]
+    },
+    {
       "id": "plsql",
       "name": "plsql",
       "category": "Tech",
@@ -3982,6 +4353,122 @@
             "SQL embedded in PL/SQL",
             "Data manipulation within PL/SQL",
             "Combining declarative and procedural approaches"
+          ],
+          "level": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "rubyonrails",
+      "name": "Ruby on Rails",
+      "category": "Tech",
+      "questionCount": 129,
+      "questions": [
+        {
+          "q": "What is Ruby on Rails?",
+          "a": "Ruby on Rails (RoR) is a full-stack web framework built on the Ruby programming language. It provides default structures for a database, a web service, and web pages. It encourages rapid development by using design patterns like Convention over Configuration (CoC) and Don't Repeat Yourself (DRY), meaning developers write less boilerplate code.",
+          "p": [
+            "Full-stack web framework built on Ruby",
+            "Follows Convention over Configuration (CoC)",
+            "Promotes the Don't Repeat Yourself (DRY) principle",
+            "Accelerates web application development"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the MVC architecture?",
+          "a": "MVC stands for Model-View-Controller. It is a software design pattern that separates an application into three interconnected components. The Model manages data and business logic, the View handles the user interface and presentation, and the Controller acts as an intermediary that processes user requests, interacts with the Model, and selects the appropriate View.",
+          "p": [
+            "Model: Manages data, database interactions, and business logic",
+            "View: Handles the user interface and renders data to the user",
+            "Controller: Processes user input and coordinates between Model and View",
+            "Separation of concerns makes code maintainable and testable"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the core OOPs principles in Ruby?",
+          "a": "Ruby is a purely object-oriented language. Its four core OOPs principles are Encapsulation (bundling data and methods together), Inheritance (sharing behavior between parent and child classes), Polymorphism (using a unified interface for different data types), and Abstraction (hiding complex implementation details and showing only essential features).",
+          "p": [
+            "Encapsulation: Hides internal state using public/private scopes",
+            "Inheritance: Allows classes to inherit methods and attributes from parent classes",
+            "Polymorphism: Enables different classes to respond to the same method call",
+            "Abstraction: Exposes only relevant features while hiding complex logic"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between symbols and strings in Ruby?",
+          "a": "Strings are mutable objects and represent human-readable text, meaning every time a string is defined, a new memory object is allocated. Symbols are immutable, lightweight, and unique identifiers prefixed with a colon (e.g., :symbol). Because they are immutable and have a single instance in memory, symbols are commonly used as hash keys and for internal identifiers to improve performance.",
+          "p": [
+            "Strings are mutable and consume more memory",
+            "Symbols are immutable and globally unique (:symbol)",
+            "Symbols are faster for lookups and commonly used as hash keys",
+            "Use strings for text manipulation and symbols for identifiers"
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main OOPs principles?",
+          "a": "The four main OOPs principles are Encapsulation, Inheritance, Polymorphism, and Abstraction. Encapsulation bundles data and methods within a class and controls access using public, private, and protected keywords. Inheritance allows a class to inherit behaviors from a parent class using the '<' symbol. Polymorphism enables different classes to respond to the same method call. Abstraction hides complex implementation details and exposes only necessary features through interfaces or modules.",
+          "p": [
+            "Encapsulation: Bundling data and hiding internal state.",
+            "Inheritance: Reusing code via parent-child class relationships.",
+            "Polymorphism: Using a uniform interface for different types.",
+            "Abstraction: Hiding complexity and showing only essentials."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between private, protected, and public methods in Ruby?",
+          "a": "Public methods can be called by anyone; they form the public interface of the class. Protected methods can be invoked only by objects of the defining class or its subclasses. Private methods are strictly internal and can only be called implicitly on the current object; they cannot be called with an explicit receiver, not even on 'self'. In Ruby, methods defined below the 'private' or 'protected' keyword take on that visibility.",
+          "p": [
+            "Public: Accessible from anywhere.",
+            "Protected: Accessible within the class hierarchy.",
+            "Private: Accessible only within the context of the current object without an explicit receiver."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the basic data types in Ruby?",
+          "a": "Ruby is fully object-oriented, so everything is an object, including basic data types. Common data types include Numbers (Integer, Float), Strings, Booleans (TrueClass, FalseClass), Symbols, Arrays, and Hashes. Symbols are immutable, reusable identifiers often used as hash keys, while Strings are mutable sequences of characters.",
+          "p": [
+            "Everything in Ruby is an object.",
+            "Numbers include both Integer and Float.",
+            "Symbols are immutable, lightweight identifiers (:symbol).",
+            "Collections include Arrays and Hashes."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "How do you handle exceptions in Ruby?",
+          "a": "Exceptions in Ruby are handled using the 'begin', 'rescue', 'ensure', and 'end' blocks. Code that might raise an error is placed inside the 'begin' block. If an error occurs, execution jumps to the 'rescue' block where the exception can be caught and handled. The 'ensure' block contains code that always executes regardless of whether an exception occurred or not, commonly used for cleanup tasks like closing database connections.",
+          "p": [
+            "Use 'begin' to wrap risky code.",
+            "Use 'rescue' to catch and handle errors.",
+            "Use 'ensure' for guaranteed cleanup execution.",
+            "Raise custom errors using 'raise'."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What is the difference between a Symbol and a String in Ruby?",
+          "a": "Strings are mutable objects used for readable text, and a new object is created in memory every time they are declared. Symbols are immutable, lightweight identifiers prefixed with a colon (:). Ruby only creates one copy of a symbol in memory throughout the application's lifecycle, making them much more memory-efficient and faster for comparisons, which is why they are frequently used as hash keys.",
+          "p": [
+            "Strings are mutable; Symbols are immutable.",
+            "Strings allocate new memory each time; Symbols are reused (singleton objects).",
+            "Symbols are faster for comparisons and commonly used as hash keys."
+          ],
+          "level": "Easy"
+        },
+        {
+          "q": "What are the four main Object-Oriented Programming (OOP) principles in Ruby?",
+          "a": "The four main OOP principles are Encapsulation, Inheritance, Polymorphism, and Abstraction. Encapsulation bundles data and methods within a class and restricts direct access. Inheritance allows a class to inherit behaviors from a parent class. Polymorphism lets different classes respond to the same method interface. Abstraction hides complex implementation details and exposes only the essential features.",
+          "p": [
+            "Encapsulation: Bundling data and restricting access.",
+            "Inheritance: Reusing code through parent-child class relationships.",
+            "Polymorphism: Different objects responding to the same method call.",
+            "Abstraction: Hiding internal complexity."
           ],
           "level": "Easy"
         }

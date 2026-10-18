@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_21",
+  "topicName": "Escape Analysis and Stack Allocation Mechanics",
+  "order": 21,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Escape Analysis and Stack Allocation Mechanics\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Go's compile-time static analysis technique that determines whether a variable's lifetime exceeds its stack frame, dictating whether it is allocated on the stack or escapes to the heap.\"}]"
+}

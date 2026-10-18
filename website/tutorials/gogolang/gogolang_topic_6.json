@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_6",
+  "topicName": "Explain the difference between arrays and slices in Go",
+  "order": 6,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain the difference between arrays and slices in Go\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Fundamental understanding of fixed-size data structures versus dynamic, flexible view structures in Go.\"}]"
+}

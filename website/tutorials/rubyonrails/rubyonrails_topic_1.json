@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_1",
+  "topicName": "What is Ruby on Rails and what is the MVC architecture?",
+  "order": 1,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What is Ruby on Rails and what is the MVC architecture?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Ruby on Rails is a server-side web application framework written in Ruby under the MIT License. It follows the Model-View-Controller architectural pattern, emphasizing Convention over Configuration and Don't Repeat Yourself principles.\"}]"
+}

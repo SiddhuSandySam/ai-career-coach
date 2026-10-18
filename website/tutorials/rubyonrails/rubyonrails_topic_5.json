@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_5",
+  "topicName": "What are attr_reader, attr_writer, and attr_accessor?",
+  "order": 5,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"What are attr_reader, attr_writer, and attr_accessor?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Ruby shorthand methods used to automatically generate getter and setter methods for instance variables, controlling access to class attributes.\"}]"
+}

@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_17",
+  "topicName": "Comprehensive Test-Driven Development with RSpec and FactoryBot",
+  "order": 17,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Comprehensive Test-Driven Development with RSpec and FactoryBot\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"A software development methodology in Ruby on Rails emphasizing design through automated testing, utilizing RSpec for expressive specification syntax and FactoryBot for clean, dynamic test fixture generation.\"}]"
+}

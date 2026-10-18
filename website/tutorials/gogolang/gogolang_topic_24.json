@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_24",
+  "topicName": "Data Race Detection and Memory Model Consistency (Happens-Before, Sync primitives under the hood)",
+  "order": 24,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Data Race Detection and Memory Model Consistency (Happens-Before, Sync primitives under the hood)\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Advanced evaluation of Go's memory model, race detector internals, and synchronization primitive implementation details.\"}]"
+}

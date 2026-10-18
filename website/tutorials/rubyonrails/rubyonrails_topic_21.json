@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_21",
+  "topicName": "Third-Party API Integration and Robust Error Handling",
+  "order": 21,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Third-Party API Integration and Robust Error Handling\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"The practice of securely and efficiently consuming external services in Ruby on Rails applications while gracefully managing failures, network partitions, and unexpected response formats.\"}]"
+}

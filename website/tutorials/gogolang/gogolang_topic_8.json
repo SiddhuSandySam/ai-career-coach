@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_8",
+  "topicName": "Explain how string manipulation works in Go and why strings are immutable",
+  "order": 8,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Explain how string manipulation works in Go and why strings are immutable\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Fundamental understanding of Go strings, their underlying byte array structure, immutability for thread safety, and standard manipulation techniques using the strings and strconv packages.\"}]"
+}

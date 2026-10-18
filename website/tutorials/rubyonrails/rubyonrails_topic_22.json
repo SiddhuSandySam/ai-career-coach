@@ -1,0 +1,6 @@
+{
+  "topicId": "rubyonrails_topic_22",
+  "topicName": "Asset Pipeline and Modern Frontend Integration with Importmaps/esbuild",
+  "order": 22,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"Asset Pipeline and Modern Frontend Integration with Importmaps/esbuild\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Managing and bundling static assets and modern JavaScript modules in Ruby on Rails using Sprockets, Importmaps, and esbuild for optimal performance and developer experience.\"}]"
+}

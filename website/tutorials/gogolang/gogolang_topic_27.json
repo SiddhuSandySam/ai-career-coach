@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_27",
+  "topicName": "High-Performance Network I/O and Epoll integration via the Runtime Netpoller",
+  "order": 27,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"High-Performance Network I/O and Epoll integration via the Runtime Netpoller\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Go's internal mechanism for multiplexing non-blocking network I/O across OS threads using system primitives like epoll, kqueue, and iocp, bridging synchronous Go code with asynchronous kernel events.\"}]"
+}

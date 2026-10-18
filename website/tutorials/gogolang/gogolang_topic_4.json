@@ -1,0 +1,6 @@
+{
+  "topicId": "gogolang_topic_4",
+  "topicName": "How does Go implement Object-Oriented Programming principles without classes?",
+  "order": 4,
+  "content": "[{\"order\":1,\"type\":\"heading\",\"text\":\"How does Go implement Object-Oriented Programming principles without classes?\"},{\"order\":2,\"type\":\"paragraph\",\"text\":\"Go achieves OOP principles like encapsulation, inheritance (via composition), and polymorphism without traditional classes by using structs, receiver functions, and interfaces.\"}]"
+}
